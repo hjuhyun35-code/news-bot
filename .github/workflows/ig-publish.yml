@@ -1,0 +1,30 @@
+name: instagram publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "post folder name under posts/"
+        required: true
+        default: "tunguska"
+      confirm:
+        description: "type PUBLISH to actually post. anything else = rehearsal only"
+        required: true
+        default: "rehearsal"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: publish carousel
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          POST_SLUG: ${{ inputs.slug }}
+          PUBLISH_CONFIRM: ${{ inputs.confirm }}
+        run: python scripts/ig_publish.py
