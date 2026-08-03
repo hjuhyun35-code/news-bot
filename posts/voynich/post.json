@@ -1,28 +1,78 @@
 {
   "slug": "voynich",
+  "handle": "@theglassnegative",
+  "image_dir": "img",
   "caption": "Why can no one read the Voynich manuscript? A 600-year-old book written in an alphabet that matches nothing on earth — and after more than a century of professional codebreakers, not one line has been deciphered.\n\nThe vellum was radiocarbon dated to between 1404 and 1438. The iron gall ink and the pigments match the period, which rules out a modern forgery. Whatever it is, somebody really made it in the early 15th century.\n\nInside: plants that match nothing that grows, circular diagrams that look astronomical, and page after page of flowing script that behaves like a real language and belongs to none.\n\nWilfrid Voynich bought it in 1912. Pages were already missing by then. It now sits in Yale's Beinecke Library as MS 408.\n\nWhat is still open: everything. A lost language, an unbroken cipher, or an elaborate hoax — nobody has proved which.\n\nImages: Beinecke Rare Book & Manuscript Library, Yale. Public domain.\n\n#voynichmanuscript #unsolved #medieval #historicalmystery",
   "cards": [
     {
+      "layout": "cover",
+      "image": "botanical.jpg",
+      "crop": "52% 46%",
+      "zoom": 1,
+      "grade": "paper",
+      "stamp": "c. 1404—1438",
+      "headline": "Nobody has ever <y>read this book</y>",
+      "note": "Six centuries old. Every attempt to decipher it has failed.",
+      "source": "Voynich manuscript f.56r · Beinecke Library, Yale · public domain",
       "file": "card1.png",
       "alt": "Voynich manuscript page with a blue plant and unreadable script, vellum dated 1404-1438"
     },
     {
+      "layout": "body",
+      "image": "botanical.jpg",
+      "crop": "26% 16%",
+      "zoom": 2.9,
+      "grade": "ink",
+      "headline": "It looks like writing. <y>No alphabet matches it.</y>",
+      "source": "Voynich manuscript f.56r, detail · public domain",
       "file": "card2.png",
       "alt": "Close-up of Voynich script, a flowing alphabet matching no known writing system"
     },
     {
+      "layout": "body",
+      "image": "astro.jpg",
+      "crop": "62% 44%",
+      "zoom": 2.0,
+      "grade": "paper",
+      "headline": "The diagrams look <y>astronomical</y>",
+      "note": "Rings of stars, and labels nobody can read.",
+      "source": "Voynich manuscript f.68r, foldout · public domain",
       "file": "card3.png",
       "alt": "Voynich astronomical diagram: rings of gold stars around a blue flower shape"
     },
     {
+      "layout": "body",
+      "image": "page34.jpg",
+      "crop": "50% 52%",
+      "zoom": 1,
+      "grade": "paper",
+      "headline": "Hundreds of plants. Most match <y>nothing that grows.</y>",
+      "source": "Voynich manuscript f.34r · public domain",
       "file": "card4.png",
       "alt": "Voynich botanical page showing a plant that matches no known living species"
     },
     {
+      "layout": "body",
+      "image": "cover.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "grade": "paper",
+      "headline": "It is not a <y>modern fake</y>",
+      "note": "The vellum dates to 1404—1438. The ink matches the period.",
+      "source": "Voynich manuscript · Beinecke Library, Yale · public domain",
       "file": "card5.png",
       "alt": "The plain vellum cover of the Voynich manuscript, radiocarbon dated to 1404-1438"
     },
     {
+      "layout": "closing",
+      "image": "botanical.jpg",
+      "crop": "70% 70%",
+      "zoom": 1,
+      "grade": "deep",
+      "stamp": "Still open",
+      "headline": "Nobody knows <y>what it says</y>",
+      "note": "A lost language, an unbroken cipher, or an elaborate hoax.",
+      "source": "Voynich manuscript f.56r · public domain",
       "file": "card6.png",
       "alt": "Voynich manuscript page in blue-grey; the text has never been deciphered"
     }

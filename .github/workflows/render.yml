@@ -1,0 +1,34 @@
+name: render cards
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "post folder name under posts/"
+        required: true
+        default: "voynich"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: install chromium
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq chromium-browser || sudo snap install chromium
+          which chromium-browser chromium || true
+
+      - name: render
+        run: python scripts/render_cards.py "${{ inputs.slug }}"
+
+      - name: upload for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: cards-${{ inputs.slug }}
+          path: posts/${{ inputs.slug }}/card*.png
