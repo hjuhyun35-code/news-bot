@@ -188,7 +188,9 @@ def main():
     print(f"{slug} - 카드 {len(cards)}장")
     print(f"브라우저: {browser}")
 
-    tmp = tempfile.mkdtemp()
+    # 임시 HTML은 저장소 안에 만든다. snap으로 설치된 브라우저는
+    # /tmp 를 못 읽는 경우가 있다.
+    tmp = tempfile.mkdtemp(dir=ROOT, prefix=".render-")
     for i, card in enumerate(cards, 1):
         page = os.path.join(tmp, f"card{i}.html")
         with open(page, "w", encoding="utf-8") as f:

@@ -18,13 +18,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: install chromium
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq chromium-browser || sudo snap install chromium
-          which chromium-browser chromium || true
+      # snap 으로 깔리는 chromium 은 파일 접근이 제한돼 카드를 못 그린다.
+      # 진짜 크롬을 설치한다.
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
 
       - name: render
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/render_cards.py "${{ inputs.slug }}"
 
       - name: upload for review
