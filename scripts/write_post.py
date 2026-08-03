@@ -227,6 +227,8 @@ CARD_SCHEMA = {
         "caption": {"type": "string"},
         "cards": {
             "type": "array",
+            "minItems": 6,
+            "maxItems": 6,
             "items": {
                 "type": "object",
                 "properties": {
@@ -289,16 +291,31 @@ SAFETY_SCHEMA = {
 CAPTION_MAX = 2200   # 인스타 캡션 한도
 ALT_MAX = 100
 SOURCE_MAX = 70
+CARDS = 6            # 표지 1 + 본문 4 + 마무리 1
 
 
-def tidy(post):
+def tidy(post, known_images):
     """길이와 형식은 부탁이 아니라 검사로 지킨다.
 
     프롬프트에 '60자 이하로' 라고 써도 모델은 자주 넘긴다. 고칠 수 있는 건
     여기서 고치고, 못 고치는 건 실패로 만들어 사람이 보게 한다.
     """
     fixed, problems = [], []
-    for n, card in enumerate(post["cards"], 1):
+
+    # 개수와 구조부터. 한 번은 카드 1장짜리 대본이 끝까지 통과한 적이 있다.
+    cards = post["cards"]
+    if len(cards) != CARDS:
+        problems.append(f"카드가 {len(cards)}장 (있어야 할 수 {CARDS}장)")
+    else:
+        want = ["cover"] + ["body"] * (CARDS - 2) + ["closing"]
+        got = [c.get("layout") for c in cards]
+        if got != want:
+            problems.append(f"카드 구성이 잘못됨: {' / '.join(got)}")
+
+    for n, card in enumerate(cards, 1):
+        if card.get("image") not in known_images:
+            problems.append(f"카드 {n} 이 없는 사진을 가리킴: {card.get('image')}")
+
         src = card.get("source", "")
         # "File:Wardenclyffe Tower - 1904.jpg, ..." 같은 파일명 접두어 제거
         cleaned = re.sub(
@@ -422,7 +439,7 @@ Write short and cut. Do not pad the caption to fill space.""".strip(),
 
     print(f"  카드 {len(post['cards'])}장, 캡션 {len(post['caption'])}자")
 
-    fixed, problems = tidy(post)
+    fixed, problems = tidy(post, {i["file"] for i in src["images"]})
     for line in fixed:
         print(f"  [자동수정] {line}")
     for line in problems:
