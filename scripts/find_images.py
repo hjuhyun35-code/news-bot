@@ -103,13 +103,28 @@ def images_in_article(title):
             if p["title"].lower().startswith("file:")]
 
 
-def images_by_search(subject, limit=40):
-    """위키미디어에서 직접 검색. 문서에 사진이 적을 때 메운다."""
+def images_by_search(term, limit=60):
+    """위키미디어에서 직접 검색. 문서에 사진이 적을 때 메운다.
+
+    검색어는 짧아야 한다. queue.json 의 subject 문장을 그대로 넣으면
+    한 문장 전체를 찾으려 들어서 결과가 거의 안 나온다.
+    """
     data = get("https://commons.wikimedia.org/w/api.php", {
         "action": "query", "format": "json", "list": "search",
-        "srnamespace": "6", "srlimit": str(limit), "srsearch": subject,
+        "srnamespace": "6", "srlimit": str(limit), "srsearch": term,
     })
     return [r["title"] for r in data.get("query", {}).get("search", [])]
+
+
+def images_in_category(term, limit=100):
+    """위키미디어 분류에 모인 사진. 없는 분류면 조용히 빈 목록."""
+    data = get("https://commons.wikimedia.org/w/api.php", {
+        "action": "query", "format": "json", "list": "categorymembers",
+        "cmtitle": f"Category:{term}", "cmtype": "file",
+        "cmlimit": str(limit),
+    })
+    return [m["title"] for m in
+            data.get("query", {}).get("categorymembers", [])]
 
 
 def records(titles):
@@ -147,7 +162,11 @@ What makes a strong set:
   - decent condition. Skip anything so dark, blurred, or damaged that a viewer
     cannot tell what they are looking at.
 
-Reject aggressively. A set of four strong photographs beats six with two duds.
+Reject duds — but you are picking from a pool that has already been cut down
+hard by copyright, and there may not be much left. Four is the floor: the post
+cannot be built with fewer. Return fewer than four only if the remaining
+candidates genuinely do not show the subject at all, and say so in `note`.
+A merely ordinary photograph still earns its place when the pool is small.
 
 Give each pick a short lowercase filename stem with no extension and no
 spaces (tower, patent, demolition, shaft). Name it after what is in the
@@ -193,8 +212,9 @@ def choose(client, subject, candidates):
             "type": "base64", "media_type": "image/jpeg", "data": data}})
 
     prompt = (f"Subject: {subject}\n\n"
-              f"{len(candidates)} candidates are shown above. Choose at most "
-              f"{WANT}, in the order you would put them in the carousel. "
+              f"{len(candidates)} candidates are shown above — that is the "
+              f"entire pool, there are no others. Choose 4 to {WANT} of them, "
+              f"in the order you would put them in the carousel. "
               f"Return the `commons` title exactly as written. In `note`, say "
               f"in one sentence what this set is missing, if anything.")
 
@@ -247,9 +267,15 @@ def main():
     titles = images_in_article(item["wikipedia"])
     print(f"  문서에 실린 사진 {len(titles)}장")
 
-    extra = [t for t in images_by_search(item["subject"]) if t not in titles]
-    titles += extra
-    print(f"  검색으로 {len(extra)}장 추가")
+    seen = set(titles)
+    for label, found in (
+        ("분류", images_in_category(item["wikipedia"])),
+        ("검색", images_by_search(item["wikipedia"])),
+    ):
+        extra = [t for t in found if t not in seen]
+        seen.update(extra)
+        titles += extra
+        print(f"  {label}에서 {len(extra)}장 추가")
 
     titles = [t for t in titles if not JUNK.search(t)
               and not t.lower().endswith((".svg", ".ogg", ".ogv", ".webm",
@@ -298,7 +324,11 @@ def main():
         picks.append((rec, p))
 
     if len(picks) < 4:
-        sys.exit(f"[중단] 고른 사진이 {len(picks)}장뿐입니다.")
+        # 왜 못 골랐는지가 유일하게 쓸모있는 정보다. 반드시 남긴다
+        sys.exit(f"[중단] 후보 {len(good)}장 중 {len(picks)}장만 골랐습니다.\n"
+                 f"       고른 쪽 설명: {result.get('note') or '(없음)'}\n"
+                 f"       이 소재는 쓸 만한 사진이 부족합니다. "
+                 f"queue.json 에서 \"hold\": true 로 빼두세요.")
 
     # ── 4. 내려받기 ──────────────────────────────────────────────
     print()
