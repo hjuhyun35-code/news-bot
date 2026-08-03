@@ -162,11 +162,18 @@ What makes a strong set:
   - decent condition. Skip anything so dark, blurred, or damaged that a viewer
     cannot tell what they are looking at.
 
-Reject duds — but you are picking from a pool that has already been cut down
-hard by copyright, and there may not be much left. Four is the floor: the post
-cannot be built with fewer. Return fewer than four only if the remaining
-candidates genuinely do not show the subject at all, and say so in `note`.
-A merely ordinary photograph still earns its place when the pool is small.
+The pool has already been cut down hard by copyright, so it may be thin. A
+merely ordinary photograph still earns its place when there is little else.
+
+But do not pad. If the pool has no photograph of the subject itself, of the
+place, of the people involved, or of the document in question, then the set
+cannot be built and you must say so by setting `enough` to false. Five loosely
+related images — a general view of the region, a drawing of a similar object,
+a portrait of someone who studied it — do not make a post about the subject.
+Reporting that honestly is the correct answer, not a failure.
+
+Set `enough` to true only if at least four of your picks genuinely show the
+subject or its immediate story.
 
 Give each pick a short lowercase filename stem with no extension and no
 spaces (tower, patent, demolition, shaft). Name it after what is in the
@@ -188,9 +195,10 @@ PICK_SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "enough": {"type": "boolean"},
         "note": {"type": "string"},
     },
-    "required": ["picks", "note"],
+    "required": ["picks", "enough", "note"],
     "additionalProperties": False,
 }
 
@@ -216,7 +224,9 @@ def choose(client, subject, candidates):
               f"entire pool, there are no others. Choose 4 to {WANT} of them, "
               f"in the order you would put them in the carousel. "
               f"Return the `commons` title exactly as written. In `note`, say "
-              f"in one sentence what this set is missing, if anything.")
+              f"in one sentence what this set is missing, if anything. Set "
+              f"`enough` honestly — a false here costs nothing, a wrong true "
+              f"produces a post about the wrong thing.")
 
     r = client.messages.create(
         model=MODEL,
@@ -323,12 +333,15 @@ def main():
             continue
         picks.append((rec, p))
 
-    if len(picks) < 4:
+    # 사진 수가 찼는지보다, 그 사진들이 정말 이 소재를 찍은 것인지가 중요하다.
+    # 억지로 채운 세트는 "관련 있어 보이는 남의 사진 다섯 장"일 뿐이다.
+    if len(picks) < 4 or not result.get("enough"):
         # 왜 못 골랐는지가 유일하게 쓸모있는 정보다. 반드시 남긴다
-        sys.exit(f"[중단] 후보 {len(good)}장 중 {len(picks)}장만 골랐습니다.\n"
+        sys.exit(f"[중단] 후보 {len(good)}장 중 쓸 만한 것이 부족합니다 "
+                 f"(고른 수 {len(picks)}장).\n"
                  f"       고른 쪽 설명: {result.get('note') or '(없음)'}\n"
-                 f"       이 소재는 쓸 만한 사진이 부족합니다. "
-                 f"queue.json 에서 \"hold\": true 로 빼두세요.")
+                 f"       queue.json 에서 이 소재에 \"hold\": true 를 넣고 "
+                 f"다음 소재로 넘어가세요.")
 
     # ── 4. 내려받기 ──────────────────────────────────────────────
     print()

@@ -6,7 +6,9 @@
       "slug": "antikythera",
       "subject": "The Antikythera mechanism, a geared bronze computer recovered from a Roman shipwreck in 1901",
       "wikipedia": "Antikythera mechanism",
-      "hook": "1,000년 앞선 기계가 바다에서 나왔다"
+      "hook": "1,000년 앞선 기계가 바다에서 나왔다",
+      "hold": true,
+      "why_hold": "2026-08-03 확인. 기계 실물 사진이 전부 최근 박물관 촬영본이라 저작권이 살아 있다. 저작권 만료 후보 8장은 전부 주변 사진(파르테논, 망원경 판화)이었다."
     },
     {
       "slug": "cardiff-giant",
