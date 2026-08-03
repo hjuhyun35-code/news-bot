@@ -127,6 +127,20 @@ For each card also choose:
            photograph and place the crop on the subject.
   zoom   — 1 for full frame, 2-3 for a detail crop. Zoom in when the interesting
            part is small in the frame, or to avoid scan borders and blank margins.
+
+           Library scans often photograph the physical object, not just the
+           picture: a black mount board, a grey-scale calibration strip along
+           one edge, curator pencil marks. None of that may appear on a card.
+           Zoom past it.
+
+           A stereocard shows the SAME view twice, side by side. Never use it
+           whole — the card would look like a printing error. Zoom to at least
+           2.2 and crop into one half (roughly "28% 50%" or "72% 50%").
+
+           If two of your images are the front and back of one object, they
+           will look like the same card twice. Crop them to completely
+           different things — the picture on one, a block of the printed text
+           on the other — or drop one and reuse a stronger image instead.
   grade  — base (dark photographs), paper (documents, drawings, anything on
            paper or vellum), ink (close-ups of handwriting or print),
            cold (wide empty landscapes), warm (fire, heat, explosion),

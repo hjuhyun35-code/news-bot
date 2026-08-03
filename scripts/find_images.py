@@ -162,6 +162,12 @@ What makes a strong set:
   - decent condition. Skip anything so dark, blurred, or damaged that a viewer
     cannot tell what they are looking at.
 
+Archive scans often include the mount board, a grey calibration strip, or a
+stereocard's doubled image. That is fine — those get cropped out later — but
+prefer a clean scan when you have the choice, and do not pick both the front
+and the back of the same card unless the back carries real information the
+front does not.
+
 The pool has already been cut down hard by copyright, so it may be thin. A
 merely ordinary photograph still earns its place when there is little else.
 
