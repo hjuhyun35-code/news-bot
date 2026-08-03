@@ -1,0 +1,27 @@
+{
+  "subject": "The Antikythera mechanism, a geared bronze computer recovered from a Roman shipwreck in 1901",
+  "wikipedia": "Antikythera mechanism",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "parthenon.jpg",
+      "commons": "File:Parthenon from west.jpg"
+    },
+    {
+      "file": "fragmentg.jpg",
+      "commons": "File:Antikythera Mechanism Gears & Inscriptions (28379344072).jpg"
+    },
+    {
+      "file": "gearedclocktowerdraw.jpg",
+      "commons": "File:Clock Tower from Su Song's Book desmear.JPG"
+    },
+    {
+      "file": "planets.jpg",
+      "commons": "File:Solar system.jpg"
+    },
+    {
+      "file": "reflectingtelescope.jpg",
+      "commons": "File:Newton's reflecting telescope.jpg"
+    }
+  ]
+}
