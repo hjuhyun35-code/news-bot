@@ -177,6 +177,13 @@ For each claim, decide:
 world and still be unsupported here. That distinction is the whole job: the
 account's credibility depends on only publishing what the record shows.
 
+The photographs themselves are sources, and they are attached. If a claim is
+about what is visible in an image — a structure, a posture, damage, or text
+printed or written on the object — read the image and judge it on that. When
+you can read the words yourself, quote them and mark it supported. Do not mark
+something unsupported merely because the written records fail to repeat what
+the photograph plainly shows.
+
 Quote the exact supporting sentence when you mark something supported. If you
 cannot find a quote, it is not supported."""
 
@@ -446,7 +453,8 @@ Write short and cut. Do not pad the caption to fill space.""".strip(),
 
 List every factual claim in the text above and give a verdict for each. Ignore
 the <y></y> highlight tags. Skip pure rhetoric ("nobody knows") that makes no
-checkable assertion.""".strip(), CHECK_SCHEMA)
+checkable assertion.""".strip(), CHECK_SCHEMA,
+                 extra_blocks=image_blocks(post_dir, src["images"]))
 
     bad = [c for c in check["claims"] if c["verdict"] != "supported"]
     for c in bad:
