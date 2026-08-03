@@ -226,9 +226,9 @@ CARD_SCHEMA = {
     "properties": {
         "caption": {"type": "string"},
         "cards": {
+            # 개수 제한은 여기 못 쓴다. 구조화 출력은 minItems 가 0이나 1일
+            # 때만 받아준다. 개수는 tidy() 가 센다.
             "type": "array",
-            "minItems": 6,
-            "maxItems": 6,
             "items": {
                 "type": "object",
                 "properties": {
@@ -431,6 +431,8 @@ attribute a photograph to a person the record does not name.
 Alt text: under 100 characters, describing what is visibly in the image.
 
 HARD LIMITS — a post that breaks any of these is rejected outright:
+  cards    exactly 6, in this order: cover, body, body, body, body, closing.
+           Not five, not seven. Count them before you finish.
   caption  under 1900 characters, counting spaces and hashtags
   source   under 60 characters per card, and never starting with "File:"
   alt      under 100 characters per card
