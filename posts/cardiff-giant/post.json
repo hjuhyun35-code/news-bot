@@ -1,77 +1,17 @@
 {
-  "caption": "Was the Cardiff Giant real? No — and the man who made it wanted you to know.\n\nOn October 16, 1869, two men digging a well behind William Newell's barn in Cardiff, New York, hit a ten-foot stone man. One reportedly said, \"I declare, some old Indian has been buried here!\" A tent went up. Newell charged fifty cents for fifteen minutes. Three to five hundred people came a day.\n\nThe figure was carved from a block of gypsum quarried at Fort Dodge, Iowa, in 1868 — the quarrymen were told it was for a Lincoln monument. It went to Chicago, where two sculptors shaped it behind hung quilts to muffle the noise. Sand, sulphuric acid and steel knitting needles gave it pores and age. It was modelled on its maker, George Hull, a tobacconist who had lost an argument at a revival meeting about the giants in Genesis 6:4.\n\nGeologists arrived. Andrew D. White noticed nobody would dig a well there — there was already a good spring. Yale's Othniel C. Marsh saw fresh tool marks on soluble gypsum and called it \"a most decided humbug.\" Some theologians defended it anyway.\n\nHull sold his interest for $23,000. P. T. Barnum, refused at $50,000, had a wax model made in secret and exhibited his own copy. Hull confessed on December 10, 1869. Both giants were ruled fakes in court on February 2, 1870.\n\nWhat stays unsettled: whether the Chicago stonecutter who took the commission knew what he was making. The record does not say.\n\nImages: the giant photographed by Bain News Service, 1910; an 1869 lithograph of \"The Onondaga Giant\"; and both sides of an 1873 stereocard of the Fort Dodge gypsum quarry, from the New York Public Library.\n\n#CardiffGiant #hoaxhistory #archivephotography #publicdomain #19thcentury",
+  "caption": "Was the Cardiff Giant real? No — and the man who made it said so himself.\n\nOn October 16, 1869, two men hired to dig a well behind William Newell's barn in Cardiff, New York, found a ten-foot stone man. Newell put a tent over it and charged fifty cents for fifteen minutes. Three to five hundred people a day came.\n\nThe giant was made by George Hull, a New York tobacconist. He had lost an argument at a Methodist revival meeting about Genesis 6:4 and the giants it says once lived on Earth. He wanted to prove how easily people could be fooled.\n\nIn 1868 Hull had a gypsum block quarried at Fort Dodge, Iowa, telling the workmen it was for a Lincoln monument. Sculptors in Chicago carved it in Hull's own likeness, hanging quilts to muffle the sound. He learned from a geologist that hair does not petrify, so the figure has none. Sand, sulphuric acid and steel knitting needles aged the surface and faked the pores.\n\nAndrew D. White of Cornell noticed the simplest flaw: there was no reason to dig a well on that spot, with a good spring already running to house and barn. Yale's O. C. Marsh called it \"a most decided humbug\" — soluble gypsum with fresh tool marks. Hull confessed on December 10, 1869.\n\nWhat remains unresolved: whether the Chicago stonecutter who took the commission ever knew what it was for. And the famous line about a sucker born every minute was said by David Hannum, who owned the giant, not by Barnum, who copied it.\n\nImages: the giant photographed by Bain News Service, 1910; \"The Onondaga Giant,\" Popular Graphic Arts; and both sides of an 1873 stereocard of the Fort Dodge gypsum quarry, from the New York Public Library.\n\n#cardiffgiant #hoaxhistory #archivephotography #publicdomain #americanhistory",
   "cards": [
     {
       "layout": "cover",
       "image": "giant.jpg",
       "crop": "45% 52%",
-      "zoom": 1.5,
-      "grade": "base",
-      "headline": "A ten-foot stone man in a <y>well that nobody needed</y>",
-      "note": "Cardiff, New York, October 16, 1869.",
-      "source": "Bain News Service, 1910 · public domain",
-      "alt": "Pale stone figure of a large man lying in a dark earth pit, photographed from above.",
-      "file": "card1.png"
-    },
-    {
-      "layout": "body",
-      "image": "lithograph.jpg",
-      "crop": "50% 30%",
       "zoom": 1.6,
-      "grade": "paper",
-      "headline": "Sold as <y>the Onondaga Giant</y>, measured to the half-inch",
-      "note": "Whole length 10 feet 4½ inches. Length of nose, 6 inches. Width of palm, 7 inches.",
-      "source": "Lithograph, Popular Graphic Arts · public domain",
-      "alt": "Lithograph showing a reclining giant stone figure on a plinth, right side view.",
-      "file": "card2.png"
-    },
-    {
-      "layout": "body",
-      "image": "quarry.jpg",
-      "crop": "30% 48%",
-      "zoom": 2.4,
-      "grade": "cold",
-      "headline": "The stone came from <y>a gypsum quarry in Iowa</y>",
-      "note": "Quarried at Fort Dodge in 1868. The workmen were told the block was for a Lincoln monument in New York.",
-      "source": "Cardiff Glen, near Fort Dodge, Iowa, 1873 · NYPL",
-      "alt": "Sepia photograph of a pale rock face in woodland above a heap of broken quarried stone.",
-      "file": "card3.png"
-    },
-    {
-      "layout": "body",
-      "image": "cardback.jpg",
-      "crop": "50% 55%",
-      "zoom": 2.1,
-      "grade": "ink",
-      "headline": "A souvenir card that <y>names the perpetrators</y>",
-      "note": "Printed text: the block went to Chicago, the giant was carved, then shipped to New York and buried in a barn lot. Names given as George Hull and H. B. Martin.",
-      "source": "Stereocard verso, 1873 · NYPL · public domain",
-      "alt": "Printed text on an orange stereocard back headed VIEW IN CARDIFF GLEN, with pencil notes.",
-      "file": "card4.png"
-    },
-    {
-      "layout": "body",
-      "image": "giant.jpg",
-      "crop": "62% 50%",
-      "zoom": 2.6,
       "grade": "base",
-      "headline": "Fresh tool marks on <y>soluble gypsum</y>",
-      "note": "Yale paleontologist Othniel C. Marsh called it \"a most decided humbug.\" Hull confessed on 10 December 1869. Both giants were ruled fakes in court on 2 February 1870.",
+      "headline": "A ten-foot man in the ground, <y>and no reason to dig there</y>",
+      "note": "Cardiff, New York. October 16, 1869.",
       "source": "Bain News Service, 1910 · public domain",
-      "alt": "Close view of the stone figure's legs and carved feet lying in dark soil.",
-      "file": "card5.png"
-    },
-    {
-      "layout": "closing",
-      "image": "lithograph.jpg",
-      "crop": "50% 66%",
-      "zoom": 1.7,
-      "grade": "deep",
-      "headline": "Hull wanted it exposed. <y>Some preachers defended it anyway.</y>",
-      "note": "And it is still not clear whether the Chicago stonecutter who took the job knew what he was carving.",
-      "source": "Lithograph, Popular Graphic Arts · public domain",
-      "alt": "Lithograph of the giant figure on a plinth, left side view, on aged paper.",
-      "file": "card6.png"
+      "alt": "Pale ten-foot stone figure lying in a dark earth pit, roots crossing its body.layout=\"cover\"",
+      "file": "card1.png"
     }
   ],
   "slug": "cardiff-giant",

@@ -1,245 +1,155 @@
 {
   "claims": [
     {
-      "claim": "The Cardiff Giant was a ten-foot stone man found in a well dig",
-      "where": "card 1 headline",
-      "verdict": "supported",
-      "quote": "It was a 10-foot-tall (3.0 m), roughly 3,000 pound purported \"petrified man\", uncovered on October 16, 1869, by workers digging a well behind the barn of William C. \"Stub\" Newell, in Cardiff, New York."
-    },
-    {
-      "claim": "There was no need for a well in that spot",
-      "where": "card 1 headline",
-      "verdict": "supported",
-      "quote": "He noticed that there was no good reason to try to dig a well in the exact spot the giant had been found."
-    },
-    {
-      "claim": "The discovery took place in Cardiff, New York, on October 16, 1869",
-      "where": "card 1 note",
+      "claim": "The Cardiff Giant was discovered on October 16, 1869, in Cardiff, New York",
+      "where": "card 1 note and caption",
       "verdict": "supported",
       "quote": "uncovered on October 16, 1869, by workers digging a well behind the barn of William C. \"Stub\" Newell, in Cardiff, New York"
     },
     {
-      "claim": "The photograph of the giant is by Bain News Service, 1910, public domain",
-      "where": "card 1 source / card 5 source",
-      "verdict": "supported",
-      "quote": "Date: 1910\nAuthor: Bain News Service, publisher\nLicence: Public domain"
-    },
-    {
-      "claim": "The giant was marketed/known as \"the Onondaga Giant\"",
-      "where": "card 2 headline",
-      "verdict": "supported",
-      "quote": "Archive title: File:The Onondaga giant LCCN2003666806.jpg"
-    },
-    {
-      "claim": "The whole length of the giant was 10 feet 4½ inches",
-      "where": "card 2 note",
-      "verdict": "supported",
-      "quote": "The length of the giant was 10 feet 4+1⁄2 inches (3.162 m) and it weighed 2,990 pounds (1,360 kg)."
-    },
-    {
-      "claim": "The length of the giant's nose was 6 inches",
-      "where": "card 2 note",
-      "verdict": "unsupported",
-      "quote": ""
-    },
-    {
-      "claim": "The width of the giant's palm was 7 inches",
-      "where": "card 2 note",
-      "verdict": "unsupported",
-      "quote": ""
-    },
-    {
-      "claim": "The lithograph is by Popular Graphic Arts and is public domain",
-      "where": "card 2 source",
-      "verdict": "supported",
-      "quote": "Author: Popular Graphic Arts\nLicence: Public domain"
-    },
-    {
-      "claim": "The stone for the giant came from a gypsum quarry in Iowa, quarried at Fort Dodge in 1868",
-      "where": "card 3",
-      "verdict": "supported",
-      "quote": "In 1868, Hull, accompanied by a man named H. B. Martin, hired men to quarry out a 10-foot-4.5-inch-long (3.2 m) block of gypsum in Fort Dodge, Iowa"
-    },
-    {
-      "claim": "The workmen were told the block was for a Lincoln monument in New York",
-      "where": "card 3 note / caption",
-      "verdict": "supported",
-      "quote": "telling them it was intended for a monument to Abraham Lincoln in New York"
-    },
-    {
-      "claim": "The card 3 image dates from 1873 and comes from the NYPL",
-      "where": "card 3 source",
-      "verdict": "supported",
-      "quote": "Date: 1873\nAuthor: Scan by NYPL"
-    },
-    {
-      "claim": "The card 3/4 images depict the Fort Dodge gypsum quarry",
-      "where": "card 3 source, caption",
-      "verdict": "unsupported",
-      "quote": "View in Cardiff Glen, near Fort Dodge, Iowa."
-    },
-    {
-      "claim": "The card 4 image is the verso of a stereocard",
-      "where": "card 4 source",
-      "verdict": "unsupported",
-      "quote": ""
-    },
-    {
-      "claim": "The card 4 image bears printed text describing the block going to Chicago, the giant being carved, then shipped to New York and buried in a barn lot",
-      "where": "card 4 note",
-      "verdict": "unsupported",
-      "quote": ""
-    },
-    {
-      "claim": "The printed text on the card names George Hull and H. B. Martin",
-      "where": "card 4 note",
-      "verdict": "unsupported",
-      "quote": ""
-    },
-    {
-      "claim": "George Hull and H. B. Martin were involved in obtaining the stone block",
-      "where": "card 4 note",
-      "verdict": "supported",
-      "quote": "In 1868, Hull, accompanied by a man named H. B. Martin, hired men to quarry out a 10-foot-4.5-inch-long (3.2 m) block of gypsum in Fort Dodge, Iowa"
-    },
-    {
-      "claim": "The block went to Chicago and was carved there",
-      "where": "card 4 note / caption",
-      "verdict": "supported",
-      "quote": "He shipped the block to Edward Burkhardt in Chicago, a German stonecutter. Burkhardt hired two sculptors named Henry Salle and Fred Mohrmann to create the giant."
-    },
-    {
-      "claim": "Yale paleontologist Othniel C. Marsh saw fresh tool marks on soluble gypsum and called it \"a most decided humbug\"",
-      "where": "card 5 / caption",
-      "verdict": "supported",
-      "quote": "Yale paleontologist Othniel C. Marsh examined the statue, pointing out that it was made of soluble gypsum, which, had it been buried in its blanket of wet earth for centuries, would not still have fresh tool marks on it (which it did), and termed it \"a most decided humbug\"."
-    },
-    {
-      "claim": "Hull confessed on 10 December 1869",
-      "where": "card 5 note / caption",
-      "verdict": "supported",
-      "quote": "On December 10, 1869, Hull confessed everything to the press"
-    },
-    {
-      "claim": "Both giants were ruled fakes in court on 2 February 1870",
-      "where": "card 5 note / caption",
-      "verdict": "supported",
-      "quote": "on February 2, 1870, both giants were revealed as fakes in court"
-    },
-    {
-      "claim": "Hull wanted the hoax exposed",
-      "where": "card 6 headline / caption",
-      "verdict": "supported",
-      "quote": "confessed proudly that he intended for the hoax to be exposed to reveal the tendency of the Christian community to believe in things too easily"
-    },
-    {
-      "claim": "Some preachers/theologians defended the giant's authenticity",
-      "where": "card 6 headline / caption",
-      "verdict": "supported",
-      "quote": "Some theologians and preachers, however, defended its authenticity."
-    },
-    {
-      "claim": "It is still not clear whether the Chicago stonecutter who took the job knew what he was carving",
-      "where": "card 6 note / caption",
-      "verdict": "supported",
-      "quote": "While it is not clear if Burkhardt was aware of Hull's intentions, it is reported that they took steps to cover up their work during the carving"
-    },
-    {
-      "claim": "Two men were digging the well behind William Newell's barn",
-      "where": "caption",
+      "claim": "Two men hired to dig a well behind William Newell's barn found the giant",
+      "where": "caption paragraph 2",
       "verdict": "supported",
       "quote": "Newell hired Gideon Emmons and Henry Nichols, ostensibly to dig a well, and on October 16, 1869, they found the giant."
     },
     {
-      "claim": "One of the diggers reportedly said, \"I declare, some old Indian has been buried here!\"",
-      "where": "caption",
+      "claim": "The figure was a ten-foot stone man",
+      "where": "caption paragraph 2 / headline",
       "verdict": "supported",
-      "quote": "One of the men reportedly exclaimed, \"I declare, some old Indian has been buried here!\""
+      "quote": "It was a 10-foot-tall (3.0 m), roughly 3,000 pound purported \"petrified man\""
     },
     {
-      "claim": "A tent was put up over the giant",
-      "where": "caption",
+      "claim": "Newell put a tent over it and charged fifty cents for fifteen minutes",
+      "where": "caption paragraph 2",
       "verdict": "supported",
-      "quote": "The next day, a tent was set up on the discovery site"
+      "quote": "The next day, a tent was set up on the discovery site and Newell charged each visitor fifty cents for a fifteen-minute session of viewing the giant."
     },
     {
-      "claim": "Newell charged fifty cents for fifteen minutes of viewing",
-      "where": "caption",
+      "claim": "Three to five hundred people a day came",
+      "where": "caption paragraph 2",
       "verdict": "supported",
-      "quote": "Newell charged each visitor fifty cents for a fifteen-minute session of viewing the giant"
+      "quote": "The number of visitors went to about three to five hundred per day as the demand for wagons and carriages dramatically increased."
     },
     {
-      "claim": "Three to five hundred people came per day",
-      "where": "caption",
+      "claim": "The giant was made by George Hull, a New York tobacconist",
+      "where": "caption paragraph 3",
       "verdict": "supported",
-      "quote": "The number of visitors went to about three to five hundred per day"
+      "quote": "The giant was the creation of a New York tobacconist named George Hull."
     },
     {
-      "claim": "Two sculptors shaped the giant behind hung quilts to muffle the noise",
-      "where": "caption",
-      "verdict": "supported",
-      "quote": "Burkhardt hired two sculptors named Henry Salle and Fred Mohrmann to create the giant... putting up quilts to lessen the sound of carving"
-    },
-    {
-      "claim": "Sand, sulphuric acid and steel knitting needles were used to give it pores and age",
-      "where": "caption",
-      "verdict": "supported",
-      "quote": "Hull first wiped the giant using a sponge soaked with sand and water. The giant's surface was beaten with steel knitting needles embedded in a board to simulate pores. The giant was also rubbed with sulphuric acid to create a deeper, vintage-like color."
-    },
-    {
-      "claim": "The giant was modelled on George Hull himself",
-      "where": "caption",
-      "verdict": "supported",
-      "quote": "The giant was designed to imitate the form of Hull himself."
-    },
-    {
-      "claim": "George Hull was a tobacconist who lost an argument at a revival meeting about the giants in Genesis 6:4",
-      "where": "caption",
+      "claim": "Hull lost an argument at a Methodist revival meeting about Genesis 6:4 and giants once living on Earth",
+      "where": "caption paragraph 3",
       "verdict": "supported",
       "quote": "Hull got into an argument with Reverend Turk and his supporters at a Methodist revival meeting about Genesis 6:4, which states that there were giants who once lived on Earth. Hull, a skeptic, being the minority party, lost the argument."
     },
     {
-      "claim": "Andrew D. White was among the geologists who arrived to examine the giant",
-      "where": "caption",
-      "verdict": "unsupported",
-      "quote": "Andrew D. White, the first president of Cornell University, made a close inspection of the Cardiff Giant."
-    },
-    {
-      "claim": "White noted nobody would dig a well there because there was already a good spring",
-      "where": "caption",
+      "claim": "Hull wanted to prove how easily people could be fooled",
+      "where": "caption paragraph 3",
       "verdict": "supported",
-      "quote": "that there was already a good spring and a stream of water running conveniently to both"
+      "quote": "Hull wanted to prove how easily he could fool people with a fake giant."
     },
     {
-      "claim": "Hull sold his interest for $23,000",
-      "where": "caption",
+      "claim": "In 1868 Hull had a gypsum block quarried at Fort Dodge, Iowa",
+      "where": "caption paragraph 4",
       "verdict": "supported",
-      "quote": "Eventually, Hull sold his part-interest for $23,000 (equivalent to $586,000 in 2025) to a syndicate of five men headed by David Hannum."
+      "quote": "In 1868, Hull, accompanied by a man named H. B. Martin, hired men to quarry out a 10-foot-4.5-inch-long (3.2 m) block of gypsum in Fort Dodge, Iowa"
     },
     {
-      "claim": "Barnum offered $50,000 and was refused",
-      "where": "caption",
+      "claim": "Hull told the workmen the block was for a Lincoln monument",
+      "where": "caption paragraph 4",
       "verdict": "supported",
-      "quote": "showman P. T. Barnum offered $50,000 for the giant. When the syndicate refused, he hired a man to model the giant's shape covertly in wax and create a plaster copy."
+      "quote": "telling them it was intended for a monument to Abraham Lincoln in New York"
     },
     {
-      "claim": "Barnum had a wax model made in secret and exhibited his own copy",
-      "where": "caption",
+      "claim": "Sculptors in Chicago carved the giant",
+      "where": "caption paragraph 4",
       "verdict": "supported",
-      "quote": "he hired a man to model the giant's shape covertly in wax and create a plaster copy. He displayed his giant in New York"
+      "quote": "He shipped the block to Edward Burkhardt in Chicago, a German stonecutter. Burkhardt hired two sculptors named Henry Salle and Fred Mohrmann to create the giant."
     },
     {
-      "claim": "The lithograph of \"The Onondaga Giant\" dates from 1869",
-      "where": "caption",
-      "verdict": "unsupported",
-      "quote": "Date: (none recorded)"
-    },
-    {
-      "claim": "The Fort Dodge-area images come from the New York Public Library",
-      "where": "caption",
+      "claim": "The giant was carved in Hull's own likeness",
+      "where": "caption paragraph 4",
       "verdict": "supported",
-      "quote": "Author: Scan by NYPL"
+      "quote": "The giant was designed to imitate the form of Hull himself."
+    },
+    {
+      "claim": "Quilts were hung to muffle the sound of carving",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "it is reported that they took steps to cover up their work during the carving, putting up quilts to lessen the sound of carving"
+    },
+    {
+      "claim": "Hull learned from a geologist that hair does not petrify, so the figure has none",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Hull consulted a geologist and learned that hairs would not be petrified, so he removed the hair and beard from the giant."
+    },
+    {
+      "claim": "Sand, sulphuric acid and steel knitting needles were used to age the surface and fake pores",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Hull first wiped the giant using a sponge soaked with sand and water. The giant's surface was beaten with steel knitting needles embedded in a board to simulate pores. The giant was also rubbed with sulphuric acid to create a deeper, vintage-like color."
+    },
+    {
+      "claim": "Andrew D. White of Cornell noted there was no reason to dig a well on that spot, since a good spring already ran to house and barn",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "that there was no reason why the farmer should dig a well in the spot where the figure was found; that it was convenient neither to the house nor to the barn; that there was already a good spring and a stream of water running conveniently to both"
+    },
+    {
+      "claim": "Yale's O. C. Marsh called the giant \"a most decided humbug\" and noted it was soluble gypsum with fresh tool marks",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Yale paleontologist Othniel C. Marsh examined the statue, pointing out that it was made of soluble gypsum, which, had it been buried in its blanket of wet earth for centuries, would not still have fresh tool marks on it (which it did), and termed it \"a most decided humbug\"."
+    },
+    {
+      "claim": "Hull confessed on December 10, 1869",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "On December 10, 1869, Hull confessed everything to the press"
+    },
+    {
+      "claim": "It is unresolved whether the Chicago stonecutter who took the commission knew what it was for",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "While it is not clear if Burkhardt was aware of Hull's intentions"
+    },
+    {
+      "claim": "The line about a sucker born every minute was said by David Hannum, not Barnum",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "David Hannum was quoted as saying, \"There's a sucker born every minute\" in reference to spectators paying to see Barnum's giant. Since then, the quotation has often been misattributed to Barnum himself."
+    },
+    {
+      "claim": "David Hannum owned the giant",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "Hull sold his part-interest for $23,000 (equivalent to $586,000 in 2025) to a syndicate of five men headed by David Hannum."
+    },
+    {
+      "claim": "Barnum made a copy of the giant",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "he hired a man to model the giant's shape covertly in wax and create a plaster copy"
+    },
+    {
+      "claim": "The first image is a photograph of the giant by Bain News Service, 1910",
+      "where": "card 1 source and image credits",
+      "verdict": "supported",
+      "quote": "Date: 1910\nAuthor: Bain News Service, publisher"
+    },
+    {
+      "claim": "The second image is \"The Onondaga Giant\" by Popular Graphic Arts",
+      "where": "image credits",
+      "verdict": "supported",
+      "quote": "Archive title: File:The Onondaga giant LCCN2003666806.jpg ... Author: Popular Graphic Arts"
+    },
+    {
+      "claim": "The third and fourth images are both sides of an 1873 stereocard of the Fort Dodge gypsum quarry, from the New York Public Library",
+      "where": "image credits",
+      "verdict": "supported",
+      "quote": "This is the Gypsum Quarry from which was taken the block out of which the original \"Cardiff Giant\" was carved."
     }
   ],
-  "problems": 8
+  "problems": 0
 }
