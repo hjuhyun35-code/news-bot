@@ -1,0 +1,87 @@
+name: daily draft
+
+# 아침에 소재 하나를 골라 카드까지 만들고 텔레그램으로 승인을 요청한다.
+# 여기서는 절대 발행하지 않는다. 발행은 사람이 단추를 누른 뒤 approvals 가 한다.
+on:
+  schedule:
+    - cron: "0 22 * * *"    # UTC 22:00 = 한국 아침 7시
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "leave empty to take the next subject from queue.json"
+        required: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install anthropic
+
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
+
+      - name: pick the subject
+        id: pick
+        run: |
+          if [ -n "${{ inputs.slug }}" ]; then
+            slug="${{ inputs.slug }}"
+          else
+            slug=$(python scripts/pick_subject.py)
+          fi
+          echo "slug=$slug" >> "$GITHUB_OUTPUT"
+          echo "오늘 소재: $slug"
+
+      - name: find the photographs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -f "posts/${{ steps.pick.outputs.slug }}/source.json" ]; then
+            echo "사진은 이미 있습니다"
+          else
+            python scripts/find_images.py "${{ steps.pick.outputs.slug }}"
+          fi
+
+      - name: write the script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/write_post.py "${{ steps.pick.outputs.slug }}"
+
+      - name: render the cards
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/render_cards.py "${{ steps.pick.outputs.slug }}"
+
+      # 카드는 저장소 주소로 텔레그램에 보낸다. 보내기 전에 올라가 있어야 한다.
+      - name: commit the draft
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A "posts/${{ steps.pick.outputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "draft: ${{ steps.pick.outputs.slug }}"
+          git push
+
+      - name: ask for approval
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_draft.py "${{ steps.pick.outputs.slug }}"
+
+      - name: report a failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/notify.py "오늘 초안 만들기가 실패했습니다.
+          소재: ${{ steps.pick.outputs.slug }}
+          기록: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
