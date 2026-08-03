@@ -265,6 +265,37 @@ SAFETY_SCHEMA = {
 }
 
 
+CAPTION_MAX = 2200   # 인스타 캡션 한도
+ALT_MAX = 100
+SOURCE_MAX = 70
+
+
+def tidy(post):
+    """길이와 형식은 부탁이 아니라 검사로 지킨다.
+
+    프롬프트에 '60자 이하로' 라고 써도 모델은 자주 넘긴다. 고칠 수 있는 건
+    여기서 고치고, 못 고치는 건 실패로 만들어 사람이 보게 한다.
+    """
+    fixed, problems = [], []
+    for n, card in enumerate(post["cards"], 1):
+        src = card.get("source", "")
+        # "File:Wardenclyffe Tower - 1904.jpg, ..." 같은 파일명 접두어 제거
+        cleaned = re.sub(
+            r"^\s*File:.*?\.(jpg|jpeg|png|gif|tif|tiff|pdf)\s*[,.;–—-]*\s*",
+            "", src, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\s+", " ", cleaned).strip(" ,.;–—-")
+        if cleaned and cleaned != src:
+            card["source"] = cleaned
+            fixed.append(f"카드 {n} 출처에서 파일명 제거 → \"{cleaned}\"")
+        if len(card["source"]) > SOURCE_MAX:
+            problems.append(f"카드 {n} 출처가 {len(card['source'])}자 (한도 {SOURCE_MAX})")
+        if len(card.get("alt", "")) > ALT_MAX:
+            problems.append(f"카드 {n} 대체텍스트가 {len(card['alt'])}자 (한도 {ALT_MAX})")
+    if len(post["caption"]) > CAPTION_MAX:
+        problems.append(f"캡션이 {len(post['caption'])}자 (한도 {CAPTION_MAX})")
+    return fixed, problems
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("사용법: python scripts/write_post.py <슬러그>")
@@ -359,10 +390,24 @@ what is still unresolved, then credits the images, then 3-5 hashtags.
 Each card's `source` line credits that photograph from its record above — do not
 attribute a photograph to a person the record does not name.
 
-Alt text: under 100 characters, describing what is visibly in the image.""".strip(),
+Alt text: under 100 characters, describing what is visibly in the image.
+
+HARD LIMITS — a post that breaks any of these is rejected outright:
+  caption  under 1900 characters, counting spaces and hashtags
+  source   under 60 characters per card, and never starting with "File:"
+  alt      under 100 characters per card
+Write short and cut. Do not pad the caption to fill space.""".strip(),
                 CARD_SCHEMA, extra_blocks=image_blocks(post_dir, src["images"]))
 
     print(f"  카드 {len(post['cards'])}장, 캡션 {len(post['caption'])}자")
+
+    fixed, problems = tidy(post)
+    for line in fixed:
+        print(f"  [자동수정] {line}")
+    for line in problems:
+        print(f"  [한도초과] {line}")
+    if problems:
+        sys.exit("길이 제한을 넘겼습니다. 다시 실행하면 대개 통과합니다.")
 
     # ── 4. 검사관 ────────────────────────────────────────────────
     print()
