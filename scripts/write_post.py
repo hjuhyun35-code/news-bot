@@ -134,12 +134,17 @@ For each card also choose:
            Zoom past it.
 
            A stereocard shows the SAME view twice, side by side. Never use it
-           whole — the card would look like a printing error. Zoom to 3 or
-           more and crop to the middle of one half: "35% 50%" for the left,
-           "66% 50%" for the right. Less zoom than that leaves the vertical
-           seam between the halves visible down one edge of the card, which
-           reads as a mistake. If you use both halves, use them on cards that
-           are far apart in the set.
+           whole — the card would look like a printing error, and the vertical
+           seam between the halves must not appear on the card.
+
+           Do not reach for the obvious crop here. The card is much taller
+           than a stereocard is, so the frame has already thrown away most of
+           the left and right before your crop value applies — "35%" does not
+           land where you would expect, it lands close to the seam. Use
+           zoom 3 or more with crop "20% 50%" for the left half or
+           "80% 50%" for the right half. Push it further out, not less.
+
+           If you use both halves, put them on cards far apart in the set.
 
            If two of your images are the front and back of one object, they
            will look like the same card twice. Crop them to completely
