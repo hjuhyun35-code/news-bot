@@ -1,0 +1,54 @@
+name: draft post
+
+# 소재 하나로 대본을 쓰고 카드를 그린다. 발행은 하지 않는다.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "post folder name under posts/ (must contain source.json)"
+        required: true
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install anthropic
+
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
+
+      - name: write the script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/write_post.py "${{ inputs.slug }}"
+
+      - name: render the cards
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/render_cards.py "${{ inputs.slug }}"
+
+      - name: commit the draft
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A "posts/${{ inputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "draft: ${{ inputs.slug }}"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: draft-${{ inputs.slug }}
+          path: |
+            posts/${{ inputs.slug }}/card*.png
+            posts/${{ inputs.slug }}/post.json
+            posts/${{ inputs.slug }}/check.json

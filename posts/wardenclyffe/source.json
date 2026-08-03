@@ -1,0 +1,11 @@
+{
+  "subject": "Wardenclyffe Tower, Nikola Tesla's unfinished wireless transmission station",
+  "wikipedia": "Wardenclyffe Tower",
+  "handle": "@theglassnegative",
+  "images": [
+    { "file": "tower.jpg", "commons": "File:Wardenclyffe Tower.jpg" },
+    { "file": "tower1904.jpg", "commons": "File:Wardenclyffe Tower - 1904.jpg" },
+    { "file": "demolition.png", "commons": "File:Wardenclyffe tower tesla new york demolition july september 1917.png" },
+    { "file": "patent.png", "commons": "File:US patent 1119732-001.png" }
+  ]
+}
