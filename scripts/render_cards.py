@@ -64,9 +64,9 @@ GRADES = {
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
-@font-face { font-family:'CardDisplay'; src:url('FONTS/Anton-Regular.ttf'); }
-@font-face { font-family:'CardBody';    src:url('FONTS/Inter-Regular.ttf'); }
-@font-face { font-family:'CardMono';    src:url('FONTS/JetBrainsMono.ttf'); }
+@font-face { font-family:'CardDisplay'; src:url('{{FONTS}}/Anton-Regular.ttf'); }
+@font-face { font-family:'CardBody';    src:url('{{FONTS}}/Inter-Regular.ttf'); }
+@font-face { font-family:'CardMono';    src:url('{{FONTS}}/JetBrainsMono.ttf'); }
 
 html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
 .card { width:1080px; height:1350px; background:#000; position:relative;
@@ -75,9 +75,10 @@ html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
 .stage { position:relative; flex:1; overflow:hidden; background:#0B0C10;
          isolation:isolate; }
 .stage > img { width:100%; height:100%; object-fit:cover; display:block;
-               filter:FILTER; transform:scale(ZOOM); object-position:CROP; }
+               filter:{{FILTER}}; transform:scale({{ZOOM}});
+               object-position:{{CROP}}; }
 .grade { position:absolute; inset:0; z-index:2; mix-blend-mode:color;
-         background:TINT; opacity:TINTOP; }
+         background:{{TINT}}; opacity:{{TINTOP}}; }
 .burn  { position:absolute; inset:0; z-index:2; pointer-events:none;
          background:linear-gradient(to bottom, rgba(0,0,0,.42) 0%, rgba(0,0,0,0) 22%,
                    rgba(0,0,0,.26) 70%, rgba(0,0,0,.74) 100%); }
@@ -127,13 +128,19 @@ def markup(text):
 def build_html(card, img_dir, handle, index, total):
     filt, tint, tintop = GRADES.get(card.get("grade", "base"), GRADES["base"])
 
-    css = (CSS
-           .replace("FONTS", Path(FONTS).as_uri())
-           .replace("FILTER", filt)
-           .replace("ZOOM", str(card.get("zoom", 1)))
-           .replace("CROP", card.get("crop", "50% 50%"))
-           .replace("TINT", tint)
-           .replace("TINTOP", str(tintop)))
+    # 치환 이름은 서로의 부분 문자열이 되면 안 된다.
+    # (TINT 를 먼저 바꾸면 TINTOP 안의 TINT 까지 바뀌어 투명도가 깨진다)
+    subs = {
+        "{{FONTS}}": Path(FONTS).as_uri(),
+        "{{FILTER}}": filt,
+        "{{ZOOM}}": str(card.get("zoom", 1)),
+        "{{CROP}}": card.get("crop", "50% 50%"),
+        "{{TINT}}": tint,
+        "{{TINTOP}}": str(tintop),
+    }
+    css = CSS
+    for token, value in subs.items():
+        css = css.replace(token, value)
 
     img = Path(os.path.join(img_dir, card["image"])).as_uri()
     src = markup(card.get("source", ""))
