@@ -1,0 +1,83 @@
+{
+  "caption": "Why was Tesla's Wardenclyffe Tower never finished?\n\nIn March 1901 J. P. Morgan signed a contract giving Tesla $150,000 to build a wireless station on Long Island that could send messages to London and to ships at sea. Morgan took a 51% interest in the company and in the patents.\n\nThen Tesla changed the plan. After reading a June 1901 article by Marconi, he decided a small Morse-code pilot system would not impress investors. He wanted a far more powerful transmitter, image and telephone transmission, and wireless power. He wrote to Morgan in July 1901 asking for much more money. Morgan refused and asked for an account of what had been spent.\n\nTesla kept building anyway. The tower reached 187 feet by the end of 1902. In July 1903 he wrote: \"Will you help me or let my great work — almost complete — go to pots?\" Morgan declined again. The night of that reply, and for several nights after, newspapers reported the tower shooting bright flashes into the sky. Tesla and his workers never explained it. Wardenclyffe never seemed to operate again.\n\nThe tower was dynamited for scrap on July 4, 1917. It took until September to bring it fully down. Scrap value: $1,750.\n\nStill unresolved: no one knows what the flashes were. The construction beneath the tower was kept from the public, and the purpose of the four 100-foot tunnels radiating from the 120-foot shaft is still speculated on — drainage, access, or ground resonance. How Tesla intended to combine ground conduction with his atmospheric method at Wardenclyffe is unknown. He never scientifically tested his Earth-resonance theory.\n\nImages: File:Wardenclyffe Tower.jpg, circa 1902, public domain. File:Wardenclyffe Tower - 1904.jpg, unknown author, public domain. File:Wardenclyffe tower tesla new york demolition july september 1917.png, attributed to the American Press Association, public domain. File:US patent 1119732-001.png by Nikola Tesla, public domain.\n\n#wardenclyffe #nikolatesla #publicdomain #archivephotography #longislandhistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "tower1904.jpg",
+      "crop": "50% 35%",
+      "zoom": 1,
+      "grade": "base",
+      "stamp": "1901–1917",
+      "headline": "He built a 187-foot tower, <y>then walked away</y>",
+      "note": "Shoreham, Long Island.",
+      "source": "File:Wardenclyffe Tower - 1904.jpg, unknown author, public domain",
+      "alt": "Tall latticed wooden tower with domed top rising above trees and a low building.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "tower.jpg",
+      "crop": "45% 55%",
+      "zoom": 1,
+      "grade": "cold",
+      "headline": "Tesla wanted to send messages <y>across the Atlantic</y>",
+      "note": "He planned to use the Earth itself as the conductor — messages, telephony, even facsimile images, to England and to ships at sea.",
+      "source": "File:Wardenclyffe Tower.jpg, circa 1902, public domain",
+      "alt": "Unfinished tower and brick laboratory building in an open field, circa 1902.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "patent.png",
+      "crop": "50% 40%",
+      "zoom": 1.6,
+      "grade": "paper",
+      "stamp": "US 1,119,732",
+      "headline": "Morgan gave him <y>$150,000 and took 51%</y>",
+      "note": "Signed March 1901: a wireless station capable of reaching London. Morgan also took 51% of present and future patents from the project.",
+      "source": "File:US patent 1119732-001.png by Nikola Tesla, public domain",
+      "alt": "Line diagram from a Tesla patent showing coils and a tall mast apparatus.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "tower1904.jpg",
+      "crop": "55% 20%",
+      "zoom": 2.2,
+      "grade": "ink",
+      "headline": "Then he <y>changed the plan</y> and asked for more",
+      "note": "After a June 1901 Marconi article, Tesla scaled up: a far more powerful transmitter, image transmission, wireless power. Morgan refused to add a dollar. This 1904 photo was taken to ask him again.",
+      "source": "File:Wardenclyffe Tower - 1904.jpg, unknown author, public domain",
+      "alt": "Close view of the tower's timber lattice and hemispherical cupola against sky.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "demolition.png",
+      "crop": "50% 60%",
+      "zoom": 1,
+      "grade": "warm",
+      "stamp": "July 4, 1917",
+      "headline": "Dynamited for scrap. <y>It took until September.</y>",
+      "note": "Unable to pay his mortgages, Tesla lost the property in foreclosure. The scrap realised $1,750. Wartime rumours claimed the government ordered it down; the real reason was debt he had kept off the record.",
+      "source": "File:Wardenclyffe tower tesla new york demolition july september 1917.png, attributed to the American Press Association, public domain",
+      "alt": "The tower collapsing on a tilt, timbers splayed, after being dynamited.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "tower.jpg",
+      "crop": "60% 30%",
+      "zoom": 2.4,
+      "grade": "deep",
+      "headline": "Nobody knows <y>what the flashes were</y>",
+      "note": "The night Morgan finally refused him — and several nights after — papers reported the tower lighting up the sky. Tesla and his workers never explained it, and it never seemed to operate again. Work beneath the tower was hidden from the press; the purpose of the four 100-foot tunnels is still argued over.",
+      "source": "File:Wardenclyffe Tower.jpg, circa 1902, public domain",
+      "alt": "Detail of the unfinished tower top, bare framing where the cupola would sit.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "wardenclyffe",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
