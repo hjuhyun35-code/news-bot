@@ -17,6 +17,7 @@ posts/<slug>/source.json 을 읽어 시작한다. 그 파일에는 주제 이름
 자기 글을 변호하기 때문에 검사가 무의미해진다.
 """
 
+import base64
 import json
 import os
 import re
@@ -115,16 +116,40 @@ account.
 
 Wrap 2-5 words per headline in <y></y> to highlight them in yellow.
 
+You can SEE each photograph — they are attached. Use that. Pick the crop by
+looking at where the subject actually sits in the frame, not by guessing.
+
 For each card also choose:
   image  — filename from the supplied list
-  crop   — CSS object-position, e.g. "52% 46%"
-  zoom   — 1 for full frame, 2-3 for a detail crop
-  grade  — one of: base (dark photos), paper (documents, vellum),
-           ink (close-ups of writing), cold (wide empty landscapes),
-           warm (heat, fire), deep (the closing card)
+  crop   — CSS object-position, e.g. "52% 46%". The card is 1080x1350 (tall).
+           A wide photo will be cropped left and right, so a subject near an
+           edge WILL be cut off unless you move the crop toward it. Look at the
+           photograph and place the crop on the subject.
+  zoom   — 1 for full frame, 2-3 for a detail crop. Zoom in when the interesting
+           part is small in the frame, or to avoid scan borders and blank margins.
+  grade  — base (dark photographs), paper (documents, drawings, anything on
+           paper or vellum), ink (close-ups of handwriting or print),
+           cold (wide empty landscapes), warm (fire, heat, explosion),
+           deep (the closing card)
+
+The bottom ~340px of a body card is covered by a black caption bar, and the
+bottom ~25% of a cover/closing card is darkened for text. Do not put the
+subject there.
 
 Vary the images, crops and grades across the six cards. Two cards that look
-alike is a wasted card."""
+alike is a wasted card.
+
+The `source` line is a human credit line printed small along the bottom edge.
+Write it the way a museum caption would, NOT as a filename. Under 60 characters
+so it fits on one line. Name the photographer or expedition when the record
+gives one, otherwise describe the item.
+  good:  "Wardenclyffe, 1904 · public domain"
+  good:  "American Press Association, 1917 · public domain"
+  good:  "Tesla, US patent 1,119,732 · public domain"
+  bad:   "File:Wardenclyffe Tower - 1904.jpg, unknown author, public domain"
+
+In the caption, credit the images the same way — a short readable sentence,
+never a list of filenames."""
 
 CHECKER_SYSTEM = """You verify factual claims against source material. You are
 deliberately separate from whoever wrote the claims — do not defend them.
@@ -142,13 +167,32 @@ Quote the exact supporting sentence when you mark something supported. If you
 cannot find a quote, it is not supported."""
 
 
-def call(client, system, prompt, schema):
+def image_blocks(post_dir, images):
+    """사진을 실제로 보여준다. 안 보고 크롭을 고르면 피사체가 잘린다."""
+    blocks = []
+    for img in images:
+        path = os.path.join(post_dir, "img", img["file"])
+        ext = os.path.splitext(path)[1].lower()
+        media = {".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+                 ".png": "image/png", ".webp": "image/webp"}.get(ext)
+        if not media or not os.path.exists(path):
+            continue
+        with open(path, "rb") as f:
+            data = base64.standard_b64encode(f.read()).decode()
+        blocks.append({"type": "text", "text": f"Photograph: {img['file']}"})
+        blocks.append({"type": "image", "source": {
+            "type": "base64", "media_type": media, "data": data}})
+    return blocks
+
+
+def call(client, system, prompt, schema, extra_blocks=None):
+    content = list(extra_blocks or []) + [{"type": "text", "text": prompt}]
     r = client.messages.create(
         model=MODEL,
         max_tokens=16000,
         system=system,
         output_config={"format": {"type": "json_schema", "schema": schema}},
-        messages=[{"role": "user", "content": prompt}],
+        messages=[{"role": "user", "content": content}],
     )
     if r.stop_reason == "refusal":
         sys.exit("[중단] 모델이 이 주제를 거부했습니다. 소재를 바꾸세요.")
@@ -316,7 +360,7 @@ Each card's `source` line credits that photograph from its record above — do n
 attribute a photograph to a person the record does not name.
 
 Alt text: under 100 characters, describing what is visibly in the image.""".strip(),
-                CARD_SCHEMA)
+                CARD_SCHEMA, extra_blocks=image_blocks(post_dir, src["images"]))
 
     print(f"  카드 {len(post['cards'])}장, 캡션 {len(post['caption'])}자")
 
