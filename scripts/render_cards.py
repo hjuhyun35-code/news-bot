@@ -1,5 +1,5 @@
 """
-posts/<슬러그>/cards.json 을 읽어 카드 PNG를 만든다.
+posts/<slug>/post.json 을 읽어 카드 PNG를 만든다.
 
 카드마다 HTML을 하나 만들고 헤드리스 크롬으로 1080x1350 스크린샷을 찍는다.
 윈도우(엣지)와 리눅스(크로미움) 양쪽에서 같은 결과가 나오도록
@@ -16,6 +16,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from pathlib import Path
 
 W, H = 1080, 1350
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,26 +39,27 @@ def find_browser():
     sys.exit("[실패] 크롬/엣지/크로미움을 찾지 못했습니다.")
 
 
-# ── 등급: 사진의 성격에 따라 색을 다르게 입힌다 ─────────────────────────
+# 사진 성격에 따라 색을 다르게 입힌다.
+# (필터, 색조 그라데이션, 색조 세기)
 GRADES = {
-    # 어두운 기록사진 — 그림자는 푸르게, 하이라이트는 호박색으로
-    "base":   ("grayscale(1) contrast(2.05) brightness(.82)",
-               "linear-gradient(165deg,#1B3A6B 0%,#2E4668 42%,#7A4A16 100%)", .72),
-    # 종이·양피지 — 원래 색을 살리고 살짝만 든다
-    "paper":  ("contrast(1.16) saturate(1.14) brightness(1.03)",
-               "linear-gradient(160deg,#6B5A2E,#2E4470)", .14),
-    # 잉크 세부 — 차갑게, 대비 높게
-    "ink":    ("contrast(1.5) saturate(.72) brightness(1.0)",
-               "linear-gradient(150deg,#1D3556,#2B4A72)", .40),
-    # 넓고 빈 풍경 — 창백한 한기
-    "cold":   ("grayscale(1) contrast(1.62) brightness(1.02)",
-               "linear-gradient(180deg,#2C4E7A,#4A6E92)", .66),
-    # 열·폭발 — 호박색
-    "warm":   ("grayscale(1) contrast(1.9) brightness(.9)",
-               "linear-gradient(150deg,#8A4A10 0%,#B06A14 55%,#3A2A44 100%)", .80),
-    # 마무리 — 가장 어둡게
-    "deep":   ("contrast(1.32) saturate(.9) brightness(.62)",
-               "linear-gradient(170deg,#0B1C38,#1E3350)", .66),
+    # 어두운 기록사진. 그림자는 푸르게, 하이라이트는 호박색으로
+    "base": ("grayscale(1) contrast(2.05) brightness(.82)",
+             "linear-gradient(165deg,#1B3A6B 0%,#2E4668 42%,#7A4A16 100%)", .72),
+    # 종이나 양피지. 원래 색을 살리고 살짝만 든다
+    "paper": ("contrast(1.16) saturate(1.14) brightness(1.03)",
+              "linear-gradient(160deg,#6B5A2E,#2E4470)", .14),
+    # 잉크 세부. 차갑게, 대비 높게
+    "ink": ("contrast(1.5) saturate(.72) brightness(1.0)",
+            "linear-gradient(150deg,#1D3556,#2B4A72)", .40),
+    # 넓고 빈 풍경. 창백한 한기
+    "cold": ("grayscale(1) contrast(1.62) brightness(1.02)",
+             "linear-gradient(180deg,#2C4E7A,#4A6E92)", .66),
+    # 열이나 폭발. 호박색
+    "warm": ("grayscale(1) contrast(1.9) brightness(.9)",
+             "linear-gradient(150deg,#8A4A10 0%,#B06A14 55%,#3A2A44 100%)", .80),
+    # 마무리 카드. 가장 어둡게
+    "deep": ("contrast(1.32) saturate(.9) brightness(.62)",
+             "linear-gradient(170deg,#0B1C38,#1E3350)", .66),
 }
 
 CSS = """
@@ -95,13 +97,13 @@ html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
 .note { font:400 30px/1.45 'CardBody', sans-serif; text-align:center;
         color:rgba(255,255,255,.82); max-width:27ch; }
 
-/* 표지·마무리 — 사진 위에 글자를 얹는다 */
+/* 표지와 마무리 카드는 사진 위에 글자를 얹는다 */
 .over { position:absolute; z-index:4; left:0; right:0; bottom:0;
         padding:0 62px 66px; display:flex; flex-direction:column;
         align-items:center; gap:26px; }
 .over .cap { font-size:112px; }
 
-/* 본문 — 검은 띠 */
+/* 본문 카드는 검은 띠에 글자를 넣는다 */
 .bar { background:#000; flex:0 0 auto; padding:0 54px 40px;
        display:flex; flex-direction:column; align-items:center;
        justify-content:center; gap:22px; min-height:336px; }
@@ -123,18 +125,17 @@ def markup(text):
 
 
 def build_html(card, img_dir, handle, index, total):
-    grade = GRADES.get(card.get("grade", "base"), GRADES["base"])
-    filt, tint, tintop = grade
+    filt, tint, tintop = GRADES.get(card.get("grade", "base"), GRADES["base"])
 
     css = (CSS
-           .replace("FONTS", FONTS.replace("\\", "/"))
+           .replace("FONTS", Path(FONTS).as_uri())
            .replace("FILTER", filt)
            .replace("ZOOM", str(card.get("zoom", 1)))
            .replace("CROP", card.get("crop", "50% 50%"))
            .replace("TINT", tint)
            .replace("TINTOP", str(tintop)))
 
-    img = os.path.join(img_dir, card["image"]).replace("\\", "/")
+    img = Path(os.path.join(img_dir, card["image"])).as_uri()
     src = markup(card.get("source", ""))
     cap = markup(card.get("headline", ""))
     note = f'<div class="note">{markup(card["note"])}</div>' if card.get("note") else ""
@@ -145,7 +146,7 @@ def build_html(card, img_dir, handle, index, total):
         cta = f'<div class="cta">Follow {handle}</div>' if layout == "closing" else ""
         body = f"""
         <div class="stage">
-          <img src="file:///{img}">
+          <img src="{img}">
           <div class="grade"></div><div class="burn"></div>
           <div class="src">{src}</div>
           <div class="over">{stamp}<div class="cap">{cap}</div>{note}{cta}</div>
@@ -153,16 +154,17 @@ def build_html(card, img_dir, handle, index, total):
     else:
         body = f"""
         <div class="stage">
-          <img src="file:///{img}">
+          <img src="{img}">
           <div class="grade"></div><div class="burn"></div>
           <div class="src">{src}</div>
         </div>
         <div class="bar">
           <div class="cap">{cap}</div>{note}
-          <div class="foot">{handle} · {index:02d} / {total:02d}</div>
+          <div class="foot">{handle} &middot; {index:02d} / {total:02d}</div>
         </div>"""
 
-    return f"<!doctype html><meta charset='utf-8'><style>{css}</style><div class='card'>{body}</div>"
+    return (f"<!doctype html><meta charset='utf-8'><style>{css}</style>"
+            f"<div class='card'>{body}</div>")
 
 
 def main():
@@ -183,7 +185,7 @@ def main():
     img_dir = os.path.join(post_dir, spec.get("image_dir", "img"))
     browser = find_browser()
 
-    print(f"{slug} — 카드 {len(cards)}장")
+    print(f"{slug} - 카드 {len(cards)}장")
     print(f"브라우저: {browser}")
 
     tmp = tempfile.mkdtemp()
@@ -197,12 +199,13 @@ def main():
             browser, "--headless=new", "--disable-gpu", "--hide-scrollbars",
             "--force-device-scale-factor=1", "--no-sandbox",
             f"--window-size={W},{H}", "--virtual-time-budget=10000",
-            f"--screenshot={out}", f"file:///{page.replace(chr(92), '/')}",
-        ], capture_output=True, timeout=120)
+            f"--screenshot={out}", Path(page).as_uri(),
+        ], capture_output=True, timeout=180)
 
         size = os.path.getsize(out) // 1024 if os.path.exists(out) else 0
-        if not size:
-            sys.exit(f"[실패] 카드 {i} 렌더링 실패")
+        if size < 60:
+            sys.exit(f"[실패] 카드 {i} 가 {size} KB 뿐입니다. "
+                     f"사진이나 글꼴을 못 불러온 것 같습니다.")
         print(f"  card{i}.png  {size} KB")
 
     shutil.rmtree(tmp, ignore_errors=True)
