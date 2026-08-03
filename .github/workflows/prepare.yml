@@ -1,0 +1,53 @@
+name: prepare subject
+
+# 목록에서 다음 소재를 고르고, 저작권 만료 사진을 찾아 내려받는다.
+# 대본은 쓰지 않는다. 그건 draft 워크플로가 한다.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "leave empty to take the next subject from queue.json"
+        required: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install anthropic
+
+      - name: pick the subject
+        id: pick
+        run: |
+          if [ -n "${{ inputs.slug }}" ]; then
+            slug="${{ inputs.slug }}"
+          else
+            slug=$(python scripts/pick_subject.py)
+          fi
+          echo "slug=$slug" >> "$GITHUB_OUTPUT"
+          echo "고른 소재: $slug"
+
+      - name: find the photographs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/find_images.py "${{ steps.pick.outputs.slug }}"
+
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A "posts/${{ steps.pick.outputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "photos: ${{ steps.pick.outputs.slug }}"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: photos-${{ steps.pick.outputs.slug }}
+          path: posts/${{ steps.pick.outputs.slug }}/

@@ -1,0 +1,114 @@
+{
+  "note": "만들 소재 목록. 위에서부터 하나씩 쓴다. posts/<slug>/post.json 이 이미 있으면 만든 것으로 보고 건너뛴다. 잠시 빼두고 싶으면 \"hold\": true 를 넣는다. 소재를 추가할 때는 slug(폴더 이름), subject(한 줄 설명), wikipedia(영문 위키백과 문서 제목)만 있으면 된다.",
+
+  "subjects": [
+    {
+      "slug": "antikythera",
+      "subject": "The Antikythera mechanism, a geared bronze computer recovered from a Roman shipwreck in 1901",
+      "wikipedia": "Antikythera mechanism",
+      "hook": "1,000년 앞선 기계가 바다에서 나왔다"
+    },
+    {
+      "slug": "cardiff-giant",
+      "subject": "The Cardiff Giant, a ten-foot stone man dug up in New York in 1869",
+      "wikipedia": "Cardiff Giant",
+      "hook": "가짜인 게 밝혀진 뒤에도 사람들이 돈을 내고 봤다"
+    },
+    {
+      "slug": "moon-hoax",
+      "subject": "The Great Moon Hoax of 1835, when a New York newspaper reported life on the Moon",
+      "wikipedia": "Great Moon Hoax",
+      "hook": "신문이 달에 사는 박쥐 인간을 보도했다"
+    },
+    {
+      "slug": "phaistos",
+      "subject": "The Phaistos Disc, a fired clay disc stamped with an undeciphered script",
+      "wikipedia": "Phaistos Disc",
+      "hook": "활자로 찍혔는데 아무도 못 읽는다"
+    },
+    {
+      "slug": "rongorongo",
+      "subject": "Rongorongo, the undeciphered glyphs carved on wooden tablets from Easter Island",
+      "wikipedia": "Rongorongo",
+      "hook": "읽을 줄 아는 사람이 전부 죽었다"
+    },
+    {
+      "slug": "sailing-stones",
+      "subject": "The sailing stones of Racetrack Playa, rocks that leave trails across a dry lake bed",
+      "wikipedia": "Sailing stones",
+      "hook": "2014년에 풀렸는데 답이 더 이상하다"
+    },
+    {
+      "slug": "carrington",
+      "subject": "The Carrington Event of 1859, the solar storm that set telegraph offices on fire",
+      "wikipedia": "Carrington Event",
+      "hook": "전신 기사가 배터리를 뽑아도 전보가 갔다"
+    },
+    {
+      "slug": "tambora",
+      "subject": "The Year Without a Summer, 1816, caused by the eruption of Mount Tambora",
+      "wikipedia": "Year Without a Summer",
+      "hook": "6월에 눈이 왔고 아무도 이유를 몰랐다"
+    },
+    {
+      "slug": "cottingley",
+      "subject": "The Cottingley Fairies, five photographs taken by two girls in 1917",
+      "wikipedia": "Cottingley Fairies",
+      "hook": "셜록 홈즈를 쓴 사람이 이걸 믿었다"
+    },
+    {
+      "slug": "baychimo",
+      "subject": "SS Baychimo, a cargo ship abandoned in the Arctic in 1931 and sighted for decades after",
+      "wikipedia": "SS Baychimo",
+      "hook": "선원은 모두 살았고 배만 38년을 떠돌았다"
+    },
+    {
+      "slug": "great-zimbabwe",
+      "subject": "Great Zimbabwe, a stone city whose builders were denied for a century",
+      "wikipedia": "Great Zimbabwe",
+      "hook": "누가 지었는지가 아니라, 왜 아니라고 우겼는지가 미스터리다"
+    },
+    {
+      "slug": "nan-madol",
+      "subject": "Nan Madol, a city of ninety-two artificial islands built of basalt logs",
+      "wikipedia": "Nan Madol",
+      "hook": "돌기둥 75만 톤을 어떻게 옮겼는지 모른다"
+    },
+    {
+      "slug": "damascus-steel",
+      "subject": "Damascus steel, a metalworking technique that was lost",
+      "wikipedia": "Damascus steel",
+      "hook": "만드는 법을 아무도 안 적어놨다"
+    },
+    {
+      "slug": "greek-fire",
+      "subject": "Greek fire, the Byzantine weapon whose recipe was a state secret",
+      "wikipedia": "Greek fire",
+      "hook": "물 위에서 타는 불, 제조법은 국가기밀이었다"
+    },
+    {
+      "slug": "piri-reis",
+      "subject": "The Piri Reis map of 1513 and the sources its maker listed",
+      "wikipedia": "Piri Reis map",
+      "hook": "지도 여백에 출처를 적어놨는데 그 지도들이 사라졌다"
+    },
+    {
+      "slug": "emperor-norton",
+      "subject": "Joshua Norton, who declared himself Emperor of the United States in 1859",
+      "wikipedia": "Emperor Norton",
+      "hook": "샌프란시스코 전체가 20년간 장단을 맞춰줬다"
+    },
+    {
+      "slug": "codex-gigas",
+      "subject": "Codex Gigas, a medieval manuscript so large it takes two people to lift",
+      "wikipedia": "Codex Gigas",
+      "hook": "필체가 20년 내내 한 글자도 안 흔들린다"
+    },
+    {
+      "slug": "beale",
+      "subject": "The Beale ciphers, three coded papers left in a Virginia hotel safe",
+      "wikipedia": "Beale ciphers",
+      "hook": "세 장 중 한 장만 풀렸다"
+    }
+  ]
+}
