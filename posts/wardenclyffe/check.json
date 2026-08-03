@@ -1,184 +1,196 @@
 {
   "claims": [
     {
-      "claim": "The tower at Wardenclyffe was 187 feet tall.",
-      "where": "card 1 headline; caption paragraph 3",
+      "claim": "Tesla said the function of the buried machinery was \"to have a grip on the earth so the whole of this globe can quiver\"",
+      "where": "card 1 headline/note and caption",
       "verdict": "supported",
-      "quote": "By the end of 1902 the tower reached its full height of 187 feet."
+      "quote": "In Tesla's words, the function of this was \"to have a grip on the earth so the whole of this globe can quiver\"."
     },
     {
-      "claim": "Tesla abandoned the tower/project.",
-      "where": "card 1 headline ('then walked away')",
+      "claim": "Tesla doubted radio waves (Hertzian waves) existed",
+      "where": "card 2 headline/note, caption",
       "verdict": "supported",
-      "quote": "The people living around Wardenclyffe noticed the Tesla plant seemed to have been abandoned without notice."
+      "quote": "Tesla discarded the idea of using the newly discovered Hertzian waves (radio waves), detected in 1888 by German physicist Heinrich Rudolf Hertz. Tesla doubted they existed"
     },
     {
-      "claim": "The site is at Shoreham, Long Island.",
-      "where": "card 1 note",
-      "verdict": "supported",
-      "quote": "Wardenclyffe is located near the Shoreham Post Office and Shoreham Fire House on Route 25A in Shoreham, Long Island, New York."
-    },
-    {
-      "claim": "Tesla intended to transmit messages across the Atlantic Ocean.",
-      "where": "card 2 headline",
-      "verdict": "supported",
-      "quote": "Tesla intended to transmit messages, telephony, and even facsimile images across the Atlantic Ocean to England and to ships at sea based on his theories of using the Earth to conduct the signals."
-    },
-    {
-      "claim": "Tesla planned to use the Earth itself as the conductor, sending messages, telephony and facsimile images to England and to ships at sea.",
+      "claim": "Tesla believed Hertzian waves, if they existed, would travel straight out into space and be \"hopelessly lost\"",
       "where": "card 2 note",
       "verdict": "supported",
-      "quote": "Tesla intended to transmit messages, telephony, and even facsimile images across the Atlantic Ocean to England and to ships at sea based on his theories of using the Earth to conduct the signals."
+      "quote": "meaning they would travel straight out into space and be \"hopelessly lost\""
     },
     {
-      "claim": "J. P. Morgan gave Tesla $150,000.",
-      "where": "card 3 headline; caption paragraph 1",
+      "claim": "Tesla theorized that current injected into the Earth at the right frequency would resonate in standing waves that could be tapped anywhere on the planet",
+      "where": "card 2 note, caption",
       "verdict": "supported",
-      "quote": "Morgan signed a contract with Tesla in March 1901, agreeing to give the inventor $150,000 ($5.81 million in 2025) to develop and build a wireless station on Long Island, capable of sending wireless messages to London as well as ships at sea."
+      "quote": "He theorized from these experiments that if he injected electric current into the Earth at just the right frequency he could harness what he believed was the planet's own electrical charge and cause it to resonate at a frequency that would be amplified in \"standing waves\" that could be tapped anywhere on the planet to run devices or, through modulation, carry a signal."
     },
     {
-      "claim": "The contract was signed in March 1901 and covered a wireless station capable of reaching London.",
-      "where": "card 3 note; caption paragraph 1",
+      "claim": "U.S. patent 1,119,732 diagram sheet 1 was authored by Nikola Tesla and is public domain",
+      "where": "card 2 source, image credits",
       "verdict": "supported",
-      "quote": "Morgan signed a contract with Tesla in March 1901, agreeing to give the inventor $150,000 ($5.81 million in 2025) to develop and build a wireless station on Long Island, capable of sending wireless messages to London as well as ships at sea."
+      "quote": "FILE: patent.png\nArchive title: File:US patent 1119732-001.png\nDescription: Diagram of patent, Sheet 1\nDate: (none recorded)\nAuthor: Nikola Tesla\nLicence: Public domain"
     },
     {
-      "claim": "Morgan took a 51% interest in the company and 51% of present and future patents from the project.",
-      "where": "card 3 headline and note; caption paragraph 1",
+      "claim": "Morgan agreed to give Tesla $150,000",
+      "where": "card 3 headline, caption",
+      "verdict": "supported",
+      "quote": "Morgan signed a contract with Tesla in March 1901, agreeing to give the inventor $150,000 ($5.81 million in 2025) to develop and build a wireless station on Long Island"
+    },
+    {
+      "claim": "The March 1901 contract gave Morgan a 51% interest in the company and in the wireless patents",
+      "where": "card 3 note, caption",
       "verdict": "supported",
       "quote": "The deal also included Morgan having a 51% interest in the company as well as a 51% share in present and future wireless patents developed from the project."
     },
     {
-      "claim": "Tesla changed his plans after reading a June 1901 article by Marconi.",
-      "where": "card 4 note; caption paragraph 2",
+      "claim": "In June 1901 Tesla read a Marconi article and afterwards decided to scale up to a far more powerful transmitter with wireless power delivery",
+      "where": "card 3 note, caption",
       "verdict": "supported",
       "quote": "Tesla's plans changed radically after he read a June 1901 Electrical Review article by Marconi titled \"Syntonic Wireless Telegraph\"."
     },
     {
-      "claim": "Tesla scaled up to a far more powerful transmitter, with image and telephone transmission and wireless power delivery.",
-      "where": "card 4 note; caption paragraph 2",
+      "claim": "Tesla concluded Marconi was copying his earth-resonance system",
+      "where": "caption",
       "verdict": "supported",
-      "quote": "decided to scale up his designs with a much more powerful transmitter, incorporating his ideas of advanced telephone and image transmission as well as his ideas of wireless power delivery"
+      "quote": "the description of the Italian inventor's use of a \"Tesla coil\" \"connected to the Earth\" led Tesla to believe Marconi was copying his earth resonance system to do it"
     },
     {
-      "claim": "Tesla decided a small Morse-code pilot system would not capture investors' attention.",
-      "where": "caption paragraph 2",
+      "claim": "Morgan refused the additional money and demanded an account of money already spent",
+      "where": "card 3 note, caption",
       "verdict": "supported",
-      "quote": "Tesla, believing a small pilot system capable of sending Morse code yacht race results to Morgan in Europe would not be able to capture the attention of potential investors"
+      "quote": "With Tesla basically proposing a breach of contract, Morgan refused to lend additional funds and demanded an account of money already spent."
     },
     {
-      "claim": "Tesla wrote to Morgan in July 1901 asking for much more money, and Morgan refused and demanded an account of money already spent.",
-      "where": "caption paragraph 2; card 4 note",
-      "verdict": "supported",
-      "quote": "In July 1901, Tesla informed Morgan of his planned changes to the project and the need for much more money to build it. ... Morgan refused to lend additional funds and demanded an account of money already spent."
-    },
-    {
-      "claim": "The 1904 photograph was taken so Tesla could return to J. P. Morgan for additional funds.",
-      "where": "card 4 note",
+      "claim": "The 1904 photograph was taken so Tesla could go back to J. P. Morgan to ask for additional funds",
+      "where": "card 3 note and source",
       "verdict": "supported",
       "quote": "This 1904 photo of Wardenclyffe was taken so that Tesla could go back to J. P. Morgan to try and get the additional funds he needed to finish the tower."
     },
     {
-      "claim": "In a July 1903 letter Tesla wrote: \"Will you help me or let my great work — almost complete — go to pots?\"",
-      "where": "caption paragraph 3",
+      "claim": "Tesla's 1923 foreclosure testimony describes a wood and steel lined shaft sunk 120 feet beneath the tower with a stairway inside",
+      "where": "card 4 note, caption",
       "verdict": "supported",
-      "quote": "In a July 3, 1903 letter Tesla wrote \"Will you help me or let my great work — almost complete — go to pots?\""
+      "quote": "The descriptions (some from Tesla's 1923 testimony in foreclosure proceedings on the property) include that the facility had a ten by twelve foot wood and steel lined shaft sunk into the ground 120 feet (37 m) beneath the tower with a stairway inside it."
     },
     {
-      "claim": "Morgan declined again in reply to that letter.",
-      "where": "caption paragraph 3",
+      "claim": "Machines at the bottom of the shaft pushed sixteen iron pipes three hundred feet",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "\"had special machines rigged up which would push the iron pipe, one length after another, and I pushed these iron pipes, I think sixteen of them, three hundred feet, and then the current through these pipes takes hold of the earth.\""
+    },
+    {
+      "claim": "Four 100-foot tunnels are described radiating north, south, east and west, terminating in small brick igloos",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "There is also contemporaneous and later descriptions of four 100 foot long tunnels, possibly brick lined and waterproofed, radiating from the bottom of the shaft north, south, east, and west terminating back at ground level in little brick igloos."
+    },
+    {
+      "claim": "Morgan's refusal letter came on July 14, 1903",
+      "where": "card 5 note, caption",
       "verdict": "supported",
       "quote": "Morgan's reply on July 14 was \"I have received your letter and in reply would say that I should not feel disposed at present to make any further advances\"."
     },
     {
-      "claim": "On the night of Morgan's reply and several nights after, newspapers reported the tower shooting bright flashes lighting up the sky.",
-      "where": "card 6 note; caption paragraph 3",
+      "claim": "That night and several nights after, newspapers reported bright flashes from the tower lighting the sky",
+      "where": "card 5 note, caption",
       "verdict": "supported",
       "quote": "The night of Morgan's reply, and several nights after, newspapers reported that the Wardenclyffe tower came alive shooting off bright flashes lighting up the night sky."
     },
     {
-      "claim": "Tesla and his workers never explained the flashes, and the tower never seemed to operate again.",
-      "where": "card 6 note; caption paragraph 3",
+      "claim": "Wardenclyffe never seemed to operate again after those nights",
+      "where": "card 5 note, caption",
       "verdict": "supported",
       "quote": "No explanation was forthcoming from Tesla or any of his workers as to the meaning of the display and Wardenclyffe never seemed to operate again."
     },
     {
-      "claim": "The tower was dynamited for scrap beginning July 4, 1917, and was not fully demolished until September.",
-      "where": "card 5 headline; caption paragraph 4",
+      "claim": "In 1917 the Smiley Steel Company dynamited the tower and the scrap was worth $1,750",
+      "where": "card 5 note, caption",
       "verdict": "supported",
-      "quote": "On July 4, 1917, the Smiley Steel Company of New York began demolition of the tower by dynamiting it. The tower was knocked on a tilt by the initial explosion but it was not totally demolished until September."
+      "quote": "On July 4, 1917, the Smiley Steel Company of New York began demolition of the tower by dynamiting it. The tower was knocked on a tilt by the initial explosion but it was not totally demolished until September. The scrap value realized was $1,750 (equivalent to $44,000 in 2025)."
     },
     {
-      "claim": "The scrap value realised was $1,750.",
-      "where": "card 5 note; caption paragraph 4",
+      "claim": "It took until September to bring the tower down",
+      "where": "caption",
       "verdict": "supported",
-      "quote": "The scrap value realized was $1,750 (equivalent to $44,000 in 2025)."
+      "quote": "The tower was knocked on a tilt by the initial explosion but it was not totally demolished until September."
     },
     {
-      "claim": "Tesla was unable to pay his mortgages and lost the property in foreclosure.",
-      "where": "card 5 note",
-      "verdict": "supported",
-      "quote": "When Tesla was unable to make any further payments on the mortgages, Boldt foreclosed on the Wardenclyffe property."
-    },
-    {
-      "claim": "Wartime rumours claimed the US Government ordered the tower demolished.",
-      "where": "card 5 note",
-      "verdict": "supported",
-      "quote": "Since this was during World War I a rumor spread, picked up by newspapers and other publications, that the tower was demolished on orders of the United States Government with claims German spies were using it as a radio transmitter or observation post, or that it was being used as a landmark for German submarines."
-    },
-    {
-      "claim": "The real reason for the demolition was debt Tesla had kept off the public record.",
-      "where": "card 5 note",
-      "verdict": "supported",
-      "quote": "since the original mortgages with Boldt as well as the foreclosure had been kept off the public record in order to hide his financial difficulties, Tesla was not able to reveal the real reason for the demolition"
-    },
-    {
-      "claim": "Construction work beneath the tower was kept from the public and the press.",
-      "where": "card 6 note; caption paragraph 5",
-      "verdict": "supported",
-      "quote": "There was a great deal of construction under the tower to establish some form of ground connection, but Tesla and his workers kept the public and the press away from the project, so little is known."
-    },
-    {
-      "claim": "There were four 100-foot tunnels radiating from a 120-foot shaft, and their purpose is still speculated on — drainage, access, or ground connection/resonance.",
-      "where": "card 6 note; caption paragraph 5",
-      "verdict": "supported",
-      "quote": "There is also contemporaneous and later descriptions of four 100 foot long tunnels, possibly brick lined and waterproofed, radiating from the bottom of the shaft north, south, east, and west terminating back at ground level in little brick igloos. Speculation on the tunnels ranges from them being for drainage, acting as access ways, or having the function of enhancing ground connection or resonance by interacting with the water table below the tower"
-    },
-    {
-      "claim": "How Tesla intended to combine the ground conduction method and the atmospheric method at Wardenclyffe is unknown.",
-      "where": "caption paragraph 5",
+      "claim": "How Tesla intended to combine ground conduction with the atmospheric method is unknown",
+      "where": "card 6 note, caption",
       "verdict": "supported",
       "quote": "How Tesla intended to employ the ground conduction method and atmospheric method in Wardenclyffe's design is unknown."
     },
     {
-      "claim": "Tesla never scientifically tested his Earth-resonance theory.",
-      "where": "caption paragraph 5",
+      "claim": "The purpose of the tunnels is only speculated: drainage, access, or enhancing ground connection or resonance",
+      "where": "card 6 note, caption",
+      "verdict": "supported",
+      "quote": "Speculation on the tunnels ranges from them being for drainage, acting as access ways, or having the function of enhancing ground connection or resonance by interacting with the water table below the tower"
+    },
+    {
+      "claim": "Tesla lit lamps wirelessly at Colorado Springs but never scientifically tested his Earth resonance theory",
+      "where": "card 6 note, caption",
       "verdict": "supported",
       "quote": "Although Tesla demonstrated wireless power transmission at Colorado Springs, lighting electric lights mounted outside the building where he had his large experimental coil, he did not scientifically test his theories."
     },
     {
-      "claim": "File:Wardenclyffe Tower.jpg dates from circa 1902 and is public domain.",
-      "where": "card 2 source; caption image credits",
+      "claim": "Tesla believed he had achieved Earth resonance, which by his theory would work at any distance",
+      "where": "caption",
       "verdict": "supported",
-      "quote": "Date: circa 1902 date QS:P,+1902-00-00T00:00:00Z/9,P1480,Q5727902"
+      "quote": "He believed he had achieved Earth resonance which, according to his theory, would work at any distance."
     },
     {
-      "claim": "File:Wardenclyffe Tower - 1904.jpg is by an unknown author and public domain.",
-      "where": "card 1 and card 4 sources; caption image credits",
+      "claim": "The rumour that the US government destroyed the tower because of German spies was false",
+      "where": "card 6 note",
       "verdict": "supported",
-      "quote": "Author: Unknown author Unknown author\nLicence: Public domain"
+      "quote": "Since this was during World War I a rumor spread, picked up by newspapers and other publications, that the tower was demolished on orders of the United States Government with claims German spies were using it as a radio transmitter or observation post, or that it was being used as a landmark for German submarines."
     },
     {
-      "claim": "The demolition photograph is attributed to the American Press Association and is public domain.",
-      "where": "card 5 source; caption image credits",
+      "claim": "Tesla could not reveal the real reason for the demolition because the mortgages and foreclosure had been kept off the public record",
+      "where": "card 6 note",
       "verdict": "supported",
-      "quote": "Author: attributed to the \"American Press Association\"\nLicence: Public domain"
+      "quote": "but since the original mortgages with Boldt as well as the foreclosure had been kept off the public record in order to hide his financial difficulties, Tesla was not able to reveal the real reason for the demolition"
     },
     {
-      "claim": "File:US patent 1119732-001.png is by Nikola Tesla and is public domain.",
-      "where": "card 3 source; caption image credits",
+      "claim": "Tesla built the station at Shoreham, New York in 1901–1902",
+      "where": "caption",
       "verdict": "supported",
-      "quote": "Author: Nikola Tesla\nLicence: Public domain"
+      "quote": "an early experimental wireless transmission station designed and built by scientist Nikola Tesla on Long Island in 1901–1902, located in the village of Shoreham, New York"
+    },
+    {
+      "claim": "The site was 200 acres bought from land developer James S. Warden",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Tesla purchased 200 acres (81 ha) of land close to a railway line 65 miles (105 km) from New York City in Shoreham on Long Island Sound from land developer James S. Warden"
+    },
+    {
+      "claim": "Tesla intended to send messages, telephony and facsimile images across the Atlantic to England and to ships at sea",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Tesla intended to transmit messages, telephony, and even facsimile images across the Atlantic Ocean to England and to ships at sea based on his theories of using the Earth to conduct the signals."
+    },
+    {
+      "claim": "The tower was 186 feet tall",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Tesla biographer John Joseph O'Neill noted the cupola at the top of the 186-foot tower had a 5-foot hole in its top"
+    },
+    {
+      "claim": "The project was abandoned in 1906",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Additional investment could not be found, and the project was abandoned in 1906, never to become operational."
+    },
+    {
+      "claim": "File:Wardenclyffe Tower.jpg dates from circa 1902, author not recorded, public domain",
+      "where": "card 1 source, card 6 source, image credits",
+      "verdict": "supported",
+      "quote": "FILE: tower.jpg\nArchive title: File:Wardenclyffe Tower.jpg\n...\nDate: circa 1902 date QS:P,+1902-00-00T00:00:00Z/9,P1480,Q5727902\nAuthor: (none recorded)\nLicence: Public domain"
+    },
+    {
+      "claim": "The 1917 demolition photograph is attributed to the American Press Association and is public domain",
+      "where": "card 5 source, image credits",
+      "verdict": "supported",
+      "quote": "Date: 1917\nAuthor: attributed to the \"American Press Association\"\nLicence: Public domain"
     }
   ],
   "problems": 0
