@@ -91,7 +91,7 @@ def commons_record(commons_title):
     }
 
 
-WRITER_SYSTEM = """You write six-card Instagram carousels for @theglassnegative,
+WRITER_SYSTEM = """You write short Instagram carousels for @theglassnegative,
 an account about unexplained history told with public domain archive photographs.
 
 THE ONE RULE: every factual claim you write must be supported by the source
@@ -114,8 +114,8 @@ Card structure:
      looking at ground, sky, or stone swipes past. Save the detail crops for
      the body cards, where the headline has already told them what it is.
 
-  2-5 body    — one idea per card. Build toward the answer.
-  6  closing  — what remains genuinely unresolved, honestly stated.
+     body     — one idea per card. Build toward the answer.
+     closing  — what remains genuinely unresolved, honestly stated.
 
 Voice: plain, declarative, specific. Short sentences. No hype words
 ("mind-blowing", "you won't believe", "shocking"). Never overclaim mystery —
@@ -145,9 +145,6 @@ For each card also choose:
            face, a hand, a joint, a line of print. If you cannot name it,
            do not zoom.
 
-  note   — under 150 characters. Two short sentences. Six lines of text on a
-           card is a wall, and readers swipe past walls.
-
            Library scans often photograph the physical object, not just the
            picture: a black mount board, a grey-scale calibration strip along
            one edge, curator pencil marks. None of that may appear on a card.
@@ -166,10 +163,13 @@ For each card also choose:
 
            If you use both halves, put them on cards far apart in the set.
 
-           If two of your images are the front and back of one object, they
-           will look like the same card twice. Crop them to completely
-           different things — the picture on one, a block of the printed text
-           on the other — or drop one and reuse a stronger image instead.
+           If two of your images are the front and back of one object, crop
+           them to completely different things — the picture on one, a block
+           of the printed text on the other.
+
+  note   — under 150 characters. Two short sentences. Six lines of text on a
+           card is a wall, and readers swipe past walls.
+
   grade  — base (dark photographs), paper (documents, drawings, anything on
            paper or vellum), ink (close-ups of handwriting or print),
            cold (wide empty landscapes), warm (fire, heat, explosion),
@@ -179,8 +179,10 @@ The bottom ~340px of a body card is covered by a black caption bar, and the
 bottom ~25% of a cover/closing card is darkened for text. Do not put the
 subject there.
 
-Vary the images, crops and grades across the six cards. Two cards that look
-alike is a wasted card.
+ONE PHOTOGRAPH PER CARD. Every card uses a different photograph, and every
+supplied photograph is used exactly once. Never put the same picture on two
+cards — a reader who swipes onto a picture they just saw thinks the swipe
+did not register, and swipes away. Vary the crops and grades too.
 
 The `source` line is a human credit line printed small along the bottom edge.
 Write it the way a museum caption would, NOT as a filename. Under 60 characters
@@ -320,10 +322,23 @@ SAFETY_SCHEMA = {
 CAPTION_MAX = 2200   # 인스타 캡션 한도
 ALT_MAX = 100
 SOURCE_MAX = 70
-CARDS = 6            # 표지 1 + 본문 4 + 마무리 1
+MIN_CARDS = 4        # 이보다 적으면 게시물이 안 된다
+MAX_CARDS = 6        # 이보다 많으면 끝까지 보는 사람이 없다
 COVER_ZOOM_MAX = 1.5 # 표지는 확대하면 안 된다. 아래 tidy() 주석 참고
 NOTE_MAX = 150       # 설명글. 길면 카드가 글 벽이 된다
 DETAIL_ZOOM = 2.0    # 이보다 세게 확대한 카드는 한 장만 남긴다
+
+
+def card_count(images):
+    """카드 수는 사진 수가 정한다. 사진 한 장에 카드 한 장.
+
+    전에는 카드를 항상 6장 만들었다. 사진이 4장뿐인 소재에서는 두 장이
+    반복됐고, 독자 다섯 명이 매번 "같은 사진이 또 나왔다, 스와이프가
+    안 먹은 줄 알았다"고 했다. 크롭을 다르게 하는 걸로는 안 된다 —
+    같은 사진은 같은 사진으로 보인다. 사진 다섯 장짜리 다섯 카드가
+    사진 넷을 늘린 여섯 카드보다 낫다.
+    """
+    return max(MIN_CARDS, min(MAX_CARDS, len(images)))
 
 
 def tidy(post, known_images):
@@ -336,13 +351,21 @@ def tidy(post, known_images):
 
     # 개수와 구조부터. 한 번은 카드 1장짜리 대본이 끝까지 통과한 적이 있다.
     cards = post["cards"]
-    if len(cards) != CARDS:
-        problems.append(f"카드가 {len(cards)}장 (있어야 할 수 {CARDS}장)")
+    want_n = card_count(known_images)
+    if len(cards) != want_n:
+        problems.append(f"카드가 {len(cards)}장 (있어야 할 수 {want_n}장)")
     else:
-        want = ["cover"] + ["body"] * (CARDS - 2) + ["closing"]
+        want = ["cover"] + ["body"] * (want_n - 2) + ["closing"]
         got = [c.get("layout") for c in cards]
         if got != want:
             problems.append(f"카드 구성이 잘못됨: {' / '.join(got)}")
+
+    # 사진 한 장에 카드 한 장. 같은 사진이 두 번 나오면 스와이프가 안 먹은
+    # 것처럼 보인다. 붙어 있든 떨어져 있든 마찬가지다.
+    used = [c.get("image") for c in cards]
+    for img in sorted({i for i in used if used.count(i) > 1}):
+        where = [str(n) for n, i in enumerate(used, 1) if i == img]
+        problems.append(f"{img} 이 {', '.join(where)}번 카드에 겹쳐 쓰임")
 
     # 표지를 확대하면 사진이 알아볼 수 없는 얼룩이 된다. 독자 다섯 명 중
     # 넷이 "표지가 뭘 찍은 건지 모르겠다"고 한 판이 실제로 있었다.
@@ -377,9 +400,6 @@ def tidy(post, known_images):
 
         if card.get("image") not in known_images:
             problems.append(f"카드 {n} 이 없는 사진을 가리킴: {card.get('image')}")
-        # 같은 사진이 연달아 나오면 넘겨도 안 넘어간 것처럼 보인다
-        if n > 1 and card.get("image") == cards[n - 2].get("image"):
-            problems.append(f"카드 {n - 1}과 {n}이 같은 사진 ({card.get('image')})")
 
         src = card.get("source", "")
         # "File:Wardenclyffe Tower - 1904.jpg, ..." 같은 파일명 접두어 제거
@@ -482,6 +502,10 @@ Is this subject safe to publish?""".strip(), SAFETY_SCHEMA)
         for i in images
     )
 
+    # 카드 수는 사진 수가 정한다. 사진을 늘려 쓰지 않는다.
+    n_cards = card_count({i["file"] for i in src["images"]})
+    print(f"  사진 {len(src['images'])}장 → 카드 {n_cards}장")
+
     # 표지는 이미 독자 투표로 정해졌다. 대본은 그 위에 글만 얹는다.
     cover = src.get("cover")
     cover_rule = ""
@@ -505,7 +529,7 @@ Subject: {src['subject']}
 === PHOTOGRAPH RECORDS (the only thing you may say about the images) ===
 {records}
 
-Write the six cards and the caption.
+Write exactly {n_cards} cards and the caption — one card per photograph.
 
 The caption opens with the question people actually type into a search engine
 about this subject, then tells the story in short paragraphs, then states plainly
@@ -518,8 +542,8 @@ attribute a photograph to a person the record does not name.
 Alt text: under 100 characters, describing what is visibly in the image.
 
 HARD LIMITS — a post that breaks any of these is rejected outright:
-  cards    exactly 6, in this order: cover, body, body, body, body, closing.
-           Not five, not seven. Count them before you finish.
+  cards    exactly {n_cards}: one cover, then bodies, then one closing.
+           Each uses a different photograph. Count before you finish.
   caption  under 1900 characters, counting spaces and hashtags
   source   under 60 characters per card, and never starting with "File:"
   alt      under 100 characters per card

@@ -28,7 +28,10 @@ MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "GlassNegativeBot/1.0 (hjuhyun35@gmail.com)"
 
-WANT = 5          # 고를 사진 수
+# 카드 한 장에 사진 한 장이다. 그래서 여기서 고른 수가 그대로 카드 수가 된다.
+# 사진 넉 장으로 카드 여섯 장을 만들던 때는 두 장이 반드시 반복됐고,
+# 독자들이 매번 "같은 사진 또 나왔다"고 했다.
+WANT = 6          # 고를 사진 수 = 카드 수
 MIN_WIDTH = 900   # 이보다 작으면 카드에서 뭉개진다
 DOWNLOAD_W = 2400 # 내려받을 가로 크기. 확대 크롭까지 견디는 정도
 

@@ -210,8 +210,9 @@ def main():
     cards = spec["cards"]
     # 앞 단계가 이미 세지만 여기서 한 번 더 막는다. 카드 1장짜리 대본이
     # 통과해 그대로 그려진 적이 있다.
-    if len(cards) != 6:
-        sys.exit(f"[실패] post.json 에 카드가 {len(cards)}장입니다. 6장이어야 합니다.")
+    if not 2 <= len(cards) <= 10:
+        sys.exit(f"[실패] post.json 에 카드가 {len(cards)}장입니다. "
+                 f"인스타 캐러셀은 2~10장입니다.")
 
     handle = spec.get("handle", "@theglassnegative")
     img_dir = os.path.join(post_dir, spec.get("image_dir", "img"))
