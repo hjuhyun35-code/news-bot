@@ -41,10 +41,17 @@ def find_browser():
 
 # 사진 성격에 따라 색을 다르게 입힌다.
 # (필터, 색조 그라데이션, 색조 세기)
+#
+# 대비를 세게 걸고 싶은 유혹이 있다. 그러면 사진이 강렬해 보인다.
+# 그런데 원래 대비가 약한 기록사진 — 1910년 신문사 인화지 같은 것 — 에
+# contrast(2)를 걸면 중간 톤이 전부 죽고 순검정과 순흰색만 남는다.
+# 피사체가 사라져서 네거티브 필름처럼 보인다. 독자 다섯 명 중 넷이
+# 여러 판에 걸쳐 "이게 뭘 찍은 건지 모르겠다"고 한 원인이 이것이었다.
+# 색은 분위기를 주는 것이지 형체를 지우는 것이 아니다.
 GRADES = {
     # 어두운 기록사진. 그림자는 푸르게, 하이라이트는 호박색으로
-    "base": ("grayscale(1) contrast(2.05) brightness(.82)",
-             "linear-gradient(165deg,#1B3A6B 0%,#2E4668 42%,#7A4A16 100%)", .72),
+    "base": ("grayscale(1) contrast(1.35) brightness(.96)",
+             "linear-gradient(165deg,#1B3A6B 0%,#2E4668 42%,#7A4A16 100%)", .55),
     # 종이나 양피지. 원래 색을 살리고 살짝만 든다
     "paper": ("contrast(1.16) saturate(1.14) brightness(1.03)",
               "linear-gradient(160deg,#6B5A2E,#2E4470)", .14),
@@ -52,14 +59,14 @@ GRADES = {
     "ink": ("contrast(1.5) saturate(.72) brightness(1.0)",
             "linear-gradient(150deg,#1D3556,#2B4A72)", .40),
     # 넓고 빈 풍경. 창백한 한기
-    "cold": ("grayscale(1) contrast(1.62) brightness(1.02)",
-             "linear-gradient(180deg,#2C4E7A,#4A6E92)", .66),
+    "cold": ("grayscale(1) contrast(1.28) brightness(1.02)",
+             "linear-gradient(180deg,#2C4E7A,#4A6E92)", .48),
     # 열이나 폭발. 호박색
-    "warm": ("grayscale(1) contrast(1.9) brightness(.9)",
-             "linear-gradient(150deg,#8A4A10 0%,#B06A14 55%,#3A2A44 100%)", .80),
+    "warm": ("grayscale(1) contrast(1.4) brightness(.98)",
+             "linear-gradient(150deg,#8A4A10 0%,#B06A14 55%,#3A2A44 100%)", .62),
     # 마무리 카드. 가장 어둡게
-    "deep": ("contrast(1.32) saturate(.9) brightness(.62)",
-             "linear-gradient(170deg,#0B1C38,#1E3350)", .66),
+    "deep": ("contrast(1.18) saturate(.9) brightness(.74)",
+             "linear-gradient(170deg,#0B1C38,#1E3350)", .52),
 }
 
 CSS = """
