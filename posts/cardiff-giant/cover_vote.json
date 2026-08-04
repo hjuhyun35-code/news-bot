@@ -1,0 +1,60 @@
+{
+  "winner": "C",
+  "tally": {
+    "A": 0,
+    "B": 0,
+    "C": 5,
+    "D": 0
+  },
+  "votes": [
+    {
+      "choice": "C",
+      "why": "A랑 B는 그냥 어두운 얼룩덩어리라서 뭔지 파악도 안 되고 바로 넘겼을 듯. C는 스크롤하다가 눈이 먼저 가운데 누워있는 벌거벗은 거인 형체로 갔고, 그 다음에 위쪽 잘린 손·다리가 보여서 '이게 사람 시체야?' 하고 0.5초 멈췄다. 밝은 크림색 배경이라 피드에서 튀는 것도 한몫했고, 아래 깔린 잔글씨(10 feet, 4 1/2 inches 같은 수치)가 진짜 문서 느낌 줘서 캡션 볼 마음이 생겼다. 흰 제목이 'THE CARDIFF GIANT' 글자를 밟고 있는 건 좀 지저분하지만 그림 자체가 이김. D는 갈색 숲 사진이라 뭘 보라는 건지 모르겠어서 패스.",
+      "stops_scroll": true,
+      "worst": "B",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "C",
+      "why": "A와 B는 처음 1초 동안 '이게 뭘 찍은 사진이지?'만 하고 형체가 안 잡혔다. 어두운 얼룩 덩어리라 눈이 헤드라인 글자만 읽고 바로 넘어갈 준비를 했다. C는 반대로 눈이 먼저 가운데 누워 있는 거대한 인체 스케치의 얼굴과 가슴, 그 위에 얹힌 손으로 갔고, 곧바로 아래쪽 잔글씨 'ITS DIMENSIONS ARE... 10 feet, 4 1/2 inches'를 읽으려고 확대까지 하고 싶어졌다. '돌 10피트'라는 제목이 그림 속 치수표와 딱 맞아떨어지니까 과장 없이 실제 물건 얘기라는 신뢰가 생긴다. 흰 배경에 세피아라 피드에서도 오히려 튀었다. 다만 하단 흰 제목이 원본 캡션 글자 위에 겹쳐서 지저분한 건 아쉽다.",
+      "stops_scroll": true,
+      "worst": "A",
+      "name": "Daniel",
+      "age": 34
+    },
+    {
+      "choice": "C",
+      "why": "A랑 B는 솔직히 무슨 사진인지 3초 봐도 모르겠다. 검푸른 얼룩 덩어리에 나뭇가지 하나. 눈이 형태를 찾다가 포기하고 바로 카피로 내려갔고, 카피만 읽고 넘어갈 뻔했다. C는 다르다. 왼쪽 아래 누워 있는 거대한 남자 얼굴 — 감긴 눈, 수염, 배 위에 얹힌 손 — 이 먼저 눈에 박혔고 '10 feet of stone'이라는 카피랑 즉시 연결됐다. 석판화 특유의 스티플 질감과 종이 접힌 자국까지 살아 있어서 '진짜 옛 문서'라는 신뢰가 생긴다. 흠은 안다: 흰 대문자 제목이 밑에 있는 'THE CARDIFF GIANT' 글자랑 정면으로 겹쳐서 노란 BEHIND A BARN 부분이 지저분하다. 그리고 위쪽에 잘린 두 번째 도판이 붕 떠 있다. 그래도 얼굴 하나가 다 이긴다. A와 B는 같은 원본에 대비만 다르게 준 거라 캐러셀에 둘 다 있으면 게으르게 보인다.",
+      "stops_scroll": true,
+      "worst": "A",
+      "name": "Sofia",
+      "age": 27
+    },
+    {
+      "choice": "C",
+      "why": "A와 B는 처음 몇 초 동안 뭘 보고 있는지 전혀 모르겠다. 검푸른 얼룩과 나뭇가지 같은 선뿐이라 눈이 화면 위를 두 번 훑고 그냥 지나갔다. D는 갈색 톤이 예쁘긴 한데 왼쪽 바위 덩어리가 뭔지 알아보기까지 시간이 걸렸다. C는 스크롤 도중 바로 '누워 있는 사람 형체'가 읽혔다 — 감긴 눈, 배 위에 놓인 손, 그리고 위쪽에 같은 몸이 한 번 더 반복되는 구성. 눈이 얼굴에서 손으로, 그다음 아래쪽 작은 활자로 내려가서 'of the figure, 10 feet, 4½ inches... length of nose, 6 inches'를 실제로 읽었다. 제목의 '10피트'가 사진 속 인쇄된 치수로 증명되는 유일한 표지라서 멈췄다. 다만 흰 제목 글자가 원본 리소그래프의 'THE CARDIFF GIANT' 표제를 정확히 가려버린 건 아쉽다 — 출처를 확인하려는 사람 입장에선 그 줄이 제일 중요한데. 크레딧도 문제다. 네 장 모두 'BAIN NEWS SERVICE, 1910'이라고 붙여놨는데 C는 1869년 무렵의 판화/리소그래프고 D는 세피아 알부민 사진처럼 보인다. 같은 출처일 수가 없다. 이건 고쳐야 한다.",
+      "stops_scroll": true,
+      "worst": "A",
+      "name": "Robert",
+      "age": 52
+    },
+    {
+      "choice": "C",
+      "why": "A랑 B는 처음 0.5초 동안 그냥 어두운 얼룩이었다. 뭘 보는지 몰라서 눈이 미끄러졌고, 제목 읽고 나서야 '아 저게 몸통인가?' 하고 되돌아갔다. 근데 C는 반대였다. 눈이 먼저 화면 중앙의 누워 있는 벌거벗은 거대한 남자 형상, 특히 배 위에 얹힌 손과 왼쪽 끝 뒤로 꺾인 얼굴에 딱 걸렸다. 크기 감각이 없는데도 뭔가 이상하게 크다는 게 느껴졌다. 그리고 아래쪽에 흐릿하게 깔린 '10 feet, 4 1/2 inches... length of nose, 6 inches' 같은 옛날 치수 인쇄물이 보이는 순간 이게 실제로 사람들이 표로 재서 팔았던 물건이라는 게 확 왔다. 그 디테일이 이 장르에서 내가 안 본 종류의 것이라 손가락이 멈췄다. 다만 제목 흰 글씨가 원본 'THE CARDIFF GIANT' 활자 위에 겹쳐서 지저분한 건 아쉬웠다.",
+      "stops_scroll": true,
+      "worst": "A",
+      "name": "Jess",
+      "age": 23
+    }
+  ],
+  "stops_scroll": 5,
+  "asked": 5,
+  "chosen": {
+    "image": "lithograph.jpg",
+    "crop": "33% 46%",
+    "zoom": 1.45,
+    "grade": "paper",
+    "why": "The 1869 souvenir lithograph, which shows the giant as the public was sold it: lying in state on a plinth, two views stacked. Crop takes the lower figure's bearded head and torso with the upper figure's legs above it, so the vertical card reads instantly as a huge man laid out on a board — different subject matter and a different register from the pit photograph, drawn rather than photographed. The centre of the crop sits left of the sheet's fold and well above the printed title block, so the letterpress caption, the pencil 'No 1259 / A.L. Edwards' inscription and the red MICROFILMED stamp are all outside the frame."
+  }
+}
