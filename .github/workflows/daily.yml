@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install anthropic
+      - run: pip install anthropic pillow
 
       - uses: browser-actions/setup-chrome@v1
         id: chrome

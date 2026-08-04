@@ -102,6 +102,16 @@ def main():
         lines.append("…")
     lines.append("")
 
+    unfixed_path = os.path.join(post_dir, "unfixed.json")
+    if os.path.exists(unfixed_path):
+        with open(unfixed_path, encoding="utf-8") as f:
+            uf = json.load(f)["cards"]
+        lines.append("⚠️ <b>사진을 못 알아보겠다는데 코드가 못 고친 카드</b>")
+        for c in uf:
+            lines.append(f"· {esc(c)}")
+        lines.append("이 사진은 바꾸는 편이 낫습니다.")
+        lines.append("")
+
     if problems:
         lines.append(f"⚠️ <b>자료로 확인 안 되는 주장 {len(problems)}개</b>")
         for p in problems[:6]:

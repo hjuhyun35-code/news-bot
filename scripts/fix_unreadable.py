@@ -25,9 +25,25 @@ import shutil
 import sys
 import tempfile
 
+from PIL import Image
+
 import render_cards
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 이보다 가로로 긴 사진은 통째로 넣어도 소용이 없다. 세로 카드 안에서
+# 가느다란 띠가 되어 여전히 안 보이고, 스테레오 카드라면 좌우 중복과
+# 검은 마운트와 보정 막대까지 그대로 드러난다. 실제로 그렇게 만들어
+# 3번 카드를 더 나쁘게 만든 적이 있다.
+TOO_WIDE = 1.7
+
+
+def aspect(path):
+    try:
+        with Image.open(path) as im:
+            return im.width / im.height
+    except Exception:
+        return 0
 
 
 def main():
@@ -52,11 +68,20 @@ def main():
         post = json.load(f)
 
     cards = post["cards"]
-    changed = []
+    img_dir = os.path.join(post_dir, post.get("image_dir", "img"))
+    changed, left = [], []
     for n in unreadable:
         if not 1 <= n <= len(cards):
             continue
         card = cards[n - 1]
+
+        ratio = aspect(os.path.join(img_dir, card["image"]))
+        if ratio > TOO_WIDE:
+            left.append(f"카드 {n} ({card['image']}, 가로:세로 {ratio:.1f})")
+            print(f"  카드 {n}: 사진이 너무 가로로 깁니다 ({ratio:.1f}:1). "
+                  f"통째로 넣어도 띠가 됩니다 — 그대로 둡니다")
+            continue
+
         if card.get("fit") == "whole":
             # 이미 통째로 보여주는데도 못 알아본다면 사진 자체가 문제다.
             # 여기서 더 할 수 있는 것이 없으니 사람이 보게 남긴다.
@@ -66,13 +91,19 @@ def main():
         changed.append(n)
         print(f"  카드 {n}: 잘라 넣기 → 통째 보기")
 
+    # 코드가 못 고친 것은 승인 화면에 남긴다. 조용히 넘어가면
+    # 사람이 모르는 채로 승인 단추를 누른다.
+    if left:
+        with open(os.path.join(post_dir, "unfixed.json"), "w",
+                  encoding="utf-8") as f:
+            json.dump({"cards": left}, f, ensure_ascii=False, indent=2)
+
     if not changed:
         return
 
     with open(post_path, "w", encoding="utf-8") as f:
         json.dump(post, f, ensure_ascii=False, indent=2)
 
-    img_dir = os.path.join(post_dir, post.get("image_dir", "img"))
     handle = post.get("handle", "@theglassnegative")
     browser = render_cards.find_browser()
     tmp = tempfile.mkdtemp(dir=ROOT, prefix=".fix-")
