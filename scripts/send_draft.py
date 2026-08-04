@@ -51,7 +51,10 @@ def main():
         lines = [f"<b>표지 투표</b> — {cv['winner']} 당선 "
                  f"({cv['tally'][cv['winner']]}/{cv['asked']}표)",
                  f"{cv['asked']}명 중 {cv['stops_scroll']}명이 "
-                 f"'이거면 스크롤 멈춘다'고 했습니다.", ""]
+                 f"'이거면 스크롤 멈춘다'고 했습니다."]
+        if cv.get("adjusted"):
+            lines.append(f"⚠️ {esc(cv['adjusted'])}")
+        lines.append("")
         for v in cv["votes"]:
             lines.append(f"<b>{esc(v['name'])} ({v['age']})</b> → {v['choice']}"
                          f"{'' if v['stops_scroll'] else ' (그래도 안 멈춤)'}")

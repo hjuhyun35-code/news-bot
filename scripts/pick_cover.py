@@ -141,11 +141,16 @@ def propose(client, post, source, img_dir):
     """표지 후보 3개를 뽑는다."""
     blocks = photo_blocks(img_dir, source["images"])
     cover = post["cards"][0]
+    second = post["cards"][1]["image"] if len(post["cards"]) > 1 else ""
     prompt = f"""Subject: {source['subject']}
 
 The cover headline is already written and will not change:
     "{cover['headline']}"
     {cover.get('note', '')}
+
+The second card of this post uses {second}. Do not build the cover from that
+same photograph — a reader who swipes from the cover onto a near-identical
+picture thinks the swipe did not register.
 
 Propose three covers for that headline using the photographs above."""
 
@@ -274,8 +279,28 @@ def main():
         if not votes:
             sys.exit("[중단] 투표를 받지 못했습니다.")
 
-        winner = max(tally, key=lambda k: tally[k])
+        # 2번 카드와 같은 사진이 이기면, 표지에서 넘겼을 때 안 넘어간 것처럼
+        # 보인다. 대본 쪽 검사는 표지를 바꾸기 전에 끝났으니 여기서 다시 본다.
+        second = post["cards"][1]["image"] if len(post["cards"]) > 1 else ""
+        ranked = sorted(tally, key=lambda k: -tally[k])
+        winner = ranked[0]
         chosen = next(c for letter, c, _ in paths if letter == winner)
+        note = ""
+
+        if chosen["image"] == second:
+            other = next((l for l in ranked
+                          if next(c for x, c, _ in paths if x == l)["image"] != second),
+                         None)
+            if other:
+                note = (f"{winner}가 {tally[winner]}표로 이겼지만 2번 카드와 "
+                        f"같은 사진이라 {other}({tally[other]}표)로 내렸습니다")
+                winner = other
+                chosen = next(c for letter, c, _ in paths if letter == winner)
+            else:
+                note = ("모든 후보가 2번 카드와 같은 사진입니다. "
+                        "표지와 2번이 비슷하게 보일 수 있습니다")
+            print(f"  [조정] {note}")
+
         stops = sum(1 for v in votes if v["stops_scroll"])
 
         # ── 4. 바꿔치기 ──────────────────────────────────────────
@@ -301,7 +326,8 @@ def main():
                   encoding="utf-8") as f:
             json.dump({"winner": winner, "tally": tally, "votes": votes,
                        "stops_scroll": stops, "asked": len(votes),
-                       "chosen": chosen}, f, ensure_ascii=False, indent=2)
+                       "adjusted": note, "chosen": chosen},
+                      f, ensure_ascii=False, indent=2)
 
         print(f"  card1.png 다시 그림 ({kb} KB)")
         print(f"완료 — {len(votes)}명 중 {stops}명이 '이거면 멈춘다'고 함")
