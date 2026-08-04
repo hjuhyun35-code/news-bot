@@ -92,8 +92,9 @@ html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
 .stage > img.back { position:absolute; inset:0; object-fit:cover;
                     transform:scale(1.2); filter:{{FILTER}} blur(38px)
                     brightness(.3) saturate(.7); }
+/* 통째 보기는 사진을 위쪽에 앉힌다. 아래는 글자 자리다. */
 .stage > img.whole { position:absolute; inset:0; object-fit:contain;
-                     transform:none; object-position:50% 42%; }
+                     transform:none; object-position:50% 24%; }
 .grade { position:absolute; inset:0; z-index:2; mix-blend-mode:color;
          background:{{TINT}}; opacity:{{TINTOP}}; }
 .burn  { position:absolute; inset:0; z-index:2; pointer-events:none;
@@ -119,9 +120,9 @@ html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
    사진이 밝거나 — 옛 인쇄물, 문서, 도면 — 그 자체에 글자가 들어 있으면
    흰 글자가 뒷글자와 뒤섞여 안 읽힌다. 그래서 글자 아래에 어두운 판을
    깐다. 그라데이션만으로는 부족했다. */
-.scrim { position:absolute; z-index:3; left:0; right:0; bottom:0; height:62%;
-         background:linear-gradient(to top, rgba(6,8,14,.94) 0%,
-                   rgba(6,8,14,.88) 34%, rgba(6,8,14,.62) 62%,
+.scrim { position:absolute; z-index:3; left:0; right:0; bottom:0; height:52%;
+         background:linear-gradient(to top, rgba(6,8,14,.96) 0%,
+                   rgba(6,8,14,.93) 44%, rgba(6,8,14,.66) 72%,
                    rgba(6,8,14,0) 100%); }
 .over { position:absolute; z-index:4; left:0; right:0; bottom:0;
         padding:0 62px 66px; display:flex; flex-direction:column;
