@@ -24,6 +24,8 @@ import urllib.request
 
 import anthropic
 
+from llm import block_from
+
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "GlassNegativeBot/1.0 (hjuhyun35@gmail.com)"
@@ -221,12 +223,15 @@ def choose(client, subject, candidates):
                        f"    {c['width']}x{c['height']}, {c['date'] or '날짜 미상'}\n"
                        f"    {c['description'][:200] or '(설명 없음)'}"})
         try:
-            data = base64.standard_b64encode(fetch(c["thumb"])).decode()
+            blob = fetch(c["thumb"])
         except Exception as e:            # 썸네일 하나 실패로 전체를 죽이지 않는다
             blocks.append({"type": "text", "text": f"    (미리보기 실패: {e})"})
             continue
-        blocks.append({"type": "image", "source": {
-            "type": "base64", "media_type": "image/jpeg", "data": data}})
+        block = block_from(blob)
+        if not block:
+            blocks.append({"type": "text", "text": "    (미리보기를 읽을 수 없음)"})
+            continue
+        blocks.append(block)
 
     prompt = (f"Subject: {subject}\n\n"
               f"{len(candidates)} candidates are shown above — that is the "

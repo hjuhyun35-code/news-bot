@@ -27,6 +27,8 @@ import urllib.request
 
 import anthropic
 
+from llm import image_block
+
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "GlassNegativeBot/1.0 (hjuhyun35@gmail.com)"
@@ -253,17 +255,11 @@ def image_blocks(post_dir, images):
     """사진을 실제로 보여준다. 안 보고 크롭을 고르면 피사체가 잘린다."""
     blocks = []
     for img in images:
-        path = os.path.join(post_dir, "img", img["file"])
-        ext = os.path.splitext(path)[1].lower()
-        media = {".jpg": "image/jpeg", ".jpeg": "image/jpeg",
-                 ".png": "image/png", ".webp": "image/webp"}.get(ext)
-        if not media or not os.path.exists(path):
+        block = image_block(os.path.join(post_dir, "img", img["file"]))
+        if not block:
             continue
-        with open(path, "rb") as f:
-            data = base64.standard_b64encode(f.read()).decode()
         blocks.append({"type": "text", "text": f"Photograph: {img['file']}"})
-        blocks.append({"type": "image", "source": {
-            "type": "base64", "media_type": media, "data": data}})
+        blocks.append(block)
     return blocks
 
 

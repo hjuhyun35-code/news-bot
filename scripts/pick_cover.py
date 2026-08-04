@@ -32,7 +32,7 @@ import tempfile
 import anthropic
 
 import render_cards
-from llm import answer_of
+from llm import answer_of, image_block
 from reader_reactions import READERS
 
 MODEL = "claude-opus-5"
@@ -144,17 +144,11 @@ VOTE_SCHEMA = {
 def photo_blocks(img_dir, images):
     blocks = []
     for img in images:
-        path = os.path.join(img_dir, img["file"])
-        ext = os.path.splitext(path)[1].lower()
-        media = {".jpg": "image/jpeg", ".jpeg": "image/jpeg",
-                 ".png": "image/png"}.get(ext)
-        if not media or not os.path.exists(path):
+        block = image_block(os.path.join(img_dir, img["file"]))
+        if not block:
             continue
-        with open(path, "rb") as f:
-            data = base64.standard_b64encode(f.read()).decode()
         blocks.append({"type": "text", "text": f"Photograph: {img['file']}"})
-        blocks.append({"type": "image", "source": {
-            "type": "base64", "media_type": media, "data": data}})
+        blocks.append(block)
     return blocks
 
 
