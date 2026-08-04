@@ -1,0 +1,60 @@
+{
+  "winner": "B",
+  "tally": {
+    "A": 0,
+    "B": 5,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "B",
+      "why": "B는 0.5초 안에 '누워있는 거대한 벌거벗은 몸'이 바로 읽혀서 눈이 그 팔·손 위로 먼저 꽂혔다. 위쪽에 잘린 또 하나의 손이 겹쳐 보이니까 '이게 뭐야?' 하고 되짚어보게 됨. 게다가 아래 '10 feet 4 1/2 inches' 같은 옛날 활자 수치가 살짝 보여서 진짜 옛날 전시 포스터 같은 느낌, 캡처해서 단톡방에 던지기 딱 좋다. A는 처음에 그냥 어두운 얼룩·긁힌 유리판처럼 보여서 사람 형체를 못 알아봤고, 두 번 봐야 겨우 몸통 같은 게 보이니 스크롤 속도에선 무조건 지나침. C는 그냥 누런 옛날 숲·바위 사진, 아무 일도 안 일어나서 눈이 스치고 끝.",
+      "stops_scroll": true,
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "B",
+      "why": "B에서 눈이 먼저 간 건 하단의 누워 있는 거대한 몸통 — 팔과 손가락이 또렷하게 보이고, 그 위쪽에 잘린 또 하나의 손이 프레임 끝에 걸쳐 있어서 '이게 얼마나 큰 거야?'라고 스케일을 재게 만든다. 그다음 시선이 아래 작은 활자(10 feet 4½ inches, 코 길이 6인치 같은 치수 목록)로 내려갔고, 그 문서적인 디테일이 이건 실제 기록물이라는 신호를 줘서 저장 버튼에 손이 갔다. A는 무슨 사진인지 3초 봐도 판독이 안 되는 얼룩 덩어리라 '분위기만 잡은 후처리'로 느껴지고, 제목이 다 설명해주지 않으면 아무것도 아니다. C는 그냥 세피아 숲과 바위 — 오래된 스테레오카드 느낌은 좋지만 시각적으로 아무 사건이 없어서 그냥 넘긴다.",
+      "stops_scroll": true,
+      "worst": "C",
+      "name": "Daniel",
+      "age": 34
+    },
+    {
+      "choice": "B",
+      "why": "B에서 눈이 먼저 간 건 화면 위쪽에 툭 걸린 거대한 손이었다. 손가락 마디까지 석고처럼 그려진 게 프레임 상단에서 잘려 들어와서, 저게 뭐지 하고 위로 시선이 올라갔다가 다시 아래 누워 있는 몸통으로 내려왔다. 몸이 화면을 가로로 길게 다 잡아먹는 구도라 '길다'는 감각이 글 없이도 전달된다. 종이 접힌 선과 인쇄된 치수 캡션도 진짜 문서라는 신뢰를 주고, 세피아 톤이 탁하지 않게 정리돼 있다. 아쉬운 건 흰 볼드 텍스트가 하필 'THE ONONDAGA GIANT' 인쇄 글자 위에 겹쳐 앉아서 두 종류 타이포가 싸우는 부분 — 저건 위로 올리거나 하단 여백을 만들어야 한다. A는 3초 봐도 뭘 보는지 모르겠다. 파랗게 뒤집힌 네거티브 같아서 그냥 얼룩진 돌덩이나 눈밭으로 읽히고, 형태가 몸인지 언덕인지 해독이 안 돼서 손가락이 그냥 지나간다. C는 그냥 오래된 숲 스테레오카드고, 갈색이 뭉개져서 채석장인지도 모르겠다.",
+      "stops_scroll": true,
+      "worst": "C",
+      "name": "Sofia",
+      "age": 27
+    },
+    {
+      "choice": "B",
+      "why": "B에서 눈이 먼저 간 건 위쪽 여백에 떠 있는 손 하나였다. 처음엔 뭔지 몰라서 다시 봤고, 그 다음에 아래쪽 누워 있는 몸통과 옆구리에 얹힌 손이 보이면서 '아, 같은 인물을 두 각도로 그린 판화구나' 하고 정리가 됐다. 접힌 종이 자국과 밑단의 활자—'10 feet, 4½ inches', 'from crown of head to chin, 1 foot 9 inches'—까지 시선이 내려갔는데, 이 숫자들이 실제 문서라는 느낌을 줘서 손가락이 멈췄다. 검증 가능한 물건처럼 보인다는 게 제일 크다. A는 반전된 듯한 어두운 화면에서 뭐가 뭔지 3초를 봐도 형태가 안 잡혔다. 언덕인지 몸인지 나뭇가지인지 모르겠고, 후처리로 무섭게 만든 티가 나서 오히려 신뢰가 떨어졌다. C는 그냥 세피아 숲과 바위다. 캡션이 없으면 채석장인지도 모를 사진이라, 눈이 붙잡힐 지점이 하나도 없었다.",
+      "stops_scroll": true,
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    },
+    {
+      "choice": "B",
+      "why": "B에서 눈이 먼저 간 건 화면 위쪽에 툭 걸린 손이었다. 손가락 다섯 개가 확대돼 있어서 '어? 저건 사람 손인데 크기가 이상하다'고 0.5초 멈췄고, 그 다음 아래로 내려가면서 누운 몸통과 배 위에 얹힌 팔, 그리고 흐릿하게 깔린 THE ... GIANT 활자와 '10 feet, 4½ inches' 같은 실측 숫자가 눈에 들어왔다. 이 숫자가 진짜 옛 문서에서 긁어온 티가 나서 계속 읽고 싶어졌다. 이게 사진이 아니라 석판화라는 점도 오히려 낯설어서 좋았다. A는 대비만 세게 올린 흑백 얼룩덩이라 몸인지 눈밭인지 진흙인지 몇 초 봐도 파악이 안 됐고, 이 장르에서 흔한 '어둡게 만들면 무서워 보인다' 처리라 이미 지겹다. C는 그냥 세피아 숲과 바위 — 스크롤 속도 그대로 지나갈 사진이다.",
+      "stops_scroll": true,
+      "worst": "C",
+      "name": "Jess",
+      "age": 23
+    }
+  ],
+  "stops_scroll": 5,
+  "asked": 5,
+  "chosen": {
+    "image": "lithograph.jpg",
+    "crop": "41% 52%",
+    "zoom": 1.5,
+    "grade": "paper",
+    "hook": "They sold tickets to a body that never lived",
+    "why": "A different picture and a different register: the 1869 souvenir print, where the figure is drawn cleanly and the face, arm and torso are far more legible than any surviving photograph of the object. The crop centres on the lower of the two views so a full head and body fill the card, with the legs of the upper view as a band above and the printed title 'THE ONONDAGA GIANT' just entering the bottom as period typography. It stops short of the ink handwriting ('No 1259', the Edwards signature) and the red MICROFILMED stamp at the foot of the sheet. Paper grade keeps the warm sheet tone and the soft lithographic grey."
+  }
+}

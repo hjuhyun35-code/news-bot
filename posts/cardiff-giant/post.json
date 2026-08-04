@@ -1,0 +1,57 @@
+{
+  "caption": "Was the Cardiff Giant real? No. It was gypsum, carved to order.\n\nIn 1868 New York tobacconist George Hull hired men to quarry a block of gypsum at Fort Dodge, Iowa, telling them it was for a Lincoln monument. The block went to a Chicago stonecutter, and two sculptors carved a ten-foot man modelled on Hull himself. A geologist told him hair would not petrify, so the figure has none. Its skin was beaten with steel knitting needles set in a board to fake pores, then rubbed with sulphuric acid for age.\n\nIt was buried on his cousin William Newell's farm in late November 1868. Nearly a year later, on 16 October 1869, hired well-diggers found it. Newell charged fifty cents for fifteen minutes; three to five hundred people came a day.\n\nCornell's first president, Andrew D. White, noticed there was no reason to dig a well there — good water already ran near the house and barn. Yale's O. C. Marsh called it \"a most decided humbug\": soluble gypsum with fresh tool marks. Hull confessed on 10 December 1869, saying he had always meant the hoax to be exposed. On 2 February 1870 a court declared both the giant and Barnum's plaster copy fakes.\n\nStill unresolved: whether the Chicago stonecutter knew what he was making. And the copy in a Michigan arcade is Barnum's only because its owner says so.\n\nImages: an 1869 lithograph of \"The Onondaga Giant\" (Popular Graphic Arts); a Bain News Service negative of the giant, 1910; and both faces of an 1873 stereocard of Cardiff Glen, Fort Dodge, Iowa, scanned by the New York Public Library. All public domain.\n\n#cardiffgiant #hoaxhistory #publicdomain #archivephotography #1869",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "lithograph.jpg",
+      "crop": "41% 52%",
+      "zoom": 1.5,
+      "grade": "paper",
+      "stamp": "1869",
+      "headline": "A petrified man, <y>measured to the half-inch</y>",
+      "note": "The print lists dimensions: whole length 10 feet 4½ inches. Nose, six inches.",
+      "source": "\"The Onondaga Giant\", Popular Graphic Arts",
+      "alt": "Lithograph of a large stone figure lying on a plinth, shown from both sides.a",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "giant.jpg",
+      "crop": "42% 44%",
+      "zoom": 1.6,
+      "grade": "base",
+      "headline": "Two men dug <y>a well nobody needed</y>",
+      "note": "Diggers found it on 16 October 1869. Cornell's president noted good water already ran past the house.",
+      "source": "Bain News Service, 1910 · public domain",
+      "alt": "Pale stone figure of a man lying in a shallow dug pit of earth and roots.a",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "gypsumquarry.jpg",
+      "crop": "20% 50%",
+      "zoom": 3.2,
+      "grade": "cold",
+      "headline": "The stone came from <y>a glen in Iowa</y>",
+      "note": "Hull's men cut a ten-foot gypsum block at Fort Dodge in 1868. He told them it was for a Lincoln monument.",
+      "source": "Cardiff Glen, Fort Dodge, Iowa, 1873 · NYPL scan",
+      "alt": "Sepia photograph of a pale gypsum cliff in woodland, broken blocks piled below.a",
+      "file": "card3.png"
+    },
+    {
+      "layout": "closing",
+      "image": "stereocardtext.jpg",
+      "crop": "50% 55%",
+      "zoom": 1.7,
+      "grade": "deep",
+      "headline": "Confessed in 1869, <y>and still on display</y>",
+      "note": "This card names Hull and H. B. Martin. Whether the Chicago stonecutter knew what he was carving is unclear.",
+      "source": "Reverse of Cardiff Glen stereocard, 1873 · NYPL",
+      "alt": "Printed back of a stereocard explaining the Cardiff Giant imposture, with pencil notes.a",
+      "file": "card4.png"
+    }
+  ],
+  "slug": "cardiff-giant",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
