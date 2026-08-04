@@ -104,6 +104,20 @@ def handle(cb):
 
 
 def main():
+    # 소식이 하나도 안 올 때 원인은 대개 둘 중 하나다. 웹훅이 걸려 있어서
+    # 텔레그램이 그쪽으로 보내고 있거나, 다른 프로그램이 같은 봇을 함께
+    # 폴링해서 먼저 가져가거나. 둘 다 여기서 드러난다.
+    hook, err = telegram.call("getWebhookInfo", {})
+    if err:
+        print(f"봇 상태를 못 읽었습니다: {err}")
+    elif hook:
+        url = hook.get("url") or "(없음)"
+        print(f"웹훅: {url} · 대기 중인 소식 {hook.get('pending_update_count', 0)}건")
+
+    me, err = telegram.call("getMe", {})
+    if me:
+        print(f"봇: @{me.get('username')} (번호 {me.get('id')})")
+
     result, err = telegram.updates()
     if err:
         sys.exit(f"[실패] 텔레그램에서 답을 못 받았습니다: {err}")
