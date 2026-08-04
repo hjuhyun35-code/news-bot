@@ -1,5 +1,5 @@
 """
-완성된 카드를 독자 다섯 명에게 보여주고 반응을 받는다.
+완성된 카드를 독자 세 명에게 보여주고 반응을 받는다.
 
     python scripts/reader_reactions.py cardiff-giant
 
@@ -7,7 +7,7 @@ posts/<slug>/card*.png 를 실제로 보여준다. 사람이 인스타에서 보
 같은 것을 보게 하려는 것이다. 대본이나 자료는 주지 않는다 — 독자는
 그걸 못 보니까.
 
-다섯 명은 각각 따로 부른다. 한 번에 다 물으면 서로 눈치를 봐서
+세 명은 각각 따로 부른다. 한 번에 다 물으면 서로 눈치를 봐서
 "앞 사람 말이 맞다"는 답이 나온다. 작가와 검사관을 따로 부르는 것과
 같은 이유다.
 
@@ -27,9 +27,12 @@ from llm import answer_of
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 이 다섯 명을 고른 기준: 스크롤 속도, 이 장르 경험치, 시각적 눈높이,
-# 사실에 대한 예민함이 서로 다르게 겹치도록. 다 비슷한 사람이면
-# 다섯 번 물어도 한 번 물은 것과 같다.
+# 세 명이 축을 하나씩 맡는다. 스크롤 속도(Maya), 시각적 완성도(Sofia),
+# 사실과 과장(Robert). 다 비슷한 사람이면 세 번 물어도 한 번 물은 것과 같다.
+#
+# 처음엔 다섯이었는데 셋으로 줄였다. 게시물마다 사진을 다시 보여주는
+# 값이 사람 수에 그대로 비례하고, 빠진 둘(Daniel 34, Jess 23)이 하던
+# 지적은 남은 셋과 많이 겹쳤다. 늘리고 싶으면 여기 다시 넣으면 된다.
 READERS = [
     {
         "name": "Maya",
@@ -40,15 +43,6 @@ about one second to earn a swipe. She does not read anything that looks like
 homework. She loves being told something wild that she can screenshot and send
 to a group chat. If the first card does not land instantly she is already gone,
 and she will not feel bad about it.""",
-    },
-    {
-        "name": "Daniel",
-        "age": 34,
-        "who": """A project manager in Manchester who watches history
-documentaries in the evening and saves posts to read properly later. He is the
-kind of follower this account actually wants: he will read all six cards if the
-first one earns it. He is put off by hype and by mystery that turns out to be
-nothing, and he notices when a post promises a question and never answers it.""",
     },
     {
         "name": "Sofia",
@@ -68,15 +62,7 @@ ones — "nobody knows" about something that is in fact well understood will mak
 him comment and correct it publicly. He respects an account that says plainly
 what is not known. He is also the person who notices an uncredited photograph.""",
     },
-    {
-        "name": "Jess",
-        "age": 23,
-        "who": """Works in a coffee shop in Melbourne and has followed
-unexplained-history and true-archive accounts for years. She has seen every
-cliche in this genre — the fake cliffhanger, the recycled stock mystery, the
-caption that repeats the headline, the "scientists can't explain" framing. She
-is bored by what is familiar and genuinely delighted by what is new to her.""",
-    },
+
 ]
 
 SYSTEM = """You are a real person scrolling Instagram, not a reviewer and not

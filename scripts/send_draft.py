@@ -28,9 +28,13 @@ def esc(text):
 
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit("사용법: python scripts/send_draft.py <슬러그>")
-    slug = sys.argv[1]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    # --cards-only 는 카드만 보내고 승인 단추는 안 붙인다. 자동 발행일 때
+    # 쓴다 — 판단과 알림은 auto_publish 가 한다.
+    cards_only = "--cards-only" in sys.argv
+    if not args:
+        sys.exit("사용법: python scripts/send_draft.py <슬러그> [--cards-only]")
+    slug = args[0]
 
     post_dir = os.path.join(ROOT, "posts", slug)
     with open(os.path.join(post_dir, "post.json"), encoding="utf-8") as f:
@@ -43,6 +47,8 @@ def main():
     if err:
         sys.exit(f"[실패] 카드를 보내지 못했습니다: {err}")
     print(f"카드 {len(cards)}장 보냄")
+    if cards_only:
+        return
 
     vote_path = os.path.join(post_dir, "cover_vote.json")
     if os.path.exists(vote_path):

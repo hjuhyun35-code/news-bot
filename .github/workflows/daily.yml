@@ -86,11 +86,29 @@ jobs:
           git diff --staged --quiet && echo "nothing new" || git commit -m "draft: ${{ steps.pick.outputs.slug }}"
           git push
 
-      - name: ask for approval
+      # 카드를 먼저 보내 눈으로 볼 수 있게 하고, 그다음 판단·발행한다.
+      - name: send the cards
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/send_draft.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/send_draft.py "${{ steps.pick.outputs.slug }}" --cards-only
+
+      - name: publish, or ask if the readers say no
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python scripts/auto_publish.py "${{ steps.pick.outputs.slug }}"
+
+      - name: record the publication
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A posts
+          git diff --staged --quiet && echo "nothing new" || git commit -m "published: ${{ steps.pick.outputs.slug }}"
+          git pull --rebase --autostash -q
+          git push
 
       - name: report a failure
         if: failure()
