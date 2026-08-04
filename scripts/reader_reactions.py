@@ -105,10 +105,11 @@ SCHEMA = {
         "good": {"type": "string"},
         "bad": {"type": "string"},
         "weakest_card": {"type": "integer"},
+        "unreadable": {"type": "array", "items": {"type": "integer"}},
         "score": {"type": "integer"},
     },
     "required": ["first_second", "action", "good", "bad",
-                 "weakest_card", "score"],
+                 "weakest_card", "unreadable", "score"],
     "additionalProperties": False,
 }
 
@@ -143,7 +144,9 @@ Answer as yourself:
   action        — 실제로 어떻게 했을지
   good          — 제일 괜찮았던 것. 없으면 없다고 쓰세요.
   bad           — 제일 걸리는 것. 이게 가장 중요합니다.
-  weakest_card  — 가장 약한 카드 번호 (1-6)
+  weakest_card  — 가장 약한 카드 번호
+  unreadable    — 사진이 뭘 찍은 건지 알아볼 수 없는 카드 번호를 전부.
+                  글이 아니라 사진만 보고 판단하세요. 없으면 빈 목록.
   score         — 이 계정을 팔로우할 마음이 드는 정도 1-10.
                   10은 지금 바로 누른다는 뜻입니다. 후하게 주지 마세요."""
 
@@ -192,11 +195,21 @@ def main():
     if not out:
         sys.exit("[실패] 반응을 하나도 받지 못했습니다.")
 
+    # 여러 사람이 같은 카드를 못 알아보면 그건 취향이 아니라 결함이다.
+    votes = {}
+    for r in out:
+        for n in r.get("unreadable", []):
+            votes[n] = votes.get(n, 0) + 1
+    unreadable = sorted(n for n, c in votes.items() if c >= 3)
+    if unreadable:
+        print(f"  사진을 못 알아보겠다는 카드: "
+              f"{', '.join(f'{n}번({votes[n]}명)' for n in unreadable)}")
+
     passed = sum(1 for r in out if r["action"] in ("끝까지 봄", "저장함", "팔로우함"))
     avg = round(sum(r["score"] for r in out) / len(out), 1)
 
     with open(os.path.join(post_dir, "readers.json"), "w", encoding="utf-8") as f:
-        json.dump({"readers": out, "average": avg,
+        json.dump({"readers": out, "average": avg, "unreadable": unreadable,
                    "read_through": passed, "asked": len(out)},
                   f, ensure_ascii=False, indent=2)
 

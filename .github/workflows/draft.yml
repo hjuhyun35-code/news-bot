@@ -48,6 +48,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/reader_reactions.py "${{ inputs.slug }}"
 
+      - name: fix what readers could not read
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/fix_unreadable.py "${{ inputs.slug }}"
+
       - name: commit the draft
         run: |
           git config user.name "github-actions[bot]"
