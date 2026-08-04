@@ -174,6 +174,26 @@ def build_html(card, img_dir, handle, index, total):
             f"<div class='card'>{body}</div>")
 
 
+def shoot(page_html, out_path, browser, tmp):
+    """HTML 한 장을 PNG로. 표지 고르기 쪽에서도 이 함수를 쓴다.
+
+    브라우저 실행 옵션이 두 군데로 갈라지면 한쪽만 고쳐서 결과가
+    달라진다. 그래서 찍는 자리는 여기 하나뿐이다.
+    """
+    page = os.path.join(tmp, os.path.basename(out_path) + ".html")
+    with open(page, "w", encoding="utf-8") as f:
+        f.write(page_html)
+
+    subprocess.run([
+        browser, "--headless=new", "--disable-gpu", "--hide-scrollbars",
+        "--force-device-scale-factor=1", "--no-sandbox",
+        f"--window-size={W},{H}", "--virtual-time-budget=10000",
+        f"--screenshot={out_path}", Path(page).as_uri(),
+    ], capture_output=True, timeout=180)
+
+    return os.path.getsize(out_path) // 1024 if os.path.exists(out_path) else 0
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("사용법: python scripts/render_cards.py <슬러그>")
@@ -204,19 +224,9 @@ def main():
     # /tmp 를 못 읽는 경우가 있다.
     tmp = tempfile.mkdtemp(dir=ROOT, prefix=".render-")
     for i, card in enumerate(cards, 1):
-        page = os.path.join(tmp, f"card{i}.html")
-        with open(page, "w", encoding="utf-8") as f:
-            f.write(build_html(card, img_dir, handle, i, len(cards)))
-
         out = os.path.join(post_dir, f"card{i}.png")
-        subprocess.run([
-            browser, "--headless=new", "--disable-gpu", "--hide-scrollbars",
-            "--force-device-scale-factor=1", "--no-sandbox",
-            f"--window-size={W},{H}", "--virtual-time-budget=10000",
-            f"--screenshot={out}", Path(page).as_uri(),
-        ], capture_output=True, timeout=180)
-
-        size = os.path.getsize(out) // 1024 if os.path.exists(out) else 0
+        size = shoot(build_html(card, img_dir, handle, i, len(cards)),
+                     out, browser, tmp)
         if size < 60:
             sys.exit(f"[실패] 카드 {i} 가 {size} KB 뿐입니다. "
                      f"사진이나 글꼴을 못 불러온 것 같습니다.")
