@@ -1,14 +1,14 @@
 {
   "winner": "B",
   "tally": {
-    "A": 0,
-    "B": 5,
+    "A": 1,
+    "B": 4,
     "C": 0
   },
   "votes": [
     {
       "choice": "B",
-      "why": "B는 0.5초 안에 '누워있는 거대한 벌거벗은 몸'이 바로 읽혀서 눈이 그 팔·손 위로 먼저 꽂혔다. 위쪽에 잘린 또 하나의 손이 겹쳐 보이니까 '이게 뭐야?' 하고 되짚어보게 됨. 게다가 아래 '10 feet 4 1/2 inches' 같은 옛날 활자 수치가 살짝 보여서 진짜 옛날 전시 포스터 같은 느낌, 캡처해서 단톡방에 던지기 딱 좋다. A는 처음에 그냥 어두운 얼룩·긁힌 유리판처럼 보여서 사람 형체를 못 알아봤고, 두 번 봐야 겨우 몸통 같은 게 보이니 스크롤 속도에선 무조건 지나침. C는 그냥 누런 옛날 숲·바위 사진, 아무 일도 안 일어나서 눈이 스치고 끝.",
+      "why": "B에서 눈이 바로 아래쪽 누워 있는 벌거벗은 거대한 인체 드로잉의 얼굴로 갔다. 눈 감고 입 벌린 표정이 시체 같아서 '이게 뭐야?' 하고 멈췄고, 위쪽에 잘린 발바닥과 손이 따로 보이면서 크기가 이상하다는 게 1초 안에 읽혔다. 아래 깔린 자잘한 옛날 인쇄 글씨가 진짜 오래된 기록물 느낌을 줘서 캡처해서 단톡에 보내고 싶은 종류. A는 처음엔 흑백 대비가 세서 눈이 하얀 덩어리로 빨려들긴 했는데, 그게 사람인지 돌인지 눈이 못 알아봐서 바로 넘어갔다 — 형태를 해독하는 데 1초 이상 걸리면 나는 이미 없다. C는 그냥 누런 나무랑 바위 사진이라 볼 게 없고 글자만 다섯 줄이라 숙제 같다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Maya",
@@ -16,7 +16,7 @@
     },
     {
       "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 하단의 누워 있는 거대한 몸통 — 팔과 손가락이 또렷하게 보이고, 그 위쪽에 잘린 또 하나의 손이 프레임 끝에 걸쳐 있어서 '이게 얼마나 큰 거야?'라고 스케일을 재게 만든다. 그다음 시선이 아래 작은 활자(10 feet 4½ inches, 코 길이 6인치 같은 치수 목록)로 내려갔고, 그 문서적인 디테일이 이건 실제 기록물이라는 신호를 줘서 저장 버튼에 손이 갔다. A는 무슨 사진인지 3초 봐도 판독이 안 되는 얼룩 덩어리라 '분위기만 잡은 후처리'로 느껴지고, 제목이 다 설명해주지 않으면 아무것도 아니다. C는 그냥 세피아 숲과 바위 — 오래된 스테레오카드 느낌은 좋지만 시각적으로 아무 사건이 없어서 그냥 넘긴다.",
+      "why": "B에서 눈이 먼저 간 곳은 아래쪽 누워 있는 거인의 얼굴과 가슴이었다. 사람 형체가 명확히 읽히는데 크기가 이상하다는 감각이 바로 오고, 시선이 위쪽으로 올라가면서 화면 상단에 잘린 발과 손이 보이는 순간 '같은 몸을 두 컷으로 나눠 그린 도판'이라는 게 이해된다. 그 사이 여백과 접힌 종이 자국, 아래쪽의 치수 목록(발 길이, 코 길이 같은 숫자들)이 이게 실제 문서라는 무게를 준다. A는 몇 초 봐도 뭔지 모르겠다 — 검은 흙 위 흰 덩어리로만 읽혀서 '사람'이라는 인식이 오지 않고, 얼룩 사진 같아 그냥 넘어간다. C는 갈색 톤의 흐릿한 숲과 바위뿐이고 글자가 화면 절반을 덮어서 볼 게 없다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Daniel",
@@ -24,7 +24,7 @@
     },
     {
       "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 화면 위쪽에 툭 걸린 거대한 손이었다. 손가락 마디까지 석고처럼 그려진 게 프레임 상단에서 잘려 들어와서, 저게 뭐지 하고 위로 시선이 올라갔다가 다시 아래 누워 있는 몸통으로 내려왔다. 몸이 화면을 가로로 길게 다 잡아먹는 구도라 '길다'는 감각이 글 없이도 전달된다. 종이 접힌 선과 인쇄된 치수 캡션도 진짜 문서라는 신뢰를 주고, 세피아 톤이 탁하지 않게 정리돼 있다. 아쉬운 건 흰 볼드 텍스트가 하필 'THE ONONDAGA GIANT' 인쇄 글자 위에 겹쳐 앉아서 두 종류 타이포가 싸우는 부분 — 저건 위로 올리거나 하단 여백을 만들어야 한다. A는 3초 봐도 뭘 보는지 모르겠다. 파랗게 뒤집힌 네거티브 같아서 그냥 얼룩진 돌덩이나 눈밭으로 읽히고, 형태가 몸인지 언덕인지 해독이 안 돼서 손가락이 그냥 지나간다. C는 그냥 오래된 숲 스테레오카드고, 갈색이 뭉개져서 채석장인지도 모르겠다.",
+      "why": "B에서 눈이 먼저 간 건 아래쪽 누워 있는 인물의 얼굴과 어깨선이었다. 석판화 특유의 부드러운 목탄 그레인이 크림색 종이 위에 떠 있어서 피드의 사진들 사이에서 '이건 뭔가 오래된 문서다' 하는 이질감이 바로 걸렸다. 위쪽에 발바닥과 손이 잘려 들어온 두 번째 도판이 프레임을 두 층으로 쪼개면서 '같은 몸을 두 번 본다'는 묘한 반복도 생겼고, 아래 캡션의 작은 활자(10 feet, 4 3/4 inches...)가 진짜 자료 냄새를 낸다. 다만 흰 볼드 헤드라인이 인물 몸통과 아래 캡션 위에 정면으로 얹혀서 얼굴 다음에 바로 텍스트에 시선을 뺏기고, 'OF MAN'이 등장인물 배 위에서 겹쳐 지저분하다. 위치만 아래 여백으로 내렸으면 훨씬 좋았을 것. A는 처음에 시커먼 덩어리로 읽혀서 뭐가 사람인지 3초 안에 안 잡혔다 — 하얀 실루엣이 팔인지 눈밭인지 판독이 안 되고, 상단에 잘린 손글씨 'IFF GIANT'가 크롭 실수처럼 보여 신뢰가 깎였다. C는 색이 갈색 한 톤으로 뭉개져서 나무와 바위가 분리되지 않고, 텍스트가 5줄이나 되어 이미지가 그냥 배경지가 됐다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Sofia",
@@ -32,15 +32,15 @@
     },
     {
       "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 위쪽 여백에 떠 있는 손 하나였다. 처음엔 뭔지 몰라서 다시 봤고, 그 다음에 아래쪽 누워 있는 몸통과 옆구리에 얹힌 손이 보이면서 '아, 같은 인물을 두 각도로 그린 판화구나' 하고 정리가 됐다. 접힌 종이 자국과 밑단의 활자—'10 feet, 4½ inches', 'from crown of head to chin, 1 foot 9 inches'—까지 시선이 내려갔는데, 이 숫자들이 실제 문서라는 느낌을 줘서 손가락이 멈췄다. 검증 가능한 물건처럼 보인다는 게 제일 크다. A는 반전된 듯한 어두운 화면에서 뭐가 뭔지 3초를 봐도 형태가 안 잡혔다. 언덕인지 몸인지 나뭇가지인지 모르겠고, 후처리로 무섭게 만든 티가 나서 오히려 신뢰가 떨어졌다. C는 그냥 세피아 숲과 바위다. 캡션이 없으면 채석장인지도 모를 사진이라, 눈이 붙잡힐 지점이 하나도 없었다.",
+      "why": "A는 처음엔 흑백 대비가 세서 눈이 갔는데, 밝은 흰 덩어리가 뭔지 3초 봐도 판독이 안 됐다. 나뭇가지 같은 선이 가로지르는 흙바닥 사진인데 '사람'이 어디 있는지 안 보여서 눈이 그냥 미끄러졌다. B는 아래쪽 인물 도판에서 눈이 바로 얼굴로 갔다. 감긴 눈, 뒤로 젖힌 머리, 배 위에 얹은 손 — 사람 자세인데 이상하게 크고, 위쪽에는 같은 몸의 발과 손만 잘려 있어서 두 개의 시점이라는 게 읽힌다. 게다가 아래 캡션에 '10 feet, 4 3/4 inches', 'length of nose, 6 inches' 같은 실측 숫자가 인쇄체로 깔려 있어서, 이건 누가 실제로 재서 기록한 문서라는 신호가 된다. 나는 그 작은 활자를 확대해서 읽고 싶어졌다 — 그게 멈춤이다. C는 그냥 갈색으로 바랜 숲과 바위, 사진 자체가 아무 사건도 안 보여준다. 다만 B의 흰 대문자 자막이 도판의 얼굴과 캡션 활자를 덮고 있는 건 짜증난다. 글자를 위 여백으로 올리고 인물과 실측 캡션을 그대로 보이게 하는 편이 훨씬 낫다. 그리고 세 장 다 출처 표기가 없다 — 이건 명백히 아카이브 소장 도판인데 어느 기관 것인지 적어야 한다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Robert",
       "age": 52
     },
     {
-      "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 화면 위쪽에 툭 걸린 손이었다. 손가락 다섯 개가 확대돼 있어서 '어? 저건 사람 손인데 크기가 이상하다'고 0.5초 멈췄고, 그 다음 아래로 내려가면서 누운 몸통과 배 위에 얹힌 팔, 그리고 흐릿하게 깔린 THE ... GIANT 활자와 '10 feet, 4½ inches' 같은 실측 숫자가 눈에 들어왔다. 이 숫자가 진짜 옛 문서에서 긁어온 티가 나서 계속 읽고 싶어졌다. 이게 사진이 아니라 석판화라는 점도 오히려 낯설어서 좋았다. A는 대비만 세게 올린 흑백 얼룩덩이라 몸인지 눈밭인지 진흙인지 몇 초 봐도 파악이 안 됐고, 이 장르에서 흔한 '어둡게 만들면 무서워 보인다' 처리라 이미 지겹다. C는 그냥 세피아 숲과 바위 — 스크롤 속도 그대로 지나갈 사진이다.",
+      "choice": "A",
+      "why": "A는 처음엔 뭔지 몰라서 멈췄다. 검은 흙벽 사이에 흰 덩어리가 누워 있는데, 눈이 왼쪽 위 둥근 부분에서 오른쪽 아래로 미끄러지면서 '아 이거 사람 어깨랑 엉덩이구나' 하고 형태가 뒤늦게 잡히는 그 반 박자가 좋았다. 흙 알갱이랑 긁힌 필름 노이즈 때문에 진짜 구덩이 속을 내려다보는 느낌이고, 가로지르는 나무뿌리가 몸을 반으로 잘라서 더 불편하다. B는 이미 '삽화'라는 게 첫눈에 보여서 미스터리가 아니라 박물관 캡션 같고, 아래쪽 잔글씨랑 흰 글자가 겹쳐서 지저분하다. C는 그냥 세피아 숲 사진이라 3초 안에 뭘 봐야 할지 모르겠다 — 이 장르에서 백 번 본 '아무것도 없는 옛 풍경'이다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Jess",
@@ -51,10 +51,10 @@
   "asked": 5,
   "chosen": {
     "image": "lithograph.jpg",
-    "crop": "41% 52%",
-    "zoom": 1.5,
+    "crop": "26% 44%",
+    "zoom": 1.45,
     "grade": "paper",
-    "hook": "They sold tickets to a body that never lived",
-    "why": "A different picture and a different register: the 1869 souvenir print, where the figure is drawn cleanly and the face, arm and torso are far more legible than any surviving photograph of the object. The crop centres on the lower of the two views so a full head and body fill the card, with the legs of the upper view as a band above and the printed title 'THE ONONDAGA GIANT' just entering the bottom as period typography. It stops short of the ink handwriting ('No 1259', the Edwards signature) and the red MICROFILMED stamp at the foot of the sheet. Paper grade keeps the warm sheet tone and the soft lithographic grey."
+    "hook": "Ten feet, four inches of man who never lived.",
+    "why": "The 1869 broadside lithograph shows the giant far more clearly than any surviving photograph: bearded face, closed eyes, hand on the belly, all cleanly drawn. Crop takes the head and chest of the lower of the two figures, so a recognisable sleeping human face carries the thumbnail, with the cream paper above it acting as natural space for the headline. Framing stops well above the printed 'THE ONONDAGA GIANT' title block, the pencil accession scrawl and the pink MICROFILMED stamp at the foot of the sheet."
   }
 }
