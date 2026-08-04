@@ -60,9 +60,20 @@ the photograph, not just the crop — two crops of one picture is one idea, not
 two. Favour whichever photograph shows the actual subject most clearly, even
 if another is prettier or more authentic.
 
-zoom must be 1.0 to 1.5. crop places the subject; the card is tall, so a wide
-photograph loses its left and right edges — move the crop toward the subject
-rather than leaving it at 50%.
+fit "crop" fills the card and cuts the sides off. fit "whole" shows the entire
+photograph inside the card with a blurred copy of itself filling the space
+above and below. Use "whole" when the subject spans a wide photograph and
+cropping would leave only a piece of it — a body lying down, a row of people,
+a long building. A reader cannot recognise a torso; they can recognise a whole
+figure. Do not use "whole" on a stereocard or any picture wider than about
+1.7:1 — it becomes a thin strip and the mount board shows.
+
+At least one of your three candidates must use "whole" if any supplied
+photograph is wider than it is tall and shows its subject end to end.
+
+zoom must be 1.0 to 1.5, and is ignored when fit is "whole". crop places the
+subject; the card is tall, so a wide photograph loses its left and right edges
+— move the crop toward the subject rather than leaving it at 50%.
 
 Watch for scan artefacts — black mount edges, grey calibration strips, curator
 handwriting. Half a word of handwriting left in a corner reads as a mistake.
@@ -82,13 +93,15 @@ CANDIDATE_SCHEMA = {
                     "image": {"type": "string"},
                     "crop": {"type": "string"},
                     "zoom": {"type": "number"},
+                    "fit": {"type": "string", "enum": ["crop", "whole"]},
                     "grade": {"type": "string",
                               "enum": ["base", "paper", "ink", "cold",
                                        "warm", "deep"]},
                     "hook": {"type": "string"},
                     "why": {"type": "string"},
                 },
-                "required": ["image", "crop", "zoom", "grade", "hook", "why"],
+                "required": ["image", "crop", "zoom", "fit", "grade",
+                             "hook", "why"],
                 "additionalProperties": False,
             },
         }
@@ -119,9 +132,11 @@ VOTE_SCHEMA = {
         "choice": {"type": "string", "enum": LETTERS},
         "why": {"type": "string"},
         "stops_scroll": {"type": "boolean"},
+        "unreadable": {"type": "array",
+                       "items": {"type": "string", "enum": LETTERS}},
         "worst": {"type": "string", "enum": LETTERS},
     },
-    "required": ["choice", "why", "stops_scroll", "worst"],
+    "required": ["choice", "why", "stops_scroll", "unreadable", "worst"],
     "additionalProperties": False,
 }
 
@@ -178,6 +193,7 @@ Above are {len(blocks) // 2} versions of the same post's cover.
   choice        — 어느 것이 스크롤을 멈추는가
   why           — 왜 그런지. 눈이 어디로 갔는지 구체적으로.
   stops_scroll  — 고른 것이 정말 멈추게 하는가. 아니면 false.
+  unreadable    — 사진이 뭘 찍은 건지 알아볼 수 없는 것을 전부. 없으면 빈 목록.
   worst         — 제일 약한 것"""
 
     r = client.messages.create(
@@ -231,8 +247,8 @@ def main():
         paths = []
         for letter, c in zip(LETTERS, covers):
             card = {"layout": "cover", "image": c["image"], "crop": c["crop"],
-                    "zoom": c["zoom"], "grade": c["grade"],
-                    "headline": c["hook"], "source": ""}
+                    "zoom": c["zoom"], "fit": c.get("fit", "crop"),
+                    "grade": c["grade"], "headline": c["hook"], "source": ""}
             out = os.path.join(tmp, f"cover-{letter}.png")
             kb = render_cards.shoot(
                 render_cards.build_html(card, img_dir, handle, 1, 6),
@@ -273,7 +289,19 @@ def main():
         if not votes:
             sys.exit("[중단] 투표를 받지 못했습니다.")
 
-        winner = max(tally, key=lambda k: tally[k])
+        # 여러 사람이 못 알아보는 후보는 표를 받았어도 표지가 될 수 없다.
+        # 나란히 놓고 고를 때는 "그중 나은 것"을 고르게 되지만, 피드에서는
+        # 비교 대상 없이 혼자 지나간다.
+        blind = {}
+        for v in votes:
+            for letter in v.get("unreadable", []):
+                blind[letter] = blind.get(letter, 0) + 1
+        dead = {l for l, c in blind.items() if c >= 3}
+        for letter in sorted(dead):
+            print(f"  [실격] {letter}: {blind[letter]}명이 못 알아봄")
+
+        alive = {l: v for l, v in tally.items() if l not in dead} or tally
+        winner = max(alive, key=lambda k: alive[k])
         chosen = next(c for letter, c, _ in paths if letter == winner)
         stops = sum(1 for v in votes if v["stops_scroll"])
 
@@ -282,7 +310,8 @@ def main():
         print(f"4단계 — {winner} 를 표지로 ({tally[winner]}/{len(votes)}표)")
 
         source["cover"] = {"image": chosen["image"], "crop": chosen["crop"],
-                           "zoom": chosen["zoom"], "grade": chosen["grade"]}
+                           "zoom": chosen["zoom"], "fit": chosen.get("fit", "crop"),
+                           "grade": chosen["grade"]}
         with open(src_path, "w", encoding="utf-8") as f:
             json.dump(source, f, ensure_ascii=False, indent=2)
 
