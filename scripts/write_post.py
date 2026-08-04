@@ -137,6 +137,17 @@ For each card also choose:
   zoom   — 1 for full frame, 2-3 for a detail crop. Zoom in when the interesting
            part is small in the frame, or to avoid scan borders and blank margins.
 
+           Zoom is a spice, not a default. ONE card in the post may go past 2.
+           An old photograph pushed to 2.5 stops being a photograph of a thing
+           and becomes a patch of grey; readers cannot tell stone from soil
+           from sky, and a card whose picture says nothing is a wasted card.
+           Before zooming past 2, name the thing you are zooming into — a
+           face, a hand, a joint, a line of print. If you cannot name it,
+           do not zoom.
+
+  note   — under 150 characters. Two short sentences. Six lines of text on a
+           card is a wall, and readers swipe past walls.
+
            Library scans often photograph the physical object, not just the
            picture: a black mount board, a grey-scale calibration strip along
            one edge, curator pencil marks. None of that may appear on a card.
@@ -311,6 +322,8 @@ ALT_MAX = 100
 SOURCE_MAX = 70
 CARDS = 6            # 표지 1 + 본문 4 + 마무리 1
 COVER_ZOOM_MAX = 1.5 # 표지는 확대하면 안 된다. 아래 tidy() 주석 참고
+NOTE_MAX = 150       # 설명글. 길면 카드가 글 벽이 된다
+DETAIL_ZOOM = 2.0    # 이보다 세게 확대한 카드는 한 장만 남긴다
 
 
 def tidy(post, known_images):
@@ -337,7 +350,31 @@ def tidy(post, known_images):
         problems.append(f"표지 확대가 {cards[0]['zoom']}배 "
                         f"(한도 {COVER_ZOOM_MAX}배). 표지는 피사체 전체가 보여야 합니다")
 
+    # 확대는 양념이어야 한다. 오래된 기록사진을 두세 배로 당기면 형체가
+    # 사라지고 얼룩만 남는다. 제일 세게 당긴 한 장만 남기고 나머지는 푼다.
+    # 확대를 푸는 쪽은 사진이 더 많이 보이는 쪽이라 안전한 자동 수정이다.
+    deep = [(n, c) for n, c in enumerate(cards[1:], 2)
+            if c.get("zoom", 1) > DETAIL_ZOOM]
+    for n, card in sorted(deep, key=lambda x: -x[1]["zoom"])[1:]:
+        was = card["zoom"]
+        card["zoom"] = DETAIL_ZOOM
+        fixed.append(f"카드 {n} 확대를 {was}배에서 {DETAIL_ZOOM}배로 품")
+
     for n, card in enumerate(cards, 1):
+        # 설명글이 길면 문장 단위로 뒤에서 덜어낸다. 문장 중간을 자르면
+        # 말이 끊기지만, 문장을 통째로 빼면 짧아질 뿐이다.
+        note = card.get("note", "")
+        if len(note) > NOTE_MAX:
+            parts = re.split(r"(?<=[.!?])\s+", note)
+            kept = ""
+            for part in parts:
+                if kept and len(kept) + 1 + len(part) > NOTE_MAX:
+                    break
+                kept = f"{kept} {part}".strip()
+            if kept and kept != note:
+                card["note"] = kept
+                fixed.append(f"카드 {n} 설명을 {len(note)}자에서 {len(kept)}자로 줄임")
+
         if card.get("image") not in known_images:
             problems.append(f"카드 {n} 이 없는 사진을 가리킴: {card.get('image')}")
         # 같은 사진이 연달아 나오면 넘겨도 안 넘어간 것처럼 보인다
