@@ -25,10 +25,10 @@ import urllib.request
 import anthropic
 
 from llm import block_from
+from web import fetch, get_json as get
 
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = "GlassNegativeBot/1.0 (hjuhyun35@gmail.com)"
 
 # 카드 한 장에 사진 한 장이다. 그래서 여기서 고른 수가 그대로 카드 수가 된다.
 # 사진 넉 장으로 카드 여섯 장을 만들던 때는 두 장이 반드시 반복됐고,
@@ -43,20 +43,6 @@ JUNK = re.compile(
     r"|edit-icon|symbol_|flag_of|coat_of_arms|folder_|_icon|question_book"
     r"|ambox|padlock|red_pencil|nuvola|crystal_clear|gnome-|text_document)",
     re.IGNORECASE)
-
-
-def get(url, params=None):
-    if params:
-        url = f"{url}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode())
-
-
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return r.read()
 
 
 def strip(raw):

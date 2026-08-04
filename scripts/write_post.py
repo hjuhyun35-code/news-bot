@@ -28,10 +28,10 @@ import urllib.request
 import anthropic
 
 from llm import image_block
+from web import get_json as get
 
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA = "GlassNegativeBot/1.0 (hjuhyun35@gmail.com)"
 
 # 이 주제들은 아예 만들지 않는다. 사람이 관련된 사건은 유족이 있고,
 # 음모론은 계정을 조용히 죽인다.
@@ -42,14 +42,6 @@ BANNED = [
     "conspiracy", "hoax theory", "cover-up", "false flag",
     "ufo sighting", "alien abduction", "paranormal", "haunted",
 ]
-
-
-def get(url, params=None):
-    if params:
-        url = f"{url}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode())
 
 
 def wikipedia_extract(title):
