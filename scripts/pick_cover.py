@@ -28,6 +28,7 @@ import tempfile
 import anthropic
 
 import render_cards
+from llm import answer_of
 from reader_reactions import READERS
 
 MODEL = "claude-opus-5"
@@ -149,13 +150,13 @@ The cover headline is already written and will not change:
 Propose three covers for that headline using the photographs above."""
 
     r = client.messages.create(
-        model=MODEL, max_tokens=3000, system=CANDIDATE_SYSTEM,
+        model=MODEL, max_tokens=8000, system=CANDIDATE_SYSTEM,
         output_config={"format": {"type": "json_schema",
                                   "schema": CANDIDATE_SCHEMA}},
         messages=[{"role": "user",
                    "content": blocks + [{"type": "text", "text": prompt}]}],
     )
-    return json.loads(next(b.text for b in r.content if b.type == "text"))["covers"]
+    return answer_of(r, "표지 후보")["covers"]
 
 
 def vote(client, reader, blocks, headline):
@@ -172,14 +173,12 @@ same words: "{headline}"
   worst         — 제일 약한 것"""
 
     r = client.messages.create(
-        model=MODEL, max_tokens=1500, system=VOTE_SYSTEM,
+        model=MODEL, max_tokens=4000, system=VOTE_SYSTEM,
         output_config={"format": {"type": "json_schema", "schema": VOTE_SCHEMA}},
         messages=[{"role": "user",
                    "content": blocks + [{"type": "text", "text": prompt}]}],
     )
-    if r.stop_reason == "refusal":
-        return None
-    return json.loads(next(b.text for b in r.content if b.type == "text"))
+    return answer_of(r, "표지 투표")
 
 
 def main():

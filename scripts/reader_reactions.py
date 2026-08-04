@@ -22,6 +22,8 @@ import sys
 
 import anthropic
 
+from llm import answer_of
+
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -147,15 +149,13 @@ Answer as yourself:
 
     r = client.messages.create(
         model=MODEL,
-        max_tokens=2000,
+        max_tokens=4000,
         system=SYSTEM,
         output_config={"format": {"type": "json_schema", "schema": SCHEMA}},
         messages=[{"role": "user",
                    "content": blocks + [{"type": "text", "text": prompt}]}],
     )
-    if r.stop_reason == "refusal":
-        return None
-    return json.loads(next(b.text for b in r.content if b.type == "text"))
+    return answer_of(r, f"{reader['name']} 반응")
 
 
 def main():
