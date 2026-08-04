@@ -1,0 +1,185 @@
+{
+  "claims": [
+    {
+      "claim": "A New York paper claimed the depicted creature (a man-bat) lived on the Moon",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "was a series of six articles published in The Sun (a New York newspaper), beginning on August 25, 1835, about the supposed discovery of life and civilization on the Moon"
+    },
+    {
+      "claim": "The hoax dates to 1835 and consisted of six articles in one newspaper",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The first in a series of six was published four days later on August 25."
+    },
+    {
+      "claim": "The man-bat image comes from a Naples edition of 1836 and is public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Description: Portrait of a man-bat (Vespertilio-homo), from an edition of the moon series published in Naples.\nDate: 1836"
+    },
+    {
+      "claim": "The Sun ran six articles starting 25 August 1835",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "a series of six articles published in The Sun (a New York newspaper), beginning on August 25, 1835"
+    },
+    {
+      "claim": "The articles were credited to Sir John Herschel and his companion Dr Andrew Grant, who did not exist",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The author of the narrative was ostensibly Dr. Andrew Grant, the travelling companion and amanuensis of Sir John Herschel, but Grant was fictitious."
+    },
+    {
+      "claim": "The lunar-animals lithograph is by Benjamin Henry Day, 1835, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 1835\nAuthor: Benjamin Henry Day (1810-1889)\nLicence: Public domain"
+    },
+    {
+      "claim": "The articles described unicorns, mini zebras and bipedal tail-less beavers",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "The articles described animals on the Moon, including bison, single-horned goats, mini zebras, unicorns, bipedal tail-less beavers and bat-like winged humanoids"
+    },
+    {
+      "claim": "They also described bison and single-horned goats",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "including bison, single-horned goats, mini zebras, unicorns"
+    },
+    {
+      "claim": "In the Welsh edition image, smoke rises from the beavers' hut",
+      "where": "card 3 note / welshlunarlandscape.png",
+      "verdict": "supported",
+      "quote": "Note the plume of\n smoke issuing from the hut of the biped beavers."
+    },
+    {
+      "claim": "The busy lunar landscape image is from Hanes y Lleuad, a Welsh edition, circa 1836",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:The Inhabitants of the Moon, 1836, Welsh edition.png ... Author: Hanes y Lleuad"
+    },
+    {
+      "claim": "The telescope's lens was said to be 24 feet across and to weigh seven tons",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The lens measured \"24 feet in diameter and 7 tons in weight\"."
+    },
+    {
+      "claim": "The telescope was said to have been shipped from New England to South Africa",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "The telescope, transported to South Africa from New England, was said to be many times larger than any other telescope in the world."
+    },
+    {
+      "claim": "Sunlight focused through the lens burned the observatory down, ending the story",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "the authors announced that the observations had been terminated by the destruction of the telescope, by means of the Sun causing the lens to act as a \"burning glass\", setting fire to the observatory"
+    },
+    {
+      "claim": "The fourth image is a lithograph by Thierry Frères, c.1835",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Date: circa 1835 ... Author: Lith. de Thierry Frères."
+    },
+    {
+      "claim": "The author confessed five years after the hoax",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "Locke publicly admitted to being the author in 1840, in a letter to the weekly paper New World."
+    },
+    {
+      "claim": "Richard Adams Locke was a Sun reporter who admitted authorship in 1840 in a letter to the New World",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Authorship has subsequently been attributed to Richard Adams Locke (1800–1871), a reporter who, in August 1835, was working for The Sun. Locke publicly admitted to being the author in 1840, in a letter to the weekly paper New World."
+    },
+    {
+      "claim": "The title page shown is from The Moon Hoax, New York, 1859",
+      "where": "card 5 source / titlepage.png",
+      "verdict": "supported",
+      "quote": "NEW YORK: WILLIAM GOWANS, 1859."
+    },
+    {
+      "claim": "A single newspaper reporter invented the whole thing",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "However, there is no good evidence to indicate that anyone but Locke was the author of the hoax."
+    },
+    {
+      "claim": "The Sun admitted the articles were fabricated on 16 September 1835 but never retracted them",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "These articles were never retracted; however, on September 16, 1835, The Sun admitted the articles were in fact fabricated."
+    },
+    {
+      "claim": "Rumours that others were involved persist",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Despite Locke's claims, rumours persisted that others were involved in the articles' creation."
+    },
+    {
+      "claim": "The sixth image is by Gaetano Dura, Naples, 1836",
+      "where": "card 6 source / diligenzaballoonsati.jpg",
+      "verdict": "supported",
+      "quote": "DILIGENZA DI RITORNO DALLA LUNA / Napoli 1° Aprile 1836"
+    },
+    {
+      "claim": "The winged humanoids were called Vespertilio-homo, or man-bats, and built temples",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "bat-like winged humanoids (\"Vespertilio-homo\") who built temples"
+    },
+    {
+      "claim": "Herschel was a real person and Grant was invented",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The discoveries were falsely attributed to Sir John Herschel and his fictitious companion Andrew Grant."
+    },
+    {
+      "claim": "Herschel was amused at first, then annoyed at answering people who believed the hoax",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Herschel was initially amused by the hoax, noting that his own real observations could never be as exciting. He later became annoyed when he had to answer questions from people who believed the hoax was serious."
+    },
+    {
+      "claim": "The claim that the hoax permanently increased The Sun's circulation has been exaggerated in popular accounts",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "However, the degree to which the hoax increased the paper's circulation has certainly been exaggerated in popular accounts of the event."
+    },
+    {
+      "claim": "The man-bat portrait is courtesy of the New York Public Library",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "(Courtesy of the New York Public Library.)"
+    },
+    {
+      "claim": "The Welsh image is the frontispiece of Hanes y Lleuad",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "(Frontispiece of Hanes y Lleuad © The  British Library  Board. All Rights Reserved.)"
+    },
+    {
+      "claim": "The 1859 New York edition was a reprint",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Moon Hoax (1859 reprint) at Internet Archive"
+    },
+    {
+      "claim": "Gaetano Dura's 1836 lithograph depicts a coach returning from the Moon",
+      "where": "caption / diligenzaballoonsati.jpg",
+      "verdict": "supported",
+      "quote": "DILIGENZA DI RITORNO DALLA LUNA"
+    },
+    {
+      "claim": "All the images are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 0
+}

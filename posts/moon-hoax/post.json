@@ -1,0 +1,86 @@
+{
+  "caption": "What was the Great Moon Hoax of 1835?\n\nStarting 25 August 1835, The Sun in New York ran six articles announcing life and civilisation on the Moon — bison, single-horned goats, mini zebras, unicorns, bipedal tail-less beavers, and winged humanoids called Vespertilio-homo, man-bats, who built temples.\n\nThe discoveries were credited to Sir John Herschel and his travelling companion Dr Andrew Grant. Herschel was real. Grant was invented. The telescope was said to have a lens 24 feet across weighing 7 tons, carried from New England to South Africa. The series ended when the Sun turned that lens into a burning glass and set the observatory on fire.\n\nOn 16 September 1835 The Sun admitted the articles were fabricated. It never printed a retraction. Richard Adams Locke, a Sun reporter, publicly admitted writing them in 1840.\n\nStill open: rumours persisted that other men helped, though there is no good evidence for anyone but Locke. Herschel was amused at first, then annoyed at having to answer people who thought it was serious. And the claim that the hoax permanently lifted The Sun's circulation has certainly been exaggerated in popular accounts.\n\nImages: man-bat portrait from an 1836 Naples edition, courtesy of the New York Public Library; Benjamin Henry Day's 1835 lithograph of lunar animals; Nouvelles découvertes dans la Lune by Thierry Frères; the frontispiece of the Welsh Hanes y Lleuad; the 1859 New York reprint title page; and Gaetano Dura's 1836 Naples lithograph of a coach returning from the Moon. All public domain.\n\n#greatmoonhoax #1835 #presshistory #publicdomain #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "manbat.png",
+      "crop": "50% 38%",
+      "zoom": 1.08,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "A New York paper said <y>this lived on the Moon</y>",
+      "note": "1835. Six articles, one newspaper, a whole lunar civilisation.",
+      "source": "Man-bat, Naples edition, 1836 · public domain",
+      "alt": "Engraving of a bearded winged man standing on a rocky peak, bat wings spread wide.layout",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "lunaranimalslithogra.jpg",
+      "crop": "20% 42%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The Sun ran <y>six articles</y> starting 25 August 1835",
+      "note": "They were credited to Sir John Herschel and his companion Dr Andrew Grant. Grant did not exist.",
+      "source": "Benjamin Henry Day lithograph, 1835 · public domain",
+      "alt": "Lithograph of winged human figures flying over cliffs, waterfalls and grazing animals.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "welshlunarlandscape.png",
+      "crop": "50% 42%",
+      "zoom": 1.3,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "Unicorns, mini zebras and <y>two-legged tailless beavers</y>",
+      "note": "Also bison and single-horned goats. In this Welsh edition, smoke rises from the beavers' hut.",
+      "source": "Hanes y Lleuad, Welsh edition, 1836 · public domain",
+      "alt": "Woodcut of winged people under a tree, with birds, beavers and a small hut behind them.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "nouvellesdecouvertes.jpg",
+      "crop": "48% 20%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "The lens: <y>24 feet across, seven tons</y>",
+      "note": "Shipped from New England to South Africa, the story said. Sunlight through it then burned the observatory down.",
+      "source": "Lith. de Thierry Frères, c.1835 · public domain",
+      "alt": "Lithograph of a columned temple with flames on top, standing among palms and hills.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "titlepage.png",
+      "crop": "50% 18%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The author confessed <y>five years later</y>",
+      "note": "Richard Adams Locke, a Sun reporter, admitted authorship in 1840 in a letter to the New World.",
+      "source": "The Moon Hoax, New York, 1859 · public domain",
+      "alt": "Printed title page reading THE MOON HOAX, by Richard Adams Locke, New York, 1859.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "diligenzaballoonsati.jpg",
+      "crop": "50% 48%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "A newspaper reporter <y>invented all of it</y>",
+      "note": "The Sun called the articles fabricated on 16 Sept 1835 but never retracted them. Rumours of other authors persist.",
+      "source": "Gaetano Dura, Naples, 1836 · public domain",
+      "alt": "Lithograph of a crowded boat under a parachute, towed through the sky by winged figures.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "moon-hoax",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

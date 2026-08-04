@@ -1,0 +1,38 @@
+{
+  "subject": "The Great Moon Hoax of 1835, when a New York newspaper reported life on the Moon",
+  "wikipedia": "Great Moon Hoax",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "manbat.png",
+      "commons": "File:1836 the-great-moon-hoax-new-inhabitants-of-the-moon.png"
+    },
+    {
+      "file": "lunaranimalslithogra.jpg",
+      "commons": "File:Great Moon Hoax - Day 4.jpg"
+    },
+    {
+      "file": "nouvellesdecouvertes.jpg",
+      "commons": "File:Great Moon Hoax.jpg"
+    },
+    {
+      "file": "welshlunarlandscape.png",
+      "commons": "File:The Inhabitants of the Moon, 1836, Welsh edition.png"
+    },
+    {
+      "file": "titlepage.png",
+      "commons": "File:Moon Hoax 1859 NY William Gowans.png"
+    },
+    {
+      "file": "diligenzaballoonsati.jpg",
+      "commons": "File:Diligenza di ritorno dalla luna - Gaetana Dura, dis. ; Lit. Gatti e Dura. LCCN2013648240.jpg"
+    }
+  ],
+  "cover": {
+    "image": "manbat.png",
+    "crop": "50% 38%",
+    "zoom": 1.08,
+    "fit": "crop",
+    "grade": "ink"
+  }
+}
