@@ -22,8 +22,8 @@
   ],
   "cover": {
     "image": "lithograph.jpg",
-    "crop": "26% 44%",
-    "zoom": 1.45,
+    "crop": "40% 33%",
+    "zoom": 1.5,
     "grade": "paper"
   }
 }
