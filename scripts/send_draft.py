@@ -44,6 +44,26 @@ def main():
         sys.exit(f"[실패] 카드를 보내지 못했습니다: {err}")
     print(f"카드 {len(cards)}장 보냄")
 
+    # 독자 반응은 따로 보낸다. 승인 메시지에 합치면 길이 제한(4096자)에
+    # 걸려서 정작 승인 단추가 잘려나간다.
+    readers_path = os.path.join(post_dir, "readers.json")
+    if os.path.exists(readers_path):
+        with open(readers_path, encoding="utf-8") as f:
+            rd = json.load(f)
+
+        lines = [f"<b>독자 반응</b> — 평균 {rd['average']}점 / 10",
+                 f"{rd['asked']}명 중 {rd['read_through']}명이 끝까지 봤습니다.",
+                 ""]
+        for r in rd["readers"]:
+            lines.append(f"<b>{esc(r['name'])} ({r['age']})</b> "
+                         f"{r['score']}점 · {esc(r['action'])}")
+            lines.append(f"첫인상: {esc(r['first_second'])}")
+            lines.append(f"👍 {esc(r['good'])}")
+            lines.append(f"👎 {esc(r['bad'])}  (약한 카드 {r['weakest_card']}번)")
+            lines.append("")
+        telegram.say("\n".join(lines)[:4000])
+        print(f"독자 반응 보냄 (평균 {rd['average']}점)")
+
     # 사실 검증 결과
     problems = []
     check_path = os.path.join(post_dir, "check.json")
@@ -53,6 +73,9 @@ def main():
         problems = [c for c in check["claims"] if c["verdict"] != "supported"]
 
     lines = [f"<b>{esc(slug)}</b>", ""]
+    if os.path.exists(readers_path):
+        lines.append(f"독자 {rd['average']}점 · "
+                     f"{rd['asked']}명 중 {rd['read_through']}명 끝까지 봄")
     lines.append(f"캡션 {len(post['caption'])}자")
     lines.append("")
     lines.append(esc(post["caption"][:700]))
