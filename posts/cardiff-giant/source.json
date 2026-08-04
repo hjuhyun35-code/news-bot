@@ -22,8 +22,9 @@
   ],
   "cover": {
     "image": "giant.jpg",
-    "crop": "38% 54%",
-    "zoom": 1.35,
+    "crop": "50% 50%",
+    "zoom": 1.0,
+    "fit": "whole",
     "grade": "deep"
   }
 }
