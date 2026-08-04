@@ -115,11 +115,19 @@ html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
 .note { font:400 30px/1.45 'CardBody', sans-serif; text-align:center;
         color:rgba(255,255,255,.82); max-width:27ch; }
 
-/* 표지와 마무리 카드는 사진 위에 글자를 얹는다 */
+/* 표지와 마무리 카드는 사진 위에 글자를 얹는다.
+   사진이 밝거나 — 옛 인쇄물, 문서, 도면 — 그 자체에 글자가 들어 있으면
+   흰 글자가 뒷글자와 뒤섞여 안 읽힌다. 그래서 글자 아래에 어두운 판을
+   깐다. 그라데이션만으로는 부족했다. */
+.scrim { position:absolute; z-index:3; left:0; right:0; bottom:0; height:62%;
+         background:linear-gradient(to top, rgba(6,8,14,.94) 0%,
+                   rgba(6,8,14,.88) 34%, rgba(6,8,14,.62) 62%,
+                   rgba(6,8,14,0) 100%); }
 .over { position:absolute; z-index:4; left:0; right:0; bottom:0;
         padding:0 62px 66px; display:flex; flex-direction:column;
         align-items:center; gap:26px; }
-.over .cap { font-size:112px; }
+.over .cap { font-size:112px; text-shadow:0 4px 22px rgba(0,0,0,.7); }
+.over .note { text-shadow:0 2px 12px rgba(0,0,0,.8); }
 
 /* 본문 카드는 검은 띠에 글자를 넣는다 */
 .bar { background:#000; flex:0 0 auto; padding:0 54px 40px;
@@ -177,6 +185,7 @@ def build_html(card, img_dir, handle, index, total):
         <div class="stage">
           {picture}
           <div class="grade"></div><div class="burn"></div>
+          <div class="scrim"></div>
           <div class="src">{src}</div>
           <div class="over">{stamp}<div class="cap">{cap}</div>{note}{cta}</div>
         </div>"""
