@@ -108,6 +108,15 @@ def main():
     if err:
         sys.exit(f"[실패] 텔레그램에서 답을 못 받았습니다: {err}")
 
+    # 무엇이 왔는지 항상 남긴다. "새 승인 없음" 만 찍히면 단추를 눌렀는데
+    # 안 왔는지, 아예 안 눌렀는지 구분할 수 없다.
+    kinds = {}
+    for u in result:
+        for key in u:
+            if key != "update_id":
+                kinds[key] = kinds.get(key, 0) + 1
+    print(f"받은 소식 {len(result)}건: {kinds or '(없음)'}")
+
     clicks = [u for u in result if "callback_query" in u]
     if not clicks:
         print("새 승인 없음")
