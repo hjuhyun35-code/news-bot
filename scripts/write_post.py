@@ -105,6 +105,15 @@ from elsewhere, that is exactly the failure this rule exists to prevent.
 
 Card structure:
   1  cover    — the hook. A question or a flat contradiction. Under 10 words.
+
+     THE COVER MUST SHOW THE THING. A reader meets this card at thumbnail size
+     while scrolling fast, and they have to be able to tell what they are
+     looking at without reading a word. Show the whole subject, in frame,
+     recognisable. Use zoom 1 to 1.4 — a tight crop turns a photograph into an
+     unreadable patch of texture, and a reader who cannot tell whether they are
+     looking at ground, sky, or stone swipes past. Save the detail crops for
+     the body cards, where the headline has already told them what it is.
+
   2-5 body    — one idea per card. Build toward the answer.
   6  closing  — what remains genuinely unresolved, honestly stated.
 
@@ -301,6 +310,7 @@ CAPTION_MAX = 2200   # 인스타 캡션 한도
 ALT_MAX = 100
 SOURCE_MAX = 70
 CARDS = 6            # 표지 1 + 본문 4 + 마무리 1
+COVER_ZOOM_MAX = 1.5 # 표지는 확대하면 안 된다. 아래 tidy() 주석 참고
 
 
 def tidy(post, known_images):
@@ -321,9 +331,18 @@ def tidy(post, known_images):
         if got != want:
             problems.append(f"카드 구성이 잘못됨: {' / '.join(got)}")
 
+    # 표지를 확대하면 사진이 알아볼 수 없는 얼룩이 된다. 독자 다섯 명 중
+    # 넷이 "표지가 뭘 찍은 건지 모르겠다"고 한 판이 실제로 있었다.
+    if cards and cards[0].get("zoom", 1) > COVER_ZOOM_MAX:
+        problems.append(f"표지 확대가 {cards[0]['zoom']}배 "
+                        f"(한도 {COVER_ZOOM_MAX}배). 표지는 피사체 전체가 보여야 합니다")
+
     for n, card in enumerate(cards, 1):
         if card.get("image") not in known_images:
             problems.append(f"카드 {n} 이 없는 사진을 가리킴: {card.get('image')}")
+        # 같은 사진이 연달아 나오면 넘겨도 안 넘어간 것처럼 보인다
+        if n > 1 and card.get("image") == cards[n - 2].get("image"):
+            problems.append(f"카드 {n - 1}과 {n}이 같은 사진 ({card.get('image')})")
 
         src = card.get("source", "")
         # "File:Wardenclyffe Tower - 1904.jpg, ..." 같은 파일명 접두어 제거
