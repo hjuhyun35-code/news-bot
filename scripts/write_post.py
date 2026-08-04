@@ -355,8 +355,15 @@ def tidy(post, known_images):
             fixed.append(f"카드 {n} 출처에서 파일명 제거 → \"{cleaned}\"")
         if len(card["source"]) > SOURCE_MAX:
             problems.append(f"카드 {n} 출처가 {len(card['source'])}자 (한도 {SOURCE_MAX})")
-        if len(card.get("alt", "")) > ALT_MAX:
-            problems.append(f"카드 {n} 대체텍스트가 {len(card['alt'])}자 (한도 {ALT_MAX})")
+        # 대체텍스트는 사진 설명이라 뒤를 잘라도 틀린 말이 되지 않는다.
+        # 여덟 자 넘겼다고 실행 전체를 죽이면 그날 게시물이 없다.
+        # 캡션과 출처는 자르지 않는다 — 캡션은 끝에 출처와 해시태그가 있고,
+        # 출처는 자르면 "public domain" 이 떨어져 나간다.
+        alt = card.get("alt", "")
+        if len(alt) > ALT_MAX:
+            cut = alt[:ALT_MAX].rsplit(" ", 1)[0].rstrip(" ,.;-") or alt[:ALT_MAX]
+            card["alt"] = cut
+            fixed.append(f"카드 {n} 대체텍스트를 {len(alt)}자에서 {len(cut)}자로 줄임")
     if len(post["caption"]) > CAPTION_MAX:
         problems.append(f"캡션이 {len(post['caption'])}자 (한도 {CAPTION_MAX})")
     return fixed, problems
