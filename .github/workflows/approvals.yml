@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: "13,43 * * * *"
   workflow_dispatch:
+    inputs:
+      test_button:
+        description: "send a fresh test button before checking"
+        required: false
+        default: "no"
 
 # 두 개가 겹쳐 돌면 같은 승인을 두 번 처리할 수 있다.
 concurrency:
@@ -26,6 +31,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: send a test button
+        if: inputs.test_button == 'yes'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/notify.py --button "시험용입니다. 이 글의 단추를 눌러주세요."
 
       - name: read the buttons
         env:
