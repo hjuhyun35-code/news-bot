@@ -75,11 +75,25 @@ def answer(callback_id, text=""):
                 {"callback_query_id": callback_id, "text": text})
 
 
-def edit(chat_id, message_id, text):
-    """이미 보낸 글을 고친다. 처리된 단추를 다시 못 누르게 하는 용도."""
-    return call("editMessageText", {
-        "chat_id": chat_id, "message_id": message_id,
-        "text": text, "parse_mode": "HTML"})
+def keyboard(buttons):
+    return json.dumps({"inline_keyboard": [
+        [{"text": label, "callback_data": value} for label, value in row]
+        for row in buttons
+    ]})
+
+
+def edit(chat_id, message_id, text, buttons=None):
+    """이미 보낸 글을 고친다.
+
+    buttons 를 주지 않으면 단추가 아예 사라진다. 그러면 눌렸는지 아닌지
+    화면에 안 남고, 실패했을 때 다시 누를 수도 없다. 그래서 처리가 끝나면
+    상태를 보여주는 단추로 바꾸고, 실패했을 때는 원래 단추를 그대로 둔다.
+    """
+    params = {"chat_id": chat_id, "message_id": message_id,
+              "text": text, "parse_mode": "HTML"}
+    if buttons:
+        params["reply_markup"] = keyboard(buttons)
+    return call("editMessageText", params)
 
 
 def is_owner(user_id):

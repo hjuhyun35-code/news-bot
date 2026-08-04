@@ -43,50 +43,64 @@ def publish(slug):
     return r.returncode == 0, (r.stdout + r.stderr)[-1500:]
 
 
+# 처리가 끝난 뒤 보여줄 단추. 누르면 아무 일도 하지 않고 안내만 뜬다.
+DONE = [[("✅ 올라감", "done")]]
+DROPPED = [[("🗑 버림", "done")]]
+RETRY = None   # 실패했을 때는 원래 단추를 그대로 둔다
+
+
 def handle(cb):
-    """단추 하나를 처리한다. (사용자에게 보여줄 글, 성공 여부)"""
+    """단추 하나를 처리한다. (보여줄 글, 바꿀 단추)
+
+    단추를 None 으로 돌려주면 원래 단추가 그대로 남는다. 실패했을 때
+    그렇게 한다 — 고친 뒤 같은 자리에서 다시 누를 수 있어야 한다.
+    """
     who = cb.get("from", {}).get("id")
     data = cb.get("data", "")
 
     if not telegram.is_owner(who):
         print(f"  [거절] 주인이 아닌 사람({who})이 눌렀습니다: {data}")
-        return None, False
+        return None, RETRY
+
+    if data == "done":          # 이미 끝난 글의 단추를 다시 누른 것
+        return None, RETRY
 
     if ":" not in data:
-        return None, False
+        return None, RETRY
     action, slug = data.split(":", 1)
 
     if not SLUG_OK.match(slug):
         print(f"  [거절] 이상한 슬러그: {slug!r}")
-        return None, False
+        return None, RETRY
 
     post_dir = os.path.join(ROOT, "posts", slug)
     if not os.path.exists(os.path.join(post_dir, "post.json")):
-        return f"❌ {slug} — 대본 파일이 없습니다.", False
+        return f"❌ {slug} — 대본 파일이 없습니다.", RETRY
 
     if os.path.exists(os.path.join(post_dir, "published.json")):
-        return f"이미 올라간 글입니다: {slug}", True
+        return f"이미 올라간 글입니다: {slug}", DONE
 
     if action == "no":
         with open(os.path.join(post_dir, "rejected.json"), "w", encoding="utf-8") as f:
             json.dump({"rejected_at": now()}, f, ensure_ascii=False, indent=2)
         print(f"  {slug}: 버림")
-        return f"✖️ 버렸습니다: {slug}", True
+        return f"🗑 버렸습니다: {slug}", DROPPED
 
     if action != "ok":
-        return None, False
+        return None, RETRY
 
     print(f"  {slug}: 발행 시작")
     ok, log = publish(slug)
     print(log)
 
     if not ok:
-        return f"❌ {slug} 발행 실패\n<pre>{log[-600:]}</pre>", False
+        # 단추를 그대로 남긴다. 원인을 고친 뒤 같은 자리에서 다시 누르면 된다.
+        return f"❌ {slug} 발행 실패\n<pre>{log[-600:]}</pre>", RETRY
 
     with open(os.path.join(post_dir, "published.json"), "w", encoding="utf-8") as f:
         json.dump({"published_at": now()}, f, ensure_ascii=False, indent=2)
     return (f"✅ 올라갔습니다: {slug}\n"
-            f"https://www.instagram.com/theglassnegative/"), True
+            f"https://www.instagram.com/theglassnegative/"), DONE
 
 
 def main():
@@ -106,9 +120,14 @@ def main():
 
     for u in clicks:
         cb = u["callback_query"]
+        if cb.get("data") == "done":
+            telegram.answer(cb["id"], "이미 처리된 글입니다")
+            continue
+
         telegram.answer(cb["id"], "처리 중…")
+        buttons = RETRY
         try:
-            text, _ = handle(cb)
+            text, buttons = handle(cb)
         except Exception as e:                # 하나가 터져도 나머지는 처리한다
             text = f"❌ 처리 중 오류: {e}"
             print(f"  [오류] {e}")
@@ -117,7 +136,7 @@ def main():
             continue
         msg = cb.get("message", {})
         if msg:
-            telegram.edit(msg["chat"]["id"], msg["message_id"], text)
+            telegram.edit(msg["chat"]["id"], msg["message_id"], text, buttons)
         else:
             telegram.say(text)
 
