@@ -84,6 +84,16 @@ html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
 .stage > img { width:100%; height:100%; object-fit:cover; display:block;
                filter:{{FILTER}}; transform:scale({{ZOOM}});
                object-position:{{CROP}}; }
+
+/* 가로로 긴 사진을 통째로 보여줄 때.
+   뒤에는 같은 사진을 흐리게 깔아 빈 자리를 메우고, 앞에 원본 전체를 얹는다.
+   누워 있는 사람처럼 가로로 뻗은 피사체는 세로 카드에 잘라 넣으면
+   몸통 한 조각만 남아서 무엇인지 알 수 없게 된다. */
+.stage > img.back { position:absolute; inset:0; object-fit:cover;
+                    transform:scale(1.2); filter:{{FILTER}} blur(38px)
+                    brightness(.3) saturate(.7); }
+.stage > img.whole { position:absolute; inset:0; object-fit:contain;
+                     transform:none; object-position:50% 42%; }
 .grade { position:absolute; inset:0; z-index:2; mix-blend-mode:color;
          background:{{TINT}}; opacity:{{TINTOP}}; }
 .burn  { position:absolute; inset:0; z-index:2; pointer-events:none;
@@ -150,6 +160,11 @@ def build_html(card, img_dir, handle, index, total):
         css = css.replace(token, value)
 
     img = Path(os.path.join(img_dir, card["image"])).as_uri()
+    if card.get("fit") == "whole":
+        picture = (f'<img class="back" src="{img}">'
+                   f'<img class="whole" src="{img}">')
+    else:
+        picture = f'<img src="{img}">'
     src = markup(card.get("source", ""))
     cap = markup(card.get("headline", ""))
     note = f'<div class="note">{markup(card["note"])}</div>' if card.get("note") else ""
@@ -160,7 +175,7 @@ def build_html(card, img_dir, handle, index, total):
         cta = f'<div class="cta">Follow {handle}</div>' if layout == "closing" else ""
         body = f"""
         <div class="stage">
-          <img src="{img}">
+          {picture}
           <div class="grade"></div><div class="burn"></div>
           <div class="src">{src}</div>
           <div class="over">{stamp}<div class="cap">{cap}</div>{note}{cta}</div>
@@ -168,7 +183,7 @@ def build_html(card, img_dir, handle, index, total):
     else:
         body = f"""
         <div class="stage">
-          <img src="{img}">
+          {picture}
           <div class="grade"></div><div class="burn"></div>
           <div class="src">{src}</div>
         </div>

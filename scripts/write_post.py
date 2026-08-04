@@ -167,6 +167,17 @@ For each card also choose:
            them to completely different things — the picture on one, a block
            of the printed text on the other.
 
+  fit    — "crop" fills the card and cuts the sides off. That is the default
+           and it is right most of the time.
+
+           "whole" shows the entire photograph inside the card, with a blurred
+           copy of itself filling the space above and below. Use it when the
+           subject is spread across a wide photograph and cropping would leave
+           only a piece of it — a body lying down, a row of people, a long
+           building, a wide landscape with the thing at one end. A reader
+           cannot recognise a torso; they can recognise a whole figure.
+           zoom and crop are ignored when you choose "whole".
+
   note   — under 150 characters. Two short sentences. Six lines of text on a
            card is a wall, and readers swipe past walls.
 
@@ -267,6 +278,7 @@ CARD_SCHEMA = {
                     "image": {"type": "string"},
                     "crop": {"type": "string"},
                     "zoom": {"type": "number"},
+                    "fit": {"type": "string", "enum": ["crop", "whole"]},
                     "grade": {"type": "string",
                               "enum": ["base", "paper", "ink", "cold", "warm", "deep"]},
                     "stamp": {"type": "string"},
@@ -275,7 +287,7 @@ CARD_SCHEMA = {
                     "source": {"type": "string"},
                     "alt": {"type": "string"},
                 },
-                "required": ["layout", "image", "crop", "zoom", "grade",
+                "required": ["layout", "image", "crop", "zoom", "fit", "grade",
                              "headline", "source", "alt"],
                 "additionalProperties": False,
             },
