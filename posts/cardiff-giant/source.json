@@ -21,9 +21,9 @@
     }
   ],
   "cover": {
-    "image": "lithograph.jpg",
-    "crop": "40% 33%",
-    "zoom": 1.5,
-    "grade": "paper"
+    "image": "giant.jpg",
+    "crop": "38% 54%",
+    "zoom": 1.35,
+    "grade": "deep"
   }
 }

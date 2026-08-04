@@ -1,48 +1,48 @@
 {
-  "winner": "B",
+  "winner": "A",
   "tally": {
-    "A": 0,
-    "B": 5,
+    "A": 4,
+    "B": 1,
     "C": 0
   },
   "votes": [
     {
-      "choice": "B",
-      "why": "B는 0.5초 안에 \"저거 사람 몸이잖아\"가 읽혀서 눈이 멈췄다. 시선이 먼저 가운데 누워 있는 알몸 형체의 손·다리로 갔고, 위쪽에 잘린 또 다른 손이 걸쳐 있는 게 보여서 두 번 봤다. 아래 깔린 옛날 인쇄 수치 문구가 살짝 보이는 것도 '진짜 옛날 자료' 느낌을 줘서 캡처감이 있다. A는 흑백 얼룩덩어리라 뭘 보는지 3초 봐도 모르겠고, C는 그냥 누런 옛날 숲 사진이라 눈이 그대로 미끄러졌다. 다만 B도 글자가 몸 위 정중앙을 덮어서 제일 중요한 상반신을 가려버린 게 아깝다 — 얼굴/손이 안 가리게 텍스트를 위로 올리면 훨씬 셀 것.",
+      "choice": "A",
+      "why": "A는 처음엔 뭔지 모르겠어서 오히려 눈이 붙었다. 새까만 흙 속에 흰 덩어리가 누워 있는데, 위쪽 실루엣 곡선을 따라가다가 '아 사람 몸이다, 팔이 접혀 있네' 하고 알아채는 순간이 있음. 그 1초의 해독 과정이 스크롤을 멈추게 함. 대비가 극단적이라 작은 피드 썸네일에서도 뭔가 이상한 게 파묻혀 있다는 느낌이 바로 옴. B는 이미 '옛날 판화'로 읽혀서 박물관 캡션 같고 하단에 작은 글씨 표까지 보여서 숙제 냄새가 남. C는 그냥 갈색 나무숲 사진, 아무 일도 안 일어남.",
       "stops_scroll": true,
-      "worst": "A",
+      "worst": "C",
       "name": "Maya",
       "age": 19
     },
     {
-      "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 아래쪽에 누워 있는 벌거벗은 거대한 인체 형상이었다. 머리와 어깨, 옆구리 위에 얹힌 손이 바로 읽히고, 그게 사람인지 조각인지 헷갈리면서 1초 더 붙잡혔다. 게다가 위쪽에 같은 형상이 다른 각도로 한 번 더 있고, 하단의 작은 활자 '10 feet, 4½ inches' 같은 측정 수치가 눈에 걸려서 '이걸 누가 진짜로 재서 인쇄했다'는 이야기가 그림 안에 이미 들어 있다. 과장 없이 문서 자체가 증거처럼 보이는 게 좋다. A는 한참 봐도 뭔지 모르겠고 — 눈이 흰 덩어리 위를 헤매다 '눈밭에 나뭇가지?'로 끝났다. 얼굴도 형체도 안 잡혀서 제목만 세게 외치는 느낌이라 오히려 낚시 같다. C는 그냥 흐릿한 옛 숲 사진, 절벽 하나 알아보는 데 시간이 걸리고 멈출 이유가 없다.",
+      "choice": "A",
+      "why": "A는 처음엔 뭔지 몰라서 멈췄다. 어두운 흙 속에 하얗게 떠 있는 덩어리가 눈에 먼저 박혔고, 그게 사람 등과 팔이라는 걸 1초 정도 뒤에 알아챘다. 그 '해석이 늦게 오는' 순간이 손가락을 멈추게 한다. 위쪽 구덩이 벽에 손글씨처럼 남은 GIANT 글자도 실제 유물 사진이라는 느낌을 주고, 흑백 노이즈와 얕은 구덩이 구도가 '방금 파낸 현장'이라는 공기를 만든다. B는 석판화라 예쁘긴 한데 그림이라는 게 즉시 보여서 긴장이 없고, 밑에 작은 활자 설명이 잔뜩 깔려 있어 눈이 미끄러진다. C는 그냥 오래된 세피아 숲 사진이라 뭘 봐야 하는지 알 수 없어서 그대로 지나쳤다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Daniel",
       "age": 34
     },
     {
-      "choice": "B",
-      "why": "B에서 눈이 먼저 잡은 건 사진 아래쪽 중앙의 누워 있는 인물 형상 — 팔을 배에 얹고 발끝이 오른쪽으로 뻗은 실루엣이 한눈에 '사람'으로 읽혀서 순간 멈췄다. 그다음 시선이 위쪽 프레임의 잘린 손으로 튀었다가, 아래쪽 작은 세리프 활자('10 feet, 4½ inches')로 내려갔다. 형체 + 측정 숫자라는 조합이 '이게 실제로 있었던 일'이라는 신호를 주고, 종이 접힌 자국과 크림색 톤도 진짜 유물처럼 보인다. 흰 대문자 자막이 'THE ONONDAGA GIANT'라는 원래 제목을 정확히 덮고 있는 건 디자이너로서 눈에 걸린다 — 자막 블록을 조금만 내리거나 사진을 위로 밀면 해결될 문제다. A는 그냥 검은 얼룩과 흰 덩어리, 뭘 보는지 3초 안에 해독이 안 돼서 넘겼다. C는 그레이드가 누렇게 뭉개졌고 나무 두 개가 화면을 세로로 갈라놔서 정작 절벽이 어디인지 눈이 못 찾는다.",
+      "choice": "A",
+      "why": "A에서 눈이 먼저 간 건 화면 중앙을 가로지르는 밝은 흰 덩어리였어요. 처음엔 그게 뭔지 모르겠어서 0.5초 멈췄고, 그 다음에 어깨-팔-접힌 손가락 순서로 읽히면서 '사람이구나' 하고 소름이 돋았죠. 사진 자체가 노출이 무너져서 형체를 반쯤 감추는 게 오히려 미끼가 됐어요. 위쪽 상단에 손글씨 'GIANT' 잔해가 남아 크롭이 살짝 지저분하지만, 그 스캔 노이즈랑 먼지가 진짜 유물 같은 느낌을 줘서 넘어가겠어요. B는 리소그래프가 예쁘고 정보량도 많은데 위아래 두 도판이 같은 걸 두 번 보여주는 구성이라 시선이 갈 곳을 못 정하고, 흰 텍스트가 아래 활자 위에 겹쳐서 둘 다 못 읽게 만들어요 — 디자이너 눈에는 제일 아픈 부분. C는 그냥 세피아 숲 사진이라 표지에서 볼 게 없어요.",
       "stops_scroll": true,
-      "worst": "A",
+      "worst": "C",
       "name": "Sofia",
       "age": 27
     },
     {
       "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 아래쪽 누워 있는 인체 형태였다. 감은 눈, 턱, 가슴 위에 얹힌 손, 종이 접힌 세로 자국까지 순서대로 훑었고 '이게 뭘 그린 건가' 하고 잠깐 멈췄다. 위쪽 절반에 또 다른 손과 몸이 잘려 있는 것도 두 번째 시선을 끌었다. 무엇보다 사람 얼굴과 손이 있어서 다른 두 장과 다르게 '읽을 대상'이 생긴다. 아래에 인치 단위 치수가 인쇄된 원본 활자가 보이는 것도 좋다 — 출처가 실제 석판화 광고지라는 게 그림 안에 남아 있어서 신뢰가 간다. 다만 흰 글자 덩어리가 'THE ONONDAGA GIANT'라는 원본 제목을 정확히 덮어버려서, 이건 내가 짜증나는 지점이다. 글자를 위로 올리고 그 제목을 보이게 두면 훨씬 낫다. A는 처음엔 눈이 큰 흰 덩어리에 갔지만 몇 초 봐도 무엇인지 해독이 안 됐다 — 어깨인지 눈더미인지 나뭇가지인지. 대비만 강하고 정보가 없다. C는 나무와 절벽 사진인데 지형 사진처럼 밋밋해서 그냥 지나쳤다.",
+      "why": "A는 처음 0.5초 동안 그냥 얼룩진 흑백 잡티로 보였다. 눈이 가운데 흰 덩어리를 훑다가 '이게 사람 형태인가?' 하고 되짚어봐야 했고, 그 되짚는 시간이 스크롤보다 느렸다. B는 반대로 왼쪽 아래 감긴 눈과 접힌 팔, 손가락 관절이 바로 읽혔고 그 위쪽 프레임에서 또 다른 손이 잘려 들어오는 걸 보고 '두 장이구나' 하며 눈이 위아래로 왕복했다. 결정적으로 하단의 옛 인쇄 활자와 '10 feet, 4 1/2 inches, length of nose, 6 inches' 같은 치수 목록이 보여서, 이게 누가 만들어 팔던 인쇄물이라는 증거가 이미지 안에 있다. 나는 그 숫자를 읽으려고 멈췄다. C는 그냥 세피아 숲과 바위, 캡션이 없으면 무엇인지 알 수 없는 사진이라 눈이 머물 지점이 없었다.",
       "stops_scroll": true,
       "worst": "C",
       "name": "Robert",
       "age": 52
     },
     {
-      "choice": "B",
-      "why": "B에서 눈이 먼저 간 곳은 아래쪽 누워 있는 몸의 어깨-엉덩이 라인이었다. 사람 형체인데 관 같은 틀 안에 딱 맞게 눕혀져 있어서 '이게 시체냐 조각이냐'를 판단하려고 0.5초 멈췄다. 그다음 위쪽 프레임 오른쪽에서 튀어나온 손 하나 — 살아 있는 사람 손이 석고 위에 얹혀 있는 게 스케일을 바로 알려줘서 소름이 왔다. 하단의 작은 활자('10 feet, 4½ inches; length of nose, 6 inches')가 흐릿하게 보이는 것도 좋다. 누가 자로 재서 인쇄물로 팔았다는 뜻이라 진짜 아카이브 냄새가 난다. A는 세 번 봐도 뭔지 모르겠다 — 눈밭인지 진흙인지 나뭇가지인지 형태 인지가 안 돼서 그냥 어두운 텍스처 위 큰 글씨로 읽히고, 이 장르에서 '무서운 척하는 흐린 사진'은 이미 천 번 봤다. C는 그냥 오래된 숲 사진이고, 왼쪽 바위가 주인공이라는 걸 캡션이 알려줘야 아는 수준이라 이미지 혼자서는 아무것도 못 한다.",
+      "choice": "A",
+      "why": "A는 처음 0.5초 동안 뭘 보는지 몰라서 눈이 멈췄다. 검은 흙 사이 하얗게 뜬 덩어리 — 처음엔 눈밭인가 싶었는데, 팔 굽은 각도랑 손가락 같은 게 보이면서 '아 사람 형체다'로 뒤집혔다. 그 인식이 늦게 오는 게 멈춤을 만든다. 위쪽에 손글씨로 갈긴 'GIANT' 흔적이 반쯤 잘려 있는 것도 원본 유리건판 같은 느낌을 줘서 스톡 아카이브 냄새가 안 난다. B는 리소그래프 두 컷이라 예쁘고 정보도 많은데 '옛 판화'로 뇌가 즉시 분류해버려서 손가락이 안 멈춘다. 특히 아래 작은 활자들이 잘려 있어 '읽어야 하는 이미지'가 되고, 인스타에서 그건 곧 스킵이다. C는 그냥 세피아 나무숲 — 채석장이라고 말해주지 않으면 뭐가 특별한지 하나도 안 보인다.",
       "stops_scroll": true,
-      "worst": "A",
+      "worst": "C",
       "name": "Jess",
       "age": 23
     }
@@ -50,11 +50,11 @@
   "stops_scroll": 5,
   "asked": 5,
   "chosen": {
-    "image": "lithograph.jpg",
-    "crop": "40% 33%",
-    "zoom": 1.5,
-    "grade": "paper",
-    "hook": "Ten feet, four inches. Measured, printed, sold.",
-    "why": "A print beats the photograph on pure readability: the drawn figure has a face, a beard, a hand on the hip, and clean light. This crop takes the left portion of the sheet at 1.5 so the lower figure's head sits inside the frame with its plinth, plus the legs of the figure above — it reads as an object exhibited, not a corpse. The frame ends around two-thirds down the sheet, cutting above the letterpress title and well clear of the 'No 1259 / A.L. Edwards' ink and the pink MICROFILMED stamp. Paper grade keeps the cream sheet and the soft graphite instead of forcing false contrast."
+    "image": "giant.jpg",
+    "crop": "38% 54%",
+    "zoom": 1.35,
+    "grade": "deep",
+    "hook": "They dug up a ten-foot man in 1869",
+    "why": "The pale stone body against black earth is the single most legible image here: even at thumbnail size you read head, shoulder, torso lying in a pit. Crop pushed left and down onto the head and upper body so the figure fills the tall card, and it clears the painted 'CARDIFF GIANT' caption at top left, the 'C.O. Gott' script at bottom right, and the negative number strip on the right edge. Deep grade sinks the soil and keeps the figure glowing."
   }
 }
