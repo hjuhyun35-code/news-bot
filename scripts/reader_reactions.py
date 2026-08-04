@@ -106,10 +106,11 @@ SCHEMA = {
         "bad": {"type": "string"},
         "weakest_card": {"type": "integer"},
         "unreadable": {"type": "array", "items": {"type": "integer"}},
+        "buried": {"type": "string"},
         "score": {"type": "integer"},
     },
     "required": ["first_second", "action", "good", "bad",
-                 "weakest_card", "unreadable", "score"],
+                 "weakest_card", "unreadable", "buried", "score"],
     "additionalProperties": False,
 }
 
@@ -147,6 +148,8 @@ Answer as yourself:
   weakest_card  — 가장 약한 카드 번호
   unreadable    — 사진이 뭘 찍은 건지 알아볼 수 없는 카드 번호를 전부.
                   글이 아니라 사진만 보고 판단하세요. 없으면 빈 목록.
+  buried        — 캡션에만 있고 카드에는 없는데, 카드에 있었어야 할 사실.
+                  캡션은 눌러야 보입니다. 없으면 "없음".
   score         — 이 계정을 팔로우할 마음이 드는 정도 1-10.
                   10은 지금 바로 누른다는 뜻입니다. 후하게 주지 마세요."""
 

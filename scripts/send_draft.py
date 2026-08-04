@@ -79,6 +79,8 @@ def main():
             lines.append(f"첫인상: {esc(r['first_second'])}")
             lines.append(f"👍 {esc(r['good'])}")
             lines.append(f"👎 {esc(r['bad'])}  (약한 카드 {r['weakest_card']}번)")
+            if r.get("buried", "없음") not in ("없음", "", "None"):
+                lines.append(f"📄 캡션에 묻힘: {esc(r['buried'])}")
             lines.append("")
         telegram.say("\n".join(lines)[:4000])
         print(f"독자 반응 보냄 (평균 {rd['average']}점)")

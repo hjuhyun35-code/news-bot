@@ -114,8 +114,27 @@ Card structure:
      looking at ground, sky, or stone swipes past. Save the detail crops for
      the body cards, where the headline has already told them what it is.
 
-     body     — one idea per card. Build toward the answer.
-     closing  — what remains genuinely unresolved, honestly stated.
+     body     — one fact per card, and the strongest facts you have.
+     closing  — the answer first. Then what is still genuinely open.
+
+WHAT GOES ON A CARD, AND WHAT GOES IN THE CAPTION
+
+Before you write anything, find the things in the sources that a reader would
+repeat to somebody else that evening. Those go on the cards, one per card.
+The caption is for what would not fit.
+
+The most common way this account produces a dull post is by spending its best
+material in the caption. The caption takes a tap to open. Most people do not
+tap. A fact that appears only in the caption did not appear.
+
+The closing card must pay off the cover. If the cover asked a question, the
+closing card answers it in its headline — plainly, in words, not by
+implication. Only after answering does it name what is still unknown. A
+closing card that just asks another question wastes the reader's last swipe
+and leaves them with nothing.
+
+If the sources say the thing was a hoax, a fake, a mistake, or was solved,
+that belongs on a card. Not in the caption. On a card.
 
 Voice: plain, declarative, specific. Short sentences. No hype words
 ("mind-blowing", "you won't believe", "shocking"). Never overclaim mystery —
@@ -546,6 +565,11 @@ Write exactly {n_cards} cards and the caption — one card per photograph.
 The caption opens with the question people actually type into a search engine
 about this subject, then tells the story in short paragraphs, then states plainly
 what is still unresolved, then credits the images, then 3-5 hashtags.
+
+The caption may repeat what the cards say — most readers never open it, so
+repetition costs nothing. What it may NOT do is be the only place a good fact
+appears. Check each of your cards: is the single most surprising thing in the
+sources on one of them?
 
 Each card's `source` line credits that photograph from its record above — do not
 attribute a photograph to a person the record does not name.
