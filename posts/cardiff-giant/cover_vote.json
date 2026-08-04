@@ -1,61 +1,60 @@
 {
   "winner": "B",
   "tally": {
-    "A": 1,
-    "B": 4,
-    "C": 0,
-    "D": 0
+    "A": 0,
+    "B": 5,
+    "C": 0
   },
   "votes": [
     {
-      "choice": "A",
-      "why": "제일 먼저 눈이 왼쪽 위 흰 손글씨 'CARDIFF GIANT'에 걸렸다. 사진에 직접 긁어 쓴 것 같은 글씨라서 '이게 뭐야?' 하고 잠깐 멈췄다. 그 다음 시선이 화면 중앙 아래로 내려가면서 노란 'A STONE MAN'을 읽고, 다시 위로 올라가서 어두운 덩어리 속 사람 실루엣 같은 형태를 찾으려고 눈을 굴렸다. B는 같은 사진인데 위쪽 하늘 여백이 없어서 그냥 시커먼 얼룩 같고, 글씨도 잘려서 뭔지 모르겠다. A는 위쪽 밝은 하늘 덕분에 '땅속 구덩이'라는 게 딱 읽히고 대비가 세서 피드에서 튄다. 열 피트짜리 돌사람이라는 문구가 캡처해서 단톡에 던지기 좋은 종류.",
+      "choice": "B",
+      "why": "B에서 눈이 바로 가운데 누워있는 몸통으로 꽂혔다. 사람 형체인데 뭔가 이상하게 크고 돌 같아서 '이거 시체야? 조각이야?' 하고 0.5초 멈췄다. 위쪽에 잘린 손까지 보여서 더 소름. A는 검은 얼룩 덩어리라 뭘 보는지 모르겠고 그냥 노이즈로 읽힌다. C는 그냥 어두운 숲 사진, 아무 일도 안 일어남. B만 '몸'이라는 형체가 있어서 눈이 붙는다. 다만 글자가 밑에 있는 옛날 캡션 글씨랑 겹쳐서 지저분한 건 좀 걸린다 — 몸 얼굴/손 쪽으로 더 크게 확대하고 텍스트를 위로 올리면 훨씬 셀 것 같다.",
       "stops_scroll": true,
-      "worst": "D",
+      "worst": "C",
       "name": "Maya",
       "age": 19
     },
     {
       "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 화면 중앙의 그 창백한 회청색 덩어리였다. 처음엔 뭔지 몰라서 0.5초쯤 멈췄고, 어깨선 같은 윤곽과 그 위로 걸친 나뭇가지를 따라가다가 '아, 구덩이 안에 누워 있는 몸이구나' 하고 알아챘다. 그 순간 아래 노란 A STONE MAN이 눈에 들어와서 그림과 문장이 딱 맞물렸다. 위쪽에 흐릿하게 남은 'DIFF GIANT' 손글씨도 원본 유물 느낌을 줘서 과장 광고가 아니라 실제 아카이브 사진이라는 신뢰가 생겼다. A는 같은 사진인데 상단 하늘색 그라데이션과 잘린 여백 때문에 사진이 액자 안에서 붕 떠 보이고 어디를 봐야 할지 헷갈렸다. C는 그냥 세피아 풍경이라 '돌 사람'이 안 보여서 제목이 붕 뜬다. D는 텍스트 위에 텍스트를 얹어서 둘 다 읽히지 않는다.",
+      "why": "B는 0.5초 안에 '사람 형체'가 읽힌다. 눈이 먼저 아래쪽 누워 있는 거대한 나체 인물의 어깨-등-엉덩이 라인을 따라갔고, 그 다음 얼굴이 왼쪽으로 젖혀진 각도에서 '이건 시체인가 조각인가?' 하는 의문이 생겼다. 위쪽에 잘린 손이 하나 더 떠 있어서 같은 대상을 두 각도로 기록한 도판이라는 게 느껴지고, 아래 잔글씨의 '10 feet, 4 1/2 inches' 같은 치수 표기가 눈에 걸리면서 '실제로 재봤다'는 문서 느낌이 신뢰를 준다. A는 뭘 보는지 모르겠다 — 파랗게 반전된 얼룩 덩어리로만 보여서 형체를 못 찾고 눈이 미끄러졌고, 낙서 같은 상단 글씨가 싸구려 느낌을 더한다. C는 그냥 흐린 숲 사진이라 아무 사건이 없다.",
       "stops_scroll": true,
-      "worst": "D",
+      "worst": "C",
       "name": "Daniel",
       "age": 34
     },
     {
       "choice": "B",
-      "why": "A랑 B는 사실상 같은 사진인데, A는 위쪽에 회색 그라데이션 띠가 어정쩡하게 붙어 있고 왼쪽 위에 정체불명의 얇은 선까지 보여서 눈이 먼저 그 실수로 갔다. 'CARDIFF GIANT' 손글씨도 잘려서 'ARDIFF'가 됐고. B는 프레임이 꽉 차고 어두운 흙 속에서 창백한 형체가 스윽 드러나는데, 그 실루엣이 진짜 누워 있는 사람 어깨-등처럼 읽혀서 0.5초 멈췄다. 아래 노란 'A STONE MAN'까지 시선이 미끄러지면서 '아 저게 그 돌사람인가'로 연결됨. C는 세피아가 탁하게 뭉개져서 그냥 옛 풍경 사진, D는 텍스트 위에 텍스트를 얹어서 제목이 인쇄 글자랑 뒤엉켜 읽히기 싫어졌다.",
+      "why": "B만 유일하게 '무엇을 보고 있는지' 즉시 읽힌다. 눈이 먼저 화면 중앙 아래 누워 있는 거대한 석고 인체 실루엣으로 빨려들어갔고, 특히 얼굴 부분이 손으로 가려진 듯한 자세와 위쪽 프레임에 잘려 들어온 손 스케치가 '이게 시체인가 조각인가' 하는 순간적인 혼란을 만든다. 리소그래프 특유의 스티플 텍스처와 아래쪽 작은 활자(10 feet, 4 1/2 inches...)가 진짜 옛 문서라는 신뢰감을 준다. 다만 흰 헤드라인이 원본 캡션 'ONONDAGA GIANT' 글자 위에 정확히 겹쳐서 두 텍스트가 서로 갉아먹는 건 바로 눈에 걸린다 — 카피를 위로 올리거나 바닥 그라데이션을 더 깔아야 한다. A는 콘트라스트 뭉개진 얼룩 덩어리라 뭘 보는지 3초 안에 못 읽었고, 좌상단에 원본 워터마크 'DIFF GIANT' 잔해가 그대로 남아 있어 성의 없어 보인다. C는 그냥 어두운 숲 스캔이고 우측 종이 이음선이 화면을 갈라놓아서 피사체가 없다.",
       "stops_scroll": true,
-      "worst": "D",
+      "worst": "C",
       "name": "Sofia",
       "age": 27
     },
     {
       "choice": "B",
-      "why": "B에서 눈이 먼저 간 건 화면 위쪽에 흐릿하게 남은 손글씨 'DIFF GIANT' 잉크 자국이었다. 그게 뭔지 읽으려고 잠깐 멈췄고, 그 다음 자연스럽게 아래로 내려가면서 어두운 구덩이 속에 누워 있는 형체 — 어깨 같은 윤곽, 그 위를 가로지르는 나무 뿌리 — 가 눈에 들어왔다. 사람 형태를 알아보는 데 1초쯤 걸렸는데 그 1초가 멈춤이다. 제목 노란 'A STONE MAN'은 그 형체 바로 아래에 붙어서 내가 방금 본 걸 확인해 주는 역할을 한다. A는 같은 사진인데 위쪽 그라데이션이 하늘처럼 처리돼서 구덩이가 풍경으로 오해되고, 아래쪽 갈색 번짐이 지저분하다. 한 가지 걸리는 건 하단 크레딧 'BAIN NEWS SERVICE, 1910'이다. 1869년 발굴 사진이 아니라 1910년대 뉴스 사진사 자료라는 뜻이고, 카드에는 'CARDIFF, N.Y. · 1869'라고 크게 박혀 있다. 이미지 촬영 연도와 사건 연도가 다르면 그걸 표지에 구분해 적어야 한다. D를 보면 아예 다른 자료(아이오와 포트다지 채석장 설명문)를 깔아놨는데, 그건 사건 현장이 아니라 석고 원석 출처다 — 표지로 쓰면 오독을 부른다.",
+      "why": "B에서 눈이 먼저 잡힌 건 화면 아래쪽 절반에 누워 있는 인체 형상이다. 머리가 왼쪽, 팔이 복부를 가로지르는 자세가 한눈에 '사람 시신'으로 읽히는데 표면은 돌처럼 매끄러워서 순간적으로 '이게 뭐지' 하는 어긋남이 생긴다. 그리고 아래쪽에 남아 있는 옛 인쇄 캡션의 잔글씨(발 길이, 코 길이 같은 치수 목록)를 눈이 저절로 읽으려 들었다. 즉 그림 자체가 정보를 약속한다. A는 한참 들여다봐도 무엇을 찍은 사진인지 판독이 안 된다. 반전된 듯한 얼룩과 흰 덩어리뿐이고 좌상단에 글자 잔해까지 남아 있어서 편집 실수처럼 보인다. C는 나무와 절벽뿐인 흐릿한 풍경이라 텍스트가 없으면 아무 의미도 없다. 다만 B도 흰 대문자가 하필 원본 캡션 위에 겹쳐서 'ONONDAGA GIANT'를 가려버린 건 아깝다 — 출처를 스스로 지워버린 셈이고, 나라면 글자를 위로 올리고 원 석판화 출처를 명기하겠다.",
       "stops_scroll": true,
-      "worst": "D",
+      "worst": "A",
       "name": "Robert",
       "age": 52
     },
     {
       "choice": "B",
-      "why": "B가 유일하게 \"이게 뭐지\" 하고 손가락이 멈춘 컷. 위쪽에 흐릿하게 남은 'DIFF GIANT' 손글씨 라벨이 먼저 눈에 걸렸고, 그 다음에 화면 중앙의 창백한 회청색 덩어리가 사람 어깨-허리-다리 실루엣처럼 보여서 흙구덩이 안을 위에서 내려다보는 느낌이 들었다. 어둡고 지저분한 흙 텍스처 대비로 그 몸통만 뿌옇게 떠 있는 게 진짜 발굴 현장 사진 같아서, 헤드라인 'A STONE MAN'의 노란 글자를 읽고 나서 다시 위로 눈이 돌아갔다. A는 같은 사진인데 위쪽에 하늘색 그라데이션 띠가 붙어서 크롭이 잘린 티가 나고 이미지가 두 동네로 쪼개져 보였다. C는 세피아 풍경 사진이라 예쁘긴 한데 그냥 옛날 숲 스테레오카드로 보여서 '돌사람'과 연결이 안 됐다.",
+      "why": "B는 스크롤 중에 '누워 있는 벌거벗은 거대한 사람'이라는 실루엣이 먼저 눈에 들어왔다. 시선이 왼쪽 아래 뒤로 젖혀진 머리와 감긴 눈에 먼저 꽂히고, 거기서 가슴 위에 올려진 손, 다시 오른쪽 다리 쪽으로 흘렀다. 그리고 아래쪽 잔글씨 치수표('10 feet, 4 1/2 inches...')가 보이면서 '이게 실측 도면이구나' 하고 한 번 더 멈췄다 — 이 조합이 이 장르에서 흔치 않게 신선했다. 아쉬운 건 흰 글자가 하필 원본 캡션 위에 겹쳐서 GIANT 글자를 갈아먹은 부분. A는 확대·반전 처리가 너무 심해서 뭘 보는지 3초 안에 파악이 안 됐다 — 그냥 밤하늘인지 구덩이인지 모를 추상 텍스처였고, 상단 낙서 같은 워터마크가 싸구려로 보였다. C는 그냥 흐린 숲 사진이라 스크롤이 그대로 지나갔다.",
       "stops_scroll": true,
-      "worst": "D",
+      "worst": "C",
       "name": "Jess",
       "age": 23
     }
   ],
   "stops_scroll": 5,
   "asked": 5,
-  "adjusted": "",
   "chosen": {
-    "image": "giant.jpg",
-    "crop": "33% 55%",
-    "zoom": 1.35,
-    "grade": "deep",
-    "why": "The only photograph of the thing itself: pale carved head, shoulders and torso lying in dark dug earth, unmistakable as a stone man at thumbnail size even before the headline is read. Crop is pushed left and down onto the head and chest so the reader lands on a face, and pushed off all four scan margins — it clears the white-ink 'CARDIFF GIANT' lettering along the top, the 'Copyright secured 1869 / By C.O. Gott' script in the lower right, the 2781-13 negative number down the right edge, and the black mount bands top and bottom. The mottled earth above the shoulder is a clean dark bed for 'The well diggers hit a stone man'; deep grade sinks the pit and lets the gypsum glow."
+    "image": "lithograph.jpg",
+    "crop": "34% 42%",
+    "zoom": 1.45,
+    "grade": "ink",
+    "hook": "Ten feet, four inches of solid gypsum flesh.",
+    "why": "The print shows the giant far more clearly than any period photograph — clean modelling, visible face, unmistakable reclining body. The crop sits left of centre so the lower figure's head, beard and folded arm anchor the card, with the upper figure's legs above giving a second reading of the same body. It stops well short of the 'THE ONONDAGA GIANT' title block, the dimensions text and the pencil accession scrawl at the foot of the sheet. Ink grade darkens the crayon work so it holds up small."
   }
 }

@@ -19,5 +19,11 @@
       "file": "cardback.jpg",
       "commons": "File:View in Cardiff Glen, near Fort Dodge, Iowa (NYPL b11707469-G90F191 001B).tiff"
     }
-  ]
+  ],
+  "cover": {
+    "image": "lithograph.jpg",
+    "crop": "34% 42%",
+    "zoom": 1.45,
+    "grade": "ink"
+  }
 }
