@@ -27,6 +27,12 @@ jobs:
         with:
           chrome-version: stable
 
+      - name: let readers pick the cover
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/pick_cover.py "${{ inputs.slug }}"
+
       - name: write the script
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -36,12 +42,6 @@ jobs:
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/render_cards.py "${{ inputs.slug }}"
-
-      - name: let readers pick the cover
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/pick_cover.py "${{ inputs.slug }}"
 
       - name: ask five readers
         env:

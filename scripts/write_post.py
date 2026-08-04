@@ -445,6 +445,20 @@ Is this subject safe to publish?""".strip(), SAFETY_SCHEMA)
         for i in images
     )
 
+    # 표지는 이미 독자 투표로 정해졌다. 대본은 그 위에 글만 얹는다.
+    cover = src.get("cover")
+    cover_rule = ""
+    if cover:
+        cover_rule = (
+            f"\nCARD 1 IS ALREADY DECIDED. Readers were shown several covers "
+            f"and chose this one:\n"
+            f"  image {cover['image']}, crop \"{cover['crop']}\", "
+            f"zoom {cover['zoom']}, grade {cover['grade']}\n"
+            f"Use exactly those four values for card 1 and write its headline "
+            f"to suit that picture. Do NOT use {cover['image']} on card 2 — "
+            f"swiping from the cover onto the same photograph reads as a "
+            f"swipe that did not register.\n")
+
     post = call(client, WRITER_SYSTEM, f"""
 Subject: {src['subject']}
 
@@ -463,6 +477,7 @@ what is still unresolved, then credits the images, then 3-5 hashtags.
 Each card's `source` line credits that photograph from its record above — do not
 attribute a photograph to a person the record does not name.
 
+{cover_rule}
 Alt text: under 100 characters, describing what is visibly in the image.
 
 HARD LIMITS — a post that breaks any of these is rejected outright:
@@ -475,6 +490,14 @@ Write short and cut. Do not pad the caption to fill space.""".strip(),
                 CARD_SCHEMA, extra_blocks=image_blocks(post_dir, src["images"]))
 
     print(f"  카드 {len(post['cards'])}장, 캡션 {len(post['caption'])}자")
+
+    # 부탁이 아니라 덮어쓰기다. 투표로 정한 표지가 대본 쪽 판단으로
+    # 바뀌면 투표를 한 의미가 없다.
+    if cover and post["cards"]:
+        before = post["cards"][0].get("image")
+        post["cards"][0].update(cover)
+        if before != cover["image"]:
+            print(f"  [고정] 표지를 투표 결과로 되돌림: {before} → {cover['image']}")
 
     fixed, problems = tidy(post, {i["file"] for i in src["images"]})
     for line in fixed:

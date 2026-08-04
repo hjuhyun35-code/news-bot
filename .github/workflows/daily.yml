@@ -51,6 +51,12 @@ jobs:
             python scripts/find_images.py "${{ steps.pick.outputs.slug }}"
           fi
 
+      - name: let readers pick the cover
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/pick_cover.py "${{ steps.pick.outputs.slug }}"
+
       - name: write the script
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -60,12 +66,6 @@ jobs:
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/render_cards.py "${{ steps.pick.outputs.slug }}"
-
-      - name: let readers pick the cover
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/pick_cover.py "${{ steps.pick.outputs.slug }}"
 
       - name: ask five readers
         env:
