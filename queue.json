@@ -34,7 +34,9 @@
       "slug": "rongorongo",
       "subject": "Rongorongo, the undeciphered glyphs carved on wooden tablets from Easter Island",
       "wikipedia": "Rongorongo",
-      "hook": "읽을 줄 아는 사람이 전부 죽었다"
+      "hook": "읽을 줄 아는 사람이 전부 죽었다",
+      "hold": true,
+      "why_hold": "2026-08-05 확인. 후보 87장 중 조건을 통과한 것이 4장뿐이라 find_images.py 가 중단했다. 파이스토스와 같은 문제 — 실물이 박물관에 있어 사진이 전부 최근 촬영본이다."
     },
     {
       "slug": "sailing-stones",
