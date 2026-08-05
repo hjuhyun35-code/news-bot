@@ -1,15 +1,32 @@
 name: daily draft
 
-# 아침에 소재 하나를 골라 카드까지 만들고 텔레그램으로 승인을 요청한다.
-# 여기서는 절대 발행하지 않는다. 발행은 사람이 단추를 누른 뒤 approvals 가 한다.
+# 소재 하나를 골라 카드까지 만들고, 독자 관문을 통과하면 올린다.
+# 걸리면 올리지 않고 텔레그램으로 승인 단추를 보낸다.
+#
+# 하루 편수는 day_plan.py 가 정한다. 예약을 편수만큼만 걸면 깃허브가
+# 건너뛸 때마다 그날 몫이 그대로 날아가서, 넉넉히 걸어두고 세는 쪽으로
+# 바꿨다. 실제로 2026-08-05 아침 7시 17분 예약은 통째로 걸렀다.
 on:
   schedule:
-    - cron: "17 22 * * *"    # UTC 22:17 = 한국 아침 7시 17분
+    - cron: "17 22 * * *"    # 한국 07:17
+    - cron: "47 1 * * *"     # 한국 10:47
+    - cron: "23 5 * * *"     # 한국 14:23
+    - cron: "53 8 * * *"     # 한국 17:53
+    - cron: "19 12 * * *"    # 한국 21:19
   workflow_dispatch:
     inputs:
       slug:
-        description: "leave empty to take the next subject from queue.json"
+        description: "leave empty to let day_plan.py decide"
         required: false
+      ignore_quota:
+        description: "yes = 오늘 몫을 다 썼어도 하나 더 만든다"
+        required: false
+        default: "no"
+
+# 예약이 몰려서 두 개가 겹쳐 돌면 같은 소재를 두 번 만든다.
+concurrency:
+  group: daily-draft
+  cancel-in-progress: false
 
 jobs:
   draft:
@@ -23,90 +40,107 @@ jobs:
         with:
           python-version: "3.12"
 
+      # 오늘 몫이 남았는지, 무엇을 할 차례인지 먼저 정한다. 무거운 준비는
+      # 그다음이다 — 할 일이 없으면 크롬도 안 깔고 끝낸다.
+      - name: plan the day
+        id: plan
+        env:
+          IGNORE_QUOTA: ${{ inputs.ignore_quota }}
+        run: |
+          if [ -n "${{ inputs.slug }}" ]; then
+            echo "stop=no" >> "$GITHUB_OUTPUT"
+            echo "mode=make" >> "$GITHUB_OUTPUT"
+            echo "slug=${{ inputs.slug }}" >> "$GITHUB_OUTPUT"
+            echo "손으로 지정: ${{ inputs.slug }}"
+          else
+            python scripts/day_plan.py
+          fi
+
       - run: pip install anthropic pillow
+        if: steps.plan.outputs.stop != 'yes'
 
       - uses: browser-actions/setup-chrome@v1
         id: chrome
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         with:
           chrome-version: stable
 
-      - name: pick the subject
-        id: pick
-        run: |
-          if [ -n "${{ inputs.slug }}" ]; then
-            slug="${{ inputs.slug }}"
-          else
-            slug=$(python scripts/pick_subject.py)
-          fi
-          echo "slug=$slug" >> "$GITHUB_OUTPUT"
-          echo "오늘 소재: $slug"
-
       - name: find the photographs
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ -f "posts/${{ steps.pick.outputs.slug }}/source.json" ]; then
+          if [ -f "posts/${{ steps.plan.outputs.slug }}/source.json" ]; then
             echo "사진은 이미 있습니다"
           else
-            python scripts/find_images.py "${{ steps.pick.outputs.slug }}"
+            python scripts/find_images.py "${{ steps.plan.outputs.slug }}"
           fi
 
       - name: let readers pick the cover
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/pick_cover.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/pick_cover.py "${{ steps.plan.outputs.slug }}"
 
       - name: write the script
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/write_post.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/write_post.py "${{ steps.plan.outputs.slug }}"
 
       - name: render the cards
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/render_cards.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/render_cards.py "${{ steps.plan.outputs.slug }}"
 
-      - name: ask five readers
+      - name: ask the readers
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/reader_reactions.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/reader_reactions.py "${{ steps.plan.outputs.slug }}"
 
       - name: fix what readers could not read
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/fix_unreadable.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/fix_unreadable.py "${{ steps.plan.outputs.slug }}"
 
       # 카드는 저장소 주소로 텔레그램에 보낸다. 보내기 전에 올라가 있어야 한다.
       - name: commit the draft
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A "posts/${{ steps.pick.outputs.slug }}"
-          git diff --staged --quiet && echo "nothing new" || git commit -m "draft: ${{ steps.pick.outputs.slug }}"
+          git add -A "posts/${{ steps.plan.outputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "draft: ${{ steps.plan.outputs.slug }}"
+          git pull --rebase --autostash -q
           git push
 
       # 카드를 먼저 보내 눈으로 볼 수 있게 하고, 그다음 판단·발행한다.
       - name: send the cards
+        if: steps.plan.outputs.stop != 'yes'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/send_draft.py "${{ steps.pick.outputs.slug }}" --cards-only
+        run: python scripts/send_draft.py "${{ steps.plan.outputs.slug }}" --cards-only
 
       - name: publish, or ask if the readers say no
+        if: steps.plan.outputs.stop != 'yes'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: python scripts/auto_publish.py "${{ steps.pick.outputs.slug }}"
+        run: python scripts/auto_publish.py "${{ steps.plan.outputs.slug }}"
 
       - name: record the publication
-        if: always()
+        if: always() && steps.plan.outputs.stop != 'yes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A posts
-          git diff --staged --quiet && echo "nothing new" || git commit -m "published: ${{ steps.pick.outputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "published: ${{ steps.plan.outputs.slug }}"
           git pull --rebase --autostash -q
           git push
 
@@ -116,6 +150,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python scripts/notify.py "오늘 초안 만들기가 실패했습니다.
-          소재: ${{ steps.pick.outputs.slug }}
+          python scripts/notify.py "초안 만들기가 실패했습니다.
+          소재: ${{ steps.plan.outputs.slug }}
           기록: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

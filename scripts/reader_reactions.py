@@ -27,12 +27,18 @@ from llm import answer_of
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 세 명이 축을 하나씩 맡는다. 스크롤 속도(Maya), 시각적 완성도(Sofia),
-# 사실과 과장(Robert). 다 비슷한 사람이면 세 번 물어도 한 번 물은 것과 같다.
+# 두 명이 축을 하나씩 맡는다. 스크롤 속도(Maya), 사실과 과장(Robert).
+# 다 비슷한 사람이면 두 번 물어도 한 번 물은 것과 같다.
 #
-# 처음엔 다섯이었는데 셋으로 줄였다. 게시물마다 사진을 다시 보여주는
-# 값이 사람 수에 그대로 비례하고, 빠진 둘(Daniel 34, Jess 23)이 하던
-# 지적은 남은 셋과 많이 겹쳤다. 늘리고 싶으면 여기 다시 넣으면 된다.
+# 다섯 → 셋 → 둘로 줄여왔다. 게시물마다 사진을 다시 보여주는 값이 사람
+# 수에 그대로 비례하는데, 하루 두 개에서 다섯 개까지 늘리기로 했으니
+# 사람 수가 그대로 비용이 된다.
+#
+# 2026-08-05, 남길 둘을 이렇게 골랐다. 발행을 막는 기준은 셋뿐이다 —
+# 자료와 모순, 전원이 그냥 넘김, 평균 미달. Robert 는 첫 번째를 맡고
+# (세일링스톤의 틀린 문장을 잡은 것이 그였다), Maya 는 두 번째를 맡는다.
+# 빠진 Sofia(27, 디자인)의 지적은 좋았지만 어느 기준도 맡지 않았다.
+# 되살리려면 git 기록에서 가져오면 된다.
 READERS = [
     {
         "name": "Maya",
@@ -43,15 +49,6 @@ about one second to earn a swipe. She does not read anything that looks like
 homework. She loves being told something wild that she can screenshot and send
 to a group chat. If the first card does not land instantly she is already gone,
 and she will not feel bad about it.""",
-    },
-    {
-        "name": "Sofia",
-        "age": 27,
-        "who": """A graphic designer in Lisbon. She sees the craft before she
-sees the content: type that is too tight, a crop that cuts a subject at the
-edge, scan artefacts, two cards that look like the same picture, a colour grade
-that has gone muddy. She is not unkind about it, but she cannot unsee it, and
-badly made work makes her distrust the account.""",
     },
     {
         "name": "Robert",
