@@ -10,7 +10,8 @@
       "claim": "Nothing pushes the stones",
       "where": "card 1 note",
       "verdict": "contradicted",
-      "quote": "These thin, floating ice panels, frozen during cold winter nights, are driven by light winds, and shove rocks at up to 5 m/min"
+      "quote": "These thin, floating ice panels, frozen during cold winter nights, are driven by light winds, and shove rocks at up to 5 m/min",
+      "fixed_by_hand": "2026-08-05. 검사관이 잡은 대로 틀린 문장이었다. 카드 1 설명을 'Studied since the early 1900s, and nobody ever saw one move.' 로 바꿔 발행했다. 이 항목은 고치기 전 기록이며, 검사관이 다시 본 것이 아니다."
     },
     {
       "claim": "The stones leave trails on the playa surface",

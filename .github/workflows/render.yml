@@ -11,6 +11,8 @@ on:
 jobs:
   render:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -29,6 +31,17 @@ jobs:
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/render_cards.py "${{ inputs.slug }}"
+
+      # 발행은 저장소에 있는 카드를 올린다. 그려놓고 커밋하지 않으면
+      # 손으로 고친 문구가 인스타에 반영되지 않는다.
+      - name: commit the cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A "posts/${{ inputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "cards: ${{ inputs.slug }}"
+          git pull --rebase --autostash -q
+          git push
 
       - name: upload for review
         uses: actions/upload-artifact@v4
