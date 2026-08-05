@@ -59,9 +59,11 @@ jobs:
       - run: pip install anthropic pillow
         if: steps.plan.outputs.stop != 'yes'
 
+      # 발행 모드에서도 크롬이 필요하다. 밀린 초안에 독자 반응이 없으면
+      # 여기서 받아야 하고, 못 알아보겠다는 카드는 다시 그려야 한다.
       - uses: browser-actions/setup-chrome@v1
         id: chrome
-        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
+        if: steps.plan.outputs.stop != 'yes'
         with:
           chrome-version: stable
 
@@ -95,21 +97,29 @@ jobs:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/render_cards.py "${{ steps.plan.outputs.slug }}"
 
+      # 발행 모드에서도 돌린다. 관문이 독자 반응을 요구하는데, 반응이 없는
+      # 초안은 영영 통과하지 못하고 승인 단추만 기다리게 된다. wardenclyffe
+      # 가 그랬다 — 독자 검토 기능이 생기기 전에 만들어진 초안이다.
       - name: ask the readers
-        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
+        if: steps.plan.outputs.stop != 'yes'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/reader_reactions.py "${{ steps.plan.outputs.slug }}"
+        run: |
+          if [ -f "posts/${{ steps.plan.outputs.slug }}/readers.json" ]; then
+            echo "독자 반응은 이미 있습니다"
+          else
+            python scripts/reader_reactions.py "${{ steps.plan.outputs.slug }}"
+          fi
 
       - name: fix what readers could not read
-        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
+        if: steps.plan.outputs.stop != 'yes'
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/fix_unreadable.py "${{ steps.plan.outputs.slug }}"
 
       # 카드는 저장소 주소로 텔레그램에 보낸다. 보내기 전에 올라가 있어야 한다.
       - name: commit the draft
-        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
+        if: steps.plan.outputs.stop != 'yes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
