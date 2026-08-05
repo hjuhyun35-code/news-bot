@@ -30,6 +30,11 @@ import anthropic
 from llm import image_block
 from web import get_json as get
 
+# 저작권 판단은 find_images 의 것 하나만 쓴다. 여기에 따로 적어두었더니
+# 2026-08-05 에 어긋났다 — find_images 는 CC0 를 통과시키는데 이쪽은
+# "public domain" 글자만 찾아서 막았고, 사진을 다 내려받은 뒤에 죽었다.
+from find_images import is_public_domain
+
 MODEL = "claude-opus-5"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -79,9 +84,10 @@ def commons_record(commons_title):
         "description": field("ImageDescription"),
         "date": field("DateTimeOriginal"),
         "author": field("Artist"),
-        "license": field("LicenseShortName"),
+        "license": field("LicenseShortName") or field("License"),
         "width": page["imageinfo"][0].get("width"),
         "height": page["imageinfo"][0].get("height"),
+        "meta": meta,   # 저작권 확인용. 확인이 끝나면 바로 버린다
     }
 
 
@@ -473,7 +479,7 @@ def main():
         rec["file"] = img["file"]
         images.append(rec)
         print(f"  {img['file']}: {rec['date'] or '날짜 미상'} · {rec['license']}")
-        if "public domain" not in rec["license"].lower():
+        if not is_public_domain(rec.pop("meta")):
             sys.exit(f"[중단] {img['file']} 이 저작권 만료가 아닙니다: {rec['license']}")
 
     # ── 2. 안전 검사 ─────────────────────────────────────────────
