@@ -61,6 +61,13 @@ jobs:
           git diff --staged --quiet && echo "nothing new" || git commit -m "draft: ${{ inputs.slug }}"
           git push
 
+      # 카드는 저장소 주소로 보낸다. 커밋·푸시가 끝난 뒤라야 한다.
+      - name: send to telegram for approval
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_draft.py "${{ inputs.slug }}"
+
       - uses: actions/upload-artifact@v4
         with:
           name: draft-${{ inputs.slug }}
