@@ -127,7 +127,16 @@ def records(titles):
             "titles": "|".join(titles[i:i + 50]),
             "prop": "imageinfo",
             "iiprop": "extmetadata|url|size",
+            # 가로만 500으로 묶으면 세로가 안 묶인다. 세로로 긴 신문 지면
+            # 스캔은 가로 500에 세로가 2500이 되고, 그걸 여러 장 한 번에
+            # 보내면 모델이 400 으로 거절한다 — 사진 여러 장을 한 요청에
+            # 넣을 때는 어느 한 변도 2000을 넘으면 안 된다. 2026-08-05,
+            # 후보 31장이던 carrington 이 여기서 죽었다.
+            #
+            # 둘 다 주면 그 상자 안에 들어가도록 줄여준다. 어느 것을 쓸지
+            # 고르는 데는 이 정도면 충분하고, 요청도 그만큼 싸진다.
             "iiurlwidth": "500",
+            "iiurlheight": "500",
         })
         for page in data.get("query", {}).get("pages", {}).values():
             if "imageinfo" in page:
