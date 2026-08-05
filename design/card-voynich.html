@@ -1,0 +1,164 @@
+<meta charset="utf-8">
+<title>voynich</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
+
+  .card { display:none; width:1080px; height:1350px; background:#000;
+          position:relative; flex-direction:column; }
+  body.c1 #c1, body.c2 #c2, body.c3 #c3,
+  body.c4 #c4, body.c5 #c5, body.c6 #c6 { display:flex; }
+
+  .stage { position:relative; flex:1; overflow:hidden; background:#0B0C10;
+           isolation:isolate; }
+  .stage > img { width:100%; height:100%; object-fit:cover; display:block; }
+  .grade { position:absolute; inset:0; z-index:2; mix-blend-mode:color; }
+  .burn  { position:absolute; inset:0; z-index:2; pointer-events:none; }
+
+  /* vellum keeps its own cream + indigo. only lifted, never overpainted. */
+  .g-vellum > img { filter:contrast(1.16) saturate(1.14) brightness(1.03); }
+  .g-vellum .grade { background:linear-gradient(160deg,#6B5A2E,#2E4470); opacity:.14; }
+  .g-vellum .burn  { background:
+      linear-gradient(to bottom, rgba(0,0,0,.36) 0%, rgba(0,0,0,0) 20%,
+                      rgba(0,0,0,.22) 70%, rgba(0,0,0,.7) 100%); }
+
+  /* ink close-up — cooler, higher contrast so the script reads */
+  .g-ink > img { filter:contrast(1.5) saturate(.72) brightness(1.0); }
+  .g-ink .grade { background:linear-gradient(150deg,#1D3556,#2B4A72); opacity:.4; }
+  .g-ink .burn  { background:
+      linear-gradient(to bottom, rgba(0,0,0,.34) 0%, rgba(0,0,0,0) 22%,
+                      rgba(0,0,0,.26) 72%, rgba(0,0,0,.72) 100%); }
+
+  /* closing — deep, quiet */
+  .g-deep > img { filter:contrast(1.32) saturate(.9) brightness(.62); }
+  .g-deep .grade { background:linear-gradient(170deg,#0B1C38,#1E3350); opacity:.66; }
+  .g-deep .burn  { background:
+      radial-gradient(ellipse 60% 44% at 50% 26%, rgba(150,185,255,.12), rgba(0,0,0,0) 66%),
+      linear-gradient(to bottom, rgba(0,0,0,.54) 0%, rgba(0,0,0,.06) 26%,
+                      rgba(0,0,0,.5) 66%, rgba(0,0,0,.94) 100%); }
+
+  .z2 > img { transform:scale(2.0); }
+  .z3 > img { transform:scale(2.9); }
+
+  .src { position:absolute; left:0; right:0; bottom:0; z-index:5;
+         padding:46px 26px 15px;
+         background:linear-gradient(to top, rgba(0,0,0,.82), rgba(0,0,0,0));
+         font:400 19px/1.3 Consolas, monospace; letter-spacing:.08em;
+         color:rgba(255,255,255,.78); text-transform:uppercase; }
+
+  .cap { font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+         color:#fff; text-transform:uppercase; text-align:center;
+         line-height:.94; letter-spacing:.012em; text-wrap:balance; }
+  .y { color:#FFD23F; }
+  .stamp { font:400 26px/1 Consolas, monospace; letter-spacing:.24em;
+           color:#FFD23F; text-transform:uppercase;
+           border:2px solid #FFD23F; padding:12px 20px; }
+  .note { font:400 30px/1.42 'Segoe UI', sans-serif; text-align:center;
+          color:rgba(255,255,255,.82); max-width:27ch; }
+
+  .over { position:absolute; z-index:4; left:0; right:0; bottom:0;
+          padding:0 62px 66px; display:flex; flex-direction:column;
+          align-items:center; gap:26px; }
+  .over .cap { font-size:126px; }
+
+  .bar { background:#000; flex:0 0 auto; padding:0 54px 40px;
+         display:flex; flex-direction:column; align-items:center;
+         justify-content:center; gap:22px; min-height:336px; }
+  .bar .cap { font-size:76px; }
+  .bar .note { font-size:29px; }
+  .foot { font:400 23px/1 Consolas, monospace; letter-spacing:.16em;
+          color:rgba(255,255,255,.42); text-transform:uppercase; }
+
+  #c6 .over { gap:24px; padding-bottom:74px; }
+  #c6 .over .cap { font-size:110px; }
+  #c6 .cta { font:400 30px/1 Consolas, monospace; letter-spacing:.14em;
+             color:#0A0A0A; background:#FFD23F; padding:16px 26px;
+             text-transform:uppercase; margin-top:12px; }
+</style>
+
+<!-- 01 cover -->
+<div class="card" id="c1">
+  <div class="stage g-vellum">
+    <img src="vm/botanical.jpg" style="object-position:52% 46%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Voynich manuscript f.56r · Beinecke Library, Yale · public domain</div>
+    <div class="over">
+      <div class="stamp">c. 1404—1438</div>
+      <div class="cap">Nobody has ever <span class="y">read this book</span></div>
+      <div class="note">Six centuries old. Every attempt to decipher it has failed.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 02 the script -->
+<div class="card" id="c2">
+  <div class="stage g-ink z3">
+    <img src="vm/botanical.jpg" style="object-position:26% 16%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Voynich manuscript f.56r, detail · public domain</div>
+  </div>
+  <div class="bar">
+    <div class="cap">It looks like writing. <span class="y">No alphabet matches it.</span></div>
+    <div class="foot">@theglassnegative · 02 / 06</div>
+  </div>
+</div>
+
+<!-- 03 astronomical -->
+<div class="card" id="c3">
+  <div class="stage g-vellum z2">
+    <img src="vm/astro.jpg" style="object-position:62% 44%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Voynich manuscript f.68r, foldout · public domain</div>
+  </div>
+  <div class="bar">
+    <div class="cap">The diagrams look <span class="y">astronomical</span></div>
+    <div class="note">Rings of stars, and labels nobody can read.</div>
+    <div class="foot">@theglassnegative · 03 / 06</div>
+  </div>
+</div>
+
+<!-- 04 the plants -->
+<div class="card" id="c4">
+  <div class="stage g-vellum">
+    <img src="vm/page34.jpg" style="object-position:50% 52%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Voynich manuscript f.34r · public domain</div>
+  </div>
+  <div class="bar">
+    <div class="cap">Hundreds of plants. Most match <span class="y">nothing that grows.</span></div>
+    <div class="foot">@theglassnegative · 04 / 06</div>
+  </div>
+</div>
+
+<!-- 05 not a fake -->
+<div class="card" id="c5">
+  <div class="stage g-vellum">
+    <img src="vm/cover.jpg" style="object-position:50% 45%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Voynich manuscript · Beinecke Library, Yale · public domain</div>
+  </div>
+  <div class="bar">
+    <div class="cap">It is not a <span class="y">modern fake</span></div>
+    <div class="note">The vellum dates to 1404—1438. The ink matches the period.</div>
+    <div class="foot">@theglassnegative · 05 / 06</div>
+  </div>
+</div>
+
+<!-- 06 closing -->
+<div class="card" id="c6">
+  <div class="stage g-deep">
+    <img src="vm/botanical.jpg" style="object-position:70% 70%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Voynich manuscript f.56r · public domain</div>
+    <div class="over">
+      <div class="stamp">Still open</div>
+      <div class="cap">Nobody knows <span class="y">what it says</span></div>
+      <div class="note">A lost language, an unbroken cipher, or an elaborate hoax.</div>
+      <div class="cta">Follow @theglassnegative</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.body.className = 'c' + (new URLSearchParams(location.search).get('card') || '1');
+</script>

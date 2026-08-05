@@ -1,0 +1,187 @@
+<meta charset="utf-8">
+<title>render</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1350px; overflow:hidden; background:#000; }
+
+  .card { display:none; width:1080px; height:1350px; background:#000;
+          position:relative; flex-direction:column; }
+  body.c1 #c1, body.c2 #c2, body.c3 #c3,
+  body.c4 #c4, body.c5 #c5, body.c6 #c6 { display:flex; }
+
+  .stage { position:relative; flex:1; overflow:hidden; background:#05070D;
+           isolation:isolate; }
+  .stage > img { width:100%; height:100%; object-fit:cover; display:block; }
+  .grade { position:absolute; inset:0; z-index:2; mix-blend-mode:color; }
+  .burn  { position:absolute; inset:0; z-index:2; pointer-events:none; }
+
+  /* ── colour arc: one palette, six different balances ── */
+  .g-base > img { filter:grayscale(1) contrast(2.05) brightness(.82); }
+  .g-base .grade { background:linear-gradient(165deg,#1B3A6B 0%,#2E4668 42%,#7A4A16 100%); opacity:.72; }
+  .g-base .burn  { background:
+      radial-gradient(ellipse 62% 46% at 52% 30%, rgba(255,214,120,.30), rgba(0,0,0,0) 66%),
+      linear-gradient(to bottom, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 24%,
+                      rgba(0,0,0,.34) 72%, rgba(0,0,0,.8) 100%); }
+
+  /* 02 newspaper — keep the paper warm and readable */
+  .g-paper > img { filter:contrast(1.24) brightness(1.05) saturate(.88); }
+  .g-paper .grade { background:linear-gradient(160deg,#6B4A1B,#8A5A20); opacity:.22; }
+  .g-paper .burn  { background:linear-gradient(to bottom, rgba(0,0,0,.34) 0%,
+      rgba(0,0,0,0) 22%, rgba(0,0,0,.3) 74%, rgba(0,0,0,.74) 100%); }
+
+  /* 03 map — cold ink, crisp lines */
+  .g-ink > img { filter:grayscale(1) contrast(1.72) brightness(.96); }
+  .g-ink .grade { background:linear-gradient(150deg,#163358,#24507F); opacity:.62; }
+  .g-ink .burn  { background:
+      radial-gradient(ellipse 70% 54% at 50% 42%, rgba(255,255,255,.10), rgba(0,0,0,0) 70%),
+      linear-gradient(to bottom, rgba(0,0,0,.42) 0%, rgba(0,0,0,0) 20%,
+                      rgba(0,0,0,.4) 74%, rgba(0,0,0,.86) 100%); }
+
+  /* 04 swamp — pale, cold, empty */
+  .g-cold > img { filter:grayscale(1) contrast(1.62) brightness(1.02); }
+  .g-cold .grade { background:linear-gradient(180deg,#2C4E7A,#4A6E92); opacity:.66; }
+  .g-cold .burn  { background:linear-gradient(to bottom, rgba(0,0,0,.5) 0%,
+      rgba(0,0,0,0) 30%, rgba(0,0,0,.36) 74%, rgba(0,0,0,.84) 100%); }
+
+  /* 05 close-up — heat */
+  .g-warm > img { filter:grayscale(1) contrast(1.9) brightness(.9); }
+  .g-warm .grade { background:linear-gradient(150deg,#8A4A10 0%,#B06A14 55%,#3A2A44 100%); opacity:.8; }
+  .g-warm .burn  { background:
+      radial-gradient(ellipse 58% 50% at 44% 38%, rgba(255,196,80,.42), rgba(0,0,0,0) 68%),
+      linear-gradient(to bottom, rgba(0,0,0,.46) 0%, rgba(0,0,0,0) 26%,
+                      rgba(0,0,0,.38) 72%, rgba(0,0,0,.82) 100%); }
+
+  /* 06 — deepest, unresolved */
+  .g-deep > img { filter:grayscale(1) contrast(2.1) brightness(.66); }
+  .g-deep .grade { background:linear-gradient(170deg,#0B1C38 0%,#132C52 40%,#1E3350 100%); opacity:.8; }
+  .g-deep .burn  { background:
+      radial-gradient(ellipse 60% 44% at 50% 26%, rgba(140,180,255,.14), rgba(0,0,0,0) 66%),
+      linear-gradient(to bottom, rgba(0,0,0,.58) 0%, rgba(0,0,0,.08) 26%,
+                      rgba(0,0,0,.5) 68%, rgba(0,0,0,.94) 100%); }
+
+  /* ── real close-ups, not just repositioned crops ── */
+  .z2 > img { transform:scale(2.1); }
+  .z3 > img { transform:scale(2.4); }
+
+  .src { position:absolute; left:0; right:0; bottom:0; z-index:5;
+         padding:46px 26px 15px;
+         background:linear-gradient(to top, rgba(0,0,0,.82), rgba(0,0,0,0));
+         font:400 20px/1.3 Consolas, monospace; letter-spacing:.09em;
+         color:rgba(255,255,255,.78); text-transform:uppercase; }
+
+  .cap { font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+         color:#fff; text-transform:uppercase; text-align:center;
+         line-height:.94; letter-spacing:.012em; text-wrap:balance; }
+  .y { color:#FFD23F; }
+  .stamp { font:400 26px/1 Consolas, monospace; letter-spacing:.24em;
+           color:#FFD23F; text-transform:uppercase;
+           border:2px solid #FFD23F; padding:12px 20px; }
+  .note { font:400 30px/1.42 'Segoe UI', sans-serif; text-align:center;
+          color:rgba(255,255,255,.82); max-width:27ch; }
+
+  .over { position:absolute; z-index:4; left:0; right:0; bottom:0;
+          padding:0 62px 66px; display:flex; flex-direction:column;
+          align-items:center; gap:26px; }
+  .over .cap { font-size:132px; }
+
+  .bar { background:#000; flex:0 0 auto; padding:0 54px 40px;
+         display:flex; flex-direction:column; align-items:center;
+         justify-content:center; gap:22px; min-height:336px; }
+  .bar .cap { font-size:78px; }
+  .bar .note { font-size:29px; }
+  .foot { font:400 23px/1 Consolas, monospace; letter-spacing:.16em;
+          color:rgba(255,255,255,.42); text-transform:uppercase; }
+
+  #c6 .over { gap:24px; padding-bottom:74px; }
+  #c6 .over .cap { font-size:112px; }
+  #c6 .cta { font:400 30px/1 Consolas, monospace; letter-spacing:.14em;
+             color:#0A0A0A; background:#FFD23F; padding:16px 26px;
+             text-transform:uppercase; margin-top:12px; }
+</style>
+
+<!-- 01 ─ cover · forest, wide establishing -->
+<div class="card" id="c1">
+  <div class="stage g-base">
+    <img src="img/forest.jpg" style="object-position:56% 52%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Kulik expedition, May 1929 · public domain · colour graded</div>
+    <div class="over">
+      <div class="stamp">Siberia · 1908</div>
+      <div class="cap">Why is there <span class="y">no crater?</span></div>
+      <div class="note">80 million trees went down. Nobody ever found the hole.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 02 ─ newspaper -->
+<div class="card" id="c2">
+  <div class="stage g-paper">
+    <img src="img/newspaper.jpg" style="object-position:50% 4%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Sibirskaya Zhizn, 12 July 1908 · public domain</div>
+  </div>
+  <div class="bar">
+    <div class="cap">The first report came 12 days later — and it was <span class="y">wrong</span></div>
+    <div class="foot">@theglassnegative · 02 / 06</div>
+  </div>
+</div>
+
+<!-- 03 ─ Kulik's own survey map -->
+<div class="card" id="c3">
+  <div class="stage g-ink z2">
+    <img src="img/map.jpg" style="object-position:50% 30%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Survey map of the fall area, published 1931 · public domain</div>
+  </div>
+  <div class="bar">
+    <div class="cap">He spent <span class="y">19 years</span> hunting a hole that was never there</div>
+    <div class="note">Leonid Kulik reached the site in 1927. He was sure one of these bogs was the impact point. None of them were.</div>
+    <div class="foot">@theglassnegative · 03 / 06</div>
+  </div>
+</div>
+
+<!-- 04 ─ swamp, wide and empty -->
+<div class="card" id="c4">
+  <div class="stage g-cold">
+    <img src="img/swamp.jpg" style="object-position:50% 46%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Tunguska bogs, before Sept 1930 · public domain · colour graded</div>
+  </div>
+  <div class="bar">
+    <div class="cap"><span class="y">80 million</span> trees down. 2,150 km². No hole in the ground.</div>
+    <div class="foot">@theglassnegative · 04 / 06</div>
+  </div>
+</div>
+
+<!-- 05 ─ extreme close-up on the trunks -->
+<div class="card" id="c5">
+  <div class="stage g-warm z3">
+    <img src="img/forest.jpg" style="object-position:42% 62%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Kulik expedition, May 1929 · public domain · colour graded</div>
+  </div>
+  <div class="bar">
+    <div class="cap">It never hit the ground</div>
+    <div class="note">It burst about 8 km up. At the centre, trees were left standing but stripped bare — the blast came straight down.</div>
+    <div class="foot">@theglassnegative · 05 / 06</div>
+  </div>
+</div>
+
+<!-- 06 ─ closing -->
+<div class="card" id="c6">
+  <div class="stage g-deep">
+    <img src="img/forest.jpg" style="object-position:12% 26%">
+    <div class="grade"></div><div class="burn"></div>
+    <div class="src">Kulik expedition, May 1929 · public domain · colour graded</div>
+    <div class="over">
+      <div class="stamp">Still open</div>
+      <div class="cap">Nobody ever found <span class="y">a single piece</span></div>
+      <div class="note">Rock or ice, we still don't know what it was made of.</div>
+      <div class="cta">Follow @theglassnegative</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.body.className = 'c' + (new URLSearchParams(location.search).get('card') || '1');
+</script>
