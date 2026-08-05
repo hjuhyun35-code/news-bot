@@ -26,7 +26,9 @@
       "slug": "phaistos",
       "subject": "The Phaistos Disc, a fired clay disc stamped with an undeciphered script",
       "wikipedia": "Phaistos Disc",
-      "hook": "활자로 찍혔는데 아무도 못 읽는다"
+      "hook": "활자로 찍혔는데 아무도 못 읽는다",
+      "hold": true,
+      "why_hold": "2026-08-05 확인. 후보 92장 중 저작권 만료·크기 조건을 통과한 것이 3장뿐이라 find_images.py 가 중단했다. 카드 6장을 채울 수 없다."
     },
     {
       "slug": "rongorongo",
