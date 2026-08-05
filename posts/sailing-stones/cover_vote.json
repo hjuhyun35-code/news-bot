@@ -1,0 +1,54 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 3,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 눈이 바로 화면 한가운데 갈라진 바닥을 가로지르는 두 줄기 자국으로 빨려들어갔다. 자국을 따라가니 오른쪽 아래에 돌이 하나 딱 놓여 있고, 왼쪽에도 또 하나. '아 저 돌이 저 선을 만든 거구나'가 글 안 읽어도 1초 만에 이해된다. 주황색 하늘에 검은 산까지 대비가 세서 피드에서 색이 튄다. B는 돌 하나는 크게 잘 보이는데 뒤로 이어지는 자국이 흐리고 전체가 회청색이라 피드에서 그냥 지나가는 톤이고, C는 돌만 클로즈업이라 배경이 다 뭉개져서 '왜 신기한지'가 사진에 안 남아 있다. A만 미스터리가 사진 안에 통째로 들어 있어서 캡처해서 단톡방에 던지고 싶다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A는 갈라진 소금 평원의 균열 텍스처가 화면 전체를 채우고, 두 갈래 궤적이 화면 아래에서 위로 소실점처럼 빨려 들어가서 눈이 자동으로 그 선을 따라 올라갔다. 그 끝에 왼쪽 작은 돌, 오른쪽 아래 큰 돌 — '이 선을 이게 그었구나'가 설명 없이 1초 만에 읽힌다. 세피아 그레이드가 좀 과하고 상단 하늘이 탁하게 뭉개진 건 보이지만, 서사가 사진 안에 완결돼 있는 건 A뿐이다. B는 돌과 그림자는 예쁜데 궤적이 얇고 멀어서 힘이 약하고, 하단 자막 3줄이 서로 겹쳐 붙어 있어 (특히 'TRAIL, NO'와 'BESIDE IT'의 쉼표·디센더 충돌) 만듦새가 바로 신뢰를 깎는다. C는 돌만 크게 잘라놨는데 궤적이 아예 안 보여서 '그냥 사막의 돌 사진'이다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Sofia",
+      "age": 27
+    },
+    {
+      "choice": "A",
+      "why": "A에서 눈이 제일 먼저 간 건 화면 한가운데를 뚫고 지나가는 두 갈래 자국이었다. 아래쪽 갈라진 진흙바닥에서 시작해 저 멀리 산기슭까지 선이 이어지는데, 그 선을 따라가다 보니 오른쪽 아래 바위 하나, 왼쪽에 또 하나가 눈에 들어왔다. '아, 저 돌이 저 선을 남겼구나'가 사진만 보고도 순서대로 읽힌다. 원인과 결과가 한 프레임에 다 있는 게 이거 하나뿐이다. 세피아 톤은 좀 과하게 만진 티가 나고 하늘도 인위적으로 어둡지만, 그래도 레이스트랙 플라야라는 걸 바로 알아본다. B는 돌은 크고 그림자도 좋은데 뒤로 이어진 자국이 얇고 흐려서 두 번 봐야 보이고, 파란 필터가 밤처럼 보이게 하려고 억지로 넣은 느낌이라 오히려 신뢰가 깎인다. C는 돌만 클로즈업하고 배경은 다 뭉개놔서 정작 이 이야기의 핵심인 '자국'이 아예 없다. 자국 없는 돌 사진은 그냥 돌이다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 3,
+  "asked": 3,
+  "chosen": {
+    "image": "threestonestracks.jpg",
+    "crop": "42% 62%",
+    "zoom": 1.05,
+    "fit": "crop",
+    "grade": "warm",
+    "hook": "These rocks move. Nobody has ever seen it happen.",
+    "why": "Natively vertical, so nothing important is lost to the card shape. The foreground boulder reads instantly as a rock at thumbnail size, and the pale double track runs from it straight up to the mountains — the whole mystery is legible in one glance. Crop pulled slightly left and down to keep the near stone big and the track's full length intact."
+  }
+}

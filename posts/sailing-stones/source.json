@@ -27,5 +27,12 @@
       "file": "playanightpanorama.jpg",
       "commons": "File:Deathvalleysky nps big.jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "threestonestracks.jpg",
+    "crop": "42% 62%",
+    "zoom": 1.05,
+    "fit": "crop",
+    "grade": "warm"
+  }
 }

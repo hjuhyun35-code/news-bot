@@ -1,0 +1,239 @@
+{
+  "claims": [
+    {
+      "claim": "The rocks move across the desert floor by themselves, without animal intervention",
+      "where": "card 1 headline / caption opening",
+      "verdict": "supported",
+      "quote": "Sailing stones ... are part of the geological phenomenon in which rocks move and inscribe long tracks along a smooth valley floor without animal intervention."
+    },
+    {
+      "claim": "Nothing pushes the stones",
+      "where": "card 1 note",
+      "verdict": "contradicted",
+      "quote": "These thin, floating ice panels, frozen during cold winter nights, are driven by light winds, and shove rocks at up to 5 m/min"
+    },
+    {
+      "claim": "The stones leave trails on the playa surface",
+      "where": "card 1 note; visible in stonewithtrail.jpg, threestonestracks.jpg, zigzagtrack.jpg",
+      "verdict": "supported",
+      "quote": "rocks move and inscribe long tracks along a smooth valley floor"
+    },
+    {
+      "claim": "The card 1 photograph shows Racetrack Playa, Death Valley",
+      "where": "card 1 note",
+      "verdict": "unsupported",
+      "quote": "Archive title: File:Sailing Stones (3992378748).jpg Description: Sailing Stones"
+    },
+    {
+      "claim": "Card 1 image is by Romain Guy, 2009, CC0",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 2009-09-19 11:57 Author: Romain Guy  from San Francisco, USA Licence: CC0"
+    },
+    {
+      "claim": "Trails run up to 330 feet (100 m) long",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "Tracks are often up to 330 ft (100 m) long, about 8 to 30 cm (3 to 12 in) wide, and typically much less than 2.5 cm (1 in) deep."
+    },
+    {
+      "claim": "Trails are 3 to 12 inches wide and usually less than an inch deep",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "about 8 to 30 cm (3 to 12 in) wide, and typically much less than 2.5 cm (1 in) deep"
+    },
+    {
+      "claim": "The tracks have been studied since the early 1900s",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "At Racetrack Playa, these tracks have been studied since the early 1900s"
+    },
+    {
+      "claim": "Card 2 image is by Jon Sullivan, 23 August 2003, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 23 August 2003 (18 October 2004 (original upload date)) Author: Jon Sullivan (pdphoto.org) / CC0 Licence: Public domain"
+    },
+    {
+      "claim": "Two rocks starting side by side may travel parallel and then one abruptly turns left",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "Rocks that start next to each other may travel parallel for a time, before one abruptly changes direction to the left, right, or even back to the direction from which it came."
+    },
+    {
+      "claim": "Rough-bottomed stones cut straight striated tracks while smooth-bottomed ones wander",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Stones with rough bottoms leave straight striated tracks, while those with smooth bottoms tend to wander."
+    },
+    {
+      "claim": "Some stones flip over mid-journey",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Stones sometimes turn over, exposing another edge to the ground and leaving a different track in the stone's wake."
+    },
+    {
+      "claim": "Card 3 image is by Jon Sullivan, 2007, public domain",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Date: 2007-06-13 Author: Jon Sullivan Licence: Public domain"
+    },
+    {
+      "claim": "A 2.5-inch stone travelled 860 feet",
+      "where": "card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "At 6.4 cm (2.5 in) in diameter, Nancy (stone H) was the smallest monitored stone. It also moved the longest cumulative distance, 260 m (860 ft)"
+    },
+    {
+      "claim": "Nancy moved 201 m (659 ft) in a single winter",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "and the greatest single winter movement, 201 m (659 ft)"
+    },
+    {
+      "claim": "Sharp and Carey tagged 30 rocks in 1968 and monitored them for seven years",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "Bob Sharp and Dwight Carey started a Racetrack stone movement monitoring program in May 1968. Eventually, 30 stones with fresh tracks were labeled and stakes were used to mark their locations. Each stone was given a name and changes in the stones' positions were recorded over a seven-year period."
+    },
+    {
+      "claim": "All but two of the monitored stones moved",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "In the end, all but two of the monitored stones moved during the seven-year study."
+    },
+    {
+      "claim": "\"Nancy\" moved the farthest of the monitored stones",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "It also moved the longest cumulative distance, 260 m (860 ft)"
+    },
+    {
+      "claim": "Nancy was the smallest of the monitored stones",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At 6.4 cm (2.5 in) in diameter, Nancy (stone H) was the smallest monitored stone."
+    },
+    {
+      "claim": "Karen is an estimated 700-pound block of dolomite",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "Karen (stone J) is a 74-by-48-by-51-centimeter (29 by 19 by 20 in) block of dolomite and weighs an estimated 320 kg (700 lb)."
+    },
+    {
+      "claim": "Karen never moved during the monitoring study",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Karen did not move during the monitoring period."
+    },
+    {
+      "claim": "Karen vanished from the playa before May 1994",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "However, Karen disappeared sometime before May 1994, possibly during the unusually wet winter of 1992 to 1993."
+    },
+    {
+      "claim": "A geologist rediscovered Karen in 1996",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Karen was rediscovered by San Jose geologist Paula Messina in 1996."
+    },
+    {
+      "claim": "Card 5 image is by Romain Guy, 31 May 2012, CC0",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Date: 2012-05-31 20:21 Author: Romain Guy  from San Francisco, USA Licence: CC0"
+    },
+    {
+      "claim": "The movement is caused by thin ice sheets shoving the rocks during sunny mornings",
+      "where": "card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "Instead, rocks move when large ice sheets a few millimeters thick floating in an ephemeral winter pond start to break up during sunny mornings."
+    },
+    {
+      "claim": "On 20 December 2013 more than 60 rocks were documented moving, at up to 5 m/min",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The largest rock movement the research team witnessed and documented was on December 20, 2013, and involved more than 60 rocks"
+    },
+    {
+      "claim": "Rock movements were observed using GPS and time-lapse photography",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "News articles reported the mystery solved when researchers observed rock movements using GPS and time-lapse photography."
+    },
+    {
+      "claim": "The ice sheets are only a few millimetres thick, frozen on a shallow winter pond, and are pushed by light winds",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "These thin, floating ice panels, frozen during cold winter nights, are driven by light winds, and shove rocks at up to 5 m/min"
+    },
+    {
+      "claim": "Some observed moves lasted 16 minutes",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Some GPS-measured moves lasted up to 16 minutes"
+    },
+    {
+      "claim": "The observations ruled out the older idea of strong (90 mph) gusts dragging rocks through mud",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "These observations contradicted earlier hypotheses of strong winds or thick ice floating rocks off the surface."
+    },
+    {
+      "claim": "Winter storm gusts on the playa can reach 90 mph",
+      "where": "caption (implied figure)",
+      "verdict": "supported",
+      "quote": "which can reach 140 km/h (90 mph) in winter storms"
+    },
+    {
+      "claim": "Rock movement requires a flooded playa and freezing nights",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Because rock movement relies on a rare set of circumstances, the usually dry playa being flooded and the water freezing, drier winters and warmer winter nights would cause such circumstances to occur less often."
+    },
+    {
+      "claim": "A statistical study by Ralph Lorenz and Brian Jackson suggests, at 4:1 odds, a decline in rock movement since the 1960s–90s",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "A statistical study by Ralph Lorenz and Brian Jackson examining published reports of rock movements suggested (with 4:1 odds) an apparent decline between the 1960s–1990s, and the 21st century."
+    },
+    {
+      "claim": "Rocks have been stolen from the playa",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On May 30, 2013, the Los Angeles Times reported that park officials were looking into the theft of several of the rocks from the Death Valley National Park."
+    },
+    {
+      "claim": "In 2016 someone left 10 miles of tire tracks across the playa",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In August 2016, around 10 miles (16 km) of tire tracks were left in the playa by someone driving around it illegally."
+    },
+    {
+      "claim": "The vandal was still unidentified in 2018",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the vandal had not been identified in March 2018"
+    },
+    {
+      "claim": "The first documented account of the phenomenon is from 1915, by a prospector named Joseph Crook of Fallon, Nevada",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The first documented account of the sliding rock phenomenon dates to 1915, when a prospector named Joseph Crook from Fallon, Nevada, visited the Racetrack Playa site."
+    },
+    {
+      "claim": "Card 6 image is by Dan Duriscoe for the U.S. National Park Service, 2005",
+      "where": "card 6 source; caption credit",
+      "verdict": "supported",
+      "quote": "Date: 2005 Author: Dan Duriscoe, for the  en:U.S. National Park Service ."
+    },
+    {
+      "claim": "All images used are public domain or CC0",
+      "where": "caption credit line",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 2
+}

@@ -1,0 +1,86 @@
+{
+  "caption": "Why do the rocks in Death Valley move by themselves?\n\nThey don't move alone. On Racetrack Playa in Death Valley National Park, rocks leave trails up to 100 m (330 ft) long, 3 to 12 inches wide and usually less than an inch deep. Tracks there have been studied since the early 1900s. The first documented account is from 1915, by a prospector named Joseph Crook of Fallon, Nevada.\n\nIn 1968 Bob Sharp and Dwight Carey tagged 30 stones and watched them for seven years. All but two moved. The smallest, \"Nancy\" — 2.5 inches across — travelled 260 m (860 ft) in total, including 201 m (659 ft) in a single winter. \"Karen\", an estimated 700 lb block of dolomite, never budged during the study and then vanished from the playa before May 1994. A geologist rediscovered it in 1996.\n\nThe answer arrived on 20 December 2013. GPS units and time-lapse cameras caught more than 60 rocks moving at once. Sheets of ice only a few millimetres thick, frozen on a shallow winter pond, break up on sunny mornings and are pushed by light winds, shoving rocks along at up to 5 m per minute. Some moves lasted 16 minutes. That ruled out the older idea of 90 mph gusts dragging rocks through mud.\n\nWhat is still open: how long the phenomenon will last. Rock movement needs a flooded playa and freezing nights, and a statistical study by Ralph Lorenz and Brian Jackson suggests, at 4:1 odds, a decline since the 1960s–90s. Rocks have also been stolen, and in 2016 someone left 10 miles of tire tracks across the playa. That vandal was still unidentified in 2018.\n\nImages by Romain Guy, Jon Sullivan, and Dan Duriscoe for the U.S. National Park Service. All public domain or CC0.\n\n#racetrackplaya #deathvalley #sailingstones #geology #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "threestonestracks.jpg",
+      "crop": "42% 62%",
+      "zoom": 1.05,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "These rocks <y>moved themselves</y> across the desert",
+      "note": "Racetrack Playa, Death Valley. The stones leave trails and nothing pushes them.",
+      "source": "Romain Guy, 2009 · CC0",
+      "alt": "Three rocks on a cracked dry lake bed, each with a long curving trail behind it.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "stonewithtrail.jpg",
+      "crop": "38% 58%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Trails run up to <y>330 feet long</y>",
+      "note": "They are 3 to 12 inches wide and usually less than an inch deep. Tracks have been studied since the early 1900s.",
+      "source": "Jon Sullivan, 23 August 2003 · public domain",
+      "alt": "A pale boulder at the end of a long track scratched into cracked desert clay.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "zigzagtrack.jpg",
+      "crop": "72% 62%",
+      "zoom": 1.35,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Two rocks side by side, then <y>one turns hard left</y>",
+      "note": "Rough-bottomed stones cut straight striated tracks. Smooth-bottomed ones wander. Some flip over mid-journey.",
+      "source": "Jon Sullivan, 2007 · public domain",
+      "alt": "A rock at the end of a sharply angled track crossing a sunlit cracked playa.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "stonecloseup.jpg",
+      "crop": "58% 62%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A 2.5-inch stone travelled <y>860 feet</y>",
+      "note": "Sharp and Carey tagged 30 rocks in 1968 and watched seven years. All but two moved. \"Nancy\" moved farthest.",
+      "source": "Romain Guy, 2009 · CC0",
+      "alt": "Close view of an angular grey and tan rock resting on cracked pale desert clay.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "playadusk.jpg",
+      "crop": "46% 44%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "A 700-pound block called Karen <y>simply disappeared</y>",
+      "note": "It never moved during the study, then vanished before May 1994. A geologist rediscovered it in 1996.",
+      "source": "Romain Guy, 31 May 2012 · CC0",
+      "alt": "Rocks scattered across a cracked white playa at dusk with mountains behind.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "playanightpanorama.jpg",
+      "crop": "78% 62%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Solved: <y>thin ice shoves them</y> on winter mornings",
+      "note": "Filmed 20 Dec 2013 — 60+ rocks moving at 5 m/min. Open: whether warmer winters end it.",
+      "source": "Dan Duriscoe, U.S. National Park Service, 2005",
+      "alt": "Night panorama of the playa under the Milky Way, a small stone and its track below.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "sailing-stones",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
