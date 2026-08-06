@@ -352,6 +352,7 @@ MAX_CARDS = 6        # 이보다 많으면 끝까지 보는 사람이 없다
 COVER_ZOOM_MAX = 1.5 # 표지는 확대하면 안 된다. 아래 tidy() 주석 참고
 NOTE_MAX = 150       # 설명글. 길면 카드가 글 벽이 된다
 DETAIL_ZOOM = 2.0    # 이보다 세게 확대한 카드는 한 장만 남긴다
+WRITE_TRIES = 3      # 한도를 넘기면 다시 쓴다. 대개 두 번째에 통과한다
 
 
 def card_count(images):
@@ -545,7 +546,7 @@ Is this subject safe to publish?""".strip(), SAFETY_SCHEMA)
             f"swiping from the cover onto the same photograph reads as a "
             f"swipe that did not register.\n")
 
-    post = call(client, WRITER_SYSTEM, f"""
+    writer_prompt = f"""
 Subject: {src['subject']}
 
 === SOURCE ARTICLE (the only story material you may use) ===
@@ -577,26 +578,39 @@ HARD LIMITS — a post that breaks any of these is rejected outright:
   caption  under 1900 characters, counting spaces and hashtags
   source   under 60 characters per card, and never starting with "File:"
   alt      under 100 characters per card
-Write short and cut. Do not pad the caption to fill space.""".strip(),
-                CARD_SCHEMA, extra_blocks=image_blocks(post_dir, src["images"]))
+Write short and cut. Do not pad the caption to fill space.""".strip()
 
-    print(f"  카드 {len(post['cards'])}장, 캡션 {len(post['caption'])}자")
+    # 길이와 개수는 프롬프트로 지켜지지 않는다. 여섯 장을 쓰라고 해놓고
+    # 한 장짜리 대본이 돌아오는 일이 실제로 있다 — 스키마로도 못 막는다
+    # (json_schema 는 배열 최소 길이를 1 위로 못 올린다).
+    #
+    # 옛 주석이 "다시 실행하면 대개 통과합니다"라고 알려주고 있었는데,
+    # 정작 사람이 다시 실행해야 했다. 이제 여기서 다시 쓴다. 2026-08-06 에
+    # cottingley 가 카드 1장으로 돌아와 그날 몫을 통째로 날렸다.
+    for attempt in range(1, WRITE_TRIES + 1):
+        post = call(client, WRITER_SYSTEM, writer_prompt, CARD_SCHEMA,
+                    extra_blocks=image_blocks(post_dir, src["images"]))
 
-    # 부탁이 아니라 덮어쓰기다. 투표로 정한 표지가 대본 쪽 판단으로
-    # 바뀌면 투표를 한 의미가 없다.
-    if cover and post["cards"]:
-        before = post["cards"][0].get("image")
-        post["cards"][0].update(cover)
-        if before != cover["image"]:
-            print(f"  [고정] 표지를 투표 결과로 되돌림: {before} → {cover['image']}")
+        print(f"  카드 {len(post['cards'])}장, 캡션 {len(post['caption'])}자")
 
-    fixed, problems = tidy(post, {i["file"] for i in src["images"]})
-    for line in fixed:
-        print(f"  [자동수정] {line}")
-    for line in problems:
-        print(f"  [한도초과] {line}")
-    if problems:
-        sys.exit("길이 제한을 넘겼습니다. 다시 실행하면 대개 통과합니다.")
+        # 부탁이 아니라 덮어쓰기다. 투표로 정한 표지가 대본 쪽 판단으로
+        # 바뀌면 투표를 한 의미가 없다.
+        if cover and post["cards"]:
+            before = post["cards"][0].get("image")
+            post["cards"][0].update(cover)
+            if before != cover["image"]:
+                print(f"  [고정] 표지를 투표 결과로 되돌림: {before} → {cover['image']}")
+
+        fixed, problems = tidy(post, {i["file"] for i in src["images"]})
+        for line in fixed:
+            print(f"  [자동수정] {line}")
+        for line in problems:
+            print(f"  [한도초과] {line}")
+        if not problems:
+            break
+        if attempt == WRITE_TRIES:
+            sys.exit(f"[중단] {WRITE_TRIES}번 다시 썼는데도 한도를 넘겼습니다.")
+        print(f"  다시 씁니다 ({attempt}/{WRITE_TRIES})")
 
     # ── 4. 검사관 ────────────────────────────────────────────────
     print()
