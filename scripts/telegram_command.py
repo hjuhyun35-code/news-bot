@@ -26,7 +26,7 @@ import urllib.parse
 import urllib.request
 
 import telegram
-from check_approvals import handle, DONE, RETRY
+from check_approvals import handle, RETRY
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.environ.get("GITHUB_REPOSITORY", "hjuhyun35-code/news-bot")
