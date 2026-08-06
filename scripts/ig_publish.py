@@ -16,6 +16,11 @@ TOKEN = os.environ.get("IG_ACCESS_TOKEN", "").strip()
 SLUG = os.environ.get("POST_SLUG", "tunguska").strip()
 CONFIRM = os.environ.get("PUBLISH_CONFIRM", "").strip()
 
+# 묶음이 준비됐다고 해놓고 발행은 아직 못 받을 때 인스타가 주는 값
+NOT_READY_YET = 2207027
+PUBLISH_TRIES = 6
+PUBLISH_WAIT = 15   # 초
+
 
 def call(method, path, params):
     url = f"{API}/{path}"
@@ -141,12 +146,32 @@ def main():
         return
 
     print("4단계 — 발행")
-    published, err = call("POST", "me/media_publish", {
-        "creation_id": parent_id,
-        "access_token": TOKEN,
-    })
-    if err:
-        fail("발행에 실패했습니다.", err)
+
+    # 묶음이 FINISHED 라고 답한 뒤에도 인스타가 아직 발행을 못 받는
+    # 때가 있다 — 2026-08-06 codex-gigas 가 여기서 죽었다.
+    #
+    #   code 9007 / subcode 2207027
+    #   "The media is not ready for publishing, please wait for a moment"
+    #
+    # 준비 상태를 다시 물어봐야 소용없다. 이미 FINISHED 라고 답한다.
+    # 그냥 조금 기다렸다가 다시 요청하면 된다. 이 오류만 다시 시도한다 —
+    # 다른 오류에서 다시 부르면 같은 글이 두 번 올라갈 수 있다.
+    published = None
+    for attempt in range(1, PUBLISH_TRIES + 1):
+        published, err = call("POST", "me/media_publish", {
+            "creation_id": parent_id,
+            "access_token": TOKEN,
+        })
+        if not err:
+            break
+        detail = (err or {}).get("error", {})
+        if detail.get("error_subcode") != NOT_READY_YET:
+            fail("발행에 실패했습니다.", err)
+        if attempt == PUBLISH_TRIES:
+            fail(f"묶음이 {PUBLISH_TRIES}번 시도까지 발행 준비가 안 됐습니다.", err)
+        print(f"    아직 준비 중이랍니다. {PUBLISH_WAIT}초 뒤 다시 "
+              f"({attempt}/{PUBLISH_TRIES})")
+        time.sleep(PUBLISH_WAIT)
 
     print()
     print("=" * 60)
