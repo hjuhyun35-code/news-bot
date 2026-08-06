@@ -1,0 +1,197 @@
+{
+  "claims": [
+    {
+      "claim": "Legend says the Devil wrote the book",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The codex's extraordinary length, size, and detail have given rise to the legend that it was written by one scribe in one night with help from the Devil himself."
+    },
+    {
+      "claim": "The Devil portrait is on folio 290",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "Folio 290 recto, otherwise empty, includes a full-page portrait of Satan, the Devil, about 50 cm (20 in) tall."
+    },
+    {
+      "claim": "The Devil is about 50 cm tall and the page is otherwise empty",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Folio 290 recto, otherwise empty, includes a full-page portrait of Satan, the Devil, about 50 cm (20 in) tall."
+    },
+    {
+      "claim": "The pages before the Devil illustration darkened because readers turned to look at it, exposing them to light",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The discoloration is because these vellum pages have been exposed to the light as readers turned the pages toward the infamous illustration over the centuries."
+    },
+    {
+      "claim": "The codex is 92 cm long",
+      "where": "card 2 headline / caption",
+      "verdict": "supported",
+      "quote": "At 92 cm (36 in) long, 50 cm (20 in) wide and 22 cm (8.7 in) thick, it is the largest known medieval manuscript."
+    },
+    {
+      "claim": "The codex weighs 74.8 kg",
+      "where": "card 2 headline / caption",
+      "verdict": "supported",
+      "quote": "Weighing 74.8 kg (165 lb), Codex Gigas is composed of 310 leaves of vellum claimed to be made from the skins of 160 donkeys, or perhaps calfskin"
+    },
+    {
+      "claim": "It has 310 leaves of vellum, claimed to be from the skins of 160 donkeys",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "Codex Gigas is composed of 310 leaves of vellum claimed to be made from the skins of 160 donkeys, or perhaps calfskin"
+    },
+    {
+      "claim": "Fifty-seven illuminated capitals survive",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Capital letters at the start of books of the bible and the chronicle are elaborately illuminated in several colours, sometimes taking up most of the page; 57 of these survive."
+    },
+    {
+      "claim": "The manuscript is written in Latin except for two Hebrew alphabets",
+      "where": "card 3 headline/note",
+      "verdict": "supported",
+      "quote": "The first page has two Hebrew alphabets. ... Apart from the alphabets at the start, the entire book is written in Latin."
+    },
+    {
+      "claim": "The Hebrew alphabets are on the first page, next to the opening of Genesis",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Sample tables of various alphabets on the first page of  Codex Gigas , including a Glagolitic and a Cyrillic sample (pasted in at a later date), next to the incipit of the Book of Genesis."
+    },
+    {
+      "claim": "The book was thrown from a burning castle and hit a bystander",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "The Codex Gigas was saved by being thrown out of a window; according to the vicar Johann Erichsons, it landed on and injured a bystander."
+    },
+    {
+      "claim": "Swedish troops took it as war booty in 1648",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "At the end of the Thirty Years' War in 1648, the entire collection was taken as war booty by the Swedish Army."
+    },
+    {
+      "claim": "The Stockholm castle fire occurred in 1697",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "On 7 May 1697, a fire at the Tre Kronor royal castle in Stockholm destroyed much of the Swedish Royal Library."
+    },
+    {
+      "claim": "The fire was at the Tre Kronor castle in Stockholm",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On 7 May 1697, a fire at the Tre Kronor royal castle in Stockholm destroyed much of the Swedish Royal Library."
+    },
+    {
+      "claim": "The vicar Johann Erichsons recorded that the book landed on and injured a bystander",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "according to the vicar Johann Erichsons, it landed on and injured a bystander"
+    },
+    {
+      "claim": "Glagolitic and Cyrillic alphabet slips were pasted in at a later date",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "including a Glagolitic and a Cyrillic sample (pasted in at a later date)"
+    },
+    {
+      "claim": "There are two small sheets of sample alphabets added to the first page beside the start of Genesis",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "There are also added slips with Early Cyrillic and Glagolitic alphabets (Folio 1)."
+    },
+    {
+      "claim": "Handwriting analysis indicates a single scribe wrote the book",
+      "where": "card 6 headline/note, caption",
+      "verdict": "supported",
+      "quote": "It has been verified by extensive handwriting analysis that it was written by one monk"
+    },
+    {
+      "claim": "The book took an estimated 20 to 30 years to complete",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "it is estimated to have been completed over the span of 20-30 years"
+    },
+    {
+      "claim": "Twelve leaves were later removed, and it is unknown who removed them or why",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "It initially contained 320 sheets. However, twelve of these were subsequently removed. It is unknown who removed the pages or for what purpose."
+    },
+    {
+      "claim": "The codex originally contained 320 leaves",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It initially contained 320 sheets."
+    },
+    {
+      "claim": "It is the largest surviving medieval manuscript in the world",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Codex Gigas (\"Giant Book\"; Czech: Obří kniha) is the largest extant medieval illuminated manuscript in the world, at a length of 92 cm (36 in)."
+    },
+    {
+      "claim": "It measures 50 cm wide and 22 cm thick",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At 92 cm (36 in) long, 50 cm (20 in) wide and 22 cm (8.7 in) thick, it is the largest known medieval manuscript."
+    },
+    {
+      "claim": "It was made in the early 13th century at the Benedictine monastery of Podlažice in Bohemia",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The manuscript was created in the early 13th century in the Benedictine monastery of Podlažice in Chrast, Bohemia, now a region in the modern-day Czech Republic."
+    },
+    {
+      "claim": "Contents include the complete Latin Vulgate Bible, Josephus, Isidore of Seville's Etymologiae, the chronicle of Cosmas of Prague, and medical treatises",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Between the Old and New Testaments is a selection of other popular medieval reference works: Flavius Josephus's Antiquities of the Jews and The Jewish War, Isidore of Seville's encyclopedia Etymologiae, the chronicle of Cosmas of Prague (Chronica Boemorum), and medical works"
+    },
+    {
+      "claim": "The records in the codex stop in 1222",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Records in the codex end in the year 1222."
+    },
+    {
+      "claim": "The Devil has a dark green head, red horns and claws, four fingers on each hand, and two red tongues",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "His hands and feet end with only four fingers and toes each, terminating in large claws; his claws and large horns are red.\nHe has a large, dark green head"
+    },
+    {
+      "claim": "Facing the Devil is a full-page depiction of the Kingdom of Heaven",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Directly opposite the Devil is a full page depiction of the Kingdom of Heaven, thus juxtaposing contrasting images of Good and Evil as Christian symbols."
+    },
+    {
+      "claim": "The legend tells of a monk sentenced to be walled up alive who promised to write in one night a book holding all human knowledge",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the scribe was a Christian monk who broke his monastic vows and was sentenced to be walled up alive. To escape death, he promised to create, in one night, a book to glorify the monastery forever, including all human knowledge."
+    },
+    {
+      "claim": "Near midnight the monk prayed to Lucifer for help",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Near midnight, he became so desperate that he prayed to Lucifer to help him finish the book in exchange for his soul."
+    },
+    {
+      "claim": "The manuscript is now at the National Library of Sweden",
+      "where": "caption / images note",
+      "verdict": "supported",
+      "quote": "the manuscript is now preserved at the National Library of Sweden in Stockholm, where it is on display for the general public."
+    },
+    {
+      "claim": "The Devil folio image is an enhanced CC0 scan",
+      "where": "card 1 source / caption images note",
+      "verdict": "supported",
+      "quote": "This is an enhanced file of the P.S. Burton image - I have color balanced the image - enhanced colors - and enlarged to 1924x3012 ... Licence: CC0"
+    }
+  ],
+  "problems": 0
+}

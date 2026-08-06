@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 스크롤 중에 얼굴이 먼저 보인다. 뿔 두 개랑 초록 얼굴, 튀어나온 붉은 혀, 그리고 위로 뻗은 갈고리 손가락들이 정중앙에 딱 대칭으로 박혀 있어서 눈이 자동으로 그 눈알 세 개(?)에 꽂혔다. 회색 톤이라 피드에서 색이 튀지도 않는데, 형체 자체가 기괴해서 '이게 뭐야' 하고 손가락이 멈춤. 캡션 안 읽어도 그림만 스샷해서 단톡에 던질 수 있는 종류. B는 그냥 오래된 글자 페이지라 순간 광고나 책 사진처럼 보여서 바로 지나감. C는 확대된 양피지 얼룩이라 뭘 보라는 건지 모르겠고, 붉은 글자 반쪽만 걸쳐 있어서 잘린 스크린샷 같음.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "엄지가 멈춘 건 A였다. 회색 벽 같은 양피지 한가운데에 뿔 달린 형체가 두 팔을 벌리고 정면을 노려보는데, 눈이 먼저 간 곳은 빨간 뿔 끝이었고 그다음 바로 가운데의 초록빛 얼굴과 이빨, 그리고 손가락 끝의 갈고리 발톱으로 내려갔다. 세로로 긴 구도라 인물이 화면을 꽉 채우고, 주변 색이 거의 없는 회청색이라 그 붉은색과 초록색만 살아난다. 코덱스 기가스의 악마 삽화라는 걸 알아본 순간 더 멈췄다. B는 예쁘긴 한데 갈색 글자 벽이라 3초 뒤에나 장식 이니셜이 보이고, 그전에 이미 지나간다. C는 확대가 너무 심해서 뭘 보는지 모르겠고, 게다가 '수도원의 누구도 읽지 못한 알파벳'이라는 식의 단정은 내가 댓글로 따지고 싶어지는 종류다 — 그 룬/히브리/그리스 알파벳 표는 꽤 연구가 된 것이다. 참고로 세 장 다 소장처 표기가 없다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "devil.jpg",
+    "crop": "50% 45%",
+    "zoom": 1.0,
+    "fit": "whole",
+    "grade": "deep",
+    "hook": "A monk drew this on page 290. Alone.",
+    "why": "The full-page devil is the single most recognisable image in the book and the strongest thumbnail stopper: horns, green face, clawed hands read instantly even at postage-stamp size. Shown whole so the horns and the splayed clawed feet both survive; cropping would sever one end of the figure and reduce it to texture. The painted frame lines contain it neatly and the blurred fill reads as parchment rather than mount board."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "caption": "Who actually wrote the Codex Gigas?\n\nIt is the largest surviving medieval manuscript in the world: 92 cm long, 50 cm wide, 22 cm thick, 74.8 kg. 310 leaves of vellum, claimed to be made from the skins of 160 donkeys.\n\nIt was made in the early 13th century at the Benedictine monastery of Podlažice in Bohemia. Inside is the complete Latin Vulgate Bible, plus Josephus, Isidore of Seville's Etymologiae, the chronicle of Cosmas of Prague, and medical treatises. The records in it stop in 1222.\n\nOn folio 290, alone on an otherwise empty page, stands a Devil about 50 cm tall — dark green head, red horns and claws, four fingers on each hand, two red tongues. Facing him is the Kingdom of Heaven. The pages just before him have blackened, because readers kept turning to that picture and exposing them to light.\n\nThe legend: a monk sentenced to be walled up alive promised to write, in one night, a book holding all human knowledge. Near midnight he prayed to Lucifer for help. Handwriting analysis does say one scribe wrote the whole book — but over an estimated 20 to 30 years.\n\nSwedish troops took it as war booty in 1648. In the 1697 fire at the Tre Kronor castle in Stockholm it was saved by being thrown out of a window; the vicar Johann Erichsons recorded that it landed on a bystander and injured them.\n\nStill unresolved: twelve of the original 320 leaves were removed. Nobody knows who took them, or what was on them.\n\nImages: the Devil folio in an enhanced CC0 scan, and pages of the Codex Gigas from the Benedictine monastery of Podlažice, now at the National Library of Sweden — public domain.\n\n#codexgigas #devilsbible #medievalmanuscripts #bookhistory #archive",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "devil.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.0,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "Who wrote this book? <y>The Devil</y>, the legend says",
+      "note": "Folio 290: a Devil about 50 cm tall on an otherwise empty page. The pages before it darkened as readers turned to look.",
+      "source": "Codex Gigas, early 13th c. · enhanced scan, CC0",
+      "alt": "Full-page painted devil with red horns, green head, claws raised, on old vellum.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "leviticusinitial.jpg",
+      "crop": "68% 38%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "92 centimetres long. <y>74.8 kilograms.</y>",
+      "note": "310 leaves of vellum, claimed to be the skins of 160 donkeys. Fifty-seven illuminated capitals survive.",
+      "source": "Codex Gigas, Podlažice monastery · public domain",
+      "alt": "Large illuminated initial in red, blue and gold beside columns of Latin script.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "alphabets.jpg",
+      "crop": "40% 15%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "All Latin — except <y>two Hebrew alphabets</y>",
+      "note": "They sit on the first page, next to the opening of Genesis. Everything after them is written in Latin.",
+      "source": "Codex Gigas, first page · public domain",
+      "alt": "Manuscript page with Hebrew letters at top left and a red Latin text column right.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "numeriinitial.jpg",
+      "crop": "20% 20%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Thrown from a burning castle, it <y>hit a bystander</y>",
+      "note": "Swedish troops took it as war booty in 1648. In the 1697 Stockholm castle fire it was saved out of a window.",
+      "source": "Codex Gigas, Podlažice, 13th c. · public domain",
+      "alt": "Interlaced blue and red initial L beside red display capitals reading INCIPIT LIBER.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "alphabetsdetail.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "ink",
+      "headline": "Someone later pasted in <y>Glagolitic and Cyrillic</y> slips",
+      "note": "Two small sheets of sample alphabets, added to the first page beside the start of Genesis.",
+      "source": "Codex Gigas, alphabet slips · public domain",
+      "alt": "Two pasted-in paper slips of alphabet tables beside large red Latin capitals.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "genesiscolumns.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "<y>One monk</y> wrote it — over twenty to thirty years",
+      "note": "Handwriting analysis points to a single scribe. Twelve leaves were later removed; nobody knows by whom, or why.",
+      "source": "Codex Gigas, Genesis leaf · public domain",
+      "alt": "Two columns of dense brown Latin script with red capitals down the margins.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "codex-gigas",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

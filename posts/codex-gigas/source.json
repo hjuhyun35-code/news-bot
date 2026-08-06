@@ -1,0 +1,38 @@
+{
+  "subject": "Codex Gigas, a medieval manuscript so large it takes two people to lift",
+  "wikipedia": "Codex Gigas",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "devil.jpg",
+      "commons": "File:Codex-Gigas-Devil-enhanced.jpg"
+    },
+    {
+      "file": "alphabets.jpg",
+      "commons": "File:CodexGigas 002 Alphabets.jpg"
+    },
+    {
+      "file": "alphabetsdetail.jpg",
+      "commons": "File:Alphabet samples in Codex Gigas.jpg"
+    },
+    {
+      "file": "leviticusinitial.jpg",
+      "commons": "File:CodexGigas 020 Exodus.jpg"
+    },
+    {
+      "file": "numeriinitial.jpg",
+      "commons": "File:CodexGigas 027 Leviticus.jpg"
+    },
+    {
+      "file": "genesiscolumns.jpg",
+      "commons": "File:CodexGigas 003 Genesis.jpg"
+    }
+  ],
+  "cover": {
+    "image": "devil.jpg",
+    "crop": "50% 45%",
+    "zoom": 1.0,
+    "fit": "whole",
+    "grade": "deep"
+  }
+}
