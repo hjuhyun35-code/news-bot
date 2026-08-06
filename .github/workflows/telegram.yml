@@ -1,0 +1,49 @@
+name: telegram command
+
+# 클라우드플레어 웹훅이 텔레그램 소식을 받아 곧바로 이 워크플로를 부른다.
+# 예약을 기다리지 않으므로 단추를 누르면 몇 초 안에 처리된다.
+#
+# 예약 실행(check approvals)은 웹훅을 걸기 전까지의 길이었고, 웹훅이
+# 걸리면 스스로 물러난다. 둘 다 남겨두는 이유는 클라우드플레어가 죽어도
+# 웹훅만 지우면 옛 길이 그대로 살아나기 때문이다.
+on:
+  repository_dispatch:
+    types: [telegram]
+
+# 두 개가 겹쳐 돌면 같은 승인을 두 번 처리할 수 있다. 다만 취소하지는
+# 않는다 — 뒤에 온 소식도 결국 처리돼야 한다.
+concurrency:
+  group: telegram
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write      # "오늘꺼 초안" 은 daily 워크플로를 부른다
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: handle the update
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_UPDATE: ${{ toJSON(github.event.client_payload.update) }}
+        run: python scripts/telegram_command.py
+
+      - name: record the markers
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A posts
+          git diff --staged --quiet && echo "nothing new" || git commit -m "published / rejected markers"
+          git pull --rebase --autostash -q
+          git push

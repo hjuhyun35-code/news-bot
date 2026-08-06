@@ -113,6 +113,12 @@ def main():
     elif hook:
         url = hook.get("url") or "(없음)"
         print(f"웹훅: {url} · 대기 중인 소식 {hook.get('pending_update_count', 0)}건")
+        if hook.get("url"):
+            # 웹훅이 걸려 있으면 텔레그램은 그쪽으로만 보낸다. 여기서
+            # getUpdates 를 부르면 409 를 받는다. 물러나는 것이 맞다 —
+            # 실제 처리는 telegram_command.py 가 즉시 하고 있다.
+            print("웹훅이 걸려 있습니다. 이 예약 실행은 할 일이 없습니다.")
+            return
 
     me, err = telegram.call("getMe", {})
     if me:

@@ -1,0 +1,8 @@
+name = "glassnegative-telegram"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# 비밀값은 여기 적지 않는다. wrangler secret put 으로 넣는다.
+#   wrangler secret put GITHUB_TOKEN
+#   wrangler secret put TELEGRAM_SECRET
+#   wrangler secret put ALLOWED_CHAT_ID
