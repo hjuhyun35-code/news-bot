@@ -8,7 +8,7 @@
   "votes": [
     {
       "choice": "A",
-      "why": "A는 1초 안에 다 읽힌다. 소녀 얼굴이 정중앙에서 카메라를 똑바로 쳐다보고, 그 앞으로 종이 인형처럼 오려붙인 요정 네 마리가 하얗게 떠 있어서 눈이 얼굴 → 날개 → 다시 얼굴로 왕복했다. '이거 대놓고 가짜인데 왜 이렇게 진지해?' 하는 느낌이 바로 와서 캡처해서 단톡에 던지고 싶어짐. 세피아 톤에 요정만 밝게 튀어서 시선 잡는 포인트가 명확하다. B는 예쁘긴 한데 오른쪽 요정이 배경에 녹아버려서 뭐가 있는지 한 번 더 봐야 하고, 얼굴은 옆으로 돌아가 있어서 눈맞춤이 없다. C는 전체가 어둡고 흐려서 오른쪽 아래 그 하얀 덩어리가 요정인지 얼룩인지 확대해야 알겠다.",
+      "why": "A는 1초 안에 다 읽힌다. 소녀 얼굴이 정중앙에 있고 눈이 바로 나를 쳐다봐서 먼저 눈에 걸렸고, 그 다음에 턱 아래로 날개 달린 요정 인형 네 개가 줄줄이 세워져 있는 게 보여서 '이게 뭐야?' 하고 손이 멈췄다. 세피아 톤이라 피드의 컬러 사진들 사이에서 색이 튀는 것도 있고, 요정들이 명백하게 종이 오리기처럼 보여서 '이걸 사람들이 믿었다고?'라는 반응이 자동으로 나온다. 그게 캡처해서 단톡에 보내는 종류의 사진이다. B는 분위기는 무섭고 좋은데 옆에 있는 요정이 배경 잎사귀랑 뭉개져서 한 번 봐서는 뭔지 모르겠고, 얼굴도 아래를 보고 있어서 시선을 붙잡지 못한다. C는 너무 어둡고 흐려서 소녀가 뭘 하고 있는지, 오른쪽 그 작은 형체가 무엇인지 확대해야 알 수 있다.",
       "stops_scroll": true,
       "unreadable": [
         "C"
@@ -19,7 +19,7 @@
     },
     {
       "choice": "A",
-      "why": "A는 화면을 보자마자 소녀의 얼굴, 특히 정면으로 나를 쳐다보는 눈에 시선이 딱 박혔다. 그 다음 눈이 아래로 내려가 종이를 잘라 만든 게 뻔한 요정 네 개의 날개, 그리고 턱을 받친 손으로 옮겨갔다. 인물과 '요정'이 같은 프레임 안에 선명하게 같이 있어서 무슨 사진인지 1초 만에 이해되고, 동시에 '이게 왜 진짜라고 믿겼을까'라는 의문이 바로 생긴다. 코틀리 사진이라는 것도 바로 알아봤다(그래서 캡션에 촬영자·연도 크레딧이 없으면 나는 댓글로 지적할 사람이다). B는 얼굴은 예쁘게 잡혔지만 오른쪽 흐릿한 형체가 요정인지 겹노출 얼룩인지 한참 봐야 하고 톤이 너무 세피아로 물려서 밋밋하다. C는 어둡고 뿌옇게 눌려서 소녀 무릎 옆 물체가 뭔지 확대해야 겨우 보인다.",
+      "why": "A에서는 눈이 먼저 소녀의 정면 응시로 갔다. 턱을 손에 얹은 자세, 카메라를 똑바로 보는 그 시선이 먼저 걸리고, 그 다음에야 앞쪽에 늘어선 종이 요정 네 마리가 눈에 들어왔다 — 날개 윤곽이 너무 평평하고 발끝이 잎사귀 위에 떠 있어서 '오려 붙인 것'이라는 게 3초 안에 보인다. 그 모순(진지한 얼굴 + 뻔한 오리기)이 멈추게 하는 지점이다. 얼굴이 크고 초점이 맞아 있는 것도 A뿐이다. B는 분위기는 세지만 소녀가 아래를 보고 있고 오른쪽 요정은 나뭇잎과 뒤엉켜 형태가 잘 안 잡힌다 — 무엇보다 카드 문구가 '똑바로 보고 있다'고 하는데 사진 속 시선은 아래로 내려가 있어서, 사진과 주장이 어긋나는 게 먼저 눈에 걸렸다. C는 인물이 고개를 숙여 얼굴이 모자에 가려지고, 오른쪽 아래 흰 뭉치가 그놈인지 손인지 옷 주름인지 구분이 안 된다. 덧붙여, 세 장 다 촬영자·소장처 표기가 없다는 점은 짚어두고 싶다.",
       "stops_scroll": true,
       "unreadable": [
         "C"
@@ -36,8 +36,8 @@
     "crop": "50% 45%",
     "zoom": 1.0,
     "fit": "whole",
-    "grade": "paper",
-    "hook": "Four fairies, one girl, and a borrowed camera",
-    "why": "The most famous of the five and by far the most legible: a child's face looking straight out, with the cut-out fairies unmistakable across the frame. The picture is 4:3 and the fairies run from the left edge to the right, so cropping to a tall card would amputate half of them. 'Whole' keeps the girl and the whole dancing row intact, which is the entire point of the image."
+    "grade": "warm",
+    "hook": "Two girls photographed fairies. Britain believed them.",
+    "why": "The most legible of the five: a child's face in sharp focus with four winged figures ranged across the frame. The photograph is 4:3 and the fairies run edge to edge, so cropping would amputate the outer two; whole keeps the whole tableau readable at thumbnail size and the sepia warmth carries the 1917 date without a caption."
   }
 }

@@ -1,0 +1,86 @@
+{
+  "caption": "Were the Cottingley Fairies real? No. Two girls faked them with cardboard cutouts and hatpins — and it took them 66 years to say so.\n\nIn mid-1917, nine-year-old Frances Griffiths was staying with her aunt in Cottingley, near Bradford. She and her 16-year-old cousin Elsie Wright kept coming home from the beck with wet feet. They said they went there to see the fairies, and borrowed Elsie's father's Midg quarter-plate camera to prove it. They came back about 30 minutes later, \"triumphant\".\n\nArthur Wright developed the plate himself and dismissed the figures as cardboard cutouts. Elsie was artistic and had worked in a photographer's studio. He searched their bedroom and the beck and found nothing incriminating.\n\nBy 1920 the pictures had reached Sir Arthur Conan Doyle, who used them in The Strand's Christmas issue. The issue sold out within days. The photography expert Harold Snelling called the negatives \"entirely genuine, unfaked photographs\". Kodak refused a certificate of authenticity. Ilford reported \"some evidence of faking\".\n\nIn 1983 the cousins confessed. Elsie had copied Claude Shepperson's dancing fairies from Princess Mary's Gift Book of 1914 — a book Frances had brought from South Africa — changed few details and added wings. They propped the cutouts up with hatpins and threw them in the beck afterwards.\n\nStill unresolved: the fifth photograph. Elsie said it was fake like the rest. Frances insisted she saw fairies building up in the grass and simply aimed the camera. Both claimed to have taken it. Geoffrey Crawley suggested an unintended double exposure — which would let both women be sincere.\n\nImages: the five Cottingley photographs by Elsie Wright and Frances Griffiths, 1917 and 1920; Conan Doyle in The Strand, 1920; Claude Shepperson's illustration from Princess Mary's Gift Book, 1914. All public domain.\n\n#cottingleyfairies #hoaxhistory #archivephotography #conandoyle #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "franceswithfairies.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.0,
+      "fit": "whole",
+      "grade": "warm",
+      "headline": "She was <y>nine years old</y> in this photograph",
+      "note": "Cottingley, 1917. Frances Griffiths and four fairies. Her cousin Elsie, 16, took it.",
+      "source": "Elsie Wright, Cottingley, 1917 · public domain",
+      "alt": "Sepia photo of a young girl resting her chin on her hand behind four winged fairy figures.,",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "elsieandgnome.jpg",
+      "crop": "55% 55%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Her father called it <y>nothing but a prank</y>",
+      "note": "Arthur Wright developed the plates himself. He searched their bedroom and the beck for cutouts, and found nothing.",
+      "source": "Frances Griffiths, Cottingley, 1917 · public domain",
+      "alt": "Girl in white dress sitting on grass under trees, reaching towards a small winged gnome figure.,",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "strandarticle.jpg",
+      "crop": "50% 18%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Conan Doyle called it <y>an epoch-making event</y>",
+      "note": "The Strand's Christmas 1920 issue sold out within days. The girls were given false names, Alice and Iris.",
+      "source": "The Strand Magazine, December 1920 · public domain",
+      "alt": "Magazine page headed Fairies Photographed, an epoch-making event described by A. Conan Doyle.,",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "elsieofferingharebel.jpg",
+      "crop": "58% 48%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Kodak <y>refused to certify</y> them",
+      "note": "One expert called the negatives entirely unfaked. Kodak would not issue a certificate. Ilford found evidence of faking.",
+      "source": "Frances Griffiths, Cottingley, August 1920 · public domain",
+      "alt": "Girl's face in profile among leaves, facing a winged fairy figure standing on a branch.,",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "giftbookillustration.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.2,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "The fairies came from <y>this 1914 drawing</y>",
+      "note": "Elsie copied Claude Shepperson's dancing figures from Princess Mary's Gift Book. She changed little and added wings.",
+      "source": "Claude A. Shepperson, Princess Mary's Gift Book, 1914",
+      "alt": "Pen drawing of three dancing fairies in flowing drapery on a plain cream page.,",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "fairybower.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Faked — <y>cardboard and hatpins</y>, confessed in 1983",
+      "note": "Except this one. Elsie said it was fake too. Frances said she saw fairies in the grass and aimed the camera.",
+      "source": "Frances Griffiths and Elsie Wright, August 1920",
+      "alt": "Blurred sepia image of pale winged figures among tall grasses, the fifth Cottingley photograph.,",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "cottingley",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

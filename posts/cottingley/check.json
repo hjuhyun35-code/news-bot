@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "Frances Griffiths was nine years old in the first photograph (1917)",
+      "where": "card 1 headline / note / caption",
+      "verdict": "supported",
+      "quote": "In 1917, when the first two photographs were taken, Elsie was 16 years old and Frances was 9."
+    },
+    {
+      "claim": "The first photograph was taken at Cottingley in 1917 and shows Frances Griffiths with four fairies",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The picture on the photographic plate he developed showed Frances behind a bush in the foreground, on which four fairies appeared to be dancing."
+    },
+    {
+      "claim": "Elsie, aged 16, took the first photograph",
+      "where": "card 1 note / card 1 source",
+      "verdict": "supported",
+      "quote": "The first of the five photographs, taken by Elsie Wright in 1917, shows Frances Griffiths with the alleged fairies."
+    },
+    {
+      "claim": "Elsie's father described the affair as \"nothing but a prank\"",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Exasperated by what he believed to be \"nothing but a prank\", and convinced that the girls must have tampered with his camera in some way, Arthur Wright refused to lend it to them again."
+    },
+    {
+      "claim": "Arthur Wright developed the photographic plates himself",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "Elsie's father, Arthur, was a keen amateur photographer, and had set up his own darkroom. The picture on the photographic plate he developed showed Frances behind a bush in the foreground"
+    },
+    {
+      "claim": "Arthur Wright searched the girls' bedroom and the area around the beck for cutouts and found nothing incriminating",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "he had been so certain the photographs were fakes that while the girls were away he searched their bedroom and the area around the beck (stream), looking for scraps of pictures or cutouts, but found nothing \"incriminating\"."
+    },
+    {
+      "claim": "The second photograph (Elsie and the gnome) was taken by Frances Griffiths at Cottingley in 1917",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Cottingley Fairies 2.jpg\nDescription: The second of the Cottingley Fairies photographs, showing Elsie Wright with a fairy\nDate: 1917\nAuthor: Frances Griffiths"
+    },
+    {
+      "claim": "Conan Doyle's Strand article was titled/described as \"an epoch-making event\"",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "AN EPOCH-MAKING EVENT .... DESCRIBED BY A. CONAN DOYLE"
+    },
+    {
+      "claim": "The Strand's Christmas/December 1920 issue sold out within days of publication",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "Doyle's article in the December 1920 issue of The Strand contained two higher-resolution prints of the 1917 photographs, and sold out within days of publication."
+    },
+    {
+      "claim": "The girls were given the pseudonyms Alice and Iris",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "To protect the girls' anonymity, Frances and Elsie were called Alice and Iris respectively, and the Wright family was referred to as the \"Carpenters\"."
+    },
+    {
+      "claim": "Kodak declined to issue a certificate of authenticity",
+      "where": "card 4 headline / note / caption",
+      "verdict": "supported",
+      "quote": "Kodak declined to issue a certificate of authenticity."
+    },
+    {
+      "claim": "An expert (Harold Snelling) called the negatives \"entirely genuine, unfaked photographs\"",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "Snelling's opinion was that \"the two negatives are entirely genuine, unfaked photographs ... [with] no trace whatsoever of studio work involving card or paper models\"."
+    },
+    {
+      "claim": "Ilford reported \"some evidence of faking\"",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "The prints were also examined by another photographic company, Ilford, who reported unequivocally that there was \"some evidence of faking\"."
+    },
+    {
+      "claim": "The fourth photograph (fairy offering harebells to Elsie) was taken by Frances Griffiths in August 1920",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Cottingley Fairies 4.jpg\nDescription: The fourth of the Cottingley Fairies photographs, showing Elsie Wright with a fairy\nDate: 1920-08\nAuthor: Frances Griffiths"
+    },
+    {
+      "claim": "Elsie copied Claude Shepperson's dancing fairy figures from Princess Mary's Gift Book",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Elsie had copied illustrations of three dancing fairies by Claude Shepperson from a book that Frances had brought back with her from South Africa. This was the Princess Mary's Gift Book, published towards the beginning of the war."
+    },
+    {
+      "claim": "Elsie changed few details and added wings",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Elsie changed few details but added wings."
+    },
+    {
+      "claim": "The Shepperson illustration dates from 1914",
+      "where": "card 5 headline / source",
+      "verdict": "supported",
+      "quote": "Description: Illustration of dancing fairies, 1914, taken from the poem “A Spell for a Fairy,” by Alfred Noyes, in   Princess Mary’s Gift Book\"   , London, 1914"
+    },
+    {
+      "claim": "The cousins confessed in 1983 that the photographs were faked using cardboard cutouts supported with hatpins",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "In 1983, the cousins admitted in an article published in the magazine The Unexplained that the photographs had been faked, although both maintained that they really had seen fairies."
+    },
+    {
+      "claim": "They supported the cutouts with hatpins and disposed of the props in the beck",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "They said they had then cut out the cardboard figures and supported them with hatpins, disposing of their props in the beck once the photograph had been taken."
+    },
+    {
+      "claim": "Elsie said the fifth photograph was fake like the others; Frances said she saw fairies building up in the grasses and aimed the camera",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Elsie maintained it was a fake, just like all the others, but Frances insisted that it was genuine."
+    },
+    {
+      "claim": "The fifth photograph is attributed to Frances Griffiths and Elsie Wright, August 1920",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Cottingley Fairies 5.jpg\nDescription: The fifth of the Cottingley Fairies photographs, showing fairies sunbathing\nDate: 1920-08\nAuthor: Frances Griffiths and Elsie Wright"
+    },
+    {
+      "claim": "It took the girls 66 years to admit the fakery",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the early 1980s Elsie and Frances admitted that the photographs were faked"
+    },
+    {
+      "claim": "In mid-1917 Frances was staying with her aunt in Cottingley, near Bradford",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In mid-1917 nine-year-old Frances Griffiths and her mother – both newly arrived in England from South Africa – were staying with Frances's aunt, Elsie Wright's mother, Polly, in the village of Cottingley in West Yorkshire"
+    },
+    {
+      "claim": "The girls kept coming home from the beck with wet feet",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The two girls often played together beside the beck at the bottom of the garden, much to their mothers' annoyance, because they frequently came back with wet feet and clothes."
+    },
+    {
+      "claim": "They borrowed Elsie's father's Midg quarter-plate camera and returned about 30 minutes later, \"triumphant\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Elsie borrowed her father's camera, a Midg quarter-plate. The girls returned about 30 minutes later, \"triumphant\"."
+    },
+    {
+      "claim": "Elsie was artistic and had worked in a photographer's studio",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Knowing his daughter's artistic ability, and that she had spent some time working in a photographer's studio, he dismissed the figures as cardboard cutouts."
+    },
+    {
+      "claim": "By 1920 the pictures had reached Sir Arthur Conan Doyle, who used them in The Strand's Christmas issue",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The pictures came to the attention of writer Sir Arthur Conan Doyle, who used them to illustrate an article on fairies he had been commissioned to write for the Christmas 1920 edition of The Strand Magazine."
+    },
+    {
+      "claim": "Frances had brought the Princess Mary's Gift Book back from South Africa",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Elsie had copied illustrations of three dancing fairies by Claude Shepperson from a book that Frances had brought back with her from South Africa."
+    },
+    {
+      "claim": "Both Frances and Elsie claimed to have taken the fifth photograph",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Both Frances and Elsie claimed to have taken the fifth photograph."
+    },
+    {
+      "claim": "Geoffrey Crawley suggested the fifth photograph was an unintended double exposure, allowing both women to be sincere",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Geoffrey Crawley explained the discrepancy by suggesting that the photograph was \"an unintended double exposure of fairy cutouts in the grass\", and thus \"both ladies can be quite sincere in believing that they each took it\"."
+    },
+    {
+      "claim": "The images include the five Cottingley photographs",
+      "where": "caption (Images credit line)",
+      "verdict": "contradicted",
+      "quote": "FILE: franceswithfairies.jpg ... FILE: elsieandgnome.jpg ... FILE: elsieofferingharebel.jpg ... FILE: fairybower.jpg"
+    },
+    {
+      "claim": "All the images used are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    },
+    {
+      "claim": "The photographs date from 1917 and 1920",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Date: 1917 ... Date: 1920-08"
+    }
+  ],
+  "problems": 1
+}
