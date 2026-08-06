@@ -117,6 +117,112 @@
       "subject": "The Beale ciphers, three coded papers left in a Virginia hotel safe",
       "wikipedia": "Beale ciphers",
       "hook": "세 장 중 한 장만 풀렸다"
+    },
+
+    {
+      "slug": "great-sphinx",
+      "subject": "The Great Sphinx of Giza, whose builder, date, and missing nose are all unrecorded",
+      "wikipedia": "Great Sphinx of Giza",
+      "hook": "코가 언제 없어졌는지 기록이 없다",
+      "screened": "2026-08-06 · 사진 44장"
+    },
+    {
+      "slug": "spirit-photography",
+      "subject": "Spirit photography, portrait studios that sold photographs of the sitter's dead",
+      "wikipedia": "Spirit photography",
+      "hook": "사진관에서 죽은 사람이 같이 찍혔다",
+      "screened": "2026-08-06 · 사진 25장"
+    },
+    {
+      "slug": "turin-shroud",
+      "subject": "The Shroud of Turin, whose photographic negative revealed a face invisible on the cloth",
+      "wikipedia": "Shroud of Turin",
+      "hook": "1898년, 사진 음화가 눈에 안 보이던 얼굴을 드러냈다",
+      "screened": "2026-08-06 · 사진 17장"
+    },
+    {
+      "slug": "crystal-palace-dinosaurs",
+      "subject": "The Crystal Palace Dinosaurs of 1854, the first attempt to build extinct animals full size",
+      "wikipedia": "Crystal Palace Dinosaurs",
+      "hook": "빅토리아 시대가 만든 공룡은 전혀 다르게 생겼다",
+      "screened": "2026-08-06 · 사진 17장"
+    },
+    {
+      "slug": "tichborne",
+      "subject": "The Tichborne case, a butcher who claimed to be a baronet lost at sea, and the mother who agreed",
+      "wikipedia": "Tichborne case",
+      "hook": "죽은 상속자라고 나선 남자를 어머니가 알아봤다",
+      "screened": "2026-08-06 · 사진 16장"
+    },
+    {
+      "slug": "altamira",
+      "subject": "The Cave of Altamira, whose paintings were called a forgery for twenty years",
+      "wikipedia": "Cave of Altamira",
+      "hook": "너무 잘 그려서 가짜라고 했다",
+      "screened": "2026-08-06 · 사진 14장"
+    },
+    {
+      "slug": "baalbek",
+      "subject": "The Baalbek trilithon, thousand-tonne blocks left half-quarried",
+      "wikipedia": "Baalbek",
+      "hook": "1000톤짜리 돌을 캐다 만 채로 두고 갔다",
+      "screened": "2026-08-06 · 사진 14장"
+    },
+    {
+      "slug": "sacsayhuaman",
+      "subject": "Sacsayhuamán, Inca walls whose stones meet without mortar or gaps",
+      "wikipedia": "Sacsayhuamán",
+      "hook": "칼날도 안 들어가는 돌 이음새",
+      "screened": "2026-08-06 · 사진 13장"
+    },
+    {
+      "slug": "machu-picchu",
+      "subject": "Machu Picchu, a whole city that dropped out of record until 1911",
+      "wikipedia": "Machu Picchu",
+      "hook": "도시 하나가 통째로 잊혔다",
+      "screened": "2026-08-06 · 사진 11장"
+    },
+    {
+      "slug": "serpent-mound",
+      "subject": "The Great Serpent Mound, and the myth invented to deny who built it",
+      "wikipedia": "Serpent Mound",
+      "hook": "누가 쌓았는지를 두고 인종주의가 끼어들었다",
+      "screened": "2026-08-06 · 사진 10장"
+    },
+    {
+      "slug": "angkor-wat",
+      "subject": "Angkor Wat, a capital of a million people swallowed by forest",
+      "wikipedia": "Angkor Wat",
+      "hook": "도시가 정글에 삼켜졌다",
+      "screened": "2026-08-06 · 사진 8장"
+    },
+    {
+      "slug": "pompeii-casts",
+      "subject": "The plaster casts of Pompeii, made by pouring into the voids the ash left behind",
+      "wikipedia": "Pompeii",
+      "hook": "화산재가 남긴 빈 공간에 석고를 부었다",
+      "screened": "2026-08-06 · 사진 8장"
+    },
+    {
+      "slug": "dighton-rock",
+      "subject": "Dighton Rock, whose markings were read as Norse, Portuguese, Phoenician, and Chinese in turn",
+      "wikipedia": "Dighton Rock",
+      "hook": "바위에 새겨진 글씨를 두고 200년을 다퉜다",
+      "screened": "2026-08-06 · 사진 7장"
+    },
+    {
+      "slug": "fox-sisters",
+      "subject": "The Fox sisters, whose rapping noises started a religion and were confessed as a trick forty years later",
+      "wikipedia": "Fox sisters",
+      "hook": "자매가 낸 딱딱 소리가 종교를 하나 만들었다",
+      "screened": "2026-08-06 · 사진 7장"
+    },
+    {
+      "slug": "easter-island-moai",
+      "subject": "The moai of Rapa Nui, tens of tonnes each, moved from quarry to coast",
+      "wikipedia": "Moai",
+      "hook": "수십 톤 석상이 채석장에서 해안까지 갔다",
+      "screened": "2026-08-06 · 사진 6장 (여유 없음)"
     }
   ]
 }
