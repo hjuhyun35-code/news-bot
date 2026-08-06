@@ -48,7 +48,9 @@
       "slug": "carrington",
       "subject": "The Carrington Event of 1859, the solar storm that set telegraph offices on fire",
       "wikipedia": "Carrington Event",
-      "hook": "전신 기사가 배터리를 뽑아도 전보가 갔다"
+      "hook": "전신 기사가 배터리를 뽑아도 전보가 갔다",
+      "hold": true,
+      "why_hold": "2026-08-06 확인. 후보 30장을 모았는데 1859년 사건의 사진은 캐링턴의 흑점 스케치와 뉴욕타임스 지면 두 장뿐이었다. 전신국·전신 기사·타버린 장비 사진이 아예 없다. 나머지는 현대 NASA 이미지이거나 Carrington 이라는 성씨·지명이 겹친 무관한 사진들이었다. 1859년은 사진이 드문 시기라 이 소재는 앞으로도 어려울 것이다."
     },
     {
       "slug": "tambora",
