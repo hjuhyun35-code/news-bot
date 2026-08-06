@@ -106,6 +106,20 @@ from elsewhere, that is exactly the failure this rule exists to prevent.
 Card structure:
   1  cover    — the hook. A question or a flat contradiction. Under 10 words.
 
+     THE HOOK MUST CARRY A FACT, NOT A TEASE. It has to be worth stopping for
+     on its own, before any swipe. A 19-year-old reader put it exactly right
+     about a cover that read "she was nine years old in this photograph":
+     so what? Nothing was claimed, so there was nothing to stop for.
+
+     The test: could a reader repeat your cover to somebody and have it land?
+     "She was nine in this photograph" fails. "Two girls fooled Arthur Conan
+     Doyle with cardboard" lands. Say the strange thing on the cover. The
+     reader stays to find out how it can possibly be true, not to find out
+     what you are talking about.
+
+     Do not hold the best fact back for the closing card. A reader who does
+     not stop at the cover never reaches the closing card.
+
      THE COVER MUST SHOW THE THING. A reader meets this card at thumbnail size
      while scrolling fast, and they have to be able to tell what they are
      looking at without reading a word. Show the whole subject, in frame,

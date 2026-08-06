@@ -45,6 +45,17 @@ JUNK = re.compile(
     re.IGNORECASE)
 
 
+# 소재가 우리 기준에 안 맞을 때 쓰는 종료 코드. 고장(1)과 구분해야
+# 부르는 쪽이 "이건 건너뛰고 다음 소재로" 를 판단할 수 있다. 사진이
+# 없는 소재는 흔한 일이지 사고가 아니다 — 실패 알림을 보낼 일도 아니다.
+UNSUITABLE = 2
+
+
+def unsuitable(reason):
+    print(f"[건너뜀] {reason}")
+    sys.exit(UNSUITABLE)
+
+
 def strip(raw):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", raw or "")).strip()
 
@@ -322,9 +333,7 @@ def main():
     print(f"  남은 후보 {len(good)}장")
 
     if len(good) < 4:
-        sys.exit(f"[중단] 쓸 수 있는 사진이 {len(good)}장뿐입니다. "
-                 f"이 소재는 사진이 부족합니다. queue.json 에서 "
-                 f"\"hold\": true 로 빼두세요.")
+        unsuitable(f"쓸 수 있는 사진이 {len(good)}장뿐입니다.")
 
     good = good[:30]   # 30장이면 고르기에 충분하고 비용도 감당된다
 
@@ -346,11 +355,8 @@ def main():
     # 억지로 채운 세트는 "관련 있어 보이는 남의 사진 다섯 장"일 뿐이다.
     if len(picks) < 4 or not result.get("enough"):
         # 왜 못 골랐는지가 유일하게 쓸모있는 정보다. 반드시 남긴다
-        sys.exit(f"[중단] 후보 {len(good)}장 중 쓸 만한 것이 부족합니다 "
-                 f"(고른 수 {len(picks)}장).\n"
-                 f"       고른 쪽 설명: {result.get('note') or '(없음)'}\n"
-                 f"       queue.json 에서 이 소재에 \"hold\": true 를 넣고 "
-                 f"다음 소재로 넘어가세요.")
+        unsuitable(f"후보 {len(good)}장 중 쓸 만한 것이 {len(picks)}장뿐입니다. "
+                   f"{result.get('note') or ''}".strip())
 
     # ── 4. 내려받기 ──────────────────────────────────────────────
     print()

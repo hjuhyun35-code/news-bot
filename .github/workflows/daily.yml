@@ -40,24 +40,51 @@ jobs:
         with:
           python-version: "3.12"
 
-      # 오늘 몫이 남았는지, 무엇을 할 차례인지 먼저 정한다. 무거운 준비는
-      # 그다음이다 — 할 일이 없으면 크롬도 안 깔고 끝낸다.
+      # 사진 찾기가 여기 들어와서 미리 깔아야 한다. 크롬은 아직이다 —
+      # 할 일이 없으면 크롬 없이 끝낸다.
+      - run: pip install anthropic pillow
+
+      # 오늘 몫이 남았는지, 무엇을 할 차례인지, 그 소재에 쓸 사진이 있는지
+      # 까지 여기서 정한다. 사진이 모자란 소재는 빼두고 다음 것을 집는다.
       - name: plan the day
         id: plan
         env:
           IGNORE_QUOTA: ${{ inputs.ignore_quota }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -n "${{ inputs.slug }}" ]; then
             echo "stop=no" >> "$GITHUB_OUTPUT"
             echo "mode=make" >> "$GITHUB_OUTPUT"
             echo "slug=${{ inputs.slug }}" >> "$GITHUB_OUTPUT"
             echo "손으로 지정: ${{ inputs.slug }}"
+            if [ ! -f "posts/${{ inputs.slug }}/source.json" ]; then
+              python scripts/find_images.py "${{ inputs.slug }}"
+            fi
           else
             python scripts/day_plan.py
           fi
 
-      - run: pip install anthropic pillow
-        if: steps.plan.outputs.stop != 'yes'
+      # 빼둔 소재와 내려받은 사진을 먼저 남긴다. 뒤에서 실패하더라도
+      # 같은 소재를 다시 붙잡고 늘어지지 않게 하려는 것이다.
+      - name: commit the queue and photos
+        if: always() && steps.plan.outputs.stop != 'yes'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A queue.json posts
+          git diff --staged --quiet && echo "nothing new" || git commit -m "photos: ${{ steps.plan.outputs.slug }}"
+          git pull --rebase --autostash -q
+          git push
+
+      # 소재를 건너뛴 것은 사고가 아니다. 실패 알림 말고 안내로 보낸다.
+      - name: mention what was skipped
+        if: steps.plan.outputs.skipped != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/notify.py "사진이 모자라 건너뛴 소재: ${{ steps.plan.outputs.skipped }}
+          목록에서 빼뒀습니다. 오늘 것은 ${{ steps.plan.outputs.slug }} 로 만듭니다."
 
       # 발행 모드에서도 크롬이 필요하다. 밀린 초안에 독자 반응이 없으면
       # 여기서 받아야 하고, 못 알아보겠다는 카드는 다시 그려야 한다.
@@ -66,17 +93,6 @@ jobs:
         if: steps.plan.outputs.stop != 'yes'
         with:
           chrome-version: stable
-
-      - name: find the photographs
-        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -f "posts/${{ steps.plan.outputs.slug }}/source.json" ]; then
-            echo "사진은 이미 있습니다"
-          else
-            python scripts/find_images.py "${{ steps.plan.outputs.slug }}"
-          fi
 
       - name: let readers pick the cover
         if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'

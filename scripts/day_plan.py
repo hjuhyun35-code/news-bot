@@ -7,6 +7,12 @@
     stop=yes|no    오늘 몫을 이미 채웠으면 yes. 그러면 아무것도 하지 않는다
     mode=publish|make
     slug=<슬러그>
+    skipped=<건너뛴 슬러그들, 쉼표로>
+
+make 일 때는 사진까지 확보해놓고 넘긴다. 사진이 모자란 소재를 만나면
+queue.json 에 hold 를 적고 다음 소재로 넘어간다. 그런 소재는 흔하고,
+2026-08-06 기준 넷 중 하나 꼴로 나온다. 예전에는 그때마다 실행이
+실패로 끝나고 그날 몫이 통째로 날아갔다.
 
 하루에 여러 번 예약을 걸어두고, 실제로 몇 개를 올릴지는 여기서 정한다.
 예약을 편수만큼만 걸면 깃허브가 건너뛸 때마다 그날 몫이 그대로 날아간다.
@@ -37,6 +43,31 @@ START = datetime.date(2026, 8, 6)
 
 FIRST_WEEK = 2   # 첫 주 하루 편수
 MOST = 5         # 여기서 멈춘다
+
+QUEUE = os.path.join(ROOT, "queue.json")
+UNSUITABLE = 2   # find_images.py 가 "이 소재는 안 맞는다"고 답하는 코드
+SKIP_LIMIT = 4   # 한 번에 이만큼까지만 건너뛴다. 그 이상이면 목록이 문제다
+
+
+def hold_subject(slug, reason=""):
+    """소재를 빼둔다. 사람이 손으로 하던 일이다.
+
+    queue.json 을 통째로 다시 쓴다. 들여쓰기는 유지되지만 빈 줄은
+    사라진다 — 파일이 기계와 사람 사이에 있으니 감수한다.
+    """
+    with open(QUEUE, encoding="utf-8") as f:
+        data = json.load(f)
+    for item in data["subjects"]:
+        if item["slug"] == slug:
+            item["hold"] = True
+            item["why_hold"] = (
+                f"{today()} 자동 확인. {reason or '사진 조건을 통과하지 못했다.'} "
+                f"자세한 내용은 그날 실행 기록에 있다.")
+            break
+    with open(QUEUE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    return reason or "사진 부족"
 
 
 def today():
@@ -131,12 +162,46 @@ def main():
         say(stop="no", mode="publish", slug=waiting[0])
         return
 
-    r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "pick_subject.py")],
-                       capture_output=True, text=True)
-    if r.returncode != 0:
-        # 소재가 떨어졌다. 실패로 남겨야 텔레그램 알림이 간다.
-        sys.exit(r.stdout.strip() or r.stderr.strip() or "[중단] 소재를 고르지 못했습니다.")
-    say(stop="no", mode="make", slug=r.stdout.strip())
+    # 사진까지 여기서 확보한다. 안 맞는 소재는 빼두고 다음 것을 집는다.
+    skipped = []
+    for _ in range(SKIP_LIMIT):
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "pick_subject.py")],
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            # 소재가 떨어졌다. 이건 진짜 알려야 할 일이다.
+            sys.exit(r.stdout.strip() or r.stderr.strip()
+                     or "[중단] 소재를 고르지 못했습니다.")
+        slug = r.stdout.strip()
+
+        if os.path.exists(os.path.join(POSTS, slug, "source.json")):
+            print(f"{slug}: 사진은 이미 있습니다", file=sys.stderr)
+            say(stop="no", mode="make", slug=slug, skipped=",".join(skipped))
+            return
+
+        print(f"{slug}: 사진을 찾습니다", file=sys.stderr)
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "find_images.py"), slug],
+                           capture_output=True, text=True)
+        # 사진 찾기가 무엇을 보고 판단했는지는 그대로 남긴다. 나중에
+        # 목록을 손볼 때 이 기록 말고는 단서가 없다.
+        print(r.stdout, file=sys.stderr)
+        if r.stderr.strip():
+            print(r.stderr, file=sys.stderr)
+
+        if r.returncode == 0:
+            say(stop="no", mode="make", slug=slug, skipped=",".join(skipped))
+            return
+        if r.returncode != UNSUITABLE:
+            sys.exit(f"[중단] {slug} 사진 찾기가 고장났습니다 (종료 코드 {r.returncode}).")
+
+        # 소재가 우리 기준에 안 맞는다. 흔한 일이다. 빼두고 다음으로 간다.
+        told = [ln for ln in r.stdout.splitlines() if ln.startswith("[건너뜀]")]
+        reason = told[-1].replace("[건너뜀]", "").strip() if told else ""
+        reason = hold_subject(slug, reason)
+        print(f"{slug}: 빼뒀습니다 — {reason}", file=sys.stderr)
+        skipped.append(slug)
+
+    sys.exit(f"[중단] 소재 {SKIP_LIMIT}개를 연달아 건너뛰었습니다: "
+             f"{', '.join(skipped)}. 목록을 손봐야 합니다.")
 
 
 if __name__ == "__main__":
