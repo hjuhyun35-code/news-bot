@@ -27,5 +27,12 @@
       "file": "conicaltower.jpg",
       "commons": "File:Die Gartenlaube (1896) b 0405 2.jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "corridor.jpg",
+    "crop": "46% 52%",
+    "zoom": 1.12,
+    "fit": "crop",
+    "grade": "deep"
+  }
 }

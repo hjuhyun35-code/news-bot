@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 눈이 바로 좁은 돌 통로 가운데 서 있는 작은 사람한테 빨려들어갔다. 양쪽 벽이 거대하게 압도하고 사람이 개미만해서 '이거 실제 크기 뭐야' 싶어서 0.5초 정도 멈춤. 어두운 톤에 위쪽 하늘만 밝아서 시선이 안쪽으로 끌려들어가는 느낌도 있음. B는 옛날 판화라 딱 봐도 교과서/역사 자료 냄새가 나서 바로 넘김 — 선이 자잘해서 폰 화면에선 뭘 보라는 건지도 애매하고. C는 처음엔 뭔지 몰라서 잠깐 보긴 했는데 대비를 너무 올려서 형체가 하얗게 날아가버림. 새라고 하니까 새인가 싶은 정도지 저절로는 안 읽힘. 그래서 A.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "B",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A는 사진 자체가 나를 세운다. 좁은 돌통로 양쪽으로 벽이 솟아 있고, 그 사이 한가운데 작은 사람 하나. 눈이 먼저 그 흰머리 점에 꽂히고, 곧바로 벽 높이를 위아래로 훑게 된다 — 사람 크기가 척도가 되니까 '이게 얼마나 큰 건가'가 즉시 읽힌다. 곡선진 벽면의 돌쌓기 결이 보이는 것도 좋다. 그레이트 짐바브웨라는 걸 알아볼 수 있고 과장 없이 규모만 보여준다. B는 19세기 판화라 흥미롭긴 한데 톤이 뿌옇고 나뭇가지 잔선에 탑이 묻혀서 순간적으로 안 잡히고, 무엇보다 '아무도 모른다'는 문구가 거슬린다 — 원추탑 용도는 곡물창고 상징이라는 유력한 해석이 학계에 있고, 출처 표기도 없는 판화다. C는 확대·대비를 너무 올려서 짐바브웨 새 조각의 돌 질감이 다 날아가고 하얗게 타버렸다. 새인지 뭉개진 흰 덩어리인지 두 번 봐야 한다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "corridor.jpg",
+    "crop": "46% 52%",
+    "zoom": 1.12,
+    "fit": "crop",
+    "grade": "deep",
+    "hook": "A city Europe insisted Africans could not have built",
+    "why": "The strongest scroll-stopper: a human figure dwarfed by two towering dry-stone walls, instantly readable as a corridor inside something vast. Native portrait orientation fills the tall card with no waste, and the lone walker gives scale and mystery at thumbnail size. Crop nudged left and down to keep the figure and the converging passage centred while trimming the blown-out sky."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "caption": "Who built Great Zimbabwe?\n\nAncestors of the Shona people. Stone building began in the 11th century and continued for over 300 years. The Great Enclosure's dry-stone walls stand up to 11 m high and run about 250 m — no mortar anywhere in them. Gold, ivory, Chinese porcelain and Arabian coins passed through the city.\n\nIn 1871 the German geographer Karl Mauch was shown the ruins and immediately discounted African construction, favouring a legend that they copied the Queen of Sheba's palace. He claimed a wooden lintel must be Lebanese cedar. Looters followed: W.G. Neal's Ancient Ruins Company stripped the site of anything sellable between the 1890s and 1920s and destroyed what it could not carry.\n\nDavid Randall-MacIver in 1905–06 and Gertrude Caton Thompson in 1929 both concluded the site was medieval and Bantu. African origin only became consensus in the 1950s, and Rhodesia kept pushing back. The archaeologist Paul Sinclair recalled being told it was acceptable to say \"yellow people\" built it, but that he could not mention radiocarbon dates; a board trustee threatened his job if he said publicly that black Africans built Zimbabwe.\n\nStill unresolved: why the city emptied in the 16th or 17th century. Shona oral tradition blames a salt shortage. And the Conical Tower cannot be dated — Bent dug into it without training in the 1890s and destroyed the stratigraphy.\n\nImages: CDC/Dr J. Lyle Conrad, 1975; Jan Derk, 1997; Smart & Copley, c.1890–1925; J. Theodore Bent, 1892; Karl Mauch's own notes; a wood engraving from Die Gartenlaube, 1896. All public domain.\n\n#greatzimbabwe #africanhistory #archaeology #shona #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "corridor.jpg",
+      "crop": "46% 52%",
+      "zoom": 1.12,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Rhodesia <y>censored archaeologists</y> who said Africans built this",
+      "note": "Great Zimbabwe, near Masvingo. Stone building began in the 11th century, by ancestors of the Shona.",
+      "source": "CDC / Dr J. Lyle Conrad, 1975 · public domain",
+      "alt": "Narrow stone-walled passage at Great Zimbabwe with a person walking away down it.},{",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "valleyview.jpg",
+      "crop": "50% 55%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Walls 11 metres high, <y>and no mortar in them</y>",
+      "note": "The Great Enclosure's dry-stone wall runs about 250 m. Built in the 13th and 14th centuries, likely the royal residence.",
+      "source": "Jan Derk, 1997 · public domain",
+      "alt": "Green valley with the long curving stone wall of the Great Enclosure below wooded hills.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "mauchnotes.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The first surveyor decided it was <y>the Queen of Sheba's palace</y>",
+      "note": "Karl Mauch saw the ruins in 1871 and ruled out African builders. He claimed a wooden lintel had to be Lebanese cedar.",
+      "source": "Karl Mauch, notes dated 1873 · public domain",
+      "alt": "Pencil sketch of a hill with ruined walls, above a circular ground plan and German handwriting.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "ruins1900.jpg",
+      "crop": "55% 42%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A company was founded <y>to strip the ruins</y>",
+      "note": "W.G. Neal's Ancient Ruins Company plundered the site from the 1890s to the 1920s, destroying what it could not sell.",
+      "source": "Smart & Copley, c.1890–1925 · public domain",
+      "alt": "Old photograph of stone ruins among trees, with ladders, excavated trenches and workers.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "soapstonebirds.jpg",
+      "crop": "50% 42%",
+      "zoom": 2.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Eight stone birds left. <y>One is still in Cape Town</y>",
+      "note": "Carved from soapstone on monoliths. Some were taken around 1890 and sold to Cecil Rhodes; one remains at his old home.",
+      "source": "J. Theodore Bent, 1892 · public domain",
+      "alt": "Carved soapstone bird on a pedestal, photographed against a dark background.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "conicaltower.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Shona ancestors built it. <y>Why they left is unknown</y>",
+      "note": "African origin became consensus in the 1950s. Bent's untrained digging wrecked the Conical Tower's layers, so it cannot be dated.",
+      "source": "Wood engraving, Die Gartenlaube, 1896 · public domain",
+      "alt": "Engraving of the tapering Conical Tower of Great Zimbabwe rising behind a low stone wall.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "great-zimbabwe",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

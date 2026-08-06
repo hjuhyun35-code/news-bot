@@ -1,0 +1,245 @@
+{
+  "claims": [
+    {
+      "claim": "The Rhodesian government censored archaeologists who said Africans built Great Zimbabwe",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The official line in Rhodesia during the 1960s and 1970s was that the structures were built by non-blacks. Archaeologists who disputed the official statement were censored by the government."
+    },
+    {
+      "claim": "Great Zimbabwe is near Masvingo",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Great Zimbabwe was a city in the south-eastern hills of the modern country of Zimbabwe, near Masvingo."
+    },
+    {
+      "claim": "Stone building at the site began in the 11th century",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "Construction of the stone buildings started in the 11th century and continued for over 300 years."
+    },
+    {
+      "claim": "The builders were ancestors of the Shona people",
+      "where": "card 1 note / card 6",
+      "verdict": "supported",
+      "quote": "The edifices were erected by ancestors of the Shona people, currently located in Zimbabwe and nearby countries."
+    },
+    {
+      "claim": "The corridor photograph is by CDC / Dr J. Lyle Conrad, 1975, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 1975\nAuthor: CDC/ Dr. J. Lyle Conrad\nLicence: Public domain"
+    },
+    {
+      "claim": "The walls are 11 metres high and contain no mortar",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "The Great Enclosure, with its 11 m (36 ft) high dry stone walls (that is, constructed without mortar), was built during the 13th and 14th centuries"
+    },
+    {
+      "claim": "The Great Enclosure's dry-stone wall runs about 250 m",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "has walls as high as 11 m (36 ft) extending approximately 250 m (820 ft)"
+    },
+    {
+      "claim": "The Great Enclosure was built in the 13th and 14th centuries and likely served as the royal residence",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The Great Enclosure, with its 11 m (36 ft) high dry stone walls (that is, constructed without mortar), was built during the 13th and 14th centuries, and likely served as the royal residence, with demarcated public spaces for rituals."
+    },
+    {
+      "claim": "The valley view photograph is by Jan Derk, 1997, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 1997\nAuthor: Image taken by  Jan Derk  in  1997  in  Zimbabwe .\nLicence: Public domain"
+    },
+    {
+      "claim": "Karl Mauch was the site's first surveyor",
+      "where": "card 3 headline",
+      "verdict": "unsupported",
+      "quote": "In 1871 he showed the ruins to Karl Mauch, a German explorer and geographer of Africa."
+    },
+    {
+      "claim": "Mauch decided the ruins were the Queen of Sheba's palace",
+      "where": "card 3 headline",
+      "verdict": "unsupported",
+      "quote": "Mauch went so far as to favour a legend that the structures were built to replicate the palace of the Queen of Sheba in Jerusalem"
+    },
+    {
+      "claim": "Mauch favoured a legend that the structures copied the Queen of Sheba's palace",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Mauch went so far as to favour a legend that the structures were built to replicate the palace of the Queen of Sheba in Jerusalem, and claimed a wooden lintel at the site must be Lebanese cedar, brought by Phoenicians."
+    },
+    {
+      "claim": "Mauch saw the ruins in 1871 and ruled out African builders",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "In 1871 he showed the ruins to Karl Mauch, a German explorer and geographer of Africa. Karl Mauch recorded the ruins and immediately discounted any possibility of native construction"
+    },
+    {
+      "claim": "Mauch claimed a wooden lintel at the site had to be Lebanese cedar",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "claimed a wooden lintel at the site must be Lebanese cedar, brought by Phoenicians"
+    },
+    {
+      "claim": "Mauch was a German geographer",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Karl Mauch, a German explorer and geographer of Africa"
+    },
+    {
+      "claim": "Mauch's notes are dated 1873",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Vorläufige und ganz vertrauliche Notiz über die Ruinen von Zimba... von Karl Mauch, Gotha 17. Januar 1873. [handwritten heading visible in mauchnotes.jpg]"
+    },
+    {
+      "claim": "A company (the Ancient Ruins Company) existed and stripped the ruins",
+      "where": "card 4 headline / note",
+      "verdict": "supported",
+      "quote": "A series of looters followed Mauch's visit to the ruins, some employed by W.G. Neal who famously operated the Ancient Ruins Company."
+    },
+    {
+      "claim": "The Ancient Ruins Company plundered the site from the 1890s to the 1920s, destroying what it could not sell",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "European antiquarians looted and pillaged Great Zimbabwe and similar structures from the 1890s to 1920s, greatly inhibiting the work of future archaeologists by destroying its stratigraphy."
+    },
+    {
+      "claim": "The 1900-era ruins photograph is copyright Smart & Copley, c.1890–1925",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Notes:  \"601 C\"; Copyright by Smart &amp; Copley.; Frank and Frances Carpenter Collection. Date: between 1890 and 1925"
+    },
+    {
+      "claim": "Eight stone birds survive",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "The most important artefacts recovered from the monument are the eight Zimbabwe Birds."
+    },
+    {
+      "claim": "One of the bird carvings remains in Cape Town, at Rhodes' old home",
+      "where": "card 5 headline / note",
+      "verdict": "supported",
+      "quote": "Most of the carvings have now been returned to Zimbabwe, but one remains at Rhodes' old home, Groote Schuur, in Cape Town."
+    },
+    {
+      "claim": "The birds were carved from soapstone on monoliths",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "These were carved from a micaceous schist (soapstone) on the tops of monoliths the height of a person."
+    },
+    {
+      "claim": "Some carvings were taken around 1890 and sold to Cecil Rhodes",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Some of the carvings had been taken from Great Zimbabwe around 1890 and sold to Cecil Rhodes, who was intrigued and had copies made which he gave to friends."
+    },
+    {
+      "claim": "The soapstone birds image is by J. Theodore Bent, 1892",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Date: 1892\nAuthor: James Theodore Bent"
+    },
+    {
+      "claim": "The image is captioned as showing soapstone birds on pedestals at Zimbabwe",
+      "where": "soapstonebirds.jpg",
+      "verdict": "supported",
+      "quote": "SOAPSTONE BIRDS ON PEDESTALS. ZIMBABWE [printed caption in soapstonebirds.jpg]"
+    },
+    {
+      "claim": "It is unknown why Great Zimbabwe was abandoned",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "It is unknown what caused Great Zimbabwe's demise and its eventual abandonment."
+    },
+    {
+      "claim": "African origin became scholarly consensus in the 1950s",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Its African origin only became consensus by the 1950s."
+    },
+    {
+      "claim": "Bent had no formal archaeological training",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Bent had no formal archaeological training, but by 1891 he had travelled widely in Greece and Asia Minor and had excavated (1889) the Mounds of A'ali, Bahrain."
+    },
+    {
+      "claim": "Bent's digging destroyed the Conical Tower's stratigraphy, making the tower impossible to date",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "This lack of training likely contributed to his decision to recklessly dig in the conical tower of the Great Enclosure, which would subsequently ruin the stratigraphy of the environment. This in turn made it impossible for any archaeologist who came after him to determine the tower's age."
+    },
+    {
+      "claim": "Bent dug into the Conical Tower in the 1890s",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Bent stated in the first edition of his book The Ruined Cities of Mashonaland (1892) that the ruins revealed either the Phoenicians or the Arabs as builders"
+    },
+    {
+      "claim": "The final image is a wood engraving from Die Gartenlaube, 1896",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Die Gartenlaube (1896) b 0405 2.jpg"
+    },
+    {
+      "claim": "Stone building continued for over 300 years",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Construction of the stone buildings started in the 11th century and continued for over 300 years."
+    },
+    {
+      "claim": "Gold, ivory, Chinese porcelain and Arabian coins passed through the city",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Chinese pottery shards, coins from Arabia, glass beads and other non-local items have been excavated at Zimbabwe. Archeological evidence shows that some of the imported ceramics included Longquan green-glazed stoneware and blue-and-white porcelain"
+    },
+    {
+      "claim": "David Randall-MacIver in 1905–06 concluded the site was medieval and of Bantu/Shona origin",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The first scientific archaeological excavations at the site were undertaken by David Randall-MacIver for the British Association in 1905–1906. In Medieval Rhodesia, he rejected the claims made by Adam Render, Carl Peters and Karl Mauch, and instead wrote of the existence in the site of objects that were of Bantu origin."
+    },
+    {
+      "claim": "Gertrude Caton Thompson in 1929 concluded the site was medieval and Bantu",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In mid-1929, Gertrude Caton Thompson concluded, after a twelve-day visit of a three-person team and the digging of several trenches, that the site was indeed created by Bantu."
+    },
+    {
+      "claim": "Paul Sinclair recalled being told it was acceptable to say 'yellow people' built it but that he could not mention radiocarbon dates",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "He said it was okay to say the yellow people had built it, but I wasn't allowed to mention radio carbon dates"
+    },
+    {
+      "claim": "A museum board trustee threatened Sinclair's job if he said publicly that black Africans built Zimbabwe",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Once a member of the Museum Board of Trustees threatened me with losing my job if I said publicly that blacks had built Zimbabwe."
+    },
+    {
+      "claim": "The city was abandoned in the 16th or 17th century",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Major construction on the city began in the 11th century until the 15th century, and it was abandoned in the 16th or 17th century."
+    },
+    {
+      "claim": "Shona oral tradition attributes the decline to a salt shortage",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Shona oral tradition attributes Great Zimbabwe's demise to a salt shortage, which may be a figurative way of speaking of land depletion for agriculturalists or of the depletion of critical resources for the community."
+    },
+    {
+      "claim": "All the images used are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 2
+}
