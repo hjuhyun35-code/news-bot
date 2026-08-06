@@ -1,0 +1,38 @@
+{
+  "subject": "The Cottingley Fairies, five photographs taken by two girls in 1917",
+  "wikipedia": "Cottingley Fairies",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "franceswithfairies.jpg",
+      "commons": "File:Cottingley Fairies 1.webp"
+    },
+    {
+      "file": "elsieandgnome.jpg",
+      "commons": "File:Cottingley Fairies 2.jpg"
+    },
+    {
+      "file": "elsieofferingharebel.jpg",
+      "commons": "File:Cottingley Fairies 4.jpg"
+    },
+    {
+      "file": "fairybower.jpg",
+      "commons": "File:Cottingley Fairies 5.jpg"
+    },
+    {
+      "file": "strandarticle.jpg",
+      "commons": "File:Cottingley Fairies, page 463, The Strand Magazine - 1920 - Vol.Jul-Dec.jpg"
+    },
+    {
+      "file": "giftbookillustration.jpg",
+      "commons": "File:Cottingley fairies illustration.jpg"
+    }
+  ],
+  "cover": {
+    "image": "franceswithfairies.jpg",
+    "crop": "50% 45%",
+    "zoom": 1.0,
+    "fit": "whole",
+    "grade": "paper"
+  }
+}
