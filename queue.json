@@ -68,7 +68,9 @@
       "slug": "baychimo",
       "subject": "SS Baychimo, a cargo ship abandoned in the Arctic in 1931 and sighted for decades after",
       "wikipedia": "SS Baychimo",
-      "hook": "선원은 모두 살았고 배만 38년을 떠돌았다"
+      "hook": "선원은 모두 살았고 배만 38년을 떠돌았다",
+      "hold": true,
+      "why_hold": "2026-08-06 확인. 저작권 만료 사진이 4장뿐이다. 유령선이라 사진 찍을 사람이 배에 없었던 것이 그대로 자료 부족이 됐다."
     },
     {
       "slug": "great-zimbabwe",
@@ -86,7 +88,9 @@
       "slug": "damascus-steel",
       "subject": "Damascus steel, a metalworking technique that was lost",
       "wikipedia": "Damascus steel",
-      "hook": "만드는 법을 아무도 안 적어놨다"
+      "hook": "만드는 법을 아무도 안 적어놨다",
+      "hold": true,
+      "why_hold": "2026-08-06 확인. 저작권 만료 사진이 5장뿐이다. 남은 칼들이 대부분 박물관 소장품이라 사진이 전부 최근 촬영본이다."
     },
     {
       "slug": "greek-fire",
@@ -98,7 +102,9 @@
       "slug": "piri-reis",
       "subject": "The Piri Reis map of 1513 and the sources its maker listed",
       "wikipedia": "Piri Reis map",
-      "hook": "지도 여백에 출처를 적어놨는데 그 지도들이 사라졌다"
+      "hook": "지도 여백에 출처를 적어놨는데 그 지도들이 사라졌다",
+      "hold": true,
+      "why_hold": "2026-08-06 확인. 저작권 만료 사진이 3장뿐이다. 지도 자체는 자료가 되지만 카드 여섯 장을 채울 다른 그림이 없다."
     },
     {
       "slug": "emperor-norton",
@@ -116,7 +122,9 @@
       "slug": "beale",
       "subject": "The Beale ciphers, three coded papers left in a Virginia hotel safe",
       "wikipedia": "Beale ciphers",
-      "hook": "세 장 중 한 장만 풀렸다"
+      "hook": "세 장 중 한 장만 풀렸다",
+      "hold": true,
+      "why_hold": "2026-08-06 확인. 저작권 만료 사진이 0장이다. 암호문 자체를 찍은 그림이 위키미디어에 없다."
     },
 
     {
