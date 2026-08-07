@@ -196,7 +196,9 @@ def main():
                     help="설명은 읽지 않는다. 25초쯤으로 짧아진다")
     ap.add_argument("--voice", default="uk", choices=sorted(VOICES),
                     help="목소리. uk=영국 중저음, us=미국 중저음")
-    ap.add_argument("--cards", type=int, default=0,
+    # 넷이면 40초 안팎이다. 셋이면 29초로 짧아지지만 이야기가 성글어진다.
+    # 0을 주면 카드를 다 쓴다 — 70초를 넘기니 릴스로는 권하지 않는다.
+    ap.add_argument("--cards", type=int, default=4,
                     help="릴스에 쓸 카드 수. 0이면 전부")
     ap.add_argument("--cta", default=CTA,
                     help="마지막에 덧붙일 한 줄. 빈 값이면 안 넣는다")
