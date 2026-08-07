@@ -30,11 +30,17 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 W, H = 1080, 1920          # 릴스 규격
 CARD_W, CARD_H = 1080, 1350
-MIN_HOLD = 2.8             # 내레이션이 짧아도 이만큼은 보여준다
-TAIL = 0.7                 # 말이 끝난 뒤 여운
+
+# 처음 만든 것이 71초였다. 내레이션이 카드 문구를 통째로 읽은 탓인데,
+# 그 글은 화면에 이미 떠 있다. 소리로 또 읽으면 길기만 하고 새로 주는
+# 것이 없다. 제목만 읽고 설명은 눈으로 읽게 두면 30초 안팎이 된다.
+MIN_HOLD = 3.6             # 내레이션이 짧아도 이만큼은 보여준다
+MAX_HOLD = 7.0             # 한 장면이 이보다 길면 넘겨버린다
+TAIL = 0.9                 # 말이 끝난 뒤 여운. 설명을 읽을 틈이기도 하다
 ZOOM_PER_CLIP = 0.06       # 한 장면에서 6% 천천히 확대
 FPS = 30
 VOICE = "en-GB-RyanNeural"
+RATE = "+8%"               # 기본 속도는 기록물 낭독치고 조금 느리다
 
 
 def run(cmd, **kw):
@@ -45,13 +51,19 @@ def have(prog):
     return shutil.which(prog) is not None
 
 
-def spoken(card):
-    """카드에서 읽어줄 말. 강조 표시는 소리에 없다."""
+def spoken(card, full=False):
+    """카드에서 읽어줄 말. 강조 표시는 소리에 없다.
+
+    기본은 제목만이다. 설명까지 읽으면 화면에 있는 글을 그대로 다시
+    읽는 셈이라 길어지기만 한다. 마지막 카드처럼 답이 설명에 있는
+    경우를 위해 --full 을 남겨둔다.
+    """
     head = card["headline"].replace("<y>", "").replace("</y>", "").strip()
-    note = (card.get("note") or "").strip()
     if head and not head.endswith((".", "?", "!")):
         head += "."
-    return f"{head} {note}".strip()
+    if not full:
+        return head
+    return f"{head} {(card.get('note') or '').strip()}".strip()
 
 
 def frame_for(card_path, out_path):
@@ -78,7 +90,7 @@ def frame_for(card_path, out_path):
 
 def narrate(text, out_mp3):
     """edge-tts 로 읽힌다. 열쇠도 돈도 필요 없다."""
-    run([sys.executable, "-m", "edge_tts", "--voice", VOICE,
+    run([sys.executable, "-m", "edge_tts", "--voice", VOICE, "--rate", RATE,
          "--text", text, "--write-media", out_mp3])
 
 
@@ -105,6 +117,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
     ap.add_argument("--no-tts", action="store_true")
+    ap.add_argument("--full", action="store_true",
+                    help="설명까지 읽는다. 길어진다")
     args = ap.parse_args()
 
     for prog in ("ffmpeg", "ffprobe"):
@@ -131,8 +145,8 @@ def main():
         mp3 = None
         if not args.no_tts:
             mp3 = os.path.join(work, f"voice{n}.mp3")
-            narrate(spoken(card), mp3)
-            hold = max(MIN_HOLD, duration(mp3) + TAIL)
+            narrate(spoken(card, args.full), mp3)
+            hold = min(MAX_HOLD, max(MIN_HOLD, duration(mp3) + TAIL))
         holds.append(hold)
         voices.append(mp3)
 
@@ -168,6 +182,11 @@ def main():
              "-map", "0:v", "-map", "[out]",
              "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
              "-shortest", out_mp4])
+
+    # 첫 장면은 남겨둔다. 영상을 다 보지 않고도 화면 구성이 맞는지
+    # 확인할 수 있어야 한다.
+    shutil.copy(os.path.join(work, "frame1.jpg"),
+                os.path.join(post_dir, "reel_cover.jpg"))
 
     total = sum(holds)
     size = os.path.getsize(out_mp4) / 1_000_000

@@ -42,7 +42,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: reel-${{ inputs.slug }}
-          path: posts/${{ inputs.slug }}/reel.mp4
+          path: |
+            posts/${{ inputs.slug }}/reel.mp4
+            posts/${{ inputs.slug }}/reel_cover.jpg
           retention-days: 30
 
       - name: tell telegram
