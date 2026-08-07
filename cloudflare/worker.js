@@ -8,12 +8,14 @@
 // 저장소의 scripts/telegram_command.py 가 정한다 — 그래야 규칙이 코드
 // 한 군데에만 있다.
 //
-// 필요한 비밀값 세 개 (wrangler secret put 으로 넣는다)
-//   GITHUB_TOKEN     저장소 하나에만 쓰는 fine-grained 토큰, Contents 읽기
-//                    + Actions 쓰기. 다른 권한은 주지 말 것.
-//   TELEGRAM_SECRET  텔레그램에게 웹훅을 걸 때 같이 준 값. 이게 있어야
-//                    아무나 이 주소로 가짜 소식을 밀어넣지 못한다.
-//   ALLOWED_CHAT_ID  사장님 텔레그램 번호. 여기 외의 대화는 버린다.
+// 필요한 비밀값
+//   GITHUB_TOKEN     (필수) 저장소 하나에만 쓰는 fine-grained 토큰,
+//                    Contents 읽기 + Actions 쓰기. 다른 권한은 주지 말 것.
+//   TELEGRAM_SECRET  (필수) 텔레그램에게 웹훅을 걸 때 같이 준 값. 이게
+//                    있어야 아무나 이 주소로 가짜 소식을 밀어넣지 못한다.
+//   ALLOWED_CHAT_ID  (선택) 텔레그램 대화 번호. 넣으면 그 대화만 통과시킨다.
+//                    안 넣어도 된다 — 비밀값 확인이 이미 막고 있고, 저장소
+//                    쪽 telegram_command.py 가 주인인지 한 번 더 본다.
 
 const REPO = "hjuhyun35-code/news-bot";
 
@@ -36,14 +38,18 @@ export default {
       return new Response("읽을 수 없는 내용", { status: 400 });
     }
 
-    // 주인 것만 넘긴다. 여기서 막아두면 깃허브를 헛돌게 만들 수 없다.
-    const chat =
-      update?.message?.chat?.id ??
-      update?.callback_query?.message?.chat?.id ??
-      update?.callback_query?.from?.id;
-    if (String(chat) !== String(env.ALLOWED_CHAT_ID)) {
-      // 200 을 준다. 오류를 주면 텔레그램이 계속 다시 보낸다.
-      return new Response("ok");
+    // 대화 번호를 넣어뒀다면 그 대화만 넘긴다. 안 넣었으면 이 검사는
+    // 건너뛴다 — 위의 비밀값 확인이 이미 남을 막고 있고, 저장소 쪽
+    // telegram_command.py 가 주인인지 한 번 더 본다.
+    if (env.ALLOWED_CHAT_ID) {
+      const chat =
+        update?.message?.chat?.id ??
+        update?.callback_query?.message?.chat?.id ??
+        update?.callback_query?.from?.id;
+      if (String(chat) !== String(env.ALLOWED_CHAT_ID)) {
+        // 200 을 준다. 오류를 주면 텔레그램이 계속 다시 보낸다.
+        return new Response("ok");
+      }
     }
 
     const res = await fetch(`https://api.github.com/repos/${REPO}/dispatches`, {

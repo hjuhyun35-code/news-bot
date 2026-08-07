@@ -42,45 +42,43 @@ https://github.com/settings/personal-access-tokens/new
 아무 긴 문자열이면 됩니다. 텔레그램과 클라우드플레어만 아는 암호입니다.
 예: `gn-2026-8f3a91c7d4e6` — 그대로 쓰지 말고 아무렇게나 바꾸세요.
 
-## 3. 워커 올리기
+## 3. 워커 올리기 — 웹사이트에서 (설치 필요 없음)
 
-명령 프롬프트에서:
+https://dash.cloudflare.com → 왼쪽 **Compute (Workers)** → **Create** →
+**Start with Hello World!** → **Get started**
+
+- 이름을 `glassnegative-telegram` 으로 바꾸고 **Deploy**
+- 배포되면 **Edit code** 를 눌러 편집기를 엽니다
+- 안에 있던 예제 코드를 **전부 지우고** 이 폴더의 `worker.js` 내용을
+  통째로 붙여넣습니다
+- 오른쪽 위 **Deploy** 를 다시 누릅니다
+
+그다음 비밀값을 넣습니다. 워커 화면에서
+**Settings** → **Variables and Secrets** → **Add**:
+
+| 이름 | 종류 | 값 |
+|---|---|---|
+| `GITHUB_TOKEN` | Secret | 1번에서 만든 `github_pat_...` |
+| `TELEGRAM_SECRET` | Secret | 2번에서 정한 문자열 |
+
+`ALLOWED_CHAT_ID` 는 넣지 않아도 됩니다. 넣고 싶으면 텔레그램 대화
+번호를 Secret 으로 추가하세요.
+
+넣은 뒤 **Deploy** 를 한 번 더 눌러야 반영됩니다.
+
+주소는 워커 화면 위쪽에 나옵니다:
+`https://glassnegative-telegram.<사장님계정>.workers.dev`
+
+### 명령줄이 편하면
+
+`wrangler` 로도 됩니다. node 설치가 필요합니다.
 
 ```bash
 npm install -g wrangler
 ```
 
-```bash
-wrangler login
-```
-
-브라우저가 열리면 허용을 누릅니다. 그다음 이 폴더에서:
-
-```bash
-wrangler secret put GITHUB_TOKEN
-```
-
-붙여넣기 하라고 나오면 1번에서 만든 `github_pat_...` 를 넣습니다.
-
-```bash
-wrangler secret put TELEGRAM_SECRET
-```
-
-2번에서 정한 문자열을 넣습니다.
-
-```bash
-wrangler secret put ALLOWED_CHAT_ID
-```
-
-사장님 텔레그램 번호를 넣습니다. 깃허브 저장소 Secrets 의
-`TELEGRAM_CHAT_ID` 와 같은 값입니다.
-
-```bash
-wrangler deploy
-```
-
-끝나면 주소가 나옵니다:
-`https://glassnegative-telegram.<사장님계정>.workers.dev`
+그다음 이 폴더에서 `wrangler login`, `wrangler secret put GITHUB_TOKEN`,
+`wrangler secret put TELEGRAM_SECRET`, `wrangler deploy` 순서입니다.
 
 ## 4. 텔레그램에게 그 주소를 알려주기
 
