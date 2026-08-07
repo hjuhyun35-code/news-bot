@@ -61,7 +61,13 @@ PITCH = "-8Hz"             # 더 낮게 깐다
 
 
 def run(cmd, **kw):
-    return subprocess.run(cmd, check=True, capture_output=True, text=True, **kw)
+    r = subprocess.run(cmd, capture_output=True, text=True, **kw)
+    if r.returncode != 0:
+        # 무엇이 틀렸는지 안 보이면 고칠 수가 없다. ffmpeg 도 edge-tts 도
+        # 쓸모있는 말은 전부 stderr 에 적는다.
+        sys.exit(f"[실패] {' '.join(cmd[:4])} … 가 {r.returncode} 로 끝났습니다.\n"
+                 f"{(r.stderr or r.stdout)[-1200:]}")
+    return r
 
 
 def have(prog):
@@ -110,9 +116,13 @@ def frame_for(card_path, photo_path, out_path):
 
 
 def narrate(text, out_mp3, voice):
-    """edge-tts 로 읽힌다. 열쇠도 돈도 필요 없다."""
+    """edge-tts 로 읽힌다. 열쇠도 돈도 필요 없다.
+
+    --pitch 는 반드시 붙여 써야 한다. 값이 빼기로 시작하면 떼어 쓴 순간
+    edge-tts 가 그것을 또 다른 옵션으로 읽고 죽는다.
+    """
     run([sys.executable, "-m", "edge_tts", "--voice", voice,
-         "--rate", RATE, "--pitch", PITCH,
+         f"--rate={RATE}", f"--pitch={PITCH}",
          "--text", text, "--write-media", out_mp3])
 
 
