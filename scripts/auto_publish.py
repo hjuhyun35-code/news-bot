@@ -115,7 +115,8 @@ def main():
 
     telegram.say("\n".join(head + [""] + lines[1:]),
                  buttons=[[("✅ 올려줘", f"ok:{slug}"),
-                           ("🗑 버리기", f"no:{slug}")]])
+                           ("🗑 버리기", f"no:{slug}")],
+                          [("🎬 릴스 만들기", f"reel:{slug}")]])
 
 
 if __name__ == "__main__":

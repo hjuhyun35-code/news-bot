@@ -103,6 +103,15 @@ def give_back(slug, sha):
        {"message": f"발행 실패로 표시를 되돌림: {slug}", "sha": sha})
 
 
+def dispatch(workflow, inputs=None):
+    """워크플로를 부른다. 단추 하나로 초안이나 릴스를 시작할 때 쓴다."""
+    res, code = gh("POST", f"actions/workflows/{workflow}/dispatches",
+                   {"ref": "main", "inputs": inputs or {}})
+    if code >= 300:
+        return False, json.dumps(res, ensure_ascii=False)[:200]
+    return True, ""
+
+
 def publish(slug):
     """발행 스크립트를 돌린다. 확인 문구는 사람이 단추를 눌렀을 때만 준다."""
     env = dict(os.environ)
@@ -113,10 +122,19 @@ def publish(slug):
     return r.returncode == 0, (r.stdout + r.stderr)[-1500:]
 
 
-# 처리가 끝난 뒤 보여줄 단추. 누르면 아무 일도 하지 않고 안내만 뜬다.
-DONE = [[("✅ 올라감", "done")]]
+# 처리가 끝난 뒤 보여줄 단추.
 DROPPED = [[("🗑 버림", "done")]]
 RETRY = None   # 실패했을 때는 원래 단추를 그대로 둔다
+
+
+def done_buttons(slug):
+    """올린 뒤에도 릴스 단추는 남긴다.
+
+    릴스는 캐러셀과 며칠 띄워 올리는 편이 낫다. 프로필 격자에 같은
+    사진이 나란히 걸리면 우려먹는 계정으로 보이기 때문이다. 그래서
+    올리자마자가 아니라 나중에 누를 수 있어야 한다.
+    """
+    return [[("✅ 올라감", "done")], [("🎬 릴스 만들기", f"reel:{slug}")]]
 
 
 def handle(cb):
@@ -147,8 +165,21 @@ def handle(cb):
     if not os.path.exists(os.path.join(post_dir, "post.json")):
         return f"❌ {slug} — 대본 파일이 없습니다.", RETRY
 
+    # 릴스는 올린 글이든 아직 안 올린 글이든 만들 수 있다. 그래서 발행
+    # 여부를 보기 전에 처리한다. 원래 글은 손대지 않고 새 글로 답한다 —
+    # 승인 메시지에 적힌 독자 반응과 검증 결과를 덮으면 안 된다.
+    if action == "reel":
+        started, err = dispatch("reel.yml", {"slug": slug})
+        if started:
+            print(f"  {slug}: 릴스 만들기 시작")
+            telegram.say(f"🎬 <b>{slug}</b> 릴스를 만들고 있습니다. "
+                         f"5분쯤 걸립니다.\n다 되면 영상과 캡션을 보내드립니다.")
+        else:
+            telegram.say(f"릴스 만들기를 시작하지 못했습니다: {slug}\n<pre>{err}</pre>")
+        return None, RETRY
+
     if os.path.exists(os.path.join(post_dir, "published.json")):
-        return f"이미 올라간 글입니다: {slug}", DONE
+        return f"이미 올라간 글입니다: {slug}", done_buttons(slug)
 
     if action == "no":
         with open(os.path.join(post_dir, "rejected.json"), "w", encoding="utf-8") as f:
@@ -164,7 +195,7 @@ def handle(cb):
     # 시작할 때의 사진이라, 12초 뒤에 시작한 실행에게는 여전히 비어 있다.
     sha = claim(slug)
     if not sha:
-        return f"이미 처리 중이거나 올라간 글입니다: {slug}", DONE
+        return f"이미 처리 중이거나 올라간 글입니다: {slug}", done_buttons(slug)
 
     print(f"  {slug}: 발행 시작")
     ok, log = publish(slug)
@@ -181,7 +212,9 @@ def handle(cb):
             media = line.split(":")[-1].strip()
     finish(slug, sha, media)
     return (f"✅ 올라갔습니다: {slug}\n"
-            f"https://www.instagram.com/theglassnegative/"), DONE
+            f"https://www.instagram.com/theglassnegative/\n\n"
+            f"릴스는 며칠 띄웠다가 만드세요. 프로필 격자에 같은 사진이 "
+            f"나란히 걸리면 우려먹는 계정으로 보입니다."), done_buttons(slug)
 
 
 def main():

@@ -32,6 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write      # 릴스 단추가 reel 워크플로를 부른다
     steps:
       - uses: actions/checkout@v4
 
