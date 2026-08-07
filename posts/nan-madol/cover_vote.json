@@ -1,0 +1,43 @@
+{
+  "winner": "C",
+  "tally": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "votes": [
+    {
+      "choice": "C",
+      "why": "C에서 눈이 먼저 간 건 아래쪽에 줄지어 선 사람들이었다. 흰 셔츠들이 어둠 속에서 하얗게 떠 있어서 얼굴을 세보게 되고, 그 다음에 그 사람들 머리 위로 계속 쌓여 올라가는 돌벽으로 시선이 딸려 올라간다. 사람 키랑 돌 크기가 바로 비교되니까 '이게 뭐지, 얼마나 큰 거야' 하는 느낌이 1초 안에 온다. A는 대비를 너무 세게 올려서 그냥 검은 얼룩 덩어리 같고, 돌인지 나무인지 구분이 안 돼서 눈이 미끄러졌다. B는 가운데만 사진이고 위아래로 검은 띠가 있어서 화면이 작아 보이고, 세피아 톤이 오래된 여행 블로그 사진 같아서 아무 긴장이 없다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "A"
+      ],
+      "worst": "B",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "C",
+      "why": "C에서 눈이 먼저 간 건 아래쪽 사람들 줄이다. 흰 셔츠, 모자 쓴 사람, 아이들까지 열 명 남짓이 벽 앞에 나란히 서 있는데, 그 사람들 머리 위로 거석 벽이 계속 올라간다. 사람 키와 돌 층을 자동으로 비교하게 되고, 그러면서 '이게 얼마나 큰 거야'가 생각나서 손이 멈췄다. 게다가 사진 자체가 옛 기록사진 같아서 누가 찍었는지, 언제인지 궁금해졌다(출처 표기가 없는 건 좀 걸린다). A는 대비를 너무 밀어서 돌인지 그림자인지 뭉개졌고, 아래쪽에 사람이 하나 있는 건 나중에야 알아봤다 — 처음엔 그냥 검은 덩어리였다. B는 진흙과 맹그로브 뿌리가 화면 절반을 먹어서 벽이 배경으로 밀렸고, 세피아가 밋밋해 눈이 붙잡히는 지점이 없다. 아래 검은 여백도 크다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "A"
+      ],
+      "worst": "B",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "visitorsonwall.png",
+    "crop": "50% 44%",
+    "zoom": 1.25,
+    "fit": "crop",
+    "grade": "paper",
+    "hook": "Visitors stand where a drowned dynasty ruled.",
+    "why": "Human figures are the fastest thing an eye recognises; a row of men and children lined up against terraced basalt courses sells both scale and mystery. The crop pushes past the faint curator pencil in the lower-left corner and the empty water band, holding the people and the wall behind them."
+  }
+}

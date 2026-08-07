@@ -1,0 +1,197 @@
+{
+  "claims": [
+    {
+      "claim": "Nan Madol consists of 92 artificial islands/islets",
+      "where": "card 1 headline, caption",
+      "verdict": "supported",
+      "quote": "it contains 92 artificial islets—stone and coral fill platforms—bordered by tidal canals"
+    },
+    {
+      "claim": "The city was constructed in a lagoon",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The city, constructed in a lagoon, consists of a series of small artificial islands linked by a network of canals."
+    },
+    {
+      "claim": "Nan Madol is off Pohnpei, in the Federated States of Micronesia",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "Nan Madol is an archaeological site adjacent to the eastern shore of the island of Pohnpei, now part of the Madolenihmw district of Pohnpei state in the Federated States of Micronesia in the western Pacific Ocean."
+    },
+    {
+      "claim": "The islets are stone and coral fill platforms bordered by tidal canals",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "92 artificial islets—stone and coral fill platforms—bordered by tidal canals"
+    },
+    {
+      "claim": "The site core covers approximately 1.5 by 0.5 kilometres",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "The site core with its stone walls encloses an area approximately 1.5 by 0.5 kilometres (0.93 mi × 0.31 mi)"
+    },
+    {
+      "claim": "Card 1's image is the Nan Madol photograph from a book published in 1935",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Nan Madol archaeological site of Pohnpei (from a book published in 1935) (cropped).png"
+    },
+    {
+      "claim": "Carbon dating puts the start of megalithic construction at about AD 1180",
+      "where": "card 2 note, caption",
+      "verdict": "supported",
+      "quote": "Carbon dating indicates that megalithic construction at Nan Madol began around AD 1180 when large basalt stones were taken from a volcanic plug on the opposite side of Pohnpei."
+    },
+    {
+      "claim": "The basalt stone was taken from a volcanic plug on the opposite side of Pohnpei",
+      "where": "card 2 headline/note, caption",
+      "verdict": "supported",
+      "quote": "large basalt stones were taken from a volcanic plug on the opposite side of Pohnpei"
+    },
+    {
+      "claim": "Card 2's image is by Élisée Reclus and depicts basalt walls at Metalanim",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Description: murs cyclopeens en basalte à metalanim, île ponapé, carolines ... Author: Élisée Reclus"
+    },
+    {
+      "claim": "There is no fresh water or food at Nan Madol",
+      "where": "card 3 headline, caption",
+      "verdict": "supported",
+      "quote": "On Nan Madol, there is no fresh water or food; water must be collected and food grown inland."
+    },
+    {
+      "claim": "Under the Saudeleurs, Pohnpeians brought essential food and water by boat",
+      "where": "card 3 note, caption",
+      "verdict": "supported",
+      "quote": "During Saudeleur rule, Pohnpeians brought essential food and water by boat."
+    },
+    {
+      "claim": "Food was delivered to a particular islet: first Peiniot, later Usennamw",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The Saudeleur received food at a particular islet: first Peiniot, and later the closer Usennamw."
+    },
+    {
+      "claim": "Card 3's image is by Scot Nelson, circa 1999, CC0",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Description: Photograph circa. 1999 ... Author: Scot Nelson Licence: CC0"
+    },
+    {
+      "claim": "Rival chiefs were required to live in the city where they could be monitored, rather than in their home districts",
+      "where": "card 4 headline/note, caption",
+      "verdict": "supported",
+      "quote": "Nan Madol served, in part, as a way for the ruling Saudeleur chiefs to organize and control potential rivals by requiring them to live in the city rather than in their home districts, where their activities were difficult to monitor."
+    },
+    {
+      "claim": "The population probably never passed 1,000",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Its population almost certainly did not exceed 1,000, and may have been less than half that."
+    },
+    {
+      "claim": "Card 4's image is credited to NOAA",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "FILE: innerwalls.jpg ... Author: NOAA Licence: Public domain"
+    },
+    {
+      "claim": "A University of Oregon team in 1988–89 raised and dissected a column and found it consisted entirely of coral, not a purposely positioned stone column",
+      "where": "card 5 headline/note, caption",
+      "verdict": "supported",
+      "quote": "One of them was raised and carefully dissected. This column was found to consist entirely of coral and clearly is not a \"purposely positioned stone column\"."
+    },
+    {
+      "claim": "Why the city was abandoned after 1628 is still argued",
+      "where": "card 5 note, caption",
+      "verdict": "supported",
+      "quote": "This is thought to have caused them eventually to abandon Nan Madol and move back to their own districts, although there are other explanations for the desertion of the complex, such as a sharp population decline."
+    },
+    {
+      "claim": "Card 5's image is an 1883 engraving titled 'Nanmatal, Ponape'",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:HH1883 pg076 Nanmatal, Ponape.jpg ... Date: 1883"
+    },
+    {
+      "claim": "The name Nan Madol means 'within the intervals', referring to the canals",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The name Nan Madol means \"within the intervals\" and is a reference to the canals that crisscross the ruins."
+    },
+    {
+      "claim": "It was the capital of the Saudeleur dynasty until about 1628",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Nan Madol was the capital of the Saudeleur dynasty until about 1628."
+    },
+    {
+      "claim": "Human activity on the site goes back to the first or second century AD",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it was a scene of human activity as early as the first or second century AD"
+    },
+    {
+      "claim": "In 1978–79 Arthur Saxe reported tall coral-covered pillars offshore",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1978 and 1979, Arthur Saxe conducted underwater archaeological surveys ... These surveys reported finding several tall stone pillars covered in coral growth and as tall as 6 metres (20 ft) tall"
+    },
+    {
+      "claim": "A 2013 sonar and ROV survey found no man-made underwater pillars",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "They found neither evidence of anthropogenic pillars composed of basalt columns nor any evidence that the underwater columns are man-made structures."
+    },
+    {
+      "claim": "The 2013 survey concluded the nearby blue hole is a natural sinkhole",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "They also concluded that the blue hole is a sinkhole that developed in reef limestones during sea level lowstands of glacial maximums."
+    },
+    {
+      "claim": "After Isokelekel overthrew the Saudeleurs, the new rulers had to grow their own food and gather their own water, which may have driven them out",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Around 1628, when Isokelekel overthrew the Saudeleurs and began the Nahnmwarki Era, the Nahnmwarkis lived at Nan Madol, but had to gather their own water and grow their own food. This is thought to have caused them eventually to abandon Nan Madol and move back to their own districts"
+    },
+    {
+      "claim": "A sharp population decline is another proposed explanation for the abandonment",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "there are other explanations for the desertion of the complex, such as a sharp population decline"
+    },
+    {
+      "claim": "Claims that Nan Madol belongs to a lost continent of Mu are pseudoscience",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "There is no scientific basis for the claims of Churchward, whose writings on Mu are considered to be pseudoscience."
+    },
+    {
+      "claim": "Claims that the site is far older than dated are pseudoscientific (Ancient Apocalypse made false claims about the age of the site)",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Nan Madol was featured in episode two of the pseudoarchaeological work Ancient Apocalypse by Graham Hancock which aired on Netflix, in which false claims were made about the age of the site."
+    },
+    {
+      "claim": "Pacific archaeologists call such claims insulting to the Pohnpeian ancestors who built it",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Experts in Pacific geography and archaeology have characterised Hancock's claims about Nan Madol as \"incredibly insulting to the ancestors of the Pohnpeian [islanders] that did create these structures\""
+    },
+    {
+      "claim": "The 1883 engraving is captioned 'Nanmatal — Ponape'",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "Nanmatal — Ponape."
+    },
+    {
+      "claim": "The basaltwall.png image shows a person standing beside a high wall of stacked basalt logs (scale figure)",
+      "where": "implied by card 2 pairing",
+      "verdict": "supported",
+      "quote": "A standing figure at the base of a tall wall of horizontally stacked basalt columns is plainly visible in basaltwall.png."
+    }
+  ],
+  "problems": 0
+}

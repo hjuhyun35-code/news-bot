@@ -23,5 +23,12 @@
       "file": "engraving1883.jpg",
       "commons": "File:HH1883 pg076 Nanmatal, Ponape.jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "visitorsonwall.png",
+    "crop": "50% 44%",
+    "zoom": 1.25,
+    "fit": "crop",
+    "grade": "paper"
+  }
 }

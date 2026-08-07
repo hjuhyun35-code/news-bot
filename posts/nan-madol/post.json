@@ -1,0 +1,73 @@
+{
+  "caption": "What is Nan Madol? A city of 92 artificial islands off Pohnpei, in the Federated States of Micronesia.\n\nThe site core covers about 1.5 by 0.5 kilometres: stone and coral fill platforms bordered by tidal canals. The name means \"within the intervals\" — a reference to those canals. It was the capital of the Saudeleur dynasty until about 1628.\n\nCarbon dating puts the start of megalithic construction around AD 1180, using large basalt stones taken from a volcanic plug on the opposite side of Pohnpei. Human activity on the site goes back to the first or second century AD.\n\nThere is no fresh water and no food at Nan Madol. Under the Saudeleurs, Pohnpeians brought both by boat. The city also worked as a control device: rival chiefs were made to live there, where they could be watched, rather than in their home districts.\n\nDivers went looking for more. In 1978–79 Arthur Saxe reported tall coral-covered pillars offshore. A University of Oregon team in 1988–89 raised one, dissected it and found it was entirely coral — not a positioned stone column. A 2013 sonar and ROV survey found no man-made underwater pillars at all, and concluded the nearby blue hole is a natural sinkhole.\n\nStill open: exactly why the site was abandoned. After Isokelekel overthrew the Saudeleurs, the new rulers had to grow their own food and gather their own water — that may have driven them out. A sharp population decline is another explanation.\n\nClaims that Nan Madol belongs to a lost continent of Mu, or is far older than dated, are pseudoscience. Pacific archaeologists call such claims insulting to the Pohnpeian ancestors who built it.\n\nImages: engraving of Nanmatal, 1883; Élisée Reclus, basalt walls at Metalanim; a 1935 book photograph; Scot Nelson, c. 1999; NOAA.\n\n#NanMadol #Pohnpei #Micronesia #archaeology #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "visitorsonwall.png",
+      "crop": "50% 44%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "A city of <y>92 artificial islands</y>, built in a lagoon",
+      "note": "Nan Madol, off Pohnpei. Stone and coral platforms bordered by tidal canals, covering 1.5 by 0.5 kilometres.",
+      "source": "Nan Madol, from a book published in 1935 · public domain",
+      "alt": "Group of adults and children standing on a low stone wall below high stacked-stone ruins..",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "basaltwall.png",
+      "crop": "55% 45%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The basalt came from <y>the other side of the island</y>",
+      "note": "Carbon dating puts the start of megalithic building at about AD 1180. The stone was taken from a volcanic plug across Pohnpei.",
+      "source": "Élisée Reclus, basalt walls at Metalanim · public domain",
+      "alt": "Towering wall of stacked basalt logs in jungle, a man standing at its base for scale.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "seawallmangroves.jpg",
+      "crop": "38% 40%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "<y>No fresh water. No food.</y> Everything arrived by boat",
+      "note": "Under the Saudeleurs, Pohnpeians ferried in food and water. It was delivered to one islet: first Peiniot, later Usennamw.",
+      "source": "Scot Nelson, Nan Madol, c. 1999 · CC0",
+      "alt": "Dark basalt sea wall behind shallow tidal water, mangrove seedlings and bleached driftwood.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "innerwalls.jpg",
+      "crop": "78% 45%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Rival chiefs were <y>required to live here</y>, where they could be watched",
+      "note": "The Saudeleurs kept potential rivals inside the city rather than in their home districts. The population probably never passed 1,000.",
+      "source": "NOAA, Nan Madol · public domain",
+      "alt": "Corner of a high stacked-basalt wall overgrown with vines, palm and jungle beyond.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "engraving1883.jpg",
+      "crop": "50% 50%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Divers raised an \"ancient pillar\". It was <y>entirely coral</y>",
+      "note": "A 1988–89 Oregon team dissected one and found no basalt. Why the city was abandoned after 1628 is still argued.",
+      "source": "Nanmatal, Ponape — engraving, 1883 · public domain",
+      "alt": "Engraving of thatched houses on a stone platform by water, palms and a sailing canoe.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "nan-madol",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
