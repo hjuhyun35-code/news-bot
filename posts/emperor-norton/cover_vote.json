@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 얼굴이 프레임을 꽉 채우고, 눈썹 밑 그 노려보는 눈이 바로 내 눈을 잡았다. 엄청 대비 강한 흑백이라 피드에서 검은 덩어리처럼 튀고, 헝클어진 머리 + 수염 + 어깨의 금장식 순서로 눈이 훑으면서 '이 사람 뭐야?' 하는 궁금증이 1초 안에 생긴다. B는 자전거 손잡이랑 뒤 배경이 다 갈색으로 뭉개져서 뭐 하는 장면인지 한 박자 늦게 보이고 얼굴도 고개를 숙여 눈이 안 보인다. C는 그림이고 사람이 수십 명이라 축소된 피드 화면에서는 그냥 낡은 종이 얼룩처럼 보인다 — 뭔가 읽어야 하는 느낌, 바로 넘김.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A는 얼굴이 화면을 꽉 채우고, 눈썹 아래 그림자 속에서 정면으로 나를 노려보는 눈에 시선이 먼저 박혔다. 그 다음 헝클어진 머리와 흰 수염, 그리고 어깨의 금장식 견장으로 눈이 내려갔다 — 노숙자 같은 얼굴에 군복 견장이라는 불일치가 손가락을 멈추게 한다. B는 자세는 재미있는데 얼굴이 아래로 숙여져 있고 세피아 톤이 흐릿해서 자전거인지 뭔지 한참 봐야 알겠고, 배경 울타리가 산만하다. C는 판화라 멀리서 보면 그냥 회갈색 덩어리고, 인물이 30명이라 어디를 볼지 눈이 정하지 못한 채 지나간다. 참고로 세 장 다 출처 표기가 없다 — 1870년대 사진과 석판화라면 소장처를 캡션에 적어주는 게 맞다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "portrait.jpg",
+    "crop": "50% 34%",
+    "zoom": 1.3,
+    "fit": "crop",
+    "grade": "deep",
+    "hook": "He crowned himself Emperor. The city obeyed.",
+    "why": "The clearest photograph of the man: face, glare, epaulettes and sabre all legible at thumbnail size. Zoom 1.3 pushes past the cream paper margin and the oval vignette edge so the card is filled by the figure, with the crop lifted to keep the eyes on the upper third."
+  }
+}

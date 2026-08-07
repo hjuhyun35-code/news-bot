@@ -27,5 +27,12 @@
       "file": "caricature.jpg",
       "commons": "File:Chronic Cronies----Harmlessly ARMED, Wasp Caricature of Kearney and Norton, 1879.jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "portrait.jpg",
+    "crop": "50% 34%",
+    "zoom": 1.3,
+    "fit": "crop",
+    "grade": "deep"
+  }
 }

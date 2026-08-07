@@ -1,0 +1,86 @@
+{
+  "caption": "Was Emperor Norton a real emperor? No. Joshua Norton was a bankrupt San Francisco rice speculator who, on 17 September 1859, hand-delivered a letter to the Daily Evening Bulletin declaring himself \"Emperor of these United States.\" The paper printed it for laughs. He kept the role for 20 years.\n\nHis decrees abolished the US Congress (October 1859) and ordered Major-General Scott to clear its halls with a suitable force. The Army ignored him. In 1869 he abolished the Democratic and Republican parties. He wrote to Queen Victoria proposing marriage; she never replied.\n\nThe city played along. He got free ferry and train passage, free meals, help with rent. His own scrip — fifty cents to ten dollars — was honoured in some restaurants; surviving notes now sell for over $10,000. The 1870 census lists him at 624 Commercial Street, occupation: Emperor.\n\nWhen a private security guard arrested him in 1867 to commit him for a mental disorder, the papers turned on the police. The chief released him and apologised. Norton pardoned the guard. Officers saluted him after that.\n\nHe died on a wet pavement on 8 January 1880, with five or six dollars in change on him. Some 10,000 people viewed the body.\n\nStill unresolved: there is no birth record for him, and his obituaries disagreed on the year. The famous \"Frisco\" fine decree has no traceable source. And local papers printed fake proclamations under his name for years — which is why he named the Black-owned Pacific Appeal his \"imperial organ\" in 1870.\n\nImages: three portraits of Emperor Norton by unknown photographers, before 1880; a velocipede portrait, 1869; Edward Jump's \"Funeral of Lazarus,\" 1863; George Frederick Keller's Wasp caricature, 1879. All public domain.\n\n#emperornorton #sanfranciscohistory #publicdomain #archivephotography #victorianera",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "portrait.jpg",
+      "crop": "50% 34%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "He <y>abolished Congress by decree.</y> They ignored him.",
+      "note": "Joshua Norton declared himself Emperor of the United States in September 1859. He held the role for twenty years.",
+      "source": "Emperor Norton I, before 1880 · public domain",
+      "alt": "Bearded man in a dark military coat with epaulettes, seated, holding a sabre.headline",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "standing.jpg",
+      "crop": "48% 40%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The uniform was <y>a secondhand gift from the Army</y>",
+      "note": "Officers at the Presidio of San Francisco passed him the blue coat and gold-plated epaulettes. He added a feathered beaver hat.",
+      "source": "Emperor Norton I, before 1880 · public domain",
+      "alt": "Standing bearded man in dark uniform with epaulettes, hat, sabre at his side.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "velocipede.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The 1870 census listed <y>his occupation as \"Emperor\"</y>",
+      "note": "It recorded him at 624 Commercial Street, aged 50, and noted he was insane. He had no formal political power at all.",
+      "source": "Emperor Norton on a velocipede, 1869 · public domain",
+      "alt": "Bearded man in epauletted coat and hat seated on an early velocipede by a fence.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "edict.jpg",
+      "crop": "50% 82%",
+      "zoom": 2.2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "He printed <y>his own money</y>, and restaurants took it",
+      "note": "Notes ran from fifty cents to ten dollars. The few that survive sell for more than $10,000 at auction.",
+      "source": "Printed edict of Norton I, 22 May 1879 · public domain",
+      "alt": "Printed broadside headed An Edict, a proclamation signed Norton I, dated May 1879.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "funeral.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "The <y>two dogs were never his</y>",
+      "note": "Caricaturist Edward Jump kept drawing Norton with strays Bummer and Lazarus. No evidence says he owned them.",
+      "source": "Edward Jump, 'Funeral of Lazarus', 1863 · public domain",
+      "alt": "Lithograph crowd scene at a mock dog funeral with a hearse, a priest and onlookers.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "caricature.jpg",
+      "crop": "70% 42%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "A bankrupt rice speculator. <y>The city played along</y>",
+      "note": "Free ferry passes, free meals, police salutes. What is still open: no birth record survives, and his obituaries disagreed.",
+      "source": "George Frederick Keller, The Wasp, 1879 · public domain",
+      "alt": "Coloured cartoon of two uniformed men arm in arm, one plumed and armed with pistols.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "emperor-norton",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
