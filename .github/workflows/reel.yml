@@ -56,9 +56,20 @@ jobs:
             *) python scripts/make_reel.py "$SLUG" --voice "$VOICE" $extra ;;
           esac
 
-      # 영상은 저장소에 넣지 않는다. 하나에 5~15MB라 몇 달이면 저장소가
-      # 감당 못 한다. 첨부파일로 내려받아 인스타 앱에서 올린다.
+      # 영상은 텔레그램으로 보낸다. 휴대폰에서 바로 저장해 인스타 앱으로
+      # 넘어갈 수 있어야 한다. 깃허브 첨부파일은 컴퓨터에서 받아 휴대폰으로
+      # 옮기는 일이 한 번 더 있다.
+      #
+      # 저장소에는 넣지 않는다. 하나에 15~25MB라 몇 달이면 감당 못 한다.
+      - name: send to telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_reel.py "${{ inputs.slug }}"
+
+      # 텔레그램이 안 될 때를 위한 뒷길. 30일 뒤 저절로 사라진다.
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: reel-${{ inputs.slug }}
           path: |
@@ -66,12 +77,11 @@ jobs:
             posts/${{ inputs.slug }}/reel_cover.jpg
           retention-days: 30
 
-      - name: tell telegram
-        if: always()
+      - name: report a failure
+        if: failure()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python scripts/notify.py "릴스 영상을 만들었습니다: ${{ inputs.slug }}
-          내려받기: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          앱에서 올리실 때 음원을 고르시면 됩니다."
+          python scripts/notify.py "릴스 만들기가 실패했습니다: ${{ inputs.slug }}
+          기록: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
