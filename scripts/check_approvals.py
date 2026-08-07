@@ -16,21 +16,91 @@
      두 번 올라간 글은 되돌릴 수 없다.
 """
 
+import base64
 import datetime
 import json
 import os
 import re
 import subprocess
 import sys
+import urllib.error
+import urllib.request
 
 import telegram
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SLUG_OK = re.compile(r"^[a-z0-9][a-z0-9-]{0,39}$")
 
+REPO = os.environ.get("GITHUB_REPOSITORY", "hjuhyun35-code/news-bot")
+GH_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+
 
 def now():
     return datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+
+
+def gh(method, path, payload=None):
+    """깃허브 파일 API. (응답, 상태코드) 를 돌려준다."""
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{REPO}/{path}",
+        data=json.dumps(payload).encode() if payload is not None else None,
+        headers={"Authorization": f"Bearer {GH_TOKEN}",
+                 "Accept": "application/vnd.github+json",
+                 "Content-Type": "application/json",
+                 "User-Agent": "news-bot"},
+        method=method)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read().decode() or "{}"), r.status
+    except urllib.error.HTTPError as e:
+        try:
+            return json.loads(e.read().decode()), e.code
+        except Exception:
+            return {}, e.code
+
+
+def claim(slug):
+    """발행하기 전에 자리를 잡는다. 잡았으면 파일의 sha, 못 잡았으면 None.
+
+    깃허브에 파일을 '없을 때만 만들기'로 올린다. 이미 있으면 422 가 온다.
+    이게 이 파이프라인에서 유일하게 원자적인 동작이다 — 두 실행이 동시에
+    시도해도 하나만 성공한다.
+
+    표시를 발행보다 먼저 남기는 이유는 이 파일 맨 위에 적힌 그대로다.
+    승인이 날아가는 쪽이 같은 글이 두 번 올라가는 쪽보다 낫다. 2026-08-07
+    에 nan-madol 이 12초 차이로 두 번 올라갔다 — 그때는 발행이 끝난 뒤에
+    표시를 남기고 있었고, 뒤에 온 실행이 아직 빈 자리를 보고 또 올렸다.
+    """
+    body = json.dumps({"published_at": now(), "media_id": "",
+                       "note": "발행 중입니다. 끝나면 게시물 번호가 채워집니다."},
+                      ensure_ascii=False, indent=2) + "\n"
+    res, code = gh("PUT", f"contents/posts/{slug}/published.json", {
+        "message": f"발행 시작: {slug}",
+        "content": base64.b64encode(body.encode()).decode(),
+    })
+    if code in (200, 201):
+        return res.get("content", {}).get("sha")
+    if code == 422:
+        print(f"  다른 실행이 먼저 {slug} 를 가져갔습니다. 아무것도 하지 않습니다.")
+        return None
+    print(f"  [경고] 자리를 잡지 못했습니다 ({code}). 발행하지 않습니다: {res}")
+    return None
+
+
+def finish(slug, sha, media):
+    body = json.dumps({"published_at": now(), "media_id": media},
+                      ensure_ascii=False, indent=2) + "\n"
+    gh("PUT", f"contents/posts/{slug}/published.json", {
+        "message": f"published: {slug}",
+        "content": base64.b64encode(body.encode()).decode(),
+        "sha": sha,
+    })
+
+
+def give_back(slug, sha):
+    """발행이 실패했으면 자리를 돌려놓는다. 그래야 다시 시도가 먹힌다."""
+    gh("DELETE", f"contents/posts/{slug}/published.json",
+       {"message": f"발행 실패로 표시를 되돌림: {slug}", "sha": sha})
 
 
 def publish(slug):
@@ -89,16 +159,27 @@ def handle(cb):
     if action != "ok":
         return None, RETRY
 
+    # 자리부터 잡는다. 여기서 밀리면 다른 실행이 이미 올리고 있다는 뜻이다.
+    # 내려받아둔 파일을 보는 것으로는 못 막는다 — 그 파일은 이 실행이
+    # 시작할 때의 사진이라, 12초 뒤에 시작한 실행에게는 여전히 비어 있다.
+    sha = claim(slug)
+    if not sha:
+        return f"이미 처리 중이거나 올라간 글입니다: {slug}", DONE
+
     print(f"  {slug}: 발행 시작")
     ok, log = publish(slug)
     print(log)
 
     if not ok:
-        # 단추를 그대로 남긴다. 원인을 고친 뒤 같은 자리에서 다시 누르면 된다.
+        # 자리를 돌려놓아야 고친 뒤 같은 단추를 다시 누를 수 있다.
+        give_back(slug, sha)
         return f"❌ {slug} 발행 실패\n<pre>{log[-600:]}</pre>", RETRY
 
-    with open(os.path.join(post_dir, "published.json"), "w", encoding="utf-8") as f:
-        json.dump({"published_at": now()}, f, ensure_ascii=False, indent=2)
+    media = ""
+    for line in log.splitlines():
+        if "게시물 번호" in line:
+            media = line.split(":")[-1].strip()
+    finish(slug, sha, media)
     return (f"✅ 올라갔습니다: {slug}\n"
             f"https://www.instagram.com/theglassnegative/"), DONE
 

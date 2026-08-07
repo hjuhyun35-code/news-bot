@@ -51,6 +51,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          # 발행 자리를 잡을 때 쓴다. 없으면 두 번 올라갈 수 있다.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/check_approvals.py
 
       # 올렸다는 표시를 남긴다. 이게 있어야 다음 실행이 또 올리지 않는다.
