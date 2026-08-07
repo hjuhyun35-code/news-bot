@@ -59,6 +59,15 @@ VOICES = {
 RATE = "+6%"
 PITCH = "-8Hz"             # 더 낮게 깐다
 
+# 표지는 설명을 읽지 않는다. 짧은 영상은 첫 2초에서 남을지 나갈지가
+# 갈리는데, 표지에서 제목과 설명을 다 읽으면 그 자리에 12초를 쓴다.
+# 제목만 던지고 바로 다음으로 넘어가야 훅이 훅으로 작동한다.
+COVER_HOOK_ONLY = True
+
+# 영상이 그냥 끝나면 본 사람이 아무것도 하지 않는다. 팔 것이 없는
+# 계정이라 파는 말은 넣지 않는다. 팔로우 한 줄이면 족하다.
+CTA = "Follow for more unexplained history."
+
 
 def run(cmd, **kw):
     r = subprocess.run(cmd, capture_output=True, text=True, **kw)
@@ -189,6 +198,8 @@ def main():
                     help="목소리. uk=영국 중저음, us=미국 중저음")
     ap.add_argument("--cards", type=int, default=0,
                     help="릴스에 쓸 카드 수. 0이면 전부")
+    ap.add_argument("--cta", default=CTA,
+                    help="마지막에 덧붙일 한 줄. 빈 값이면 안 넣는다")
     ap.add_argument("--out", default="reel.mp4")
     args = ap.parse_args()
     voice = VOICES[args.voice]
@@ -219,9 +230,11 @@ def main():
         frame = os.path.join(work, f"frame{n}.jpg")
         frame_for(card_png, photo, frame)
 
+        first, last = n == 1, n == len(chosen)
         hold, said = MIN_HOLD, []
         if not args.no_tts:
-            head_text, note_text = spoken(card, not args.headline_only)
+            read_note = not args.headline_only and not (first and COVER_HOOK_ONLY)
+            head_text, note_text = spoken(card, read_note)
 
             head_mp3 = os.path.join(work, f"head{n}.mp3")
             narrate(head_text, head_mp3, voice)
@@ -236,6 +249,13 @@ def main():
                 narrate(note_text, note_mp3, voice)
                 said.append((note_mp3, at))
                 at += duration(note_mp3)
+
+            if last and args.cta:
+                at += GAP
+                cta_mp3 = os.path.join(work, "cta.mp3")
+                narrate(args.cta, cta_mp3, voice)
+                said.append((cta_mp3, at))
+                at += duration(cta_mp3)
 
             hold = min(MAX_HOLD, max(MIN_HOLD, at + TAIL))
         holds.append(hold)
