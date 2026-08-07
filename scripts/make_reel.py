@@ -31,6 +31,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 W, H = 1080, 1920          # 릴스 규격
 CARD_W, CARD_H = 1080, 1350
 
+# 카드를 세로 가운데(285)에 두면 설명글과 출처 줄이 인스타 UI 밑으로
+# 들어간다. 릴스는 아래쪽 400px 남짓을 캡션·계정 이름·단추가 덮는다.
+# 위로 올려 붙여서 그 아래를 비워둔다.
+CARD_TOP = 150
+
 # 처음 만든 것이 71초였다. 내레이션이 카드 문구를 통째로 읽은 탓인데,
 # 그 글은 화면에 이미 떠 있다. 소리로 또 읽으면 길기만 하고 새로 주는
 # 것이 없다. 제목만 읽고 설명은 눈으로 읽게 두면 30초 안팎이 된다.
@@ -66,25 +71,31 @@ def spoken(card, full=False):
     return f"{head} {(card.get('note') or '').strip()}".strip()
 
 
-def frame_for(card_path, out_path):
+def frame_for(card_path, photo_path, out_path):
     """1080x1350 카드를 1080x1920 화면에 앉힌다.
 
-    남는 위아래를 검게 두면 영상이 잘린 사진처럼 보인다. 같은 카드를
-    화면 가득 늘려 흐리게 깔면 색이 이어져서 한 장면으로 읽힌다.
+    배경은 카드가 아니라 그 카드가 쓴 **원본 사진**으로 깐다. 카드를
+    늘려서 깔았더니 카드 아래쪽 검은 글상자가 그대로 늘어나 밋밋한
+    어두운 띠가 됐다. 원본 사진을 쓰면 위아래가 사진의 연장으로 읽힌다.
+
+    카드는 가운데가 아니라 위로 올려 붙인다. 릴스는 화면 아래쪽을
+    인스타가 캡션·계정 이름·단추로 덮는다. 가운데에 두면 설명글과
+    출처 줄이 그 밑으로 들어간다.
     """
     card = Image.open(card_path).convert("RGB")
     if card.size != (CARD_W, CARD_H):
         card = card.resize((CARD_W, CARD_H), Image.LANCZOS)
 
-    # 배경: 화면을 채우도록 늘리고 흐리게, 그리고 어둡게
-    scale = max(W / card.width, H / card.height) * 1.15
-    bg = card.resize((int(card.width * scale), int(card.height * scale)), Image.LANCZOS)
+    source = Image.open(photo_path).convert("RGB") if photo_path else card
+    scale = max(W / source.width, H / source.height) * 1.1
+    bg = source.resize((int(source.width * scale), int(source.height * scale)),
+                       Image.LANCZOS)
     left = (bg.width - W) // 2
     top = (bg.height - H) // 2
-    bg = bg.crop((left, top, left + W, top + H)).filter(ImageFilter.GaussianBlur(38))
-    bg = Image.blend(bg, Image.new("RGB", (W, H), (0, 0, 0)), 0.55)
+    bg = bg.crop((left, top, left + W, top + H)).filter(ImageFilter.GaussianBlur(42))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), (0, 0, 0)), 0.5)
 
-    bg.paste(card, (0, (H - CARD_H) // 2))
+    bg.paste(card, (0, CARD_TOP))
     bg.save(out_path, quality=95)
 
 
@@ -138,8 +149,12 @@ def main():
         if not os.path.exists(card_png):
             sys.exit(f"[실패] 카드 그림이 없습니다: {card['file']}")
 
+        photo = os.path.join(post_dir, "img", card.get("image", ""))
+        if not os.path.exists(photo):
+            photo = None      # 원본이 없으면 카드로 대신한다
+
         frame = os.path.join(work, f"frame{n}.jpg")
-        frame_for(card_png, frame)
+        frame_for(card_png, photo, frame)
 
         hold = MIN_HOLD
         mp3 = None
