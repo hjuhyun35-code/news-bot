@@ -9,10 +9,14 @@ on:
       slug:
         description: "post folder name under posts/"
         required: true
-      tts:
-        description: "no = 내레이션 없이 무음으로"
+      voice:
+        description: "uk / us / both / none"
         required: false
-        default: "yes"
+        default: "both"
+      headline_only:
+        description: "yes = 제목만 읽는다 (25초쯤). no = 설명까지 (70초쯤)"
+        required: false
+        default: "no"
 
 jobs:
   reel:
@@ -30,12 +34,22 @@ jobs:
         run: ffmpeg -version >/dev/null 2>&1 || sudo apt-get install -y ffmpeg
 
       - name: build
+        env:
+          SLUG: ${{ inputs.slug }}
+          VOICE: ${{ inputs.voice }}
+          HEADLINE_ONLY: ${{ inputs.headline_only }}
         run: |
-          if [ "${{ inputs.tts }}" = "no" ]; then
-            python scripts/make_reel.py "${{ inputs.slug }}" --no-tts
-          else
-            python scripts/make_reel.py "${{ inputs.slug }}"
-          fi
+          extra=""
+          [ "$HEADLINE_ONLY" = "yes" ] && extra="--headline-only"
+
+          case "$VOICE" in
+            none) python scripts/make_reel.py "$SLUG" --no-tts ;;
+            both)
+              python scripts/make_reel.py "$SLUG" --voice uk --out reel-uk.mp4 $extra
+              python scripts/make_reel.py "$SLUG" --voice us --out reel-us.mp4 $extra
+              ;;
+            *) python scripts/make_reel.py "$SLUG" --voice "$VOICE" $extra ;;
+          esac
 
       # 영상은 저장소에 넣지 않는다. 하나에 5~15MB라 몇 달이면 저장소가
       # 감당 못 한다. 첨부파일로 내려받아 인스타 앱에서 올린다.
@@ -43,7 +57,7 @@ jobs:
         with:
           name: reel-${{ inputs.slug }}
           path: |
-            posts/${{ inputs.slug }}/reel.mp4
+            posts/${{ inputs.slug }}/reel*.mp4
             posts/${{ inputs.slug }}/reel_cover.jpg
           retention-days: 30
 

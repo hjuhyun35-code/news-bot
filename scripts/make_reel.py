@@ -40,12 +40,24 @@ CARD_TOP = 150
 # 그 글은 화면에 이미 떠 있다. 소리로 또 읽으면 길기만 하고 새로 주는
 # 것이 없다. 제목만 읽고 설명은 눈으로 읽게 두면 30초 안팎이 된다.
 MIN_HOLD = 3.6             # 내레이션이 짧아도 이만큼은 보여준다
-MAX_HOLD = 7.0             # 한 장면이 이보다 길면 넘겨버린다
-TAIL = 0.9                 # 말이 끝난 뒤 여운. 설명을 읽을 틈이기도 하다
+MAX_HOLD = 14.0            # 한 장면이 이보다 길면 넘겨버린다
+GAP = 1.0                  # 제목을 읽고 설명으로 넘어가기 전 여운
+TAIL = 0.9                 # 말이 끝난 뒤 여운
 ZOOM_PER_CLIP = 0.06       # 한 장면에서 6% 천천히 확대
 FPS = 30
-VOICE = "en-GB-RyanNeural"
-RATE = "+8%"               # 기본 속도는 기록물 낭독치고 조금 느리다
+
+# 중저음 남자 목소리. 억양을 바꿔가며 시험할 수 있게 이름을 붙여둔다.
+# 기록 다큐는 영국식이 "진짜배기"로 들리는 관습이 있고, 짧은 영상 피드는
+# 미국식이 압도적이라 영국식이 오히려 눈에 띈다. 어느 쪽이 나은지는
+# 만들어 들어보고 정할 일이다.
+VOICES = {
+    "uk": "en-GB-ThomasNeural",       # 영국 남성, 낮고 차분하다
+    "us": "en-US-ChristopherNeural",  # 미국 남성, 가장 굵다
+    "uk-ryan": "en-GB-RyanNeural",    # 처음 쓰던 목소리. 조금 높다
+    "us-guy": "en-US-GuyNeural",
+}
+RATE = "+6%"
+PITCH = "-8Hz"             # 더 낮게 깐다
 
 
 def run(cmd, **kw):
@@ -56,19 +68,17 @@ def have(prog):
     return shutil.which(prog) is not None
 
 
-def spoken(card, full=False):
-    """카드에서 읽어줄 말. 강조 표시는 소리에 없다.
+def spoken(card, full=True):
+    """카드에서 읽어줄 말을 제목과 설명으로 나눠 돌려준다.
 
-    기본은 제목만이다. 설명까지 읽으면 화면에 있는 글을 그대로 다시
-    읽는 셈이라 길어지기만 한다. 마지막 카드처럼 답이 설명에 있는
-    경우를 위해 --full 을 남겨둔다.
+    한 덩어리로 읽히면 제목이 끝나자마자 설명이 붙어 숨 쉴 틈이 없다.
+    따로 만들어 사이를 벌린다. 강조 표시는 소리에 없다.
     """
     head = card["headline"].replace("<y>", "").replace("</y>", "").strip()
     if head and not head.endswith((".", "?", "!")):
         head += "."
-    if not full:
-        return head
-    return f"{head} {(card.get('note') or '').strip()}".strip()
+    note = (card.get("note") or "").strip() if full else ""
+    return head, note
 
 
 def frame_for(card_path, photo_path, out_path):
@@ -99,9 +109,10 @@ def frame_for(card_path, photo_path, out_path):
     bg.save(out_path, quality=95)
 
 
-def narrate(text, out_mp3):
+def narrate(text, out_mp3, voice):
     """edge-tts 로 읽힌다. 열쇠도 돈도 필요 없다."""
-    run([sys.executable, "-m", "edge_tts", "--voice", VOICE, "--rate", RATE,
+    run([sys.executable, "-m", "edge_tts", "--voice", voice,
+         "--rate", RATE, "--pitch", PITCH,
          "--text", text, "--write-media", out_mp3])
 
 
@@ -128,9 +139,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
     ap.add_argument("--no-tts", action="store_true")
-    ap.add_argument("--full", action="store_true",
-                    help="설명까지 읽는다. 길어진다")
+    ap.add_argument("--headline-only", action="store_true",
+                    help="설명은 읽지 않는다. 25초쯤으로 짧아진다")
+    ap.add_argument("--voice", default="uk", choices=sorted(VOICES),
+                    help="목소리. uk=영국 중저음, us=미국 중저음")
+    ap.add_argument("--out", default="reel.mp4")
     args = ap.parse_args()
+    voice = VOICES[args.voice]
 
     for prog in ("ffmpeg", "ffprobe"):
         if not have(prog):
@@ -156,14 +171,27 @@ def main():
         frame = os.path.join(work, f"frame{n}.jpg")
         frame_for(card_png, photo, frame)
 
-        hold = MIN_HOLD
-        mp3 = None
+        hold, said = MIN_HOLD, []
         if not args.no_tts:
-            mp3 = os.path.join(work, f"voice{n}.mp3")
-            narrate(spoken(card, args.full), mp3)
-            hold = min(MAX_HOLD, max(MIN_HOLD, duration(mp3) + TAIL))
+            head_text, note_text = spoken(card, not args.headline_only)
+
+            head_mp3 = os.path.join(work, f"head{n}.mp3")
+            narrate(head_text, head_mp3, voice)
+            said.append((head_mp3, 0.0))
+            at = duration(head_mp3)
+
+            if note_text:
+                # 제목이 끝나고 한 박자 쉰다. 붙여 읽으면 숨 쉴 틈이 없고,
+                # 화면의 제목을 눈으로 따라잡을 시간도 없다.
+                at += GAP
+                note_mp3 = os.path.join(work, f"note{n}.mp3")
+                narrate(note_text, note_mp3, voice)
+                said.append((note_mp3, at))
+                at += duration(note_mp3)
+
+            hold = min(MAX_HOLD, max(MIN_HOLD, at + TAIL))
         holds.append(hold)
-        voices.append(mp3)
+        voices.append(said)
 
         out = os.path.join(work, f"clip{n}.mp4")
         clip(frame, hold, out)
@@ -179,19 +207,22 @@ def main():
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", listing,
          "-c", "copy", silent])
 
-    out_mp4 = os.path.join(post_dir, "reel.mp4")
+    out_mp4 = os.path.join(post_dir, args.out)
     if args.no_tts:
         shutil.move(silent, out_mp4)
     else:
-        # 내레이션을 장면 시작 시각에 하나씩 얹는다. 이어붙이면 화면과
+        # 소리 토막마다 절대 시각을 계산해 얹는다. 이어붙이면 화면과
         # 조금씩 어긋나서 뒤로 갈수록 말이 늦는다.
-        inputs, filters, at = ["-i", silent], [], 0.0
-        for i, (mp3, hold) in enumerate(zip(voices, holds)):
-            inputs += ["-i", mp3]
-            filters.append(f"[{i + 1}:a]adelay={int(at * 1000)}|{int(at * 1000)}[a{i}]")
-            at += hold
-        mix = "".join(f"[a{i}]" for i in range(len(voices)))
-        filters.append(f"{mix}amix=inputs={len(voices)}:normalize=0[out]")
+        inputs, filters, labels, scene_at, k = ["-i", silent], [], [], 0.0, 0
+        for said, hold in zip(voices, holds):
+            for mp3, offset in said:
+                ms = int((scene_at + offset) * 1000)
+                inputs += ["-i", mp3]
+                k += 1
+                filters.append(f"[{k}:a]adelay={ms}|{ms}[a{k}]")
+                labels.append(f"[a{k}]")
+            scene_at += hold
+        filters.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0[out]")
         run(["ffmpeg", "-y"] + inputs +
             ["-filter_complex", ";".join(filters),
              "-map", "0:v", "-map", "[out]",
