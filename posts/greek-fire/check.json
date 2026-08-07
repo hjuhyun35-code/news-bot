@@ -1,0 +1,179 @@
+{
+  "claims": [
+    {
+      "claim": "Greek fire was a Byzantine weapon that burned on water",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "Its ability to burn on water made it an effective and destructive naval incendiary weapon, and rival powers tried unsuccessfully to copy the material."
+    },
+    {
+      "claim": "The Madrid Skylitzes image shows Greek fire sprayed from a tube onto rebel ships",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Image from an illuminated manuscript, the  Madrid Skylitzes , showing  Greek fire  in use against the fleet of the rebel  Thomas the Slav ."
+    },
+    {
+      "claim": "The recipe for Greek fire was a state secret and is lost",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The recipe for Greek fire was a closely-guarded state secret and has been lost to history."
+    },
+    {
+      "claim": "The Madrid Skylitzes image dates to the 12th century and is public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 12 th  century date QS:P,+1150-00-00T00:00:00Z/7 ... Licence: Public domain"
+    },
+    {
+      "claim": "There was a handheld version of the Greek fire projector, the cheirosiphōn",
+      "where": "card 2 headline/note",
+      "verdict": "supported",
+      "quote": "Portable projectors (cheirosiphōnes, χειροσίφωνες) were also invented, reputedly by Emperor Leo VI."
+    },
+    {
+      "claim": "The cheirosiphōn was the earliest analogue to a modern flamethrower",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The portable cheirosiphōn (\"hand-siphōn\"), the earliest analogue to a modern flamethrower, is extensively attested in the military documents of the 10th century, and recommended for use in both sea and land."
+    },
+    {
+      "claim": "Emperor Leo VI claimed he invented the cheirosiphōn",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "They first appear in the Tactica of Emperor Leo VI the Wise, who claims to have invented them."
+    },
+    {
+      "claim": "The hand-siphon illumination comes from Codex Vaticanus Graecus 1605 and is public domain",
+      "where": "card 2 / card 6 source",
+      "verdict": "supported",
+      "quote": "Use of a hand-siphon, a portable flame-thrower, from a siege tower equipped with a boarding bridge against the defenders on the walls. Medieval illumination in the manuscript Codex Vaticanus Graecus 1605."
+    },
+    {
+      "claim": "The image shows a man operating a hand-held tube projecting fire from a raised siege platform",
+      "where": "handsiphonsiegetower.jpg / handsiphondetail.jpg (visible in image)",
+      "verdict": "supported",
+      "quote": "Use of a hand-siphon, a portable flame-thrower, from a siege tower. Detail from the medieval manuscript Codex Vaticanus Graecus 1605."
+    },
+    {
+      "claim": "Only sand, strong vinegar or old urine could extinguish Greek fire",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "Numerous writers testify that it could be extinguished only by a few substances, such as sand, strong vinegar, or old urine, some presumably by a sort of chemical reaction."
+    },
+    {
+      "claim": "Water did not stop it, and some sources suggest water intensified the flames",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "A second view, based on the fact that Greek fire was inextinguishable by water (some sources suggest that water intensified the flames), held that its destructive power resulted from the explosive reaction between water and quicklime."
+    },
+    {
+      "claim": "The diagram image comes from Revue des études grecques, 1890, and is public domain",
+      "where": "card 3 source / caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Revue des études grecques, Tome 3, 1890 (page 320 crop).jpg ... Licence: Public domain"
+    },
+    {
+      "claim": "The 1890 image is a French diagram of a siphōn",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Revue des études grecques, Tome 3, 1890 (page 320 crop).jpg"
+    },
+    {
+      "claim": "The pottery pot is a fire bomb from Iran dated 1200–1300 CE, loaded with Greek fire",
+      "where": "card 4",
+      "verdict": "supported",
+      "quote": "The device is dated 1200 - 1300 CE and said to have been loaded with 'Greek fire' and hurled at the enemy with  a catapult."
+    },
+    {
+      "claim": "The pot survived because it was a dud or because the war was over",
+      "where": "card 4 headline/note",
+      "verdict": "supported",
+      "quote": "The fact it survived means it was either a dud or the war was over."
+    },
+    {
+      "claim": "The pottery fire bomb photograph was taken by Hnapel",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Author: Hnapel"
+    },
+    {
+      "claim": "The Bulgarians captured 36 siphōns and quantities of the substance itself in 814 and were unable to use them",
+      "where": "card 5 / caption",
+      "verdict": "supported",
+      "quote": "This accounts for the fact that when the Bulgarians took Mesembria and Debeltos in 814, they captured 36 siphōns and even quantities of the substance itself, but were unable to make any use of them."
+    },
+    {
+      "claim": "Knowledge of the weapon was compartmentalised so operators and technicians each knew only one component",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Knowledge of the whole system was highly compartmentalised, with operators and technicians aware of the secrets of only one component, ensuring that no enemy could gain knowledge of it in its entirety."
+    },
+    {
+      "claim": "The catapult engraving is an 1869 Harper's engraving of a Greek fire catapult",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Greek Fire Catapult (Harper's Engraving).png Description: Engraving of thirteenth-century  catapult  for throwing  Greek fire . Date: 1869"
+    },
+    {
+      "claim": "Most modern scholars think Greek fire was petroleum-based with resins, comparable to napalm",
+      "where": "card 6 / caption",
+      "verdict": "supported",
+      "quote": "Most modern scholars agree that Greek fire was based on either crude or refined petroleum, comparable to modern napalm."
+    },
+    {
+      "claim": "Saltpeter and quicklime were proposed as ingredients and rejected",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Consequently, although the presence of either quicklime or saltpeter in the mixture cannot be entirely excluded, they were not the primary ingredient."
+    },
+    {
+      "claim": "A 2002 reconstruction reached over 1,000°C and an effective range of 15 metres",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "The experiment used crude oil mixed with wood resins; it achieved a flame temperature of over 1,000 °C (1,830 °F) and an effective range of up to 15 meters (49 ft)."
+    },
+    {
+      "claim": "The 2002 reconstruction was conducted by John Haldon",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the experiments conducted by Haldon in 2002 for the episode \"Fireship\" of the television series Machines Times Forgot, even modern welding techniques failed to secure adequate insulation of the bronze tank under pressure."
+    },
+    {
+      "claim": "The Byzantine Empire used Greek fire from the seventh to the fourteenth centuries",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Greek fire was an incendiary weapon used by the Byzantine Empire from the seventh to the fourteenth centuries."
+    },
+    {
+      "claim": "Greek fire was sprayed from a tube called a siphōn mounted on the prow of warships",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Byzantine dromons usually had a siphōn installed on their prow under the forecastle, but additional devices could also be placed elsewhere on the ship."
+    },
+    {
+      "claim": "Greek fire was also thrown in earthenware pots",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At sea, it was usually ejected from a siphōn, but earthenware pots or grenades filled with it – or similar substances – were also used."
+    },
+    {
+      "claim": "Anna Komnene describes Emperor Alexios I fitting gilded lion heads over the tubes so the beasts appeared to vomit fire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "And the fire which was to be directed against the enemy through tubes he made to pass through the mouths of the beasts, so that it seemed as if the lions and the other similar monsters were vomiting the fire."
+    },
+    {
+      "claim": "Constantine Porphyrogennetos told his son never to reveal the formula, saying it had been shown to Constantine by an angel",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Emperor Constantine Porphyrogennetos (r. 945–959), in his book De Administrando Imperio, admonishes his son and heir, Romanos II (r. 959–963), never to reveal the secrets of its composition, as it was \"shown and revealed by an angel to the great and holy first Christian emperor Constantine\""
+    },
+    {
+      "claim": "An official who sold some of the substance was struck down by a flame from heaven",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "As a warning, he adds that one official, who was bribed into handing some of it over to the Empire's enemies, was struck down by a \"flame from heaven\" as he was about to enter a church."
+    }
+  ],
+  "problems": 0
+}

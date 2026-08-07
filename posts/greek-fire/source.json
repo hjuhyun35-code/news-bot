@@ -27,5 +27,12 @@
       "file": "siphondiagram.jpg",
       "commons": "File:Revue des études grecques, Tome 3, 1890 (page 320 crop).jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "siphonship.jpg",
+    "crop": "46% 55%",
+    "zoom": 1.05,
+    "fit": "crop",
+    "grade": "deep"
+  }
 }

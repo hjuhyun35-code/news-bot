@@ -1,0 +1,41 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "눈이 먼저 간 건 오른쪽으로 뻗어나가는 붉은 불줄기였다. 화염이 배 밖으로 쏟아지는 방향이 딱 보여서 '어? 저거 옛날 그림인데 불 뿜고 있네'가 0.5초 만에 읽혔다. 게다가 앞에 있는 얼굴 네 개가 정면으로 이쪽을 쳐다보는데 표정이 묘하게 웃겨서 한 번 더 봤다. B는 색이 세피아 한 톤이라 멀리서 보면 그냥 갈색 얼룩이고, 인물 하나가 뭘 들고 있는지 확대해야 알 수 있다. C는 회색 돌덩어리 클로즈업이라 박물관 캡션 같고 스크롤에서 완전히 죽는다. A는 최소한 '사람 + 불'이라는 그림이 축소된 피드에서도 살아남는다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "엄지가 멈춘 지점은 A의 가운데였다. 처음엔 위쪽 그리스어 필사본 글씨가 눈에 들어왔고, 그 다음 곧바로 시선이 왼쪽 배 위 네 명의 얼굴로 내려갔다. 그 얼굴들이 정면으로 이쪽을 보고 있어서 눈이 잡힌다. 그리고 뻗은 팔 끝의 관에서 오른쪽으로 뿜어져 나가는 붉은 갈래들이 시선을 화면 밖 오른쪽으로 끌고 갔다 — 즉 그림 안에 방향이 있고 사건이 벌어지고 있다. 사람 + 동작 + 표적, 세 가지가 한 프레임에 다 있는 건 A뿐이다. B도 같은 계열의 세밀화지만 세피아 한 톤으로 눌려 있어서 인물과 배경이 뭉개지고, 손에 든 물건이 관인지 자루인지 두 번 봐야 구분된다. C는 사진 자체는 제일 선명하고 표면 질감도 좋은데, 결국 유리장 안 항아리 한 점이라 정지해 있다. 회색 톤도 피드에서 뒤로 물러난다. 참고로 A는 마드리드 스킬리체스 사본으로 보이는데, 이런 필사본 이미지는 소장처 표기를 넣어주는 게 맞다.",
+      "stops_scroll": true,
+      "unreadable": [],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "siphonship.jpg",
+    "crop": "46% 55%",
+    "zoom": 1.05,
+    "fit": "crop",
+    "grade": "deep",
+    "hook": "One ship. One nozzle. A fire water couldn't stop.",
+    "why": "The only image where the weapon is unmistakable at thumbnail size: a man aiming a tube and a fan of orange flame striking a boatload of men. Crop pushed left of centre so the siphon operator, the jet and the burning enemy hull all stay in frame; the Greek marginal text at the top is cut away."
+  }
+}

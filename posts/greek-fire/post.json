@@ -1,0 +1,86 @@
+{
+  "caption": "What was Greek fire made of? Nobody knows — the recipe is lost.\n\nThe Byzantine Empire used the incendiary weapon from the seventh to the fourteenth centuries. It burned on water. Sources say only sand, strong vinegar or old urine could put it out.\n\nIt was sprayed from a tube called a siphōn, mounted on the prow of warships, and also thrown in earthenware pots. Anna Komnene describes Emperor Alexios I fitting gilded lion heads over the tubes so the beasts appeared to vomit fire.\n\nThe secret held because the knowledge was broken into pieces. Operators and technicians each knew one component. When the Bulgarians captured 36 siphōns and quantities of the substance itself in 814, they could not make it work.\n\nEmperor Constantine Porphyrogennetos told his son never to reveal the formula, saying it had been shown to Constantine by an angel — and that an official who sold some was struck down by a flame from heaven.\n\nWhat is still open: the composition. Saltpeter and quicklime have both been proposed and largely rejected. Most modern scholars think it was petroleum with resins added, comparable to napalm. A 2002 reconstruction by John Haldon burned at over 1,000°C with a range of 15 metres. Nobody can prove that is what the Byzantines poured.\n\nImages: the Madrid Skylitzes, 12th century; hand-siphon illuminations from Codex Vaticanus Graecus 1605; a pottery fire bomb from Iran, 1200–1300 CE, photographed by Hnapel; an 1869 Harper's engraving; and an 1890 French diagram of a siphōn.\n\n#greekfire #byzantine #lostinventions #medievalhistory #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "siphonship.jpg",
+      "crop": "46% 55%",
+      "zoom": 1.05,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "A Byzantine weapon that <y>burned on water</y>",
+      "note": "Greek fire, sprayed from a tube onto rebel ships. The recipe was a state secret and is lost.",
+      "source": "Madrid Skylitzes, 12th century · public domain",
+      "alt": "Manuscript painting of a ship spraying fire from a tube onto another crewed boat.,},,,,,",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "handsiphonsiegetower.jpg",
+      "crop": "32% 30%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "There was a <y>handheld version</y>",
+      "note": "The cheirosiphōn, the earliest analogue to a flamethrower. Emperor Leo VI claimed he invented it.",
+      "source": "Codex Vaticanus Graecus 1605 · public domain",
+      "alt": "Illumination of a man on a siege bridge aiming a small tube that emits flame.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "siphondiagram.jpg",
+      "crop": "70% 50%",
+      "zoom": 1.5,
+      "fit": "whole",
+      "grade": "ink",
+      "headline": "Only <y>sand, vinegar or old urine</y> put it out",
+      "note": "Water did not stop it. Some sources suggest water intensified the flames.",
+      "source": "Revue des études grecques, 1890 · public domain",
+      "alt": "Line diagram of a wheeled tube projecting flame through a brick fortification wall.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "firebombpot.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "This pot <y>survived because it failed</y>",
+      "note": "A fire bomb from Iran, 1200–1300 CE, loaded with Greek fire. Intact means a dud, or a war that ended.",
+      "source": "Pottery fire bomb, Iran, 1200–1300 CE · photo Hnapel",
+      "alt": "Round studded ceramic bomb with a short spout, displayed on a grey museum plinth.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "catapultengraving.jpg",
+      "crop": "40% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Enemies <y>captured 36 siphōns</y> and still failed",
+      "note": "The Bulgarians took the tubes and the substance in 814. Knowledge was split so no one held all of it.",
+      "source": "Greek fire catapult, Harper's engraving, 1869",
+      "alt": "Engraved siege catapult beside a castle wall, flaming barrel arcing through the sky.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "handsiphondetail.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Best guess: <y>petroleum and resin</y>, like napalm",
+      "note": "Saltpeter and quicklime were proposed and rejected. A 2002 rebuild hit 1,000°C at 15 metres.",
+      "source": "Codex Vaticanus Graecus 1605, detail · public domain",
+      "alt": "Close detail of a red-robed figure holding a small tube shooting thin flames.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "greek-fire",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
