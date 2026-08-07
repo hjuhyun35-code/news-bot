@@ -1,0 +1,56 @@
+name: make reel
+
+# 이미 만들어둔 카드로 릴스용 세로 영상을 만든다. 인스타에 올리지는
+# 않는다 — 음원은 사장님이 앱에서 올리실 때 직접 고르셔야 하고,
+# 인스타는 이미 올라간 릴스의 음원을 바꿔주지 않는다.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "post folder name under posts/"
+        required: true
+      tts:
+        description: "no = 내레이션 없이 무음으로"
+        required: false
+        default: "yes"
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pillow edge-tts
+
+      - name: make sure ffmpeg is here
+        run: ffmpeg -version >/dev/null 2>&1 || sudo apt-get install -y ffmpeg
+
+      - name: build
+        run: |
+          if [ "${{ inputs.tts }}" = "no" ]; then
+            python scripts/make_reel.py "${{ inputs.slug }}" --no-tts
+          else
+            python scripts/make_reel.py "${{ inputs.slug }}"
+          fi
+
+      # 영상은 저장소에 넣지 않는다. 하나에 5~15MB라 몇 달이면 저장소가
+      # 감당 못 한다. 첨부파일로 내려받아 인스타 앱에서 올린다.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ inputs.slug }}
+          path: posts/${{ inputs.slug }}/reel.mp4
+          retention-days: 30
+
+      - name: tell telegram
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/notify.py "릴스 영상을 만들었습니다: ${{ inputs.slug }}
+          내려받기: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          앱에서 올리실 때 음원을 고르시면 됩니다."
