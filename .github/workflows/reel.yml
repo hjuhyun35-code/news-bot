@@ -14,9 +14,13 @@ on:
         required: false
         default: "both"
       headline_only:
-        description: "yes = 제목만 읽는다 (25초쯤). no = 설명까지 (70초쯤)"
+        description: "yes = 제목만 읽는다. no = 설명까지"
         required: false
         default: "no"
+      cards:
+        description: "릴스에 쓸 카드 수. 0이면 전부. 압축은 4"
+        required: false
+        default: "4"
 
 jobs:
   reel:
@@ -38,12 +42,13 @@ jobs:
           SLUG: ${{ inputs.slug }}
           VOICE: ${{ inputs.voice }}
           HEADLINE_ONLY: ${{ inputs.headline_only }}
+          CARDS: ${{ inputs.cards }}
         run: |
-          extra=""
-          [ "$HEADLINE_ONLY" = "yes" ] && extra="--headline-only"
+          extra="--cards ${CARDS:-0}"
+          [ "$HEADLINE_ONLY" = "yes" ] && extra="$extra --headline-only"
 
           case "$VOICE" in
-            none) python scripts/make_reel.py "$SLUG" --no-tts ;;
+            none) python scripts/make_reel.py "$SLUG" --no-tts $extra ;;
             both)
               python scripts/make_reel.py "$SLUG" --voice uk --out reel-uk.mp4 $extra
               python scripts/make_reel.py "$SLUG" --voice us --out reel-us.mp4 $extra

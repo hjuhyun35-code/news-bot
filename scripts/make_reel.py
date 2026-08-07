@@ -74,6 +74,40 @@ def have(prog):
     return shutil.which(prog) is not None
 
 
+def shortlist(post_dir, cards, want):
+    """릴스에 쓸 카드만 고른다. 표지와 마무리는 반드시 남긴다.
+
+    무엇을 뺄지는 독자들이 이미 답해뒀다. readers.json 에 각자 꼽은
+    '가장 약한 카드' 번호가 있다. 표를 많이 받은 순서로 뺀다. 반응이
+    없으면 뒤에서부터 뺀다 — 대본은 앞쪽에 센 것을 놓게 쓰여 있다.
+
+    표지를 빼면 독자 투표로 정한 표지가 무의미해지고, 마무리를 빼면
+    표지가 던진 질문에 답이 없는 영상이 된다. 그래서 둘은 건드리지 않는다.
+    """
+    if want <= 0 or want >= len(cards):
+        return list(range(len(cards)))
+
+    keep = {0, len(cards) - 1}
+    middle = [i for i in range(len(cards)) if i not in keep]
+
+    votes = {}
+    path = os.path.join(post_dir, "readers.json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for r in json.load(f).get("readers", []):
+                n = r.get("weakest_card")
+                if isinstance(n, int) and 1 <= n <= len(cards):
+                    votes[n - 1] = votes.get(n - 1, 0) + 1
+
+    # 약하다는 표를 많이 받은 것부터, 같으면 뒤쪽부터 뺀다
+    middle.sort(key=lambda i: (-votes.get(i, 0), -i))
+    dropped = middle[:len(cards) - want]
+    if dropped:
+        print("  뺀 카드: " + ", ".join(
+            f"{i + 1}번({votes.get(i, 0)}표)" for i in sorted(dropped)))
+    return sorted(set(range(len(cards))) - set(dropped))
+
+
 def spoken(card, full=True):
     """카드에서 읽어줄 말을 제목과 설명으로 나눠 돌려준다.
 
@@ -153,6 +187,8 @@ def main():
                     help="설명은 읽지 않는다. 25초쯤으로 짧아진다")
     ap.add_argument("--voice", default="uk", choices=sorted(VOICES),
                     help="목소리. uk=영국 중저음, us=미국 중저음")
+    ap.add_argument("--cards", type=int, default=0,
+                    help="릴스에 쓸 카드 수. 0이면 전부")
     ap.add_argument("--out", default="reel.mp4")
     args = ap.parse_args()
     voice = VOICES[args.voice]
@@ -168,8 +204,10 @@ def main():
     work = os.path.join(post_dir, "reel_work")
     os.makedirs(work, exist_ok=True)
 
+    chosen = shortlist(post_dir, post["cards"], args.cards)
     clips, voices, holds = [], [], []
-    for n, card in enumerate(post["cards"], 1):
+    for n, idx in enumerate(chosen, 1):
+        card = post["cards"][idx]
         card_png = os.path.join(post_dir, card["file"])
         if not os.path.exists(card_png):
             sys.exit(f"[실패] 카드 그림이 없습니다: {card['file']}")
@@ -206,7 +244,7 @@ def main():
         out = os.path.join(work, f"clip{n}.mp4")
         clip(frame, hold, out)
         clips.append(out)
-        print(f"  카드 {n}: {hold:.1f}초")
+        print(f"  카드 {idx + 1}: {hold:.1f}초")
 
     listing = os.path.join(work, "clips.txt")
     with open(listing, "w", encoding="utf-8") as f:
