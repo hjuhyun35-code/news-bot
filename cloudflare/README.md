@@ -28,12 +28,16 @@ https://github.com/settings/personal-access-tokens/new
 - **Token name**: `cloudflare-telegram`
 - **Expiration**: 원하는 만큼 (1년 권장)
 - **Repository access** → *Only select repositories* → `hjuhyun35-code/news-bot`
-- **Permissions** → *Repository permissions* 에서 딱 두 개만:
-  - `Contents` → **Read-only**
-  - `Actions` → **Read and write**
+- **Permissions** → *Repository permissions* 에서 딱 하나:
+  - `Contents` → **Read and write**
 
-다른 권한은 주지 마세요. 이 토큰이 새어나가도 저장소 하나의 실행 말고는
-할 수 있는 게 없어야 합니다.
+다른 권한은 주지 마세요. 이 토큰이 새어나가도 저장소 하나 말고는 할 수
+있는 게 없어야 합니다.
+
+> `Contents` 가 **쓰기**여야 하는 게 헷갈리는 지점입니다. 워커가 부르는 것은
+> `repository_dispatch` 인데, 이름과 달리 `Actions` 권한이 아니라 `Contents`
+> 쓰기 권한을 요구합니다. 2026-08-06 에 `Contents: Read-only` 로 만들었다가
+> `403 Resource not accessible by personal access token` 을 받았습니다.
 
 만든 뒤 나오는 `github_pat_...` 값을 복사해둡니다. **한 번만 보여줍니다.**
 

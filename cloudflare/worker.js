@@ -10,7 +10,10 @@
 //
 // 필요한 비밀값
 //   GITHUB_TOKEN     (필수) 저장소 하나에만 쓰는 fine-grained 토큰,
-//                    Contents 읽기 + Actions 쓰기. 다른 권한은 주지 말 것.
+//                    Contents 읽기·쓰기. 다른 권한은 주지 말 것.
+//                    repository_dispatch 는 이름과 달리 Actions 가 아니라
+//                    Contents 쓰기를 요구한다. 읽기 전용으로 만들었다가
+//                    403 Resource not accessible 을 받았다.
 //   TELEGRAM_SECRET  (필수) 텔레그램에게 웹훅을 걸 때 같이 준 값. 이게
 //                    있어야 아무나 이 주소로 가짜 소식을 밀어넣지 못한다.
 //   ALLOWED_CHAT_ID  (선택) 텔레그램 대화 번호. 넣으면 그 대화만 통과시킨다.
