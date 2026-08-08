@@ -27,5 +27,12 @@
       "file": "sandys1615engraving.png",
       "commons": "File:George Sandys, 1615.png"
     }
-  ]
+  ],
+  "cover": {
+    "image": "sphinxburiedinsand.jpg",
+    "crop": "46% 55%",
+    "zoom": 1.0,
+    "fit": "whole",
+    "grade": "paper"
+  }
 }

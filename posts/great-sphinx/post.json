@@ -1,0 +1,87 @@
+{
+  "caption": "Who built the Great Sphinx of Giza, and who broke its nose?\n\nNeither question has a documented answer. Archaeological evidence puts the Sphinx in the Old Kingdom, in the reign of Khufu (c.2590–2566 BC) or his son Khafre (c.2558–2532 BC); scholars have also argued for Djedefre. Selim Hassan, who excavated the enclosure, wrote in 1949 that there is not one single contemporary inscription connecting the Sphinx with Khafre. The name its makers gave it is unknown. \"Sphinx\" is Greek, applied around 2,000 years later.\n\nThe nose was not lost to Napoleon's cannon. Frederic Louis Norden drew the Sphinx noseless in 1737, over 60 years before the French arrived. The face carries marks of long rods or chisels — one at the bridge of the nose, one below the nostril — and the nose was then pried off. Writing in the early 15th century, al-Maqrizi blamed a Sufi, Muhammad Sa'im al-Dahr, who in 1378 saw local peasants making offerings to the statue.\n\nSand buried it again and again. Thutmose IV dug out the front paws around 1400 BC and set an inscribed granite slab between them; its text was already damaged when found, and the lines reading \"Khaf\" flaked off and were destroyed before 1925.\n\nStill open: who the face portrays, exactly when it was carved, and whose hand took the nose.\n\nImages: Maison Bonfils, Egypt; Carl Richard Lepsius, 1849; George Sandys, 1615; Abdullah Frères and Zangaki, 1890s; Delie & Béchard, 1871; modern view by lumoplank.\n\n#greatsphinx #giza #archivephotography #publicdomain #unexplainedhistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "sphinxburiedinsand.jpg",
+      "crop": "46% 55%",
+      "zoom": 1.0,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "<y>No inscription</y> names who built the Sphinx",
+      "note": "Archaeology points to the reign of Khufu or Khafre, c.2600–2500 BC. No contemporary text names a builder.",
+      "source": "Maison Bonfils, Egypt, c.1867–1899 · public domain",
+      "alt": "Sphinx half buried in sand, two pyramids behind, tiny figures and a camel below.-a person",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "headandmissingnose.jpg",
+      "crop": "68% 34%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "stamp": "1378?",
+      "headline": "Chisel marks show the nose was <y>pried off by hand</y>",
+      "note": "Norden drew it noseless in 1737, decades before Napoleon. Al-Maqrizi blamed a Sufi iconoclast in 1378.",
+      "source": "Photograph by lumoplank · CC0",
+      "alt": "Close view of the Sphinx's weathered face in profile, nose missing, pyramid behind.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "sandys1615engraving.png",
+      "crop": "10% 55%",
+      "zoom": 1.0,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "For 300 years Europeans drew it with <y>a woman's face</y>",
+      "note": "George Sandys, 1615, called the Sphinx a harlot. Others gave it curly hair, a dog collar, a hairnet.",
+      "source": "George Sandys, A Relation of a Journey, 1615",
+      "alt": "Engraving of the Sphinx head at left, pyramids behind, riders on mules in foreground.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "dreamstele.jpg",
+      "crop": "45% 52%",
+      "zoom": 2.2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The line naming the builder <y>flaked off and vanished</y>",
+      "note": "Thutmose IV set this stele between the paws c.1400 BC. Its \"Khaf\" lines were destroyed before 1925.",
+      "source": "Carl Richard Lepsius, 1849 · public domain",
+      "alt": "Lithograph of dense rows of hieroglyphs from a stele, two sphinxes carved above.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "excavationbetweenpaw.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The space between the paws is <y>thirty-five feet long</y>",
+      "note": "Caviglia uncovered the chest in 1817. By 1887 the paws, altar and flights of steps were clear of sand.",
+      "source": "Abdullah Frères and Zangaki, 1890s · public domain",
+      "alt": "Sphinx above an excavated pit, men in robes standing on stone walls between its paws.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "visitors1871.jpg",
+      "crop": "30% 55%",
+      "zoom": 1.0,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "Answer: <y>Khufu or Khafre</y>, on evidence alone",
+      "note": "No inscription proves it, and the original Egyptian name is lost. Who took the nose is still unproven.",
+      "source": "M. Delie & E. Béchard, Egypt, 1871 · public domain",
+      "alt": "Seated visitors and standing guides posed on sand before the Sphinx head and a pyramid.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "great-sphinx",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

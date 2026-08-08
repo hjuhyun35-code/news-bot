@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 스크롤 중에 실루엣이 바로 읽혔다. 스핑크스 머리만 모래 위로 툭 튀어나와 있고 그 뒤로 피라미드 두 개가 좌우로 딱 대칭. 눈이 먼저 얼굴로 갔다가 목 아래가 모래에 묻혀 있는 게 보이면서 '이게 원래 이랬어?' 하고 걸린다. 게다가 밑에 사람 두세 명, 낙타 한 마리가 진짜 조그맣게 있어서 크기 체감이 확 온다. 세피아 톤도 옛날 사진 느낌 나서 진짜 자료 같아 보임. B는 확대가 너무 심해서 첫 0.5초에 그냥 바위 덩어리, 무슨 절벽인지 뭔지 모르겠고 얼굴이라는 걸 늦게 알아챘다. C는 후처리를 너무 세게 해서 하얗게 날아가고 점박이 노이즈처럼 보여서 오히려 싸구려 합성 같음. 앉아 있는 사람들은 재밌는데 사진 자체가 지저분해서 눈이 미끄러진다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A에서 눈이 먼저 간 건 스핑크스 목 아래로 모래가 파도처럼 덮여 있는 지점이었다. 머리만 솟아 있고 몸통 자리가 그냥 사막인 게 한눈에 보이고, 그 아래 낙타와 사람 두어 명이 개미만 하게 서 있어서 크기가 즉시 체감된다. 좌우 피라미드 두 개가 삼각형으로 프레임을 잡아주니 구도가 정리돼 있고, 세피아 톤에 하늘까지 균일해서 지저분하지 않다. 사진 자체가 '이건 옛날에 진짜 이렇게 묻혀 있었다'는 증거처럼 보인다. C는 관광객들이 의자 놓고 앉아 있는 장면이 내용상 더 재미있는데, 이미지가 과하게 대비를 올려서 얼굴들이 다 하얗게 날아가고 스핑크스 머리는 노이즈 덩어리가 됐다. 파란 톤 처리도 원본 사진을 만져놓은 티가 심해서, 나 같은 사람은 사진 출처가 어디인지 먼저 묻게 된다. B는 크롭이 너무 붙어서 처음 2초간 뭘 보는지 모르겠다 — 그냥 갈색 바위 덩어리다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "B",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "sphinxburiedinsand.jpg",
+    "crop": "46% 55%",
+    "zoom": 1.0,
+    "fit": "whole",
+    "grade": "paper",
+    "hook": "Buried to the neck, and nobody knows who carved it",
+    "why": "The clearest single frame of the whole subject: head, shoulders, sand line and both pyramids read instantly at thumbnail size. The photograph is wider than tall and the Sphinx spans it end to end, so cropping would amputate the body and the pyramids that give it scale — 'whole' keeps the entire silhouette legible. Paper grade holds the warm albumen tone without crushing the sand."
+  }
+}
