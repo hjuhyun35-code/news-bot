@@ -1,0 +1,31 @@
+{
+  "subject": "The Great Sphinx of Giza, whose builder, date, and missing nose are all unrecorded",
+  "wikipedia": "Great Sphinx of Giza",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "sphinxburiedinsand.jpg",
+      "commons": "File:Sphinx partially excavated2.jpg"
+    },
+    {
+      "file": "headandmissingnose.jpg",
+      "commons": "File:Giza, Dahshur and Saqqara - Giza8278.jpg"
+    },
+    {
+      "file": "dreamstele.jpg",
+      "commons": "File:Giseh Traumstele (Lepsius) 01.jpg"
+    },
+    {
+      "file": "excavationbetweenpaw.jpg",
+      "commons": "File:Album de 132 phot. de Turquie et d'Égypte de la fin du XIXe siècle - Abdullah frères, Zangaki et autres phot. - btv1b53082984w (083 of 131).jpg"
+    },
+    {
+      "file": "visitors1871.jpg",
+      "commons": "File:Pedro II of Brazil in Egypt 1871.jpg"
+    },
+    {
+      "file": "sandys1615engraving.png",
+      "commons": "File:George Sandys, 1615.png"
+    }
+  ]
+}
