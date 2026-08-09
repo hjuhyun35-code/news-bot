@@ -231,6 +231,188 @@
       "wikipedia": "Moai",
       "hook": "수십 톤 석상이 채석장에서 해안까지 갔다",
       "screened": "2026-08-06 · 사진 6장 (여유 없음)"
+    },
+    {
+      "slug": "sea-serpent",
+      "subject": "Sea serpent sightings, including the 1848 report signed by the officers of HMS Daedalus",
+      "wikipedia": "Sea serpent",
+      "hook": "군함 장교들이 전원 서명한 목격 보고서가 있다",
+      "screened": "2026-08-09 · 사진 61장"
+    },
+    {
+      "slug": "abu-simbel",
+      "subject": "Abu Simbel, cut into a cliff so the sun reaches the inner sanctuary twice a year",
+      "wikipedia": "Abu Simbel temples",
+      "hook": "1년에 두 번, 해가 안쪽 끝 신상까지 들어온다",
+      "screened": "2026-08-09 · 사진 51장"
+    },
+    {
+      "slug": "mars-canals",
+      "subject": "The Martian canals, mapped in detail by astronomers for thirty years before they vanished",
+      "wikipedia": "Martian canal",
+      "hook": "천문학자들이 화성 운하를 30년간 지도로 그렸다",
+      "screened": "2026-08-09 · 사진 48장"
+    },
+    {
+      "slug": "giant-squid",
+      "subject": "The giant squid, a creature dismissed as sailors' invention until one washed ashore",
+      "wikipedia": "Giant squid",
+      "hook": "선원들의 거짓말이라던 것이 해변에 밀려왔다",
+      "screened": "2026-08-09 · 사진 39장"
+    },
+    {
+      "slug": "persepolis",
+      "subject": "Persepolis, burned in 330 BC, and the sources that cannot agree on why",
+      "wikipedia": "Persepolis",
+      "hook": "누가 왜 불을 질렀는지 기록이 엇갈린다",
+      "screened": "2026-08-09 · 사진 37장"
+    },
+    {
+      "slug": "great-pyramid",
+      "subject": "The Great Pyramid of Giza, 2.3 million blocks, with no record of the method",
+      "wikipedia": "Great Pyramid of Giza",
+      "hook": "230만 개 돌을 어떻게 쌓았는지 적어두지 않았다",
+      "screened": "2026-08-09 · 사진 28장"
+    },
+    {
+      "slug": "chichen-itza",
+      "subject": "El Castillo at Chichen Itza, where a shadow snake descends the stairs at the equinox",
+      "wikipedia": "Chichen Itza",
+      "hook": "춘분이면 계단으로 뱀 그림자가 내려온다",
+      "screened": "2026-08-09 · 사진 24장"
+    },
+    {
+      "slug": "tikal",
+      "subject": "Tikal, a Maya city of tens of thousands, emptied and left to the forest",
+      "wikipedia": "Tikal",
+      "hook": "도시를 통째로 비우고 숲에 내줬다",
+      "screened": "2026-08-09 · 사진 22장"
+    },
+    {
+      "slug": "mohenjo-daro",
+      "subject": "Mohenjo-daro, a planned city with drains and baths, whose script is still unread",
+      "wikipedia": "Mohenjo-daro",
+      "hook": "하수도까지 놓은 도시인데 글자를 못 읽는다",
+      "screened": "2026-08-09 · 사진 22장"
+    },
+    {
+      "slug": "mary-toft",
+      "subject": "Mary Toft, who in 1726 convinced royal surgeons she was giving birth to rabbits",
+      "wikipedia": "Mary Toft",
+      "hook": "왕실 외과의들이 토끼를 낳는다고 믿었다",
+      "screened": "2026-08-09 · 사진 18장"
+    },
+    {
+      "slug": "colossi-of-memnon",
+      "subject": "The Colossi of Memnon, which sang at dawn for two centuries until a repair silenced them",
+      "wikipedia": "Colossi of Memnon",
+      "hook": "새벽마다 노래하던 석상이 수리 뒤 조용해졌다",
+      "screened": "2026-08-09 · 사진 17장"
+    },
+    {
+      "slug": "stonehenge",
+      "subject": "Stonehenge, whose bluestones were brought 240 km from Wales",
+      "wikipedia": "Stonehenge",
+      "hook": "돌을 240킬로미터 밖에서 끌고 왔다",
+      "screened": "2026-08-09 · 사진 15장"
+    },
+    {
+      "slug": "ajanta-caves",
+      "subject": "The Ajanta Caves, thirty painted halls found by a hunting party in 1819",
+      "wikipedia": "Ajanta Caves",
+      "hook": "호랑이를 쫓다 절벽에서 발견했다",
+      "screened": "2026-08-09 · 사진 15장"
+    },
+    {
+      "slug": "rosetta-stone",
+      "subject": "The Rosetta Stone, the same decree in three scripts, which reopened Egyptian",
+      "wikipedia": "Rosetta Stone",
+      "hook": "같은 글이 세 번 적혀 있어서 이집트가 열렸다",
+      "screened": "2026-08-09 · 사진 15장"
+    },
+    {
+      "slug": "borobudur",
+      "subject": "Borobudur, the largest Buddhist temple, left under ash and forest for centuries",
+      "wikipedia": "Borobudur",
+      "hook": "화산재와 숲에 덮인 채 몇백 년을 있었다",
+      "screened": "2026-08-09 · 사진 12장"
+    },
+    {
+      "slug": "teotihuacan",
+      "subject": "Teotihuacan, already a ruin when the Aztecs found it and named it",
+      "wikipedia": "Teotihuacan",
+      "hook": "아즈텍이 왔을 때 이미 폐허였다",
+      "screened": "2026-08-09 · 사진 10장"
+    },
+    {
+      "slug": "mesa-verde",
+      "subject": "The Mesa Verde cliff dwellings, built into rock and abandoned within a century",
+      "wikipedia": "Mesa Verde National Park",
+      "hook": "절벽에 집을 짓고 백 년 만에 떠났다",
+      "screened": "2026-08-09 · 사진 9장"
+    },
+    {
+      "slug": "feejee-mermaid",
+      "subject": "The Feejee mermaid, a monkey's torso sewn to a fish tail and shown as a wonder",
+      "wikipedia": "Fiji mermaid",
+      "hook": "원숭이 상반신에 물고기 꼬리를 꿰맸다",
+      "screened": "2026-08-09 · 사진 9장"
+    },
+    {
+      "slug": "piltdown-man",
+      "subject": "Piltdown Man, a forged fossil that sat in textbooks for forty years",
+      "wikipedia": "Piltdown Man",
+      "hook": "가짜 화석이 40년간 교과서에 실렸다",
+      "screened": "2026-08-09 · 사진 8장"
+    },
+    {
+      "slug": "tulip-mania",
+      "subject": "Tulip mania, when a single bulb traded for the price of a house",
+      "wikipedia": "Tulip mania",
+      "hook": "튤립 한 뿌리가 집 한 채 값이었다",
+      "screened": "2026-08-09 · 사진 8장"
+    },
+    {
+      "slug": "palenque",
+      "subject": "The Palenque sarcophagus lid, argued over since the day it was opened",
+      "wikipedia": "Palenque",
+      "hook": "무덤 뚜껑에 새긴 그림을 두고 아직도 싸운다",
+      "screened": "2026-08-09 · 사진 7장"
+    },
+    {
+      "slug": "chaco-canyon",
+      "subject": "The Chaco roads, run dead straight for miles by people with no carts",
+      "wikipedia": "Chaco Culture National Historical Park",
+      "hook": "수레도 없이 길을 몇십 킬로미터 곧게 냈다",
+      "screened": "2026-08-09 · 사진 7장"
+    },
+    {
+      "slug": "south-sea-bubble",
+      "subject": "The South Sea Bubble of 1720, in which Isaac Newton lost a fortune",
+      "wikipedia": "South Sea Company",
+      "hook": "뉴턴도 여기서 돈을 잃었다",
+      "screened": "2026-08-09 · 사진 7장"
+    },
+    {
+      "slug": "bodie",
+      "subject": "Bodie, California, left so suddenly that tables were still set",
+      "wikipedia": "Bodie, California",
+      "hook": "밥상을 차려둔 채 떠났다",
+      "screened": "2026-08-09 · 사진 7장"
+    },
+    {
+      "slug": "externsteine",
+      "subject": "The Externsteine, carved rock pillars with no record of who cut them or when",
+      "wikipedia": "Externsteine",
+      "hook": "누가 언제 깎았는지 기록이 없다",
+      "screened": "2026-08-09 · 사진 6장"
+    },
+    {
+      "slug": "daniel-home",
+      "subject": "Daniel Dunglas Home, the medium said to have floated out of one window and in another",
+      "wikipedia": "Daniel Dunglas Home",
+      "hook": "창문으로 떠서 나갔다는 목격담이 있다",
+      "screened": "2026-08-09 · 사진 6장"
     }
   ]
 }
