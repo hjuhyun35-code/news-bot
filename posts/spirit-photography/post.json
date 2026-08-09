@@ -1,0 +1,86 @@
+{
+  "caption": "Are spirit photographs real?\n\nNo. They were a studio product, and the mechanism is known.\n\nGlass negatives, adopted around 1859, could be reused. A badly cleaned plate kept a faint trace of the previous sitter — and grieving customers were told that trace was their dead.\n\nWilliam Mumler, a jewellery engraver, published a photograph of his dead cousin in 1862 and turned it into a business, first inside Mrs Helen F. Stuart's Boston studio, then in New York. Many clients had lost children or young men in the American Civil War. One sitter was Mary Todd Lincoln, posed with the purported spirit of her assassinated husband.\n\nIn Paris in 1875 Édouard Buguet confessed: dolls, gauze, photographs of faces pinned on. In February 1922 Harry Price's group handed William Hope glass negatives secretly marked with X-rays. The plate that came back with a spirit on it carried no markings.\n\nStill unresolved: Mumler was accused of fraud in 1869 and acquitted. Nobody ever proved his method. And Arthur Conan Doyle, shown the evidence against Hope, called the report a conspiracy.\n\nImages: a tintype portrait, San Francisco, 1873; an unidentified maker's tintype, ca. 1865 (George Eastman Museum); Eugène Thiébault's 1863 advertising photograph; an alleged spirit photograph by Albert de Rochas, 1909; an advertisement from The Photographic Times; and Houdini with the ghost of Abraham Lincoln. All public domain.\n\n#spiritphotography #victorianhistory #photohistory #hoaxhistory #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "ghostaboveshoulder.jpg",
+      "crop": "50% 38%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "Studios sold portraits with <y>your dead relatives</y> in them",
+      "note": "From 1862 William Mumler advertised as a \"Spirit Photographic Medium\". His customers were often families of Civil War dead.",
+      "source": "Unknown maker, San Francisco, 1873 · public domain",
+      "alt": "Tintype of a moustached man in a bow tie with a faint transparent face floating above him.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "sitterwithface.jpg",
+      "crop": "55% 35%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The ghost was <y>the studio's previous customer</y>",
+      "note": "Glass negatives could be reused from about 1859. An improperly cleaned plate left the last sitter faintly visible on the next one.",
+      "source": "Unidentified maker, tintype ca. 1865 · Eastman Museum",
+      "alt": "Seated woman in a dark dress, hand at her cheek, a blurred man's face behind her.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "conjurerandskeleton.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "By 1856 the effect was <y>a deliberate technique</y>",
+      "note": "David Brewster saw that long exposures could fake ghosts. The London Stereoscopic Company sold a series called \"The Ghost in the Stereoscope\".",
+      "source": "Eugène Thiébault, 1863 · public domain",
+      "alt": "A bearded man recoils from a draped skeleton figure in a study with bookcase and hourglass.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "drapedfigureseance.png",
+      "crop": "50% 40%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "He confessed: <y>dolls, gauze, pasted-on faces</y>",
+      "note": "Édouard Buguet was arrested in Paris in 1875 and made a full confession. His account ran in the French and English press.",
+      "source": "Alleged spirit photograph by Albert de Rochas, 1909",
+      "alt": "Grainy plate showing a tall white draped figure surrounded by blurred faces in a dark room.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "amusementsad.jpg",
+      "crop": "30% 64%",
+      "zoom": 2.4,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "A hobby manual listed <y>spirit photography</y> as a chapter",
+      "note": "Woodbury's book put it between magic photographs and leaf prints. Forty-nine chapters, one dollar, postpaid.",
+      "source": "The Photographic Times advertisement · public domain",
+      "alt": "Printed table of contents listing Magic Photographs, Spirit Photography and Leaf Prints.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "houdinilincoln.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "Houdini helped end it. <y>Mumler's method was never proved</y>",
+      "note": "Skeptics broke the trade in the 1920s. But Mumler was acquitted in 1869, and Conan Doyle called the evidence against Hope a conspiracy.",
+      "source": "Harry Houdini, c. 1920–1930 · public domain",
+      "alt": "Houdini holds an open book, facing a semi-transparent seated figure of Abraham Lincoln.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "spirit-photography",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

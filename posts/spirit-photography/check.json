@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "From 1862 William Mumler advertised as a \"Spirit Photographic Medium\".",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "An American jewelry engraver and amateur photographer named William Mumler published, in 1862, a photograph of what was purportedly the spirit of his cousin, who had died 12 years earlier. ... The media sensation that this caused led Mumler to leave engraving and to begin a successful business as a \"Spirit Photographic Medium\""
+    },
+    {
+      "claim": "Mumler's customers were often families of Civil War dead.",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "He serviced those hoping to find a supernatural connection to lost relatives, many of them children or young men killed in the American Civil War."
+    },
+    {
+      "claim": "Studios sold portraits with the sitter's dead relatives in them.",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "Photographers such as William Mumler and William Hope ran thriving businesses taking photos of people with their supposed dead relatives."
+    },
+    {
+      "claim": "The card 1 image is by an unknown maker, San Francisco, 1873.",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "\"San Francisco, 1873. Karl &amp; me. Henry H. Gage, d. 1869.\" Date: 1873 Author: Unknown author"
+    },
+    {
+      "claim": "The \"ghost\" was the studio's previous customer, left on an improperly cleaned plate.",
+      "where": "card 2 headline / note",
+      "verdict": "supported",
+      "quote": "The apparent spirits that Mumler had captured were thought to be double exposures of previous clients from photographic plates that were improperly cleaned."
+    },
+    {
+      "claim": "Glass negatives could be reused from about 1859.",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The adoption of glass-plate negative processes around 1859 made it practical to reuse an exposure plate, with the possibility of prior images remaining visible"
+    },
+    {
+      "claim": "The card 2 image is a tintype of ca. 1865 by an unidentified maker, held by the George Eastman Museum.",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Unidentified maker. [Woman with a hand on her face with a spirit image of a man in the background], ca. 1865. Tintype. George Eastman Museum, gift of Donald K. Weber."
+    },
+    {
+      "claim": "By 1856 the ghost effect was recognised as a deliberate technique; David Brewster saw that long exposures could fake ghosts.",
+      "where": "card 3 headline / note",
+      "verdict": "supported",
+      "quote": "Sir David Brewster, in 1856, recognized that these effects could be used deliberately to create ghostly pictures."
+    },
+    {
+      "claim": "The London Stereoscopic Company sold a series called \"The Ghost in the Stereoscope\".",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The London Stereoscopic Company used Brewster's idea to create a series of images called \"The Ghost in the Stereoscope\"."
+    },
+    {
+      "claim": "The card 3 image is by Eugène Thiébault, 1863.",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Date: 1863 Author: Eugène Thiébault"
+    },
+    {
+      "claim": "Édouard Buguet was arrested in Paris in 1875 and made a full confession.",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "In 1875, Édouard Buguet, a French spirit photographer, who also had a studio in London, was arrested in Paris and prosecuted for fraud after making a full confession."
+    },
+    {
+      "claim": "Buguet's method was dolls wrapped in gauze with photographs of faces attached.",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "He simulated spirits by wrapping dolls in gauze and attaching photos of faces onto them."
+    },
+    {
+      "claim": "Buguet's confession ran in the French and English press.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "His confession was widely publicized in the French and English press."
+    },
+    {
+      "claim": "The card 4 image is an alleged spirit photograph by Albert de Rochas, 1909.",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Alleged spirit photograph taken by the parapsychologist Albert de Rochas. Date: 1909"
+    },
+    {
+      "claim": "A hobby manual listed spirit photography as a chapter.",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "TABLE OF CONTENTS ... Magic Photographs / Spirit Photography"
+    },
+    {
+      "claim": "The book is by Woodbury and its contents list places Spirit Photography between Magic Photographs and Leaf Prints.",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "BY WALTER E. WOODBURY ... Magic Photographs / Spirit Photography / Photography for Household Decoration / Leaf Prints"
+    },
+    {
+      "claim": "The book had forty-nine chapters, cost one dollar, and was sent postpaid.",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "FORTY-NINE CHAPTERS AND OVER ONE HUNDRED PAGES OF READING MATTER ... ROYAL OCTAVO, PAPER COVERS, ONE DOLLAR ... Will be sent to any address postpaid on receipt of price by the publishers"
+    },
+    {
+      "claim": "The card 5 image is an advertisement from The Photographic Times.",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "THE PHOTOGRAPHIC TIMES—ADVERTISEMENTS"
+    },
+    {
+      "claim": "Houdini helped end spirit photography; skeptics broke the trade in the 1920s.",
+      "where": "card 6 headline / note",
+      "verdict": "supported",
+      "quote": "The phenomenon did not start to decline until the 1920s after skeptics such as Harry Houdini tried to counteract spiritualistic fraud."
+    },
+    {
+      "claim": "Mumler was acquitted in 1869.",
+      "where": "card 6 note",
+      "verdict": "unsupported",
+      "quote": "In 1869, Mumler was accused of fraud. He was acquitted, however, despite the claim that one of his so-called spirits was shown to be still alive."
+    },
+    {
+      "claim": "Mumler was accused of fraud in 1869 and acquitted.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1869, Mumler was accused of fraud. He was acquitted, however, despite the claim that one of his so-called spirits was shown to be still alive."
+    },
+    {
+      "claim": "Mumler's method was never proved.",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "Though taken to court, Mumler was eventually acquitted of all charges. They were never able to prove his methods."
+    },
+    {
+      "claim": "Arthur Conan Doyle called the evidence (report) against Hope a conspiracy.",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Despite this proof, prominent spiritualists, such as Arthur Conan Doyle, claimed the report was a part of a conspiracy against Hope."
+    },
+    {
+      "claim": "Spirit photographs were not real; they were a studio product with a known mechanism.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "spirit photography began in studios and eventually included ghosts photographed in séance rooms ... whereas spirit photos were invariably charlatans' productions"
+    },
+    {
+      "claim": "William Mumler was a jewellery engraver who published a photograph of his dead cousin in 1862.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "An American jewelry engraver and amateur photographer named William Mumler published, in 1862, a photograph of what was purportedly the spirit of his cousin, who had died 12 years earlier."
+    },
+    {
+      "claim": "Mumler's business was first inside Mrs Helen F. Stuart's Boston studio, then moved to New York.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "This first incident took place in the studios of Mrs. Helen F. Stuart in Boston. ... established within Mrs. Stuart's studios and later moved to New York."
+    },
+    {
+      "claim": "One sitter was Mary Todd Lincoln, posed with the purported spirit of her assassinated husband.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "One of Mumler's most famous images is a photograph of Mary Todd Lincoln posed with the purported spirit of her assassinated husband."
+    },
+    {
+      "claim": "In February 1922 Harry Price's group handed William Hope glass negatives secretly marked with X-rays.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In February 1922, Harry Price from the Society for Psychical Research, a magician named Seymour, Eric J. Dingwall and William S. Marriott showed Hope to be a fraud. They devised a plan where they presented Hope with glass negatives that had secretly been marked with X-rays."
+    },
+    {
+      "claim": "The plate returned with a spirit on it carried no markings.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The returned plate containing the spirit had no markings."
+    },
+    {
+      "claim": "The San Francisco 1873 image is a tintype portrait.",
+      "where": "caption image list",
+      "verdict": "unsupported",
+      "quote": "Archive title: File:Karl and me 2 Crop.jpg Description: \"San Francisco, 1873. Karl &amp; me. Henry H. Gage, d. 1869.\""
+    },
+    {
+      "claim": "Thiébault's 1863 photograph was an advertising photograph.",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "Description: Photographie publicitaire sur papier albuminé."
+    },
+    {
+      "claim": "The Houdini image shows Houdini with the ghost of Abraham Lincoln, c. 1920–1930.",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Description: Houdini and the ghost of Abraham Lincoln , c. 1920-1930. ... Author: Harry Houdini"
+    },
+    {
+      "claim": "All the images used are public domain.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 2
+}
