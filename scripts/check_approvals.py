@@ -127,6 +127,27 @@ DROPPED = [[("🗑 버림", "done")]]
 RETRY = None   # 실패했을 때는 원래 단추를 그대로 둔다
 
 
+# 캐러셀과 릴스를 며칠 띄운다. 같은 사진이 프로필 격자에 나란히 걸리면
+# 처음 온 사람에게 우려먹는 계정으로 보인다. 릴스는 안 팔로우한 사람에게
+# 닿으므로, 그 사람이 프로필에 들어왔을 때 캐러셀이 아래에 따로 있는
+# 편이 볼 것이 많은 계정으로 읽힌다.
+REEL_GAP_DAYS = 4
+
+
+def days_since_published(post_dir):
+    """캐러셀을 올린 지 며칠 됐나. 아직 안 올렸으면 None."""
+    path = os.path.join(post_dir, "published.json")
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            when = json.load(f).get("published_at", "")
+        then = datetime.datetime.fromisoformat(when)
+        return (datetime.datetime.now(datetime.timezone.utc) - then).days
+    except (ValueError, OSError, json.JSONDecodeError):
+        return None
+
+
 def done_buttons(slug):
     """올린 뒤에도 릴스 단추는 남긴다.
 
@@ -170,12 +191,23 @@ def handle(cb):
     # 승인 메시지에 적힌 독자 반응과 검증 결과를 덮으면 안 된다.
     if action == "reel":
         started, err = dispatch("reel.yml", {"slug": slug})
-        if started:
-            print(f"  {slug}: 릴스 만들기 시작")
-            telegram.say(f"🎬 <b>{slug}</b> 릴스를 만들고 있습니다. "
-                         f"5분쯤 걸립니다.\n다 되면 영상과 캡션을 보내드립니다.")
-        else:
+        if not started:
             telegram.say(f"릴스 만들기를 시작하지 못했습니다: {slug}\n<pre>{err}</pre>")
+            return None, RETRY
+
+        print(f"  {slug}: 릴스 만들기 시작")
+        note = ""
+        days = days_since_published(post_dir)
+        if days is not None and days < REEL_GAP_DAYS:
+            # 막지는 않는다. 다만 오늘 캐러셀을 올렸다면 프로필 격자에
+            # 같은 사진이 나란히 걸린다는 것은 알고 누르셔야 한다.
+            note = (f"\n\n⚠️ 이 소재 캐러셀을 올린 지 "
+                    f"{'오늘' if days == 0 else f'{days}일'}밖에 안 됐습니다. "
+                    f"{REEL_GAP_DAYS}일쯤 띄우는 편이 낫습니다 — 프로필 격자에 "
+                    f"같은 사진이 나란히 걸립니다. 영상은 만들어 보내드릴 테니 "
+                    f"올리는 것만 미루셔도 됩니다.")
+        telegram.say(f"🎬 <b>{slug}</b> 릴스를 만들고 있습니다. 5분쯤 걸립니다."
+                     f"{note}")
         return None, RETRY
 
     if os.path.exists(os.path.join(post_dir, "published.json")):
