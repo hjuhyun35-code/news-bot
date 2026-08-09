@@ -8,6 +8,7 @@
 캡션도 같이 보낸다. 인스타 앱에서 올릴 때 붙여넣을 것이기 때문이다.
 """
 
+import datetime
 import glob
 import json
 import os
@@ -16,6 +17,11 @@ import sys
 import telegram
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 릴스는 인스타에 API 로 올리지 않는다. 음원을 앱에서 붙여야 하기
+# 때문이다. 그래서 "영상을 보냈다"가 이 파이프라인에서의 완료다.
+# 이 표시가 없으면 day_plan 이 같은 소재를 영원히 대기로 본다.
+DELIVERED = "delivered.json"
 
 
 def main():
@@ -28,6 +34,7 @@ def main():
     if not reels:
         sys.exit(f"[실패] {slug} 에 영상이 없습니다.")
 
+    sent = 0
     for path in reels:
         name = os.path.basename(path)
         size = os.path.getsize(path) / 1_000_000
@@ -37,6 +44,10 @@ def main():
             telegram.say(f"릴스 영상을 보내지 못했습니다: {name}\n{err}")
             continue
         print(f"  {name}: 보냄 ({size:.1f}MB)")
+        sent += 1
+
+    if not sent:
+        sys.exit("[실패] 영상을 하나도 보내지 못했습니다.")
 
     # 캡션은 따로 보낸다. 영상 설명에 붙이면 길이 제한에 잘린다.
     post_json = os.path.join(post_dir, "post.json")
@@ -48,6 +59,14 @@ def main():
                          "영상을 저장한 뒤 앱에서 올리시고 음원을 고르세요.")
             telegram.say(caption[:4000])
             print("  캡션 보냄")
+
+    with open(os.path.join(post_dir, DELIVERED), "w", encoding="utf-8") as f:
+        json.dump({"delivered_at": datetime.datetime.now(
+            datetime.timezone.utc).isoformat(timespec="seconds"),
+            "note": "릴스 영상을 텔레그램으로 보냈다. 인스타에 올리는 것은 "
+                    "사람이 앱에서 한다 — 음원을 API 로 붙일 수 없기 때문이다."},
+            f, ensure_ascii=False, indent=2)
+    print("  완료 표시 남김")
 
 
 if __name__ == "__main__":

@@ -82,24 +82,40 @@ def allowance(day):
     return min(FIRST_WEEK + weeks, MOST)
 
 
-def published_on(day):
-    """그날 이미 올라간 글 수. 표시 파일의 시각을 한국 시간으로 바꿔 센다."""
-    count = 0
-    if not os.path.isdir(POSTS):
-        return 0
-    for name in os.listdir(POSTS):
-        path = os.path.join(POSTS, name, "published.json")
+# 그 소재가 끝났다는 표시. 둘 중 하나만 있으면 끝난 것이다.
+#   published.json  인스타에 API 로 올렸다 (캐러셀 시절)
+#   delivered.json  릴스 영상을 텔레그램으로 보냈다 (지금 방식)
+# 릴스는 음원 때문에 사람이 앱에서 올린다. 그래서 우리 쪽 완료는
+# "영상을 보냈다"까지다.
+DONE_MARKS = (("published.json", "published_at"),
+              ("delivered.json", "delivered_at"))
+
+
+def finished_at(post_dir):
+    """끝난 시각. 아직이면 None."""
+    for name, key in DONE_MARKS:
+        path = os.path.join(post_dir, name)
         if not os.path.exists(path):
             continue
         try:
             with open(path, encoding="utf-8") as f:
-                when = json.load(f).get("published_at", "")
-            if datetime.datetime.fromisoformat(when).astimezone(KST).date() == day:
-                count += 1
+                when = json.load(f).get(key, "")
+            return datetime.datetime.fromisoformat(when)
         except (ValueError, OSError, json.JSONDecodeError):
-            # 시각을 못 읽는 표시 파일은 오늘 것이 아니라고 본다. 세다가
-            # 죽는 것보다 낫다 — 최악이라도 하루 한 개 더 올라갈 뿐이다.
-            continue
+            # 시각을 못 읽어도 표시가 있으면 끝난 것이다. 세는 데만 못 쓴다.
+            return False
+    return None
+
+
+def published_on(day):
+    """그날 끝낸 수. 표시 파일의 시각을 한국 시간으로 바꿔 센다."""
+    count = 0
+    if not os.path.isdir(POSTS):
+        return 0
+    for name in os.listdir(POSTS):
+        when = finished_at(os.path.join(POSTS, name))
+        if when and when.astimezone(KST).date() == day:
+            count += 1
     return count
 
 
@@ -121,7 +137,7 @@ def pending():
         d = os.path.join(POSTS, name)
         if not os.path.exists(os.path.join(d, "post.json")):
             continue
-        if os.path.exists(os.path.join(d, "published.json")):
+        if finished_at(d) is not None:
             continue
         if os.path.exists(os.path.join(d, "rejected.json")):
             continue

@@ -149,29 +149,41 @@ jobs:
           git pull --rebase --autostash -q
           git push
 
-      # 카드를 먼저 보내 눈으로 볼 수 있게 하고, 그다음 판단·발행한다.
-      - name: send the cards
+      # 2026-08-09 부터 캐러셀은 올리지 않는다. 사장님이 "카드뉴스는 거의
+      # 안 보인다"고 하셨고, 실제로 새 계정에 도달을 주는 것은 릴스다.
+      # 카드는 계속 만든다 — 릴스의 장면이 그 카드다.
+      #
+      # 릴스는 인스타에 API 로 올리지 않는다. 음원을 앱에서만 붙일 수
+      # 있고, 이미 올라간 릴스의 음원은 바꿀 수 없다. 그래서 영상을
+      # 텔레그램으로 보내고 사장님이 앱에서 올리신다.
+      - run: pip install edge-tts
+        if: steps.plan.outputs.stop != 'yes'
+
+      - name: make sure ffmpeg is here
+        if: steps.plan.outputs.stop != 'yes'
+        run: ffmpeg -version >/dev/null 2>&1 || sudo apt-get install -y ffmpeg
+
+      - name: make the reel
+        if: steps.plan.outputs.stop != 'yes'
+        run: python scripts/make_reel.py "${{ steps.plan.outputs.slug }}"
+
+      - name: send the reel
         if: steps.plan.outputs.stop != 'yes'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/send_draft.py "${{ steps.plan.outputs.slug }}" --cards-only
+        run: python scripts/send_reel.py "${{ steps.plan.outputs.slug }}"
 
-      - name: publish, or ask if the readers say no
-        if: steps.plan.outputs.stop != 'yes'
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: python scripts/auto_publish.py "${{ steps.plan.outputs.slug }}"
-
-      - name: record the publication
+      # 영상 파일은 저장소에 넣지 않는다. 하나에 15MB라 몇 달이면 감당
+      # 못 한다. 완료 표시와 카드만 남긴다.
+      - name: record what was done
         if: always() && steps.plan.outputs.stop != 'yes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f posts/*/reel*.mp4
           git add -A posts
-          git diff --staged --quiet && echo "nothing new" || git commit -m "published: ${{ steps.plan.outputs.slug }}"
+          git diff --staged --quiet && echo "nothing new" || git commit -m "reel: ${{ steps.plan.outputs.slug }}"
           git pull --rebase --autostash -q
           git push
 
