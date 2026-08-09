@@ -1,0 +1,31 @@
+{
+  "subject": "The Shroud of Turin, whose photographic negative revealed a face invisible on the cloth",
+  "wikipedia": "Shroud of Turin",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "positivenegativeface.jpg",
+      "commons": "File:Shroud of Turin 001.jpg"
+    },
+    {
+      "file": "shroudfulllength.jpg",
+      "commons": "File:Shroudofturin rotated.jpg"
+    },
+    {
+      "file": "enriefacenegative.jpg",
+      "commons": "File:Grabtuch Enrie HiRes.jpg"
+    },
+    {
+      "file": "pia1898print.jpg",
+      "commons": "File:Secundo Pia Turinske platno 1898.jpg"
+    },
+    {
+      "file": "engraving1608.jpg",
+      "commons": "File:Torinói lepel 1608.jpg"
+    },
+    {
+      "file": "frescoostension.jpg",
+      "commons": "File:Shroud of Turin in Bessan.jpg"
+    }
+  ]
+}
