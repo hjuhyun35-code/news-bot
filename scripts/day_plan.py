@@ -156,7 +156,11 @@ def main():
         say(stop="yes", mode="none", slug="")
         return
 
-    waiting = pending()
+    # 사람이 "새로 만들어줘"라고 부른 것이면 밀린 초안을 다시 내밀지
+    # 않는다. 2026-08-09, 안 올린 초안 하나가 남아 있는 동안 초안을
+    # 부를 때마다 같은 것만 계속 왔다. 예약 실행에는 맞는 규칙이지만
+    # 사람이 직접 부를 때는 새것을 원한 것이다.
+    waiting = [] if os.environ.get("NEW_SUBJECT") == "yes" else pending()
     if waiting:
         print(f"밀린 초안 {len(waiting)}개: {', '.join(waiting)}", file=sys.stderr)
         say(stop="no", mode="publish", slug=waiting[0])

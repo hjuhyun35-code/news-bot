@@ -43,7 +43,10 @@ def menu():
 
 
 def start_draft():
-    started, err = dispatch("daily.yml", {"ignore_quota": "yes"})
+    # 사람이 부른 것이니 새 소재로 만든다. 밀린 초안을 다시 내밀면
+    # 부를 때마다 같은 것만 온다.
+    started, err = dispatch("daily.yml",
+                            {"ignore_quota": "yes", "new_subject": "yes"})
     if not started:
         telegram.say(f"초안 만들기를 시작하지 못했습니다.\n<pre>{err}</pre>")
         sys.exit(f"[실패] 워크플로를 부르지 못했습니다: {err}")
