@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 스크롤하다가 눈이 화면 위쪽 어둠 속에서 얼굴 형태를 먼저 잡았다. 코랑 눈두덩, 수염 라인이 유령처럼 떠 있어서 '이거 뭐지?' 하고 손이 멈춘다. 파란빛 도는 차가운 톤이라 피드의 다른 따뜻한 사진들 사이에서 확 튀고, 얼굴 아래로 검은 여백이 있어서 글자도 안 겹치고 딱 읽힌다. C도 같은 얼굴인데 갈색 톤이라 그냥 벽 얼룩 같고 얼굴이 한 박자 늦게 보인다. B는 한 초 안에 '옛날 문서'로 인식돼서 바로 넘어감.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "B",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A에서 눈이 먼저 간 건 오른쪽 위 어둠 속에서 떠오르는 창백한 얼굴 윤곽이었다. 코와 이마, 감긴 눈 자리가 순간적으로 사람 얼굴로 읽히면서 손가락이 멈췄다. 왼쪽의 밝은 세로 띠와 검은 기둥이 프레임을 갈라서 얼굴이 어둠 쪽에 갇힌 느낌이라 더 시선이 붙든다. 사진 자체가 음화라는 것도 바로 느껴져서 '뭘 뒤집어 본 거지' 하는 궁금증이 생긴다. C는 같은 소재인데 세피아로 뭉개져서 얼굴이 잘 안 떠오르고 위쪽 절반이 그냥 갈색 얼룩처럼 보인다. B는 판화 자체는 흥미롭지만 축소된 인스타 화면에서는 글자 빽빽한 옛 문서로만 보여서 멈출 이유가 없다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "B",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "positivenegativeface.jpg",
+    "crop": "76% 46%",
+    "zoom": 1.15,
+    "fit": "crop",
+    "grade": "cold",
+    "hook": "The cloth showed nothing. The negative showed a face.",
+    "why": "The right-hand negative panel is the single clearest face in the whole set — pale features on dark weave, legible at thumbnail size. Crop pushed to 76% to sit on the negative and cut the black divider strip and the blank positive half, which would read as empty card."
+  }
+}

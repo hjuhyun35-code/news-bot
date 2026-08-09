@@ -1,0 +1,185 @@
+{
+  "claims": [
+    {
+      "claim": "The face on the shroud only appears in the photographic negative",
+      "where": "card 1 headline",
+      "verdict": "contradicted",
+      "quote": "The human image on the shroud can be discerned more clearly in a black-and-white photographic negative than in its natural sepia colour, an effect discovered in 1898 by Secondo Pia"
+    },
+    {
+      "claim": "On the cloth the image is a faint brown mark; reversed it shows a bearded man",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Its most distinctive characteristic is the faint, brownish image of a front and back view of a naked man with his hands folded across his groin... The image in faint straw-yellow colour on the crown of the cloth fibres appears to be of a man with a beard, moustache, and shoulder-length hair parted in the middle."
+    },
+    {
+      "claim": "Secondo Pia photographed the shroud on 28 May 1898 and was the first to do so",
+      "where": "card 2 headline / note",
+      "verdict": "supported",
+      "quote": "He took the first photograph of the shroud on 28 May 1898."
+    },
+    {
+      "claim": "The Vatican newspaper reported Pia's photograph with no comment",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "The Vatican newspaper L'Osservatore Romano covered the story of Secondo Pia's photograph of 28 May 1898 in its edition of 15 June 1898, but it did so with no comment"
+    },
+    {
+      "claim": "Church officials then said nothing about the photograph for nearly half a century",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "thereafter Church officials generally refrained from officially commenting on the photograph for almost half a century"
+    },
+    {
+      "claim": "The pia1898print.jpg image is a Secondo Pia print of the shroud face, captioned in Italian as an enlargement of the Holy Face from the original negative",
+      "where": "card 2 source / image",
+      "verdict": "supported",
+      "quote": "Torino_ S.S. Sindone- ingrandimento Sacro Volto dal negativo originale"
+    },
+    {
+      "claim": "Radiocarbon dating dated the linen to AD 1260–1390",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "concluded with 95% confidence that the material dated to AD 1260–1390"
+    },
+    {
+      "claim": "Three independent laboratories carried out the tests in 1988, with 95% confidence",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "Independent radiocarbon dating tests were carried out in 1988 at the University of Oxford, the University of Arizona and the Swiss Federal Institute of Technology, following years of discussion to obtain permission from the Holy See."
+    },
+    {
+      "claim": "The laboratories were Oxford, Arizona and the Swiss Federal Institute of Technology",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Independent radiocarbon dating tests were carried out in 1988 at the University of Oxford, the University of Arizona and the Swiss Federal Institute of Technology"
+    },
+    {
+      "claim": "The tests were done on a swatch taken from a corner of the cloth",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The tests were done on portions of a swatch taken from a corner of the shroud"
+    },
+    {
+      "claim": "The radiocarbon date range matches the shroud's first appearance in church history",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "The dating matches the first appearance of the shroud in church history."
+    },
+    {
+      "claim": "The shroud was exhibited around 1355 in the village church of Lirey in north-central France",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Around 1355, the dean of the chapter of Lirey, Robert de Caillac, began exhibiting in the church a long fabric that bore an image of the mangled body of Jesus."
+    },
+    {
+      "claim": "The shroud was denounced almost immediately after it was first exhibited",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "The shroud was denounced as a forgery by the bishop of Troyes, Pierre d'Arcis, in 1389."
+    },
+    {
+      "claim": "In 1389 a bishop declared the cloth a painting",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "In 1389 the Bishop of Troyes sent a memorial to Antipope Clement VII, declaring that the cloth had been \"artificially painted in an ingenious way\""
+    },
+    {
+      "claim": "Pierre d'Arcis, Bishop of Troyes, wrote to Antipope Clement VII using the phrase \"artificially painted in an ingenious way\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1389 the Bishop of Troyes sent a memorial to Antipope Clement VII, declaring that the cloth had been \"artificially painted in an ingenious way\""
+    },
+    {
+      "claim": "D'Arcis wrote that a previous bishop had identified the artist who made it",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "declaring that the Shroud was a forgery and that a previous Bishop of Troyes, Henri de Poitiers, had identified the artist who had made it"
+    },
+    {
+      "claim": "Clement permitted continued exhibition on condition that it be said aloud that the cloth was a painting and not the true shroud",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "he allowed the exposition, but ordered to \"say aloud, to put an end to all fraud, that the aforementioned representation is not the true Shroud of Our Lord Jesus Christ, but a painting or panel made to represent or imitate the Shroud\""
+    },
+    {
+      "claim": "The engraving used is a copper engraving of the shroud made in Turin in 1608",
+      "where": "card 4 source / image",
+      "verdict": "supported",
+      "quote": "A lepel ábrázolása egy 1608-ból származó rézmetszeten"
+    },
+    {
+      "claim": "The 1608 engraving depicts an ostension, with clergy holding up the cloth showing the double body image",
+      "where": "caption / image engraving1608.jpg",
+      "verdict": "supported",
+      "quote": "IL VERISSIMO RITRATTO DELLA SACROSANTA SINDONE"
+    },
+    {
+      "claim": "Giuseppe Enrie photographed the shroud in 1931 and obtained results similar to Pia's",
+      "where": "card 5 headline / note / caption",
+      "verdict": "supported",
+      "quote": "In 1931, another photographer, Giuseppe Enrie, photographed the shroud and obtained results similar to Pia's."
+    },
+    {
+      "claim": "Enrie's photograph was taken on 24 May 1931",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Date: 1931-05-24"
+    },
+    {
+      "claim": "Enrie's image is a gelatin silver print negative from 1931",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Enrie's photograph (negative) in an high resolution print (gelatin silver print, mounted on cardboard, original publication 1931)"
+    },
+    {
+      "claim": "No experiment has reproduced every property of the shroud image at once",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "At the same time, no method has yet been shown to replicate all of its macroscopic and microscopic properties simultaneously."
+    },
+    {
+      "claim": "The Catholic Church neither endorses nor rejects the shroud's authenticity",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Currently, the Catholic Church neither endorses nor rejects the authenticity of the shroud as a relic of Jesus."
+    },
+    {
+      "claim": "The fresco image is from Bessan and was painted between 1503 and 1522, licensed CC0",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Shroud of Turin. fresco, painted  between 1503 and 1522"
+    },
+    {
+      "claim": "Pia's exposure was on a glass negative",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "In May 1898 the Italian photographer Secondo Pia was allowed to photograph the shroud."
+    },
+    {
+      "claim": "The image is clearer in reverse (negative) than on the cloth itself",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The human image on the shroud can be discerned more clearly in a black-and-white photographic negative than in its natural sepia colour"
+    },
+    {
+      "claim": "Walter McCrone, examining tape samples taken in 1978, found red ochre in a gelatin medium and vermilion in the bloodstain areas",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "McCrone concluded that the Shroud's body image had been painted with a dilute pigment of red ochre (a form of iron oxide) in a collagen tempera (i.e., gelatin) medium... McCrone also found that the \"bloodstains\" in the image had been highlighted with vermilion"
+    },
+    {
+      "claim": "Other researchers rejected McCrone's conclusion",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Other members of STURP rejected McCrone's conclusions and concluded, based on their own examination of the Shroud and the tape samples, that the image on the Shroud could not be explained by the presence of pigments."
+    },
+    {
+      "claim": "All images used are public domain or CC0",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 3
+}

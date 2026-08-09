@@ -27,5 +27,12 @@
       "file": "frescoostension.jpg",
       "commons": "File:Shroud of Turin in Bessan.jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "positivenegativeface.jpg",
+    "crop": "76% 46%",
+    "zoom": 1.15,
+    "fit": "crop",
+    "grade": "cold"
+  }
 }
