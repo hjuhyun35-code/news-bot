@@ -27,5 +27,12 @@
       "file": "lakeview.jpg",
       "commons": "File:Crystal Palace Dinosaurs postcard 1913 (front).jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "studio.jpg",
+    "crop": "48% 42%",
+    "zoom": 1.05,
+    "fit": "crop",
+    "grade": "ink"
+  }
 }

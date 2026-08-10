@@ -1,0 +1,86 @@
+{
+  "caption": "Are the Crystal Palace dinosaurs still there?\n\nYes. Fifteen genera of extinct animals, unveiled in 1854 in south London — the first dinosaur sculptures in the world. Only three of them are true dinosaurs.\n\nBenjamin Waterhouse Hawkins built them full size in clay in a workshop in the park, then cast them in cement. The larger ones are hollow, with brickwork inside. To launch them he held a dinner on New Year's Eve 1853 inside the mould of a standing Iguanodon.\n\nRichard Owen directed the science. Working from a hip, a femur, a rib and a few vertebrae, he made Megalosaurus a four-legged animal; the first suggestion that some dinosaurs stood on two legs came in 1858, just too late. Iguanodon got a horn on its nose that was really a thumb bone — even Owen called the horn \"more than doubtful\" in 1854.\n\nIn 1855, with £13,729 spent, the Crystal Palace Company cut Hawkins's funding. Half-finished models were scrapped. A mastodon and a Dinornis were planned and never finished, and the only record of where they would have stood is an inaccurate map of the time.\n\nThe models were Grade II listed in 1973, extensively restored in 2001, and upgraded to Grade I in 2007. The limestone cliff, blown up in the 1960s, was rebuilt from 130 blocks of Derbyshire limestone.\n\nImages: Philip Henry Delamotte's 1853 view of Hawkins's Sydenham studio; the 1854 woodcut of the Iguanodon dinner; Hawkins's own 1854 concept drawing; an 1854 view of the geological island; and postcards from the 1910s and 1913. All public domain.\n\n#crystalpalacedinosaurs #victorianscience #palaeontology #archivephoto",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "studio.jpg",
+      "crop": "48% 42%",
+      "zoom": 1.05,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The <y>first dinosaurs ever built</y> stood in this shed",
+      "note": "Benjamin Waterhouse Hawkins modelled them full size in clay at Sydenham in 1853. They were unveiled in 1854.",
+      "source": "Philip Henry Delamotte, Sydenham, 1853 · public domain",
+      "alt": "Workshop interior with huge reptile models in clay and two workmen among timber scaffolding.},{",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "banquet.jpg",
+      "crop": "42% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "He held a dinner <y>inside an Iguanodon mould</y>",
+      "note": "New Year's Eve 1853, to mark the launch of the models. Guests sat at a laid table inside the standing Iguanodon's cast.",
+      "source": "Woodcut of the Iguanodon dinner, 1854 · public domain",
+      "alt": "Woodcut of men dining at a table set inside the hollow mould of a giant reptile.},{",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "diagram.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "ink",
+      "headline": "Fifteen genera. <y>Only three are true dinosaurs</y>",
+      "note": "Hawkins's own plan. The models sat on three islands as a rough timeline: Palaeozoic, Mesozoic, Cenozoic.",
+      "source": "B. W. Hawkins, concept drawing, 1854 · public domain",
+      "alt": "Line drawing of extinct animals on rocky islands with printed species names beneath.},{",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "geologicalisland.jpg",
+      "crop": "50% 62%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "<y>Megalosaurus was given four legs</y>",
+      "note": "Owen had a hip, a femur, a rib and a few vertebrae. The idea that some dinosaurs were bipedal came in 1858, too late.",
+      "source": "The geological island, Sydenham, 1854 · public domain",
+      "alt": "Engraving of reptile models on a lake shore with the long Crystal Palace behind trees.},{",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "postcard1910s.jpg",
+      "crop": "52% 42%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The nose horn was really <y>a thumb bone</y>",
+      "note": "Mary Ann Mantell found the fossil in Sussex in 1822. With no skull, the thumb went on the nose. Owen called it \"more than doubtful\".",
+      "source": "Crystal Palace postcard, 1910s · public domain",
+      "alt": "Sepia postcard of a large scaly Iguanodon model on a mound with other beasts in water.},{",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "lakeview.jpg",
+      "crop": "38% 55%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "They are still there, <y>Grade I listed since 2007</y>",
+      "note": "Funding was cut in 1855 after £13,729. Half-finished models were scrapped; a planned mastodon and Dinornis never stood.",
+      "source": "'Prehistoric Peeps' postcard, 1913 · public domain",
+      "alt": "Postcard of pale reptile sculptures along a lake shore reflected in still water.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "crystal-palace-dinosaurs",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

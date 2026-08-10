@@ -1,0 +1,197 @@
+{
+  "claims": [
+    {
+      "claim": "The Crystal Palace models were the first dinosaur sculptures ever built.",
+      "where": "Card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The models were unveiled in 1854, as the first dinosaur sculptures in the world."
+    },
+    {
+      "claim": "The building shown in studio.jpg is Hawkins's studio at Sydenham where he made the Crystal Palace dinosaurs.",
+      "where": "Card 1 headline and source line",
+      "verdict": "supported",
+      "quote": "Benjamin Waterhouse Hawkins' studio in Sydenham, where he made the Crystal Palace dinosaur."
+    },
+    {
+      "claim": "Hawkins modelled the animals full size in clay.",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The dinosaurs were designed full-size and built in clay, from which a mould was taken allowing cement sections to be cast."
+    },
+    {
+      "claim": "The models were unveiled in 1854.",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The models were unveiled in 1854, as the first dinosaur sculptures in the world."
+    },
+    {
+      "claim": "The studio photograph is by Philip Henry Delamotte and dates from 1853.",
+      "where": "Card 1 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 1853\nAuthor: Philip Henry Delamotte"
+    },
+    {
+      "claim": "Hawkins held a dinner inside the mould of one of the Iguanodon models on New Year's Eve 1853, to mark the launch of the models.",
+      "where": "Card 2 headline and note; caption",
+      "verdict": "supported",
+      "quote": "To mark the launch of the models, Hawkins held a dinner on New Year's Eve 1853 inside the mould of one of the Iguanodon models."
+    },
+    {
+      "claim": "Guests sat at a laid table inside the standing Iguanodon.",
+      "where": "Card 2 note",
+      "verdict": "supported",
+      "quote": "Woodcut of the famous banquet in Benjamin Waterhouse Hawkins' standing Crystal Palace Iguanodon"
+    },
+    {
+      "claim": "The banquet woodcut dates from 1854.",
+      "where": "Card 2 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 1854"
+    },
+    {
+      "claim": "Fifteen genera of extinct animals are represented, only three of which are true dinosaurs.",
+      "where": "Card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "The sculptures represent 15 genera of extinct animals, only three of which are true dinosaurs."
+    },
+    {
+      "claim": "The concept drawing (diagram.jpg) is Hawkins's own, dated 1854.",
+      "where": "Card 3 note and source; caption image list",
+      "verdict": "supported",
+      "quote": "Description: Concept drawing of Crystal Palace Dinosaurs by Benjamin Waterhouse Hawkins (1854)"
+    },
+    {
+      "claim": "The models were displayed on three islands acting as a rough timeline: Palaeozoic, Mesozoic and Cenozoic.",
+      "where": "Card 3 note",
+      "verdict": "supported",
+      "quote": "The models were displayed on three islands acting as a rough timeline, the first island for the Palaeozoic era, a second for the Mesozoic, and a third for the Cenozoic."
+    },
+    {
+      "claim": "Megalosaurus was modelled as a four-legged (quadrupedal) animal.",
+      "where": "Card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "Owen conjectured the animal was quadrupedal; palaeontologists now believe it to have been bipedal (standing like Tyrannosaurus rex)."
+    },
+    {
+      "claim": "Owen worked from a hip, a femur, a rib and a few vertebrae.",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "consisting mainly of a hip and femur (thigh bone), with a rib and a few vertebrae"
+    },
+    {
+      "claim": "The first suggestion that some dinosaurs were bipedal came in 1858, too late to influence the model.",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "The first suggestion that some dinosaurs might have been bipedal came in 1858, just too late to influence the model."
+    },
+    {
+      "claim": "The geological island illustration dates from 1854.",
+      "where": "Card 4 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 1854-08-12"
+    },
+    {
+      "claim": "Iguanodon's nose horn was actually a thumb bone.",
+      "where": "Card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "lacking a skull, he conjectured that the thumb bone was a nose horn"
+    },
+    {
+      "claim": "Mary Ann Mantell found the Iguanodon fossil in Sussex in 1822.",
+      "where": "Card 5 note",
+      "verdict": "supported",
+      "quote": "Gideon Mantell sketched the original fossil, found in Sussex in 1822 by his wife, Mary Ann Mantell"
+    },
+    {
+      "claim": "The fossil lacked a skull.",
+      "where": "Card 5 note",
+      "verdict": "supported",
+      "quote": "lacking a skull, he conjectured that the thumb bone was a nose horn"
+    },
+    {
+      "claim": "Owen called the horn \"more than doubtful\", in 1854.",
+      "where": "Card 5 note; caption",
+      "verdict": "supported",
+      "quote": "actually, even in 1854, Owen commented \"the horn [is] more than doubtful\""
+    },
+    {
+      "claim": "The postcard used on card 5 dates from the 1910s.",
+      "where": "Card 5 source; caption image list",
+      "verdict": "supported",
+      "quote": "Description: Postcard showing the Crystal Palace Dinosaurs from the 1910s"
+    },
+    {
+      "claim": "The sculptures still exist and have been Grade I listed since 2007.",
+      "where": "Card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "The models were extensively restored in 2001, and upgraded to Grade I listed in 2007."
+    },
+    {
+      "claim": "Funding was cut in 1855 after a total of £13,729 had been spent.",
+      "where": "Card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The building of the models however proved to be costly (totally £13,729), and in 1855, the Crystal Palace Company cut Hawkins's funding."
+    },
+    {
+      "claim": "Half-finished models were scrapped.",
+      "where": "Card 6 note; caption",
+      "verdict": "supported",
+      "quote": "Several planned models were never made, while those half finished were scrapped, despite protest from sources including the Sunday newspaper, The Observer."
+    },
+    {
+      "claim": "A planned mastodon and a Dinornis were never completed.",
+      "where": "Card 6 note; caption",
+      "verdict": "supported",
+      "quote": "Models of the \"fearfully great bird\" Dinornis of New Zealand (extinct by 1500 AD), and of the extinct elephant-like Mastodon (or Deinotherium of the Miocene and Pliocene of Eurasia and Africa), were planned for the 'Tertiary Islands' but not completed."
+    },
+    {
+      "claim": "The card 6 postcard is titled 'Prehistoric Peeps' and dates from 1913.",
+      "where": "Card 6 source",
+      "verdict": "supported",
+      "quote": "CRYSTAL PALACE. PREHISTORIC PEEPS."
+    },
+    {
+      "claim": "Hawkins built the models in a workshop in the park, then cast them in cement.",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Hawkins set up a workshop on site at the Crystal Palace Park and built the models there."
+    },
+    {
+      "claim": "The larger sculptures are hollow with a brickwork interior.",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The larger sculptures are hollow with a brickwork interior."
+    },
+    {
+      "claim": "Richard Owen provided the scientific direction.",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The dinosaur sculptures, inaccurate by modern standards, were designed by Benjamin Waterhouse Hawkins under the scientific direction of Sir Richard Owen"
+    },
+    {
+      "claim": "An inaccurate map of the time is the only record of where the mastodon and Dinornis would have stood.",
+      "where": "Caption",
+      "verdict": "unsupported",
+      "quote": "An inaccurate map of the time shows planned locations of the Dinornis and mastodon."
+    },
+    {
+      "claim": "The models were Grade II listed in 1973 and extensively restored in 2001.",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The models and other elements of Crystal Palace Park were classed as Grade II listed buildings from 1973. The models were extensively restored in 2001, and upgraded to Grade I listed in 2007."
+    },
+    {
+      "claim": "The limestone cliff was blown up in the 1960s and rebuilt using 130 blocks of Derbyshire limestone.",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The limestone cliff was blown up in the 1960s.\nIn 2001, the display was totally renovated. The destroyed limestone cliff was completely replaced using 130 large blocks of Derbyshire limestone"
+    },
+    {
+      "claim": "All the images used are public domain.",
+      "where": "Caption image list and source lines",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 1
+}

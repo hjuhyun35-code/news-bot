@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 0.5초 안에 눈이 그 괴물 눈알에 꽂혔다. 화면 정중앙에서 나를 정면으로 쳐다보는 거대한 도마뱀 얼굴, 그 밑에 작게 붙은 사람들이 보이니까 크기가 미쳤다는 게 바로 읽힌다. 흑백 판화의 빡센 대비도 피드에서 튀어서 손가락이 걸렸다. C는 예쁘긴 한데 세피아 톤이라 그냥 오래된 공원 사진처럼 흘러가고, 공룡 엉덩이가 먼저 보여서 임팩트가 죽는다. B는 뭐가 뭔지 몰라서 눈이 미끄러졌다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "B",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A는 눈이 곧바로 화면 정중앙의 그 큰 눈알로 끌려갔다. 판화의 흰 눈꺼풀 테두리와 검은 동공이 주변의 어두운 해칭 속에서 유일하게 밝은 점이라서 시선이 붙는다. 그 다음에 오른쪽 아래의 작은 인물 두 명이 보이면서 '아, 사람보다 훨씬 크구나' 하는 크기 비교가 저절로 된다. 뒤쪽 사다리와 목조 서까래가 작업장이라는 걸 알려주니 장면 자체가 설명 없이 읽힌다. 반대로 C는 예쁘긴 한데 세피아 공원 사진은 이미 여러 번 본 그림이고, 주인공이 엉덩이를 보이고 서 있어서 눈이 머물 지점이 없다. B는 축소되면서 뭉개져서 뭘 보는지 한참 들여다봐야 했다. 참고로 A와 B는 1850년대 판화라 출처 표기가 있어야 하고, C 같은 사진은 촬영자 크레딧이 빠지면 나는 그게 먼저 눈에 걸린다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B"
+      ],
+      "worst": "B",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "studio.jpg",
+    "crop": "48% 42%",
+    "zoom": 1.05,
+    "fit": "crop",
+    "grade": "ink",
+    "hook": "In 1854 they built the monsters life-size, indoors.",
+    "why": "The tall engraving already fits the card, and two enormous heads read instantly at thumbnail size — a scaled snout with a staring eye above, a fanged jaw below, with tiny workmen for scale. It is unmistakably a workshop full of dinosaurs before a single word is read. Slight zoom trims the roof beams and the darker bottom margin while keeping both heads and the men."
+  }
+}
