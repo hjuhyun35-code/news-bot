@@ -33,13 +33,66 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 글자로도 알아듣지만 단추가 편하다. 못 알아들으면 단추를 보낸다.
 DRAFT_WORDS = ["오늘꺼 초안", "오늘거 초안", "오늘 초안", "초안 만들", "초안만들"]
 STATUS_WORDS = ["상태", "몇 개", "몇개", "남았"]
+MENU_WORDS = ["메뉴", "단추", "버튼", "menu"]
+
+# 이보다 짧은 말은 고치라는 뜻으로 받지 않는다. 명령을 찾다 만 것일
+# 가능성이 크고, 고치기는 7분과 API 값이 든다.
+EDIT_MIN = 6
 
 
 def menu():
-    telegram.say("무엇을 할까요?",
-                 buttons=[[("📮 오늘꺼 초안 만들기", "do:draft")],
-                          [("📊 상태 보기", "do:status")]])
-    print("메뉴 보냄")
+    """채팅창 아래에 계속 떠 있는 자판을 깐다.
+
+    글에 붙는 단추는 대화가 흘러가면 위로 사라진다. 이건 자판 자리에
+    눌러앉아 있어서 언제든 누를 수 있다.
+    """
+    telegram.pin_keyboard(
+        [["📮 오늘꺼 초안", "📊 상태"]],
+        "아래 단추는 계속 떠 있습니다.\n\n"
+        "고치고 싶은 것이 있으면 그냥 적으세요 — "
+        "마지막에 보낸 릴스를 고쳐서 다시 보내드립니다.\n"
+        "예) <i>1번 카드 제목을 더 세게</i>, <i>캡션에서 마지막 문단 빼줘</i>")
+    print("자판 보냄")
+
+
+def latest_reel():
+    """가장 최근에 보낸 릴스의 슬러그. 없으면 None.
+
+    따로 기록해두지 않는다. 완료 표시에 시각이 적혀 있으므로 그것을
+    보면 된다. 기록을 하나 더 두면 어긋날 자리가 하나 더 생긴다.
+    """
+    posts = os.path.join(ROOT, "posts")
+    best, best_when = None, ""
+    if not os.path.isdir(posts):
+        return None
+    for name in os.listdir(posts):
+        path = os.path.join(posts, name, "delivered.json")
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, encoding="utf-8") as f:
+                when = json.load(f).get("delivered_at", "")
+        except (OSError, json.JSONDecodeError):
+            continue
+        if when > best_when:
+            best, best_when = name, when
+    return best
+
+
+def start_edit(text):
+    slug = latest_reel()
+    if not slug:
+        telegram.say("아직 보낸 릴스가 없어서 무엇을 고칠지 모르겠습니다.")
+        return
+    started, err = dispatch("edit.yml", {"slug": slug, "instruction": text})
+    if not started:
+        telegram.say(f"고치기를 시작하지 못했습니다.\n<pre>{err}</pre>")
+        return
+    telegram.say(f"✏️ <b>{slug}</b> 를 고치고 있습니다.\n"
+                 f"시키신 것: {text}\n\n"
+                 f"7분쯤 걸립니다. 사진은 그대로 두고 글만 고칩니다.\n"
+                 f"고친 것이 한도를 넘기거나 자료에 어긋나면 원본을 그대로 둡니다.")
+    print(f"고치기 시작: {slug} — {text}")
 
 
 def start_draft():
@@ -95,10 +148,12 @@ def on_text(msg):
         start_draft()
     elif any(w in text for w in STATUS_WORDS):
         report_status()
-    else:
-        # 무슨 말을 하셨든 단추를 보낸다. 명령어를 외우게 하는 것보다
-        # 누를 것을 보여주는 편이 낫다.
+    elif any(w in text for w in MENU_WORDS) or len(text) < EDIT_MIN:
+        # 짧은 말은 명령을 찾다 만 것으로 본다. 그런 것을 고치라는 뜻으로
+        # 받아 7분과 API 값을 쓰면 안 된다.
         menu()
+    else:
+        start_edit(text)
 
 
 def on_button(cb):

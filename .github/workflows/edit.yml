@@ -1,0 +1,79 @@
+name: edit and remake
+
+# 사장님이 텔레그램에 적은 대로 대본을 고치고 릴스를 다시 만든다.
+# 사진은 건드리지 않는다 — 표지는 독자 투표로 정한 것이다.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "post folder name under posts/"
+        required: true
+      instruction:
+        description: "무엇을 어떻게 고칠지, 한국어로"
+        required: true
+
+concurrency:
+  group: edit-${{ inputs.slug }}
+  cancel-in-progress: true
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install anthropic pillow edge-tts
+
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
+
+      - name: make sure ffmpeg is here
+        run: ffmpeg -version >/dev/null 2>&1 || sudo apt-get install -y ffmpeg
+
+      - name: apply the edit
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/apply_edit.py "${{ inputs.slug }}" "${{ inputs.instruction }}"
+
+      - name: render the cards again
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/render_cards.py "${{ inputs.slug }}"
+
+      - name: make the reel again
+        run: python scripts/make_reel.py "${{ inputs.slug }}"
+
+      - name: send it
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_reel.py "${{ inputs.slug }}"
+
+      - name: record
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f posts/*/reel*.mp4
+          git add -A posts
+          git diff --staged --quiet && echo "nothing new" || git commit -m "edit: ${{ inputs.slug }}"
+          git pull --rebase --autostash -q
+          git push
+
+      - name: report a failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/notify.py "고치기가 실패했습니다: ${{ inputs.slug }}
+          원본은 그대로 있습니다.
+          기록: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

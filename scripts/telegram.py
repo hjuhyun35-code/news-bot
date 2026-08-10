@@ -49,6 +49,22 @@ def say(text, buttons=None):
     return call("sendMessage", params)
 
 
+def pin_keyboard(rows, text="아래 단추를 쓰세요. 이 자판은 계속 떠 있습니다."):
+    """채팅창 아래에 항상 떠 있는 자판을 깐다.
+
+    글에 붙는 단추(inline)와 다르다. 그건 대화가 흘러가면 위로 사라진다.
+    이건 자판 자리에 눌러앉아 있어서 언제든 누를 수 있다. 누르면 그
+    글자가 그대로 메시지로 오므로, 받는 쪽은 글로 처리하면 된다.
+    """
+    return call("sendMessage", {
+        "chat_id": CHAT, "text": text,
+        "reply_markup": json.dumps({
+            "keyboard": [[{"text": label} for label in row] for row in rows],
+            "resize_keyboard": True,
+            "is_persistent": True,
+        })})
+
+
 def photos(urls, caption=""):
     """사진 여러 장을 한 묶음으로. 저장소가 공개라 주소만 주면 된다."""
     media = [{"type": "photo", "media": u} for u in urls[:10]]
