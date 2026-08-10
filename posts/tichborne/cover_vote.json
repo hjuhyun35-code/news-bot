@@ -1,0 +1,44 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 얼굴이 화면을 꽉 채워서 눈이 바로 눈동자로 갔다. 모자 각도랑 나비넥타이 패턴, 흑백 노이즈가 오히려 '진짜 옛날 사람'이라는 느낌을 줘서 0.5초 정도는 붙잡혔다. 사람이 나를 쳐다보는 얼굴은 무조건 이긴다. B는 그냥 오래된 판화 풍경 — 눈이 초가집 지붕을 훑다가 아무 것도 못 잡고 넘어감. 소도 사람도 작아서 감정이 없다. C는 사진 네 장이 잘려 있어서 위쪽 두 칸은 뭐가 찍힌 건지 전혀 모르겠고, 글씨(Wagga Wagga, Dowager Lady)를 읽으려는 순간 이미 숙제 느낌이라 손가락이 먼저 움직였다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "B",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A에서 눈이 먼저 간 건 모자 밑의 눈동자였다. 얼굴이 프레임을 거의 다 채우고 있어서 스크롤 중에도 사람 얼굴로 인식되고, 시선이 카메라 살짝 옆을 보는 게 묘하게 걸려서 한 번 더 봤다. 다게레오타입 특유의 타원 비네트와 흠집, 나비넥타이의 체크 무늬까지 디테일이 살아 있어서 '진짜 오래된 원본'이라는 신뢰감이 있다. B는 판화라 예쁘긴 한데 축소된 상태에서는 초가집 그림 한 장으로만 보여서 눈이 그냥 지나간다. 간판 글씨(CASTRO BUTCHER)가 핵심인데 그게 작아서 안 읽힌다 — 그게 안 읽히면 사진이 할 일을 못 하는 것이다. C는 아이디어가 제일 좋다. 두 시점의 같은 사람을 나란히 놓는 건 실제로 이 사건의 핵심이니까. 그런데 실행이 엉망이다. 위쪽 두 칸은 노출이 날아가서 사람 얼굴이 아예 안 보이고 의자 다리만 남았고, 캡션 글씨는 양쪽이 잘려서 'at Wagga Wagga 1866,' 'Taken at Sydney, 18—'까지만 읽힌다. 아래 두 얼굴도 큰 글자에 턱이 가려졌다. 판 전체를 안 자르고 보여주면 C가 이겼을 것이다. 참고로 셋 다 출처 표기가 없다 — A는 명백히 19세기 다게레오타입이고 C는 인쇄된 사진판인데 소장처가 어디인지 한 줄도 없다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "B",
+        "C"
+      ],
+      "worst": "B",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "roger.jpg",
+    "crop": "52% 34%",
+    "zoom": 1.15,
+    "fit": "crop",
+    "grade": "ink",
+    "hook": "He sailed in 1854. Someone came back.",
+    "why": "The one clear, single-subject photograph in the set: a young gentleman in a top hat, face and torso instantly readable at thumbnail size. Zoomed just enough to push the oval vignette and the white album page off the edges, so the card reads as a face, not a scan. Ink grade deepens the blacks of hat and coat against the pale waistcoat for contrast that survives a fast scroll."
+  }
+}

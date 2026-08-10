@@ -27,5 +27,12 @@
       "file": "hydeparkmeeting.jpeg",
       "commons": "File:Meeting pour Tichborne à Hyde Park (Monde illustré, 1875-04-10).jpeg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "roger.jpg",
+    "crop": "52% 34%",
+    "zoom": 1.15,
+    "fit": "crop",
+    "grade": "ink"
+  }
 }

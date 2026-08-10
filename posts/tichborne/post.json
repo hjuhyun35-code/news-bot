@@ -1,0 +1,86 @@
+{
+  "caption": "Was the Tichborne Claimant really Arthur Orton?\n\nRoger Tichborne, heir to a Hampshire baronetcy, sailed from Rio in April 1854 on the Bella. A capsized boat bearing the ship's name was found four days later. No survivors.\n\nHis mother refused to believe it. She advertised in Australian newspapers for news of him. In 1866 a bankrupt Wagga Wagga butcher trading as Thomas Castro came forward, smoking a pipe marked R.C.T. Lady Tichborne accepted him the moment she saw his face in a Paris hotel, and settled £1,000 a year on him.\n\nAlmost no other Tichborne agreed. Roger grew up speaking French; the Claimant spoke none and had a pronounced cockney accent. Roger was slender; by 1867 the Claimant weighed nearly 300 pounds. Australian station records held no Thomas Castro — but they did list an Arthur Orton, a butcher's son from Wapping.\n\nThe civil jury stopped the case in 1872. The criminal trial ran 188 court days. In 1874 the jury found that he was not Roger Tichborne, that he had not seduced Katherine Doughty, and that he was Arthur Orton. Fourteen years.\n\nReleased in 1884, he toured music halls, confessed for a fee in 1895 and retracted almost at once. He died destitute in 1898; about 5,000 people came to the pauper's grave, and the family allowed a card reading \"Sir Roger Charles Doughty Tichborne\" on the coffin.\n\nStill open: Douglas Woodruff argued in 1957 that the imposture was too improbable to invent from scratch, and that the Claimant just conceivably was Roger.\n\nImages: Thomas Helsby's 1853 daguerreotype of Roger in Santiago; the 1873 \"Four Portraits from Life of the Claimant\"; a sketch of Castro's Wagga Wagga shop; drawings from \"The Tichborne Case in a Nutshell\" (1874); Frederick Sargent's trial painting; F. T. Lix's 1875 Hyde Park meeting. All public domain.\n\n#tichbornecase #victorianhistory #archivephotography #unsolvedhistory #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "roger.jpg",
+      "crop": "52% 34%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "This heir vanished at 25. His mother <y>recognised a butcher</y>.",
+      "note": "Roger Tichborne sailed from Rio in 1854. The Bella's capsized boat was found four days later.",
+      "source": "Thomas Helsby, Santiago, 1853 · public domain",
+      "alt": "Young man in a top hat and bow tie, oval daguerreotype portrait.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "claimantportraits.jpg",
+      "crop": "80% 26%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "By 1867 the Claimant weighed nearly <y>300 pounds</y>",
+      "note": "Roger Tichborne was remembered as slender. The Claimant gained 40 pounds on the voyage to England alone.",
+      "source": "Four Portraits from Life of the Claimant, 1873",
+      "alt": "Sepia oval studio portrait of a heavy-set seated man on a printed card.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "butchershop.jpg",
+      "crop": "48% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "A bankrupt butcher's pipe was marked <y>R.C.T.</y>",
+      "note": "In Wagga Wagga he traded as Thomas Castro. Challenged by a lawyer, he agreed he was Roger Tichborne.",
+      "source": "Castro's butcher shop, Wagga Wagga · public domain",
+      "alt": "Engraving of a thatched shopfront with a sign reading T CASTRO BUTCHER.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "tattoomarks.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "Two witnesses swore to Roger's tattoos and <y>drew different marks</y>",
+      "note": "Lord Bellew said Roger had tattoos the Claimant lacked. Soon after, the jury said it had heard enough.",
+      "source": "'The Tichborne Case in a Nutshell', 1874",
+      "alt": "Two ink drawings of a cross, heart and anchor with initials, on a stained page.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "courtroom.jpg",
+      "crop": "48% 58%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "188 court days, <y>215 witnesses</y>, a 30-minute verdict",
+      "note": "The Claimant was barred from testifying. Mark Twain saw him feted in London, called 'Sir Roger' by everyone.",
+      "source": "Frederick Sargent, The Tichborne Trial · public domain",
+      "alt": "Painting of a crowded Victorian courtroom, barristers in wigs at desks.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "hydeparkmeeting.jpeg",
+      "crop": "50% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The jury said he was <y>Arthur Orton</y>, a butcher's son from Wapping",
+      "note": "He served 10 years, confessed for a fee in 1895, then retracted. Woodruff argued in 1957 that doubt remains.",
+      "source": "F. T. Lix, Le Monde illustré, 1875 · public domain",
+      "alt": "Engraving of a large crowd with banners under bare trees at Hyde Park.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "tichborne",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
