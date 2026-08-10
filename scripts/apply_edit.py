@@ -17,7 +17,7 @@ import sys
 import anthropic
 
 from llm import answer_of
-from write_post import (CARD_SCHEMA, CHECKER_SYSTEM, MODEL, WRITER_SYSTEM,
+from write_post import (CARD_SCHEMA, MODEL, WRITER_SYSTEM,
                         commons_record, image_blocks, tidy, wikipedia_extract)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
