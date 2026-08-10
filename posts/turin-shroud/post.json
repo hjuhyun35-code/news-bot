@@ -11,8 +11,7 @@
       "headline": "The face only appears in the <y>photographic negative</y>",
       "note": "On the cloth it is a faint brown smudge. Reversed, it becomes a bearded man.",
       "source": "Shroud of Turin, positive and negative · public domain",
-      "alt": "Two panels of shroud cloth: pale sepia stain left, negative showing a face right.",
-      "file": "card1.png"
+      "alt": "Two panels of shroud cloth: pale sepia stain left, negative showing a face right."
     },
     {
       "layout": "body",
@@ -24,8 +23,7 @@
       "headline": "Secondo Pia saw it first, on <y>28 May 1898</y>",
       "note": "He made the first photographs of the shroud. The Vatican paper reported it with no comment.",
       "source": "Secondo Pia, 1898 print · public domain",
-      "alt": "Sepia albumen print of a shrouded face with handwritten Italian caption below.",
-      "file": "card2.png"
+      "alt": "Sepia albumen print of a shrouded face with handwritten Italian caption below."
     },
     {
       "layout": "body",
@@ -37,8 +35,7 @@
       "headline": "Radiocarbon dating put the linen at <y>AD 1260 to 1390</y>",
       "note": "Three labs, 95% confidence, 1988. The date matches the cloth's first appearance in church records.",
       "source": "Full-length photograph of the Shroud of Turin · public domain",
-      "alt": "Full length of the shroud showing front and back body images and burn patches.",
-      "file": "card3.png"
+      "alt": "Full length of the shroud showing front and back body images and burn patches."
     },
     {
       "layout": "body",
@@ -50,8 +47,7 @@
       "headline": "A bishop called it a painting in <y>1389</y>",
       "note": "Pierre d'Arcis wrote that the artist had been identified. The Pope allowed showings if they said so aloud.",
       "source": "Copper engraving of the shroud, Turin, 1608 · public domain",
-      "alt": "1608 engraving showing the shroud's front and back body imprint in orange ink.",
-      "file": "card4.png"
+      "alt": "1608 engraving showing the shroud's front and back body imprint in orange ink."
     },
     {
       "layout": "body",
@@ -63,8 +59,7 @@
       "headline": "Enrie repeated it in <y>1931</y> and got the same face",
       "note": "Giuseppe Enrie photographed the cloth on 24 May 1931. His negative matched Pia's result.",
       "source": "Giuseppe Enrie, gelatin silver print, 1931 · public domain",
-      "alt": "Dark gelatin silver negative of the shroud face, herringbone weave clearly visible.",
-      "file": "card5.png"
+      "alt": "Dark gelatin silver negative of the shroud face, herringbone weave clearly visible."
     },
     {
       "layout": "closing",
@@ -76,11 +71,7 @@
       "headline": "Medieval cloth. <y>The image is still unexplained</y>",
       "note": "No experiment has reproduced every property of it at once. The Church neither endorses nor rejects it.",
       "source": "Fresco at Bessan, painted 1503–1522 · CC0",
-      "alt": "Faded fresco of five clergy holding out a long white shroud bearing a body image.",
-      "file": "card6.png"
+      "alt": "Faded fresco of five clergy holding out a long white shroud bearing a body image."
     }
-  ],
-  "slug": "turin-shroud",
-  "handle": "@theglassnegative",
-  "image_dir": "img"
+  ]
 }
