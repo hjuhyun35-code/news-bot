@@ -22,7 +22,6 @@
 여기서 재는 것은 글이 아니라 사진의 힘이다.
 """
 
-import base64
 import json
 import os
 import shutil
@@ -153,12 +152,15 @@ def photo_blocks(img_dir, images):
 
 
 def png_block(path, label):
-    with open(path, "rb") as f:
-        data = base64.standard_b64encode(f.read()).decode()
-    return [{"type": "text", "text": label},
-            {"type": "image", "source": {"type": "base64",
-                                         "media_type": "image/png",
-                                         "data": data}}]
+    """그려본 카드를 보여준다. 보낼 때는 줄인다.
+
+    1080x1350 PNG 한 장이 1.5MB 쯤 된다. 후보 셋에 독자마다 한 번씩이면
+    요청이 금방 한도에 닿는다. 글자는 이 크기에서도 읽힌다.
+    """
+    block = image_block(path)
+    if not block:
+        return []
+    return [{"type": "text", "text": label}, block]
 
 
 def propose(client, source, img_dir):

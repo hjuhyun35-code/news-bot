@@ -46,11 +46,46 @@ def block_from(blob):
         "data": base64.standard_b64encode(blob).decode()}}
 
 
+# 모델에 보낼 때만 줄이는 크기. 저장된 원본은 그대로 둔다 — 카드를
+# 그릴 때는 확대 크롭까지 견뎌야 하므로 2400픽셀이 필요하다.
+#
+# 2026-08-10, 표지 후보를 뽑다가 413 Request exceeds the maximum size 로
+# 죽었다. 2400픽셀 원본 여섯 장을 그대로 보내고 있었다. 무엇이 찍혔는지
+# 보고 판단하는 데는 이 크기면 넉넉하다.
+MAX_SIDE = 1400
+JPEG_QUALITY = 82
+SMALL_ENOUGH = 900_000     # 이보다 작으면 굳이 손대지 않는다
+
+
+def shrink(blob, max_side=MAX_SIDE):
+    """모델에 보낼 그림을 줄인다. 못 줄이면 원본 그대로 돌려준다.
+
+    Pillow 를 여기서 불러온다. 이 파일을 쓰는 워크플로 중에 Pillow 를
+    안 까는 것이 있는데(prepare), 그쪽은 이 함수를 안 쓴다. 맨 위에서
+    불러오면 그 워크플로가 통째로 죽는다.
+    """
+    if len(blob) < SMALL_ENOUGH:
+        return blob
+    try:
+        import io
+
+        from PIL import Image
+
+        img = Image.open(io.BytesIO(blob))
+        img = img.convert("RGB")
+        img.thumbnail((max_side, max_side), Image.LANCZOS)
+        buf = io.BytesIO()
+        img.save(buf, "JPEG", quality=JPEG_QUALITY)
+        return buf.getvalue()
+    except Exception:
+        return blob
+
+
 def image_block(path):
     """사진 파일 하나를 모델에 보낼 형태로. 못 읽으면 None."""
     try:
         with open(path, "rb") as f:
-            return block_from(f.read())
+            return block_from(shrink(f.read()))
     except OSError:
         return None
 
