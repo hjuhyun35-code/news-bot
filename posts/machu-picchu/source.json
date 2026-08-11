@@ -27,5 +27,12 @@
       "file": "threewindows.jpg",
       "commons": "File:Room of the Three Windows - Machu Picchu.jpg"
     }
-  ]
+  ],
+  "cover": {
+    "image": "cityatsunrise.jpg",
+    "crop": "50% 46%",
+    "zoom": 1.12,
+    "fit": "crop",
+    "grade": "base"
+  }
 }

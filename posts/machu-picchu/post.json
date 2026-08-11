@@ -1,0 +1,86 @@
+{
+  "caption": "Who discovered Machu Picchu?\n\nIn July 1911 the American historian Hiram Bingham III was led up a ridge above the Urubamba River by a local farmer, Melchor Arteaga. Near the top he found a hut with two Quechua families, Richarte and Alvarez, who had cleared and been farming the Inca terraces for four years. Richarte's 11-year-old son Pablito walked Bingham to the main ruins.\n\nInside the Temple of the Three Windows, Bingham found a name written in charcoal on the central window: \"A. Lizárraga 1902\". The Peruvian explorer Agustín Lizárraga had cut his way in nine years earlier. Bingham photographed the inscription and published it. In his pocket field journal he wrote that Lizárraga was the discoverer of Machu Picchu. In his last book, Lost City of the Incas (1952), he claimed the find himself.\n\nThe city was never truly lost. Maps reference it as early as 1874, and a 1904 atlas labels it Huayna Picchu. Local people knew it, walked to it, farmed it.\n\nIn 1912, 1914 and 1915 Bingham removed thousands of artifacts to Yale — ceramics, silver figures, jewellery, human bones — supposedly for 18 months. The final batch went home to Peru in November 2012.\n\nStill open: no contemporary written records confirm what the site was for, and none of Bingham's own hypotheses have been substantiated. A 2021 study argues the builders' name for it was probably Huayna Picchu, or simply Picchu — and that \"Machu Picchu\" stuck because of Bingham's 1911 publications.\n\nImages: Allard Schmidt, 2005; H. L. Tucker, 1911; Hiram Bingham III, 1911 and 1912; WMrapids, 2021.\n\n#machupicchu #inca #archivephotography #publicdomain #lostcity",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "cityatsunrise.jpg",
+      "crop": "50% 46%",
+      "zoom": 1.12,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The man who discovered Machu Picchu found <y>1902 graffiti</y>",
+      "note": "He was nine years late. Someone had already signed the temple wall.",
+      "source": "Allard Schmidt, 2005 · public domain",
+      "alt": "Machu Picchu at sunrise, stone terraces below a cloud-wrapped peak.},{\"layout\":\"body\"}",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "overgrownridge1911.jpg",
+      "crop": "60% 45%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "In 1911 <y>two families were living</y> up here",
+      "note": "Richarte and Alvarez had cleared the Inca terraces four years earlier. Richarte's 11-year-old son led Bingham to the ruins.",
+      "source": "H. L. Tucker, 24 July 1911 · public domain",
+      "alt": "Jungle-covered ridge in 1911 with faint stone ruins showing through vegetation.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "manatmonolith1911.jpg",
+      "crop": "55% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "A name in charcoal: <y>Lizárraga 1902</y>",
+      "note": "Bingham's journal called Agustín Lizárraga the discoverer of Machu Picchu. By 1952 Bingham was claiming the find himself.",
+      "source": "Hiram Bingham III, 24 July 1911 · public domain",
+      "alt": "Man in a hat standing beside a tall grooved monolith and fitted Inca stone wall.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "threewindows.jpg",
+      "crop": "45% 44%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The city sits <y>on two earthquake faults</y>",
+      "note": "Researchers argue that was the point. The faults supplied already-fractured granite, fitted without mortar.",
+      "source": "Room of the Three Windows, 2021 · WMrapids, CC0",
+      "alt": "Temple of the Three Windows: granite wall with three large trapezoidal openings.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "sacredplaza1912.jpg",
+      "crop": "40% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Yale borrowed the artifacts for <y>eighteen months</y>",
+      "note": "Bingham shipped out ceramics, silver, jewellery and human bones. The last batch returned to Peru in November 2012.",
+      "source": "Hiram Bingham III, 1912 · public domain",
+      "alt": "The Sacred Plaza in 1912, cleared stone temples below the Sacred Hill.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "urubambacanyon.jpg",
+      "crop": "45% 55%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "It was never lost — <y>maps named it in 1874</y>",
+      "note": "A 1904 atlas labels it Huayna Picchu. Still unknown: what the site was for, and what its builders called it.",
+      "source": "Hiram Bingham III, 1912 · public domain",
+      "alt": "Machu Picchu ridge from above, the Urubamba river winding through a deep canyon.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "machu-picchu",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

@@ -1,0 +1,43 @@
+{
+  "winner": "A",
+  "tally": {
+    "A": 2,
+    "B": 0,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "A",
+      "why": "A는 구름이 산 허리를 가르는 그 흰 띠가 먼저 눈에 꽂혔다. 어두운 흑백인데 안개만 밝아서 시선이 자동으로 봉우리 꼭대기로 끌려 올라갔다가, 아래로 내려오면서 계단식 돌담 도시가 통째로 보인다. '아 마추픽추네' 하고 1초 안에 인식되고, 동시에 뭔가 무서운 분위기라서 손가락이 멈췄다. B는 같은 장소인데 대비를 너무 세게 먹여서 돌 무더기가 지저분하게 뭉개져 보이고, 위아래 검은 띠 때문에 사진이 작아져서 그냥 뉴스 카드 같았다. C는 흰 돌덩이 하나가 화면 한가운데 서 있는데 뭔지 알아보는 데 시간이 걸리고, 밝기가 너무 세서 그냥 콘크리트 벽 사진처럼 보였다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "A",
+      "why": "A는 화면을 열자마자 눈이 봉우리 허리를 가로지르는 안개 띠로 먼저 갔다. 밝은 구름 선이 어두운 산과 부딪히면서 대비가 세고, 그 아래 계단식 석축과 지붕 없는 방들이 줄줄이 이어지는 게 한눈에 '도시'로 읽힌다. 사진 자체가 깊이가 있어서 안개 뒤가 궁금해진다. B는 유적 구조는 알아보겠는데 위아래로 검은 띠가 크게 잘려 있어서 사진이 액자 속 작은 그림처럼 쪼그라들었고, 대비를 과하게 밀어서 돌 질감이 숯처럼 뭉개졌다. C는 한참 들여다봤는데 결국 가운데 커다란 흰 돌판 하나만 보인다. 오른쪽 가장자리에 사람 모자 같은 검은 덩어리가 잘려 나가 있는 게 오히려 눈에 걸리고, 아래쪽은 흐릿하게 뭉개져서 뭘 보라는 건지 모르겠다. 참고로 세 장 다 출처 표기가 없는 점은 짚어두고 싶다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "cityatsunrise.jpg",
+    "crop": "50% 46%",
+    "zoom": 1.12,
+    "fit": "crop",
+    "grade": "base",
+    "hook": "A whole city nobody wrote down for 400 years",
+    "why": "The most instantly readable frame supplied: terraces, streets and the peak all legible at thumbnail size, and the vertical format fills the card without losing the city. Colour and morning cloud do the stopping; the crop sits slightly low so the ruins, not empty sky, own the top half."
+  }
+}

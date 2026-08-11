@@ -1,0 +1,191 @@
+{
+  "claims": [
+    {
+      "claim": "Bingham, the man popularly credited with discovering Machu Picchu, found 1902 graffiti at the site",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "Bingham found the surname of Lizárraga and the 1902 date on the temple."
+    },
+    {
+      "claim": "Bingham was nine years later than the person who had already signed the temple wall (1911 vs 1902)",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "During that visit, Lizárraga marked his surname and the year, \"A. Lizárraga 1902\", in charcoal on the central window of the Temple of the Three Windows. In 1911, American historian and explorer Hiram Bingham traveled the region..."
+    },
+    {
+      "claim": "Card 1 image is by Allard Schmidt, 2005, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 2005-04-09\nAuthor: Allard Schmidt (The Netherlands)\nLicence: Public domain"
+    },
+    {
+      "claim": "In 1911 two families were living at Machu Picchu",
+      "where": "card 2 headline / caption",
+      "verdict": "unsupported",
+      "quote": "they came across a small hut occupied by a couple of Quechua people, Richarte and Alvarez"
+    },
+    {
+      "claim": "Richarte and Alvarez had cleared the Inca terraces four years earlier and were farming them",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "who were farming some of the original Machu Picchu agricultural terraces that they had cleared four years earlier"
+    },
+    {
+      "claim": "Richarte's 11-year-old son (Pablito) led Bingham to the main ruins",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "Richarte's 11-year-old son, Pablito, led Bingham along the ridge to the main ruins."
+    },
+    {
+      "claim": "Card 2 image is by H. L. Tucker, 24 July 1911, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 24 July 1911 date QS:P571,+1911-07-24T00:00:00Z/11\nAuthor: H. L. Tucker\nLicence: Public domain"
+    },
+    {
+      "claim": "The inscription was written in charcoal and read \"Lizárraga 1902\" / \"A. Lizárraga 1902\"",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "During his 1911 visit, Hiram Bingham recorded a charcoal inscription on the central window reading \"Lizárraga 1902\", left by Agustín Lizárraga."
+    },
+    {
+      "claim": "Bingham's pocket field journal called Agustín Lizárraga the discoverer of Machu Picchu",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "he documented in his pocket field journal: \"Agustín Lizárraga is discoverer of Machu Picchu and lives at San Miguel Bridge just before passing.\""
+    },
+    {
+      "claim": "By 1952, in Lost City of the Incas, Bingham claimed to have found the site himself",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "in his final version of the story, Lost City of the Incas (1952), Bingham claimed to have found the site himself"
+    },
+    {
+      "claim": "Lost City of the Incas (1952) was Bingham's last book",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "in his final version of the story, Lost City of the Incas (1952), Bingham claimed to have found the site himself"
+    },
+    {
+      "claim": "The inscription was inside the Temple of the Three Windows, on the central window",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Lizárraga marked his surname and the year, \"A. Lizárraga 1902\", in charcoal on the central window of the Temple of the Three Windows"
+    },
+    {
+      "claim": "Bingham photographed the inscription and published it",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The graffiti appears in Bingham's early photographs, published in The Geographical Journal (December 1911) and National Geographic Magazine (April 1912), indicating prior local knowledge and clearing of the site."
+    },
+    {
+      "claim": "Agustín Lizárraga cut his way in nine years before Bingham, in 1902",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1902, Peruvian explorer Agustín Lizárraga led an expedition to the area now known as Machu Picchu. After several hours of clearing undergrowth, they reached the stone structures of the citadel."
+    },
+    {
+      "claim": "The city sits on two earthquake faults",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "One issue was the seismic activity due to two fault lines, which made mortar and similar building methods nearly useless."
+    },
+    {
+      "claim": "Researchers argue the faults were the point, supplying already-fractured rock for building",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "\"[o]ne simple answer, researchers now suggest, is that that's [earthquake faults] where building materials for the site—large amounts of already fractured rock—were readily available.\""
+    },
+    {
+      "claim": "The stone is granite and was fitted together without mortar",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "The central buildings of Machu Picchu are built in classical Inca dry masonry, with large blocks precisely shaped through quarrying, stone-cutting, and stone-dressing, then fitted together without mortar."
+    },
+    {
+      "claim": "Card 4 image shows the Room/Temple of the Three Windows, taken 2021 by WMrapids, CC0",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Room of the Three Windows - Machu Picchu.jpg\nDescription: The  Room of the Three Windows  at Machu Picchu\nDate: 2021-11-04 12:13:32\nAuthor: WMrapids\nLicence: CC0"
+    },
+    {
+      "claim": "Yale took the artifacts supposedly for 18 months",
+      "where": "card 5 headline / caption",
+      "verdict": "supported",
+      "quote": "Bingham removed thousands of artifacts from Machu Picchu—ceramic vessels, silver statues, jewelry, and human bones—and took them to Yale University for further study, supposedly for 18 months."
+    },
+    {
+      "claim": "Bingham removed ceramics, silver figures, jewellery and human bones, in 1912, 1914 and 1915",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "In 1912, 1914, and 1915, Bingham removed thousands of artifacts from Machu Picchu—ceramic vessels, silver statues, jewelry, and human bones"
+    },
+    {
+      "claim": "The last batch of artifacts returned to Peru in November 2012",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "The third and final batch of artifacts was delivered in November 2012."
+    },
+    {
+      "claim": "Maps referenced Machu Picchu as early as 1874",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "Maps reference Machu Picchu as early as 1874, and a 1904 atlas labeled it as Huayna Picchu."
+    },
+    {
+      "claim": "A 1904 atlas labels the site Huayna Picchu",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "a 1904 atlas labeled it as Huayna Picchu"
+    },
+    {
+      "claim": "It remains unknown what the site was for",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Although Bingham proposed several hypotheses regarding the purpose and significance of the site, none have been substantiated by later research."
+    },
+    {
+      "claim": "It remains unknown what the builders called the site",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Although the original name given to the settlement by its builders is not definitively known"
+    },
+    {
+      "claim": "Bingham was an American historian led up to the site in July 1911 by local farmer Melchor Arteaga",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At Mandor Pampa, Bingham asked farmer and innkeeper Melchor Arteaga if he knew of any nearby ruins. Arteaga said he knew of excellent ruins on the top of Huayna Picchu. The next day, 24 July, Arteaga led Bingham and Sergeant Carrasco across the river on a log bridge and up to the Machu Picchu site."
+    },
+    {
+      "claim": "The ridge is above the Urubamba River",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Machu Picchu is situated above a bow of the Urubamba River, which surrounds the site on three sides"
+    },
+    {
+      "claim": "Local people knew the site, walked to it and farmed it",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Although the site was known locally and reached in the early 20th century by the Peruvian explorer Agustín Lizárraga"
+    },
+    {
+      "claim": "No contemporary written records confirm what the site was for",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it is believed to have served as an estate for the Inca emperor Pachacuti, though no contemporary written records exist to confirm this"
+    },
+    {
+      "claim": "A 2021 study argues the builders' name was probably Huayna Picchu or simply Picchu, and that \"Machu Picchu\" stuck because of Bingham's 1911 publications",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "a 2021 study in Ñawpa Pacha: Journal of the Institute of Andean Studies  suggests that the site was likely called \"Huayna Picchu\", after the smaller peak nearby, or simply \"Picchu\". According to the research, the association of the name Machu Picchu with the ruins likely began with American explorer Hiram Bingham's 1911 publications"
+    },
+    {
+      "claim": "Image credits: Allard Schmidt 2005; H. L. Tucker 1911; Hiram Bingham III 1911 and 1912; WMrapids 2021",
+      "where": "caption, final line",
+      "verdict": "supported",
+      "quote": "Author: Hiram Bingham III\nLicence: Public domain"
+    }
+  ],
+  "problems": 2
+}
