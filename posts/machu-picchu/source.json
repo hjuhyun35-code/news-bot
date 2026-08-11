@@ -1,0 +1,31 @@
+{
+  "subject": "Machu Picchu, a whole city that dropped out of record until 1911",
+  "wikipedia": "Machu Picchu",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "cityatsunrise.jpg",
+      "commons": "File:Peru Machu Picchu Sunrise.jpg"
+    },
+    {
+      "file": "overgrownridge1911.jpg",
+      "commons": "File:Partial view of Machu Picchu in 1911.jpg"
+    },
+    {
+      "file": "manatmonolith1911.jpg",
+      "commons": "File:Agustín Lizárraga signature on Temple of Three Windows of Machu Picchu enhanced.jpg"
+    },
+    {
+      "file": "sacredplaza1912.jpg",
+      "commons": "File:An Architectural Triumph Machu Picchu.jpg"
+    },
+    {
+      "file": "urubambacanyon.jpg",
+      "commons": "File:Machu Picchu and the Urubamba Canyon.jpg"
+    },
+    {
+      "file": "threewindows.jpg",
+      "commons": "File:Room of the Three Windows - Machu Picchu.jpg"
+    }
+  ]
+}
