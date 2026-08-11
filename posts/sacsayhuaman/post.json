@@ -1,0 +1,86 @@
+{
+  "caption": "How did the Inca fit the stones of Sacsayhuamán together so tightly?\n\nSacsayhuamán is a citadel on the northern edge of Cusco, at 3,701 m. Its three great terrace walls are dry stone — no mortar. A single sheet of paper will not fit between many of the blocks. Pedro Pizarro wrote that \"the point of a pin could not have been inserted in one of the joints.\"\n\nEstimates for the largest limestone block run from 128 tonnes to almost 200. The stone was moved an estimated 35 km from Rumicolca. The longest wall is about 400 m and around 6 m tall; the stonework totals over 6,000 cubic metres.\n\nPedro Cieza de León, writing in 1553, recorded that the provinces supplied 20,000 men: 4,000 quarrying, 6,000 hauling stone with great cables of leather and cabuya. He also wrote that the living rock was excavated for the foundation.\n\nAfter the siege of Cusco the Spanish used the site as a quarry, taking it apart block by block for colonial buildings. Garcilaso de la Vega, 1609: \"there is indeed not a house in the city that has not been made of this stone.\" What remains is largely what was too heavy to move.\n\nStill open: how the joints were achieved. The architect Vince Lee proposed the blocks were carved first, towed up ramps and lowered into prepared pockets on stacks of logs, removed one at a time. Experiments reached only limited success, and never at the scale of the largest stones. Surface pottery puts the earliest occupation of the hill at about 900 CE. Ruins found at the periphery in 2008 appear ceremonial, but their exact function remains unknown.\n\nImages: photographs by Bgabel (2005) and Esoltas (2009); an unattributed print of the fortress, c. 1940; an 1854 lithograph after William Lewis Herndon; and two 1900 views by Fernando Garreaud. All public domain.\n\n#sacsayhuaman #inca #cusco #archaeology #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "zigzagterrace.jpg",
+      "crop": "24% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "A sheet of paper <y>won't fit</y> between these stones",
+      "note": "Sacsayhuamán, above Cusco. Dry stone walls, laid without mortar.",
+      "source": "Sacsayhuamán, Cusco, 2005 · Bgabel · public domain",
+      "alt": "Huge fitted stone blocks of a terrace wall rising above a dry field, people below.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "walls.jpg",
+      "crop": "45% 45%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The walls <y>lean inward</y>, and the earthquakes left them standing",
+      "note": "Rounded corners, interlocking shapes and the inward lean are thought to have helped the ruins survive Cuzco's earthquakes.",
+      "source": "Sacsayhuamán walls, 2009 · Esoltas · public domain",
+      "alt": "Tiered dry stone Inca walls of tightly fitted blocks under a bright sky.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "fortress1940.jpg",
+      "crop": "72% 45%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "The largest block weighs up to <y>200 tonnes</y>",
+      "note": "Estimates run from 128 tonnes to almost 200. The stone was moved an estimated 35 km from Rumicolca.",
+      "source": "Fortress of Sacsahuamán, c. 1940 · public domain",
+      "alt": "Black and white view of massive fortress wall blocks with mountains beyond.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "lithograph1854.jpeg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "A chronicler counted <y>20,000 men</y> on the works",
+      "note": "Cieza de León, 1553: 4,000 quarried the stone, 6,000 hauled it with great cables of leather and cabuya.",
+      "source": "Lithograph after William Lewis Herndon, 1854 · public domain",
+      "alt": "1854 lithograph of a man in a hat standing before huge polygonal fortress stones.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "incathronevisitors.png",
+      "crop": "52% 50%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The foundations were cut into the <y>living rock</y>",
+      "note": "Cieza de León wrote the base was prepared so solidly \"that it will endure as long as the world itself.\"",
+      "source": "Fernando Garreaud, Cusco, 1900 · public domain",
+      "alt": "Group of men in hats and suits standing on steps carved into bare bedrock, 1900.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "northeastview1900.png",
+      "crop": "45% 55%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The Spanish took it apart; <y>the joints still aren't explained</y>",
+      "note": "Colonial Cuzco was built from its stone; only blocks too heavy to move remain. Modern replication tests had limited success.",
+      "source": "Fernando Garreaud, north-east view, 1900 · public domain",
+      "alt": "1900 photograph of ruined terraced stone walls on a bare hillside above a track.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "sacsayhuaman",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

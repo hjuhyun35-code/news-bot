@@ -1,0 +1,43 @@
+{
+  "winner": "B",
+  "tally": {
+    "A": 0,
+    "B": 2,
+    "C": 0
+  },
+  "votes": [
+    {
+      "choice": "B",
+      "why": "B는 눈이 제일 먼저 왼쪽 위 바위 꼭대기에 앉은 두 사람 실루엣으로 갔다가, 그 아래 거대한 돌덩이를 따라 쭉 내려오고, 오른쪽 바닥에 있는 아주 작은 사람 하나에서 멈췄다. '아 저게 사람이고 저게 돌이면 저거 미친 크기네' 하는 계산이 1초 안에 됨. 그 세피아 톤도 옛날 사진 같아서 뭔가 진짜 오래된 것처럼 보인다. A는 그냥 어두운 돌담 사진이라 크기 감이 하나도 안 와서 '벽이네' 하고 넘어감. C는 처음에 무슨 흑백 노이즈 덩어리인 줄 알았고, 자세히 봐야 절벽인지 그림인지 겨우 알아봄.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "B",
+      "why": "B에서 눈이 제일 먼저 간 곳은 왼쪽 위 바위 꼭대기에 앉은 두 사람의 실루엣이었다. 그 다음 자동으로 아래로 내려가 벽 앞의 아주 작은 사람 형체를 찾아냈고, 그 순간 이 돌덩이가 얼마나 큰지 계산이 됐다. 크기를 말로 설명하지 않고 사람 두 명으로 보여주는 게 실제로 통했다. A는 잘 찍은 잉카 석벽 사진이긴 한데 하단 절반이 검은 글자판이라 사진이 잘려 죽었고, 무엇보다 '아무도 모른다'는 문구가 눈에 걸린다. 삭사이와만 축조 방식은 채석·성형·시행착오식 맞춤이 상당 부분 연구돼 있다. 그런 과장은 나를 멈추게 하는 게 아니라 댓글을 쓰게 만든다. C는 하프톤 점무늬가 너무 거칠어서 무엇을 찍은 건지 몇 초 봐도 안 잡혔다. B도 노출이 어둡고 세피아가 과해서 아쉽지만, 사람이 있으니 눈이 붙는다. 셋 다 출처 표기가 안 보이는 것도 마음에 걸린다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "C"
+      ],
+      "worst": "C",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "zigzagterrace.jpg",
+    "crop": "24% 40%",
+    "zoom": 1.2,
+    "fit": "crop",
+    "grade": "warm",
+    "hook": "Two people stand on one block. That's the scale.",
+    "why": "Different photograph and a different idea: human figures on top of the megalith give immediate, unmistakable scale, which is the whole point of the post. Crop pushed left onto the giant corner block and the tiny figures, cutting the empty foreground dust and the distant tourist crowd."
+  }
+}

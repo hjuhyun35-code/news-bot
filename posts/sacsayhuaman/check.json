@@ -1,0 +1,221 @@
+{
+  "claims": [
+    {
+      "claim": "A sheet of paper won't fit between the stones of Sacsayhuamán",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "The stones are so closely spaced that a single piece of paper will not fit between many of the stones."
+    },
+    {
+      "claim": "Sacsayhuamán's walls are dry stone, laid without mortar",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "Dry stone walls constructed of huge stones were built on the site, with the workers carefully cutting the boulders to fit them together tightly without mortar."
+    },
+    {
+      "claim": "Sacsayhuamán is above/north of Cusco",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "is a citadel on the northern outskirts of the city of Cusco, Peru, the historic capital of the Inca Empire"
+    },
+    {
+      "claim": "The photograph in card 1 is Sacsayhuamán, Cusco, 2005, by Bgabel, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Cusco-saksayhuaman.jpg\nDescription: Saksayhuaman bei Cusco\nDate: 2005-07\nAuthor: Bgabel\nLicence: Public domain"
+    },
+    {
+      "claim": "The walls lean inward",
+      "where": "card 2 headline/note",
+      "verdict": "supported",
+      "quote": "the variety of their interlocking shapes, and the way the walls lean inward"
+    },
+    {
+      "claim": "Rounded corners, interlocking shapes and the inward lean are thought to have helped the ruins survive Cuzco's earthquakes",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "This precision, combined with the rounded corners of the blocks, the variety of their interlocking shapes, and the way the walls lean inward, is thought to have helped the ruins survive devastating earthquakes in Cuzco."
+    },
+    {
+      "claim": "The card 2 image is Sacsayhuamán walls, 2009, by Esoltas, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Sacsayhuamán walls.jpg\nDescription: The walls of the Incan religious complex Sacsayhuamán, situated to the north of Cusco, Peru.\nDate: 2009-04-16\nAuthor: Esoltas\nLicence: Public domain"
+    },
+    {
+      "claim": "The largest block weighs up to 200 tonnes; estimates run from 128 tonnes to almost 200",
+      "where": "card 3 headline/note, caption",
+      "verdict": "supported",
+      "quote": "Estimates for the weight of the largest Limestone block vary from 128 tonnes to almost 200 tonnes."
+    },
+    {
+      "claim": "The stone was moved an estimated 35 km from Rumicolca",
+      "where": "card 3 note, caption",
+      "verdict": "supported",
+      "quote": "These stones were moved an estimated 35 km (22 miles) from Rumicolca."
+    },
+    {
+      "claim": "The card 3 image is 'Fortress of Sacsahuamán', c. 1940, public domain",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Fortress of Sacsahuamán, Cuzco, Peru.tif ... Date: circa 1940 ... Licence: Public domain"
+    },
+    {
+      "claim": "A chronicler counted 20,000 men on the works",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The Inca ordered that the provinces should provide 20,000 men and that the villages should send the necessary provisions."
+    },
+    {
+      "claim": "Cieza de León wrote in 1553",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "Spanish Chronicler Pedro Cieza de León wrote in 1553:"
+    },
+    {
+      "claim": "4,000 labourers quarried the stone and 6,000 conveyed it with great cables of leather and cabuya",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "There were 4,000 labourers whose duty it was to quarry and get out the stones; 6,000 conveyed them by means of great cables of leather and of cabuya[202] to the works."
+    },
+    {
+      "claim": "The card 4 image is an 1854 lithograph after William Lewis Herndon, public domain",
+      "where": "card 4 source, caption",
+      "verdict": "supported",
+      "quote": "Date: 1854 date QS:P571,+1854-00-00T00:00:00Z/9\nAuthor: William Lewis Herndon\nLicence: Public domain"
+    },
+    {
+      "claim": "The foundations were cut into the living rock",
+      "where": "card 5 headline, caption",
+      "verdict": "supported",
+      "quote": "The living rock was excavated for the foundation, which was prepared with such solidity that it will endure as long as the world itself."
+    },
+    {
+      "claim": "Cieza de León wrote the base was prepared so solidly \"that it will endure as long as the world itself\"",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "which was prepared with such solidity that it will endure as long as the world itself"
+    },
+    {
+      "claim": "The card 5 image is by Fernando Garreaud, Cusco, 1900, public domain",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Description: «N° 343. Cúzco, Uno de los trónos del Ynca»\nDate: 1900\nAuthor: Fernando Garreaud\nLicence: Public domain"
+    },
+    {
+      "claim": "Colonial Cuzco was built from Sacsayhuamán's stone",
+      "where": "card 6 note, caption",
+      "verdict": "supported",
+      "quote": "The site was destroyed block by block to salvage materials with which to build the new Spanish governmental and religious buildings of the colonial city, as well as the houses of the wealthiest Spaniards."
+    },
+    {
+      "claim": "Only blocks too heavy to move remain",
+      "where": "card 6 note, caption",
+      "verdict": "supported",
+      "quote": "Today, it is mostly the pre-colonial stones that were too large to be easily moved that remain at the site."
+    },
+    {
+      "claim": "Modern replication tests had limited success",
+      "where": "card 6 note, caption",
+      "verdict": "supported",
+      "quote": "An experiment was done to see if this would work on a small scale; this accomplished limited success."
+    },
+    {
+      "claim": "The card 6 image is Fernando Garreaud's north-east view, 1900",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Description: «N° 344. Cúzco, Vista de Sacsahuáman; tomada del nor-este»\nDate: 1900\nAuthor: Fernando Garreaud"
+    },
+    {
+      "claim": "Sacsayhuamán sits at an altitude of 3,701 m",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "sits at an altitude of 3,701 metres (12,142 ft)"
+    },
+    {
+      "claim": "The site has three great terrace walls",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The best-known zone of Sacsayhuamán includes its great plaza and its adjacent three massive terrace walls."
+    },
+    {
+      "claim": "Pedro Pizarro wrote that \"the point of a pin could not have been inserted in one of the joints\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "they were so close together, and so well fitted, that the point of a pin could not have been inserted in one of the joints"
+    },
+    {
+      "claim": "The longest wall is about 400 m and around 6 m tall",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The longest of the three walls is about 400 meters. They are about 6 meters tall."
+    },
+    {
+      "claim": "The stonework totals over 6,000 cubic metres",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The estimated volume of stone is over 6,000 cubic meters."
+    },
+    {
+      "claim": "After the siege of Cusco the Spanish used the site as a quarry, taking it apart block by block",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Following the siege of Cusco, the Spaniards began to use Sacsayhuamán as a source of stones for building Spanish Cuzco; within a few years, they had taken apart and demolished much of the complex."
+    },
+    {
+      "claim": "Garcilaso de la Vega, 1609: \"there is indeed not a house in the city that has not been made of this stone.\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "There is indeed not a house in the city that has not been made of this stone, or at least the houses built by the Spaniards."
+    },
+    {
+      "claim": "Vince Lee is an architect",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Vince Lee is an author, architect and explorer who has been consulted on various ancient sites that moved large megaliths."
+    },
+    {
+      "claim": "Vince Lee proposed the blocks were carved first, towed up ramps and lowered into prepared pockets on stacks of logs, removed one at a time",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Then they would be towed up a ramp and above the wall where they would be placed on top of a stack of logs. Then the logs would be removed 1 at a time to lower the stones into place carefully."
+    },
+    {
+      "claim": "The experiments were never done at the scale of the largest stones",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the largest megaliths currently there were more than twice his estimates of the largest \nmegaliths in his time"
+    },
+    {
+      "claim": "Surface pottery puts the earliest occupation of the hill at about 900 CE",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Archeological studies of surface collections of pottery at Sacsayhuamán indicate that the earliest occupation of the hilltop dates to about 900 CE."
+    },
+    {
+      "claim": "Ruins found at the periphery in 2008 appear ceremonial, but their exact function remains unknown",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On 13 March 2008, archaeologists discovered additional ruins at the periphery of Sacsayhuamán. ... While appearing ceremonial in nature, the exact function remains unknown."
+    },
+    {
+      "claim": "The c. 1940 print is unattributed",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Author: Unknown author Unknown author"
+    },
+    {
+      "claim": "All images are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    },
+    {
+      "claim": "The 1854 lithograph is titled 'North view of the remains of the Inca's fort, Sacsahuamam, Cuzco' and was lithographed by P. S. Duval & Co., Philadelphia, after Lieut. L. Gibbon U.S.N.",
+      "where": "lithograph1854.jpeg image",
+      "verdict": "supported",
+      "quote": "NORTH VIEW OF THE REMAINS OF THE INCA'S FORT, SACSAHUAMAM. Cuzco. / By Lieut. L. Gibbon U.S.N. / Lith. of P. S. Duval & Co, Phila"
+    }
+  ],
+  "problems": 0
+}

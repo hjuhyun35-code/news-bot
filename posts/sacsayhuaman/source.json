@@ -27,5 +27,12 @@
       "file": "northeastview1900.png",
       "commons": "File:N° 344. Cúzco, Vista de Sacsahuáman; tomada del nor-este.png"
     }
-  ]
+  ],
+  "cover": {
+    "image": "zigzagterrace.jpg",
+    "crop": "24% 40%",
+    "zoom": 1.2,
+    "fit": "crop",
+    "grade": "warm"
+  }
 }
