@@ -24,6 +24,10 @@ on:
         description: "릴스에 쓸 카드 수. 0이면 전부. 압축은 4"
         required: false
         default: "4"
+      again:
+        description: "yes = 이미 만들어 보낸 소재도 다시 만든다"
+        required: false
+        default: "no"
 
 # 단추 눌림이 두 번 전달되는 일이 있다. 발행과 달리 릴스는 다시 만들어도
 # 손해가 없으므로, 뒤에 온 것이 앞엣것을 밀어내게 둔다. 같은 영상이 두 번
@@ -48,15 +52,21 @@ jobs:
         run: ffmpeg -version >/dev/null 2>&1 || sudo apt-get install -y ffmpeg
 
       - name: build
+        id: build
         env:
           SLUG: ${{ inputs.slug }}
           VOICE: ${{ inputs.voice }}
           HEADLINE_ONLY: ${{ inputs.headline_only }}
           CARDS: ${{ inputs.cards }}
+          AGAIN: ${{ inputs.again }}
         run: |
           extra="--cards ${CARDS:-0}"
           [ "$HEADLINE_ONLY" = "yes" ] && extra="$extra --headline-only"
+          [ "$AGAIN" = "yes" ] && extra="$extra --again"
 
+          # 종료 코드 3 은 "이미 만들어 보낸 소재라 아무것도 안 했다"는
+          # 뜻이다. 고장이 아니므로 실패로 만들지 않는다.
+          set +e
           case "$VOICE" in
             none) python scripts/make_reel.py "$SLUG" --no-tts $extra ;;
             both)
@@ -65,6 +75,23 @@ jobs:
               ;;
             *) python scripts/make_reel.py "$SLUG" --voice "$VOICE" $extra ;;
           esac
+          code=$?
+          set -e
+          if [ $code -eq 3 ]; then
+            echo "skipped=yes" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          exit $code
+
+      - name: say it was already made
+        if: steps.build.outputs.skipped == 'yes'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/notify.py "${{ inputs.slug }} 는 이미 만들어 보낸 소재입니다.
+          아무것도 하지 않았습니다.
+          그래도 다시 만들려면 again 을 yes 로 주고 다시 부르세요."
 
       # 영상은 텔레그램으로 보낸다. 휴대폰에서 바로 저장해 인스타 앱으로
       # 넘어갈 수 있어야 한다. 깃허브 첨부파일은 컴퓨터에서 받아 휴대폰으로
@@ -72,6 +99,7 @@ jobs:
       #
       # 저장소에는 넣지 않는다. 하나에 15~25MB라 몇 달이면 감당 못 한다.
       - name: send to telegram
+        if: steps.build.outputs.skipped != 'yes'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -79,7 +107,7 @@ jobs:
 
       # 텔레그램이 안 될 때를 위한 뒷길. 30일 뒤 저절로 사라진다.
       - uses: actions/upload-artifact@v4
-        if: always()
+        if: always() && steps.build.outputs.skipped != 'yes'
         with:
           name: reel-${{ inputs.slug }}
           path: |

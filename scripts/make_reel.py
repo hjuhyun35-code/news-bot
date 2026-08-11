@@ -46,6 +46,10 @@ TAIL = 0.9                 # 말이 끝난 뒤 여운
 ZOOM_PER_CLIP = 0.06       # 한 장면에서 6% 천천히 확대
 FPS = 30
 
+# 이미 만들어 보낸 소재라 아무것도 하지 않았다는 뜻. 고장(1)과 구분해야
+# 부르는 쪽이 실패 알림 대신 차분한 안내를 보낼 수 있다.
+ALREADY_MADE = 3
+
 # 중저음 남자 목소리. 억양을 바꿔가며 시험할 수 있게 이름을 붙여둔다.
 # 기록 다큐는 영국식이 "진짜배기"로 들리는 관습이 있고, 짧은 영상 피드는
 # 미국식이 압도적이라 영국식이 오히려 눈에 띈다. 어느 쪽이 나은지는
@@ -206,6 +210,8 @@ def main():
     ap.add_argument("--cta", default=CTA,
                     help="마지막에 덧붙일 한 줄. 빈 값이면 안 넣는다")
     ap.add_argument("--out", default="reel.mp4")
+    ap.add_argument("--again", action="store_true",
+                    help="이미 만들어 보낸 소재도 다시 만든다")
     args = ap.parse_args()
     voice = VOICES[args.voice]
 
@@ -214,6 +220,22 @@ def main():
             sys.exit(f"[실패] {prog} 가 없습니다.")
 
     post_dir = os.path.join(ROOT, "posts", args.slug)
+
+    # 소재 이름을 대놓고 지정하면 pick_subject 의 보호가 통째로
+    # 건너뛰어진다. 릴스 단추도 그 길로 간다. 2026-08-11 에 이미 만들어
+    # 보낸 소재를 그렇게 다시 만들었다. 여기가 마지막 관문이다.
+    made = os.path.join(post_dir, "delivered.json")
+    if os.path.exists(made) and not args.again:
+        when = ""
+        try:
+            with open(made, encoding="utf-8") as f:
+                when = json.load(f).get("delivered_at", "")[:10]
+        except (OSError, json.JSONDecodeError):
+            pass
+        print(f"[건너뜀] {args.slug} 는 {when or '전에'} 이미 만들어 보낸 "
+              f"소재입니다. 정말 다시 만들려면 --again 을 주세요.")
+        sys.exit(ALREADY_MADE)
+
     with open(os.path.join(post_dir, "post.json"), encoding="utf-8") as f:
         post = json.load(f)
 
