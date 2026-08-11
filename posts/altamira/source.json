@@ -1,0 +1,31 @@
+{
+  "subject": "The Cave of Altamira, whose paintings were called a forgery for twenty years",
+  "wikipedia": "Cave of Altamira",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "bison.jpg",
+      "commons": "File:Altamira, bison.jpg"
+    },
+    {
+      "file": "ceiling1880.jpg",
+      "commons": "File:Altamira-1880.jpg"
+    },
+    {
+      "file": "tracing1906.jpg",
+      "commons": "File:Bisonte de Altamira.jpg"
+    },
+    {
+      "file": "iln1912.jpg",
+      "commons": "File:Reproductions of cave paintings in the Altamira Cave, Spain 01 - ILN 1912.jpg"
+    },
+    {
+      "file": "ilnboars.jpg",
+      "commons": "File:Reproductions of cave paintings in the Altamira Cave, Spain, from the Illustrated London News, Aug. 17, 1912 LOC matpc.09947.jpg"
+    },
+    {
+      "file": "replicaceiling.jpg",
+      "commons": "File:Altamira, bison, museum 02.JPG"
+    }
+  ]
+}
