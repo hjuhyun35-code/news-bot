@@ -174,7 +174,9 @@
       "subject": "The Baalbek trilithon, thousand-tonne blocks left half-quarried",
       "wikipedia": "Baalbek",
       "hook": "1000톤짜리 돌을 캐다 만 채로 두고 갔다",
-      "screened": "2026-08-06 · 사진 14장"
+      "screened": "2026-08-06 · 사진 14장",
+      "hold": true,
+      "why_hold": "2026-08-11 자동 확인. 후보 11장 중 쓸 만한 것이 5장뿐입니다. The pool contains exactly one image of the actual subject — the 1840s engraving of a colossal stone in the quarry — and no photograph of the trilithon blocks in the podium wall or of the Stone of the Pregnant Woman, so the rest are general Baalbek temple views, plans, a coin and unrelated Lebanon maps; a carousel built from this would be about Baalbek's ruins, not the trilithon.} 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "sacsayhuaman",
