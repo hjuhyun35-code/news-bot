@@ -107,19 +107,29 @@ def video(path, caption=""):
         body += f.read()
     body += f"\r\n--{boundary}--\r\n".encode()
 
-    req = urllib.request.Request(
-        f"{API}/sendVideo", data=bytes(body),
-        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
-    try:
-        with urllib.request.urlopen(req, timeout=300) as r:
-            answer = json.loads(r.read().decode())
-        if not answer.get("ok"):
-            return None, answer.get("description", "알 수 없는 오류")
-        return answer["result"], None
-    except urllib.error.HTTPError as e:
-        return None, f"HTTP {e.code} {e.read().decode()[:300]}"
-    except Exception as e:
-        return None, str(e)
+    # 38MB 짜리를 올리다 write operation timed out 으로 끊긴 적이 있다.
+    # 넉넉히 기다리고, 한 번은 다시 시도한다 — 여기서 놓치면 그 소재를
+    # 만든 값이 통째로 날아간다.
+    payload = bytes(body)
+    last = ""
+    for attempt in (1, 2):
+        req = urllib.request.Request(
+            f"{API}/sendVideo", data=payload,
+            headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+        try:
+            with urllib.request.urlopen(req, timeout=900) as r:
+                answer = json.loads(r.read().decode())
+            if not answer.get("ok"):
+                return None, answer.get("description", "알 수 없는 오류")
+            return answer["result"], None
+        except urllib.error.HTTPError as e:
+            # 텔레그램이 거절한 것이면 다시 보내도 같은 답이 온다
+            return None, f"HTTP {e.code} {e.read().decode()[:300]}"
+        except Exception as e:
+            last = str(e)
+            if attempt == 1:
+                print(f"    올리다 끊겼습니다 ({last}). 다시 시도합니다.")
+    return None, last
 
 
 def updates(offset=None):

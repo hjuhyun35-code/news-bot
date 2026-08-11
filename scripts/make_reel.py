@@ -185,7 +185,10 @@ def clip(frame, seconds, out_mp4):
                  f"zoompan=z='{zoom}':d={frames}:s={W}x{H}:fps={FPS},"
                  f"format=yuv420p"),
          "-t", f"{seconds:.3f}", "-r", str(FPS),
-         "-c:v", "libx264", "-preset", "medium", "-crf", "20", out_mp4])
+         # crf 20 은 정지 사진에 과했다. 카드 여섯 장짜리가 38MB 가 되어
+         # 텔레그램 업로드가 시간 초과로 끊겼다. 23 이면 눈으로 차이를
+         # 못 느끼면서 절반 가까이 줄어든다.
+         "-c:v", "libx264", "-preset", "medium", "-crf", "23", out_mp4])
 
 
 def main():
