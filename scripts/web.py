@@ -15,10 +15,16 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-UA = "GlassNegativeBot/1.0 (hjuhyun35@gmail.com)"
+UA = ("GlassNegativeBot/1.0 "
+      "(https://github.com/hjuhyun35-code/news-bot; hjuhyun35@gmail.com)")
 
-# 다시 부르기까지 기다리는 시간(초). 세 번까지 시도한다.
-WAITS = [2, 6]
+# 다시 부르기까지 기다리는 시간(초).
+#
+# 2초, 6초 두 번이 전부였다. 503 한 번을 넘기기에는 충분했지만 429 는
+# 그것보다 오래 간다. 2026-08-11 에 릴스 여섯 편을 연달아 만들다가 네
+# 편이 여기서 죽었다 — 깃허브 서버는 IP 를 여럿이 나눠 쓰므로 위키미디어가
+# 더 빨리 막는다. 1분까지 기다리면 대개 풀린다.
+WAITS = [3, 10, 30, 60]
 
 # 이 오류들은 잠시 뒤 다시 하면 대개 된다.
 # 404 같은 것은 다시 해도 똑같으니 바로 포기한다.
@@ -28,6 +34,7 @@ RETRY_CODES = {429, 500, 502, 503, 504}
 def _open(url, timeout):
     last = None
     for attempt in range(len(WAITS) + 1):
+        wait = WAITS[attempt] if attempt < len(WAITS) else None
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -36,12 +43,20 @@ def _open(url, timeout):
             last = e
             if e.code not in RETRY_CODES:
                 raise
+            # 얼마나 기다리라고 알려주면 그 말을 따른다. 우리가 정한
+            # 시간보다 길면 그쪽이 맞다.
+            told = e.headers.get("Retry-After") if e.headers else None
+            if told and wait is not None:
+                try:
+                    wait = max(wait, min(int(told), 120))
+                except ValueError:
+                    pass
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             last = e
-        if attempt < len(WAITS):
-            wait = WAITS[attempt]
-            print(f"    (다시 시도 {attempt + 1}/{len(WAITS)} — {last}, {wait}초 뒤)")
-            time.sleep(wait)
+        if wait is None:
+            break
+        print(f"    (다시 시도 {attempt + 1}/{len(WAITS)} — {last}, {wait}초 뒤)")
+        time.sleep(wait)
     raise last
 
 
