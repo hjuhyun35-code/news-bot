@@ -187,12 +187,6 @@ jobs:
           git pull --rebase --autostash -q
           git push
 
-      - name: report a failure
-        if: failure()
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          python scripts/notify.py "초안 만들기가 실패했습니다.
-          소재: ${{ steps.plan.outputs.slug }}
-          기록: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      # 실패했다는 알림은 여기서 보내지 않는다. retry 워크플로가 실패를
+      # 받아 다시 시도하고, 그때 무슨 일이 벌어지는지 한 번만 알린다.
+      # 여기서도 보내면 실패할 때마다 두 통이 간다.

@@ -1,0 +1,74 @@
+name: retry
+
+# 하루치 만들기가 실패하면 스스로 다시 한다.
+#
+# 여기서 걸러지는 실패는 대개 남의 사정이다 — 위키미디어가 잠깐 막거나,
+# 모델이 한 번 이상하게 답하거나, 업로드가 끊기거나. 사람이 다시 시켜야
+# 한다면 그날 몫은 사장님이 알아차릴 때까지 비어 있게 된다.
+#
+# 소재가 없거나 코드가 고장난 것이라면 다시 해도 똑같이 죽는다. 그래서
+# 연달아 세 번 실패했으면 손을 뗀다. 그때는 사람이 봐야 하는 것이다.
+on:
+  workflow_run:
+    workflows: ["daily draft"]
+    types: [completed]
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  again:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: decide whether to try again
+        id: decide
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 최근 세 번이 모두 실패면 다시 하지 않는다. 남의 사정이 아니라
+          # 우리 쪽 문제일 때 계속 부르면 비용만 쌓인다.
+          fails=$(gh api "repos/${{ github.repository }}/actions/workflows/daily.yml/runs?per_page=3&status=completed" \
+                    --jq '[.workflow_runs[].conclusion] | map(select(. == "failure")) | length')
+          echo "최근 세 번 중 실패 $fails 건"
+          if [ "$fails" -ge 3 ]; then
+            echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 위키미디어가 막아서 죽은 경우가 가장 흔하다. 바로 다시 부르면
+      # 같은 벽에 부딪힌다. 좀 식힌다.
+      - name: let it cool down
+        if: steps.decide.outputs.go == 'yes'
+        run: sleep 180
+
+      - name: try again
+        if: steps.decide.outputs.go == 'yes'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run daily.yml --repo "${{ github.repository }}" \
+            -f ignore_quota=yes
+          echo "다시 부름"
+
+      - name: tell what happened
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ steps.decide.outputs.go }}" = "yes" ]; then
+            python scripts/notify.py "만들기가 한 번 실패해서 다시 하고 있습니다.
+            잠시 뒤 영상이 도착하면 된 것입니다. 손대실 것 없습니다."
+          else
+            python scripts/notify.py "만들기가 세 번 연달아 실패했습니다. 다시 하지 않습니다.
+            남의 사정이 아니라 고쳐야 할 것이 있는 듯합니다.
+            기록: https://github.com/${{ github.repository }}/actions/workflows/daily.yml"
+          fi
