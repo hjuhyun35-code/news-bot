@@ -1,0 +1,87 @@
+{
+  "caption": "Were the Altamira cave paintings a forgery?\n\nExperts said yes for over twenty years. Marcelino Sanz de Sautuola published them in 1880 as Paleolithic work; at the Lisbon Prehistorical Congress that same year his findings were ridiculed. French specialists led by Gabriel de Mortillet and Émile Cartailhac argued prehistoric people lacked the ability for abstract thought. A fellow Spaniard claimed a living artist had painted the ceiling on Sautuola's orders.\n\nThe case against him was soot. He could not explain why the walls bore no smoke marks. He later worked out that a lamp burning marrow fat produces far less soot than other fuels.\n\nA rockfall had sealed the cave about 13,000 years ago. A local tiler, Modesto Cubillas, found it in 1868 after a falling tree disturbed the rocks. In 1879 Sautuola's eight-year-old daughter María led him inside, and he realised the markings were drawings.\n\nBy 1902 similar paintings had accumulated across the Franco-Cantabrian region and the evidence could no longer be rejected. Cartailhac published his retraction, \"Mea culpa d'un sceptique\". Sautuola had died fourteen years earlier.\n\nStill open: the age. There is no scientific agreement on dating. Uranium-thorium work put a large red claviform sign at about 36,000 years and a dotted horse in the same chamber at about 22,000 — more than 10,000 years of painting.\n\nThe cave is shut. Visitors' breath damaged the art, it closed in 1977, and green mould appeared in 2002.\n\nImages: Cartailhac's 1906 tracing, an early drawing of the ceiling, two 1912 Illustrated London News pages, and a replica ceiling in Brno. All public domain.\n\n#altamira #cavepainting #archaeology #prehistoricart #glassnegative",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "tracing1906.jpg",
+      "crop": "50% 50%",
+      "zoom": 1.0,
+      "fit": "whole",
+      "grade": "paper",
+      "stamp": "1880–1902",
+      "headline": "Experts called this a <y>forgery</y> for twenty years",
+      "note": "Sautuola said the Altamira paintings were Paleolithic. Specialists said a modern painter had made them on his orders.",
+      "source": "Émile Cartailhac, tracing, 1906 · public domain",
+      "alt": "Colour tracing of a red-brown standing bison with horns and raised tail, on pale paper..",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "ceiling1880.jpg",
+      "crop": "55% 50%",
+      "zoom": 1.0,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "A rockfall sealed the cave for <y>13,000 years</y>",
+      "note": "A falling tree disturbed the fallen rocks. A local tiler, Modesto Cubillas, found the entrance in 1868.",
+      "source": "Early drawing of the Altamira ceiling · public domain",
+      "alt": "Old black-and-white drawing of a cave ceiling crowded with bison, horses and deer figures.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "iln1912.jpg",
+      "crop": "35% 30%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The evidence against them was <y>missing soot</y>",
+      "note": "Sautuola could not explain the clean walls. He later realised a lamp burning marrow fat leaves almost no smoke.",
+      "source": "Illustrated London News, 17 Aug 1912 · public domain",
+      "alt": "Printed page showing painted reproductions of a hind, a horse and a small bison figure.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "ilnboars.jpg",
+      "crop": "45% 65%",
+      "zoom": 2.4,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "A 1912 headline credited <y>the cry of a child</y>",
+      "note": "Sautuola's eight-year-old daughter María led him to the walls in 1879. He saw drawings where others saw marks.",
+      "source": "Matson Collection negative, ILN 1912 · public domain",
+      "alt": "Glass negative of a printed page: overlapping ox, horse and boar drawings above a headline.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "replicaceiling.jpg",
+      "crop": "45% 45%",
+      "zoom": 1.0,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Nobody can visit the originals <y>any more</y>",
+      "note": "Visitors' breath damaged the paintings. The cave closed in 1977, and closed again after green mould appeared in 2002.",
+      "source": "Replica ceiling, Anthropos Museum, Brno · public domain",
+      "alt": "Replica cave ceiling with a large dark red bison painted over cracked pale rock.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "bison.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.0,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "They were real. Cartailhac printed <y>'Mea culpa d'un sceptique'</y>",
+      "note": "That was 1902. Sautuola had been dead fourteen years. The dating is still unsettled: some marks are about 36,000 years old.",
+      "source": "Altamira bison, modern reproduction · public domain",
+      "alt": "Reproduction of a crouching Altamira bison in red and black pigment on pale ground.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "altamira",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

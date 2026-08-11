@@ -1,0 +1,209 @@
+{
+  "claims": [
+    {
+      "claim": "Experts regarded the Altamira paintings as a forgery for over twenty years (1880–1902)",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The controversy continued until 1902, by which time reports of similar findings of prehistoric paintings in the Franco-Cantabrian region had accumulated and the evidence could no longer be rejected."
+    },
+    {
+      "claim": "Sautuola was accused of forgery",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "Due to the high artistic quality, and the exceptional state of conservation of the paintings, Sautuola was accused of forgery"
+    },
+    {
+      "claim": "Sautuola said the Altamira paintings were Paleolithic",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "resulting in a much acclaimed publication in 1880 which interpreted the paintings as Paleolithic in origin"
+    },
+    {
+      "claim": "Specialists said a modern painter had made the paintings on Sautuola's orders",
+      "where": "card 1 note",
+      "verdict": "unsupported",
+      "quote": "A fellow countryman maintained that the paintings had been produced by a contemporary artist, on Sautuola's orders."
+    },
+    {
+      "claim": "A fellow Spaniard claimed a living artist had painted the ceiling on Sautuola's orders",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A fellow countryman maintained that the paintings had been produced by a contemporary artist, on Sautuola's orders."
+    },
+    {
+      "claim": "Card 1's image is a tracing by Émile Cartailhac dated 1906",
+      "where": "card 1 source; caption (\"Cartailhac's 1906 tracing\")",
+      "verdict": "supported",
+      "quote": "Description: Calco de uno de los bisontes del panel de los bisontes en la  Cueva de Altamira  ( Cantabria ,  España ) Date: 1906 Author: Émile Cartailhac"
+    },
+    {
+      "claim": "A rockfall sealed the cave for about 13,000 years",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "Around 13,000 years ago a rockfall sealed the cave's entrance, preserving its contents until its eventual discovery"
+    },
+    {
+      "claim": "A falling tree disturbed the fallen rocks, leading to the discovery",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "which occurred after a nearby tree fell and disturbed the fallen rocks"
+    },
+    {
+      "claim": "Modesto Cubillas, a local tiler, found the cave entrance in 1868",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "The site was discovered in 1868 by Modesto Cubillas and subsequently studied by Marcelino Sanz de Sautuola."
+    },
+    {
+      "claim": "Card 2's image is an early drawing of the Altamira ceiling",
+      "where": "card 2 source; caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Altamira-1880.jpg"
+    },
+    {
+      "claim": "The evidence against Sautuola was the absence of soot marks on the walls and ceilings",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "he was unable to explain why there were no soot (smoke) marks on the walls and ceilings of the cave"
+    },
+    {
+      "claim": "A lamp burning marrow fat leaves almost no smoke",
+      "where": "card 3 note",
+      "verdict": "unsupported",
+      "quote": "Later, Sautuola discovered that the artist could have used marrow fat as oil for the lamp, producing much less soot than any other combustibles."
+    },
+    {
+      "claim": "A lamp burning marrow fat produces far less soot than other fuels, as Sautuola later worked out",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Later, Sautuola discovered that the artist could have used marrow fat as oil for the lamp, producing much less soot than any other combustibles."
+    },
+    {
+      "claim": "Card 3's source page is the Illustrated London News of 17 August 1912",
+      "where": "card 3 source",
+      "verdict": "contradicted",
+      "quote": "224—THE ILLUSTRATED LONDON NEWS, Aug. 10, 1912. 225 (printed header visible in iln1912.jpg; the archive record's \"Aug. 17, 1912\" conflicts with the page itself)"
+    },
+    {
+      "claim": "A 1912 page carried the headline \"the cry of a child\"",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "DISCOVERED AT THE CRY OF A CHILD: REMARKABLE PAINTINGS BY PALÆOLITHIC (headline visible in ilnboars.jpg; record dates the page 17 August 1912)"
+    },
+    {
+      "claim": "Sautuola's eight-year-old daughter María led him to the cave walls in 1879",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "In 1879, following its discovery a decade earlier by local tiler Modesto Cubillas, amateur archaeologist Marcelino Sanz de Sautuola was led by his eight-year-old daughter María to the cave and realized that the markings on the walls constituted drawings."
+    },
+    {
+      "claim": "He saw drawings where others saw marks",
+      "where": "card 4 note",
+      "verdict": "unsupported",
+      "quote": "was led by his eight-year-old daughter María to the cave and realized that the markings on the walls constituted drawings"
+    },
+    {
+      "claim": "Card 4's image is a negative from the Matson Collection reproducing an ILN 1912 page",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Abstract/medium:  G. Eric and Edith Matson Photograph Collection\n \n Physical description:  1 negative :"
+    },
+    {
+      "claim": "The original cave can no longer be visited",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "The cave can no longer be visited, for conservation reasons, but there are replicas of a section at the site and elsewhere."
+    },
+    {
+      "claim": "Visitors' breath damaged the paintings",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "the paintings were being damaged by the carbon dioxide and water vapour in the breath of the large number of visitors"
+    },
+    {
+      "claim": "The cave closed in 1977 and closed again after green mould appeared in 2002",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Altamira was completely closed to the public in 1977, and reopened to limited access in 1982. ... After green mould began to appear on some paintings in 2002, the caves were closed to public access."
+    },
+    {
+      "claim": "Card 5's image shows a replica ceiling in the Anthropos Museum, Brno",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Description: Bison from the model of the ceiling of Altamira, in the Brno museum Anthropos"
+    },
+    {
+      "claim": "Cartailhac published \"Mea culpa d'un sceptique\" in 1902 as a retraction",
+      "where": "card 6; caption",
+      "verdict": "supported",
+      "quote": "That year, Cartailhac emphatically admitted his mistake in the famous article, \"Mea culpa d'un sceptique\", published in the journal L'Anthropologie."
+    },
+    {
+      "claim": "Sautuola had been dead fourteen years by then",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "Sautuola, having died 14 years earlier, did not live to witness his rehabilitation."
+    },
+    {
+      "claim": "The dating is still unsettled and some marks are about 36,000 years old",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The oldest sign found, a \"large red claviform-like symbol of Techo de los Polícromos\", was dated to  36.16±0.61 ka (corrected)"
+    },
+    {
+      "claim": "Card 6's image is a modern reproduction of an Altamira bison",
+      "where": "card 6 source; caption",
+      "verdict": "supported",
+      "quote": "Description: A modern interpretation of the bison from the  Altamira  cave ceiling, one of the most famous paintings from there."
+    },
+    {
+      "claim": "Sautuola's findings were ridiculed at the 1880 Prehistorical Congress in Lisbon",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "whose findings were loudly ridiculed at the 1880 Prehistorical Congress in Lisbon"
+    },
+    {
+      "claim": "French specialists led by Gabriel de Mortillet and Émile Cartailhac rejected the hypothesis",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The French specialists, led by Gabriel de Mortillet and Émile Cartailhac, were particularly adamant in rejecting the hypothesis of Sautuola and Piera"
+    },
+    {
+      "claim": "The sceptics argued prehistoric people lacked the ability for abstract thought",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "some of whom rejected the prehistoric origin of the paintings on the grounds that prehistoric human beings lacked sufficient ability for abstract thought"
+    },
+    {
+      "claim": "By 1902 similar paintings had accumulated across the Franco-Cantabrian region and the evidence could no longer be rejected",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The controversy continued until 1902, by which time reports of similar findings of prehistoric paintings in the Franco-Cantabrian region had accumulated and the evidence could no longer be rejected."
+    },
+    {
+      "claim": "Uranium-thorium dating put a dotted horse in the same chamber at about 22,000 years, spanning more than 10,000 years of painting",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A red dotted outline horse, also in the Techo de los Polícromos chamber, was dated to  22.11±0.13 ka (beginning Solutrean), establishing that the paintings span a period of more than 10,000 years."
+    },
+    {
+      "claim": "There is no scientific agreement on the dating",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "There is no scientific agreement on the dating of the archeological artifacts found in the cave, nor the drawings and paintings"
+    },
+    {
+      "claim": "Two of the images are pages from the Illustrated London News of 1912",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Reproductions of cave paintings in the Altamira Cave, Spain, from the Illustrated London News, Aug. 17, 1912"
+    },
+    {
+      "claim": "All the images used are public domain",
+      "where": "card sources; caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 4
+}

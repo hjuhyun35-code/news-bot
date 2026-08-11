@@ -1,0 +1,43 @@
+{
+  "winner": "C",
+  "tally": {
+    "A": 0,
+    "B": 0,
+    "C": 2
+  },
+  "votes": [
+    {
+      "choice": "C",
+      "why": "C가 유일하게 1초 안에 \"뭔지\" 파악됨. 흰 배경 위에 진한 주황빛 들소가 통째로 박혀 있어서 피드의 회색 더미 사이에서 색이 먼저 튀고, 눈이 뿔 → 등의 곡선 → 짧은 다리 순으로 자동으로 훑음. 동물이 완전한 한 마리로 보이니까 '이거 동굴벽화네' 하고 바로 이해되고, 그 다음에 아래 글자가 읽힘. A는 예쁘고 어둡긴 한데 확대된 얼룩 같아서 뭘 보는 건지 몰라 그냥 넘김 — 어두운 사진은 폰 화면에서 그냥 검은 네모임. B는 세피아라 색이 죽고 소가 웅크린 자세라 형태가 뭉개져서 처음엔 곰인지 소인지 헷갈렸음.",
+      "stops_scroll": true,
+      "unreadable": [
+        "A"
+      ],
+      "worst": "A",
+      "name": "Maya",
+      "age": 19
+    },
+    {
+      "choice": "C",
+      "why": "엄지가 멈춘 건 C였다. 붉은 황토색 들소가 흰 배경 위에 통째로 떠 있어서, 피드의 회색 잡음 사이에서 색 하나로 튀어나온다. 눈이 먼저 간 곳은 뿔과 눈 주변의 진한 검은 윤곽이었고, 거기서 등선을 따라 꼬리까지 자연스럽게 훑었다. 무엇을 찍은 건지 0.5초 안에 알아본다는 게 결정적이다. A는 확대·어둡게 처리해서 분위기는 있지만 나는 뭘 보고 있는지 몰랐다 — 갈라진 암벽 질감과 어두운 덩어리뿐이고, 그 덩어리가 짐승인지 그림자인지 판단이 안 섰다. 게다가 A의 문구는 '전문가들이 아니라고 했다' 식으로 과장 냄새가 나서 나 같은 사람은 오히려 반박하고 싶어진다. B는 세피아 톤이 답답하고 형체가 웅크린 채 뭉개져서 머리와 몸의 경계가 애매했다. C도 그림 위쪽에 검은 띠가 남아 있어 크롭이 어설픈 건 눈에 걸리고, 출처 표기가 없는 것도 걸린다.",
+      "stops_scroll": true,
+      "unreadable": [
+        "A"
+      ],
+      "worst": "B",
+      "name": "Robert",
+      "age": 52
+    }
+  ],
+  "stops_scroll": 2,
+  "asked": 2,
+  "chosen": {
+    "image": "tracing1906.jpg",
+    "crop": "50% 50%",
+    "zoom": 1.0,
+    "fit": "whole",
+    "grade": "paper",
+    "hook": "A drawing that got a man called a liar",
+    "why": "Breuil's copy shows a standing bison in full profile — horns, tail, four legs — the single clearest readable silhouette of the set, and it reads as an old book plate, signalling archive at a glance. At 1.6:1 the animal spans the frame end to end, so cropping would sever tail or horns; 'whole' keeps the figure recognisable. Paper grade leans into the pale printed ground."
+  }
+}
