@@ -379,17 +379,32 @@ def main():
         if rec["width"] > DOWNLOAD_W:
             name = stem + ".jpg"
 
-        # 원본 주소를 받아둔다. 축소가 필요하면 download() 가 알아서 바꾼다
-        info = get("https://commons.wikimedia.org/w/api.php", {
-            "action": "query", "format": "json", "titles": rec["commons"],
-            "prop": "imageinfo", "iiprop": "url",
-        })
-        page = next(iter(info["query"]["pages"].values()))
-        rec["full_url"] = page["imageinfo"][0]["url"]
+        # 한 장이 안 받아진다고 소재 전체를 죽이지 않는다.
+        #
+        # 아주 큰 원본은 위키미디어가 축소본을 제때 못 만들어 503 을 내고,
+        # 다시 조르면 429 로 막는다. 2026-08-12 에 serpent-mound 가 그
+        # 한 장 때문에 하루 넘게 계속 죽었다. 다른 소재는 멀쩡했다.
+        #
+        # 고르는 쪽이 4~6장을 골라주므로 한둘 빠져도 카드는 만들어진다.
+        try:
+            info = get("https://commons.wikimedia.org/w/api.php", {
+                "action": "query", "format": "json", "titles": rec["commons"],
+                "prop": "imageinfo", "iiprop": "url",
+            })
+            page = next(iter(info["query"]["pages"].values()))
+            rec["full_url"] = page["imageinfo"][0]["url"]
+            kb = download(rec, os.path.join(img_dir, name)) // 1024
+        except Exception as e:
+            print(f"  {name:22}   못 받았습니다 — {e}")
+            used.discard(stem)
+            continue
 
-        kb = download(rec, os.path.join(img_dir, name)) // 1024
         print(f"  {name:22} {kb:>6} KB   {p['why'][:60]}")
         images.append({"file": name, "commons": rec["commons"]})
+
+    if len(images) < 4:
+        unsuitable(f"고른 {len(picks)}장 중 {len(images)}장만 받아졌습니다. "
+                   f"카드를 채울 수 없습니다.")
 
     # ── 5. source.json ───────────────────────────────────────────
     source = {
