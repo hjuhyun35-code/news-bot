@@ -91,21 +91,27 @@ jobs:
           python scripts/notify.py "사진이 모자라 건너뛴 소재: ${{ steps.plan.outputs.skipped }}
           목록에서 빼뒀습니다. 오늘 것은 ${{ steps.plan.outputs.slug }} 로 만듭니다."
 
-      # 발행 모드에서도 크롬이 필요하다. 밀린 초안에 독자 반응이 없으면
-      # 여기서 받아야 하고, 못 알아보겠다는 카드는 다시 그려야 한다.
+      # 카드를 그리는 데 쓴다. 만드는 차례일 때만 필요하다.
       - uses: browser-actions/setup-chrome@v1
         id: chrome
-        if: steps.plan.outputs.stop != 'yes'
+        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         with:
           chrome-version: stable
 
-      - name: let readers pick the cover
-        if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/pick_cover.py "${{ steps.plan.outputs.slug }}"
-
+      # 2026-08-11, 표지 투표와 독자 반응을 뺐다. 사장님 결정이다.
+      #
+      # 표지 투표는 후보 셋을 그려서 보여주고 고르게 하던 단계다. 제일
+      # 느리고, 위키미디어 차단으로 가장 많이 죽던 자리이기도 하다. 이제
+      # 표지는 대본 쓰는 쪽이 그냥 정한다 — write_post 는 투표 결과가
+      # 없으면 스스로 고르게 되어 있다.
+      #
+      # 독자 반응은 카드를 다 만든 뒤 둘에게 보여주고 점수를 받던 단계다.
+      # 릴스에서 어떤 카드를 뺄지를 그 점수로 정하고 있었는데, 없으면
+      # 뒤에서부터 뺀다. 대본이 앞쪽에 센 것을 놓게 쓰여 있으므로 그
+      # 순서가 크게 나쁘지 않다.
+      #
+      # 사실 검증은 남긴다. 코팅리 캡션과 세일링스톤 카드의 틀린 사실을
+      # 잡은 것이 그것이다.
       - name: write the script
         if: steps.plan.outputs.stop != 'yes' && steps.plan.outputs.mode == 'make'
         env:
@@ -118,27 +124,6 @@ jobs:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python scripts/render_cards.py "${{ steps.plan.outputs.slug }}"
 
-      # 발행 모드에서도 돌린다. 관문이 독자 반응을 요구하는데, 반응이 없는
-      # 초안은 영영 통과하지 못하고 승인 단추만 기다리게 된다. wardenclyffe
-      # 가 그랬다 — 독자 검토 기능이 생기기 전에 만들어진 초안이다.
-      - name: ask the readers
-        if: steps.plan.outputs.stop != 'yes'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -f "posts/${{ steps.plan.outputs.slug }}/readers.json" ]; then
-            echo "독자 반응은 이미 있습니다"
-          else
-            python scripts/reader_reactions.py "${{ steps.plan.outputs.slug }}"
-          fi
-
-      - name: fix what readers could not read
-        if: steps.plan.outputs.stop != 'yes'
-        env:
-          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
-        run: python scripts/fix_unreadable.py "${{ steps.plan.outputs.slug }}"
-
-      # 카드는 저장소 주소로 텔레그램에 보낸다. 보내기 전에 올라가 있어야 한다.
       - name: commit the draft
         if: steps.plan.outputs.stop != 'yes'
         run: |
