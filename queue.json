@@ -211,7 +211,9 @@
       "subject": "The plaster casts of Pompeii, made by pouring into the voids the ash left behind",
       "wikipedia": "Pompeii",
       "hook": "화산재가 남긴 빈 공간에 석고를 부었다",
-      "screened": "2026-08-06 · 사진 8장"
+      "screened": "2026-08-06 · 사진 8장",
+      "hold": true,
+      "why_hold": "2026-08-13 자동 확인. 후보 14장 중 쓸 만한 것이 5장뿐입니다. The pool contains exactly one photograph of an actual plaster cast; there is nothing showing the casting process, the excavated voids, Fiorelli's work, or any other cast, so the remaining picks are generic Pompeii site views and cannot carry a post about the casts themselves. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "dighton-rock",
