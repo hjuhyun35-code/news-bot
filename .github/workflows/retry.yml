@@ -44,11 +44,15 @@ jobs:
             echo "go=yes" >> "$GITHUB_OUTPUT"
           fi
 
-      # 위키미디어가 막아서 죽은 경우가 가장 흔하다. 바로 다시 부르면
-      # 같은 벽에 부딪힌다. 좀 식힌다.
+      # 위키미디어가 막아서 죽은 경우가 가장 흔하다. 그 차단은 몇 분으로
+      # 안 풀린다 — 2026-08-11 에 103초를 기다려도, 5분을 식혀도 그대로였다.
+      # 한 시간을 기다린다.
+      #
+      # 그동안 실행이 그냥 잠들어 있는 것이 아깝긴 하지만, 공개 저장소는
+      # 실행 시간이 무료다. 잘못 눌러 차단을 늘리는 쪽이 비싸다.
       - name: let it cool down
         if: steps.decide.outputs.go == 'yes'
-        run: sleep 180
+        run: sleep 3600
 
       - name: try again
         if: steps.decide.outputs.go == 'yes'
@@ -65,8 +69,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           if [ "${{ steps.decide.outputs.go }}" = "yes" ]; then
-            python scripts/notify.py "만들기가 한 번 실패해서 다시 하고 있습니다.
-            잠시 뒤 영상이 도착하면 된 것입니다. 손대실 것 없습니다."
+            python scripts/notify.py "만들기가 실패했습니다. 한 시간 뒤에 스스로 다시 합니다.
+            위키미디어가 막은 경우가 대부분인데, 그 차단은 몇 분으로 안 풀립니다.
+            손대실 것 없습니다. 기다리시면 영상이 옵니다."
           else
             python scripts/notify.py "만들기가 세 번 연달아 실패했습니다. 다시 하지 않습니다.
             남의 사정이 아니라 고쳐야 할 것이 있는 듯합니다.
