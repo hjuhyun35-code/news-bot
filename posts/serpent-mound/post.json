@@ -1,0 +1,74 @@
+{
+  "caption": "Who built the Great Serpent Mound?\n\nIt runs 1,348 feet along a bluff above Ohio Brush Creek in Adams County, Ohio — the largest serpent effigy known in the world. It is only about four feet high, and the tail coils three times at the end.\n\nSquier and Davis published the first survey in 1848 and read the head as a snake swallowing an egg. Archaeologist J.P. McLean looked at the same earthwork and saw a frog.\n\nThe ground underneath is a meteorite impact crater about 8.7 miles across, formed 252–330 million years ago. Erosion erased it at the surface; a team of geologists confirmed the impact origin in 2003.\n\nFrederic Ward Putnam excavated for four years from 1886, after Boston women led by Alice C. Fletcher helped him buy 60 acres and save the site.\n\nIn 1987 the Hardmans reported that the oval and head align with the summer solstice sunset and the coiled tail with the winter solstice sunrise — but the lines of sight are too short and vague to be sure. Some Christian visitors once took the mound for a mark of God showing the Garden of Eden. In 2012 a group calling themselves \"light warriors\" buried quartz in it to \"reactivate\" it.\n\nStill unresolved: the builders. Radiocarbon dating in 2014 gave 300 BCE and the Adena culture. Brad Lepper argues the dated material was organic sediment, not charcoal, and that the Adena built no effigy mounds and used no serpent imagery. He credits the Fort Ancient culture, whose repairs show around 1100 CE.\n\nImages: a 1940 park photograph from the National Archives; an 1889 engraving by R. C. Collins after William Jacob Baer for Putnam's Century article; winter views by Blervis; the observation tower by Wilson44691.\n\n#serpentmound #ohio #archaeology #moundbuilders #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "serpent1940.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "stamp": "1,348 feet",
+      "headline": "The world's largest serpent effigy sits <y>inside a meteorite crater</y>",
+      "note": "Serpent Mound, Adams County, Ohio. It winds 1,348 feet along a bluff and stands about four feet high.",
+      "source": "Serpent Mound State Park, October 1940 · NARA",
+      "alt": "1940 black-and-white view of a grassy serpent-shaped earthwork curving between trees.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "putnamillustration.jpg",
+      "crop": "45% 32%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Squier and Davis saw <y>a snake swallowing an egg</y>",
+      "note": "Their 1848 survey read the oval as an egg. Archaeologist J.P. McLean looked at the same earthwork and called it a frog.",
+      "source": "R. C. Collins after W. J. Baer, Century, 1889",
+      "alt": "Engraving of a coiled serpent earthwork on a bluff above a wide wooded valley.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "serpentheadcliff.jpg",
+      "crop": "35% 85%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "The crater under it is <y>8.7 miles across</y>",
+      "note": "It formed 252–330 million years ago. Erosion wiped it from the surface; geologists confirmed the impact origin in 2003.",
+      "source": "Blervis, February 2023 · CC0",
+      "alt": "Winter sun over a low grassy mound ridge with a paved path curving beside it.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "adenamound.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "In 2015 a local <y>drove a truck</y> over this burial mound",
+      "note": "The county prosecutor considered sentencing him to write a research paper on the site. More cameras went up afterwards.",
+      "source": "Adena burial mound · Blervis, 2023 · CC0",
+      "alt": "Rounded grass-covered burial mound under bare trees and clear blue sky.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "observationtower.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The crater is real. <y>The builders are still disputed</y>",
+      "note": "2014 dating said 300 BCE, Adena. Lepper says that sample was sediment, not charcoal, and credits the Fort Ancient culture.",
+      "source": "Observation tower · Wilson44691, 2017 · CC0",
+      "alt": "Two people standing on a steel observation tower silhouetted against a pale sky.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "serpent-mound",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

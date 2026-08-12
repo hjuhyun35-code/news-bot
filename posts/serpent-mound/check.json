@@ -1,0 +1,221 @@
+{
+  "claims": [
+    {
+      "claim": "Serpent Mound is the world's largest serpent effigy",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The mound is the largest serpent effigy known in the world."
+    },
+    {
+      "claim": "The mound sits inside a meteorite impact crater",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The mound is located on the site of a meteorite impact site known as the Serpent Mound crater."
+    },
+    {
+      "claim": "Serpent Mound is in Adams County, Ohio",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "running along the Ohio Brush Creek in Adams County, Ohio"
+    },
+    {
+      "claim": "It winds 1,348 feet along a bluff",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "Serpent Mound conforms to the surrounding land, as it was built on a bluff above the Ohio Brush Creek."
+    },
+    {
+      "claim": "The mound is 1,348 feet long",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The Great Serpent Mound is a 1,348-feet-long (411m), four-feet-high prehistoric effigy mound located in Peebles, Ohio, United States."
+    },
+    {
+      "claim": "It stands about four feet high",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "a 1,348-feet-long (411m), four-feet-high prehistoric effigy mound"
+    },
+    {
+      "claim": "The 1940 photograph shows Serpent Mound State Park and comes from NARA",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Original caption: Part of the Serpent Mound in Serpent Mound state park west of Pertsmouth, Ohio."
+    },
+    {
+      "claim": "Squier and Davis interpreted the head as a snake swallowing an egg",
+      "where": "card 2 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Squier and Davis believed the oval feature may represent an egg, with an apparent depiction of the snake consuming it."
+    },
+    {
+      "claim": "Their survey was published in 1848 and was the first published survey of the mound",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Squier and Davis were the first to publish a survey of Serpent Mound in 1848."
+    },
+    {
+      "claim": "Archaeologist J.P. McLean identified the earthwork as a frog",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Archaeologist J.P. McLean identified the mound as the body of a frog."
+    },
+    {
+      "claim": "The engraving is by R. C. Collins after W. J. Baer, published in Century in 1889",
+      "where": "card 2 source; caption",
+      "verdict": "supported",
+      "quote": "Illustration of Serpent Mound by William Jacob Baer, from The Century Illustrated Monthly Magazine, November 1889 - April 1890, Volume 39, in an article by F. W. Putnam."
+    },
+    {
+      "claim": "The crater is 8.7 miles across",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "The crater is around 8.7 miles (14 km) in diameter and was formed 252–330 million years ago."
+    },
+    {
+      "claim": "The crater formed 252–330 million years ago",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "The crater is around 8.7 miles (14 km) in diameter and was formed 252–330 million years ago."
+    },
+    {
+      "claim": "Erosion wiped the crater from the surface",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "This has led archaeologists to believe that the topographic expression of the crater has been completely erased by erosion."
+    },
+    {
+      "claim": "Geologists confirmed the impact origin in 2003",
+      "where": "card 3 note; caption",
+      "verdict": "unsupported",
+      "quote": "In 2003, the Ohio Department of Natural Resources formed a team of geologists to corroborate the meteorite impact origin of the structure at the Serpent Mound."
+    },
+    {
+      "claim": "The winter photograph is by Blervis, February 2023, CC0",
+      "where": "card 3 source; card 4 source; caption",
+      "verdict": "supported",
+      "quote": "Date: 2023-02-04 11:35:13 Author: Blervis Licence: CC0"
+    },
+    {
+      "claim": "In 2015 a local drove a truck over an Adena burial mound at the site",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Following another instance of vandalism in 2015, when a local drove his truck over one of the Adena burial mounds, more security cameras were installed at the site."
+    },
+    {
+      "claim": "The specific mound shown in the photograph is the one driven over in 2015",
+      "where": "card 4 headline (\"this burial mound\")",
+      "verdict": "unsupported",
+      "quote": "Adena burial mound located nearby Serpent Mound. Photo taken February 2023."
+    },
+    {
+      "claim": "The county prosecutor considered sentencing the vandal to write a research paper on the site",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Logan County, Ohio, Prosecutor Ken Armstrong considered assigning the 2015 vandal a research paper on the site's history as punishment."
+    },
+    {
+      "claim": "More security cameras were installed after the 2015 incident",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "more security cameras were installed at the site"
+    },
+    {
+      "claim": "Radiocarbon dating in 2014 gave a construction date of 300 BCE and attributed the mound to the Adena",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "In 2014, radiocarbon dating determined the mound was built in 300 BCE by the Adena peoples."
+    },
+    {
+      "claim": "Lepper says the dated material was organic sediment, not charcoal",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "According to Lepper, material the team dated was not charcoal, but “organic sediment”."
+    },
+    {
+      "claim": "Lepper credits the Fort Ancient culture with building the mound",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Lepper et al. concluded that the best available data indicated that Serpent Mound was built by the Fort Ancient culture."
+    },
+    {
+      "claim": "The observation tower photograph is by Wilson44691, 2017, CC0",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Observation tower at Serpent Mound, Ohio. Date: 2017-03-13 08:21:55 Author: Wilson44691 Licence: CC0"
+    },
+    {
+      "claim": "The mound runs along a bluff above Ohio Brush Creek",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Serpent Mound conforms to the surrounding land, as it was built on a bluff above the Ohio Brush Creek."
+    },
+    {
+      "claim": "The tail coils three times at the end",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The mound features a triple-coiled tail at the end of the structure, often viewed as a benchmark of the mound."
+    },
+    {
+      "claim": "Frederic Ward Putnam excavated for four years beginning in 1886",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "After raising funds to purchase the site, Frederic Ward Putnam returned to Serpent Mound in 1886. He worked for four years to excavate the burial sequence contents of both the Serpent Mound and two nearby conical mounds."
+    },
+    {
+      "claim": "Boston women led by Alice C. Fletcher helped Putnam raise funds to buy 60 acres and preserve the site",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1886, with help from a group of wealthy women in Boston headed by Alice C. Fletcher, Putnam raised funds to purchase 60 acres (0.24 km2) at the site of the Serpent Mound in hopes to ensure its preservation."
+    },
+    {
+      "claim": "In 1987 Clark and Marjorie Hardman reported the oval-to-head area aligns with the summer solstice sunset and the coiled tail with the winter solstice sunrise",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1987, Clark and Marjorie Hardman published their findings that the oval-to-head area of the serpent is aligned to the summer solstice sunset, and that the coiled tail of the mound is aligned to the winter solstice sunrise."
+    },
+    {
+      "claim": "The lines of sight are too short and vague to determine the alignment",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "However, the lines of sight are too short and vague to determine the actual alignment."
+    },
+    {
+      "claim": "Some Christian observers once took the mound for a mark of God indicating the Garden of Eden",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At one time this earthen serpent was considered by some people with Christian affinity to be a mark of God that indicated the location of the Garden of Eden and served as a reminder of his moral authority."
+    },
+    {
+      "claim": "In 2012 a group calling themselves \"light warriors\" buried quartz in the mound to \"reactivate\" it",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 2012, a group that identified themselves as \"light warriors\" vandalized the Serpent Mound by running and jumping on its surface, as well as burying quartz in and around the mound to \"reactivate\" it."
+    },
+    {
+      "claim": "Lepper argues the Adena built no effigy mounds and used no serpent imagery",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Lepper argues the Adena culture is not known to have built effigy mounds or to have used serpent symbolism in their art"
+    },
+    {
+      "claim": "Fort Ancient repairs to the mound date to around 1100 CE",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Additionally, it was found that the mound was rebuilt or repaired around 1100 CE during the Fort Ancient period."
+    },
+    {
+      "claim": "The 1940 photograph shows an earthwork with a curving path across a wooded bluff-top clearing, numbered 401617",
+      "where": "card 1 image",
+      "verdict": "supported",
+      "quote": "401617"
+    },
+    {
+      "claim": "The observation tower is a steel-frame structure with stairs and an elevated viewing platform, with two people standing on top",
+      "where": "card 5 image",
+      "verdict": "supported",
+      "quote": "Observation tower at Serpent Mound, Ohio."
+    }
+  ],
+  "problems": 2
+}
