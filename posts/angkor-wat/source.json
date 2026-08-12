@@ -1,0 +1,27 @@
+{
+  "subject": "Angkor Wat, a capital of a million people swallowed by forest",
+  "wikipedia": "Angkor Wat",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "angkor1866.jpg",
+      "commons": "File:Angkor1866.jpg"
+    },
+    {
+      "file": "towersovercanopy.jpg",
+      "commons": "File:Angkor Wat from Phnom Bakheng.jpg"
+    },
+    {
+      "file": "delaportewatercolor.jpg",
+      "commons": "File:View of the West Entrance of Angkor Wat by Delaporte 1873.jpg"
+    },
+    {
+      "file": "gallerywall.jpg",
+      "commons": "File:Angkor Temple, Siem Reap.jpg"
+    },
+    {
+      "file": "satellitecity.jpg",
+      "commons": "File:Angkor Wat (ASTER).jpg"
+    }
+  ]
+}
