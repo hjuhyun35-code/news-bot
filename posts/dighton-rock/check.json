@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "Four nations (beyond American Indians) were proposed as having written on Dighton Rock — Phoenician, Norse, Portuguese and Chinese",
+      "where": "card 1 headline and note",
+      "verdict": "supported",
+      "quote": "Ancient Phoenicians, proposed in 1783 by Ezra Stiles ... Norse, proposed in 1837 by Carl Christian Rafn ... Portuguese explorers were proposed in 1912 by Edmund B. Delabarre ... Chinese explorers, proposed by Gavin Menzies in his 2002 pseudohistorical book"
+    },
+    {
+      "claim": "The rock is a 40-ton sandstone boulder in the Taunton River",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The Dighton Rock is a 40-ton boulder composed of sandstone, originally located in the riverbed of the Taunton River at Berkley, Massachusetts"
+    },
+    {
+      "claim": "The proposals were made in the order Phoenician, Norse, Portuguese, Chinese",
+      "where": "card 1 note (\"in turn\")",
+      "verdict": "supported",
+      "quote": "proposed in 1783 by Ezra Stiles ... proposed in 1837 by Carl Christian Rafn ... proposed in 1912 by Edmund B. Delabarre ... in his 2002 pseudohistorical book"
+    },
+    {
+      "claim": "Card 1 image is a daguerreotype by Horatio B. King, 1853",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Seth Eastman at Dighton Rock; Horatio B. King (American, 1820 - 1889); July 7, 1853; Daguerreotype"
+    },
+    {
+      "claim": "The 1893 photographer chalked the lines onto the rock himself",
+      "where": "card 2 headline/note",
+      "verdict": "supported",
+      "quote": "I do not remember to have copied any previous photographs or drawings in making my markings on the rock."
+    },
+    {
+      "claim": "Frank S. Davis wrote in 1893: \"I marked quite a few lines on the rock which were never put on by the maker.\"",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "I expect that I marked quite a few lines on the rock which were never put on by the maker"
+    },
+    {
+      "claim": "The Davis photograph is dated 11 September 1893",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Photograph by Frank S. Davis, September 11. The author stated: \" One of them is dated September 11, 1893"
+    },
+    {
+      "claim": "Cotton Mather described the carvings as deeply engraved",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "there are very deeply Engraved, no man alive knows How or When about half a score Lines"
+    },
+    {
+      "claim": "Cotton Mather never saw the rock",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "but Cotton Mather had never seen the rock, so far as we know"
+    },
+    {
+      "claim": "Mather wrote \"no man alive knows How or When\" in 1690",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "In 1690, Rev. Cotton Mather described the rock in his book The Wonderful Works of God Commemorated"
+    },
+    {
+      "claim": "A first-hand report in 1730 said the cuts were \"not very considerable\"",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "Greenwood gives the first reliable description, in 1730. He definitely says that the \"indentures are not very considerable,\" and his drawing and his other statements prove that he had as much difficulty in making out the real characters as has ever been experienced since then."
+    },
+    {
+      "claim": "Card 3 image is by Popular Graphic Arts, 1864",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Author: Popular Graphic Arts\nLicence: Public domain"
+    },
+    {
+      "claim": "Every copyist drew a different set of marks",
+      "where": "card 4 headline",
+      "verdict": "unsupported",
+      "quote": "His drawing conflicts with the reports of others and the current markings on the rock."
+    },
+    {
+      "claim": "John Danforth's 1680 drawing conflicts with other reports and with the rock's present markings",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "In 1680, Rev. John Danforth made a drawing of the petroglyphs which has been preserved in the British Museum. His drawing conflicts with the reports of others and the current markings on the rock."
+    },
+    {
+      "claim": "Card 4 image is a drawing made for an 1830 survey, published 1844",
+      "where": "card 4 source; caption",
+      "verdict": "supported",
+      "quote": "D'après le dessin fait sous la surveillance de la Société Historique de l'Ile de Rodes A.D. 1830."
+    },
+    {
+      "claim": "Delabarre in 1912 read the markings as abbreviated Latin naming Miguel Corte-Real and dated 1511",
+      "where": "card 5 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Delabarre stated that the markings were abbreviated Latin, and the message reads as follows: \"I, Miguel Cortereal, 1511. In this place, by the will of God, I became a chief of the Indians.\""
+    },
+    {
+      "claim": "Hunter debunked the Corte-Real reading in 2017",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Hunter (2017) provides copious evidence and analysis debunking the Corte-Real origin myth."
+    },
+    {
+      "claim": "Card 5 image is attributed to Horatio B. King, c. 1853",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Author: Horatio B. King (attributed)"
+    },
+    {
+      "claim": "Both the Norse and Portuguese readings were rejected",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "This theory was rejected by archaeologists such as T. D. Kendrick and Kenneth Feder."
+    },
+    {
+      "claim": "Indigenous petroglyphs remain the closest match",
+      "where": "card 6 note",
+      "verdict": "unsupported",
+      "quote": "American Indians who were known to have inscribed petroglyphs in rocks. A schematic face on the Dighton Rock is similar to an Indian petroglyph in Eastern Vermont."
+    },
+    {
+      "claim": "A schematic face on the rock resembles one in Eastern Vermont",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "A schematic face on the Dighton Rock is similar to an Indian petroglyph in Eastern Vermont."
+    },
+    {
+      "claim": "The origin of the carvings remains uncertain",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The carved designs are of ancient and uncertain origin, and there is controversy as to who created them."
+    },
+    {
+      "claim": "Card 6 image shows the Dighton Rock Museum, Berkley, Mass., photographed by Daderot (CC0)",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Dighton Rock Museum - Dighton Rock State Park - Berkley, Massachusetts, USA."
+    },
+    {
+      "claim": "The rock is gray-brown sandstone, about 5 feet high and 11 feet long",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "approximately 5 feet (1.5 m) high, 9.5 feet (2.9 m) wide, and 11 feet (3.4 m) long. It is gray-brown crystalline sandstone of medium to coarse texture."
+    },
+    {
+      "claim": "The inscribed face was turned toward the water",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It was found facing the water of the bay."
+    },
+    {
+      "claim": "The inscribed face was covered at high tide",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "on a perpendicular side whereof by a River, which at High Tide covers part of it"
+    },
+    {
+      "claim": "Sewall in 1768 and Kendall in 1807 both said most of the lines were so effaced that reading them was \"wholly subject to the fancy\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Sewall in 1768 and Kendall in 1807 made definite statements to the effect that the greater part of the lines were so much effaced as to make their decipherment impossible, or wholly subject to the fancy."
+    },
+    {
+      "claim": "Phoenician authorship was proposed by Ezra Stiles in 1783",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Ancient Phoenicians, proposed in 1783 by Ezra Stiles in his \"Election Sermon\" as the \"descendants of the sons of Japheth\""
+    },
+    {
+      "claim": "Norse authorship was proposed by Carl Christian Rafn in 1837 and rejected by T. D. Kendrick and Kenneth Feder",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Norse, proposed in 1837 by Carl Christian Rafn. This theory was rejected by archaeologists such as T. D. Kendrick and Kenneth Feder."
+    },
+    {
+      "claim": "Chinese explorers were proposed by Gavin Menzies in 2002",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Chinese explorers, proposed by Gavin Menzies in his 2002 pseudohistorical book 1421: The Year China Discovered America"
+    },
+    {
+      "claim": "James Russell Lowell suggested candidates' letters be written in the Dighton script, \"every fresh decipherer of which is enabled to educe a different meaning\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Poet and critic James Russell Lowell suggested that presidential candidates' letters to newspapers should be written in its undeciphered script: \"If letters must be written, profitable use might be made of the Dighton rock hieroglyphic or the cuneiform script, every fresh decipherer of which is enabled to educe a different meaning.\""
+    },
+    {
+      "claim": "American Indians are known to have inscribed petroglyphs in rocks",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "American Indians who were known to have inscribed petroglyphs in rocks."
+    },
+    {
+      "claim": "The boulder was lifted from the river in 1963",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "State officials removed the rock from the river for preservation in 1963, during construction of a coffer dam."
+    },
+    {
+      "claim": "It was listed on the National Register of Historic Places in 1971",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1971, it was listed on the National Register of Historic Places (NRHP)."
+    },
+    {
+      "claim": "Two of the images are Horatio B. King daguerreotypes of Seth Eastman on the rock, dated 1853",
+      "where": "caption (images list)",
+      "verdict": "supported",
+      "quote": "Seth Eastman at Dighton Rock; Horatio B. King (American, 1820 - 1889); July 7, 1853; Daguerreotype"
+    }
+  ],
+  "problems": 2
+}
