@@ -1,0 +1,191 @@
+{
+  "claims": [
+    {
+      "claim": "Excavations at Angkor Wat found no ordinary houses and no cooking utensils",
+      "where": "card 1 headline and caption",
+      "verdict": "supported",
+      "quote": "Following excavations at the site, there were no ordinary dwellings or houses or other signs of settlement such as cooking utensils, weapons, or items of clothing usually found at ancient sites."
+    },
+    {
+      "claim": "Excavations also found no items of clothing",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "there were no ordinary dwellings or houses or other signs of settlement such as cooking utensils, weapons, or items of clothing usually found at ancient sites"
+    },
+    {
+      "claim": "The first photograph shows Angkor Wat photographed in 1866",
+      "where": "card 1 note and image list",
+      "verdict": "unsupported",
+      "quote": "FILE: angkor1866.jpg / Archive title: File:Angkor1866.jpg / Description: (none recorded) / Date: (none recorded)"
+    },
+    {
+      "claim": "The 1866 image shows the temple's towers rising above tiered galleries, with a stone causeway leading to a stepped entrance",
+      "where": "card 1 image",
+      "verdict": "supported",
+      "quote": "Visible in angkor1866.jpg: three redented towers above tiered roofed galleries, a central entrance pavilion, steps, and a paved causeway running to the foreground."
+    },
+    {
+      "claim": "A friar described Angkor Wat as \"like no other building in the world\"",
+      "where": "card 2 headline, caption",
+      "verdict": "supported",
+      "quote": "It is of such extraordinary construction that it is not possible to describe it with a pen, particularly since it is like no other building in the world."
+    },
+    {
+      "claim": "António da Madalena explored the ruins in 1586",
+      "where": "card 2 note, caption",
+      "verdict": "supported",
+      "quote": "One of the first recorded visitors was António da Madalena, a Capuchin friar who explored the ruins in 1586."
+    },
+    {
+      "claim": "Da Madalena was a Capuchin friar",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "One of the first recorded visitors was António da Madalena, a Capuchin friar who explored the ruins in 1586."
+    },
+    {
+      "claim": "He described a single bridge guarded by two stone tigers \"so grand and fearsome as to strike terror into the visitor\"",
+      "where": "card 2 note, caption",
+      "verdict": "supported",
+      "quote": "The temple is surrounded by a moat, and access is by a single bridge, protected by two stone tigers so grand and fearsome as to strike terror into the visitor."
+    },
+    {
+      "claim": "Da Madalena relayed his account to Diogo do Couto, a Portuguese historian",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Three years later, he relayed his observations to Diogo do Couto, the official historian of the Portuguese Indies."
+    },
+    {
+      "claim": "The second image is a watercolour by Louis Delaporte, 1873, of the west entrance of Angkor Wat",
+      "where": "card 2 source, image list",
+      "verdict": "supported",
+      "quote": "Title: \"Cambodge: Colonnade de l'entrée ouest et vue générale d'Angkor Wat\" (Translation: Cambodia: Western Entrance Colonade and General View of Angkor Wat). Watercolor on paper by Louis Delaporte, in 1873."
+    },
+    {
+      "claim": "Angkor Wat was built from five to ten million sandstone blocks",
+      "where": "card 3 headline, caption",
+      "verdict": "supported",
+      "quote": "The monument was made of five to ten million sandstone blocks with a maximum weight of 1.5 tons each."
+    },
+    {
+      "claim": "The sandstone came from Mount Kulen, about 40 km away",
+      "where": "card 3 headline and note, caption",
+      "verdict": "supported",
+      "quote": "The sandstone was quarried and transported from Mount Kulen, a quarry approximately 40 km (25 mi) northeast."
+    },
+    {
+      "claim": "The binding agent used to join the blocks has never been identified",
+      "where": "card 3 note, caption",
+      "verdict": "supported",
+      "quote": "The binding agent used to join the blocks is yet to be identified, although natural resins or slaked lime have been suggested."
+    },
+    {
+      "claim": "The fourth image is a gallery wall of Angkor Wat photographed by Bedan Maiywa",
+      "where": "card 3 source, image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Angkor Temple, Siem Reap.jpg / Description: A section of the Angkor Wat Temple Complex in Siem Reap, Kingdom of Cambodia. ... Author: Bedan Maiywa"
+    },
+    {
+      "claim": "In 2015 researchers found towers that had been built and then demolished during the construction of Angkor Wat",
+      "where": "card 4 headline, caption",
+      "verdict": "supported",
+      "quote": "In December 2015, it was announced that a research team from the University of Sydney found a previously unseen ensemble of buried towers that were built and demolished during the construction of Angkor Wat"
+    },
+    {
+      "claim": "The team was from the University of Sydney and also found a massive structure with wooden fortifications, of unknown purpose, on the south side",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "as well as a massive structure, with wooden fortifications, of unknown purpose on its south side"
+    },
+    {
+      "claim": "The satellite image is an ASTER image from 2004 credited to NASA/METI/AIST",
+      "where": "card 4 source, image list",
+      "verdict": "supported",
+      "quote": "Author: NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team ... Date: Taken on 17 February 2004"
+    },
+    {
+      "claim": "Modern analysis suggests the site housed between 3,000 and 4,300 residents (about 4,000)",
+      "where": "card 5 headline, caption",
+      "verdict": "supported",
+      "quote": "modern analyses of the site suggest that it housed a population of between 3000 and 4300 residents"
+    },
+    {
+      "claim": "There was a \"city of a million\" idea about Angkor Wat that modern work has changed",
+      "where": "caption paragraph 4",
+      "verdict": "unsupported",
+      "quote": "Historians have often thought that Angkor Wat served as a “temple-city,” but modern analyses of the site suggest that it housed a population of between 3000 and 4300 residents."
+    },
+    {
+      "claim": "Japanese Buddhist pilgrims established small settlements alongside Khmer locals in the 17th century",
+      "where": "card 5 note, caption",
+      "verdict": "supported",
+      "quote": "Fourteen inscriptions dated from the 17th century, discovered in the Angkor area, state that Japanese Buddhist pilgrims had established small settlements alongside Khmer locals."
+    },
+    {
+      "claim": "Fourteen inscriptions record this",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Fourteen inscriptions dated from the 17th century, discovered in the Angkor area, state that Japanese Buddhist pilgrims had established small settlements alongside Khmer locals."
+    },
+    {
+      "claim": "Ukondayu Kazufusa celebrated the Khmer New Year at Angkor Wat in 1632",
+      "where": "card 5 note, caption",
+      "verdict": "supported",
+      "quote": "The inscription also tells of Ukondayu Kazufusa, who celebrated the Khmer New Year at Angkor Wat in 1632."
+    },
+    {
+      "claim": "The final image shows Angkor Wat from Phnom Bakheng, photographed by lumoplank",
+      "where": "card 5 source, image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Angkor Wat from Phnom Bakheng.jpg / Description: Angkor Wat from Phnom Bakheng ... Author: lumoplank"
+    },
+    {
+      "claim": "Angkor Wat was never fully abandoned",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Angkor Wat is unusual among the Angkor temples in that although it was largely neglected after the 16th century, it was never completely abandoned."
+    },
+    {
+      "claim": "Portuguese traders found a vast stone city in the northern Cambodian forests in the 16th century, seemingly abandoned for over 150 years",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "In the 16th century, Portuguese traders and missionaries discovered a vast stone city hidden in the northern Cambodian forests, that had seemed abandoned for over 150 years."
+    },
+    {
+      "claim": "Japanese pilgrims believed the temple was Jetavana, the garden of the Buddha in India",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "In the 17th century, Japanese pilgrims travelling in Southeast Asia identified Angkor Wat as Jetavana, the monastic garden associated with the Buddha in ancient Magadha (present-day India)."
+    },
+    {
+      "claim": "The oldest surviving plan of Angkor Wat dates from 1715, is credited to Fujiwara Tadayoshi, and is kept in a museum in Mito, Japan",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The oldest surviving plan of Angkor Wat dates to 1715 and is credited to Fujiwara Tadayoshi. The plan is stored in the Suifu Meitoku-kai Shokokan Museum in Mito, Japan."
+    },
+    {
+      "claim": "The temple was built for Suryavarman II between 1122 and 1150 CE",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The construction of the temple commenced in 1122 CE and was completed in 1150 CE."
+    },
+    {
+      "claim": "It was dedicated to Vishnu",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The temple was dedicated to Hindu god Vishnu and the original religious motifs were derived from Hinduism."
+    },
+    {
+      "claim": "Work stopped when the king died, leaving some bas-reliefs unfinished",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The work on the temple ceased after the king's death, leaving some of the bas-relief decoration unfinished."
+    },
+    {
+      "claim": "The residents lived on a grid of mounds and ponds",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The main enclosure also served as a residential area, having been built on a grid system of residential “blocks.” These blocks consist of mounds and ponds indicative of a basic Khmer hamlet structure"
+    }
+  ],
+  "problems": 2
+}

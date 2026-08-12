@@ -1,0 +1,73 @@
+{
+  "caption": "Was Angkor Wat really \"lost\" in the jungle?\n\nNot quite. Portuguese traders found a vast stone city in the northern Cambodian forests in the 16th century, seemingly abandoned for over 150 years. The Capuchin friar António da Madalena explored the ruins in 1586 and told the Portuguese historian Diogo do Couto that the temple was \"like no other building in the world,\" its single bridge guarded by two stone tigers \"so grand and fearsome as to strike terror into the visitor.\"\n\nBut Angkor Wat was never fully abandoned. Japanese Buddhist pilgrims built small settlements alongside Khmer locals in the 17th century — fourteen inscriptions record it, one naming Ukondayu Kazufusa, who celebrated the Khmer New Year there in 1632. Those pilgrims believed the temple was Jetavana, the garden of the Buddha in India. The oldest surviving plan of Angkor Wat, from 1715, was drawn by Fujiwara Tadayoshi and is kept in a museum in Mito, Japan.\n\nThe temple was built for Suryavarman II between 1122 and 1150 CE, dedicated to Vishnu, from five to ten million sandstone blocks quarried around 40 km away at Mount Kulen. Work stopped when the king died, leaving some bas-reliefs unfinished.\n\nThe \"city of a million\" idea is the part modern work has changed. Excavations found no ordinary houses, no cooking pots, no clothing. Modern analysis suggests the temple precinct held between 3,000 and 4,300 residents, on a grid of mounds and ponds. In 2015 a University of Sydney team found buried towers built and demolished during construction, and a large wooden-fortified structure on the south side whose purpose is unknown.\n\nAlso unresolved: the binding agent used to join the blocks has never been identified.\n\nImages: an 1866 photograph of Angkor Wat; Louis Delaporte's 1873 watercolour of the west entrance; the temple from Phnom Bakheng by lumoplank; a gallery wall by Bedan Maiywa; ASTER satellite view, NASA/METI/AIST.\n\n#angkorwat #cambodia #archaeology #khmerempire #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "angkor1866.jpg",
+      "crop": "52% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Excavators found <y>no houses, no cooking pots</y> here",
+      "note": "Angkor Wat photographed in 1866. A temple the size of a city, with almost no trace of ordinary daily life.",
+      "source": "Angkor Wat, 1866 · public domain",
+      "alt": "Sepia photograph of Angkor Wat's towers behind palms, a stone causeway leading to steps.,",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "delaportewatercolor.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.3,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "A friar said it was <y>like no other building in the world</y>",
+      "note": "António da Madalena explored the ruins in 1586. He described a single bridge guarded by two stone tigers.",
+      "source": "Louis Delaporte, watercolour, 1873 · public domain",
+      "alt": "Watercolour of Angkor Wat's long west entrance across water, elephants and figures below.,",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "gallerywall.jpg",
+      "crop": "22% 55%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Five to ten million blocks, <y>hauled 40 kilometres</y>",
+      "note": "The sandstone came from Mount Kulen. What glued the blocks together has never been identified.",
+      "source": "Angkor Wat gallery wall · photo Bedan Maiywa",
+      "alt": "Long low stone gallery wall of Angkor Wat under blue sky, wide green lawn in front.,",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "satellitecity.jpg",
+      "crop": "58% 55%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "In 2015 they found <y>towers built and then demolished</y>",
+      "note": "A University of Sydney team also found a large wooden-fortified structure of unknown purpose on the south side.",
+      "source": "ASTER satellite image, 2004 · NASA/METI/AIST",
+      "alt": "Satellite view of the Angkor plain: dark forest blocks, a blue reservoir, faint field grid.,",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "towersovercanopy.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Not a million people — <y>about 4,000 lived inside</y>",
+      "note": "And it was never truly lost. Japanese pilgrims settled here in the 1600s; one kept Khmer New Year in 1632.",
+      "source": "Angkor Wat from Phnom Bakheng · photo lumoplank",
+      "alt": "Angkor Wat's five towers lit orange at dawn, rising above dense green forest canopy.,",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "angkor-wat",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
