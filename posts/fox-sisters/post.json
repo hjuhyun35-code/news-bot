@@ -1,0 +1,73 @@
+{
+  "caption": "Were the Fox sisters real mediums? No — one of them stood on a stage and showed how the trick worked.\n\nIn 1848, in Hydesville, New York, two young sisters, Catherine (Kate) and Margaretta (Maggie) Fox, reported rappings in a house the neighbours already believed was haunted. Their older sister Leah took charge of them and managed their careers. On 14 November 1849 they demonstrated their rapping at Corinthian Hall in Rochester — the first spiritualist demonstration before a paying public. Séances followed for hundreds of people; William Lloyd Garrison, James Fenimore Cooper and Sojourner Truth were among those who attended in New York in 1850.\n\nDoubts came early. Investigators from the University at Buffalo concluded in 1851 that the raps were made by cracking joints, and would not occur with cushions under the sisters' feet. A relative, Mrs Norman Culver, signed a statement saying she had helped by touching them to signal when to rap. The physicist William Crookes examined Kate between 1871 and 1874 and declared the raps genuine.\n\nOn 21 October 1888, before 2,000 people at the New York Academy of Music, Maggie produced raps at will while doctors came on stage to confirm the sound came from her toe joints. A reporter had offered $1,500. She retracted the confession a year later, saying it had been forced from her by money and by enemies of Spiritualism — and the paper never paid in full. Both sisters resumed paid séances and died in extreme poverty, Kate in 1892, Maggie in 1893.\n\nStill unresolved: which version of Maggie's story to believe. Spiritualism kept growing either way.\n\nImages: N. Currier lithograph after a daguerreotype by Appleby, 1852; a framed portrait of the three sisters; Kate Fox photographed by Gurney; an unidentified Fox sister in a gold oval frame; and a braided lock of Kate's hair. All public domain.\n\n#foxsisters #spiritualism #hoaxhistory #archivephotography #victorianhistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "threesisterslithogra.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Two sisters cracked their <y>toe joints</y> and founded a religion",
+      "note": "In 1848 the rapping passed as spirit messages. Forty years later Maggie showed a theatre audience how it was done.",
+      "source": "N. Currier lithograph, 1852 · public domain",
+      "alt": "Lithograph of three seated and standing Victorian women in dark cloaks, oval border.},{",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "churchoftruthframe.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "They charged <y>admission</y> to talk to the dead",
+      "note": "14 November 1849, Corinthian Hall, Rochester: the first spiritualist demonstration before a paying public.",
+      "source": "Framed photograph of the three Fox sisters · public domain",
+      "alt": "Framed sepia photograph showing three women's portraits side by side under handwritten labels.},{",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "katefoxportrait.jpg",
+      "crop": "50% 38%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A famous physicist tested Kate and <y>believed her</y>",
+      "note": "William Crookes examined her between 1871 and 1874 and called the raps genuine. He was later described as gullible.",
+      "source": "Kate Fox, photograph by Gurney · public domain",
+      "alt": "Oval sepia portrait of a woman in profile with piled hair, ruffled collar and dark bow.},{",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "seatedsisterframed.jpg",
+      "crop": "52% 46%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>Cushions under their feet</y> stopped the spirits",
+      "note": "University at Buffalo investigators, 1851: the raps came from cracking joints, and ceased when the feet were padded.",
+      "source": "One of the Fox sisters, gold oval frame · public domain",
+      "alt": "Seated woman in wide dark dress beside an upholstered chair, in a gilt oval frame.},{",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "katefoxhairbraid.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Maggie confessed in 1888, then <y>took it back</y>",
+      "note": "She said the confession was coerced for money she was never fully paid. Both sisters died destitute, in 1892 and 1893.",
+      "source": "Braided lock of Kate Fox's hair · public domain",
+      "alt": "A long braid of auburn hair coiled in a circle, tied with a faded dark ribbon.}",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "fox-sisters",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
