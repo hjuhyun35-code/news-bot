@@ -1,0 +1,87 @@
+{
+  "caption": "Was the HMS Daedalus sea serpent real?\n\nOn 6 August 1848, between the Cape of Good Hope and St Helena, Captain M'Quhae of HMS Daedalus and several officers and crew watched something pass close under the ship's lee quarter. Four feet of head above the water, and what they judged to be sixty more feet of animal below it. Seven of the crew said it stayed in view about twenty minutes. M'Quhae wrote that had it been a man of his acquaintance, he could have recognised the features with the naked eye. Another officer thought it more lizard than serpent.\n\nThe Times argued about it. The Literary Gazette noted that M'Quhae's dark brown colour, white throat and neck maned like a horse or a bunch of sea-weed were the exact words of Bishop Pontoppidan, written a century earlier: \"One might fancy the galant Captain had read the old Dane, and was copying him.\"\n\nThe explanations since: evolutionary biologist Gary J. Galbreath contends the Daedalus crew saw a sei whale. Giant oarfish — like the 16-footer that washed ashore in Bermuda in 1860 and was first described as a sea serpent — are presumed responsible for others. A 2016 paper blamed whales entangled in fishing gear and maritime debris.\n\nStill open: which sighting belongs to which explanation. And the trade has form. In 1845 a 115-foot \"sea serpent\" skeleton was exhibited in New York by Albert C. Koch; the anatomist Jeffries Wyman examined it and found bones of several different animals, including an extinct whale.\n\nImages: Edwin Weedon's engravings after F. J. Smyth; a page from Oudemans' treatise; the 1817 Gloucester serpent; Stewart and Lizars' engraving of Hans Egede's 1734 monster; Harper's Weekly, 1860. All public domain.\n\n#seaserpent #hmsdaedalus #maritimehistory #archivephotography #oarfish",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "daedalusship.jpg",
+      "crop": "50% 55%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "stamp": "6 Aug 1848",
+      "headline": "A navy captain reported <y>sixty feet of serpent</y>",
+      "note": "HMS Daedalus, between the Cape of Good Hope and St Helena. The captain and several officers signed the report.",
+      "source": "Edwin Weedon after F. J. Smyth, 1887 · public domain",
+      "alt": "Engraving of a full-rigged sailing ship with a long serpent swimming past in the waves.a",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "daedalusfromdeck.jpg",
+      "crop": "60% 55%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Close enough to <y>recognise a friend's face</y>",
+      "note": "M'Quhae: had it been a man of my acquaintance, I should have recognized his features. Seven crew said it stayed twenty minutes.",
+      "source": "Edwin Weedon, 28 October 1848 · public domain",
+      "alt": "Engraving of officers at a ship's stern watching a dark humped shape in the water.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "daedalusreportpage.jpg",
+      "crop": "28% 48%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "An editor said he was <y>copying an old book</y>",
+      "note": "Dark brown colour, white throat, neck maned like a horse. The Literary Gazette called these Bishop Pontoppidan's exact words.",
+      "source": "A. C. Oudemans, The Great Sea-Serpent · public domain",
+      "alt": "Printed page of 19th-century text discussing Captain M'Quhae and Pontoppidan's description.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "gloucester1817.jpg",
+      "crop": "35% 55%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Crews threw <y>shovels and paddles</y> overboard",
+      "note": "Sailors reported serpents coiling round ships to pull them under. Objects were thrown in its path, hoping it would take them and leave.",
+      "source": "Gloucester sea serpent engraving, 1817 · public domain",
+      "alt": "Old engraving of a scaled serpent with raised head near boats and a low coastline.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "egede1734.jpg",
+      "crop": "55% 55%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "In 1734 it rose <y>above the mainmast top</y>",
+      "note": "Hans Egede logged it off Greenland: long snout, spouting like a whale, tail up a ship-length from the head. Henry Lee called it a giant squid.",
+      "source": "J. H. Stewart & W. H. Lizars engraving · public domain",
+      "alt": "Engraving of a spouting sea monster with a flipper raised beside a sailing ship.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "oarfishbermuda.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "The likely answer: <y>a sei whale</y>",
+      "note": "Galbreath identifies the Daedalus animal as a sei whale. This 16-ft oarfish, Bermuda 1860, was first called a serpent too. Other cases stay open.",
+      "source": "Harper's Weekly, 3 March 1860 · public domain",
+      "alt": "Engraving of a long ribbon-like oarfish lying on a rocky beach with a crested back.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "sea-serpent",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
