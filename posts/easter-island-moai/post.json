@@ -1,0 +1,73 @@
+{
+  "caption": "How were the Easter Island moai moved from the quarry to the coast?\n\nMore than 900 statues were carved on Rapa Nui, mostly between 1250 and 1500, almost all of them from volcanic tuff at one quarry, Rano Raraku. Nearly half are still there. Hundreds of others were taken to stone platforms called ahu around the island's edge, where they stood facing inland over their clan lands.\n\nThe average moai is about 4 m tall and weighs around 12.5 tonnes. The tallest erected, Paro, was nearly 10 m and 82 tonnes; the heaviest erected, at Ahu Tongariki, was 86 tonnes. One unfinished statue would have stood about 21 m and weighed 145–165 tonnes.\n\nThe island was largely treeless when Europeans arrived in 1722, so the transport was a puzzle for centuries. Sledges, rollers and prepared tracks were all tested. Terry Hunt and Carl Lipo, working with Rapa Nui archaeologist Sergio Rapu, showed the statues could be roped from two sides and rocked forward on their wide curved bases — walked, upright, exactly as the island's oral histories always said.\n\nStill open: no single method has been proved for every statue, and the debate continues. It is also not known which groups within Rapa Nui society did the carving — oral tradition says either a professional guild of carvers or the clans themselves.\n\nAll of them had fallen by 1868. About 50 have since been re-erected.\n\nImages: moai at Rano Raraku photographed by Aurbina, 2004; a moai fragment from Anakena Bay; a moai at Ahu Vinapu by Jorge Morales Piderit; a fallen moai photographed in 1886; and William Hodges' Easter Island view, painted 1774–77.\n\n#rapanui #easterisland #moai #archaeology #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "quarryheads.jpg",
+      "crop": "60% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Rapa Nui said <y>the statues walked</y>. Archaeologists agree.",
+      "note": "Hundreds were moved from one quarry to platforms on the coast. The heaviest ever erected weighed 86 tonnes.",
+      "source": "Rano Raraku, Rapa Nui · Aurbina, 2004 · public domain",
+      "alt": "Three large stone moai heads on a grassy hillside under blue sky.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "moaiheaddetail.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The eye sockets once held <y>white coral eyes</y>",
+      "note": "Sergio Rapu Haoa's team worked it out in 1979 from broken coral fragments. The pupils were black obsidian or red scoria.",
+      "source": "Moai fragment, Anakena Bay · public domain",
+      "alt": "Museum-lit stone moai head fragment with deep brow and empty eye sockets.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "vinapumoai.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Their backs were carved with <y>the islanders' tattoos</y>",
+      "note": "The Routledge expedition of 1914 linked the designs to island tattooing. It was key evidence the moai were carved by Rapa Nui.",
+      "source": "Moai at Ahu Vinapu · Jorge Morales Piderit · CC0",
+      "alt": "Weathered reddish standing moai on grass, heavily eroded and lichen-spotted.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "fallenmoai1886.jpg",
+      "crop": "50% 55%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "By 1868, <y>every standing moai had fallen</y>",
+      "note": "Some toppled face-down and broke their necks. A skull lies among the stones beneath this one, photographed in 1886.",
+      "source": "Fallen moai, 1886 · Mike Seager Thomas · public domain",
+      "alt": "Old black and white photo of a toppled stone statue lying in open grassland.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "standingmoai1774.jpg",
+      "crop": "78% 45%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "<y>Roped from both sides</y>, rocked forward, step by step",
+      "note": "Hunt and Lipo showed road statues lean forward on wide curved bases. No single method is proved, and the debate continues.",
+      "source": "William Hodges, 1774–77 · public domain",
+      "alt": "Painting of four standing moai with red topknots above a rocky coast and sea.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "easter-island-moai",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

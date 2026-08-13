@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "Rapa Nui oral tradition said the statues walked",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "Oral histories recount how various natives used divine power to command the statues to walk."
+    },
+    {
+      "claim": "Archaeologists agree that the statues walked",
+      "where": "card 1 headline",
+      "verdict": "unsupported",
+      "quote": "Scholars currently support the theory that the main method was that the moai were \"walked\" upright (some assume by a rocking process) ... However, the debate continues."
+    },
+    {
+      "claim": "Hundreds of moai were moved from one quarry to platforms on the coast",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "Nearly half are still at Rano Raraku, the main moai quarry, but hundreds were transported from there and set on stone platforms called ahu around the island's perimeter."
+    },
+    {
+      "claim": "The heaviest moai ever erected weighed 86 tonnes",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The heaviest moai erected was a shorter but squatter moai at Ahu Tongariki, weighing 86 tonnes (85 long tons; 95 short tons)."
+    },
+    {
+      "claim": "The photograph in card 1 shows moai at Rano Raraku, taken by Aurbina in 2004, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Description: Moai  at  Rano Raraku ,  Easter Island\nDate: Taken in January 2004\nAuthor: Aurbina\nLicence: Public domain"
+    },
+    {
+      "claim": "The moai's eye sockets were designed to hold eyes made of white coral",
+      "where": "card 2 headline/note",
+      "verdict": "supported",
+      "quote": "In 1979, Sergio Rapu Haoa and a team of archaeologists discovered that the hemispherical or deep elliptical eye sockets were designed to hold coral eyes with either black obsidian or red scoria pupils. The discovery was made by collecting and reassembling broken fragments of white coral that were found at the various sites."
+    },
+    {
+      "claim": "Sergio Rapu Haoa's team established this in 1979 from broken coral fragments",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "In 1979, Sergio Rapu Haoa and a team of archaeologists discovered that the hemispherical or deep elliptical eye sockets were designed to hold coral eyes"
+    },
+    {
+      "claim": "The pupils were black obsidian or red scoria",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "eye sockets were designed to hold coral eyes with either black obsidian or red scoria pupils"
+    },
+    {
+      "claim": "The card 2 image is a moai fragment from Anakena Bay",
+      "where": "card 2 source; caption image list",
+      "verdict": "supported",
+      "quote": "Description: Fragment of a  moai . Basaltic tuff, Anakena Bay ( Easter Island ), 11th–15th century."
+    },
+    {
+      "claim": "Moai backs bear carved designs linked to the islanders' tattooing",
+      "where": "card 3 headline/note",
+      "verdict": "supported",
+      "quote": "Moai that are less eroded typically have designs carved on their backs and posteriors. The Routledge expedition of 1914 established a cultural link between these designs and the island's traditional tattooing"
+    },
+    {
+      "claim": "The Routledge expedition was in 1914",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The Routledge expedition of 1914 established a cultural link between these designs and the island's traditional tattooing"
+    },
+    {
+      "claim": "The tattoo link was key evidence that the moai were carved by the Rapa Nui",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Until modern DNA analysis of the islanders and their ancestors, this was key scientific evidence that the moai had been carved by the Rapa Nui and not by a separate group from South America."
+    },
+    {
+      "claim": "The card 3 image shows a moai at Ahu Vinapu, photographed by Jorge Morales Piderit, CC0",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Description: Moái en el ahu Vinapu, en Isla de Pascua, Chile.\nDate: 2011-10-14\nAuthor: Jorge Morales Piderit\nLicence: CC0"
+    },
+    {
+      "claim": "By 1868 every standing moai had fallen",
+      "where": "card 4 headline; caption",
+      "verdict": "unsupported",
+      "quote": "some last standing statues were reported in 1838 by Abel Aubert du Petit-Thouars, but none remained by 1868, apart from the partially buried ones on the outer slopes of Rano Raraku"
+    },
+    {
+      "claim": "Some moai toppled face-down and broke their necks",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Some of the moai toppled forward such that their faces were hidden, and often fell in such a way that their necks broke; others fell off the back of their platforms."
+    },
+    {
+      "claim": "A skull lies among the stones beneath the moai in the 1886 photograph",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Note the skull. For a surviving example of the practice of placing human remains under moai"
+    },
+    {
+      "claim": "The fallen-moai photograph dates from 1886 and is credited to Mike Seager Thomas, public domain",
+      "where": "card 4 note/source",
+      "verdict": "supported",
+      "quote": "Date: 1886-12-01 00:00\nAuthor: Mike Seager Thomas  from UK\nLicence: Public domain"
+    },
+    {
+      "claim": "The most recent study shows statues were roped from two sides and rocked forward step by step",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "The most recent study demonstrates from the evidence in the archaeological record that the statues were harnessed with ropes from two sides and made to \"walk\" by tilting them from side to side while pulling forward, in a vertical way."
+    },
+    {
+      "claim": "Hunt and Lipo showed that statues along the roads lean forward and have wide, curved bases",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Hunt and Lipo argue that when the statues were carved at a quarry, the sculptors left their bases wide and curved along the front edge. They showed that statues along the road have a center of mass that causes the statue to lean forward."
+    },
+    {
+      "claim": "No single method of transport is proved and the debate continues",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "The results revealed that there was no single way of transporting the sculptures ... However, the debate continues."
+    },
+    {
+      "claim": "The card 5 image is by William Hodges, 1774–77, public domain",
+      "where": "card 5 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: between 1774 and 1777 ... Author: William Hodges\nLicence: Public domain"
+    },
+    {
+      "claim": "More than 900 statues were carved on Rapa Nui, mostly between 1250 and 1500",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The statues were carved by the aboriginal Polynesians of the island, mostly between 1250 and 1500."
+    },
+    {
+      "claim": "Almost all moai were carved from volcanic tuff at the single quarry of Rano Raraku",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "All but 53 of the more than 900 moai known to date were carved from tuff (a compressed volcanic ash) from Rano Raraku"
+    },
+    {
+      "claim": "Nearly half of the moai are still at Rano Raraku",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Nearly half are still at Rano Raraku, the main moai quarry"
+    },
+    {
+      "claim": "Moai set on ahu stood facing inland over their clan lands",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The statues still gazed inland across their clan lands when Europeans first visited the island in 1722"
+    },
+    {
+      "claim": "The average moai is about 4 m tall and weighs around 12.5 tonnes",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The average height of the moai is about 4 m (13 ft), with the average width at the base around 1.6 m (5.2 ft). These massive creations usually weigh around 12.5 tonnes (13.8 tons) each."
+    },
+    {
+      "claim": "Paro, the tallest moai erected, was nearly 10 m and 82 tonnes",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The tallest moai erected, called Paro, was almost 10 metres (33 ft) high and weighed 82 tonnes"
+    },
+    {
+      "claim": "One unfinished statue would have stood about 21 m and weighed 145–165 tonnes",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "One unfinished sculpture, if completed, would be approximately 21 m (69 ft) tall, with a weight of about 145–165 tonnes"
+    },
+    {
+      "claim": "The island was largely treeless when Europeans arrived in 1722",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Since the island was largely treeless by the time the Europeans first visited, the movement of the statues was a mystery for a long time."
+    },
+    {
+      "claim": "Sledges, rollers and prepared tracks were all tested experimentally",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A replica was loaded on a sledge built in the shape of an A frame that was placed on rollers and 60 people pulled on several ropes in two attempts to tow the moai. The first attempt failed when the rollers jammed up. The second attempt succeeded when tracks were embedded in the ground."
+    },
+    {
+      "claim": "Hunt and Lipo worked with Rapa Nui archaeologist Sergio Rapu",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Terry Hunt of University of Arizona ... and Carl Lipo of Binghamton Univeristy ... have worked closely with Rapa Nui archaeologist Sergio Rapu to develop their theory of how the Rapa Nui people rope walked the moai."
+    },
+    {
+      "claim": "It is not known which groups within Rapa Nui society did the carving; oral tradition says either a professional guild of carvers or the clans themselves",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It is not known exactly which groups within the Rapa Nui communities were responsible for carving statues.  Oral traditions suggest that the moai were carved either by a distinguished class of professional carvers who were comparable in status to high-ranking members of other Polynesian craft guilds, or, alternatively, by members of each clan."
+    },
+    {
+      "claim": "About 50 moai have since been re-erected",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Today, about 50 moai have been re-erected on their ahus or at museums elsewhere."
+    }
+  ],
+  "problems": 2
+}
