@@ -1,0 +1,31 @@
+{
+  "subject": "The giant squid, a creature dismissed as sailors' invention until one washed ashore",
+  "wikipedia": "Giant squid",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "wholespecimen.jpg",
+      "commons": "File:Giant Squid NASA.jpg"
+    },
+    {
+      "file": "sailorattackengravin.jpg",
+      "commons": "File:20000 squid holding sailor.jpg"
+    },
+    {
+      "file": "logybaybathtub.png",
+      "commons": "File:Logy bay giant squid 1873.png"
+    },
+    {
+      "file": "faroesdeck1902.jpg",
+      "commons": "File:Giant squid taken by Michael Sars.jpg"
+    },
+    {
+      "file": "suckerscars.jpg",
+      "commons": "File:A piece of sperm whale skin with Giant Squid sucker scars.JPG"
+    },
+    {
+      "file": "crewwithsquid.jpg",
+      "commons": "File:MOL 1130046 Architeuthis specimen2.jpg"
+    }
+  ]
+}
