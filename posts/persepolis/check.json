@@ -1,0 +1,179 @@
+{
+  "claims": [
+    {
+      "claim": "Ancient Greek and Roman writers attributed the burning of Persepolis to a drunken courtesan (Thaïs of Athens), who suggested it",
+      "where": "card 1 headline and note",
+      "verdict": "supported",
+      "quote": "Several, much later, Greek and Roman accounts (including Plutarch, Diodorus Siculus and Quintus Curtius Rufus) describe that the burning was the idea of Thaïs, mistress of Alexander's general Ptolemy I Soter, and possibly of Alexander himself. She is said to have suggested it during a very drunken celebration, according to some accounts to revenge the destruction of Greek sanctuaries (she was from Athens), and either she or Alexander himself set the fire going."
+    },
+    {
+      "claim": "Persepolis burned in 330 BC",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The complex was taken by the army of Alexander the Great in 330 BC, and soon after, its wooden parts were completely destroyed by fire."
+    },
+    {
+      "claim": "Thaïs threw the second torch; Alexander threw the first",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "She was the first, after the king, to hurl her blazing torch into the palace."
+    },
+    {
+      "claim": "Diodorus reports that at a drunken victory feast Thaïs urged the burning of the palaces",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "At this point, one of the women present, Thais by name and Attic by origin, said that for Alexander it would be the finest of all his feats in Asia if he joined them in a triumphal procession, set fire to the palaces, and permitted women's hands in a minute to extinguish the famed accomplishments of the Persians."
+    },
+    {
+      "claim": "The king led the procession out to the sound of flutes and pipes",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Female musicians were present at the banquet, so the king led them all out for the komos to the sound of voices and flutes and pipes, Thais the courtesan leading the whole performance."
+    },
+    {
+      "claim": "Soldiers ran up with water and then threw dry wood on the fire",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "Therefore, they left the water which they had brought, and they too began to throw dry wood upon the burning building."
+    },
+    {
+      "claim": "Curtius says the palace had been built largely of cedar",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The palace had been built largely of cedar, which quickly took fire and spread the conflagration widely."
+    },
+    {
+      "claim": "The army camp assumed the fire was accidental until it saw Alexander himself piling on firebrands",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "When the army, which was encamped not far from the city, saw the fire, thinking it accidental, they rushed to bear aid. (7) But when they came to the vestibule of the palace, they saw the king himself piling on firebrands."
+    },
+    {
+      "claim": "Three tombs are cut into the cliff/hillside behind the complex",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Behind the compound at Persepolis, there are three sepulchers hewn out of the rock in the hillside."
+    },
+    {
+      "claim": "The names/occupants of these tombs are still unconfirmed",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The two completed graves behind the compound at Persepolis would then belong to Artaxerxes II and Artaxerxes III. The unfinished tomb, a kilometer away from the city, is debated to who it belongs."
+    },
+    {
+      "claim": "The photographed relief belongs to the tomb of Artaxerxes II (or Artaxerxes III)",
+      "where": "card 4 note / source line",
+      "verdict": "supported",
+      "quote": "The photo shows the upper rock relief of the tomb of Artaxerxes II (or Artaxerxes III) on the slopes of Kuh-e Rahmat, directly above the palace terrace of Persepolis."
+    },
+    {
+      "claim": "An unfinished tomb a kilometre away is unattributed",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "The unfinished tomb, a kilometer away from the city, is debated to who it belongs."
+    },
+    {
+      "claim": "Cuneiform was deciphered from inscriptions found in the ruins of Persepolis, in the early 1800s, following European exploration from the early 17th century",
+      "where": "card 5 headline and note",
+      "verdict": "supported",
+      "quote": "The exploration of Persepolis from the early 17th century led to the modern rediscovery of cuneiform writing and, from detailed studies of the trilingual Achaemenid royal inscriptions found on the ruins, the initial decipherment of cuneiform in the early 19th century."
+    },
+    {
+      "claim": "The tablet shown is a bilingual inscription relating to Xerxes I, photographed by Fabienkhan",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Bilingual (left Old Persian, right Akkadian) Inscription of replacement for king Xerxes I found at the Persepolis Herem."
+    },
+    {
+      "claim": "The fire is thought to have begun in Xerxes' living quarters",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "It is believed that the fire which destroyed Persepolis started from Hadish Palace, which was the living quarters of Xerxes I, and spread to the rest of the city."
+    },
+    {
+      "claim": "Historians allow that the destruction was both accident and vengeance",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "If that is so, then the destruction of Persepolis could be both an accident and a case of revenge."
+    },
+    {
+      "claim": "The image on card 6 is a double-griffin capital from Persepolis by M-nemat",
+      "where": "card 6 source; caption",
+      "verdict": "supported",
+      "quote": "This Achaemenid double-griffin capital from Persepolis depicts two mythological Homa birds positioned back-to-back."
+    },
+    {
+      "claim": "Persepolis was the ceremonial capital of the Achaemenid Empire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Persepolis was the ceremonial capital of the Achaemenid Empire (c. 550–330 BC)."
+    },
+    {
+      "claim": "Thaïs was an Athenian courtesan and mistress of Alexander's general Ptolemy",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "describe that the burning was the idea of Thaïs, mistress of Alexander's general Ptolemy I Soter, and possibly of Alexander himself"
+    },
+    {
+      "claim": "Curtius says the king threw the first firebrand",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The king was the first to throw a firebrand upon the palace, then the guests and the servants and courtesans."
+    },
+    {
+      "claim": "A Zoroastrian text of the 3rd or 4th century says the archives held the Avesta written in gold ink on cow-skins, and that it burned",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Book of Arda Wiraz, a Zoroastrian work composed in the 3rd or 4th century, describes Persepolis' archives as containing \"all the Avesta and Zend, written upon prepared cow-skins, and with gold ink\", which were destroyed."
+    },
+    {
+      "claim": "The fire did not damage the Fortification tablets and probably caused the collapse of the wall that buried and preserved them",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "According to archaeological evidence, the partial burning of Persepolis did not damage what are now referred to as the Persepolis Fortification Archive tablets, but rather may have caused the eventual collapse of the upper part of the northern fortification wall, preserving the tablets until their recovery by the Oriental Institute's archaeologists."
+    },
+    {
+      "claim": "The Fortification tablets are made of clay",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "According to archaeological evidence, the partial burning of Persepolis did not damage what are now referred to as the Persepolis Fortification Archive tablets"
+    },
+    {
+      "claim": "One possible motive was revenge for Xerxes' burning of the Athenian acropolis",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It is not clear if the fire was an accident or a deliberate act of revenge for the burning of the Acropolis of Athens during the second Persian invasion of Greece."
+    },
+    {
+      "claim": "Another possible motive was a political act against an iconic symbol of the Persian monarchy",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The fire may also have had the political purpose of destroying an iconic symbol of the Persian monarchy that might have become a focus for Persian resistance."
+    },
+    {
+      "claim": "The function of Persepolis is unclear, and it is not known where the king's private quarters were",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The exact function of Persepolis remains unclear. ... It is still not entirely clear where the king's private quarters actually were."
+    },
+    {
+      "claim": "The first photograph, by Stefano Vigorelli, shows the Gate of All Nations",
+      "where": "caption; card 1 source",
+      "verdict": "supported",
+      "quote": "The Gate of All Nations, referring to subjects of the empire, consisted of a grand hall that was a square of approximately 25 m (82 ft) in length, with four columns and its entrance on the Western Wall."
+    },
+    {
+      "claim": "The engraving of the ruins was published by Maspero and Sayce in 1903",
+      "where": "caption; card 3 source",
+      "verdict": "supported",
+      "quote": "Date: 1903-01-01\nAuthor: Maspero, G. (Gaston), 1846-1916; Sayce, A. H. (Archibald Henry), 1845-1933"
+    },
+    {
+      "claim": "The painting is Rochegrosse's 'Incendie de Persépolis', dated 1890",
+      "where": "caption; card 2 source",
+      "verdict": "supported",
+      "quote": "Georges-Antoine Rochegrosse Incendie de Persepolis 1890"
+    }
+  ],
+  "problems": 1
+}

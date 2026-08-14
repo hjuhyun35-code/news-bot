@@ -1,0 +1,86 @@
+{
+  "caption": "Who burned Persepolis, and why?\n\nPersepolis was the ceremonial capital of the Achaemenid Empire. Alexander's army took it in 330 BC, and soon after, fire destroyed its wooden parts.\n\nLater Greek and Roman writers — Diodorus Siculus, Quintus Curtius Rufus, Plutarch — say the idea came from Thaïs, an Athenian courtesan and mistress of Alexander's general Ptolemy, at a very drunken victory feast. Curtius says the king threw the first firebrand; Diodorus says Thaïs was the first after him. The palace had been built largely of cedar. When the army saw the flames it assumed an accident and ran to help — then found Alexander himself piling on torches, put down the water it had carried, and threw on dry wood.\n\nA Zoroastrian text of the 3rd or 4th century says the archives held the Avesta written in gold ink on cow-skins, and that it burned. The fire may also have saved something: it did not damage the clay Fortification tablets, and probably collapsed the wall that buried and preserved them.\n\nStill unresolved: whether the fire was an accident, planned revenge for Xerxes' burning of the Athenian acropolis, or a political act against a symbol of Persian monarchy. The modern view allows it to be more than one of those. The function of Persepolis is unclear too, and it is not known where the king's private quarters were. One unfinished tomb a kilometre from the site is still unattributed.\n\nImages: Stefano Vigorelli's photograph of the Gate of All Nations; Rochegrosse's 'Incendie de Persépolis' (1890); an engraving published by Maspero and Sayce in 1903; tomb relief and double-griffin capital by M-nemat; the bilingual tablet of Xerxes I photographed by Fabienkhan.\n\n#Persepolis #Achaemenid #AlexanderTheGreat #archivephotography #unexplainedhistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "gateofallnations.jpg",
+      "crop": "50% 42%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Ancient writers blamed the fire on <y>a drunken courtesan</y>",
+      "note": "Persepolis burned in 330 BC. Greek and Roman accounts name Thaïs of Athens as the one who suggested it.",
+      "source": "Persepolis · Stefano Vigorelli, 2014 · CC0",
+      "alt": "Two tall ruined stone gate pillars with carved animal figures, blue sky, small figures below.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "burningpainting.jpg",
+      "crop": "50% 38%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "She threw the second torch. <y>Alexander threw the first</y>",
+      "note": "Diodorus: at a drunken victory feast, Thaïs urged burning the palaces. The king led the procession out to flutes and pipes.",
+      "source": "Rochegrosse, 'Incendie de Persépolis', 1890",
+      "alt": "Painting: a woman raises a torch on palace steps amid flames and a crowd of revellers.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "ruinsoverview.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "Soldiers ran up with water, then <y>threw on dry wood</y>",
+      "note": "Curtius says the palace was largely cedar. The camp assumed an accident until it saw Alexander piling on firebrands.",
+      "source": "Maspero & Sayce, 1903 · public domain",
+      "alt": "Engraved bird's-eye view of ruined columns on a walled terrace below bare hills.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "rockrelief.jpg",
+      "crop": "38% 28%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Three tombs cut into the cliff, <y>names still unconfirmed</y>",
+      "note": "This relief marks the tomb of Artaxerxes II — or Artaxerxes III. An unfinished tomb a kilometre away is unattributed.",
+      "source": "Tomb relief, Kuh-e Rahmat · M-nemat · CC0",
+      "alt": "Carved cliff relief: a bearded king standing above rows of figures with raised arms.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "xerxesinscription.jpg",
+      "crop": "22% 50%",
+      "zoom": 2.2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "<y>Cuneiform was deciphered</y> from writing found in these ruins",
+      "note": "Europeans explored Persepolis from the early 17th century. Its trilingual royal inscriptions cracked the script in the early 1800s.",
+      "source": "Bilingual tablet of Xerxes I · Fabienkhan · PD",
+      "alt": "Close-up of dense rows of wedge-shaped cuneiform signs cut into dark stone.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "griffincapital.jpg",
+      "crop": "74% 46%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Accident or revenge: <y>the record never settled it</y>",
+      "note": "The fire is thought to have begun in Xerxes' living quarters. Historians now allow that it was both accident and vengeance.",
+      "source": "Double-griffin capital, Persepolis · M-nemat · CC0",
+      "alt": "Stone column capital carved as an eagle-headed griffin against blue sky.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "persepolis",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
