@@ -1,0 +1,86 @@
+{
+  "caption": "Is the giant squid real? Yes. But the first photograph of a living adult was only taken in January 2002, on a beach in Kyoto Prefecture, Japan. The animal, about 4 m long in total, was tied to a quay and died overnight.\n\nCarcasses came first. Between 1870 and 1880 giant squid stranded again and again on the shores of Newfoundland. Many were never preserved — they were processed into manure or animal feed. One from Logy Bay was photographed coiled in a bathtub in 1873.\n\nThe sizes got out of hand. Reports of animals 20 m long are widespread, but none have ever been scientifically documented; specialist Steve O'Shea says such lengths came from stretching the two long tentacles like elastic bands. Across 130 examined specimens, mantles are not known to exceed 2.25 m.\n\nThe eyes need no exaggeration: up to 27 cm across, with a 9 cm pupil — the largest of any living animal, in water where almost no light reaches.\n\nIts chief predator is the sperm whale, not its equal in a fight. Counting beaks in whale stomachs, researchers estimate sperm whales eat between 4.3 and 131 million giant squid a year, which implies a squid population in the millions.\n\nStill open: nobody can estimate that population accurately, and nobody knows why the animals strand. DNA from squid worldwide differs by only 181 base pairs out of 20,331, suggesting one single global species.\n\nImages: a preserved specimen with metre scale; an engraving by Alphonse de Neuville and Édouard Riou; the Logy Bay squid, 1873; a specimen taken by the Michael Sars north of the Faroe Islands in 1902; sperm whale skin with sucker scars, 1912; and a NOAA trawl specimen off Louisiana, 2009. All public domain.\n\n#giantsquid #architeuthis #naturalhistory #deepsea #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "wholespecimen.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "Nobody photographed a live giant squid until <y>2002</y>",
+      "note": "Known from carcasses for 150 years. The first image of a live adult was taken on a beach in Kyoto Prefecture, Japan.",
+      "source": "Giant squid specimen, scale in metres · public domain",
+      "alt": "Whole preserved giant squid laid out on black, arms spread, with a metre scale beneath",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "sailorattackengravin.jpg",
+      "crop": "50% 70%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "A historian says the 1800s <y>made it a monster</y>",
+      "note": "Otto Latva found that old sea-monster tales were only tied to giant squid late in the 19th century. Sailors saw a usable animal.",
+      "source": "Alphonse de Neuville / Édouard Riou · public domain",
+      "alt": "Engraving of a huge squid gripping a sailor while men with axes hack at its arms",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "logybaybathtub.png",
+      "crop": "50% 30%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Newfoundland's stranded squid became <y>manure and animal feed</y>",
+      "note": "Squid washed ashore repeatedly from 1870 to 1880. Most were never preserved. This one was photographed in a bathtub, 1873.",
+      "source": "Logy Bay, Newfoundland, 1873 · public domain",
+      "alt": "Dead giant squid draped over a metal bathtub, arms hanging to the floor, 1873 photograph",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "faroesdeck1902.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The <y>20-metre squid</y> has never been documented",
+      "note": "Such reports are widespread. An expert says the lengths came from stretching the two long tentacles like elastic bands.",
+      "source": "Michael Sars, north of the Faroes, 1902 · public domain",
+      "alt": "Giant squid on a ship's deck, long tentacles trailing in loops across the planks",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "suckerscars.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Sperm whales may eat <y>131 million a year</y>",
+      "note": "Estimates from beaks in whale stomachs run from 4.3 to 131 million annually. The rings here are sucker scars on whale skin.",
+      "source": "Sperm whale skin with sucker scars, 1912 · public domain",
+      "alt": "Piece of sperm whale skin covered in overlapping circular sucker scars",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "crewwithsquid.jpg",
+      "crop": "50% 50%",
+      "zoom": 1.05,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Real, filmed alive in 2012, and <y>still uncounted</y>",
+      "note": "DNA suggests one species worldwide. Nobody can estimate the population, and nobody knows why the animals strand.",
+      "source": "NOAA research trawl off Louisiana, 2009 · public domain",
+      "alt": "Six researchers on a ship's deck at night standing behind a large giant squid specimen",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "giant-squid",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "No live giant squid had been photographed before 2002",
+      "where": "card 1 headline",
+      "verdict": "contradicted",
+      "quote": "The first footage of live (larval) giant squid ever captured on film was in 2001."
+    },
+    {
+      "claim": "The giant squid has been known from carcasses for about 150 years (i.e. since roughly the mid-19th century)",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Steenstrup wrote a number of papers on giant squid in the 1850s. He first used the term \"Architeuthus\" (this was the spelling he chose) in a paper in 1857. A portion of a giant squid was secured by the French corvette Alecton in 1861, leading to wider recognition of the genus in the scientific community."
+    },
+    {
+      "claim": "The first image of a live adult giant squid was taken on a beach in Kyoto Prefecture, Japan",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The first image of a live mature giant squid was taken on 15 January 2002, on Goshiki beach, Amino Cho, Kyoto Prefecture, Japan."
+    },
+    {
+      "claim": "The date of that first live-adult image was January 2002",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The first image of a live mature giant squid was taken on 15 January 2002"
+    },
+    {
+      "claim": "That animal was about 4 m long in total, was tied to a quay and died overnight",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The animal, which measured about 2 m (6 ft 7 in) in mantle length and 4 m (13 ft) in total length, was found near the water's surface. It was captured and tied to a quay, where it died overnight."
+    },
+    {
+      "claim": "The card 1 image shows a giant squid specimen with a scale marked in metres",
+      "where": "card 1 source / wholespecimen.jpg",
+      "verdict": "supported",
+      "quote": "Scale bars printed along the bottom of the image read \"4 meters\", \"3 meters\", \"2 meters\", \"1 meter\", \"0\"."
+    },
+    {
+      "claim": "The card 1 image shows a preserved specimen",
+      "where": "caption (images list)",
+      "verdict": "unsupported",
+      "quote": "Archive title: File:Giant Squid NASA.jpg / Description: (none recorded)"
+    },
+    {
+      "claim": "Historian Otto Latva found that old sea-monster tales were only tied to giant squid late in the 19th century",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "the historian Otto Latva, who has studied the past interactions between humans and giant squid, has pointed out that many old stories about sea monsters were not associated with giant squid until the late 19th century."
+    },
+    {
+      "claim": "The giant squid was 'monsterized' in the 1800s",
+      "where": "card 2 headline/note",
+      "verdict": "supported",
+      "quote": "Latva has proposed that the giant squid was monsterized in the 19th century by natural historians and other writers."
+    },
+    {
+      "claim": "Sailors regarded the giant squid as a usable animal rather than a monster",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "they did not perceive giant squid as monsters, but as sea animals that could be utilized in various ways."
+    },
+    {
+      "claim": "The card 2 engraving is by Alphonse de Neuville / Édouard Riou",
+      "where": "card 2 source / caption",
+      "verdict": "supported",
+      "quote": "Author: Alphonse de Neuville    /    Édouard Riou"
+    },
+    {
+      "claim": "Stranded Newfoundland giant squid were processed into manure and animal feed",
+      "where": "card 3 headline/note",
+      "verdict": "supported",
+      "quote": "Many of these specimens were not preserved, often being processed into manure or animal feed."
+    },
+    {
+      "claim": "Squid washed ashore repeatedly in Newfoundland from 1870 to 1880",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "From 1870 to 1880, many squid were stranded on the shores of Newfoundland."
+    },
+    {
+      "claim": "Most of the stranded Newfoundland specimens were never preserved",
+      "where": "card 3 note",
+      "verdict": "unsupported",
+      "quote": "Many of these specimens were not preserved, often being processed into manure or animal feed."
+    },
+    {
+      "claim": "The card 3 photograph shows a giant squid from Logy Bay, Newfoundland, in a bathtub, 1873",
+      "where": "card 3 note/source and caption",
+      "verdict": "supported",
+      "quote": "Description: Giant squid from Logy Bay, Newfoundland in bathtub, November/December, 1873."
+    },
+    {
+      "claim": "No 20-metre giant squid has ever been scientifically documented, though such reports are widespread",
+      "where": "card 4 headline/note and caption",
+      "verdict": "supported",
+      "quote": "Reports of specimens reaching and even exceeding 20 m (66 ft) are widespread, but no specimens approaching this size have been scientifically documented."
+    },
+    {
+      "claim": "An expert (Steve O'Shea) says such lengths were achieved by stretching the two long tentacles like elastic bands",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "According to giant squid expert Steve O'Shea, such lengths were likely achieved by greatly stretching the two tentacles like elastic bands."
+    },
+    {
+      "claim": "Across 130 examined specimens, mantles are not known to exceed 2.25 m",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Based on the examination of 130 specimens and of beaks found inside sperm whales, giant squids' mantles are not known to exceed 2.25 m (7 ft 4.6 in)."
+    },
+    {
+      "claim": "The card 4 photograph shows a giant squid taken by the Michael Sars north of the Faroe Islands in 1902",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Description: Giant squid ( Architeuthis dux ) taken by the  Michael Sars  north of the Faroe Islands in 1902."
+    },
+    {
+      "claim": "Sperm whales are estimated to eat between 4.3 and 131 million giant squid annually, based on beaks in whale stomachs",
+      "where": "card 5 headline/note and caption",
+      "verdict": "supported",
+      "quote": "it has been estimated that sperm whales consume between 4.3 and 131 million giant squid annually"
+    },
+    {
+      "claim": "That estimate implies a giant squid population in the millions",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "implying that the giant squid population is likewise well into the millions"
+    },
+    {
+      "claim": "The card 5 image shows sucker scars on sperm whale skin, dated 1912",
+      "where": "card 5 note/source and caption",
+      "verdict": "supported",
+      "quote": "Description: A piece of sperm whale skin with giant squid sucker scars / Date: 1912"
+    },
+    {
+      "claim": "Giant squid eyes reach up to 27 cm across with a 9 cm pupil",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "up to at least 27 cm (11 in) in diameter, with a 9 cm (3+1⁄2 in) pupil"
+    },
+    {
+      "claim": "Those are the largest eyes of any living animal",
+      "where": "caption",
+      "verdict": "contradicted",
+      "quote": "It also has the largest eyes of any living creature except perhaps the colossal squid"
+    },
+    {
+      "claim": "Giant squid live in water where almost no light reaches",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Large eyes can better detect light (including bioluminescent light), which is scarce in deep water."
+    },
+    {
+      "claim": "The sperm whale is the giant squid's chief predator and the squid is not its equal in a fight",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the image of a giant squid locked in battle with a sperm whale is a common one, although the squid is the whale's prey and not an equal combatant."
+    },
+    {
+      "claim": "A live giant squid was filmed in its natural habitat in 2012",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "In July 2012, a crew from television networks NHK and Discovery Channel captured what was described as \"the first-ever footage of a live giant squid in its natural habitat\"."
+    },
+    {
+      "claim": "DNA suggests a single giant squid species worldwide",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "despite previous statements to the contrary, a single species worldwide."
+    },
+    {
+      "claim": "Giant squid DNA worldwide differs by only 181 base pairs out of 20,331",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "just 181 differing genetic base pairs out of 20,331"
+    },
+    {
+      "claim": "The worldwide population cannot be estimated accurately",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Scientists have been unable to determine the worldwide population of giant squid to any degree of accuracy."
+    },
+    {
+      "claim": "It is not known why giant squid strand",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "It is not known why giant squid become stranded on shore"
+    },
+    {
+      "claim": "The card 6 photograph is a NOAA research trawl specimen taken off Louisiana in 2009",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Description: Giant squid ( Architeuthis dux ) specimen MOL 1130046, trawl netted by NOAA research vessel  Godon Gunter  off Louisiana, United States. Image by NOAA. / Date: 2009-07-30"
+    },
+    {
+      "claim": "All six images are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 4
+}
