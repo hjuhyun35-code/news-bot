@@ -1,0 +1,86 @@
+{
+  "caption": "Why was Abu Simbel moved?\n\nBecause the Aswan High Dam would have raised the water up to 60 metres over it, and wet sandstone loses its strength.\n\nRamesses II had two temples cut into the cliff from about 1264 BC; the work took roughly twenty years. Then sand buried the Great Temple — by the 6th century BC up to the statues' knees. Johann Ludwig Burckhardt found it in 1813 with one head and part of a chest above the drift. Giovanni Belzoni's party dug for 22 days and got inside on 1 August 1817; Giovanni Finati, the slenderest of them, crept through first.\n\nRescue schemes included leaving the temples underwater behind a dam of clear filtered water, viewed from glass galleries, and floating them up on concrete barges. The plan chosen was to saw the temples into blocks and rebuild them uphill, estimated at $36 million — half the cost of the rest. It came to 1,036 blocks, the smallest seven tons. Crowns were cut off because the heads exceeded the 30-ton lifting limit, and the faces were sawn away from behind the ears.\n\nThe Great Temple was rebuilt 208 m inland and 65 m higher, with a permitted deviation of 5 mm, so the sun would still reach the sanctuary on 22 February and 22 October. Ptah, god of the realm of the dead, stays unlit.\n\nStill open: the dates. They are said to be the king's birthday and coronation day, with no direct evidence. Earth's axial precession means the original date was different anyway — and because the temple was moved, the alignment may not be as precise as it once was.\n\nImages: Maxime Du Camp, 1850; Francis Frith, 1857; Per-Olow Anderson, 1967; modern views by Olaf Tausch, Gary Todd and Than217.\n\n#abusimbel #ramessesii #egyptology #archivephoto #archaeology",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "facade.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "This temple was <y>sawn into 1,036 blocks</y> and moved",
+      "note": "Cut out of a cliff for Ramesses II from about 1264 BC. Rebuilt uphill in the 1960s to escape Lake Nasser.",
+      "source": "Great Temple, Abu Simbel · Olaf Tausch, 2019",
+      "alt": "Four seated colossal statues flanking a doorway carved into a sandstone cliff.'",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "sandburiedcolossus.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "By the 6th century BC sand reached <y>the statues' knees</y>",
+      "note": "In 1813 Burckhardt saw one head and part of a chest above the drift. Belzoni's party dug 22 days to get inside.",
+      "source": "Francis Frith, Abu Simbel, 1857 · CC0",
+      "alt": "Two huge carved heads and torsos half-buried in a sand slope, a man standing below.'",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "colossushead.jpg",
+      "crop": "45% 27%",
+      "zoom": 2.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The man on the crown is <y>a servant posed for scale</y>",
+      "note": "Maxime Du Camp photographed here in March 1850. His assistant Louis Sasseti sat in the frame to show size.",
+      "source": "Maxime Du Camp, 1850 · public domain",
+      "alt": "A seated man perched on the stone crown of an enormous carved pharaoh's head.'",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "sanctuarystatues.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Sun reaches these four statues twice a year — <y>Ptah stays dark</y>",
+      "note": "22 October and 22 February. Ptah, tied to the realm of the dead, is never lit by the beam.",
+      "source": "Sanctuary, Great Temple · Gary Todd, 2002 · CC0",
+      "alt": "Four seated stone figures side by side in a dim rock-cut sanctuary.'",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "nefertaritemple.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Here the queen is carved <y>the same size as the king</y>",
+      "note": "The Small Temple honours Hathor and Nefertari. Queens were traditionally no taller than the pharaoh's knee.",
+      "source": "Nefertari's Temple, Abu Simbel, 2007 · public domain",
+      "alt": "Row of standing colossal figures in recesses on a carved cliff facade, tourists below.'",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "facelift1967.jpg",
+      "crop": "35% 32%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Rebuilt 65 metres higher, <y>within 5 millimetres</y>",
+      "note": "Faces were sawn off behind the ears; one weighed 19.6 tonnes. Because the temple moved, the solar alignment may not be exact.",
+      "source": "Per-Olow Anderson, 1967 · public domain",
+      "alt": "A crane lowering a giant carved stone face onto a headless colossus, workers standing on top.'",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "abu-simbel",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

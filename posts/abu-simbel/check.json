@@ -1,0 +1,245 @@
+{
+  "claims": [
+    {
+      "claim": "The temples were cut into 1,036 blocks for relocation",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "In total the temples were cut into 1,036 blocks."
+    },
+    {
+      "claim": "The temple was cut out of a cliff for Ramesses II from about 1264 BC",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "Construction of the temple complex started in c. 1264 BC and lasted for about 20 years, until 1244 BC."
+    },
+    {
+      "claim": "The construction work took roughly twenty years",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Construction of the temple complex started in c. 1264 BC and lasted for about 20 years, until 1244 BC."
+    },
+    {
+      "claim": "The temple was rebuilt uphill in the 1960s to escape Lake Nasser",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The complex was relocated in its entirety in 1968 to higher ground to avoid it being submerged by Lake Nasser, the Aswan Dam reservoir."
+    },
+    {
+      "claim": "The facade image is of the Great Temple, Abu Simbel, by Olaf Tausch, 2019",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Description: Great Temple at Abu Simbel, Egypt / Date: 2019-10-25 / Author: Olaf Tausch"
+    },
+    {
+      "claim": "By the 6th century BC sand reached the statues' knees",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "By the 6th century BC, the sand already covered the statues of the main temple up to their knees."
+    },
+    {
+      "claim": "In 1813 Burckhardt saw one head and part of a chest above the sand drift",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "The entire head, and part of the breast and arms of one of the statues are yet above the surface"
+    },
+    {
+      "claim": "Burckhardt found the site in 1813",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The temple remained unknown to Europeans until March 1813, when the Swiss researcher Johann Ludwig Burckhardt found the small temple and top frieze of the main temple."
+    },
+    {
+      "claim": "Belzoni's party dug for 22 days and entered the Great Temple on 1 August 1817",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "After 22 days’ work, he and his party were able to enter the Great Temple on 1 August 1817."
+    },
+    {
+      "claim": "Giovanni Finati, the slenderest of the party, crept through first",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "I, being one of the slenderest of the party, without a word said, crept through into the interior, and was thus the first that entered it, perhaps, for a thousand years."
+    },
+    {
+      "claim": "The sand-buried colossus photograph is by Francis Frith, 1857, CC0",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 1857 ... Author: Francis Frith Licence: CC0"
+    },
+    {
+      "claim": "The figure seated on the colossus's crown is a servant posed to provide scale",
+      "where": "card 3 headline/note",
+      "verdict": "supported",
+      "quote": "In a number of photographs, Du Camp had his servant and occasional laboratory assistant Louis Sasseti pose to provide scale."
+    },
+    {
+      "claim": "The servant in the frame was Louis Sasseti",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "In a number of photographs, Du Camp had his servant and occasional laboratory assistant Louis Sasseti pose to provide scale."
+    },
+    {
+      "claim": "Maxime Du Camp photographed the Great Temple in March 1850",
+      "where": "card 3 note/source",
+      "verdict": "supported",
+      "quote": "arriving at 9 am on 27 March 1850 and departing on 30 March ... five of the Grand Temple on 29 March"
+    },
+    {
+      "claim": "The sun reaches the four sanctuary statues twice a year, on 22 October and 22 February, but Ptah stays dark",
+      "where": "card 4; caption",
+      "verdict": "supported",
+      "quote": "on October 22 and February 22, the rays of the sun would penetrate the sanctuary and illuminate the sculptures on the back wall, except for the statue of Ptah, a god connected with the realm of the dead, who always remained in the dark"
+    },
+    {
+      "claim": "Ptah is tied to the realm of the dead",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "except for the statue of Ptah, a god connected with the realm of the dead"
+    },
+    {
+      "claim": "The sanctuary of the Great Temple contains four seated statues",
+      "where": "card 4 headline / sanctuarystatues.jpg",
+      "verdict": "supported",
+      "quote": "Here, on a black wall, are rock cut sculptures of four seated figures: Ra-Horakhty, the deified king Ramesses, and the gods Amun Ra and Ptah."
+    },
+    {
+      "claim": "The sanctuary photograph is by Gary Todd, 2002, CC0",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Date: 2002-06-12 06:34 Author: Gary Todd  from Xinzheng, China Licence: CC0"
+    },
+    {
+      "claim": "At the Small Temple the queen is carved the same size as the king",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "Remarkably, this is one of very few instances in Egyptian art where the statues of the king and his consort have equal size."
+    },
+    {
+      "claim": "The Small Temple honours Hathor and Nefertari",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "The temple of Hathor and Nefertari, also known as the Small Temple, was built about 100 m (330 ft) northeast of the temple of Ramesses II and was dedicated to the goddess Hathor and Ramesses II's chief consort, Nefertari."
+    },
+    {
+      "claim": "Queens were traditionally no taller than the pharaoh's knee",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Traditionally, the statues of the queens stood next to those of the pharaoh, but were never taller than his knees."
+    },
+    {
+      "claim": "The Nefertari's Temple photograph dates from 2007",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Description: Nefertari's Temple at Abu Simbel. Taken by myself. May 30, 2007. Date: 2007-05-30"
+    },
+    {
+      "claim": "The Great Temple was rebuilt 65 metres higher and 208 m further inland",
+      "where": "card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "208 m (682 ft) further inland and vertically 65 m (213 ft) higher for the Great Temple, and 67 m (220 ft) for the Small Temple"
+    },
+    {
+      "claim": "The permitted deviation when reassembling the Great Temple was 5 mm",
+      "where": "card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "To ensure the correct orientation, the permitted deviation when reassembling the Great Temple was plus or minus 5 mm."
+    },
+    {
+      "claim": "Faces were sawn off from behind the ears",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "Then on 15 October, the most experienced stone cutters commenced cutting the first face away from behind their ears."
+    },
+    {
+      "claim": "One face weighed 19.6 tonnes",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "Face weighs 19.6 tonnes and concrete reinforcement in the back of 4.58 tons."
+    },
+    {
+      "claim": "Because the temple was moved, the solar alignment may not be exact",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "This is compounded by the fact that the temple was relocated from its original setting, so the current alignment may not be as precise as the original one."
+    },
+    {
+      "claim": "The construction/lifting photograph is by Per-Olow Anderson, 1967",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Date: 1967 Author: \"Per-Olow\" - Per-Olow Anderson (1921-1989)"
+    },
+    {
+      "claim": "The Aswan High Dam would have raised the water up to 60 metres over the temples",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The resulting lake would raise the water level at Abu Simbel by up to 60 metres (200 ft)."
+    },
+    {
+      "claim": "Wet sandstone loses its strength",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Once submerged the water would cause the sandstone from which they were constructed to lose its strength and durability."
+    },
+    {
+      "claim": "One rescue scheme was to leave the temples underwater behind a dam holding clear filtered water, with visitors viewing from observation galleries",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "to leave them where they were and building a dam around them, containing crystal-clear filtered water kept at the same height as the muddy Nile water outside. Visitors would then have looked at the engulfed temples from curved observation galleries on three levels."
+    },
+    {
+      "claim": "The viewing galleries in that scheme were to be of glass",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "Visitors would then have looked at the engulfed temples from curved observation galleries on three levels."
+    },
+    {
+      "claim": "Another scheme proposed floating the temples up on concrete barges",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Another scheme proposed by an American construction executive was to construct concrete barges under the temples and then allow the rising lake water to raise them."
+    },
+    {
+      "claim": "The chosen plan of sawing the temples into blocks and rebuilding them uphill was estimated at $36 million, half the cost of the other proposals",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "was estimated to cost US$36 million, half the cost of the other proposals"
+    },
+    {
+      "claim": "The smallest block weighed seven tons",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The smallest individual block weighed seven tons."
+    },
+    {
+      "claim": "Crowns were cut off because the heads exceeded the 30-ton lifting limit",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "As the heads of figures of the pharaohs on the front of the Great Temple exceeded the 30-ton lifting limit, the weight was reduced by cutting their crown off."
+    },
+    {
+      "claim": "The temples were oriented at the new site so the sun would still reach the sanctuary on 22 February and 22 October",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The temples were oriented at the new location to duplicate the two occasions each year that the rising sun penetrated the innermost sanctum at the rear of the Great Temple."
+    },
+    {
+      "claim": "The dates are said to be the king's birthday and coronation day, with no direct evidence",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "These dates are allegedly the king's birthday and coronation day, respectively. There is no direct evidence to support this."
+    },
+    {
+      "claim": "Earth's axial precession means the original date was different when the temple was built",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Because of the accumulated drift of the Tropic of Cancer due to Earth's axial precession over the past 3 millennia, the event's date must have been different when the temple was built."
+    },
+    {
+      "claim": "Modern views are by Olaf Tausch, Gary Todd and Than217",
+      "where": "caption image credits",
+      "verdict": "supported",
+      "quote": "Author: Than217  at  English Wikipedia"
+    }
+  ],
+  "problems": 1
+}
