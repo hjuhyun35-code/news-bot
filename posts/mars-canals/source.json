@@ -1,0 +1,31 @@
+{
+  "subject": "The Martian canals, mapped in detail by astronomers for thirty years before they vanished",
+  "wikipedia": "Martian canal",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "canaldrawings1911.jpg",
+      "commons": "File:Martian Canals Summer 1911.jpg"
+    },
+    {
+      "file": "schiaparellimap1886.jpg",
+      "commons": "File:Giovanni map mars.jpg"
+    },
+    {
+      "file": "ballcanalchart1910.jpg",
+      "commons": "File:In the High Heavens - Ball (1910) - Figure 21.jpg"
+    },
+    {
+      "file": "flammarionantoniadim.jpg",
+      "commons": "File:Martian Channels by Flamarion&Antoniadi.jpg"
+    },
+    {
+      "file": "aeronauticalchart196.jpg",
+      "commons": "File:Mars - MEC-1 Prototype. LOC 2013593160.jpg"
+    },
+    {
+      "file": "mariner4craters.jpg",
+      "commons": "File:Mariner 4 craters.gif"
+    }
+  ]
+}
