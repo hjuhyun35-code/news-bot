@@ -1,0 +1,86 @@
+{
+  "caption": "Were there really canals on Mars?\n\nNo. But astronomers mapped them in detail for about thirty years.\n\nIn 1877 Giovanni Schiaparelli described long straight lines across the equatorial regions of Mars and called them canali — Italian for channels. English rendered it as \"canals\". Percival Lowell went further: from 1894 he argued they were irrigation works built by an intelligent Martian civilisation to carry water from the melting polar caps to the dry tropics. He wrote three books on it. Schiaparelli thought much of the detail in Lowell's drawings was imaginary.\n\nThere was no photography. Observers stared through telescopes for hours, waited for a moment of still air, then drew what they had seen. In 1903 Joseph Evans and Edward Maunder tested this with schoolboy volunteers: through a poor telescope, many point-like features appear to join up into lines.\n\nEugène Antoniadi used the 83 cm telescope at Meudon during the 1909 opposition and saw no canals. Photographs from the new Baillaud dome at Pic du Midi discredited the theory the same year. Even so, in 1916 the editor of Scientific American was still defending it, and a 1965 space sciences sourcebook said most astronomers would probably still agree on apparently linear markings 25 to 100 miles across.\n\nLater in 1965 Mariner 4 flew past and returned pictures of impact craters and a barren surface, with pressure 0.4% to 0.7% of Earth's and daytime temperatures of −100 °C.\n\nStill open: William Hartmann suggested the lines were dust streaks blown on the leeward side of mountains and craters, and Valles Marineris has been proposed as the real feature behind the Coprates canal.\n\nImages: Schiaparelli's 1886 map; a canal map from Ball's In the High Heavens (1910); drawings by Percival Lowell and E. C. Slipher, 1911; the Flammarion–Antoniadi map; a 1962 US Aeronautical Chart and Information Center chart; and Mariner 4. All public domain.\n\n#mars #historyofscience #percivallowell #publicdomain #archives",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "schiaparellimap1886.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "A mistranslated word put <y>canals on Mars</y>",
+      "note": "Schiaparelli saw canali — channels — from 1877. English called them canals, and canals need builders.",
+      "source": "Giovanni Schiaparelli, map of Mars, 1886",
+      "alt": "Old engraved map of Mars covered in straight lines and Latin place names.:",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "ballcanalchart1910.jpg",
+      "crop": "50% 38%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Each canal got a name from <y>rivers and the underworld</y>",
+      "note": "Some observers drew dozens, even hundreds of canals, with an elaborate nomenclature for every one.",
+      "source": "Map of Mars, R. S. Ball, In the High Heavens, 1910",
+      "alt": "Detail of a 1910 Mars map with crossing lines labelled Elysium, Phlegra, Cerberus.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "canaldrawings1911.jpg",
+      "crop": "22% 48%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "<y>No photographs.</y> Every canal was drawn by hand",
+      "note": "Observers waited hours for still air, then drew it. In 1903 Evans and Maunder showed schoolboys' dots joining into lines.",
+      "source": "Percival Lowell & E. C. Slipher, 1911",
+      "alt": "Circular hand drawing of Mars showing dark streaks crossing the disc.:",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "flammarionantoniadim.jpg",
+      "crop": "62% 42%",
+      "zoom": 2.4,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "A man named on this map <y>saw no canals at all</y>",
+      "note": "Antoniadi used the 83 cm telescope at Meudon in 1909 and saw none. Pic du Midi photographs discredited the canals that year.",
+      "source": "Map of Mars by Flammarion and Antoniadi, 1910s",
+      "alt": "Close detail of printed Mars map, faint lines converging near named lakes.:",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "aeronauticalchart196.jpg",
+      "crop": "50% 42%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Still argued about in <y>1965</y>, at the dawn of the Space Race",
+      "note": "A space sciences sourcebook said most astronomers would agree on linear markings 25 to 100 miles across.",
+      "source": "Aeronautical Chart and Information Center, 1962",
+      "alt": "Detail of a 1962 pinkish Mercator chart of Mars with dark blotchy markings.:",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "mariner4craters.jpg",
+      "crop": "45% 38%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Mariner 4 found craters. The canals were <y>an optical illusion</y>",
+      "note": "Open: Hartmann proposed dust streaks behind craters. Valles Marineris may be the real Coprates canal.",
+      "source": "Mariner 4, NASA",
+      "alt": "Grainy 1965 spacecraft photograph of the cratered, barren surface of Mars.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "mars-canals",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

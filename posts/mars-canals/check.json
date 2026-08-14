@@ -1,0 +1,197 @@
+{
+  "claims": [
+    {
+      "claim": "A mistranslation of Schiaparelli's word produced the English term \"canals\" for Martian features",
+      "where": "Card 1 headline / note",
+      "verdict": "supported",
+      "quote": "Schiaparelli called these canali (\"channels\"), which was mistranslated into English as \"canals\"."
+    },
+    {
+      "claim": "Schiaparelli described the canali beginning in 1877",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "They were first described by the Italian astronomer Giovanni Schiaparelli during the opposition of 1877, and attested to by later observers."
+    },
+    {
+      "claim": "The image credited as card 1's source is Giovanni Schiaparelli's map of Mars, 1886",
+      "where": "Card 1 source",
+      "verdict": "supported",
+      "quote": "Giovanni Schiaparelli's map of Mars, compiled over the period 1877-1886, used names based on classical geography or were simply descriptive terms"
+    },
+    {
+      "claim": "The canals were named after real and legendary rivers on Earth and after the mythological underworld",
+      "where": "Card 2 headline",
+      "verdict": "supported",
+      "quote": "The canals were named by Schiaparelli and others after both real and legendary rivers of various places on Earth, or the mythological underworld."
+    },
+    {
+      "claim": "Some observers drew dozens or hundreds of canals with an elaborate nomenclature for each",
+      "where": "Card 2 note",
+      "verdict": "supported",
+      "quote": "Some observers drew maps in which dozens if not hundreds of canals were shown with an elaborate nomenclature for all of them."
+    },
+    {
+      "claim": "Card 2's image is a map of Mars from R. S. Ball, In the High Heavens, 1910",
+      "where": "Card 2 source",
+      "verdict": "supported",
+      "quote": "Figure 21: Part of a Map of Mars, from 'In the High Heavens', by Robert Stawell Ball, published in 1910"
+    },
+    {
+      "claim": "Canal observations were made without photography; the features were drawn by hand",
+      "where": "Card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "These were a network of long straight lines in the equatorial regions from 60° north to 60° south latitude on Mars, observed by astronomers using early telescopes without photography."
+    },
+    {
+      "claim": "Observers stared through telescopes for hours waiting for a moment of still air, then drew what they saw",
+      "where": "Card 3 note; caption",
+      "verdict": "supported",
+      "quote": "Astronomers had to stare for hours through their telescopes, waiting for a moment of still air when the image was clear, and then draw a picture of what they had seen."
+    },
+    {
+      "claim": "In 1903 Joseph Edward Evans and Edward Maunder used schoolboy volunteers to show that point-like features appear to join into lines in a poor telescope",
+      "where": "Card 3 note; caption",
+      "verdict": "supported",
+      "quote": "As early as 1903, Joseph Edward Evans and Edward Maunder conducted visual experiments using schoolboy volunteers that demonstrated how the canals could arise as an optical illusion. This is because when a poor-quality telescope views many point-like features (e.g. sunspots or craters) they appear to join up to form lines."
+    },
+    {
+      "claim": "Card 3's drawings are by Percival Lowell and E. C. Slipher, 1911",
+      "where": "Card 3 source",
+      "verdict": "supported",
+      "quote": "Date: published August 27, 1911\nAuthor: Percival Lowell, E. C. Slipher"
+    },
+    {
+      "claim": "Antoniadi is named on the map shown in card 4",
+      "where": "Card 4 headline / image",
+      "verdict": "supported",
+      "quote": "КАРТА МАРСА. (По Фламмаріону и Антоніади)."
+    },
+    {
+      "claim": "Antoniadi used the 83 cm telescope at Meudon Observatory during the 1909 opposition and saw no canals",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "The influential observer Eugène Antoniadi used the 83 cm (32.6 inch) aperture telescope at Meudon Observatory during the 1909 opposition of Mars and saw no canals"
+    },
+    {
+      "claim": "Photographs from the new Baillaud dome at Pic du Midi discredited the canal theory in 1909",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "the outstanding photos of Mars taken at the new Baillaud dome at the Pic du Midi observatory also brought formal discredit to the Martian canals theory in 1909"
+    },
+    {
+      "claim": "Card 4's image is a map of Mars by Flammarion and Antoniadi from the 1910s",
+      "where": "Card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Martian Channels by Flamarion&Antoniadi.jpg\nDescription: Map of the Mars (by Flammarion and Antoniadi)\nDate: 1910s"
+    },
+    {
+      "claim": "The existence of canals was still argued about in 1965, at the dawn of the Space Race",
+      "where": "Card 5 headline",
+      "verdict": "supported",
+      "quote": "The existence of Martian canals was still controversial even at the dawn of the Space Race. In 1965, the Sourcebook on the space sciences said..."
+    },
+    {
+      "claim": "A 1965 space sciences sourcebook said most astronomers would probably agree on apparently linear markings 25 to 100 miles across",
+      "where": "Card 5 note; caption",
+      "verdict": "supported",
+      "quote": "most astronomers would probably agree that there are apparently linear (or approximately linear) markings, perhaps 40 to 160 kilometers (25 to 100 miles) or more across and of considerable length."
+    },
+    {
+      "claim": "Card 5's chart is from the Aeronautical Chart and Information Center, dated 1962",
+      "where": "Card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Date: 1962\nAuthor: Aeronautical Chart And Information Center (U.S.)"
+    },
+    {
+      "claim": "Mariner 4 returned pictures revealing impact craters and a barren Martian landscape",
+      "where": "Card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "It took pictures revealing impact craters and a generally barren Martian landscape"
+    },
+    {
+      "claim": "The canals were likely an optical illusion",
+      "where": "Card 6 headline",
+      "verdict": "supported",
+      "quote": "the \"canals\" were likely an optical illusion, and modern high-resolution mapping of the Martian surface by spacecraft supports this interpretation"
+    },
+    {
+      "claim": "William Hartmann hypothesized the canals were dust streaks on the leeward side of mountains and craters",
+      "where": "Card 6 note; caption",
+      "verdict": "supported",
+      "quote": "William Kenneth Hartmann, a Mars imaging scientist from the 1960s to the 2000s, hypothesized that the \"canals\" were streaks of dust caused by wind on the leeward side of mountains and craters."
+    },
+    {
+      "claim": "Valles Marineris has been proposed to correspond to the Coprates canal",
+      "where": "Card 6 note; caption",
+      "verdict": "supported",
+      "quote": "Valles Marineris has been proposed to correspond to the Coprates canal."
+    },
+    {
+      "claim": "There were no real canals on Mars",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "During the late 19th and early 20th centuries, it was erroneously believed that there were \"canals\" on the planet Mars."
+    },
+    {
+      "claim": "Astronomers mapped the canals in detail for about thirty years",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "They were first described by the Italian astronomer Giovanni Schiaparelli during the opposition of 1877... and the notion of canals began to fall out of favor."
+    },
+    {
+      "claim": "Schiaparelli described the lines as crossing the equatorial regions of Mars",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "These were a network of long straight lines in the equatorial regions from 60° north to 60° south latitude on Mars"
+    },
+    {
+      "claim": "Canali is Italian for channels",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The Italian word canale (plural canali) can mean \"canal\", \"channel\", \"duct\" or \"gully\"."
+    },
+    {
+      "claim": "From 1894 Lowell argued the canals were irrigation works built by an intelligent Martian civilisation to carry water from the melting polar caps to the dry equatorial regions",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "During the 1894 opposition, the idea that Schiaparelli's canali were really irrigation canals made by intelligent beings was first hinted at, and then adopted as the only intelligible explanation, by American astronomer Percival Lowell and a few others. The visible seasonal melting of Mars polar icecaps fueled speculation that an advanced alien race indigenous to Mars built canals to transport the water to drier equatorial regions."
+    },
+    {
+      "claim": "Lowell wrote three books on the subject",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Lowell published his views in three books: Mars (1895), Mars and Its Canals (1906), and Mars As the Abode of Life (1908)."
+    },
+    {
+      "claim": "Schiaparelli considered much of the detail in Lowell's drawings imaginary",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "going much further than Schiaparelli, who for his part considered much of the detail on Lowell's drawings to be imaginary"
+    },
+    {
+      "claim": "In 1916 the editor of Scientific American was still defending the Martian canals theory",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "as of 1916 Waldemar Kaempffert (editor of Scientific American and later Popular Science Monthly) was still vigorously defending the Martian canals theory against skeptics"
+    },
+    {
+      "claim": "Mariner 4 flew past Mars later in 1965",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Later in the same year, the arrival of the United States' Mariner 4 spacecraft debunked for good the idea that Mars could be inhabited by higher forms of life, or that any canal features existed."
+    },
+    {
+      "claim": "Mariner 4 measured surface pressure of 0.4% to 0.7% of Earth's and daytime temperatures of −100 °C",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "with a surface atmospheric pressure of 4.1 to 7.0 millibars (410 to 700 pascals), 0.4% to 0.7% of Earth atmospheric pressure, and daytime temperatures of −100 degrees Celsius were measured"
+    },
+    {
+      "claim": "All six images are public domain",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 0
+}
