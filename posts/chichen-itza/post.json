@@ -1,0 +1,73 @@
+{
+  "caption": "Does the serpent shadow at Chichen Itza only appear on the equinox?\n\nNo. Around the spring and autumn equinoxes, in the late afternoon, the northwest corner of the Temple of Kukulcán throws triangular shadows onto the western balustrade of the north stairway. It looks like a snake wriggling down the steps.\n\nIt is widely believed the builders designed this to mark the equinoxes. That idea is considered highly unlikely: the effect can be seen, without major change, for several weeks either side of the equinoxes, so the date cannot be fixed by watching it alone.\n\nThe pyramid is 30 m high: nine terraces, a 6 m temple on top, sides 55.3 m at the base, faces rising at 53°. Carved serpent heads sit at the foot of the northeastern staircase. The stone buildings here were once painted red, green, blue and purple.\n\nTeobert Maler photographed the Castillo in 1892, still half-buried in bush. The Carnegie Institution received a ten-year excavation permit in 1923 and its first staff of five arrived in May 1924; the Mexican government excavated and restored El Castillo and the Great Ball Court. Digging in the 1930s found an older temple inside, with a Chac Mool and a red jaguar throne inlaid with jade. 3D scanning in 2025 confirmed an enclosed earlier pyramid, \"Castillo-sub\", built in successive enlargements.\n\nStill unresolved: in 2015 scientists determined there is a cenote hidden under the Temple of Kukulcán. No archeologist has ever seen it.\n\nImages: the March 2009 equinox by ATSZ56; Teobert Maler's 1892 photograph; a limestone feathered serpent from Chichén Itzá (Jebulon); the 1924 Carnegie staff by J. O. Kilmartin; Sigvald Linné's 1932 aerial view.\n\n#chichenitza #maya #archaeology #archivephoto #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "equinoxshadow.jpg",
+      "crop": "60% 45%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The shadow snake appears for <y>weeks, not one day</y>",
+      "note": "Late afternoon around both equinoxes, the northwest corner throws triangles onto the north stairway.",
+      "source": "Chichen Itza, March equinox 2009 · ATSZ56",
+      "alt": "Corner of El Castillo pyramid at Chichen Itza, stone terraces in low sunlight,",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "castillo1892.jpg",
+      "crop": "52% 42%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "In 1892 it was <y>a bush-covered mound</y>",
+      "note": "Teobert Maler photographed the Castillo before restoration. Mexico excavated and rebuilt it during the 1920s and 30s.",
+      "source": "Teobert Maler, 1892 · public domain",
+      "alt": "Old photograph of a vegetation-covered pyramid mound with a small temple at the top.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "serpenthead.jpg",
+      "crop": "68% 36%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The city was painted <y>red, green, blue, purple</y>",
+      "note": "Carved serpent heads sit at the base of the balustrades of El Castillo's northeastern staircase.",
+      "source": "Feathered serpent, 900–1250 CE · Jebulon, CC0",
+      "alt": "Carved limestone feathered serpent head with open jaws and coiled body, museum lighting.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "carnegiestaff.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "<y>Five people</y> began a ten-year excavation permit",
+      "note": "Carnegie's first Chichen Itza staff, May 1924: an engineer, a paymaster, an archeologist, an artist and Morley.",
+      "source": "J. O. Kilmartin, 21 May 1924 · public domain",
+      "alt": "Five people in field clothes and wide hats seated in a row before a thatched hut.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "aerial1932.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The snake is real. <y>The calendar is not.</y>",
+      "note": "Still open: in 2015 scientists found a cenote hidden under the Temple of Kukulcán. No archeologist has seen it.",
+      "source": "Sigvald Linné, aerial view, 1932 · CC0",
+      "alt": "1932 aerial photograph of Chichen Itza ruins standing in dense low forest.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "chichen-itza",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
