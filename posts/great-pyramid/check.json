@@ -1,0 +1,167 @@
+{
+  "claims": [
+    {
+      "claim": "The Great Pyramid took an estimated 2.3 million blocks.",
+      "where": "card 1 headline; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total."
+    },
+    {
+      "claim": "It was built around 2600 BC over a period of about 26 years.",
+      "where": "card 1 note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "It was built c. 2600 BC over a period of about 26 years."
+    },
+    {
+      "claim": "There is no definite consensus among Egyptologists on the construction method, and many alternative, contradictory theories exist.",
+      "where": "card 1 note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Many varying scientific and alternative hypotheses attempt to explain the exact construction techniques, but, as is the case for other such structures, there is no definite consensus."
+    },
+    {
+      "claim": "The pyramid was built for the pharaoh Khufu.",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu (\"Cheops\"), who ruled during the Fourth Dynasty of the Old Kingdom."
+    },
+    {
+      "claim": "Materials used were about 5.5 million tonnes of limestone, 8,000 tonnes of granite, and 500,000 tonnes of mortar.",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Approximately 5.5 million tonnes of limestone, 8,000 tonnes of granite, and 500,000 tonnes of mortar were used in the construction."
+    },
+    {
+      "claim": "Ashes from fires were added to the mortar during mixing, leaving datable organic material (charcoal) in it.",
+      "where": "card 2 headline/note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "In the mixing process ashes from fires were added to the mortar, organic material that could be extracted and radiocarbon dated."
+    },
+    {
+      "claim": "46 mortar samples were taken in 1984 and 1995 and dated to 2871–2604 BC.",
+      "where": "card 2 note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "A total of 46 samples of the mortar were taken in 1984 and 1995, making sure they were clearly inherent to the original structure and could not have been incorporated at a later date. The results were calibrated to 2871–2604 BC."
+    },
+    {
+      "claim": "The mortar specimen photographed is from the Great Pyramid and dates to the reign of Khufu, held by the Metropolitan Museum.",
+      "where": "card 2 source; caption image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Specimen of mortar from the Great Pyramid MET 23.187 EGDP017918.jpg ... Reign: reign of Khufu"
+    },
+    {
+      "claim": "In 1837, four sealed (previously inaccessible) chambers above the King's Chamber were entered by tunnelling.",
+      "where": "card 3 note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "In 1837 four additional relieving chambers were found above the King's Chamber after tunnelling to them. The chambers, previously inaccessible, were covered in hieroglyphs of red paint."
+    },
+    {
+      "claim": "The walls bore red-paint work-gang graffiti naming Khufu over a dozen times.",
+      "where": "card 3 headline/note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The names of Khufu were spelled out on the walls over a dozen times."
+    },
+    {
+      "claim": "One gang name read \"The gang, The white crown of Khnum-Khufu is powerful\".",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The workers who were building the pyramid had marked the blocks with the names of their gangs, which included the pharaoh's name (e.g.: \"The gang, The white crown of Khnum-Khufu is powerful\")."
+    },
+    {
+      "claim": "The Perring 1839 drawing shows graffiti in a chamber of the Great Pyramid.",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Description: Graffiti on the walls of Lady Arbuthnot's Chamber in the Great Pyramid of Giza / Date: 1839 / Author: Perring, John Shae"
+    },
+    {
+      "claim": "The blocks were cut with copper chisels and wet sand.",
+      "where": "card 4 headline",
+      "verdict": "unsupported",
+      "quote": "hardened arsenic copper chisels, wooden mallets, ropes and stone tools"
+    },
+    {
+      "claim": "A modern experiment cut a 2.5-tonne block in four days with four workers using replica arsenic-copper chisels and wooden mallets.",
+      "where": "card 4 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "In the experiment replicas of these were used to cut a block weighing about 2.5 tonnes (the average block size used for the Great Pyramid). It took four workers 4 days (with each working 6 hours a day) to excavate it."
+    },
+    {
+      "claim": "Wetting the stone made the cutting work six times faster.",
+      "where": "card 4 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The initially slow progress sped up six times when the stone was wetted with water."
+    },
+    {
+      "claim": "The pyramid was built by conscript labourers rather than slaves.",
+      "where": "card 5 headline; caption implication",
+      "verdict": "supported",
+      "quote": "The ancient Greeks believed that slave labour was used, but modern discoveries made at nearby workers' camps associated with construction at Giza suggest that it was built by thousands of conscript labourers."
+    },
+    {
+      "claim": "A 1999 management study estimated an average workforce of about 13,200 and a peak of roughly 40,000.",
+      "where": "card 5 headline/note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "A construction management study conducted in 1999, in association with Mark Lehner and other Egyptologists, had estimated that the total project required an average workforce of about 13,200 people and a peak workforce of roughly 40,000."
+    },
+    {
+      "claim": "Worker graffiti shows haulers organised in groups of 40, each group having four sub-units under an \"Overseer of Ten\".",
+      "where": "card 5 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Worker graffiti found at Giza suggest haulers were divided into zau (singular za), groups of 40 men, consisting of four sub-units that each had an \"Overseer of Ten\"."
+    },
+    {
+      "claim": "In 2017 muon radiography found a cavity at least 30 metres long above the Grand Gallery.",
+      "where": "card 6 headline/note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "In 2017, scientists from the ScanPyramids project discovered a large cavity above the Grand Gallery using muon radiography, which they called the \"ScanPyramids Big Void\". ... Its length is at least 30 metres (98 ft)"
+    },
+    {
+      "claim": "The void's purpose is unknown and it is not accessible.",
+      "where": "card 6 note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "The purpose of the cavity is unknown and it is not accessible."
+    },
+    {
+      "claim": "The shafts off the Queen's Chamber end in limestone \"doors\" whose purpose is unknown.",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "After a climb of 65 m (213 ft), he discovered that one of the shafts was blocked by a limestone \"door\" with two eroded copper \"handles\"."
+    },
+    {
+      "claim": "Image credit: Gary Todd, 2002 (pyramid.jpg).",
+      "where": "card 1 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 2002-06-07 21:47 / Author: Gary Todd  from Xinzheng, China"
+    },
+    {
+      "claim": "Image credit: Warren LeMay, 2019 (blocks.jpg).",
+      "where": "card 4 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 2019-05-12 08:51 / Author: Warren LeMay  from Chicago, IL, United States"
+    },
+    {
+      "claim": "Image credit: Selim Hassan, 1936 (excavation.jpg).",
+      "where": "card 5 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 1936 / Author: Selim Hassan"
+    },
+    {
+      "claim": "Image credit: Luigi Mayer, c. 1800 (gallery.jpg).",
+      "where": "card 6 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: circa 1800 date QS:P,+1800-00-00T00:00:00Z/9,P1480,Q5727902 / Author: Luigi Mayer"
+    },
+    {
+      "claim": "The Luigi Mayer print depicts a passage between galleries in the Great Pyramid.",
+      "where": "card 6 image",
+      "verdict": "supported",
+      "quote": "PASSAGE FROM THE SECOND TO THE THIRD GALLERY IN THE GREAT PYRAMID"
+    },
+    {
+      "claim": "All six images are public domain.",
+      "where": "card sources; caption image list",
+      "verdict": "supported",
+      "quote": "Licence: CC0"
+    }
+  ],
+  "problems": 1
+}

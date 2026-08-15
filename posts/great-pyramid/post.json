@@ -1,0 +1,86 @@
+{
+  "caption": "How were the pyramids built? The honest answer: nobody has the method written down.\n\nThe Great Pyramid was built around 2600 BC for the pharaoh Khufu, in roughly 26 years. It took an estimated 2.3 million blocks — about 5.5 million tonnes of limestone, 8,000 tonnes of granite, and 500,000 tonnes of mortar. Many alternative and contradictory theories exist for the exact construction techniques. There is no definite consensus.\n\nWhat there is, is evidence. Fires used in mixing the mortar left charcoal in it; 46 samples taken in 1984 and 1995 radiocarbon dated to 2871–2604 BC. In 1837 tunnellers broke into four sealed chambers above the King's Chamber and found the walls covered in red paint — work-gang graffiti naming Khufu over a dozen times, e.g. \"The gang, The white crown of Khnum-Khufu is powerful.\"\n\nWorker graffiti at Giza shows haulers organised in groups of 40, each with four sub-units under an \"Overseer of Ten\". A 1999 management study estimated an average workforce of 13,200, peaking near 40,000. In a modern experiment, four workers cut a 2.5-tonne block in 4 days using replica arsenic-copper chisels and wooden mallets — six times faster once the stone was wetted.\n\nStill open: in 2017 muon radiography found a cavity at least 30 metres long above the Grand Gallery. Its purpose is unknown and it cannot be reached. The shafts off the Queen's Chamber end in limestone \"doors\"; nobody knows what they are for.\n\nImages: Gary Todd, 2002; Warren LeMay, 2019; mortar specimen, reign of Khufu, Metropolitan Museum; Perring, 1839; Luigi Mayer, c. 1800; Selim Hassan, 1936.\n\n#greatpyramid #giza #khufu #archaeology #ancientegypt",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "pyramid.jpg",
+      "crop": "50% 42%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "2.3 million blocks, and <y>no record of the method</y>",
+      "note": "Built around 2600 BC in about 26 years. Egyptologists still have no definite consensus on how.",
+      "source": "Gary Todd, 2002 · public domain",
+      "alt": "The Great Pyramid of Giza seen whole from its base against a clear blue sky.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "mortar.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "They dated the pyramid by <y>burning ash in its mortar</y>",
+      "note": "Fires used in mixing left charcoal behind. 46 samples, taken in 1984 and 1995, dated to 2871–2604 BC.",
+      "source": "Mortar specimen, reign of Khufu · public domain",
+      "alt": "A rough grey-brown lump of ancient mortar photographed on a white background.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "quarrymarks.jpg",
+      "crop": "70% 50%",
+      "zoom": 2.2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Sealed chambers held <y>the builders' red graffiti</y>",
+      "note": "Opened in 1837 above the King's Chamber. Work gangs had painted Khufu's names over a dozen times.",
+      "source": "Perring, 1839 · public domain",
+      "alt": "An 1839 drawing of a pyramid chamber wall with red-painted hieroglyphs on the blocks.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "blocks.jpg",
+      "crop": "50% 62%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "The blocks were cut with <y>copper chisels and wet sand</y>",
+      "note": "A modern test cut a 2.5-tonne block in four days. Wetting the stone made the work six times faster.",
+      "source": "Warren LeMay, 2019 · public domain",
+      "alt": "Looking up the flank of the Great Pyramid at rough, uneven courses of limestone blocks.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "excavation.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Not slaves — <y>about 13,200 conscript labourers</y>",
+      "note": "Graffiti shows haulers in groups of 40 under an Overseer of Ten. Peak workforce was near 40,000.",
+      "source": "Selim Hassan, 1936 · public domain",
+      "alt": "1936 photograph of an excavation trench and rail carts on the sand below the Great Pyramid.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "gallery.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The method is lost. <y>A 30-metre void</y> is still sealed",
+      "note": "Muon scans found it above the Grand Gallery in 2017. Its purpose is unknown and it cannot be entered.",
+      "source": "Luigi Mayer, c. 1800 · public domain",
+      "alt": "Hand-coloured print of men with torches climbing a passage inside the Great Pyramid.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "great-pyramid",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
