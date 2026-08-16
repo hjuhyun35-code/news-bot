@@ -1,0 +1,86 @@
+{
+  "caption": "Did Mary Toft really give birth to rabbits? No. She confessed on 7 December 1726.\n\nToft was a 24-year-old field worker from Godalming, Surrey. In 1726 she became pregnant and miscarried. Soon after, she began producing animal parts, and local man-midwife John Howard delivered what he described as rabbits — one letter claimed a twelfth rabbit was \"now leaping\" inside her.\n\nThe court took notice. King George I sent Nathaniel St André, surgeon to the Royal Household, who examined her and concluded the rabbits were bred in her fallopian tubes. He published a 40-page pamphlet defending the case on 3 December. Four days later she confessed.\n\nSurgeon Cyriacus Ahlers had already spotted cut marks made by a man-made instrument, plus straw and grain in the droppings. A porter at the bagnio admitted he had been bribed to smuggle a rabbit into her chamber. Toft admitted animal parts had been inserted into her body — cat claws, a rabbit's head.\n\nShe was jailed as a \"vile cheat and impostor\", then discharged on 8 April 1727 without charge because nobody could decide what to charge her with. Howard was fined £800. St André's career never recovered.\n\nStill unresolved: who devised it. Her unpublished confessions blamed her mother-in-law, Howard, and a travelling woman who told her the scheme would mean she'd \"never want as long as I liv'd\". Her sister-in-law Margaret refused to say anything at all.\n\nImages: portrait of Toft by John Laguerre, 1726; Hogarth's Cunicularii, 1726; the Doctors in Labour broadsheet, 1726; John Clark's etching of Doctor Meagre, c.1726; James Caulfield's engraving, 1819; Hogarth's Credulity, Superstition and Fanaticism, 1762. All public domain.\n\n#maryToft #1726 #hoaxhistory #hogarth #medicalhistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "toftportrait.jpg",
+      "crop": "50% 42%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "In 1726 she convinced the <y>king's surgeon</y> she was birthing rabbits",
+      "note": "Mary Toft of Godalming, Surrey. Painted while she sat in prison.",
+      "source": "Portrait of Mary Toft by John Laguerre, 1726",
+      "alt": "Painted portrait of a seated woman in a lace cap holding a white rabbit in her lap.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "doctorsinlabourbroad.jpg",
+      "crop": "50% 6%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "She said a rabbit <y>startled her in a field</y>",
+      "note": "Working while pregnant, she chased one and lost it. Then she miscarried, and said she could think of nothing else.",
+      "source": "'The Doctors in Labour' broadsheet, 1726",
+      "alt": "Printed satirical broadsheet with rows of small engraved scenes and verse beneath each.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "cuniculariiscene.jpg",
+      "crop": "50% 48%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "A surgeon wrote that the <y>twelfth rabbit was 'now leaping'</y>",
+      "note": "John Howard invited anyone who doubted him to come and watch a delivery. Henry Davenant of the royal court came, and believed.",
+      "source": "Hogarth, 'Cunicularii, or The Wise Men of Godliman', 1726",
+      "alt": "Etching of a woman in labour on a bed surrounded by wigged men, rabbits on the floor.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "toftengravingrabbit.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The royal surgeon concluded rabbits <y>bred in her fallopian tubes</y>",
+      "note": "Nathaniel St André tested a rabbit lung in water to see if it had breathed. He staked his reputation on a 40-page pamphlet.",
+      "source": "Engraving of Mary Toft by James Caulfield, 1819",
+      "alt": "Stipple engraving of a seated woman in a lace cap, a small rabbit on her lap.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "frenchsurgeonsatire.jpg",
+      "crop": "50% 55%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Cut marks, <y>straw and grain in the droppings</y>",
+      "note": "Surgeon Cyriacus Ahlers took specimens home. He found they had been cut with a man-made instrument.",
+      "source": "Etching by John Clark, c.1726",
+      "alt": "Etching of a French surgeon bowing with a letter before a tall thin doctor in an interior.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "credulitymedley.png",
+      "crop": "38% 62%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "She confessed: <y>the parts were inserted</y> into her body",
+      "note": "Discharged in 1727 — nobody knew what to charge her with. Who devised the plot was never settled.",
+      "source": "Hogarth, 'Credulity, Superstition and Fanaticism', 1762",
+      "alt": "Detail of a Hogarth engraving: a woman lying on the floor with small rabbits beside her.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "mary-toft",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
