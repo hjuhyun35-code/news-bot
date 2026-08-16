@@ -1,0 +1,86 @@
+{
+  "caption": "Why was Tikal abandoned?\n\nTikal, in the Petén rainforest of Guatemala, was one of the largest cities in the Americas. Population estimates run from 10,000 to 90,000 in the city core, with far higher figures for its hinterland. It covered more than 16 square kilometres and about 3,000 mapped structures. Its tallest pyramid, Temple IV, rises 70 metres.\n\nThe city had no rivers, springs or wells. Every drop of water came from rain caught in plazas surfaced with stucco, channelled through canals into ten reservoirs. One reservoir, Corriental, filtered drinking water through layers of zeolite minerals and quartz sand.\n\nThe same city poisoned its own water. Buildings and stelae were painted with cinnabar, a mercury pigment. Rain washed it off the facades and into the central reservoirs. Sediment cores from the Temple and Palace reservoirs show severe mercury contamination.\n\nBetween 830 and 950 Tikal lost most of its population. Squatters lived in the royal palaces, thatched huts went up in the ceremonial plazas, and the old tombs were dug open for jade. The last monument was raised in 869. By the 10th or 11th century even the last inhabitants had gone, and the forest held the ruins for a thousand years.\n\nWhat is still argued: the most likely cause is overpopulation and agrarian failure, but recent reservoir work points to meteorological drought. Some archaeologists think the population figures are far too high. Local people never forgot the site — they guided Guatemalan expeditions there in the 1850s.\n\nImages: Alfred Percival Maudslay, 1882 and 1899; Gary Todd, 2002.\n\n#Tikal #MayaCivilization #Guatemala #ArchivePhotography #LostCities",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "greatplaza.jpg",
+      "crop": "55% 55%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A city of thousands with <y>no river, no well</y>",
+      "note": "Tikal had no water except rain, caught in plazas and stored in ten reservoirs.",
+      "source": "Tikal Great Plaza, Gary Todd, 2002 · CC0",
+      "alt": "Grassy plaza at Tikal ringed by stone pyramids and ruined temples under a pale sky.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "canopy.jpg",
+      "crop": "55% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "The forest held it for <y>a thousand years</y>",
+      "note": "After the 10th or 11th century the last inhabitants left. Temples over 70 metres tall stood in rainforest.",
+      "source": "Tikal from the canopy, Gary Todd, 2002 · CC0",
+      "alt": "Temple roof comb rising above dense green rainforest canopy at Tikal.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "maskcarving.jpg",
+      "crop": "55% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "They painted the city in <y>mercury pigment</y>",
+      "note": "Cinnabar coated monuments and facades. Rain washed it into the central reservoirs, poisoning them.",
+      "source": "Carved mask, Tikal, Gary Todd, 2002 · CC0",
+      "alt": "Weathered stone mask carving, blackened and whitened, beside excavated steps.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "lintel.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "Wooden beams that <y>outlasted the city</y>",
+      "note": "Sapodilla wood lintels span the doorways. They are the most elaborately carved wooden lintels to survive in the Maya region.",
+      "source": "Group G wood lintels, Gary Todd, 2002 · CC0",
+      "alt": "Split and layered ancient wooden beams spanning a stone doorway, greenery beyond.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "serpentbird.png",
+      "crop": "50% 50%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The last monument went up in <y>the year 869</y>",
+      "note": "Jasaw Chan K'awiil II raised a stela in the Great Plaza. Nothing was carved at Tikal after it.",
+      "source": "The Serpent Bird, A. P. Maudslay, 1899 · public domain",
+      "alt": "Line drawing of a winged Maya serpent-bird figure with faces and scroll ornament.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "clearing1882.jpeg",
+      "crop": "50% 45%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Overpopulation and <y>failed farming</y>, most likely",
+      "note": "Recent reservoir work points instead to drought. Squatters lived in the palaces before the end.",
+      "source": "Tikal, Alfred Percival Maudslay, 1882 · public domain",
+      "alt": "1882 photograph of overgrown pyramid mounds in a freshly cleared patch of jungle.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "tikal",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

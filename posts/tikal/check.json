@@ -1,0 +1,221 @@
+{
+  "claims": [
+    {
+      "claim": "Tikal had no water other than rainwater, stored in ten reservoirs",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Tikal had no water other than what was collected from rainwater and stored in ten reservoirs."
+    },
+    {
+      "claim": "Rainwater was caught in the plazas",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The main plazas were surfaced with stucco and laid at a gradient that channelled rainfall into a system of canals that fed the reservoirs."
+    },
+    {
+      "claim": "Tikal was a city of thousands of inhabitants",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "Population estimates for Tikal vary from 10,000 to as high as 90,000 inhabitants."
+    },
+    {
+      "claim": "Card 1 image is the Great Plaza at Tikal, photographed by Gary Todd in 2002, CC0",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Tikal Great Plaza (9791228163).jpg ... Date: 2002-04-04 18:53 ... Author: Gary Todd ... Licence: CC0"
+    },
+    {
+      "claim": "The last inhabitants left after the 10th or 11th century",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Even these final inhabitants abandoned the city in the 10th or 11th centuries and the rainforest claimed the ruins for the next thousand years."
+    },
+    {
+      "claim": "Temples over 70 metres tall stood in the rainforest",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The architecture of the ancient city is built from limestone and includes the remains of temples that tower over 70 meters (230 ft) high"
+    },
+    {
+      "claim": "The forest held the site for a thousand years",
+      "where": "card 2 headline / caption",
+      "verdict": "supported",
+      "quote": "the rainforest claimed the ruins for the next thousand years"
+    },
+    {
+      "claim": "Card 2 image shows a Tikal temple rising above the forest canopy (Gary Todd, 2002, CC0)",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Tikal (10515143573).jpg ... Date: 2002-04-04 22:32 ... Author: Gary Todd"
+    },
+    {
+      "claim": "Cinnabar, a mercury-bearing pigment, coated monuments and facades at Tikal",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "This toxicity resulted primarily from the widespread ceremonial application of cinnabar-based pigments on monumental architecture and stelae throughout the Classic Period."
+    },
+    {
+      "claim": "Rain washed the cinnabar into the central reservoirs, poisoning them",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Rainwater runoff continuously leached these toxic mineral compounds from plastered facades directly into the central urban catchment basins, rendering the immediate water supply biohazardous"
+    },
+    {
+      "claim": "Card 3 image shows a carved mask at Tikal",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "maskcarving.jpg — image shows a large carved stone/stucco relief of a mask-like face with modelled snout and scroll elements, beside plastered steps"
+    },
+    {
+      "claim": "Sapodilla wood lintels span doorways at Tikal",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "At Tikal, beams of sapodilla wood were placed as lintels spanning the inner doorways of temples."
+    },
+    {
+      "claim": "They are the most elaborately carved wooden lintels to survive in the Maya region",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "These are the most elaborately carved wooden lintels to have survived anywhere in the Maya region."
+    },
+    {
+      "claim": "Card 4 image shows wooden lintels in Group G, dated to the 8th century",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Tikal Group G Wood Lintels, 8th Century (9791228114).jpg"
+    },
+    {
+      "claim": "Wooden beams are still in place spanning a doorway in the photograph",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "lintel.jpg — image shows multiple weathered wooden beams spanning a doorway opening, with green foliage visible through the gap below"
+    },
+    {
+      "claim": "Jasaw Chan K'awiil II raised a stela in the Great Plaza in 869",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "as evidenced by a stela erected in the Great Plaza by Jasaw Chan Kʼawiil II in 869"
+    },
+    {
+      "claim": "Nothing was carved/erected at Tikal after that monument",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "This was the last monument erected at Tikal before the city finally fell into silence."
+    },
+    {
+      "claim": "Card 5 image is 'The Serpent Bird' by A. P. Maudslay, 1899, public domain",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:A glimpse of Guatemala - The Serpent Bird, Tikál.png ... Date: 1899 ... Author: Alfred Percival Maudslay ... Licence: Public domain"
+    },
+    {
+      "claim": "The most likely cause of collapse was overpopulation and agrarian failure",
+      "where": "card 6 headline/note and caption",
+      "verdict": "supported",
+      "quote": "The most likely cause of collapse at Tikal is overpopulation and agrarian failure."
+    },
+    {
+      "claim": "Recent reservoir research points instead to meteorological drought",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "new research regarding paleoenvironmental proxies from the Tikal reservoir system suggests that a meteorological drought may have led to the abandonment of Tikal"
+    },
+    {
+      "claim": "Squatters lived in the royal palaces before the end",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "its royal palaces were occupied by squatters and simple thatched dwellings were being erected in the city's ceremonial plazas"
+    },
+    {
+      "claim": "Card 6 image is an 1882 photograph of Tikal by Alfred Percival Maudslay, public domain",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Tikal1882.jpeg ... Date: 1882 ... Author: Alfred Percival Maudslay ... Licence: Public domain"
+    },
+    {
+      "claim": "Tikal lies in the Petén rainforest of Guatemala",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it is located in the archaeological region of the Petén Basin in what is now the Petén Department in northern Guatemala"
+    },
+    {
+      "claim": "Tikal was one of the largest cities in the Americas",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It was one of the largest of the Classic period Maya cities and was one of the largest cities in the Americas."
+    },
+    {
+      "claim": "Population estimates run from 10,000 to 90,000 in the city core",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Population estimates for Tikal vary from 10,000 to as high as 90,000 inhabitants."
+    },
+    {
+      "claim": "Far higher population figures are given for the hinterland",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In a region within a 25 kilometers (16 mi) radius of the site core and including some satellite sites, peak population is estimated at 425,000"
+    },
+    {
+      "claim": "The city covered more than 16 square kilometres and had about 3,000 mapped structures",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The city has been completely mapped and covered an area greater than 16 square kilometers (6.2 sq mi) that included about 3,000 structures."
+    },
+    {
+      "claim": "Temple IV is the tallest pyramid and rises 70 metres",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Temple IV is the tallest temple-pyramid at Tikal, measuring 70 meters (230 ft) from the plaza floor level to the top of its roof comb."
+    },
+    {
+      "claim": "The city had no rivers, springs or wells",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Tikal had no water other than what was collected from rainwater and stored in ten reservoirs."
+    },
+    {
+      "claim": "Rainwater was channelled through canals into ten reservoirs from stucco-surfaced plazas",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The main plazas were surfaced with stucco and laid at a gradient that channelled rainfall into a system of canals that fed the reservoirs."
+    },
+    {
+      "claim": "The Corriental reservoir filtered drinking water through layers of zeolite minerals and quartz sand",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the drinking water in the Corriental reservoir was filtered through layers of Clinoptilolite and Mordenite zeolites, in addition to coarse to very coarse sand-sized quartz crystals"
+    },
+    {
+      "claim": "Sediment cores from the Temple and Palace reservoirs show severe mercury contamination",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "geochemical analyses of sediment cores from the Temple and Palace reservoirs have revealed severe historical mercury contamination"
+    },
+    {
+      "claim": "Between 830 and 950 Tikal lost most of its population",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Tikal and its immediate surroundings seem to have lost most of their population between 830 and 950"
+    },
+    {
+      "claim": "Old tombs were dug open for jade",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "with the tombs of the North Acropolis being explored for jade and the easier-to-find tombs were looted"
+    },
+    {
+      "claim": "Some archaeologists think the population figures are far too high",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "However, some archaeologists, such as David Webster, believe these figures to be far too high."
+    },
+    {
+      "claim": "Local people never forgot the site and guided Guatemalan expeditions to the ruins in the 1850s",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It seems that local people never forgot about Tikal and they guided Guatemalan expeditions to the ruins in the 1850s."
+    }
+  ],
+  "problems": 0
+}
