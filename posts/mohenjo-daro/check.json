@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "Excavations have found over 700 wells at Mohenjo-daro",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "With the excavations done so far, over 700 wells are present at Mohenjo-daro, alongside drainage and bathing systems."
+    },
+    {
+      "claim": "The Indus script has not been deciphered",
+      "where": "card 1 headline, card 5 headline, caption",
+      "verdict": "supported",
+      "quote": "While the script has not been deciphered yet, many of the images on the tablets match another tablet"
+    },
+    {
+      "claim": "Mohenjo-daro was built around 2500 BCE",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "Mohenjo-daro was built around 2500 BC."
+    },
+    {
+      "claim": "The city was laid out on a grid",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "Mohenjo-daro has a planned layout with rectilinear buildings arranged on a grid plan."
+    },
+    {
+      "claim": "Waste water ran into covered drains lining the major streets",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "Waste water was channeled to covered drains that lined the major streets."
+    },
+    {
+      "claim": "There was roughly one well for every three houses",
+      "where": "card 1 note, caption",
+      "verdict": "supported",
+      "quote": "the quantity of wells transcribes as one well for every three houses"
+    },
+    {
+      "claim": "The well density was unheard of compared to Egypt or Mesopotamia at the time",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "This number is unheard of when compared to other civilisations at the time, such as Egypt or Mesopotamia"
+    },
+    {
+      "claim": "The excavation photograph dates from 1924",
+      "where": "card 1 source, caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Mohenja-daro excavations 1924.jpg\nDescription: Mohenja-daro excavations in 1924\nDate: 1924"
+    },
+    {
+      "claim": "India retained the Pashupati seal while Pakistan received the Priest-King",
+      "where": "card 2 headline, caption",
+      "verdict": "supported",
+      "quote": "Pakistan asked for and received the Priest-king, while India retained the much smaller Dancing Girl, and also the Pashupati seal."
+    },
+    {
+      "claim": "At Partition some 12,000 finds were split between the two countries",
+      "where": "card 2 note, caption",
+      "verdict": "supported",
+      "quote": "Eventually an agreement was reached, whereby the finds, totalling some 12,000 objects (most sherds of pottery), were split equally between the countries"
+    },
+    {
+      "claim": "Some necklaces had their beads separated into two piles",
+      "where": "card 2 note, caption",
+      "verdict": "supported",
+      "quote": "in some cases this was taken very literally, with some necklaces and girdles having their beads separated into two piles"
+    },
+    {
+      "claim": "The Pashupati seal is catalogued as Indus seal M-304 from Mohenjo-daro",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Tag: 12: M-304 A"
+    },
+    {
+      "claim": "The Dancing Girl is about ten centimetres tall",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "A bronze statuette dubbed the \"Dancing Girl\", 10.5 centimetres (4.1 in) high and around 4,000 years old, was found in 'HR area' of Mohenjo-daro in 1926"
+    },
+    {
+      "claim": "The Dancing Girl is bronze and dates to around 2500 BCE",
+      "where": "card 3 headline, caption",
+      "verdict": "supported",
+      "quote": "Description: Bronze \"Dancing Girl,\" Mohenjo-daro, c. 2500 BC."
+    },
+    {
+      "claim": "Mortimer Wheeler called the Dancing Girl his favourite statuette",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "In 1973, British archaeologist Mortimer Wheeler described the item as his favourite statuette"
+    },
+    {
+      "claim": "The statue showed the civilisation knew metal blending, casting and other sophisticated ore-working methods",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "first, that they knew metal blending, casting and other sophisticated methods of working with ore"
+    },
+    {
+      "claim": "The Dancing Girl photograph is by Gary Todd and released under CC0",
+      "where": "card 3 source, caption",
+      "verdict": "supported",
+      "quote": "Author: Gary Todd\nLicence: CC0"
+    },
+    {
+      "claim": "The city's original name is unknown",
+      "where": "card 4 headline, caption",
+      "verdict": "supported",
+      "quote": "The city's original name is unknown."
+    },
+    {
+      "claim": "\"Mohenjo-daro\" is the modern name for the site, interpreted as \"Mound of the Dead\"",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "Mohenjo-daro, the modern name for the site, has been interpreted as \"Mound of the Dead\" in Sindhi."
+    },
+    {
+      "claim": "Iravatham Mahadevan reads a seal as suggesting the name Kukkuṭārma, \"city of the cockerel\"",
+      "where": "card 4 note, caption",
+      "verdict": "supported",
+      "quote": "Based on his analysis of a Mohenjo-daro seal, Iravatham Mahadevan speculates that the city's ancient name could have been Kukkuṭārma (\"the city [-rma] of the cockerel [kukkuta]\")."
+    },
+    {
+      "claim": "The name is unknown because the script has never been deciphered",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "The city's original name is unknown."
+    },
+    {
+      "claim": "The lion-fighting seal image is credited to Ernest Mackay, 1935",
+      "where": "card 4 source, caption",
+      "verdict": "supported",
+      "quote": "Author: Ernest John Henry Mackay (5 July 1880 – 2 October 1943)\nLicence: Public domain"
+    },
+    {
+      "claim": "The site could disappear by 2030 according to a 2012 warning by Pakistani archaeologists",
+      "where": "card 5 headline, card 5 note, caption",
+      "verdict": "supported",
+      "quote": "In 2012, Pakistani archaeologists warned that, without improved conservation measures, the site could disappear by 2030."
+    },
+    {
+      "claim": "Mohenjo-daro was abandoned around 1700 BCE",
+      "where": "card 5 note, caption",
+      "verdict": "supported",
+      "quote": "by c. 1700 BCE had been abandoned, along with other large cities of the Indus Valley Civilisation"
+    },
+    {
+      "claim": "Salinity and poor restoration are causing walls to collapse",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Currently the site is threatened by groundwater salinity and improper restoration. Many walls have already collapsed, while others are crumbling from the ground up."
+    },
+    {
+      "claim": "Mohenjo-daro is on the lower Indus in what is now Sindh, Pakistan",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Mohenjo-daro is located off the right (west) bank of the lower Indus river in Larkana District, Sindh, Pakistan."
+    },
+    {
+      "claim": "At its height perhaps 40,000 people lived there",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Oxford Handbook of Cities in World History offers a \"weak\" estimate of a peak population of around 40,000."
+    },
+    {
+      "claim": "The ruins were undocumented for around 3,700 years until R. D. Banerji visited in 1919–20",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The ruins of the city remained undocumented for around 3,700 years until R. D. Banerji, an officer of the Archaeological Survey of India, visited the site in 1919–1920"
+    },
+    {
+      "claim": "Large-scale excavation followed in 1924–25",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "This led to large-scale excavations of Mohenjo-daro led by Kashinath Dikshit in 1924–1925"
+    },
+    {
+      "claim": "The reasons for the abandonment are still argued — repeated flooding, or land worn out by crops, pastures and brick-making",
+      "where": "card 5 note, caption",
+      "verdict": "supported",
+      "quote": "Possehl coined the possibility of constant mini-floods throughout the year, paired with the land being worn out by crops, pastures, and resources for bricks and pottery spelled the downfall of the site."
+    },
+    {
+      "claim": "The Pashupati seal shows a seated cross-legged figure surrounded by animals",
+      "where": "caption (image)",
+      "verdict": "supported",
+      "quote": "A seal discovered at the site bears the image of a seated, cross-legged and possibly ithyphallic figure surrounded by animals."
+    },
+    {
+      "claim": "The three-faced seal image is attributed to Ernest Mackay",
+      "where": "card 5 source, caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Mohenjo-daro three-faced seal.jpg\nAuthor: Ernest Mackay (Life time: 2 October 1943)"
+    },
+    {
+      "claim": "The final two images are seal plates (two plates by Mackay)",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Description: Man fighting lions. Mohenjo-daro"
+    }
+  ],
+  "problems": 1
+}
