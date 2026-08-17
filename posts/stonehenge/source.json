@@ -1,0 +1,31 @@
+{
+  "subject": "Stonehenge, whose bluestones were brought 240 km from Wales",
+  "wikipedia": "Stonehenge",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "stonehengewide.jpg",
+      "commons": "File:Stonehenge on 27.01.08.jpg"
+    },
+    {
+      "file": "trilithoncloseup.jpg",
+      "commons": "File:Stonehenge Closeup.jpg"
+    },
+    {
+      "file": "earliestdrawing.jpg",
+      "commons": "File:Stonehenge Lucas de Heere.jpg"
+    },
+    {
+      "file": "balloonaerial1906.jpg",
+      "commons": "File:Stonehenge from the air - Philip Henry Sharpe (Royal Engineers) - 1906.jpg"
+    },
+    {
+      "file": "restorationcrane1920.jpg",
+      "commons": "File:Stone Henge 1920 restoration - newspaperphoto.jpg"
+    },
+    {
+      "file": "solsticesunrise.jpg",
+      "commons": "File:(Miss)adventures- A weekend travel through time (5040949).jpg"
+    }
+  ]
+}
