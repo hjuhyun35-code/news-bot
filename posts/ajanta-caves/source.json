@@ -1,0 +1,31 @@
+{
+  "subject": "The Ajanta Caves, thirty painted halls found by a hunting party in 1819",
+  "wikipedia": "Ajanta Caves",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "chaityainterior.jpg",
+      "commons": "File:*Plate 3* == Ajunta-- Interior of Chaitya Cave, No. 10.jpg"
+    },
+    {
+      "file": "cave19facade.jpg",
+      "commons": "File:Ajanta Cave 19 from సంగ్రహ ఆంధ్ర విజ్ఞానకోశము మొదటి సంపుటము అ-ఆర్ష (page 130 crop).jpg"
+    },
+    {
+      "file": "frescocrowd.jpg",
+      "commons": "File:Ajanta Cave 17 frescoe.jpg"
+    },
+    {
+      "file": "paintedceiling.jpg",
+      "commons": "File:Ajanta Cave Fresco 2.jpg"
+    },
+    {
+      "file": "foreignerspanel.jpg",
+      "commons": "File:Ajanta Cave 1 first frescoe to the right of the entrance with three foreigners detail.jpg"
+    },
+    {
+      "file": "cave19section.jpg",
+      "commons": "File:Ajanta Cave 19 longitudinal section.jpg"
+    }
+  ]
+}
