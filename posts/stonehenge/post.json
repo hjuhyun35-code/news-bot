@@ -1,0 +1,86 @@
+{
+  "caption": "Where did the Stonehenge stones come from? Two very different places.\n\nThe big sarsens — 30 uprights, around 26 tons each — came from West Woods in Wiltshire, about 16 miles away. A 2020 study led by David Nash matched 50 of 52 megaliths chemically to that one spot.\n\nThe smaller bluestones came from the Preseli Hills in Pembrokeshire, Wales — roughly 150 miles (240 km) away. In 2019 archaeologists found evidence of Megalithic quarrying at the Welsh sources, meaning human hands moved them, not glaciers.\n\nThen it got stranger. At Waun Mawn in Preseli, Mike Parker Pearson's team found a dismantled stone circle 110 m across — exactly the diameter of Stonehenge's first circle — including a stone hole with a pentagonal cross-section matching a Stonehenge bluestone \"like a key in a lock\". Soil dating put its erection at 3400–3200 BC and its removal 300–400 years later. Human activity there stopped at the same time.\n\nAnd the Altar Stone came from further still. In 2024 a Curtin University team chemically matched it to the Orcadian Basin in northeast Scotland — some 430 miles away.\n\nWhy carry stones that far? Researchers at the Royal College of Art found the bluestones ring like bells when struck. In the Preseli village of Maenclochog, local bluestones were used as church bells until the 18th century.\n\nWhat is still open: nobody knows whether the stones went straight from quarry to Salisbury Plain, or whether a whole sacred circle was taken down and rebuilt. The builders left no writing.\n\nImages: Lucas de Heere's watercolour of about 1573–75; Philip Henry Sharpe's 1906 photograph from a Royal Engineers tethered balloon; a 1920 newspaper photograph of restoration work; modern views by Mavratti and by Airman 1st Class Madeline Herzog. All public domain.\n\n#stonehenge #archaeology #publicdomain #neolithic #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "stonehengewide.jpg",
+      "crop": "50% 55%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "Some of these stones were <y>dragged 240 km from Wales</y>",
+      "note": "The smaller bluestones came from the Preseli Hills in Pembrokeshire. The huge sarsens came from 16 miles away.",
+      "source": "Photograph by Mavratti, 2008 · public domain",
+      "alt": "The standing stones of Stonehenge on green grass under a blue winter sky..",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "trilithoncloseup.jpg",
+      "crop": "48% 45%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The lintels are held on by <y>mortise and tenon joints</y>",
+      "note": "A woodworking method cut into stone. It is unique among monuments of its time.",
+      "source": "Stonehenge, modern photograph · public domain",
+      "alt": "Close view of a Stonehenge trilithon, two uprights carrying a heavy stone lintel.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "earliestdrawing.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "In Wales they used bluestones as <y>church bells</y>",
+      "note": "Struck, the bluestones ring loudly. The Preseli village of Maenclochog used them as bells until the 18th century.",
+      "source": "Lucas de Heere, c. 1573–75 · public domain",
+      "alt": "Sixteenth-century watercolour of Stonehenge with two tiny figures inside the circle.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "balloonaerial1906.jpg",
+      "crop": "50% 48%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A Welsh circle was <y>the same size as the first Stonehenge</y>",
+      "note": "Waun Mawn in Preseli measured 110 m across — exactly Stonehenge's first bluestone circle. It was taken down.",
+      "source": "Philip Henry Sharpe, balloon photograph, 1906 · PD",
+      "alt": "Aerial black and white photograph of Stonehenge with tracks crossing the surrounding plain.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "restorationcrane1920.jpg",
+      "crop": "75% 45%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "One Waun Mawn socket fits a Stonehenge stone <y>like a key in a lock</y>",
+      "note": "A distinctive pentagonal cross-section matched stone 62 at Stonehenge. Soil dating put the removal at about 3000 BC.",
+      "source": "Richmond Times-Dispatch, 6 June 1920 · public domain",
+      "alt": "Grainy 1920 newspaper photograph of a crane lifting a stone at Stonehenge.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "solsticesunrise.jpg",
+      "crop": "55% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Quarried by people, not carried by <y>ice</y>",
+      "note": "2019 digs found Megalithic quarrying at the Welsh sources. The Altar Stone, though, matches rock 430 miles away in Scotland.",
+      "source": "USAF photo by A1C Madeline Herzog, 2018 · public domain",
+      "alt": "Crowd silhouetted at Stonehenge as the sun rises between two standing stones.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "stonehenge",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "Some Stonehenge stones were dragged 240 km from Wales",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "It is generally accepted that the bluestones (some of which are made of dolerite, an igneous rock), were transported by the builders from the Preseli Hills, 150 miles (240 km) away in modern-day Pembrokeshire in Wales."
+    },
+    {
+      "claim": "The smaller bluestones came from the Preseli Hills in Pembrokeshire",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "It is generally accepted that the bluestones (some of which are made of dolerite, an igneous rock), were transported by the builders from the Preseli Hills, 150 miles (240 km) away in modern-day Pembrokeshire in Wales."
+    },
+    {
+      "claim": "The huge sarsens came from 16 miles away",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "They came from a quarry around 16 miles (26 km) north of Stonehenge, in West Woods, Wiltshire."
+    },
+    {
+      "claim": "Photograph of Stonehenge (stonehengewide.jpg) is by Mavratti, 2008, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 2008-01-27\nAuthor: Mavratti\nLicence: Public domain"
+    },
+    {
+      "claim": "The lintels are held on by mortise and tenon joints",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "topped by connecting horizontal lintel stones which are held in place with mortise and tenon joints—a feature unique among contemporary monuments"
+    },
+    {
+      "claim": "Mortise and tenon is a woodworking method, and the feature is unique among monuments of its time",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The lintels were fitted to one another using tongue and groove joints – a woodworking method, again."
+    },
+    {
+      "claim": "In Wales bluestones were used as church bells",
+      "where": "card 3 headline / note",
+      "verdict": "supported",
+      "quote": "the Presili village of Maenclochog (Welsh for bell or ringing stones) used local bluestones as church bells until the 18th century"
+    },
+    {
+      "claim": "Struck, the bluestones ring loudly",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "the monument's igneous bluestones possess \"unusual acoustic properties\": when struck, they produce a \"loud clanging noise\""
+    },
+    {
+      "claim": "The drawing is by Lucas de Heere, c. 1573–75, public domain",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Author: Lucas de Heere\nLicence: Public domain"
+    },
+    {
+      "claim": "A Welsh circle was the same size as the first Stonehenge circle",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "the site had originally housed a 110-metre (360 ft) diameter stone circle of the same size as Stonehenge's original bluestone circle"
+    },
+    {
+      "claim": "Waun Mawn in Preseli measured 110 m across",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Evidence of a 110-metre (360 ft) stone circle at Waun Mawn near Preseli, which could have contained some or all of the stones in Stonehenge, has been found"
+    },
+    {
+      "claim": "The Waun Mawn circle was taken down",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "and dismantled around 300–400 years later, consistent with the dates attributed to the creation of Stonehenge"
+    },
+    {
+      "claim": "The aerial photograph was taken by Philip Henry Sharpe from a balloon in 1906",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Description: Stonehenge. Taken by 2nd Lt Philip Henry Sharpe in Summer 1906 from a Royal Engineers’ tethered balloon."
+    },
+    {
+      "claim": "One Waun Mawn socket fits a Stonehenge stone \"like a key in a lock\"",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "including a hole from a rock that matches the unusual cross-section of a Stonehenge bluestone \"like a key in a lock\""
+    },
+    {
+      "claim": "A distinctive pentagonal cross-section matched stone 62 at Stonehenge",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "The circle at Waun Mawn also contained a hole from one stone which had a distinctive pentagonal shape, very closely matching the one pentagonal stone at Stonehenge (stonehole 91 at Waun Mawn and stone 62 at Stonehenge)."
+    },
+    {
+      "claim": "Soil dating put the removal at about 3000 BC",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "suggested the absent stones at Waun Mawn had been erected around 3400–3200 BC, and removed around 300–400 years later"
+    },
+    {
+      "claim": "The restoration image is from the Richmond Times-Dispatch, 6 June 1920",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Date: 1920-06-06\nAuthor: Richmond times-dispatch"
+    },
+    {
+      "claim": "The stones were quarried by people, not carried by ice",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "A 2019 publication announced that evidence of Megalithic quarrying had been found at quarries in Wales identified as a source of Stonehenge's bluestone, indicating that the bluestone was quarried by human agency and not transported by glacial action."
+    },
+    {
+      "claim": "2019 digs found Megalithic quarrying at the Welsh sources",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "A 2019 publication announced that evidence of Megalithic quarrying had been found at quarries in Wales identified as a source of Stonehenge's bluestone"
+    },
+    {
+      "claim": "The Altar Stone matches rock 430 miles away in Scotland",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "The researchers stated that this implies the stone was transported some 430 miles (690 km), and thus demonstrates cultural links between Southern England and Northern Scotland."
+    },
+    {
+      "claim": "The solstice photograph is a USAF photo by A1C Madeline Herzog, 2018",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Author: U.S. Air Force photo by Airman 1st Class  Madeline Herzog"
+    },
+    {
+      "claim": "There are 30 sarsen uprights, around 26 tons each",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Each standing stone was around 13.5 feet (4.11 m) high, 7.0 feet (2.13 m) wide, and 3.5 feet (1.06 m) deep, weighing around 26 tons."
+    },
+    {
+      "claim": "The sarsens came from West Woods in Wiltshire, about 16 miles away",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "They came from a quarry around 16 miles (26 km) north of Stonehenge, in West Woods, Wiltshire."
+    },
+    {
+      "claim": "A 2020 study led by David Nash matched 50 of 52 megaliths chemically to West Woods",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Fifty of the fifty-two megaliths were found to match sarsens in West Woods, thereby identifying the probable origin of the stones."
+    },
+    {
+      "claim": "The bluestones came from the Preseli Hills, roughly 150 miles (240 km) away",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "were transported by the builders from the Preseli Hills, 150 miles (240 km) away in modern-day Pembrokeshire in Wales"
+    },
+    {
+      "claim": "Mike Parker Pearson's team found the dismantled Waun Mawn circle",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "During 2017 and 2018, excavations by professor Parker Pearson's team at Waun Mawn, a large stone circle site in the Preseli Hills, suggested that the site had originally housed a 110-metre (360 ft) diameter stone circle of the same size as Stonehenge's original bluestone circle"
+    },
+    {
+      "claim": "Soil dating put the Waun Mawn circle's erection at 3400–3200 BC and its removal 300–400 years later",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "suggested the absent stones at Waun Mawn had been erected around 3400–3200 BC, and removed around 300–400 years later"
+    },
+    {
+      "claim": "Human activity at Waun Mawn stopped at the same time",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Human activity at Waun Mawn ceased around the same time which has suggested that some people may have migrated to Stonehenge."
+    },
+    {
+      "claim": "In 2024 a Curtin University team chemically matched the Altar Stone to the Orcadian Basin in northeast Scotland, some 430 miles away",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In August 2024, the journal Nature published research from a team at Curtin University in Australia identifying the origin of the Altar Stone, which is partially buried by a collapsed sarsen stone, as having come from the Orcadian Basin in northeast Scotland, some 700 km away."
+    },
+    {
+      "claim": "Researchers at the Royal College of Art found the bluestones ring like bells when struck",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Researchers from the Royal College of Art in London have discovered that the monument's igneous bluestones possess \"unusual acoustic properties\": when struck, they produce a \"loud clanging noise\"."
+    },
+    {
+      "claim": "It is not known whether the stones went straight from quarry to Salisbury Plain or came from a dismantled sacred circle",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It is not known whether the stones were taken directly from their quarries to Salisbury Plain or were the result of the removal of a venerated stone circle from Preseli to Salisbury Plain"
+    },
+    {
+      "claim": "The builders left no written records",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Stonehenge was produced by a culture that left no written records."
+    },
+    {
+      "claim": "The 1920 newspaper image shows restoration work at Stonehenge",
+      "where": "caption / restorationcrane1920.jpg",
+      "verdict": "supported",
+      "quote": "Description: A depiction of the 1920 restoration work on Stonehenge from a newspaper."
+    },
+    {
+      "claim": "All images used are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    },
+    {
+      "claim": "The solstice photograph shows a summer solstice sunrise (implied by set of \"modern views\" context)",
+      "where": "caption image list",
+      "verdict": "unsupported",
+      "quote": "The sun rises following the winter solstice at Stonehenge, England, Dec. 22, 2018."
+    }
+  ],
+  "problems": 1
+}
