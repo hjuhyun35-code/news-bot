@@ -1,0 +1,73 @@
+{
+  "caption": "Why did the Colossi of Memnon stop singing?\n\nIn 27 BCE an earthquake shattered the northern statue, collapsing it from the waist up and cracking the lower half. After that, the broken statue began to make a sound — always within an hour or two of sunrise, usually right at dawn.\n\nStrabo heard it in 20 BCE and said it sounded \"like a blow.\" Pausanias compared it to a lyre string breaking. Others described struck brass, or whistling. Hearing it was said to bring luck, and the statue gained a reputation for oracular powers. A stream of visitors came, including several Roman emperors.\n\nAbout 90 surviving inscriptions on the base are tourists recording whether they heard it or not. In November 130 CE, Julia Balbilla wrote poetry about repeated visits in a party that included the Emperor Hadrian and his wife Vibia Sabina. In all, the statues carry 107 Roman-era inscriptions in Greek and Latin. Many name Memnon, a Trojan War hero and son of the dawn goddess Eos — the statues actually depict Amenhotep III.\n\nThe last reliable mention of the sound is from 196. Local tradition puts the repair around 199 and credits Septimius Severus, who visited but never heard it. Five tiers of different sandstone were stacked on the broken statue. The sound stopped.\n\nIf natural, it was probably rising temperatures evaporating dew inside the porous rock. Strabo himself couldn't tell whether it came from the pedestal, the shattered upper area, or \"the people standing around at the base.\" The original top half has never been found, and the date of the repair is unknown.\n\nImages: John Beasly Greene, 1854; Karl Richard Lepsius expedition lithograph; Richard Pococke's 1743 engraving; and two 2002 photographs by Gary Todd.\n\n#colossiofmemnon #amenhotepiii #archivephotography #ancientegypt #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "colossus.jpg",
+      "crop": "52% 55%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "This statue <y>sang at dawn</y> for two centuries",
+      "note": "An earthquake broke it in 27 BCE. After that, it made a sound — always within an hour or two of sunrise.",
+      "source": "John Beasly Greene, 1854 · public domain",
+      "alt": "Sepia photograph of a ruined seated colossal statue alone in flat",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "engraving1743.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Rome called it <y>Memnon</y>. It is Amenhotep III",
+      "note": "Memnon was a Trojan War hero, son of the dawn goddess Eos. The name stuck to the wrong king.",
+      "source": "Richard Pococke, engraving, 1743 · public domain",
+      "alt": "18th-century engraving of a seated Egyptian colossus with small figures at its base.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "pairlithograph.jpg",
+      "crop": "46% 50%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "<y>107 Roman inscriptions</y> are cut into the stone",
+      "note": "About 90 of them are tourists recording whether they heard the sound or not. Hadrian's party came in 130 CE.",
+      "source": "Lepsius Prussian expedition lithograph · public domain",
+      "alt": "Colour lithograph of two seated colossal statues standing in shallow floodwater.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "repairblocks.jpg",
+      "crop": "62% 40%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Five tiers of stone <y>silenced it</y>",
+      "note": "The upper half was rebuilt in different sandstone. The added weight is the likeliest reason the sound ceased.",
+      "source": "Gary Todd, 2002 · CC0",
+      "alt": "Close view of the northern colossus showing stacked blocks above a cracked lower body.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "pairinplain.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "The repair stopped it. <y>Nobody knows when</y>",
+      "note": "Last reliable mention of the sound: 196. The original top half has never been found.",
+      "source": "Gary Todd, 2002 · CC0",
+      "alt": "Two ruined seated colossi standing apart on a green plain below desert cliffs.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "colossi-of-memnon",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

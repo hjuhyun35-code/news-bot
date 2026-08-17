@@ -1,0 +1,185 @@
+{
+  "claims": [
+    {
+      "claim": "The northern statue produced a sound at dawn over a span of about two centuries",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The earliest report in literature is that of the Greek historian and geographer Strabo, who said that he heard the sound during a visit in 20 BCE, by which time it apparently was already well-known. ... The last recorded reliable mention of the sound dates from 196."
+    },
+    {
+      "claim": "An earthquake broke the statue in 27 BCE",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "In 27 BCE, a large earthquake reportedly shattered the northern colossus, collapsing it from the waist up and cracking the lower half."
+    },
+    {
+      "claim": "After the break it made a sound, always within an hour or two of sunrise",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "the remaining lower half of this statue was then reputed to \"sing\" on various occasions – always within an hour or two of sunrise, usually right at dawn"
+    },
+    {
+      "claim": "The first photograph is by John Beasly Greene, 1854, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Author: John Beasly Greene (American, born France, 1832 - 1856) ... Date: 1854 ... Licence: Public domain"
+    },
+    {
+      "claim": "The Romans called the statue Memnon",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "The modern Arabic name is Kom el-Hatan, but it is generally known by the Roman name as the Temple of Memnon."
+    },
+    {
+      "claim": "The statue actually represents Amenhotep III",
+      "where": "card 2 headline / caption",
+      "verdict": "supported",
+      "quote": "The Colossi of Memnon (Arabic: el-Colossat or es-Salamat) are two large stone statues of the Pharaoh Amenhotep III"
+    },
+    {
+      "claim": "Memnon was a hero of the Trojan War",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "Memnon was a hero of the Trojan War and King of Ethiopia"
+    },
+    {
+      "claim": "Memnon was the son of Eos, goddess of the dawn",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "Memnon (whose name means the Steadfast or Resolute) was said to be the son of Eos, the goddess of dawn."
+    },
+    {
+      "claim": "The name was applied to the wrong king (erroneous identification)",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "many of these inscriptions on the northernmost statue make reference to the Greek mythological king Memnon, whom the statue was then erroneously thought to represent"
+    },
+    {
+      "claim": "The engraving is by Richard Pococke, 1743, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:The Statue of Memnon, at Thebes - Pococke Richard - 1743.jpg ... Date: 1743 ... Author: Richard Pococke ... Licence: Public domain"
+    },
+    {
+      "claim": "107 Roman-era inscriptions are cut into the statues, in Greek and Latin",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "The statues contain 107 Roman-era inscriptions in Greek and Latin, dated to between AD 20 and 250"
+    },
+    {
+      "claim": "About 90 of the surviving inscriptions are by tourists recording whether they heard the sound",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "the base of the statue is inscribed with about 90 surviving inscriptions of contemporary tourists reporting whether they had heard the sound or not"
+    },
+    {
+      "claim": "Hadrian's party visited in 130 CE",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "poetry by Julia Balbilla recording multiple visits during November 130 CE in a party that included the Emperor Hadrian and his wife Vibia Sabina"
+    },
+    {
+      "claim": "Julia Balbilla wrote poetry about the visits in November 130 CE, and Hadrian's wife Vibia Sabina was present",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the most famous being poetry by Julia Balbilla recording multiple visits during November 130 CE in a party that included the Emperor Hadrian and his wife Vibia Sabina"
+    },
+    {
+      "claim": "The lithograph comes from the Lepsius Prussian expedition",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Description: Thinkers from Egypt and Ethiopia based on the drawings of the scientific expedition sent to these countries by His Majesty the King of Prussia, Friedrich Wilhelm IV ... Author: Karl Richard Lepsius"
+    },
+    {
+      "claim": "The rebuilt upper part of the northern statue consists of five tiers of stone",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "the northern figure has a large extensive crack in the lower half and above the waist consists of 5 tiers of stone"
+    },
+    {
+      "claim": "The upper part was rebuilt in a different type of sandstone",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "These upper levels consist of a different type of sandstone, and are the result of a later reconstruction attempt"
+    },
+    {
+      "claim": "The added weight of the reconstructed tiers is the likeliest reason the sound ceased",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "Perhaps the most convincing argument against it being the result of human agents is that it did cease, probably due to the added weight of the reconstructed upper tiers."
+    },
+    {
+      "claim": "The modern photographs are by Gary Todd, 2002, CC0",
+      "where": "card 4/5 source",
+      "verdict": "supported",
+      "quote": "Date: 2002-06-08 21:52 Author: Gary Todd  from Xinzheng, China Licence: CC0"
+    },
+    {
+      "claim": "The last reliable mention of the sound is from 196",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "The last recorded reliable mention of the sound dates from 196."
+    },
+    {
+      "claim": "The original top half of the statue has never been found",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "the upper tiers of sandstone were added (the original remains of the top half have never been found)"
+    },
+    {
+      "claim": "The date of the reconstruction is unknown",
+      "where": "card 5 headline / caption",
+      "verdict": "supported",
+      "quote": "the date of this reconstruction is unknown, but local tradition places it circa 199"
+    },
+    {
+      "claim": "Strabo heard the sound in 20 BCE and said it sounded \"like a blow\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Strabo said it sounded \"like a blow\""
+    },
+    {
+      "claim": "Pausanias compared the sound to a lyre string breaking",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Pausanias compared it to \"the string of a lyre\" breaking"
+    },
+    {
+      "claim": "Others described the sound as struck brass or whistling",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it also was described as the striking of brass or whistling"
+    },
+    {
+      "claim": "Hearing the sound was said to bring luck and the statue gained a reputation for oracular powers",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The legend of the \"Vocal Memnon\", the luck that hearing it was reputed to bring, and the reputation of the statue's oracular powers became known outside of Egypt"
+    },
+    {
+      "claim": "A stream of visitors came, including several Roman emperors",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "a constant stream of visitors, including several Roman emperors, came to marvel at the statues"
+    },
+    {
+      "claim": "Local tradition places the repair around 199 and credits Septimius Severus, who visited the statue but did not hear the sound",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "local tradition places it circa 199, and attributes it to the Roman Emperor Septimius Severus in an attempt to curry favour with the oracle (it is known that he visited the statue, but did not hear the sound)"
+    },
+    {
+      "claim": "If natural, the sound was probably caused by rising temperatures evaporating dew inside the porous rock",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "If natural, the sound was probably caused by rising temperatures and the evaporation of dew inside the porous rock."
+    },
+    {
+      "claim": "Strabo could not determine whether the sound came from the pedestal, the shattered upper area, or the people standing around at the base",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "he reported that he could not determine if it came from the pedestal, the shattered upper area, or \"the people standing around at the base\""
+    }
+  ],
+  "problems": 0
+}
