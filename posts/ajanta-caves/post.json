@@ -1,0 +1,87 @@
+{
+  "caption": "Who discovered the Ajanta Caves?\n\nOn 28 April 1819 a British officer, John Smith of the 28th Cavalry, was hunting tigers in the gorge of the Waghur river when a local shepherd boy showed him the entrance to Cave 10. Smith fetched villagers with axes, spears, torches and drums to cut back the tangled jungle. Inside he saw painted ceilings, then monastic halls. He scratched his name and the date across a painting of a bodhisattva. He was standing on a five-foot pile of rubble, so the graffiti now sits above an adult's eye level.\n\nThirty rock-cut halls are carved into a 75-metre wall of rock: monasteries and worship halls, made in two phases between the 2nd century BCE and about 480 CE. Each cave began as a narrow tunnel at roof level, widened downwards and outwards. Caves 1, 2, 16 and 17 hold the largest surviving body of ancient Indian wall painting, done in dry fresco on dry plaster.\n\nThey were never lost. Medieval Chinese Buddhist travellers mention them, and the 17th-century Ain-i-Akbari lists twenty-four rock-cut cave temples here.\n\nStill open: the dates. Walter Spink puts nearly all the later work in 460\ru2013480 CE; the Archaeological Survey of India still dates the second phase of painting to the 5th\ru20136th centuries. And the pale figures in Cave 1, once read as a Persian embassy, are now thought simply to show people from far-away lands.\n\nImages: Fergusson's 1845 lithograph of Cave 10, the 1880 Fergusson and Burgess section of Cave 19, a 1958 encyclopaedia photograph of the Cave 19 facade, and fresco photographs by Sweekar Bhushan Pamulaparthy and Daderot.\n\n#ajanta #archivephotography #buddhistart #publicdomain #indianhistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "chaityainterior.jpg",
+      "crop": "52% 44%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "stamp": "1819",
+      "headline": "Hunting tigers in 1819, he found <y>thirty painted halls</y>",
+      "note": "John Smith of the 28th Cavalry was on a tiger hunt in the Waghur gorge when he was shown the entrance to Cave 10.",
+      "source": "James Fergusson, Cave 10 lithograph, 1845 · public domain",
+      "alt": "Lithograph of a cave hall with ribbed vaulted ceiling, stupa and fallen columns.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "cave19facade.jpg",
+      "crop": "40% 40%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>A shepherd boy</y> showed him the door",
+      "note": "Locals already knew the caves well. Smith brought villagers with axes, spears, torches and drums to cut back the jungle.",
+      "source": "Andhra Vigyanakosha, Hyderabad, 1958 · public domain",
+      "alt": "High-contrast photo of a carved cave facade with horseshoe arch window and pillars.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "cave19section.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "ink",
+      "headline": "They cut <y>downward from the ceiling</y>",
+      "note": "Excavation began as a narrow tunnel at roof level, then widened down and out. Unfinished caves still show the method.",
+      "source": "Fergusson & Burgess, section drawing, 1880",
+      "alt": "Line drawing: cross-section through a cliff showing a vaulted rock-cut hall.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "frescocrowd.jpg",
+      "crop": "45% 45%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The paint went onto <y>dry plaster</y>, not wet",
+      "note": "Cave 17 carries thirty major murals: a shipwreck, musicians, a princess applying her makeup.",
+      "source": "Photograph by Sweekar Bhushan Pamulaparthy, 2017",
+      "alt": "Faded wall painting of a seated Buddha ringed by crowds of small figures.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "foreignerspanel.jpg",
+      "crop": "80% 45%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "Colonial writers called these faces <y>Persian ambassadors</y>",
+      "note": "The Persian embassy went to a 7th-century king. Spink dates these paintings to the 5th century. The theory is rejected.",
+      "source": "Cave 1 fresco detail, photo by Daderot, 2017",
+      "alt": "Mural detail of crowded painted faces in ochre, green and violet.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "paintedceiling.jpg",
+      "crop": "45% 30%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The caves were <y>never actually lost</y>",
+      "note": "Chinese travellers and the Ain-i-Akbari describe them. The date is still argued: 460–480 CE, or the 5th–6th centuries.",
+      "source": "Ajanta cave fresco, photographed 2017 · CC0",
+      "alt": "Painted ceiling panels with flowers, white animals and a pair of figures in red.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "ajanta-caves",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

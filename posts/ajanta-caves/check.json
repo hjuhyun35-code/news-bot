@@ -1,0 +1,227 @@
+{
+  "claims": [
+    {
+      "claim": "The Ajanta site comprises thirty rock-cut halls.",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The Ajanta Caves are 30 rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in Aurangabad district of Maharashtra state in India."
+    },
+    {
+      "claim": "All thirty halls are painted.",
+      "where": "card 1 headline",
+      "verdict": "unsupported",
+      "quote": "While vivid colours and mural wall paintings were abundant in Indian history as evidenced by historical records, Caves 1, 2, 16 and 17 of Ajanta form the largest corpus of surviving ancient Indian wall-paintings."
+    },
+    {
+      "claim": "John Smith personally found the thirty halls in 1819.",
+      "where": "card 1 headline",
+      "verdict": "unsupported",
+      "quote": "On 28 April 1819 a British officer named John Smith, of the 28th Cavalry, while hunting tigers was shown the entrance to Cave No. 10 when a local shepherd boy guided him to the location and the door."
+    },
+    {
+      "claim": "John Smith belonged to the 28th Cavalry.",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "On 28 April 1819 a British officer named John Smith, of the 28th Cavalry, while hunting tigers was shown the entrance to Cave No. 10 when a local shepherd boy guided him to the location and the door."
+    },
+    {
+      "claim": "Smith was on a tiger hunt when he was shown the entrance to Cave 10.",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "On 28 April 1819 a British officer named John Smith, of the 28th Cavalry, while hunting tigers was shown the entrance to Cave No. 10 when a local shepherd boy guided him to the location and the door."
+    },
+    {
+      "claim": "The caves lie in the gorge of the Waghur river.",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The caves are located in the rocky northern wall of the U-shaped gorge of the River Waghur, in the Deccan Plateau."
+    },
+    {
+      "claim": "The date of the encounter was 28 April 1819.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On 28 April 1819 a British officer named John Smith, of the 28th Cavalry, while hunting tigers was shown the entrance to Cave No. 10 when a local shepherd boy guided him to the location and the door."
+    },
+    {
+      "claim": "The Cave 10 interior lithograph is by James Fergusson and dates to 1845, public domain.",
+      "where": "card 1 source; caption image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:*Plate 3* == Ajunta-- Interior of Chaitya Cave, No. 10.jpg ... Date: 1838-9,1845 Author: James Fergusson Licence: Public domain"
+    },
+    {
+      "claim": "A local shepherd boy showed Smith the door.",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "On 28 April 1819 a British officer named John Smith, of the 28th Cavalry, while hunting tigers was shown the entrance to Cave No. 10 when a local shepherd boy guided him to the location and the door."
+    },
+    {
+      "claim": "Locals already knew the caves well.",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "The caves were well known by locals already."
+    },
+    {
+      "claim": "Smith brought villagers with axes, spears, torches and drums to cut back the jungle growth.",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Captain Smith went to a nearby village and asked the villagers to come to the site with axes, spears, torches, and drums, to cut down the tangled jungle growth that made entering the cave difficult."
+    },
+    {
+      "claim": "The Cave 19 facade image comes from a 1958 encyclopaedia published in Hyderabad (Sangraha Andhra Vigyanakosha), public domain.",
+      "where": "card 2 source; caption image list",
+      "verdict": "supported",
+      "quote": "Publishers \n Sangraha Andhra Vigyanakosha Samiti\nHyderabad\n \n1958"
+    },
+    {
+      "claim": "Excavation began as a narrow tunnel at roof level and was then expanded downwards and outwards.",
+      "where": "card 3 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Excavation began by cutting a narrow tunnel at roof level, which was expanded downwards and outwards; as evidenced by some of the incomplete caves such as the partially-built vihara caves 21 through 24 and the abandoned incomplete cave 28."
+    },
+    {
+      "claim": "Unfinished caves still show evidence of this excavation method.",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "as evidenced by some of the incomplete caves such as the partially-built vihara caves 21 through 24 and the abandoned incomplete cave 28"
+    },
+    {
+      "claim": "The longitudinal section drawing is by Fergusson and Burgess, dated 1880, and shows Cave 19.",
+      "where": "card 3 source; caption image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Ajanta Cave 19 longitudinal section.jpg ... Date: 1880-01-01 Author: James Fergusson    /    James Burgess"
+    },
+    {
+      "claim": "The paintings were made in dry fresco, on dry plaster rather than wet plaster.",
+      "where": "card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "The paintings are in \"dry fresco\", painted on top of a dry plaster surface rather than into wet plaster."
+    },
+    {
+      "claim": "Cave 17 has thirty major murals.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Cave 17 has thirty major murals."
+    },
+    {
+      "claim": "Cave 17 murals include a shipwreck, a panel of musicians, and a princess applying makeup.",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "They show themes as diverse as a shipwreck, a princess applying makeup, lovers in scenes of dalliance, and a wine drinking scene of a couple with the woman and man amorously seated."
+    },
+    {
+      "claim": "The crowd fresco photograph was taken by Sweekar Bhushan Pamulaparthy in 2017 and shows a Cave 17 fresco.",
+      "where": "card 4 source; caption image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Ajanta Cave 17 frescoe.jpg ... Date: 2017-11-09 Author: Photograph :  Sweekar Bhushan Pamulaparthy"
+    },
+    {
+      "claim": "Early colonial-era writers interpreted certain figures in this Cave 1 fresco as connected to a Persian embassy.",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "The skin color and dress style of some characters had led to the hypothesis that some of these characters may be foreign and related to the embassy sent from Persia; this theory was proposed in early colonial era literature in the decades after these caves were discovered and studied (see e.g., Fergusson, 1879)."
+    },
+    {
+      "claim": "The Persian embassy in question was sent in the 7th century, by Khusro II Parvez to an early Chalukya sovereign.",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "after the review of Persian records, dating when the embassy was actually sent from Persia by Khusro II Parvez to the Hindu sovereign of early Chalukya dynasty (7th-century)"
+    },
+    {
+      "claim": "Walter Spink dates these paintings to the 5th century.",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "the better dating of these frescoes and caves to the 5th-century by Walter Spink, this theory has largely been rejected"
+    },
+    {
+      "claim": "The Persian-embassy identification has been rejected.",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "this theory has largely been rejected since the Indian painters could not have forecasted who will visit nearly 200 years in future"
+    },
+    {
+      "claim": "The figures are now understood as showing a diversity of people from far-away lands.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Thus, the basic hypothesis that the painters were showing a diversity of people from far away lands is valid."
+    },
+    {
+      "claim": "The Cave 1 fresco detail was photographed by Daderot in 2017.",
+      "where": "card 5 source; caption image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Ajanta Cave 1 first frescoe to the right of the entrance with three foreigners detail.jpg ... Date: 2017-10-30 Author: Daderot"
+    },
+    {
+      "claim": "Chinese travellers describe the caves.",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The Ajanta Caves are mentioned in the memoirs of several medieval-era Chinese Buddhist travelers."
+    },
+    {
+      "claim": "The 17th-century Ain-i-Akbari mentions twenty-four rock-cut cave temples at the site.",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The Ajanta caves are mentioned in the 17th-century text Ain-i-Akbari by Abu al-Fazl, as twenty four rock-cut cave temples each with remarkable idols."
+    },
+    {
+      "claim": "The dating of the later phase remains disputed between 460–480 CE and the 5th–6th centuries.",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "The Archaeological Survey of India website still presents the traditional dating: \"The second phase of paintings started around 5th–6th centuries A.D. and continued for the next two centuries\"."
+    },
+    {
+      "claim": "Walter Spink places nearly all the later work in 460–480 CE.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "a series of studies by the leading expert on the caves, Walter M. Spink, have argued that most of the work took place over the very brief period from 460 to 480 CE, during the reign of Hindu Emperor Harishena of the Vākāṭaka dynasty"
+    },
+    {
+      "claim": "The painted ceiling fresco photograph is from 2017 and is licensed CC0.",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Ajanta Cave Fresco 2.jpg ... Date: 2017-01-22 07:33:26 Author: Yourusernamewillbepublic2 Licence: CC0"
+    },
+    {
+      "claim": "Smith first saw painted ceilings, then noticed monastic halls.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "He first saw ceilings with beautiful and artistically drawn faces on them, then he noticed monastic halls which helped him identify their Buddhist origin."
+    },
+    {
+      "claim": "Smith scratched his name and the date over a painting of a bodhisattva.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "He then deliberately damaged an image on the wall by scratching his name and the date over the painting of a bodhisattva."
+    },
+    {
+      "claim": "Smith stood on a five-foot pile of rubble, so the inscription now sits above an adult's eye level.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Since he stood on a five-foot high pile of rubble collected over the years, the inscription is well above the eye-level gaze of an adult today."
+    },
+    {
+      "claim": "The caves are carved into a 75-metre wall of rock and comprise monasteries and worship halls.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Ajanta Caves constitute ancient monasteries (Viharas) and worship-halls (Chaityas) of different Buddhist traditions carved into a 75-metre (246 ft) wall of rock."
+    },
+    {
+      "claim": "The caves were made in two phases, between the 2nd century BCE and about 480 CE.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The caves were built in two phases, the first starting around the second century BCE and the second occurring from 400 to 650 CE, according to older accounts, or in a brief period of 460–480 CE according to later scholarship."
+    },
+    {
+      "claim": "Caves 1, 2, 16 and 17 hold the largest surviving body of ancient Indian wall painting.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Caves 1, 2, 16 and 17 of Ajanta form the largest corpus of surviving ancient Indian wall-paintings."
+    },
+    {
+      "claim": "The Archaeological Survey of India still dates the second phase of painting to the 5th–6th centuries.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Archaeological Survey of India website still presents the traditional dating: \"The second phase of paintings started around 5th–6th centuries A.D. and continued for the next two centuries\"."
+    }
+  ],
+  "problems": 2
+}
