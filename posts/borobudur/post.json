@@ -1,0 +1,86 @@
+{
+  "caption": "Why was Borobudur abandoned?\n\nNobody knows. The 9th-century temple in Central Java — nine stacked platforms, 2,672 relief panels, originally 504 Buddha statues — lay under volcanic ash and jungle growth for centuries. There are no records of its construction or its intended purpose either.\n\nIn 1814 Stamford Raffles, then British ruler of Java, was told about a big monument in the forest near Bumisegoro by local people. He sent the engineer Hermann Cornelius, who spent two months with 200 men cutting trees, burning vegetation and digging out earth. By 1835 the whole complex was uncovered. Raffles never visited the site, and is still credited with the rediscovery.\n\nWhat came next was loss. Parts were taken as souvenirs, some with colonial-government consent. In 1896 King Chulalongkorn of Siam visited Java and was allowed to take home eight cartloads of sculpture. Of the 504 Buddhas, over 300 are damaged, mostly headless, and 43 are missing; heads sit in Amsterdam, Paris and London. Germany returned its collection in 2014 and paid to have the heads reattached.\n\nBetween 1975 and 1982 Indonesia and UNESCO dismantled over one million stones, catalogued them, and rebuilt the monument with proper drainage. It became a World Heritage Site in 1991.\n\nStill open: when pilgrimage stopped, and why. A capital move after volcanic eruptions between 928 and 1006 is the most likely period. The original shape of the pinnacle is also unknown — Theodoor van Erp rebuilt it in 1911, then removed it, saying too few original stones survived.\n\nImages: a panoramic view of Borobudur; a photograph from King Chulalongkorn's Java diary, 1896; O. Kurkdjian's gallery view, c. 1895–1915; a Borobudur Buddha head of 800–850 at the Rijksmuseum; Frank Hurley's 1913 terrace view; and Borobudur in 1973.\n\n#borobudur #archaeology #publicdomain #java #buddhistart",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "aerial.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "A jungle hid the <y>largest Buddhist temple on earth</y>",
+      "note": "Nine stacked stone platforms. 2,672 relief panels and originally 504 Buddha statues, under ash and forest for centuries.",
+      "source": "Panoramic view of Borobudur, 2006 · CC0",
+      "alt": "Aerial view of a stepped stone temple with rings of small stupas around a central dome.zooom",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "temple1896.png",
+      "crop": "25% 45%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A visiting king took away <y>eight cartloads</y> of it",
+      "note": "In 1896 King Chulalongkorn of Siam was allowed to remove sculpture: thirty relief pieces, five Buddhas, two lions, a guardian.",
+      "source": "From King Chulalongkorn's Java diary, 1896 · PD",
+      "alt": "Old photograph of the terraced temple mass rising behind trees and open ground.  ends",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "reliefgallery.jpg",
+      "crop": "62% 50%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>1,460 narrative panels</y> line three kilometres of corridor",
+      "note": "Walls read right to left, balustrades left to right — following the pilgrim's clockwise circuit of the monument.",
+      "source": "O. Kurkdjian, Borobudur gallery, c. 1900 · Rijksmuseum",
+      "alt": "Narrow stone corridor between carved relief walls and rows of small stupas above.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "buddhahead.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Of 504 Buddhas, <y>43 are simply gone</y>",
+      "note": "Over 300 are damaged, mostly headless. Heads reached museums in Amsterdam, Paris and London; Germany returned its collection in 2014.",
+      "source": "Buddha head from Borobudur, 800–850 · Rijksmuseum",
+      "alt": "Carved grey volcanic stone Buddha head with curled hair and closed eyes, on a plinth.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "terrace1913.jpg",
+      "crop": "58% 45%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "He rebuilt the pinnacle, then <y>took it down again</y>",
+      "note": "Theodoor van Erp reconstructed the tiered parasol in 1911 and dismantled it: too few original stones. Its real design is unknown.",
+      "source": "Frank Hurley, Borobudur terrace, 1913 · State Library NSW",
+      "alt": "Sepia photograph of a temple terrace with perforated stupas, seated Buddhas and a man standing.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "restoration1973.jpg",
+      "crop": "58% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Fully unearthed by 1835. <y>Why it emptied</y> is unknown",
+      "note": "Between 1975 and 1982 Indonesia and UNESCO took over one million stones apart and rebuilt it. The abandonment still has no date.",
+      "source": "Borobudur, 1973 · Government of Indonesia",
+      "alt": "Men in suits at a draped table signing documents, the terraced temple behind them.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "borobudur",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
