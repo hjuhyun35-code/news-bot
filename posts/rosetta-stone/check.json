@@ -1,0 +1,191 @@
+{
+  "claims": [
+    {
+      "claim": "The Rosetta Stone was never actually black stone",
+      "where": "Card 1 headline / caption opening",
+      "verdict": "supported",
+      "quote": "These additions were removed when the stone was cleaned in 1999, revealing the original dark grey tint of the rock, the sparkle of its crystalline structure, and a pink vein running across the top left corner."
+    },
+    {
+      "claim": "In London the carved lines were filled with white chalk and the surface was coated in wax",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "At some period after its arrival in London, the inscriptions were coloured in white chalk to make them more legible, and the remaining surface was covered with a layer of carnauba wax designed to protect it from visitors' fingers."
+    },
+    {
+      "claim": "The chalk and wax made the stone look like black basalt",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "This gave a dark colour to the stone that led to its mistaken identification as black basalt."
+    },
+    {
+      "claim": "The wax was carnauba wax, applied to protect the stone from visitors' fingers",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "the remaining surface was covered with a layer of carnauba wax designed to protect it from visitors' fingers"
+    },
+    {
+      "claim": "The stone was described as black basalt for decades",
+      "where": "Caption",
+      "verdict": "unsupported",
+      "quote": "This gave a dark colour to the stone that led to its mistaken identification as black basalt."
+    },
+    {
+      "claim": "The image stone.jpg is a photograph by Donald Macbeth from a 1922 British Museum booklet",
+      "where": "Card 1 source; final image credit",
+      "verdict": "supported",
+      "quote": "A photo of the Rosetta Stone taken from the book The Rosetta Stone (1922), a short work describing the history of the stone and how it was translated. The book was made by and sold in the British Museum for sixpence."
+    },
+    {
+      "claim": "Soldiers found the stone inside a fort wall, uncovered while demolishing a wall within the fort",
+      "where": "Card 2 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Lieutenant Pierre-François Bouchard spotted a slab with inscriptions on one side that the soldiers had uncovered when demolishing a wall within the fort."
+    },
+    {
+      "claim": "The find was in July 1799 at Fort Julien near Rosetta",
+      "where": "Card 2 note; caption",
+      "verdict": "supported",
+      "quote": "In mid-July 1799, French soldiers under the command of Colonel d'Hautpoul were strengthening the defences of Fort Julien, a couple of miles north-east of the Egyptian port city of Rosetta (modern-day Rashid)."
+    },
+    {
+      "claim": "Lieutenant Pierre-François Bouchard spotted the inscriptions",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Lieutenant Pierre-François Bouchard spotted a slab with inscriptions on one side"
+    },
+    {
+      "claim": "The slab carries a single decree of 196 BC in hieroglyphs, demotic and Greek",
+      "where": "Card 2 note; caption",
+      "verdict": "supported",
+      "quote": "The Rosetta Stone is a stele of granodiorite inscribed with three versions of a decree issued in 196 BC during the Ptolemaic dynasty of Egypt, on behalf of King Ptolemy V Epiphanes."
+    },
+    {
+      "claim": "The decree was issued by priests gathered at Memphis",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The decree was issued by a congress of priests who gathered at Memphis."
+    },
+    {
+      "claim": "The decree ordered that a copy be placed in every temple",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The decree concludes with the instruction that a copy was to be placed in every temple, inscribed in the \"language of the gods\" (Egyptian hieroglyphs), the \"language of documents\" (Demotic), and the \"language of the Greeks\" as used by the Ptolemaic government."
+    },
+    {
+      "claim": "Thomas Young found the phonetic signs p t o l m e s in a cartouche in 1814",
+      "where": "Card 3 note; caption",
+      "verdict": "supported",
+      "quote": "that the hieroglyphic text did so as well, and had pervasive similarities to the Demotic (1814)"
+    },
+    {
+      "claim": "Champollion identified Kleopatra from the Philae obelisk",
+      "where": "Card 3 note; caption",
+      "verdict": "supported",
+      "quote": "Champollion saw copies of the brief hieroglyphic and Greek inscriptions of the Philae obelisk in 1822, on which William John Bankes had tentatively noted the names Ptolemaios and Kleopatra in both languages. From this, Champollion identified the phonetic characters k l e o p a t r a"
+    },
+    {
+      "claim": "Champollion announced his alphabet of phonetic hieroglyphs in Paris in September 1822",
+      "where": "Card 3 note; caption",
+      "verdict": "supported",
+      "quote": "completing his work on 14 September and announcing it publicly on 27 September in a lecture to the Académie royale des Inscriptions et Belles-Lettres"
+    },
+    {
+      "claim": "Champollion's decipherment rested on the names Ptolemy and Kleopatra",
+      "where": "Card 3 headline",
+      "verdict": "supported",
+      "quote": "On the basis of this and the foreign names on the Rosetta Stone, he quickly constructed an alphabet of phonetic hieroglyphic characters"
+    },
+    {
+      "claim": "champolliontable.jpg is Champollion's 1822 table of phonetic signs, covering hieroglyphic and demotic scripts",
+      "where": "Card 3 source; final image credit",
+      "verdict": "supported",
+      "quote": "Tableau des Signes Phonétiques des écritures hiéroglyphique et Démotique des anciens Égyptiens (image heading); archive record: \"Table of hieroglyphics and demotic phonetic signs\", Author: Jean-François Champollion, Date: 1822"
+    },
+    {
+      "claim": "The stone was originally displayed tilted in a metal cradle made for it",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "The Rosetta Stone was originally displayed at a slight angle from the horizontal, and rested within a metal cradle that was made for it"
+    },
+    {
+      "claim": "Small portions of the stone's sides were shaved off so the cradle fitted securely",
+      "where": "Card 4 headline/note; caption",
+      "verdict": "supported",
+      "quote": "which involved shaving off very small portions of its sides to ensure that the cradle fitted securely"
+    },
+    {
+      "claim": "The 1985 photograph shows the stone tilted in a metal support, viewed by visitors at the British Museum",
+      "where": "Card 4 source; visitors1985.jpg",
+      "verdict": "supported",
+      "quote": "Patrons at the British Museum view the Rosetta Stone in 1985"
+    },
+    {
+      "claim": "The stone is grey granodiorite with a pink vein",
+      "where": "Card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "revealing the original dark grey tint of the rock, the sparkle of its crystalline structure, and a pink vein running across the top left corner"
+    },
+    {
+      "claim": "Cleaning in 1999 revealed the original dark grey rock",
+      "where": "Card 5 note; caption",
+      "verdict": "supported",
+      "quote": "These additions were removed when the stone was cleaned in 1999, revealing the original dark grey tint of the rock"
+    },
+    {
+      "claim": "The pink vein is typical of granodiorite from a quarry at Gebel Tingar near Aswan",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "a close resemblance to rock from a small granodiorite quarry at Gebel Tingar on the west bank of the Nile, west of Elephantine in the region of Aswan; the pink vein is typical of granodiorite from this region"
+    },
+    {
+      "claim": "It remains unresolved whether one of the three texts was the original from which the others were translated",
+      "where": "Card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Whether one of the three texts was the standard version, from which the other two were originally translated, is a question that has remained controversial."
+    },
+    {
+      "claim": "Letronne argued the Greek version was the original",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Letronne attempted to show in 1841 that the Greek version, the product of the Egyptian government under the Macedonian Ptolemies, was the original."
+    },
+    {
+      "claim": "Derchain and Thissen argued all three versions were composed at once",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "Philippe Derchain and Heinz Josef Thissen have argued that all three versions were composed simultaneously"
+    },
+    {
+      "claim": "The three versions cannot be matched word for word",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The fact that the three versions cannot be matched word for word helps to explain why the decipherment has been more difficult than originally expected"
+    },
+    {
+      "claim": "In 1917 the stone spent two years 15 m below ground in a Postal Tube Railway station at Mount Pleasant",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "The stone spent the next two years 15 m (50 ft) below ground level in a station of the Postal Tube Railway at Mount Pleasant near Holborn."
+    },
+    {
+      "claim": "It is the British Museum's most visited object",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "According to the museum's records, the Rosetta Stone is its most-visited single object"
+    },
+    {
+      "claim": "A replica in the King's Library is free to touch",
+      "where": "Caption",
+      "verdict": "supported",
+      "quote": "A replica of the Rosetta Stone is now available in the King's Library of the British Museum, without a case and free to touch, as it would have appeared to early 19th-century visitors."
+    },
+    {
+      "claim": "The photographs include visitors at the museum in 1985, 2008 and 2017",
+      "where": "Final image credit",
+      "verdict": "supported",
+      "quote": "Patrons at the British Museum view the Rosetta Stone in 1985 (1985 record); \"June 2008 Rosetta stone\" (2008 record, image shows visitors reflected/behind the case); \"Egyptian Sculpture Gallery, British Museum\" (2017 record, image shows a visitor standing behind the case)"
+    }
+  ],
+  "problems": 1
+}

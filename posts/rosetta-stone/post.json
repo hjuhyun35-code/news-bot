@@ -1,0 +1,73 @@
+{
+  "caption": "Why is the Rosetta Stone black?\n\nIt isn't. After it reached London the carved lines were filled with white chalk to make them legible, and the surface was coated in carnauba wax to protect it from visitors' fingers. The result looked like black basalt and was described that way for decades. The 1999 cleaning removed both, revealing dark grey granodiorite, the sparkle of its crystals, and a pink vein across the top left corner — typical of stone from a quarry at Gebel Tingar, near Aswan.\n\nFrench soldiers strengthening Fort Julien near Rosetta uncovered the slab in July 1799 while demolishing a wall inside the fort. Lieutenant Pierre-François Bouchard spotted the inscriptions. The stone carries one decree from 196 BC in three scripts — hieroglyphs, demotic, Greek — issued by priests gathered at Memphis, who ordered that a copy be placed in every temple.\n\nThomas Young picked the phonetic signs p t o l m e s out of a cartouche in 1814. Champollion added Kleopatra from the Philae obelisk and announced his alphabet of phonetic hieroglyphs in Paris in September 1822.\n\nIn the museum the stone was first shown tilted in a metal cradle, and small portions of its sides were shaved off so the cradle fitted securely. In 1917 it spent two years 15 m below ground in a Postal Tube Railway station at Mount Pleasant. It is the museum's most visited object, and a replica in the King's Library is free to touch.\n\nStill unresolved: whether one of the three texts was the original the others were translated from. Letronne argued for the Greek; Derchain and Thissen argued all three were composed at once. The versions cannot be matched word for word.\n\nImages: Donald Macbeth's 1922 photograph for a British Museum booklet, Champollion's own 1822 table of signs, and visitors photographed at the museum in 1985, 2008 and 2017.\n\n#rosettastone #hieroglyphs #britishmuseum #ancientegypt #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "stone.jpg",
+      "crop": "50% 35%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The Rosetta Stone <y>was never black</y>",
+      "note": "In London the carved lines were filled with white chalk and the surface coated in wax. That made it look like black basalt.",
+      "source": "Donald Macbeth, British Museum booklet, 1922",
+      "alt": "Full view of the Rosetta Stone showing three registers of dense inscription.},{",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "inscriptiondetail.jpg",
+      "crop": "42% 30%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Soldiers found it <y>inside a fort wall</y>",
+      "note": "July 1799, Fort Julien near Rosetta. The slab carried one decree from 196 BC in hieroglyphs, demotic and Greek.",
+      "source": "Gary Todd, British Museum, 2017 · CC0",
+      "alt": "Raking light across the stone's surface showing hieroglyphic and demotic lines.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "champolliontable.jpg",
+      "crop": "40% 45%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Champollion cracked it with <y>Ptolemy and Kleopatra</y>",
+      "note": "Young found the signs p t o l m e s in a cartouche in 1814. Champollion added Kleopatra and published his alphabet in 1822.",
+      "source": "Champollion, table of phonetic signs, 1822",
+      "alt": "Handwritten table pairing Greek letters with rows of demotic and hieroglyphic signs.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "visitors1985.jpg",
+      "crop": "70% 50%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The museum <y>shaved its sides</y> to fit the cradle",
+      "note": "The stone was shown tilted in a metal cradle made for it. Small portions of its sides were cut away so it sat securely.",
+      "source": "RickDikeman, British Museum, July 1985 · CC0",
+      "alt": "The stone tilted on a metal cradle behind a rail, schoolchildren standing nearby.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "gallerycase.jpg",
+      "crop": "48% 42%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "It is grey granodiorite with a <y>pink vein</y>",
+      "note": "Cleaning in 1999 revealed the original dark grey rock. Still open: whether one of the three texts was written first.",
+      "source": "Syced, British Museum, June 2008 · CC0",
+      "alt": "The Rosetta Stone inside a glass case, visitors reflected in the surface.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "rosetta-stone",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
