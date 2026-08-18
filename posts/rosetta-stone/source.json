@@ -1,0 +1,27 @@
+{
+  "subject": "The Rosetta Stone, the same decree in three scripts, which reopened Egyptian",
+  "wikipedia": "Rosetta Stone",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "stone.jpg",
+      "commons": "File:The Rosetta Stone.jpg"
+    },
+    {
+      "file": "inscriptiondetail.jpg",
+      "commons": "File:Rosetta Stone, Egypt, Granodiorite Stela of Ptolemy V, 196 BC (36399297981).jpg"
+    },
+    {
+      "file": "champolliontable.jpg",
+      "commons": "File:Champollion table.jpg"
+    },
+    {
+      "file": "visitors1985.jpg",
+      "commons": "File:Rosetta-stone-display-in-1985.jpg"
+    },
+    {
+      "file": "gallerycase.jpg",
+      "commons": "File:June 2008 Rosetta stone.jpg"
+    }
+  ]
+}
