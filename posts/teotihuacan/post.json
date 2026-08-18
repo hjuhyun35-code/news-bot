@@ -1,0 +1,87 @@
+{
+  "caption": "Who built Teotihuacan? Nobody knows for certain.\n\nThe Aztecs named the city centuries after it fell, around 550 CE. They found it already in ruins, believed the gods had created the universe there, and came as pilgrims. Its original name is lost — Maya texts call it puh, \"Place of Reeds\".\n\nAt its height it held perhaps 100,000 people over eight square miles: the largest city in the Americas.\n\nAnd no king. No royal palace, no depictions of conquest or humiliated captives — the things neighbouring Maya and Zapotec cities left everywhere. The murals show deities, not rulers. Many scholars think it was run by some form of collective governance.\n\nThe main avenue is called the Avenue of the Dead because the Aztecs assumed the platforms along it were tombs. They were ceremonial platforms topped with temples.\n\nAround 550 CE the civic buildings on that avenue were sacked and burned. No trace of foreign invasion. Drought tied to the climate events of 535–536 and internal unrest are both plausible.\n\nIn 2003 a sinkhole opened near the Temple of the Feathered Serpent. The tunnel below held a miniature landscape 17 metres down, with pools of liquid mercury standing in for lakes, walls dusted with pyrite and magnetite to glitter like stars, and hundreds of clay spheres coated in oxidised pyrite. George Cowgill, on the spheres: \"They are indeed unique, but I have no idea what they mean.\"\n\nStill open: who governed the city, what it called itself, and why it burned.\n\nImages: Teotihuacan and the Pyramid of the Moon in 2006; a marble mask of the Classical Period; a wall painting from a residence; two photographs from Sigvald Linné's 1932 excavation. Public domain or CC0.\n\n#teotihuacan #archaeology #ancienthistory #publicdomain #archivephoto",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "avenueofthedead.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "stamp": "c. 550 CE",
+      "headline": "The Aztecs named this city. <y>It was already a ruin.</y>",
+      "note": "The name Teotihuacan was given centuries after the city fell. Its own name for itself is lost.",
+      "source": "Teotihuacan, 2006 · public domain",
+      "alt": "View down a broad ruined avenue lined with stepped platforms, pyramid at left.9",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "stonemask.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Called funeral masks. <y>None came from a grave.</y>",
+      "note": "Numerous stone masks were found at Teotihuacan. Some scholars note they do not seem to have come from burials at all.",
+      "source": "Marble mask, Classical Period · public domain",
+      "alt": "Pale green stone mask with hollow slit eyes and open mouth on a dark stand.9",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "wallpainting.jpg",
+      "crop": "50% 48%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Tens of thousands of murals. <y>Not one ruler.</y>",
+      "note": "Mural painting peaked between 450 and 650 CE. The art shows deities and offices — no king had himself immortalised.",
+      "source": "Wall painting from a Teotihuacan residence · CC0",
+      "alt": "Painted panel in red, green and gold showing a mask-like figure with headdress.9",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "skullexcavation.jpg",
+      "crop": "40% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "Some victims were <y>buried alive</y>, with eagles and snakes.",
+      "note": "Excavations of the pyramids found sacrificed men and animals. Cougars, eagles and venomous snakes were caged or buried alive.",
+      "source": "Sigvald Linné expedition, 1932 · CC0",
+      "alt": "Woman crouching in a dirt trench brushing soil from a human skull, 1932.9",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "xolalpantrench.jpg",
+      "crop": "45% 50%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Their writing stayed unread until <y>October 2025</y>.",
+      "note": "Over 30 signs were found on one patio floor. A partial decipherment now proposes an early Uto-Aztecan language.",
+      "source": "Xolalpan excavation, Sigvald Linné, 1932 · CC0",
+      "alt": "Three men in wide-brimmed hats digging a shallow trench in dry ground, 1932.9",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "pyramidofthemoon.jpg",
+      "crop": "70% 46%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "It burned around 550 CE. <y>No invaders came.</y>",
+      "note": "Only civic and elite buildings burned. Under one temple lie pools of liquid mercury nobody can explain.",
+      "source": "Pirámide de la Luna, 2006 · photo Gorgo · public domain",
+      "alt": "Stepped stone pyramid above a wide plaza, green hills and valley behind it.9",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "teotihuacan",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

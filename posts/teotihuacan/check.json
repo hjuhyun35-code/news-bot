@@ -1,0 +1,287 @@
+{
+  "claims": [
+    {
+      "claim": "The Aztecs gave the city its name Teotihuacan.",
+      "where": "card 1 headline / note / caption",
+      "verdict": "supported",
+      "quote": "The name Teōtīhuacān was given by the Nahuatl-speaking Aztecs centuries after the fall of the city around 550 CE."
+    },
+    {
+      "claim": "The city was already a ruin by the time of the Aztecs.",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "The city was already in ruins by the time of the Aztecs."
+    },
+    {
+      "claim": "The city fell around 550 CE.",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "its major monuments were sacked and systematically burned around 550 CE"
+    },
+    {
+      "claim": "The city's own name for itself is lost.",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The original name of the city is unknown, but it appears in hieroglyphic texts from the Maya region as puh, or \"Place of Reeds\"."
+    },
+    {
+      "claim": "The photograph of the Avenue of the Dead was taken in 2006 and is public domain.",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 2006-09 ... Licence: Public domain"
+    },
+    {
+      "claim": "Teotihuacan stone masks have been called funeral masks.",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Typical artistic artifacts of this period are funeral masks, crafted mainly from green stone and covered with mosaics of turquoise, shell or obsidian."
+    },
+    {
+      "claim": "None of the masks came from a grave.",
+      "where": "card 2 headline",
+      "verdict": "unsupported",
+      "quote": "Numerous stone masks have been found at Teotihuacan, and have been generally believed to have been used during a funerary context. However, other scholars call this into question, noting that the masks \"do not seem to have come from burials\"."
+    },
+    {
+      "claim": "Numerous stone masks were found at Teotihuacan, and some scholars note they do not seem to have come from burials.",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Numerous stone masks have been found at Teotihuacan ... other scholars call this into question, noting that the masks \"do not seem to have come from burials\"."
+    },
+    {
+      "claim": "The mask photographed is marble and dates to the Classical Period.",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Lithic mask from Teotihuacán. Marble, Mexico, Classical Period (3rd-7th century)."
+    },
+    {
+      "claim": "Perhaps tens of thousands of murals were created at Teotihuacan.",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "The creation of murals, perhaps tens of thousands of murals, reached its height between 450 and 650."
+    },
+    {
+      "claim": "Mural painting peaked between 450 and 650 CE.",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The creation of murals, perhaps tens of thousands of murals, reached its height between 450 and 650."
+    },
+    {
+      "claim": "The art depicts deities and institutionalized offices, and no ruler had himself immortalised.",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "Rulers who may have requested to be immortalized through art are noticeably absent in Teotihuacan artwork. Observed artwork, instead, tends to portray institutionalized offices and deities."
+    },
+    {
+      "claim": "The wall painting probably decorated the interior of a residence and is CC0.",
+      "where": "card 3 source / caption",
+      "verdict": "supported",
+      "quote": "A wall painting from Teotihuacan, Mexico.  It probably decorated the interior of a residence. ... Licence: CC0"
+    },
+    {
+      "claim": "Some human sacrifice victims were buried alive.",
+      "where": "card 4 headline / note",
+      "verdict": "supported",
+      "quote": "Some men were decapitated, some had their hearts removed, others were killed by being hit several times over the head, and some were buried alive."
+    },
+    {
+      "claim": "Human victims were buried alive together with eagles and snakes.",
+      "where": "card 4 headline",
+      "verdict": "unsupported",
+      "quote": "Animals that were considered sacred and represented mythical powers and the military were also buried alive or captured and held in cages such as cougars, a wolf, eagles, a falcon, an owl, and even venomous snakes."
+    },
+    {
+      "claim": "Excavations of the pyramids found human and animal remains evidencing sacrifice.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "As evidenced from human and animal remains found during excavations of the pyramids in the city, Teotihuacanos practiced human sacrifice."
+    },
+    {
+      "claim": "Cougars, eagles and venomous snakes were caged or buried alive.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Animals that were considered sacred and represented mythical powers and the military were also buried alive or captured and held in cages such as cougars, a wolf, eagles, a falcon, an owl, and even venomous snakes."
+    },
+    {
+      "claim": "The photograph used with card 4 is from the Sigvald Linné 1932 expedition and is CC0.",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Images from the 1932 Sigvald Linné archeological expedition at Teotihuacán, Mexico. Date: Taken in 1932 ... Licence: CC0"
+    },
+    {
+      "claim": "The card 4 photograph shows a person brushing soil from a partially exposed human skull in an excavation trench.",
+      "where": "card 4 image (skullexcavation.jpg)",
+      "verdict": "supported",
+      "quote": "Image shows a crouching person using a wide brush on a human skull with jaw and teeth exposed in a dug earthen trench."
+    },
+    {
+      "claim": "The Teotihuacan writing system remained undeciphered until October 2025, when a partial decipherment was proposed.",
+      "where": "card 5 headline / note",
+      "verdict": "supported",
+      "quote": "In October 2025, a partial decipherment of the writing system has been proposed, identifying the language of the writing as proto-Corachol-Nahua, an early form of an Uto-Aztecan language."
+    },
+    {
+      "claim": "Over 30 signs were found on the floor of one patio.",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "There was a big find in the La Ventilla district that contains over 30 signs and clusters on the floor of the patio."
+    },
+    {
+      "claim": "The proposed decipherment identifies an early form of an Uto-Aztecan language.",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "identifying the language of the writing as proto-Corachol-Nahua, an early form of an Uto-Aztecan language"
+    },
+    {
+      "claim": "The card 5 photograph is of the Xolalpan excavation by Sigvald Linné in 1932, CC0.",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Från utgrävningarna vid Xolalpan - SMVK - 0307.a.0149.tif ... Date: 1932 ... Author: Sigvald Linné ... Licence: CC0"
+    },
+    {
+      "claim": "Xolalpan is an area excavated by Sigvald Linné in 1932 at Teotihuacan.",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Between April 26 and July 29, 1932, Swedish anthropologist/archaeologist Sigvald Linné, his wife, and a small crew excavated in the Xolalpan area, part of the municipality of San Juan Teotihuacán."
+    },
+    {
+      "claim": "The city burned around 550 CE.",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "its major monuments were sacked and systematically burned around 550 CE"
+    },
+    {
+      "claim": "No invaders came / no trace of foreign invasion is visible at the site.",
+      "where": "card 6 headline, caption",
+      "verdict": "supported",
+      "quote": "No traces of foreign invasion are visible at the site."
+    },
+    {
+      "claim": "Only civic and elite buildings burned.",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "More recent evidence, however, seems to indicate that the burning was limited to the structures and dwellings associated primarily with the ruling class."
+    },
+    {
+      "claim": "Pools of liquid mercury lie under a temple.",
+      "where": "card 6 note, caption",
+      "verdict": "supported",
+      "quote": "One of the most remarkable findings in the tunnel chambers was a miniature mountainous landscape, 17 meters underground, with tiny pools of liquid mercury representing lakes."
+    },
+    {
+      "claim": "Nobody can explain the pools of liquid mercury.",
+      "where": "card 6 note",
+      "verdict": "unsupported",
+      "quote": "a miniature mountainous landscape, 17 meters underground, with tiny pools of liquid mercury representing lakes"
+    },
+    {
+      "claim": "The Pyramid of the Moon photograph was taken in 2006 by Gorgo and is public domain.",
+      "where": "card 6 source, caption",
+      "verdict": "supported",
+      "quote": "Description: Pirámide de la Luna, Teotihuacán, México Date: 29 July 2006 Author: Gorgo Licence: Public domain"
+    },
+    {
+      "claim": "The Aztecs believed the gods created the universe at the site.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "This is because the Aztecs believed that the gods created the universe at that site."
+    },
+    {
+      "claim": "The Aztecs came to the site as pilgrims.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "During Aztec times, the city was a place of pilgrimage and identified with the myth of Tollan, the place where the sun was created."
+    },
+    {
+      "claim": "Maya texts call the city puh, \"Place of Reeds\".",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it appears in hieroglyphic texts from the Maya region as puh, or \"Place of Reeds\""
+    },
+    {
+      "claim": "At its height the city held perhaps 100,000 people.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Its population has been estimated to be at least 25,000, but likely sat around 100,000 during its height"
+    },
+    {
+      "claim": "The city covered eight square miles.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The city covered eight square miles (21 km2)"
+    },
+    {
+      "claim": "It was the largest city in the Americas.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At its zenith, perhaps in the first half of the first millennium (1 CE to 500 CE), Teotihuacan was the largest city in the Americas."
+    },
+    {
+      "claim": "There is no evidence of a king, no royal palace, and no depictions of conquest or humiliated captives, unlike neighbouring Maya and Zapotec cities.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Contemporaneous cities in the same region, including Mayan and Zapotec, as well as the earlier Olmec civilization, left ample attestations of dynastic authoritarian sovereignty in the form of royal palaces, ceremonial ball courts, and depictions of war, conquest, and humiliated captives. However, no such artifacts have been found in Teotihuacan."
+    },
+    {
+      "claim": "Many scholars think the city was run by some form of collective governance.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Many scholars have thus concluded that Teotihuacan was led by some sort of \"collective governance.\""
+    },
+    {
+      "claim": "The avenue is called the Avenue of the Dead because the Aztecs assumed the platforms along it were tombs.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Aztecs believed they were tombs, inspiring the name of the avenue."
+    },
+    {
+      "claim": "The platforms were ceremonial platforms topped with temples.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Scholars have now established that these were ceremonial platforms that were topped with temples."
+    },
+    {
+      "claim": "The civic buildings on the Avenue of the Dead were sacked and burned.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Instead, it is now known that the destruction was centered on major civic structures along the Avenue of the Dead."
+    },
+    {
+      "claim": "Drought tied to the climate events of 535–536 and internal unrest are both plausible explanations for the collapse.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The decline of Teotihuacan has been correlated to lengthy droughts related to the climate changes of 535–536 ... However, the two main hypotheses are not mutually exclusive."
+    },
+    {
+      "claim": "In 2003 a sinkhole opened near the Temple of the Feathered Serpent.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "After days of a heavy rainstorm, Gómez Chávez noticed that a nearly three-foot-wide sinkhole occurred near the foot of the temple pyramid."
+    },
+    {
+      "claim": "The tunnel walls were dusted with pyrite and magnetite to create the effect of stars.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The walls and ceiling of the tunnel were found to have been carefully impregnated with mineral powder composed of magnetite, pyrite (fool's gold), and hematite to provide a glittering brightness to the complex, and to create the effect of standing under the stars"
+    },
+    {
+      "claim": "Hundreds of clay spheres coated in oxidised pyrite were found.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Ranging from 40 to 130 millimeters, the balls have a core of clay and are covered with a yellow jarosite formed by the oxidation of pyrite."
+    },
+    {
+      "claim": "George Cowgill said of the spheres: \"They are indeed unique, but I have no idea what they mean.\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "According to George Cowgill of Arizona State University, the spheres are a fascinating find: \"Pyrite was certainly used by the Teotihuacanos and other ancient Mesoamerican societies. Originally, the spheres would have shown [sic] brilliantly. They are indeed unique, but I have no idea what they mean.\""
+    },
+    {
+      "claim": "The images include Teotihuacan and the Pyramid of the Moon photographed in 2006 and two photographs from Sigvald Linné's 1932 excavation, all public domain or CC0.",
+      "where": "caption (image credits)",
+      "verdict": "supported",
+      "quote": "Date: 29 July 2006 Author: Gorgo Licence: Public domain ... Images from the 1932 Sigvald Linné archeological expedition at Teotihuacán, Mexico."
+    }
+  ],
+  "problems": 3
+}
