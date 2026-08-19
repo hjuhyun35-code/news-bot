@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "The Piltdown skull was a composite of three different animals: a medieval human cranium, a 500-year-old orangutan jaw, and fossil chimpanzee teeth",
+      "where": "card 1 headline and note",
+      "verdict": "supported",
+      "quote": "It consisted of a medieval human skull, a 500-year-old orangutan lower jaw, and fossil chimpanzee teeth."
+    },
+    {
+      "claim": "It was presented in 1912 as the missing link",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "In 1912, Dawson claimed that he had discovered the \"missing link\" between early apes and humans."
+    },
+    {
+      "claim": "The image in card 1 is J. H. McGregor's reconstruction of 1915",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Three views of the Piltdown skull as reconstructed by J. H. McGregor, 1915."
+    },
+    {
+      "claim": "The Cooke painting shows eight men",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Back row: (left to right)  F. O. Barlow ,  G. Elliot Smith ,  Charles Dawson ,  Arthur Smith Woodward . Front row:  A. S. Underwood ,  Arthur Keith ,  W. P. Pycraft , and Sir  Ray Lankester ."
+    },
+    {
+      "claim": "A painting of Darwin hangs on the wall in the group portrait",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Note the painting of  Charles Darwin  on the wall."
+    },
+    {
+      "claim": "The portrait was painted by John Cooke in 1915",
+      "where": "card 2 note/source",
+      "verdict": "supported",
+      "quote": "The portrait painted by  John Cooke  in 1915."
+    },
+    {
+      "claim": "Charles Dawson stands in the back row of the painting",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Back row: (left to right)  F. O. Barlow ,  G. Elliot Smith ,  Charles Dawson ,  Arthur Smith Woodward ."
+    },
+    {
+      "claim": "Arthur Smith Woodward stands beside Dawson in the painting",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Back row: (left to right)  F. O. Barlow ,  G. Elliot Smith ,  Charles Dawson ,  Arthur Smith Woodward ."
+    },
+    {
+      "claim": "Woodward reconstructed the skull",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Woodward reconstructed the skull fragments and hypothesised that they belonged to a human ancestor from 500,000 years ago."
+    },
+    {
+      "claim": "The specimen combined a human braincase with an ape jaw",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "The fragments of the cranium that Dawson had originally found had human like features, whereas the lower jawbone that they found had resembled a jawbone of an ape."
+    },
+    {
+      "claim": "Woodward dated the specimen to 500,000 years ago",
+      "where": "card 3 note and caption",
+      "verdict": "supported",
+      "quote": "Woodward reconstructed the skull fragments and hypothesised that they belonged to a human ancestor from 500,000 years ago."
+    },
+    {
+      "claim": "Woodward named it Eoanthropus dawsoni",
+      "where": "card 3 note and caption",
+      "verdict": "unsupported",
+      "quote": "The discovery was announced at a Geological Society meeting and was given the Latin name Eoanthropus dawsoni (\"Dawson's dawn-man\")."
+    },
+    {
+      "claim": "Eoanthropus dawsoni means \"Dawson's dawn-man\"",
+      "where": "card 3 note and caption",
+      "verdict": "supported",
+      "quote": "was given the Latin name Eoanthropus dawsoni (\"Dawson's dawn-man\")"
+    },
+    {
+      "claim": "The card 3 image comes from The Outline of Science, 1922",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Author: J. Arthur Thomson,  The Outline of Science , 1922"
+    },
+    {
+      "claim": "The teeth carried file marks, found under microscopic examination in 1953",
+      "where": "card 4 headline/note and caption",
+      "verdict": "supported",
+      "quote": "Microscopic examination revealed file marks on the teeth, and it was deduced that someone had modified the teeth to a shape more suited to a human diet."
+    },
+    {
+      "claim": "Someone had filed an orangutan's teeth into a shape suited to a human diet",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Analysis of shape and trace DNA showed that teeth from both sites belonged to the same orangutan."
+    },
+    {
+      "claim": "The card 4 image is a 1913 diagram of the jaw of Eoanthropus dawsoni",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:PSM V82 D211 Jaw of eoanthropus dawsoni.png\nDescription: Jaw of eoanthropus dawsoni\nDate: 1913"
+    },
+    {
+      "claim": "James H. McGregor sculpted a model head of Piltdown Man in 1921",
+      "where": "card 5 note/source",
+      "verdict": "supported",
+      "quote": "Description: The \"Piltdown Man\" of Sussex, later revealed to be a hoax. Model by James H. McGregor\nDate: 1921"
+    },
+    {
+      "claim": "Piltdown stayed in evolutionary charts/textbooks for 41 years",
+      "where": "card 5 note and caption",
+      "verdict": "supported",
+      "quote": "the length of time – 41 years – that elapsed from its alleged initial discovery to its definitive exposure as a composite forgery"
+    },
+    {
+      "claim": "Fluorine testing ended the hoax in 1953",
+      "where": "card 6 headline and caption",
+      "verdict": "supported",
+      "quote": "1953: Weiner, Le Gros Clark, and Oakley expose the hoax."
+    },
+    {
+      "claim": "The bones were stained with an iron solution and chromic acid",
+      "where": "card 6 note and caption",
+      "verdict": "supported",
+      "quote": "Someone had created the appearance of age by staining the bones with an iron solution and chromic acid."
+    },
+    {
+      "claim": "A 2016 review named Dawson as the forger, and whether someone supplied him the fossils remains open",
+      "where": "card 6 note and caption",
+      "verdict": "supported",
+      "quote": "The authors did not rule out the possibility that someone else provided the false fossils to Dawson but ruled out several other suspects, including Teilhard de Chardin and Doyle"
+    },
+    {
+      "claim": "The card 6 image is a comparative plate by Neal and Rand, 1936",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Date: 1936-01-01\nAuthor: Herbert Neal and Herbert Rand"
+    },
+    {
+      "claim": "In 1912 Dawson told the Geological Society of London that a workman at a Sussex gravel pit had handed him a piece of skull",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "At a meeting of the Geological Society of London on 18 December 1912, Charles Dawson claimed that a workman at the Piltdown gravel pit had given him a fragment of the skull four years earlier."
+    },
+    {
+      "claim": "Workmen broke up the skull because they thought it was a fossilised coconut",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "According to Dawson, workmen at the site discovered the skull shortly before his visit and broke it up in the belief that it was a fossilised coconut."
+    },
+    {
+      "claim": "Dawson and Woodward dug through the summer and produced a jawbone, teeth and tools",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "That summer, Dawson and Woodward purportedly discovered more bones and artifacts at the site, which they connected to the same individual. These finds included a jawbone, more skull fragments, a set of teeth, and primitive tools."
+    },
+    {
+      "claim": "The find was taken as proof that the brain evolved first",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "the combination of a human-like cranium with an ape-like jaw tended to support the notion then prevailing in England that human evolution began with the brain"
+    },
+    {
+      "claim": "David Waterston said in 1913 that the sample was an ape mandible and a human skull",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "As early as 1913, David Waterston of King's College London published in Nature his conclusion that the sample consisted of an ape mandible and human skull."
+    },
+    {
+      "claim": "Marcellin Boule concluded the same in 1915",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Likewise, French paleontologist Marcellin Boule concluded the same in 1915."
+    },
+    {
+      "claim": "Franz Weidenreich said in 1923 it was a modern human cranium and an orangutan jaw with filed-down teeth",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "In 1923, Franz Weidenreich examined the remains and concluded that they consisted of a modern human cranium and an orangutan jaw with filed-down teeth."
+    },
+    {
+      "claim": "In 1953 Weiner, Le Gros Clark and Oakley used fluorine absorption dating, finding plenty of fluorine in the skull and far less in the jaw",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "This new technique found that, while there were substantial amounts of fluorine in the Piltdown skull specimens, there were far lower amounts in the jaw and teeth."
+    },
+    {
+      "claim": "The 2016 review found the same stain, gravel packing and dentist's putty across specimens, with DNA showing teeth from both sites came from one orangutan",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Multiple specimens demonstrated the same consistent preparation: application of the stain, packing of crevices with local gravel, and fixation of teeth and gravel with dentist's putty. Analysis of shape and trace DNA showed that teeth from both sites belonged to the same orangutan."
+    },
+    {
+      "claim": "Miles Russell found at least 38 fakes in Dawson's collection",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "The archaeologist Miles Russell of Bournemouth University analysed Dawson's antiquarian collection, and determined that at least 38 of his specimens were fakes."
+    },
+    {
+      "claim": "Teilhard de Chardin and Arthur Conan Doyle were both ruled out by the 2016 team",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "ruled out several other suspects, including Teilhard de Chardin and Doyle, based on the skill and knowledge demonstrated by the forgeries"
+    },
+    {
+      "claim": "Gould still blamed Teilhard de Chardin",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "On the other hand, Stephen Jay Gould judged that Pierre Teilhard de Chardin conspired with Dawson in the Piltdown forgery."
+    }
+  ],
+  "problems": 1
+}

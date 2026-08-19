@@ -1,0 +1,86 @@
+{
+  "caption": "Was Piltdown Man real? No. It was three animals glued together.\n\nIn 1912 Charles Dawson told the Geological Society of London that a workman at a Sussex gravel pit had handed him a piece of skull — broken up, the story went, because the men thought it was a fossilised coconut. Dawson and Arthur Smith Woodward dug through the summer and produced a jawbone, teeth and tools. Woodward reconstructed a head he dated to 500,000 years ago and named it Eoanthropus dawsoni, \"Dawson's dawn-man.\" A human skull with an ape's jaw: proof, it seemed, that the brain evolved first.\n\nDoubts started at once. David Waterston said in 1913 it was an ape mandible and a human skull. Marcellin Boule said the same in 1915. Franz Weidenreich said in 1923 it was a modern human cranium and an orangutan jaw with filed-down teeth. Piltdown stayed in the textbooks anyway for 41 years.\n\nIn 1953 Weiner, Le Gros Clark and Oakley used fluorine absorption dating: plenty of fluorine in the skull, far less in the jaw. Under the microscope, file marks on the teeth. The composite was a medieval human skull, a 500-year-old orangutan jaw and fossil chimpanzee teeth, stained with iron solution and chromic acid.\n\nA 2016 review named Dawson: the same stain, the same gravel packing, the same dentist's putty across specimens, and DNA showing teeth from both sites came from one orangutan. Miles Russell found at least 38 fakes in Dawson's collection.\n\nStill open: whether anyone supplied the fossils to Dawson. Teilhard de Chardin and Arthur Conan Doyle have both been ruled out by the 2016 team — Gould still blamed Teilhard.\n\nImages: John Cooke's 1915 group portrait; McGregor's 1915 reconstruction and 1921 model; the 1922 skull plate from The Outline of Science; a 1913 jaw diagram; a 1936 comparative plate.\n\n#piltdownman #archaeology #hoax #humanevolution #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "threeviews.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "This skull was <y>three different animals</y>",
+      "note": "A medieval human cranium, a 500-year-old orangutan jaw, and fossil chimpanzee teeth. Presented in 1912 as the missing link.",
+      "source": "J. H. McGregor reconstruction, 1915 · public domain",
+      "alt": "Three photographic views of a reconstructed hominid skull on a pale background.'",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "gang.jpg",
+      "crop": "46% 55%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Eight men, <y>a painting of Darwin</y> watching",
+      "note": "John Cooke, 1915. Charles Dawson stands in the back row. Arthur Smith Woodward, who reconstructed the skull, beside him.",
+      "source": "John Cooke, oil painting, 1915 · public domain",
+      "alt": "Oil painting of eight men in dark suits studying skulls on a table.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "skull.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Human braincase, <y>ape jaw</y>, one head",
+      "note": "Woodward dated it to 500,000 years ago and named it Eoanthropus dawsoni — Dawson's dawn-man.",
+      "source": "The Outline of Science, 1922 · public domain",
+      "alt": "Printed reconstruction of a skull, dark fossil pieces set into a light restored cranium.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "jaw.png",
+      "crop": "70% 50%",
+      "zoom": 2.1,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The teeth carried <y>file marks</y>",
+      "note": "Microscopes found them in 1953. Someone had filed an orangutan's teeth into a shape suited to a human diet.",
+      "source": "Jaw of Eoanthropus dawsoni, 1913 · public domain",
+      "alt": "Line diagram of a lower jaw with molars, canine and incisor labelled in script.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "bust.jpg",
+      "crop": "45% 38%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A face was modelled from <y>a forgery</y>",
+      "note": "James H. McGregor sculpted the head in 1921. Piltdown stayed in evolutionary charts for 41 years.",
+      "source": "Model by James H. McGregor, 1921 · public domain",
+      "alt": "Sculpted bust of a shaggy-haired early human head seen in profile.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "comparativeplate.png",
+      "crop": "30% 78%",
+      "zoom": 1.9,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Fluorine testing <y>ended it in 1953</y>",
+      "note": "Bones stained with iron and chromic acid. A 2016 review named Dawson — whether someone supplied him the fossils is still open.",
+      "source": "Neal and Rand, comparative plate, 1936 · public domain",
+      "alt": "Printed plate of drawn fossil skulls in profile, one labelled PILTDOWN.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "piltdown-man",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
