@@ -1,0 +1,73 @@
+{
+  "caption": "Why did the Mesa Verde cliff dwellings get abandoned?\n\nThe Ancestral Puebloans farmed Mesa Verde for roughly seven hundred years. They lived in small mesa-top homesteads for most of that time. Only at the end of the 12th century did they start building the huge cliff dwellings in the alcoves — Cliff Palace held about 125 people in 150 rooms and 23 kivas.\n\nThen it ended. Dendrochronology puts the last tree felled for construction on the mesa at 1281. A severely dry stretch from 1276 to 1299 closed out seven centuries of occupation, and the last inhabitants left around 1285. Tens of thousands emigrated or starved. They left cooking pots, tools and clothing behind — which is why archaeologists read the departure as hurried.\n\nViolence peaked between 1275 and 1285. Skulls were fractured with what looks like a small stone axe; some victims were scalped, dismembered and cannibalised. Towers of the period were probably defensive, with hidden tunnels linking them to kivas.\n\nWhat is still open: where exactly everyone went. The migrants left almost no direct evidence. Population rises at Rio Chama, the Pajarito Plateau and Santa Fe match the timing, and descendants live today at Acoma, Zuni, Jemez and Laguna — but the rate of resettlement is unclear. Archaeologists also disagree about Far View Reservoir: a 2014 geospatial analysis concluded it could not have held water at all.\n\nImages: Cliff Palace photographed by Gustaf Nordenskiöld in 1891; the National Parks Portfolio, 1917; a Balcony House route diagram by the National Park Service; Far View Reservoir by Mx. Granger; a Mesa Verde black-on-white mug at the Natural History Museum of Utah.\n\n#mesaverde #ancestralpuebloan #archaeology #publicdomain #theglassnegative",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "cliffpalace.jpg",
+      "crop": "40% 55%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The last building timber here was <y>cut in 1281</y>",
+      "note": "Cliff Palace, photographed in 1891. Tree-ring dating fixes the final construction felling on the mesa at 1281.",
+      "source": "Gustaf Nordenskiöld, 1891 · public domain",
+      "alt": "Stone rooms and towers standing under a huge sandstone overhang in a canyon wall.here",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "canyonrim.jpg",
+      "crop": "78% 40%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "Spanish explorers <y>walked past it in 1776</y>",
+      "note": "Domínguez and Vélez de Escalante named the green plateaus. They never got the angle to see the stone villages.",
+      "source": "The National Parks Portfolio, 1917 · public domain",
+      "alt": "A man in a hat stands on a rock pinnacle above a deep juniper-covered canyon.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "mug.jpg",
+      "crop": "45% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "<y>Nearly every household</y> had a potter in it",
+      "note": "Mesa Verde black-on-white ware was made locally. Designs were painted with a yucca-leaf brush.",
+      "source": "Mesa Verde black-on-white mug, 1200–1300 AD",
+      "alt": "Grey ceramic mug with a handle, painted with black cross and dotted-band designs.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "balconyhouse.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "One village's <y>only way out was a cleft</y> in the cliff",
+      "note": "Balcony House: 45 rooms, entered by ladder, left through an 18-inch tunnel. Easy to defend.",
+      "source": "U.S. National Park Service, 2020 · public domain",
+      "alt": "Annotated photo of a cliff dwelling with inset views of ladders and a stone tunnel.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "reservoir.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Drought emptied it. <y>Nobody ever came back</y>",
+      "note": "A dry spell from 1276 to 1299 ended 700 years here. Where the survivors settled is still not firmly traced.",
+      "source": "Far View Reservoir, photographed in December 2021",
+      "alt": "Low curving dry-stone wall of a circular reservoir among grass and juniper trees.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "mesa-verde",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "The last tree felled for construction at Mesa Verde was cut in 1281, established by tree-ring dating (dendrochronology).",
+      "where": "card 1 headline and note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Dendrochronology indicates that the last tree felled for construction on the mesa was cut in 1281."
+    },
+    {
+      "claim": "The Cliff Palace photograph was taken in 1891 by Gustaf Nordenskiöld and is public domain.",
+      "where": "card 1 note and source line",
+      "verdict": "supported",
+      "quote": "Archive title: File:Mesa-Verde---Cliff-Palace-in 1891 - edit1.jpg ... Date: 1891 Author: Gustaf Nordenskiöld ... Licence: Public domain"
+    },
+    {
+      "claim": "Spanish explorers Domínguez and Vélez de Escalante passed the area in 1776 and named the green plateaus, but never got the angle to see the stone villages.",
+      "where": "card 2 headline and note",
+      "verdict": "supported",
+      "quote": "They reached Mesa Verde (green plateau) region, which they named after its high, tree-covered plateaus, but they never got close enough, or into the needed angle, to see the ancient stone villages."
+    },
+    {
+      "claim": "The second image comes from The National Parks Portfolio, 1917, and is public domain.",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Title : The national parks portfolio Year : 1917 ... Licence: Public domain"
+    },
+    {
+      "claim": "Nearly every household at Mesa Verde had a member who worked as a potter.",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "Archeological evidence indicates that nearly every household had at least one member who worked as a potter."
+    },
+    {
+      "claim": "Mesa Verde black-on-white ware was made locally.",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Neutron activation analysis indicates that much of the black-on-white pottery found at Mesa Verde was produced locally."
+    },
+    {
+      "claim": "Designs on the pottery were painted with a yucca-leaf brush.",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Designs were added to ceramic vessels with a yucca-leaf brush and paints made from iron, manganese, beeplant, and tansy mustard."
+    },
+    {
+      "claim": "The mug shown is a Mesa Verde black-on-white mug dated 1200–1300 AD.",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "File:Mesa Verde black-on-white mug, San Juan Anasazi, Whiskers Ruin, Utah, 1200-1300 AD, ceramic, paint - Natural History Museum of Utah"
+    },
+    {
+      "claim": "Balcony House's only exit was a series of toe-holds in a cleft of the cliff, believed to be the only entry and exit route for the cliff dwellers.",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The exit, a series of toe-holds in a cleft of the cliff, was believed to be the only entry and exit route for the cliff dwellers, which made the small village easy to defend and secure."
+    },
+    {
+      "claim": "Balcony House has 45 rooms.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Its 45 rooms and two kivas would have been cold during the winter."
+    },
+    {
+      "claim": "Balcony House is entered by climbing a ladder.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Visitors on ranger-guided tours enter by climbing a 32 ft (10 m) ladder and crawling through a small 12 ft (4 m) tunnel."
+    },
+    {
+      "claim": "Visitors leave Balcony House through an 18-inch tunnel.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "(2) crawling through an 18-inch wide (46 cm) by 12-foot (3.7 m) long tunnel as you leave the site"
+    },
+    {
+      "claim": "The site was easy to defend.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "which made the small village easy to defend and secure"
+    },
+    {
+      "claim": "The Balcony House diagram is by the U.S. National Park Service, 2020, public domain.",
+      "where": "card 4 source; images line",
+      "verdict": "supported",
+      "quote": "Date: 2020-01-01 Author: U.S. National Park Service Licence: Public domain"
+    },
+    {
+      "claim": "A severely dry period from 1276 to 1299 ended roughly 700 years of continuous occupation at Mesa Verde.",
+      "where": "card 5 note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Despite challenging conditions, the Puebloans continued to farm the area until a severely dry period from 1276 to 1299 ended seven hundred years of continuous human occupation at Mesa Verde."
+    },
+    {
+      "claim": "No one ever returned to settle Mesa Verde permanently after the depopulation.",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "the depopulation of Mesa Verde at the end of the 13th century was different in that the region was almost completely emptied, and no descendants returned to build permanent settlements"
+    },
+    {
+      "claim": "Where the survivors settled is still not firmly traced.",
+      "where": "card 5 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The vacating Ancestral Pueblo people left almost no direct evidence of their migration"
+    },
+    {
+      "claim": "The Far View Reservoir photograph was taken in December 2021 by Mx. Granger.",
+      "where": "card 5 source; images line",
+      "verdict": "supported",
+      "quote": "File:Far View Reservoir in December 2021.jpg ... Date: 2021-12-09 12:11:52 Author: Mx. Granger"
+    },
+    {
+      "claim": "The Ancestral Puebloans farmed Mesa Verde for roughly seven hundred years.",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "a severely dry period from 1276 to 1299 ended seven hundred years of continuous human occupation at Mesa Verde"
+    },
+    {
+      "claim": "For most of that time they lived in small mesa-top homesteads.",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "For approximately six hundred years, most Puebloan farmers had lived in small, mesa-top homesteads of one or two families."
+    },
+    {
+      "claim": "They only began building the large cliff dwellings at the end of the 12th century.",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "by the end of the 12th century, they began to construct the massive cliff dwellings for which the park is best known"
+    },
+    {
+      "claim": "Cliff Palace held about 125 people and had 150 rooms and 23 kivas.",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "Cliff Palace was home to approximately 125 people ... With 23 kivas and 150 rooms"
+    },
+    {
+      "claim": "The last inhabitants left around 1285.",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The last inhabitants of the mesa left the area c. 1285."
+    },
+    {
+      "claim": "Tens of thousands of people emigrated or starved.",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "After 1260, there was a rapid depopulation of Mesa Verde, as \"tens of thousands of people\" emigrated or died from starvation."
+    },
+    {
+      "claim": "They left behind cooking pots, tools and clothing, which is why archaeologists read the departure as hurried.",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "they left behind household goods, including cooking utensils, tools, and clothing, which gave archaeologists the impression that the emigration was haphazard or hurried"
+    },
+    {
+      "claim": "Violence peaked between 1275 and 1285.",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "While most of the violence, which peaked between 1275 and 1285, is generally ascribed to in-fighting amongst Puebloans"
+    },
+    {
+      "claim": "Skull fractures appear to have been inflicted with a small stone axe.",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Many of the victims showed signs of skull fractures, and the uniformity of the injuries suggest that most were inflicted with a small stone axe."
+    },
+    {
+      "claim": "Some victims were scalped, dismembered and cannibalised.",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Others were scalped, dismembered, and cannibalized."
+    },
+    {
+      "claim": "Towers of the period were probably defensive and had hidden tunnels linking them to kivas.",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Puebloans built numerous stone masonry towers that likely served as defensive structures. They often incorporated hidden tunnels connecting the towers to associated kivas."
+    },
+    {
+      "claim": "Population rises at Rio Chama, the Pajarito Plateau and Santa Fe correspond with the timing of the migration, though the rate of resettlement is unclear.",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Although the rate of settlement is unclear, increases in sparsely populated areas, such as Rio Chama, Pajarito Plateau, and Santa Fe, correspond directly with the period of migration from Mesa Verde."
+    },
+    {
+      "claim": "Descendants live today at Acoma, Zuni, Jemez and Laguna.",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "contemporary descendants of the Puebloans live in pueblos at Acoma, Zuni, Jemez, and Laguna"
+    },
+    {
+      "claim": "A 2014 geospatial analysis concluded that Far View Reservoir could not have held water at all, an interpretation at odds with other readings of the structure.",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "A 2014 geospatial analyses suggested that neither collection nor retention of water was possible in the Far View Reservoir. This interpretation views the structure as a ceremonial space with procession roads in an adaptation of Chacoan culture."
+    },
+    {
+      "claim": "The mug is held at the Natural History Museum of Utah.",
+      "where": "images line",
+      "verdict": "supported",
+      "quote": "Exhibit in the Natural History Museum of Utah, Salt Lake City, Utah, USA."
+    }
+  ],
+  "problems": 0
+}
