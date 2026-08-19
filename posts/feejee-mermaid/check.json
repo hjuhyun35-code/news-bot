@@ -1,0 +1,197 @@
+{
+  "claims": [
+    {
+      "claim": "The Fiji mermaid was a monkey sewn to a fish (monkey head and torso attached to the back half of a fish)",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The Fiji mermaid (also Feejee mermaid) was an object composed of the torso and head of a juvenile monkey sewn to the back half of a fish."
+    },
+    {
+      "claim": "The object drew paying crowds in London",
+      "where": "card 1 headline",
+      "verdict": "unsupported",
+      "quote": "The mermaid was displayed in London in 1822, advertised in a publication by J. Limbird in the Mirror, and displayed the Turf Coffee-house, St. James's Street."
+    },
+    {
+      "claim": "George Cruikshank etched it in 1822",
+      "where": "card 1 note; card 1 source; caption",
+      "verdict": "supported",
+      "quote": "An etching of it was made by artist George Cruikshank in 1822."
+    },
+    {
+      "claim": "It was shown at the Turf Coffee-house, 39 St James's Street",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "Now Exhibiting at the Turf Coffee-house 39 St James's Street."
+    },
+    {
+      "claim": "The specimen was made of monkey skin attached to the dried skin of a headless salmon-kind fish, stuffed and varnished",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "It was constructed \"of the skin of the head and shoulders of a monkey, which was attached to the dried skin of a fish of the salmon kind with the head cut off, and the whole was stuffed and highly varnished, the better to deceive the eye.\""
+    },
+    {
+      "claim": "Henry Lee's 1883 account states the teeth were from a fish",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The teeth are those of some fish—apparently of the cat-fish, (Anarchicas lupus)."
+    },
+    {
+      "claim": "Henry Lee's account notes wool covering the crown",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "a little wool covers the crown, so thinly and untidily that if the mermaid possessed a crystal mirror she would see the necessity for the vigorous use of her comb of pearl"
+    },
+    {
+      "claim": "The phrase \"the better to deceive the eye\" appears in Lee's account",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "the whole was stuffed and highly varnished, the better to deceive the eye."
+    },
+    {
+      "claim": "The source page is from Henry Lee, Sea Fables Explained, 1883",
+      "where": "card 2 source; caption",
+      "verdict": "supported",
+      "quote": "Date: 1883 Author: International Fisheries Exhibition; Lee, Henry"
+    },
+    {
+      "claim": "Such mermaids were manufactured commercially in Japan",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "the mermaid is believed to be one of many being manufactured commercially in Japan, by fishermen with a sense of humor as well as profit-mindedness"
+    },
+    {
+      "claim": "A Dutch warehouse keeper on Dejima recorded a price of 30 ryō or 60 guilders",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "According to J. F. van Overmeer Fisscher, the object from the Japanese workshop merely cost 30 ryō or 60 guilders"
+    },
+    {
+      "claim": "In Batavia one could fetch 2,000 Spanish dollars",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "but might be sold for 2000 Spanish dollars in Batavia"
+    },
+    {
+      "claim": "The Dutch keeper was named J. F. van Overmeer Fisscher and was posted on Dejima, Nagasaki",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A Dutchman who was posted as warehouse keeper on Dejima, Nagasaki 1820–1829 writes that such a mermaid could be obtained for a handy price and resold for a fortune in Dutch Indonesia."
+    },
+    {
+      "claim": "Sellers also offered him two-headed men, face-on-belly figures and twin-headed dragons",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "all sorts of samples were shown him: a two-headed men, face-on-belly, devil-headed people, twin-headed dragons, etc."
+    },
+    {
+      "claim": "The 1825 painting is by Mōri Baien",
+      "where": "card 3 source; caption",
+      "verdict": "supported",
+      "quote": "Date: 1825 Author: Mōri Baien (1798–1851)"
+    },
+    {
+      "claim": "Barnum's naturalist refused to vouch for the object's authenticity",
+      "where": "card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "Barnum had a naturalist examine it who would not attest to its authenticity."
+    },
+    {
+      "claim": "Barnum leased it from Moses Kimball for $12.50 a week",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "Kimball remained the creature's sole owner, while Barnum leased it for $12.50 a week."
+    },
+    {
+      "claim": "Barnum printed 10,000 pamphlets",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "Barnum printed 10,000 pamphlets which described general information about mermaids and stories about his specimen in particular."
+    },
+    {
+      "claim": "The viewers illustration comes from Barnum's autobiography, 1855",
+      "where": "card 4 source; caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Mermaid viewers American Museum.jpg Description: Illustration in Barnum's autobiography. Date: 1855"
+    },
+    {
+      "claim": "Three sideshows (Ripley's, Coney Island's Sideshow by the Seashore, Bobby Reynolds' traveling sideshow) claim to hold the true original",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "Exhibits at Ripley's Believe It or Not!, Coney Island's Sideshow by the Seashore, and Bobby Reynolds' traveling sideshow all lay claim to the title"
+    },
+    {
+      "claim": "Joe Nickell examined the rival claimants",
+      "where": "card 5 note",
+      "verdict": "unsupported",
+      "quote": "In his Secrets of the Sideshows, Joe Nickell documents several modern-day claimants to the title of Barnum's \"true\" original mermaid"
+    },
+    {
+      "claim": "Nickell called them \"fakes of Barnum's fake\"",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "or as he describes them, \"fakes of Barnum's fake\""
+    },
+    {
+      "claim": "The Banff Merman is on display at the Indian Trading Post in Banff, photographed by Eviatar Bach",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Description: Banff Merman on display at the Indian Trading Post in Banff, Alberta ... Author: Eviatar Bach"
+    },
+    {
+      "claim": "The original burned",
+      "where": "card 6 headline",
+      "verdict": "unsupported",
+      "quote": "but it then disappeared—likely consumed in one of the many fires that destroyed parts of Barnum's collections"
+    },
+    {
+      "claim": "A captain paid $6,000 for it in 1822",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "American sea captain Samuel Barrett Edes bought Barnum's \"mermaid\" from Japanese sailors in 1822 for $6,000, using money from the ship's expense account."
+    },
+    {
+      "claim": "The money came from the ship's expense account",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "using money from the ship's expense account"
+    },
+    {
+      "claim": "Another account says an American whaler's captain paid $5,000 in Batavia",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Another account says that a captain of an American whaler bought it for $5,000 in Batavia, the Dutch East Indies."
+    },
+    {
+      "claim": "It vanished after 1842, likely lost in one of Barnum's museum fires",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "P. T. Barnum exhibited the original in Barnum's American Museum in New York in 1842, but it then disappeared—likely consumed in one of the many fires that destroyed parts of Barnum's collections."
+    },
+    {
+      "claim": "Edes' son sold it to Moses Kimball of the Boston Museum in 1842",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Captain Edes' son took possession of the mermaid and sold it to Moses Kimball of the Boston Museum in 1842"
+    },
+    {
+      "claim": "Barnum planted anonymous letters in New York papers about a \"Dr. J. Griffin\", who was actually his associate Levi Lyman",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Barnum generated publicity for the object by having an agent send anonymous letters to New York newspapers ... contending that \"Dr. J. Griffin\" had an object which he had caught in South America. Griffin was actually being impersonated by Levi Lyman, one of Barnum's associates."
+    },
+    {
+      "claim": "Barnum described it as \"an ugly, dried-up, black-looking, diminutive specimen, about 3 feet long\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Barnum, in his autobiography, described the mermaid as \"an ugly, dried-up, black-looking, diminutive specimen, about 3 feet long.\""
+    },
+    {
+      "claim": "A papier-mâché mermaid from the Kimball collection is at the Peabody Museum, photographed by Daderot",
+      "where": "card 6 source; caption",
+      "verdict": "supported",
+      "quote": "A papier-mâché mermaid from the same Moses Kimball collection that once included the Feejee Mermaid exhibited by P. T. Barnum. ... Exhibit from the Peabody Museum, Harvard University ... Author: Daderot"
+    }
+  ],
+  "problems": 3
+}

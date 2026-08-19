@@ -1,0 +1,86 @@
+{
+  "caption": "Was the Feejee mermaid real? No. It was a monkey's head and torso sewn to the back half of a fish.\n\nA captain named Samuel Barrett Edes bought it from Japanese sailors in 1822 for $6,000 — money taken from his ship's expense account. Another account says an American whaler's captain paid $5,000 in Batavia.\n\nThe objects were made commercially in Japan. A Dutch warehouse keeper on Dejima, J. F. van Overmeer Fisscher, recorded that one cost 30 ryō, about 60 guilders, and could be sold in Batavia for 2,000 Spanish dollars. Sellers also offered him two-headed men, face-on-belly figures and twin-headed dragons.\n\nIt was shown in London in 1822 at the Turf Coffee-house, St James's Street. Edes' son sold it to Moses Kimball of the Boston Museum in 1842. Kimball kept ownership; P. T. Barnum leased it for $12.50 a week. Barnum's naturalist would not attest to it. Barnum ran it anyway, planting anonymous letters in New York papers about a \"Dr. J. Griffin\" — actually his associate Levi Lyman — and printing 10,000 pamphlets.\n\nBarnum described it himself: \"an ugly, dried-up, black-looking, diminutive specimen, about 3 feet long.\"\n\nWhat is unresolved: the original disappeared, likely burned in one of the fires that destroyed parts of Barnum's collections. Ripley's, Coney Island's Sideshow by the Seashore and Bobby Reynolds' sideshow all claim to hold the true original. Joe Nickell calls them \"fakes of Barnum's fake.\"\n\nImages: George Cruikshank's 1822 etching; a papier-mâché mermaid from the Kimball collection at the Peabody Museum, photographed by Daderot; the Banff Merman photographed by Eviatar Bach; Mōri Baien's 1825 painting; an illustration from Barnum's 1855 autobiography; and a page from Henry Lee's Sea Fables Explained, 1883.\n\n#feejeemermaid #ptbarnum #hoaxhistory #publicdomain #sideshow",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "handbill.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "A monkey sewn to a fish <y>drew paying crowds in London</y>",
+      "note": "George Cruikshank etched it in 1822. It was shown at the Turf Coffee-house, 39 St James's Street.",
+      "source": "George Cruikshank, etching, 1822 · public domain",
+      "alt": "Hand-coloured etching of a grimacing mermaid figure under a glass dome on a stand.stand.stand.stand",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "debunkpage.jpg",
+      "crop": "50% 20%",
+      "zoom": 1.9,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "<y>Monkey skin, headless salmon skin,</y> stuffed and varnished",
+      "note": "Henry Lee's 1883 account: teeth from a fish, wool on the crown, \"the better to deceive the eye.\"",
+      "source": "Henry Lee, Sea Fables Explained, 1883 · public domain",
+      "alt": "Printed page headed Sea Fables Explained, with a woodcut of an artificial mermaid.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "ningyopainting.jpg",
+      "crop": "22% 45%",
+      "zoom": 2.1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "They were <y>manufactured commercially in Japan</y>",
+      "note": "A Dutch keeper on Dejima priced one at 60 guilders. In Batavia it could fetch 2,000 Spanish dollars.",
+      "source": "Mōri Baien, painting, 1825 · public domain",
+      "alt": "Japanese painting of a hairy human-faced creature with a large scaled fish body.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "viewers.jpg",
+      "crop": "45% 35%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Barnum's own naturalist <y>refused to vouch for it</y>",
+      "note": "He exhibited it regardless, leasing it from Moses Kimball for $12.50 a week and printing 10,000 pamphlets.",
+      "source": "Illustration from Barnum's autobiography, 1855",
+      "alt": "Ink drawing of men in frock coats leaning over a table to inspect an exhibit.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "casedisplay.jpg",
+      "crop": "40% 52%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Three sideshows claim to own <y>the true original</y>",
+      "note": "Joe Nickell examined the rival claimants and called them \"fakes of Barnum's fake\".",
+      "source": "Banff Merman, Indian Trading Post · Eviatar Bach",
+      "alt": "Glass case holding a dried merman figure with white hair, ribs and a scaled fish tail.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "specimen.jpg",
+      "crop": "62% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The original <y>burned, and nobody knows which fire</y>",
+      "note": "A captain paid $6,000 for it in 1822. It vanished after 1842, likely lost in one of Barnum's museum fires.",
+      "source": "Kimball collection, Peabody Museum · Daderot",
+      "alt": "Museum specimen of a mermaid: withered monkey-like head and arms joined to a scaled fish body.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "feejee-mermaid",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
