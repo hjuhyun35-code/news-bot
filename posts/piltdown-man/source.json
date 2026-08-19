@@ -1,0 +1,31 @@
+{
+  "subject": "Piltdown Man, a forged fossil that sat in textbooks for forty years",
+  "wikipedia": "Piltdown Man",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "skull.jpg",
+      "commons": "File:Piltdown man.jpg"
+    },
+    {
+      "file": "gang.jpg",
+      "commons": "File:Piltdown gang (dark).jpg"
+    },
+    {
+      "file": "jaw.png",
+      "commons": "File:PSM V82 D211 Jaw of eoanthropus dawsoni.png"
+    },
+    {
+      "file": "threeviews.jpg",
+      "commons": "File:Piltdown Man - McGregor reconstruction.jpg"
+    },
+    {
+      "file": "comparativeplate.png",
+      "commons": "File:Comparative anatomy of fossil humans.png"
+    },
+    {
+      "file": "bust.jpg",
+      "commons": "File:Piltdown Man - McGregor model.jpg"
+    }
+  ]
+}
