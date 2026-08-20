@@ -1,0 +1,73 @@
+{
+  "caption": "Who carved the Externsteine, and when?\n\nThirteen sandstone pillars stand in the Teutoburg Forest near Horn-Bad Meinberg. The tallest, rock II, rises 37.5 m. Cut into them are three linked chambers, stairways, a high chamber with an altar and a circular window, a platform, and an open stone sarcophagus in an arched alcove.\n\nAn inscription in the main chamber records an altar consecrated in 1115. The Descent from the Cross relief on the outside was long called Carolingian; since the 1950s scholars have placed it in the 12th century, stylistically 1160–1170. Even at that later date it is the oldest monumental relief worked into a natural rock face north of the Alps.\n\nThe pagan story begins with Hermann Hamelmann in 1564, who wrote that Charlemagne made an altar from the \"rock of the magpies\", then a pagan idol. A 19th-century local historian tied that idol to the Saxon Irminsul. Wilhelm Teudt called the stones the \"Germanic Stonehenge\". In 1933 an Externsteine Foundation was set up with Heinrich Himmler as president, and the SS Ahnenerbe took an interest. Excavations found stone tools of the Ahrensburg culture, roughly 10,700–9,600 BC, and medieval material. Bronze and Iron Age finds were conspicuously absent.\n\nStill unresolved: who commissioned chambers, a relief and a sarcophagus this elaborate, and why no document records the work. One suggestion is a copy of the Holy Sepulchre for pilgrims who could not reach Jerusalem.\n\nImages: photochrom print of about 1890–1900; Elias van Lennep's engraving of 1663; an 1862 drawing of the relief; a modern carving photographed by Bär Minimum; and the path in 2014 by 5snake5.\n\n#Externsteine #TeutoburgForest #archaeology #publicdomain #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "pillarsphotochrom.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "Rooms were cut into this rock. <y>Nobody recorded who</y>.",
+      "note": "Three chambers, stairways, an altar and a stone coffin, cut into sandstone. No document names the builders.",
+      "source": "Photochrom print, c.1890–1900 · public domain",
+      "alt": "Colour print of tall sandstone pillars in woodland, with a tent and visitors below.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "engraving1663.jpg",
+      "crop": "56% 95%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "A count built a <y>fortress that could not defend anything</y>",
+      "note": "Excavated foundations show thin, ornamental walls. The hunting lodge was torn down in 1810 at Countess Pauline's request.",
+      "source": "Elias van Lennep, engraving, 1663 · public domain",
+      "alt": "Engraving of round towers and a gatehouse built against tall rock pillars, with riders.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "descentrelief.jpg",
+      "crop": "45% 30%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The <y>oldest monumental rock relief</y> north of the Alps",
+      "note": "Art historians once called it Carolingian. Since the 1950s it is dated to the 12th century, stylistically 1160 to 1170.",
+      "source": "Drawing of the Externsteine relief, 1862 · public domain",
+      "alt": "Line drawing of a carved relief showing Christ being lowered from the cross.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "carvedw.jpg",
+      "crop": "72% 100%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "In 1933 <y>Heinrich Himmler</y> became president of the site's foundation",
+      "note": "The SS Ahnenerbe studied the stones. An excavation in 1932 had already found no cultural remains.",
+      "source": "Carving on the Externsteine · Bär Minimum, CC0",
+      "alt": "Close-up of weathered sandstone with a letter W cut into it, iron railing above.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "pathtoday.jpg",
+      "crop": "55% 40%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Medieval builders cut them. <y>Nothing was written down</y>.",
+      "note": "The pagan-shrine story starts with one writer in 1564. No finds support use between the Stone Age and the 9th century.",
+      "source": "Externsteine, 2014 · 5snake5, CC0",
+      "alt": "Walkers on a gravel path between grey rock pillars with a footbridge near the top.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "externsteine",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
