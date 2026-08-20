@@ -1,0 +1,86 @@
+{
+  "caption": "Why did everyone leave Bodie, California?\n\nGold was found in the Bodie Hills in 1859, but the camp stayed small until the Standard Company hit a rich vein in 1876. By 1879 Bodie had about 2,000 buildings and 7,000–10,000 people, and 65 saloons along a mile of Main Street.\n\nDecline began in 1880, as booms in Butte, Tombstone and Utah drew the single miners away. The 1890 fire insurance map gives the population as 450. The last newspaper printed in 1912. Bodie was first called a ghost town in 1915. The last mine closed in 1942 under War Production Board order L-208, which shut non-essential US gold mines during the war. Mining never resumed.\n\nOne thing Bodie did first: in 1892 the Standard Company built a hydroelectric plant 13 miles away and sent 3,530 volts to its 20-stamp mill — the country's first long-distance transmission of electricity.\n\nWinters are brutal at 8,379 feet: an average 303 nights a year below freezing, a record low of −36°F, winds near 100 mph.\n\nToday it is a state park held in \"arrested decay\" — about 110 structures, interiors still stocked with goods, china shards and square nails in the dirt. Removing them is illegal.\n\nStill unresolved: the story of Rosa May, said to have nursed the town through an epidemic and then been buried outside the cemetery fence, is unsubstantiated. And the legend that Bodie was California's second or third largest city in 1880 is contradicted by that year's census.\n\nImages: house and saloon interior by PDPhoto.org and Jon Sullivan, 2004; storefronts and boot by Dick Rowan, 1972, US National Archives; bird's-eye view by William Thompson, c.1890; Sanborn-Perris fire map, 1890, Library of Congress.\n\n#bodie #ghosttown #goldrush #californiahistory #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "house.jpg",
+      "crop": "48% 55%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "65 saloons here. <y>Ghost town by 1915</y>.",
+      "note": "Bodie, California. At its peak, 65 saloons lined a mile-long Main Street.",
+      "source": "Bodie, California, 2004 · PDPhoto.org",
+      "alt": "Weathered wooden house with brick chimney in a deserted town under deep blue sky.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "saloon.jpg",
+      "crop": "58% 52%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The interiors are still <y>stocked with goods</y>",
+      "note": "About 110 structures survive, held in \"arrested decay\". Taking a nail or a china shard is illegal.",
+      "source": "Saloon interior, Bodie · Jon Sullivan, 2004",
+      "alt": "Abandoned saloon room with pool table, cue rack, long table and wooden chairs.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "townalive.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "By 1879: <y>2,000 buildings</y>, up to 10,000 people",
+      "note": "Gold was found in 1859. The Standard Company's 1876 strike turned a quiet camp into a boomtown.",
+      "source": "William Thompson, Virginia City, c.1890",
+      "alt": "Bird's-eye view of a hillside mining town packed with wooden houses and mills.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "sanbornmap.jpg",
+      "crop": "88% 8%",
+      "zoom": 2.8,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The 1890 fire map gives the <y>population as 450</y>",
+      "note": "Eleven years after the peak. The same map marks Chinese shanties; Bodie's Chinatown crossed Main Street.",
+      "source": "Sanborn-Perris Map Co., 1890 · Library of Congress",
+      "alt": "Printed title block of an 1890 fire insurance map reading Bodie, Cal, population 450.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "boots.jpg",
+      "crop": "48% 22%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>303 nights a year</y> drop below freezing",
+      "note": "Utqiagvik, Alaska averages 315. The record low here is −36°F, and winds cross the valley near 100 mph.",
+      "source": "Dick Rowan, April 1972 · US National Archives",
+      "alt": "An old worn leather boot and rusted chain left on a sunlit weathered plank wall.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "storefronts.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "The last mine closed in <y>1942, by war order</y>",
+      "note": "Order L-208 shut non-essential US gold mines. Still unproven: Rosa May, said to be buried outside the cemetery fence.",
+      "source": "Dick Rowan, May 1972 · US National Archives",
+      "alt": "Row of abandoned brick and timber storefronts with a wagon beside a bare hillside.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "bodie",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

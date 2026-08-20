@@ -1,0 +1,245 @@
+{
+  "claims": [
+    {
+      "claim": "At Bodie's peak, 65 saloons lined Main Street",
+      "where": "card 1 headline and note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "At its peak, 65 saloons lined Main Street, which was a mile long."
+    },
+    {
+      "claim": "Main Street was a mile long",
+      "where": "card 1 note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "At its peak, 65 saloons lined Main Street, which was a mile long."
+    },
+    {
+      "claim": "Bodie was a ghost town by 1915",
+      "where": "card 1 headline; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Bodie was first described as a \"ghost town\" in 1915."
+    },
+    {
+      "claim": "Bodie is in California",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "Bodie ( BOH-dee) is a ghost town in the Bodie Hills east of the Sierra Nevada mountain range in Mono County, California, United States."
+    },
+    {
+      "claim": "The house image is from 2004 by PDPhoto.org",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Author: PDPhoto.org\nLicence: Public domain ... Date: 2004-09-06"
+    },
+    {
+      "claim": "Interiors of Bodie's buildings are still stocked with goods",
+      "where": "card 2 headline; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Interiors remain as they were left and stocked with goods."
+    },
+    {
+      "claim": "About 110 structures survive",
+      "where": "card 2 note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Only a small part of the town survived, with about 110 structures still standing, including one of many once operational gold mills."
+    },
+    {
+      "claim": "The town is held in \"arrested decay\"",
+      "where": "card 2 note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Today, Bodie is preserved in a state of arrested decay."
+    },
+    {
+      "claim": "Taking a square nail or a china shard from the site is illegal",
+      "where": "card 2 note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Littered throughout the park, one can find small shards of china dishes, square nails, and an occasional bottle, but removing these items is illegal."
+    },
+    {
+      "claim": "The interior photograph is a saloon in Bodie by Jon Sullivan, 2004",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Bodie Saloon.jpg\nDescription: Interior of saloon in  Bodie, California\nDate: Taken on 6 September 2004\nAuthor: Jon Sullivan"
+    },
+    {
+      "claim": "By 1879 Bodie had about 2,000 buildings and a population of 7,000–10,000",
+      "where": "card 3 headline; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "By 1879, Bodie had a population of approximately 7,000–10,000 people and around 2,000 buildings."
+    },
+    {
+      "claim": "Gold was found at Bodie in 1859",
+      "where": "card 3 note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Bodie began as a mining camp of little note following the discovery of gold in 1859 by a group of prospectors, including W. S. Bodey."
+    },
+    {
+      "claim": "The Standard Company's 1876 strike turned a quiet camp into a boomtown",
+      "where": "card 3 note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "In 1876, the Standard Company discovered a profitable deposit of gold-bearing ore, which transformed Bodie from an isolated mining camp comprising a few prospectors and company employees to a Wild West boomtown."
+    },
+    {
+      "claim": "The bird's-eye photograph is by William Thompson of Virginia City, c.1890",
+      "where": "card 3 source; caption image credits",
+      "verdict": "supported",
+      "quote": "Date: circa 1890 date QS:P,+1890-00-00T00:00:00Z/9,P1480,Q5727902\nAuthor: William Thompson, Virginia City, Nevada."
+    },
+    {
+      "claim": "The 1890 Sanborn fire insurance map gives Bodie's population as 450",
+      "where": "card 4 headline; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The map's title block reads \"Population 450\" beneath \"Sanborn-Perris Map Co., Limited ... Bodie, Cal. Nov. 1890\"."
+    },
+    {
+      "claim": "1890 is eleven years after Bodie's peak",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "By 1879, Bodie had a population of approximately 7,000–10,000 people and around 2,000 buildings."
+    },
+    {
+      "claim": "The same map marks Chinese shanties",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "The map is lettered \"Chinese Shanties\" and \"Chinese Cabins\" in the block by King Street."
+    },
+    {
+      "claim": "Bodie's Chinatown crossed Main Street",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Bodie had a Chinatown, the main street of which ran at a right angle to Bodie's Main Street."
+    },
+    {
+      "claim": "The fire map is by Sanborn-Perris Map Co., 1890, from the Library of Congress",
+      "where": "card 4 source; caption image credits",
+      "verdict": "supported",
+      "quote": "Credit: Library of Congress, Geography and Map Division.\nDate: 1890-11\nAuthor: Sanborn-Perris Map Co., Limited"
+    },
+    {
+      "claim": "Bodie averages 303 nights a year below freezing",
+      "where": "card 5 headline; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "With an average of 303 nights below freezing per year, Bodie rivals Utqiagvik, Alaska's 315, and no month has ever been completely frost-free."
+    },
+    {
+      "claim": "Utqiagvik, Alaska averages 315 nights below freezing",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "With an average of 303 nights below freezing per year, Bodie rivals Utqiagvik, Alaska's 315, and no month has ever been completely frost-free."
+    },
+    {
+      "claim": "The record low at Bodie is −36°F",
+      "where": "card 5 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "the record low of −36 °F (−37.8 °C) was set on February 13, 1903"
+    },
+    {
+      "claim": "Winds cross the valley at close to 100 mph",
+      "where": "card 5 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Winds can sweep across the valley at close to 100 miles per hour (160 km/h)."
+    },
+    {
+      "claim": "The boot photograph is by Dick Rowan, April 1972, US National Archives",
+      "where": "card 5 source; caption image credits",
+      "verdict": "supported",
+      "quote": "Archive title: File:BODIE STATE HISTORICAL PARK. ONE OF THE BEST-PRESERVED \"GHOST TOWNS\" IN THE U.S - NARA - 543136.jpg ... Date: April 1972 ... Author: Dick Rowan"
+    },
+    {
+      "claim": "The last mine closed in 1942 by war order",
+      "where": "card 6 headline; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The last mine closed in 1942, due to War Production Board order L-208, shutting down all non-essential gold mines in the United States during World War II."
+    },
+    {
+      "claim": "Order L-208 shut non-essential US gold mines",
+      "where": "card 6 note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The last mine closed in 1942, due to War Production Board order L-208, shutting down all non-essential gold mines in the United States during World War II."
+    },
+    {
+      "claim": "The story of Rosa May being buried outside the cemetery fence is unproven/unsubstantiated",
+      "where": "card 6 note; caption paragraph 6",
+      "verdict": "supported",
+      "quote": "There is an unsubstantiated story of Rosa May, a prostitute who, in the style of Florence Nightingale, came to the aid of the town menfolk when a serious epidemic struck the town at the height of its boom."
+    },
+    {
+      "claim": "Rosa May is said to have nursed the town through an epidemic",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "She is credited with giving life-saving care to many, but after she died she was buried outside the cemetery fence."
+    },
+    {
+      "claim": "The storefronts photograph is by Dick Rowan, May 1972, US National Archives",
+      "where": "card 6 source; caption image credits",
+      "verdict": "supported",
+      "quote": "Archive title: File:Ghost Town - NARA - 543342.jpg\nDescription: General notes:   The  ghost town of  Bodie , California  in 1972.\nDate: May 1972 ... Author: Dick Rowan"
+    },
+    {
+      "claim": "Gold was found in the Bodie Hills",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Bodie ( BOH-dee) is a ghost town in the Bodie Hills east of the Sierra Nevada mountain range in Mono County, California, United States."
+    },
+    {
+      "claim": "Decline began in 1880",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The first signs of decline appeared in 1880 and became obvious toward the end of the year."
+    },
+    {
+      "claim": "Booms in Butte, Tombstone and Utah drew the single miners away",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Promising mining booms in Butte, Montana; Tombstone, Arizona; and Utah lured men away from Bodie. The get-rich-quick, single miners who came to the town in the 1870s moved on to these other booms"
+    },
+    {
+      "claim": "The last newspaper was printed in 1912",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "The first signs of an official decline occurred in 1912 with the printing of the last Bodie newspaper, The Bodie Miner."
+    },
+    {
+      "claim": "Mining never resumed after the war",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Mining never resumed after the war."
+    },
+    {
+      "claim": "In 1892 the Standard Company built a hydroelectric plant about 13 miles away",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "In 1892, the Standard Company built its own hydroelectric plant approximately 13 miles (20.9 km) away at Dynamo Pond."
+    },
+    {
+      "claim": "The plant sent 3,530 volts to the company's 20-stamp mill",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The plant developed a maximum of 130 horsepower (97 kW) and 3,530 volts alternating current (AC) to power the company's 20-stamp mill."
+    },
+    {
+      "claim": "It was the country's first long-distance transmission of electricity",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "This pioneering installation marked the country's first transmissions of electricity over a long distance."
+    },
+    {
+      "claim": "Bodie sits at 8,379 feet",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "at an elevation of 8,379 feet (2,554 m)"
+    },
+    {
+      "claim": "Bodie is today a state park",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Also registered as a California Historical Landmark, the ghost town officially was established as Bodie State Historic Park in 1962."
+    },
+    {
+      "claim": "The legend that Bodie was California's second or third largest city in 1880 is contradicted by that year's census",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "One legend says that in 1880, Bodie was California's second or third largest city, but the U.S. Census of that year disproves this."
+    }
+  ],
+  "problems": 0
+}
