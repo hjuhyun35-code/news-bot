@@ -1,0 +1,191 @@
+{
+  "claims": [
+    {
+      "claim": "Isaac Newton lost at least £10,000 in the South Sea crash",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "Newton owned nearly £22,000 in South Sea stock in 1722, and lost at least £10,000 (equivalent to £1.91 million in 2025)."
+    },
+    {
+      "claim": "Newton held nearly £22,000 of South Sea stock in 1722",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "Newton owned nearly £22,000 in South Sea stock in 1722"
+    },
+    {
+      "claim": "Asked whether the stock would keep rising, Newton said he could not calculate the madness of people",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "\"When Sir Isaac Newton was asked about the continuance of the rising of South Sea stock ... He answered 'that he could not calculate the madness of people'\""
+    },
+    {
+      "claim": "The image in card 1 is William Hogarth's The South Sea Scheme, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:William Hogarth - The South Sea Scheme.png ... Licence: Public domain"
+    },
+    {
+      "claim": "The company's trade monopoly was effectively worthless — Spain controlled South America and Britain was at war with Spain",
+      "where": "card 2 headline/note, caption",
+      "verdict": "supported",
+      "quote": "The company was also granted a monopoly to trade with South America, a potentially lucrative enterprise, but one controlled by Spain – with which Britain was at war."
+    },
+    {
+      "claim": "The company never made significant profit from the monopoly",
+      "where": "card 2 note, caption",
+      "verdict": "supported",
+      "quote": "There was thus no realistic prospect that trade would take place, and as it turned out, the Company never realised any significant profit from its monopoly."
+    },
+    {
+      "claim": "The map is Herman Moll's map of the South Sea Company's limits, 1711",
+      "where": "card 2 source / caption",
+      "verdict": "supported",
+      "quote": "A new and exact map of the Coast, countries and Islands within ye limits of ye South Sea Company ... - by Herman Moll... Date: 1711"
+    },
+    {
+      "claim": "£4,000 was paid for £1,000 of stock",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "Received of Robert Furman Esq the Sum of four thousand pound being in full for One Thousand pound in the Capital and Principal Stock of The Governour and Company of Merchants of Great-Britain, Trading to the South-Seas"
+    },
+    {
+      "claim": "The receipt is dated 22 June 1720",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "London, the 22 Day of June 1720"
+    },
+    {
+      "claim": "The market price was 400% of face value",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "issued in London on 22 June 1720, paid for at £4,000 at the then market price of 400%"
+    },
+    {
+      "claim": "By September the stock had fallen to £150",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "By the end of September the stock had fallen to £150."
+    },
+    {
+      "claim": "The company lent people money to buy its own shares, an idea of John Blunt's intended to prop up the price",
+      "where": "card 4 headline/note, caption",
+      "verdict": "supported",
+      "quote": "Earlier in the year John Blunt had come up with an idea to prop up the share price, the company would lend people money to buy its shares."
+    },
+    {
+      "claim": "Many shareholders could then only pay for their shares by selling them",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "As a result, many shareholders could not pay for their shares except by selling them."
+    },
+    {
+      "claim": "The card 4 image is a South Sea Bubble card of 1720, public domain",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Description: Tree caricature from  South Sea Bubble  cards Date: 1720 ... Licence: Public domain"
+    },
+    {
+      "claim": "The company trafficked over 34,000 enslaved people under the Asiento granted in 1713",
+      "where": "card 5 headline/note, caption",
+      "verdict": "supported",
+      "quote": "During it's time administering the Asiento, the company trafficked more than 34,000 people, with a total of about 4,000 people dying on the Middle Passage."
+    },
+    {
+      "claim": "About 4,000 people died on the Middle Passage",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "with a total of about 4,000 people dying on the Middle Passage"
+    },
+    {
+      "claim": "The slave trade itself was unprofitable for the company",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "In 1714 2,680 slaves were carried, and for 1716–1717, 13,000 more, but the trade continued to be unprofitable."
+    },
+    {
+      "claim": "The card 5 image is Thomas Bowles's engraving of South Sea House, published 1754",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "\"The South-Sea House in Bishops-gate Street\", engraving by Thomas Bowles, published 1754."
+    },
+    {
+      "claim": "Newton lost his money because the whole scheme was fraud",
+      "where": "card 6 headline",
+      "verdict": "unsupported",
+      "quote": "Reporting in 1721, it revealed widespread fraud amongst the company directors and corruption in the Cabinet."
+    },
+    {
+      "claim": "Parliament jailed the Chancellor of the Exchequer, John Aislabie, for \"most notorious, dangerous and infamous corruption\"",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "The Commons found Aislabie guilty of the \"most notorious, dangerous and infamous corruption\" and he was imprisoned."
+    },
+    {
+      "claim": "All 33 company directors were stripped of, on average, 82% of their wealth",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Walpole supervised the process, which removed all 33 of the company directors and stripped them of, on average, 82 per cent of their wealth."
+    },
+    {
+      "claim": "Newton's famous remark reaches us only secondhand, reported by Joseph Spence from Lord Radnor",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Joseph Spence wrote that Lord Radnor reported to him \"When Sir Isaac Newton was asked about the continuance of the rising of South Sea stock ...\""
+    },
+    {
+      "claim": "The quotation survives in more than one wording",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "He is also quoted, \"I can calculate the movement of the stars, but not the madness of men\"."
+    },
+    {
+      "claim": "The card 6 image is Rowlandson & Pugin's South Sea House Dividend Hall, 1810",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "South Sea House, Dividend Hall Date: 1810 Author: Thomas Rowlandson (1756–1827) and Augustus Charles Pugin (1762–1832)"
+    },
+    {
+      "claim": "The South Sea Company was founded in 1711 to take over Britain's national debt",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The South Sea Company was a British joint-stock company founded in January 1711, created as a public-private partnership to consolidate and reduce the cost of the national debt."
+    },
+    {
+      "claim": "The income the company did have came from trafficking enslaved Africans under the Asiento",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "The government would make an annual payment to the Company of £568,279, equating to 6% interest plus expenses, which would then be redistributed to the shareholders as a dividend."
+    },
+    {
+      "claim": "The real money came from contraband smuggled in the slave ships",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the profit was not in the slave trade but in the illegal contraband goods smuggled in the slave ships and in the annual ship"
+    },
+    {
+      "claim": "Shares rose from about £100 in early 1720 to nearly £1,000 by August",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The price of the stock went up over the course of a year from about £100 to almost £1,000 per share."
+    },
+    {
+      "claim": "Directors talked up the New World trade with \"the most extravagant rumours\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The company then set to talking up its stock with \"the most extravagant rumours\" of the value of its potential trade in the New World"
+    },
+    {
+      "claim": "Politicians were handed shares they never paid for, with the right to sell them back at any price",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The transactions were recorded by Knight in the names of intermediaries, but no payments were received and no stock issued ... The individual received an option to sell his stock back to the company at any date at whatever market price might then apply."
+    },
+    {
+      "claim": "Thousands of people were ruined by the collapse",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Company failures now extended to banks and goldsmiths, as they could not collect loans made on the stock, and thousands of individuals were ruined, including many members of the upper class."
+    }
+  ],
+  "problems": 2
+}
