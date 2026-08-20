@@ -381,14 +381,18 @@
       "subject": "The Palenque sarcophagus lid, argued over since the day it was opened",
       "wikipedia": "Palenque",
       "hook": "무덤 뚜껑에 새긴 그림을 두고 아직도 싸운다",
-      "screened": "2026-08-09 · 사진 7장"
+      "screened": "2026-08-09 · 사진 7장",
+      "hold": true,
+      "why_hold": "2026-08-20 자동 확인. 쓸 수 있는 사진이 3장뿐입니다. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "chaco-canyon",
       "subject": "The Chaco roads, run dead straight for miles by people with no carts",
       "wikipedia": "Chaco Culture National Historical Park",
       "hook": "수레도 없이 길을 몇십 킬로미터 곧게 냈다",
-      "screened": "2026-08-09 · 사진 7장"
+      "screened": "2026-08-09 · 사진 7장",
+      "hold": true,
+      "why_hold": "2026-08-20 자동 확인. 후보 17장 중 쓸 만한 것이 5장뿐입니다. The pool contains no photograph of an actual road segment, road cut, or aerial trace of a roadbed — only one schematic road map plus general Chaco great-house and canyon views, so this set would read as a post about Chaco Canyon in general rather than about the roads. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "south-sea-bubble",
