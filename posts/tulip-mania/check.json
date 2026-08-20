@@ -1,0 +1,179 @@
+{
+  "claims": [
+    {
+      "claim": "At the peak of the mania (February 1637), certain tulip bulbs sold for more than ten times the annual income of a skilled artisan/craftsman.",
+      "where": "Card 1 headline; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "At the peak of tulip mania, in February 1637, certain tulip bulbs sold for more than 10 times the annual income of a skilled artisan."
+    },
+    {
+      "claim": "The Semper Augustus was the most expensive tulip of the mania.",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The Semper Augustus was the most expensive tulip during the mania, at its height this tulip was even sold for ƒ10,000 (in guilders; equivalent to approx. €130,000 in 2024)."
+    },
+    {
+      "claim": "One Semper Augustus sold for ƒ10,000, about €130,000 in today's/2024 money.",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "at its height this tulip was even sold for ƒ10,000 (in guilders; equivalent to approx. €130,000 in 2024)"
+    },
+    {
+      "claim": "The Semper Augustus watercolour dates from before 1640 and is public domain.",
+      "where": "Card 1 source; image list",
+      "verdict": "supported",
+      "quote": "Date: before 1640 date QS:P571,+1640-00-00T00:00:00Z/7,P1326,+1640-00-00T00:00:00Z/9\nAuthor: Unknown artist Unknown artist\nLicence: Public domain"
+    },
+    {
+      "claim": "The striped/flamed petals were caused by a tulip-specific mosaic virus that broke one petal colour into two, not by a distinct variety.",
+      "where": "Card 2 headline and note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "It is now known that this effect is due to the bulbs being infected with a type of tulip-specific mosaic virus, known as the \"tulip breaking virus\", so called because it \"breaks\" the one petal colour into two or more."
+    },
+    {
+      "claim": "The virus also weakened/impaired the bulb's production of daughter bulbs.",
+      "where": "Card 2 note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Less conspicuously, the virus also progressively impairs the tulip's production of daughter bulbs."
+    },
+    {
+      "claim": "The second image is a plate from P. Cos's tulip catalogue printed in 1637.",
+      "where": "Card 2 source; image list",
+      "verdict": "supported",
+      "quote": "Description: Tulip picture from the catelogue of P.Cos printed in 1637 in the Netherlands.\nDate: 1637\nAuthor: P.Cos"
+    },
+    {
+      "claim": "98 sales were recorded on the last date of the bubble.",
+      "where": "Card 3 headline",
+      "verdict": "supported",
+      "quote": "Ninety eight sales were recorded for the last date of the bubble, February 5, 1637, at wildly varying prices."
+    },
+    {
+      "claim": "The third image is the Alkmaar auction price list of 5 February 1637.",
+      "where": "Card 3 note and source; image list",
+      "verdict": "supported",
+      "quote": "Description: A list of prices for the tulip bubls sold at an auction at Alkmaar, 5 Februar 1637"
+    },
+    {
+      "claim": "Within that week of early February 1637 contract prices collapsed and the tulip trade stopped.",
+      "where": "Card 3 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The collapse seems to have occurred by the end of the first week of February 1637, which caused a number of disputes over the extant contracts."
+    },
+    {
+      "claim": "Most of the surviving story of tulip mania derives from satirical/propagandistic pamphlets.",
+      "where": "Card 4 headline",
+      "verdict": "supported",
+      "quote": "The bulk of available data comes from an anonymous satire, Dialogues between Waermondt and Gaergoedt, written just after the bubble."
+    },
+    {
+      "claim": "Goldgar found that later accounts rest on one or two contemporary pieces of propaganda and a prodigious amount of plagiarism.",
+      "where": "Card 4 note",
+      "verdict": "supported",
+      "quote": "Anne Goldgar states that the phenomenon was limited to \"a fairly small group\", and that most accounts from the period \"are based on one or two contemporary pieces of propaganda and a prodigious amount of plagiarism\"."
+    },
+    {
+      "claim": "The pamphlet Tooneel van Flora was printed in Amsterdam in 1637.",
+      "where": "Card 4 note and source; image list",
+      "verdict": "supported",
+      "quote": "t'AMSTERDAM, Ghedruckt by Ioost Broersz. Boeck-drucker inde Graeve-straet, inde Druckerye, Anno 1637"
+    },
+    {
+      "claim": "The Dutch called tulip contract trading windhandel, meaning 'air trade'.",
+      "where": "Card 5 headline; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The Dutch described tulip contract trading as windhandel ('air trade'), because no bulbs were actually changing hands."
+    },
+    {
+      "claim": "No bulbs actually changed hands in this trade.",
+      "where": "Card 5 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "because no bulbs were actually changing hands"
+    },
+    {
+      "claim": "Traders met in 'colleges' at taverns and buyers paid a 2.5% wine money fee, capped at three guilders.",
+      "where": "Card 5 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Traders met in \"college\" at taverns and buyers were required to pay a 2.5% \"wine money\" fee, up to a maximum of ƒ3,- per trade."
+    },
+    {
+      "claim": "The monkey allegory painting is by Jan Brueghel the Younger, c.1640–50, public domain.",
+      "where": "Card 5 source; image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Allegory of Tulip Mania by Jan Brueghel II.jpg ... Date: Between circa 1640 and circa 1650 ... Author: Jan Brueghel the Younger\nLicence: Public domain"
+    },
+    {
+      "claim": "Goldgar found fewer than six buyers who ran into financial trouble, and even then tulips may not be to blame.",
+      "where": "Card 6 note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Goldgar, who identified many prominent buyers and sellers in the market, found fewer than half a dozen who experienced financial troubles in the time period, and even of these cases it is not clear that tulips were to blame."
+    },
+    {
+      "claim": "How the crash began is still unknown.",
+      "where": "Card 6 note; caption last paragraph",
+      "verdict": "supported",
+      "quote": "The actual circumstances of the crash are unknown."
+    },
+    {
+      "claim": "The sixth image is Hendrik Gerritsz Pot's Flora's Wagon of Fools, c.1637, public domain.",
+      "where": "Card 6 source; image list",
+      "verdict": "supported",
+      "quote": "Archive title: File:Flora's Wagon of Fools (Flora's Mallewagen) tulipomania, Hendrik Gerritsz Pot c1637.jpg ... Author: Hendrik Gerritsz Pot\nLicence: Public domain"
+    },
+    {
+      "claim": "A Viceroy tulip was worth upwards of five times the cost of an average house at the time.",
+      "where": "Caption paragraph 2",
+      "verdict": "supported",
+      "quote": "even though a Viceroy Tulip was worth upwards of five times the cost of an average house at the time"
+    },
+    {
+      "claim": "In February 1637 buyers stopped turning up / traders could no longer find willing buyers.",
+      "where": "Caption paragraph 4",
+      "verdict": "supported",
+      "quote": "In February 1637, tulip traders could no longer find new buyers willing to pay increasingly inflated prices for their bulbs."
+    },
+    {
+      "claim": "Most tulip contracts were simply never honoured.",
+      "where": "Caption paragraph 4",
+      "verdict": "supported",
+      "quote": "In the end, most contracts were simply never honoured."
+    },
+    {
+      "claim": "Charles Mackay's Extraordinary Popular Delusions (1841) portrayed the episode as ruining the nation.",
+      "where": "Caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Mackay claimed that many investors were ruined by the fall in prices, and Dutch commerce suffered a severe shock."
+    },
+    {
+      "claim": "Since the 1980s economists have debunked much of Mackay's account.",
+      "where": "Caption paragraph 5",
+      "verdict": "supported",
+      "quote": "His popular but flawed description of tulip mania as a speculative bubble remains prominent, even though since the 1980s economists have debunked many aspects of his account."
+    },
+    {
+      "claim": "Goldgar's archival work found the trade was conducted almost entirely by wealthy merchants and skilled craftsmen.",
+      "where": "Caption paragraph 5",
+      "verdict": "supported",
+      "quote": "Goldgar's study of archived contracts found that even at its peak the trade in tulips was conducted almost exclusively by merchants and skilled craftsmen who were wealthy, but not members of the nobility."
+    },
+    {
+      "claim": "Economists dispute whether the episode was a bubble at all.",
+      "where": "Caption last paragraph",
+      "verdict": "supported",
+      "quote": "Modern economists have advanced several possible reasons for why the rise and fall in prices may not have constituted a bubble"
+    },
+    {
+      "claim": "Earl Thompson argued that tulip prices were tracking a coming change in contract law.",
+      "where": "Caption last paragraph",
+      "verdict": "supported",
+      "quote": "Thompson argues that the \"bubble\" in the price of tulip bulb forward prior to the February 1637 decree was due primarily to buyers' awareness of what was coming."
+    },
+    {
+      "claim": "All six images are public domain.",
+      "where": "Image list",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 0
+}

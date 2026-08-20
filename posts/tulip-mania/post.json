@@ -1,0 +1,86 @@
+{
+  "caption": "Did tulip bulbs really sell for the price of a house?\n\nSome did. At the peak, in February 1637, certain bulbs traded for more than ten times the annual income of a skilled artisan. A Viceroy tulip was worth upwards of five times the cost of an average house. The Semper Augustus, the most expensive of all, sold for ƒ10,000 — about €130,000 in 2024 money.\n\nThe flames and stripes that made those bulbs precious were a disease: a tulip-specific mosaic virus that \"breaks\" one petal colour into two. It also progressively impairs the bulb's production of daughter bulbs.\n\nAlmost no bulbs moved. Traders met in tavern \"colleges\", signed forward contracts, paid 2.5% wine money, and called the whole business windhandel — air trade. In February 1637 buyers stopped turning up. Prices collapsed inside a week, and most contracts were simply never honoured.\n\nCharles Mackay's Extraordinary Popular Delusions (1841) turned it into a nation ruined. Since the 1980s economists have debunked much of that. Anne Goldgar's archive work found the trade was conducted almost entirely by wealthy merchants and craftsmen, and that fewer than half a dozen of them ran into financial trouble — and even then, tulips may not be to blame.\n\nStill open: the actual circumstances of the crash are unknown, and economists argue whether this was a bubble at all. Earl Thompson argued the prices were tracking a coming change in contract law.\n\nImages: a Semper Augustus watercolour, before 1640; a plate from P. Cos's 1637 tulip catalogue; the Alkmaar auction price list of 5 February 1637; the pamphlet Tooneel van Flora, Amsterdam 1637; Hendrik Gerritsz Pot's Flora's Wagon of Fools, c.1637; and Jan Brueghel the Younger's monkey allegory. All public domain.\n\n#tulipmania #dutchgoldenage #historyofmoney #archives",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "semperaugustus.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "One bulb cost <y>ten times a craftsman's</y> yearly wage",
+      "note": "The Semper Augustus, the most expensive tulip of the mania. One sold for ƒ10,000 — about €130,000 today.",
+      "source": "Semper Augustus watercolour, before 1640 · public domain",
+      "alt": "Watercolour of a red-and-white striped tulip on a pale page, single stem, two leaves.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "pricedtulip.jpg",
+      "crop": "48% 14%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The stripes were <y>a virus</y>, not a variety",
+      "note": "A tulip-specific mosaic virus broke one petal colour into two. It also weakened the bulb's production of daughter bulbs.",
+      "source": "P. Cos tulip catalogue, 1637 · public domain",
+      "alt": "Painted red and white tulip above long green leaves on an aged catalogue page.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "alkmaarpricelist.jpg",
+      "crop": "32% 35%",
+      "zoom": 2.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "<y>98 sales</y> recorded on the bubble's last day",
+      "note": "This is the Alkmaar auction list of 5 February 1637. Within that week contract prices collapsed and the trade stopped.",
+      "source": "Alkmaar auction price list, 1637 · public domain",
+      "alt": "Dense blackletter print listing tulip names and guilder amounts in columns.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "pamphlet.png",
+      "crop": "58% 66%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Most of the story comes from <y>satirical pamphlets</y>",
+      "note": "Printed in Amsterdam, 1637. Goldgar found later accounts rest on one or two pieces of propaganda and heavy plagiarism.",
+      "source": "Tooneel van Flora, Amsterdam 1637 · public domain",
+      "alt": "1637 printed title page with an engraving of a seated woman holding tulips in a garden.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "monkeytraders.jpg",
+      "crop": "70% 55%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The Dutch called it <y>windhandel</y> — air trade",
+      "note": "No bulbs actually changed hands. Traders met in tavern colleges and paid 2.5% wine money, capped at three guilders.",
+      "source": "Jan Brueghel the Younger, c.1640–50 · public domain",
+      "alt": "Painting of monkeys in 17th-century dress weighing coins and handling tulips indoors.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "floraswagon.jpg",
+      "crop": "35% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "The prices were real. <y>The ruin was not.</y>",
+      "note": "Goldgar found fewer than six buyers in money trouble, and tulips may not be to blame. How the crash began is still unknown.",
+      "source": "Hendrik Gerritsz Pot, c.1637 · public domain",
+      "alt": "Painting of a wheeled sailing wagon on a beach carrying a woman with tulips and passengers.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "tulip-mania",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
