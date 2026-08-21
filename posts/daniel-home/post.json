@@ -1,0 +1,86 @@
+{
+  "caption": "Did Daniel Dunglas Home really float out of a window?\n\nIn 1868, in front of three witnesses — Lord Adare, Captain Wynne and Lord Lindsay — Home was said to have levitated out of a third-storey window and back in through the next one. It made him one of the most famous men of his era.\n\nThe witnesses could not agree on anything. Adare said the street was 70 feet down; Lindsay said 85; Home said 80. Adare said it was dark; Lindsay said bright moonlight. Adare said the third floor, then the first. Trevor H. Hall placed it at Ashley Place, Westminster, at 35 feet, with a four-foot gap between two iron balconies. Gordon Stein agreed the gap was crossable on foot. Joseph McCabe noted nobody claims to have watched Home travel between the windows — and that a nineteen-inch sill ran outside. Days earlier, Home had opened that same window and stood on the ledge in front of two witnesses.\n\nHome was privately caught cheating more than once. A sitter at Ealing in 1855 said the \"spirit hand\" was a false limb on Home's arm. In Biarritz in 1857, a physician's letter described Home slipping off a thin shoe and working the room with his bare foot.\n\nWilliam Crookes, FRS, tested him anyway, and published that the phenomena were genuine. His accordion cage experiment ran under a dining table in unstated light. Podmore noted nobody ever saw the keys move. Home's accordion only ever played two tunes: Home Sweet Home and The Last Rose of Summer. Both fit in one octave.\n\nStill unresolved: Home was never publicly exposed, and no explanation of the window has ever been proved.\n\nPortraits by Nadar and the Atelier Nadar; a c.1868 portrait by the London Stereoscopic & Photographic Company; engravings from Crookes, Paris 1878.\n\n#spiritualism #victorianhistory #danieldunglashome #archivephotography #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "homenadarportrait.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "He <y>floated out one window</y> and in the next",
+      "note": "1868. Three witnesses watched. Not one of them could agree on what they saw.",
+      "source": "Daniel Dunglas Home, by Nadar · public domain",
+      "alt": "Victorian man in Highland dress, kilt and feathered cap, standing beside a small table.,",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "homefadedportrait.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The <y>witnesses contradicted themselves</y>, not just each other",
+      "note": "70 feet up, said Adare. 85, said Lindsay. 80, said Home. Third floor. Then first floor.",
+      "source": "London Stereoscopic & Photographic Co., c.1868",
+      "alt": "Faded sepia portrait of a young man with a moustache and swept-back hair.,",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "homeseatedcarte.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Days before, he <y>stood on the outside ledge</y>",
+      "note": "He opened the same window and stepped out, in front of two witnesses. McCabe noted the sill was nineteen inches wide.",
+      "source": "Atelier Nadar, carte de visite · public domain",
+      "alt": "Carte de visite of a seated man in a dark coat, mounted on card with handwriting below.,",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "crookestitlepage.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "A Fellow of the Royal Society <y>declared it genuine</y>",
+      "note": "William Crookes tested Home from 1870 to 1873 and published that the phenomena were real. The scientific establishment derided him.",
+      "source": "Crookes, Nouvelles expériences, Paris 1878",
+      "alt": "Foxed title page reading Force Psychique, by William Crookes, Paris 1878.,",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "accordioncage.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The accordion <y>only ever played two tunes</y>",
+      "note": "Home Sweet Home and The Last Rose of Summer. Both fit inside a single octave.",
+      "source": "Engraving from Crookes, Paris 1878 · public domain",
+      "alt": "Engraving of a hand reaching into a wire cage holding an accordion.,",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "homeaccordionseance.jpg",
+      "crop": "45% 55%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Two balconies, <y>four feet apart</y>",
+      "note": "Hall placed the window at 35 feet, not 80. Home was privately caught faking hands and feet — but never publicly exposed.",
+      "source": "Engraving from Crookes, Paris 1878 · public domain",
+      "alt": "Engraving of a seated man at a table with a wire cage beneath it.,",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "daniel-home",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
