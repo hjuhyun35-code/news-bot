@@ -1,0 +1,87 @@
+{
+  "caption": "Why did the first transatlantic telegraph cable fail?\n\nOn 16 August 1858 Queen Victoria telegraphed President Buchanan. Her 98 words took 16 hours. New York answered with a hundred-gun salute, flags across the streets, and on 1 September a parade, a torchlight procession and fireworks that set the Town Hall on fire.\n\nThe cable was already dying. Wildman Whitehouse, the chief electrician — a medical doctor self-taught in electricity — drove up to 2,000 volts through it trying to make it faster. The insulation gave way. In September, after days of deterioration, the line went dead. It had carried 732 messages and was never opened to public use.\n\nSome writers hinted the whole thing had been a hoax; others called it a stock-exchange speculation. Whitehouse was recalled, held responsible, and dismissed.\n\nWhat is still argued: whether it was doomed regardless. The first hundred miles from Ireland were leftover 1857 cable, known to be poorly manufactured — samples showed the copper conductor badly off-centre. A test length with a pinprick hole in its insulation \"lit up like a lantern\".\n\nA lasting connection was finally made in 1866.\n\nImages: William England's photograph of the Broadway jubilee; John Raphael Isaac's lithograph of the squadron; a Gartenlaube engraving of cable being coiled in the Agamemnon's hold; Henry Clifford's storm painting; the framed 1858 telegram; and a cable specimen at the Bennington Museum photographed by Daderot.\n\n#atlantictelegraph #victorianengineering #1858 #archivephotography #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "broadwayjubilee.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "stamp": "1 Sept 1858",
+      "headline": "This parade celebrated a cable that <y>lasted three weeks</y>",
+      "note": "Broadway, New York. A hundred guns had been fired for the telegraph two weeks earlier.",
+      "source": "William England, Broadway, 1858 · public domain",
+      "alt": "Crowds packed along Broadway between banner-covered buildings, seen from a rooftop.},",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "queentelegram.jpg",
+      "crop": "50% 52%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The Queen's <y>98 words took 16 hours</y>",
+      "note": "First official telegram between continents: Victoria to Buchanan, 16 August 1858. One character took about two minutes.",
+      "source": "Queen Victoria's telegram, 1858 · CC0",
+      "alt": "Framed strips of printed telegraph tape text mounted in rows behind glass.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "squadron.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Two ships met mid-ocean and <y>spliced the cable together</y>",
+      "note": "Agamemnon paid out east to Ireland, Niagara west to Newfoundland. The line snapped three times before it held.",
+      "source": "John Raphael Isaac lithograph, c.1857 · public domain",
+      "alt": "Tinted lithograph of seven sailing and steam ships lying at anchor in calm water.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "agamemnonstorm.jpg",
+      "crop": "45% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The Agamemnon rolled <y>45 degrees each way</y>",
+      "note": "A storm caught the fleet ten days out in June 1858. Ten sailors were hurt and the coal broke loose below decks.",
+      "source": "Henry Clifford, HMS Agamemnon, 1858 · public domain",
+      "alt": "Painting of a ship's dark hold tilted steeply, men clinging to beams and a ladder.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "coilinghold.jpg",
+      "crop": "50% 38%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "<y>Two factories</y> twisted the strands opposite ways",
+      "note": "Only four months were allowed to make 2,500 miles of cable. The halves could not be spliced wire to wire.",
+      "source": "Die Gartenlaube engraving, 1857 · public domain",
+      "alt": "Engraving of sailors seated on stools coiling telegraph cable in a ship's round hold.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "cablespecimen.jpg",
+      "crop": "50% 74%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "<y>2,000 volts</y> burned through the insulation",
+      "note": "732 messages passed before it died that September. Whitehouse was dismissed; the cable was also badly made.",
+      "source": "Cable specimen, Bennington Museum · photo Daderot",
+      "alt": "Short length of twisted steel-wire cable capped in brass, displayed beside a label.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "transatlantic-cable",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

@@ -1,0 +1,233 @@
+{
+  "claims": [
+    {
+      "claim": "The Broadway parade celebrated a cable that lasted three weeks",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The cable was destroyed after three weeks when Wildman Whitehouse applied excessive voltage to it while trying to achieve faster operation."
+    },
+    {
+      "claim": "The photograph shows a parade on Broadway, New York",
+      "where": "card 1 note / source",
+      "verdict": "supported",
+      "quote": "Parade on Broadway, New York City, to celebrate the completion of the transatlantic telegraph cable."
+    },
+    {
+      "claim": "A hundred-gun salute had been fired for the telegraph about two weeks before the parade",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The next morning a grand salute of 100 guns resounded in New York City, streets were hung with flags, bells of the churches were rung, and at night the city was illuminated.  On 1 September there was a parade"
+    },
+    {
+      "claim": "The Broadway photograph is by William England, 1858, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Author: William England\nLicence: Public domain"
+    },
+    {
+      "claim": "Queen Victoria's message of 98 words took 16 hours",
+      "where": "card 2 headline / caption",
+      "verdict": "supported",
+      "quote": "The messages were hard to decipher; Queen Victoria's message of 98 words took 16 hours to send."
+    },
+    {
+      "claim": "The Queen's telegram to Buchanan of 16 August 1858 was the first official telegram between two continents",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "The first official telegram to pass between two continents that day was a letter of congratulations from Queen Victoria of the United Kingdom to President of the United States James Buchanan."
+    },
+    {
+      "claim": "One character took about two minutes to transmit",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The reception was very bad on the 1858 cable, and it took two minutes to transmit just one character (a single letter or a single number), a rate of about 0.1 words per minute."
+    },
+    {
+      "claim": "The framed telegram image is a congratulatory message from Queen Victoria to President Buchanan on completion of the first Atlantic cable, dated 1858, CC0",
+      "where": "card 2 source / caption",
+      "verdict": "supported",
+      "quote": "Congratulatory telegram to President Buchanan on the completion of the first Trans-Atlantic cable, 1858.\nDate: 1858-12-31\nAuthor: Queen Vcitoria\nLicence: CC0"
+    },
+    {
+      "claim": "Two ships met mid-ocean and spliced the cable together",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "The vessels arrived at the middle of the Atlantic on June 25 and spliced cable from the two ships together."
+    },
+    {
+      "claim": "Agamemnon paid out eastwards to Ireland and Niagara westwards to Newfoundland",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Agamemnon payed out eastwards towards Valentia Island, and Niagara westward towards Newfoundland."
+    },
+    {
+      "claim": "The line snapped three times before it held",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The cable broke after less than 3 nautical miles (5.6 km; 3.5 mi), again after about 54 nautical miles (100 km; 62 mi), and for a third time when about 200 nautical miles (370 km; 230 mi) had been run out of each vessel."
+    },
+    {
+      "claim": "The squadron image is a lithograph by John Raphael Isaac, c.1857, public domain",
+      "where": "card 3 source / caption",
+      "verdict": "supported",
+      "quote": "Date: circa 1857 date QS:P571,+1857-00-00T00:00:00Z/9,P1480,Q5727902\nAuthor: John Raphael Isaac\nLicence: Public domain"
+    },
+    {
+      "claim": "The Agamemnon rolled 45 degrees each way",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Agamemnon heeled over to 45 degrees in either direction during the storm  on 21 June 1858."
+    },
+    {
+      "claim": "A storm caught the ships ten days out in June 1858",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "On 10 June, Agamemnon and Niagara set sail to try again.  Ten days out they encountered a severe storm, and the enterprise was nearly brought to a premature end."
+    },
+    {
+      "claim": "Ten sailors were hurt",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Ten sailors were hurt, and Thomson's electrical cabin was flooded."
+    },
+    {
+      "claim": "The coal broke loose below decks",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Breaking Adrift of the Coal on Board HMS Agamemnon, painting by Henry Clifford"
+    },
+    {
+      "claim": "The storm painting is by Henry Clifford, 1858, public domain",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Date: 1858 date QS:P571,+1858-00-00T00:00:00Z/9\nAuthor: Henry Clifford (painter)\nLicence: Public domain"
+    },
+    {
+      "claim": "Two factories twisted the cable strands in opposite directions",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "the task was shared by two English firms: Glass, Elliot & Co. of Greenwich and R.S. Newall and Company of Birkenhead.  Late in manufacturing, it was discovered that the two batches had been made with strands twisted in opposite directions."
+    },
+    {
+      "claim": "Only four months were allowed to make 2,500 miles of cable",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "In the rush to proceed, only four months were allowed for the cable's completion."
+    },
+    {
+      "claim": "The two halves could not be spliced wire to wire",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "This meant that they could not be directly spliced wire-to-wire, as the iron wire on both cables would unwind when it was put under tension during laying."
+    },
+    {
+      "claim": "The engraving is from Die Gartenlaube, 1857, public domain",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Die Gartenlaube (1857) b 477.jpg"
+    },
+    {
+      "claim": "The Gartenlaube engraving shows cable being coiled in the Agamemnon's hold",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Aufwickelung des Telegraphentau's im Rumpf des Schiffes „Agamemnon.\""
+    },
+    {
+      "claim": "Up to 2,000 volts burned through / compromised the cable's insulation",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "The effects of the cable's poor handling and design, and Whitehouse's repeated attempts to drive up to 2,000 volts through the cable, compromised the cable's insulation."
+    },
+    {
+      "claim": "732 messages passed before the cable failed in September",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "A total of 732 messages were passed before the cable failed."
+    },
+    {
+      "claim": "Whitehouse was dismissed and the cable was also badly made",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "Whitehouse was held responsible for the failure and dismissed.  The cable might have failed eventually anyway, but Whitehouse certainly brought it about much sooner."
+    },
+    {
+      "claim": "The cable specimen is at the Bennington Museum, photographed by Daderot",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Exhibit in the Bennington Museum - Bennington, Vermont, USA. ... Author: Daderot"
+    },
+    {
+      "claim": "On 1 September there was a parade, a torchlight procession and fireworks that set the Town Hall on fire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On 1 September there was a parade, followed by an evening torchlight procession and a fireworks display that caused a fire in the Town Hall."
+    },
+    {
+      "claim": "Wildman Whitehouse was chief electrician and a medical doctor self-taught in electricity",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Wildman Whitehouse, a medical doctor self-educated in electrical engineering, was appointed chief electrician."
+    },
+    {
+      "claim": "In September, after days of deterioration, the line went dead",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In September 1858, after several days of progressive deterioration of the insulation, the cable failed altogether."
+    },
+    {
+      "claim": "The cable was never opened to public use",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Although the cable was never put in service for public use and never worked well, there was time for a few messages to be passed that went beyond testing."
+    },
+    {
+      "claim": "Some writers hinted it was a hoax; others called it a stock-exchange speculation",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Some writers even hinted that the line was a mere hoax; others pronounced it a stock-exchange speculation."
+    },
+    {
+      "claim": "Whitehouse was recalled, held responsible, and dismissed",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Whitehouse was recalled for the board's investigation, and Thomson took over in Valentia... Whitehouse was held responsible for the failure and dismissed."
+    },
+    {
+      "claim": "The first hundred miles from Ireland were leftover 1857 cable known to be poorly manufactured",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The cable was particularly vulnerable in the first hundred miles from Ireland, consisting of the old 1857 cable that was spliced into the new lay and known to be poorly manufactured."
+    },
+    {
+      "claim": "Samples showed the copper conductor badly off-centre",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Samples showed that in places the conductor was badly off-centre and could easily break through the insulation due to mechanical strains during laying."
+    },
+    {
+      "claim": "A test length with a pinprick hole in its insulation \"lit up like a lantern\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "However, a sample with a pinprick hole \"lit up like a lantern\" when tested, and a large hole was burned in the insulation."
+    },
+    {
+      "claim": "A lasting transatlantic connection was finally made in 1866",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Since 1866, there has been a permanent cable connection between the continents."
+    },
+    {
+      "claim": "It is still argued whether the cable was doomed regardless",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It has been argued that the cable's faulty manufacture, storage and handling would have caused its premature failure in any case."
+    },
+    {
+      "claim": "The Isaac lithograph depicts the squadron of ships",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Plate 2. The ships of the squadron.\n  Ships listed L-R:  Willing Mind ,  Cyclops ,  Agamemnon ,  Susquehana ,  Leopard ,  Advice , and  Niagara ."
+    }
+  ],
+  "problems": 0
+}
