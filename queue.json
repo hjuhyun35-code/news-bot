@@ -421,6 +421,216 @@
       "wikipedia": "Daniel Dunglas Home",
       "hook": "창문으로 떠서 나갔다는 목격담이 있다",
       "screened": "2026-08-09 · 사진 6장"
+    },
+    {
+      "slug": "transatlantic-cable",
+      "subject": "The 1858 Atlantic telegraph cable, celebrated for three weeks before it went dead",
+      "wikipedia": "Transatlantic telegraph cable",
+      "hook": "대서양 밑에 선을 깔았는데 3주 만에 죽었다",
+      "screened": "2026-08-27 · 사진 76장"
+    },
+    {
+      "slug": "hagia-sophia",
+      "subject": "Hagia Sophia, whose mosaics sat under plaster for five hundred years",
+      "wikipedia": "Hagia Sophia",
+      "hook": "회벽 아래 500년 동안 숨어 있던 얼굴들",
+      "screened": "2026-08-27 · 사진 66장"
+    },
+    {
+      "slug": "aurora-1859",
+      "subject": "The aurora of 1859, bright enough to read a newspaper by at midnight",
+      "wikipedia": "Aurora",
+      "hook": "한밤중에 신문을 읽을 만큼 하늘이 밝았다",
+      "screened": "2026-08-27 · 사진 57장"
+    },
+    {
+      "slug": "venus-of-willendorf",
+      "subject": "The Venus of Willendorf, carved 30,000 years ago with no face",
+      "wikipedia": "Venus of Willendorf",
+      "hook": "3만 년 전에 깎았는데 얼굴이 없다",
+      "screened": "2026-08-27 · 사진 44장"
+    },
+    {
+      "slug": "colosseum-hypogeum",
+      "subject": "The hypogeum, a two-level maze of tunnels under the Colosseum floor",
+      "wikipedia": "Colosseum",
+      "hook": "경기장 바닥 아래에 지하 미로가 있었다",
+      "screened": "2026-08-27 · 사진 35장"
+    },
+    {
+      "slug": "bayeux-tapestry",
+      "subject": "The Bayeux Tapestry, seventy metres of embroidery that records Halley's Comet",
+      "wikipedia": "Bayeux Tapestry",
+      "hook": "70미터 자수 안에 핼리 혜성이 들어 있다",
+      "screened": "2026-08-27 · 사진 33장"
+    },
+    {
+      "slug": "colossus-of-rhodes",
+      "subject": "The Colossus of Rhodes, which lay broken on the ground for eight centuries",
+      "wikipedia": "Colossus of Rhodes",
+      "hook": "무너진 거상이 800년을 누워 있었다",
+      "screened": "2026-08-27 · 사진 31장"
+    },
+    {
+      "slug": "balloon-mania",
+      "subject": "The first balloon flights, and the villagers who attacked one with pitchforks",
+      "wikipedia": "Montgolfier brothers",
+      "hook": "사람이 처음 하늘에 뜬 날, 농부들이 갈퀴로 찔렀다",
+      "screened": "2026-08-27 · 사진 31장"
+    },
+    {
+      "slug": "darkest-day",
+      "subject": "New England's Dark Day of 1780, when candles were lit at noon",
+      "wikipedia": "New England's Dark Day",
+      "hook": "1780년 5월, 대낮에 촛불을 켰다",
+      "screened": "2026-08-27 · 사진 30장"
+    },
+    {
+      "slug": "oseberg-ship",
+      "subject": "The Oseberg ship, a whole vessel buried as a grave",
+      "wikipedia": "Oseberg ship",
+      "hook": "배 한 척을 통째로 무덤으로 썼다",
+      "screened": "2026-08-27 · 사진 27장"
+    },
+    {
+      "slug": "dead-sea-scrolls",
+      "subject": "The Dead Sea Scrolls, found when a boy threw a stone into a cave",
+      "wikipedia": "Dead Sea Scrolls",
+      "hook": "염소를 쫓던 소년이 동굴에 돌을 던졌다",
+      "screened": "2026-08-27 · 사진 27장"
+    },
+    {
+      "slug": "book-of-kells",
+      "subject": "The Book of Kells, with ten thousand dots on a single page",
+      "wikipedia": "Book of Kells",
+      "hook": "한 페이지에 점 만 개를 찍었다",
+      "screened": "2026-08-27 · 사진 25장"
+    },
+    {
+      "slug": "herculaneum-scrolls",
+      "subject": "The Herculaneum papyri, carbonised scrolls nobody could unroll",
+      "wikipedia": "Herculaneum papyri",
+      "hook": "탄화된 두루마리를 아직도 못 펼친다",
+      "screened": "2026-08-27 · 사진 24장"
+    },
+    {
+      "slug": "crystal-palace-fire",
+      "subject": "The Crystal Palace, a building of glass that burned down in a night",
+      "wikipedia": "The Crystal Palace",
+      "hook": "유리로 지은 궁전이 하룻밤에 탔다",
+      "screened": "2026-08-27 · 사진 24장"
+    },
+    {
+      "slug": "eiffel-tower-protest",
+      "subject": "The 1887 protest of Paris artists against the Eiffel Tower",
+      "wikipedia": "Eiffel Tower",
+      "hook": "파리 예술가들이 이 탑을 막으려 했다",
+      "screened": "2026-08-27 · 사진 24장"
+    },
+    {
+      "slug": "electrotherapy",
+      "subject": "Victorian electrotherapy, which ran current through the body to cure disease",
+      "wikipedia": "Electrotherapy",
+      "hook": "전기를 몸에 흘려 병을 고친다고 했다",
+      "screened": "2026-08-27 · 사진 19장"
+    },
+    {
+      "slug": "halley-panic",
+      "subject": "The 1910 panic over Halley's Comet, when gas masks and pills were sold",
+      "wikipedia": "Halley's Comet",
+      "hook": "혜성 꼬리에 독가스가 있다며 방독면을 팔았다",
+      "screened": "2026-08-27 · 사진 17장"
+    },
+    {
+      "slug": "phrenology",
+      "subject": "Phrenology, which read character from the bumps of the skull",
+      "wikipedia": "Phrenology",
+      "hook": "머리 모양으로 사람을 판단하던 과학",
+      "screened": "2026-08-27 · 사진 15장"
+    },
+    {
+      "slug": "great-eastern",
+      "subject": "SS Great Eastern, a ship so large there was nothing to do with her for forty years",
+      "wikipedia": "SS Great Eastern",
+      "hook": "너무 커서 40년간 쓸 데가 없던 배",
+      "screened": "2026-08-27 · 사진 15장"
+    },
+    {
+      "slug": "tower-of-babel",
+      "subject": "The ziggurat Etemenanki, the tower the Babel story was probably built on",
+      "wikipedia": "Tower of Babel",
+      "hook": "바벨탑이 실제로 있었다면 이것이다",
+      "screened": "2026-08-27 · 사진 14장"
+    },
+    {
+      "slug": "library-of-alexandria",
+      "subject": "The Library of Alexandria, which was not burned once but faded over centuries",
+      "wikipedia": "Library of Alexandria",
+      "hook": "한 번에 불탄 것이 아니라 천천히 사라졌다",
+      "screened": "2026-08-27 · 사진 13장"
+    },
+    {
+      "slug": "petra-treasury",
+      "subject": "Al-Khazneh at Petra, carved downward into the cliff from the top",
+      "wikipedia": "Al-Khazneh",
+      "hook": "절벽을 위에서부터 깎아 내려왔다",
+      "screened": "2026-08-27 · 사진 12장"
+    },
+    {
+      "slug": "mausoleum-halicarnassus",
+      "subject": "The Mausoleum at Halicarnassus, so grand its name became the word for a tomb",
+      "wikipedia": "Mausoleum at Halicarnassus",
+      "hook": "무덤이 하도 화려해서 이름이 보통명사가 됐다",
+      "screened": "2026-08-27 · 사진 12장"
+    },
+    {
+      "slug": "leonid-storm",
+      "subject": "The Leonid storm of 1833, when witnesses counted stars falling like rain",
+      "wikipedia": "Leonids",
+      "hook": "1833년, 하늘에서 별이 쏟아졌다",
+      "screened": "2026-08-27 · 사진 11장"
+    },
+    {
+      "slug": "cabinet-of-curiosities",
+      "subject": "The cabinet of curiosities, the private room that came before the museum",
+      "wikipedia": "Cabinet of curiosities",
+      "hook": "박물관 이전에 부자들의 방이 있었다",
+      "screened": "2026-08-27 · 사진 11장"
+    },
+    {
+      "slug": "pont-du-gard",
+      "subject": "The Pont du Gard, stacked without mortar and standing two thousand years",
+      "wikipedia": "Pont du Gard",
+      "hook": "회반죽 없이 쌓은 수도교가 2000년을 버텼다",
+      "screened": "2026-08-27 · 사진 9장"
+    },
+    {
+      "slug": "terracotta-army",
+      "subject": "The Terracotta Army, found by farmers digging a well",
+      "wikipedia": "Terracotta Army",
+      "hook": "농부가 우물을 파다 8000명을 찾았다",
+      "screened": "2026-08-27 · 사진 9장"
+    },
+    {
+      "slug": "great-stink",
+      "subject": "The Great Stink of 1858, which drove Parliament out of its own building",
+      "wikipedia": "Great Stink",
+      "hook": "냄새가 하도 심해 의회가 도망갔다",
+      "screened": "2026-08-27 · 사진 9장"
+    },
+    {
+      "slug": "lascaux",
+      "subject": "The Lascaux cave, found by boys looking for a lost dog",
+      "wikipedia": "Lascaux",
+      "hook": "개를 찾던 소년들이 1만 7천 년 전 그림을 찾았다",
+      "screened": "2026-08-27 · 사진 8장"
+    },
+    {
+      "slug": "sutton-hoo",
+      "subject": "The Sutton Hoo ship burial, where the wood had rotted and only its shape remained",
+      "wikipedia": "Sutton Hoo",
+      "hook": "나무는 다 썩고 배 모양 자국만 남았다",
+      "screened": "2026-08-27 · 사진 6장"
     }
   ]
 }
