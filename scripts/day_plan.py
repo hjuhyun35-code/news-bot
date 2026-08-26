@@ -47,6 +47,7 @@ MOST = 5         # 여기서 멈춘다
 QUEUE = os.path.join(ROOT, "queue.json")
 UNSUITABLE = 2   # find_images.py 가 "이 소재는 안 맞는다"고 답하는 코드
 SKIP_LIMIT = 4   # 한 번에 이만큼까지만 건너뛴다. 그 이상이면 목록이 문제다
+OUT_OF_SUBJECTS = 4   # 만들 소재가 없다는 뜻. 고장(1)과 구분한다
 
 
 def hold_subject(slug, reason=""):
@@ -188,9 +189,13 @@ def main():
         r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "pick_subject.py")],
                            capture_output=True, text=True)
         if r.returncode != 0:
-            # 소재가 떨어졌다. 이건 진짜 알려야 할 일이다.
-            sys.exit(r.stdout.strip() or r.stderr.strip()
-                     or "[중단] 소재를 고르지 못했습니다.")
+            # 소재가 떨어졌다. 고장이 아니라 재료가 없는 것이다.
+            # 실패로 끝내면 재시도가 붙고, 다시 해도 소재는 안 생긴다.
+            # 2026-08-26 에 목록이 바닥나 예약 실행마다 실패 알림이 갔다.
+            print(r.stdout.strip() or r.stderr.strip()
+                  or "[중단] 소재를 고르지 못했습니다.", file=sys.stderr)
+            say(stop="yes", mode="none", slug="", empty="yes")
+            sys.exit(OUT_OF_SUBJECTS)
         slug = r.stdout.strip()
 
         if os.path.exists(os.path.join(POSTS, slug, "source.json")):

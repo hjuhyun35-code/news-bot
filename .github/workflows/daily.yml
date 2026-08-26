@@ -66,7 +66,15 @@ jobs:
               python scripts/find_images.py "${{ inputs.slug }}"
             fi
           else
+            # 종료 코드 4 는 "만들 소재가 없다"는 뜻이다. 고장이 아니므로
+            # 실패로 만들지 않는다 — 실패로 두면 재시도가 붙고, 다시 해도
+            # 소재는 안 생긴다.
+            set +e
             python scripts/day_plan.py
+            code=$?
+            set -e
+            [ $code -eq 4 ] && exit 0
+            exit $code
           fi
 
       # 빼둔 소재와 내려받은 사진을 먼저 남긴다. 뒤에서 실패하더라도
@@ -80,6 +88,17 @@ jobs:
           git diff --staged --quiet && echo "nothing new" || git commit -m "photos: ${{ steps.plan.outputs.slug }}"
           git pull --rebase --autostash -q
           git push
+
+      # 소재가 떨어진 것도 사고가 아니다. 목록을 채워야 한다는 뜻이다.
+      - name: say the list is empty
+        if: steps.plan.outputs.empty == 'yes'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/notify.py "만들 소재가 다 떨어졌습니다.
+          고장이 아니라 재료가 없는 것입니다. 목록에 새 소재를 넣어야 합니다.
+          그때까지는 예약 실행이 조용히 지나갑니다."
 
       # 소재를 건너뛴 것은 사고가 아니다. 실패 알림 말고 안내로 보낸다.
       - name: mention what was skipped
