@@ -1,0 +1,86 @@
+{
+  "caption": "Who was on the first hot air balloon flight?\n\nNot a person. Louis XVI proposed launching two convicted criminals to see whether the upper air was survivable. The inventors most likely overruled him and sent a sheep called Montauciel — \"Climb-to-the-sky\" — a duck and a rooster. At Versailles on 19 September 1783, before the king and Marie Antoinette, the three flew about eight minutes, covered three kilometres, and landed safely.\n\nJoseph Montgolfier, a paper manufacturer from Annonay, thought smoke itself was the buoyant part: a special \"Montgolfier Gas\" with a property he called levity. He got the idea watching laundry billow over a fire.\n\nAn earlier test balloon, December 1782, floated nearly three kilometres — then was destroyed after landing by the \"indiscretion\" of a bystander. The record says nothing more about who, or why.\n\nOnce the animals survived, the king allowed people. On 21 November 1783 Pilâtre de Rozier and the marquis d'Arlandes flew nine kilometres over Paris. Embers scorched the fabric; sponges were used, then Pilâtre took off his coat to stop the fire.\n\nStill open: whether the inventors or the king chose the animals — the source says only \"most likely\". Some credit the priest Bartolomeu de Gusmão 74 years earlier; the Fédération Aéronautique Internationale does not recognise the claim.\n\nImages: Claude Louis Desrais's 1783 print of the tethered ascent; a plate from the 1784 Venice edition of Faujas de Saint-Fond; a 1783 vue d'optique of the Champ de Mars ascent; a hand-coloured 1786 plate of the balloon; Faujas de Saint-Fond's book, Paris 1783; and Le Noir's 1783 Versailles engraving, whose caption claims more than 130,000 spectators. All public domain.\n\n#montgolfier #balloonhistory #1783 #publicdomain #archiveprints",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "tetheredmannedflight.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The king proposed launching <y>two convicted criminals</y>",
+      "note": "Louis XVI's idea for the first passengers. The inventors most likely overruled him.",
+      "source": "Claude Louis Desrais, 1783 · public domain",
+      "alt": "Blue and gold balloon held by tethers above a smoking brick furnace, crowd around.\n",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "inflatingoverfire.jpg",
+      "crop": "50% 62%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "He thought smoke held a gas he called <y>levity</y>",
+      "note": "Joseph got the idea from laundry billowing over a fire. He burned wool and hay to make what he named Montgolfier Gas.",
+      "source": "Faujas de Saint-Fond, Venice edition, 1784 · public domain",
+      "alt": "Engraving of men filling a striped balloon with smoke from a barrel in a courtyard.\n",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "champdemarsascent.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "It flew three kilometres, then <y>a bystander wrecked it</y>",
+      "note": "December 1782: the lift was so strong the brothers lost control. The record blames the \"indiscretion\" of a passerby.",
+      "source": "Vue d'optique, Paris, 1783 · public domain",
+      "alt": "Coloured print of a small balloon high over Paris with a large crowd watching below.\n",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "aerostaticglobeplate.jpg",
+      "crop": "50% 40%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Pilâtre used his coat to <y>beat out the fire</y> mid-flight",
+      "note": "First free flight, 21 November 1783, nine kilometres over Paris. Embers scorched the fabric; sponges first, then his coat.",
+      "source": "Hand-coloured plate, 1786 · public domain",
+      "alt": "Detail of a blue and gold balloon printed with suns holding the king's face.\n",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "faujastitlepage.jpg",
+      "crop": "74% 28%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The flights were paid for by <y>public subscription</y>",
+      "note": "Faujas de Saint-Fond gathered first-hand accounts, letters, tables and diagrams into one book. Paris, 1783.",
+      "source": "Faujas de Saint-Fond, Paris, 1783 · public domain",
+      "alt": "Printed 1783 French title page of Description des expériences de la machine aérostatique.\n",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "versaillescrowd.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "No criminals flew. <y>A sheep, a duck, a rooster</y> did",
+      "note": "Eight minutes over Versailles, all three unharmed. Whether the inventors or the king chose them is only \"most likely\" known.",
+      "source": "Le Noir, Paris, 1783 · public domain",
+      "alt": "Engraving of a balloon rising over the Versailles palace forecourt packed with spectators.\n",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "balloon-mania",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

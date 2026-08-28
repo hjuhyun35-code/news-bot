@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "The king proposed launching two convicted criminals as the first passengers",
+      "where": "card 1 headline and note",
+      "verdict": "supported",
+      "quote": "The king proposed to launch two convicted criminals, but it is most likely that the inventors decided to send a sheep, a duck, and a rooster aloft first."
+    },
+    {
+      "claim": "The king in question was Louis XVI",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The demonstration was performed at the royal palace in Versailles, before King Louis XVI and Queen Marie Antoinette and a crowd."
+    },
+    {
+      "claim": "The inventors most likely overruled the king's proposal",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "but it is most likely that the inventors decided to send a sheep, a duck, and a rooster aloft first"
+    },
+    {
+      "claim": "The tethered-flight image is by Claude Louis Desrais, 1783",
+      "where": "card 1 source / image list",
+      "verdict": "supported",
+      "quote": "Date: 1783-10-19\nAuthor: Claude Louis Desrais"
+    },
+    {
+      "claim": "Joseph thought smoke held a gas he called \"levity\"",
+      "where": "card 2 headline",
+      "verdict": "contradicted",
+      "quote": "contained within it a special gas, which he called \"Montgolfier Gas\", with a special property he called levity"
+    },
+    {
+      "claim": "Joseph got the idea from laundry billowing over a fire",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "He first contemplated building machines when he observed laundry drying over a fire incidentally form pockets that billowed upwards."
+    },
+    {
+      "claim": "He burned wool and hay as fuel",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "On 14 December 1782 they conducted their first test flight, using ignited wool and hay as fuel."
+    },
+    {
+      "claim": "He named the buoyant substance \"Montgolfier Gas\"",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "he believed that the smoke itself was the buoyant part and contained within it a special gas, which he called \"Montgolfier Gas\""
+    },
+    {
+      "claim": "The plate showing inflation over a fire comes from the Venice 1784 edition of Faujas de Saint-Fond",
+      "where": "card 2 source / image list",
+      "verdict": "supported",
+      "quote": "Illustration from: B. Faujas de Saint-Fond:  Descrizione delle esperienze della macchina aerostatica dei Signori di Montgolfier. Traduzione dal Francese , Venice, Graziosi, 1784"
+    },
+    {
+      "claim": "The December 1782 device flew (nearly) three kilometres and was then destroyed by a bystander",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "The device floated nearly three kilometers (1.9 mi) but was destroyed after landing by the \"indiscretion\" of a bypasser."
+    },
+    {
+      "claim": "In December 1782 the lift was so strong the brothers lost control",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The lifting force was so great that they lost control of their craft."
+    },
+    {
+      "claim": "The record blames the \"indiscretion\" of a passerby",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "destroyed after landing by the \"indiscretion\" of a bypasser"
+    },
+    {
+      "claim": "The Champ de Mars image is a vue d'optique of 1783",
+      "where": "card 3 source / image list",
+      "verdict": "supported",
+      "quote": "Vue d'optique shows the Montgolfier brothers' balloon, \"The Globe,\" ascending from Champ de Mars, Paris, France, August 27, 1783."
+    },
+    {
+      "claim": "Pilâtre took off his coat to stop the fire mid-flight",
+      "where": "card 4 headline / note / caption",
+      "verdict": "supported",
+      "quote": "As it appeared it could destroy the balloon, Pilâtre took off his coat to stop the fire."
+    },
+    {
+      "claim": "The first free flight by humans was on 21 November 1783, covering nine kilometres over Paris",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "On 21 November 1783, the first free flight by humans was made by Pilâtre de Rozier, together with an army officer, the marquis d'Arlandes... They flew about 900 metres (3,000 ft) above Paris for a distance of nine kilometers."
+    },
+    {
+      "claim": "Burning embers scorched the fabric and were daubed out with sponges",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "However, burning embers from the fire were scorching the balloon fabric and had to be daubed out with sponges."
+    },
+    {
+      "claim": "The hand-coloured aerostatic globe plate dates from 1786",
+      "where": "card 4 source / image list",
+      "verdict": "supported",
+      "quote": "Description: 1786 description of the historic Montgolfier Brothers' 1783 balloon flight.  Illustration with engineering proportions and description."
+    },
+    {
+      "claim": "The flights were paid for by public subscription",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "establishing public subscriptions to fundraise for their experiments in hydrogen and hot air balloon technologies"
+    },
+    {
+      "claim": "Faujas de Saint-Fond gathered first-hand accounts, letters, tables and diagrams into one book",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Barthélemy Faujas de Saint-Fond’s Description des expériences assembles first-hand observations, research, technical descriptions, letters, tables, diagrams, and illustrations related to the groundbreaking experiments in balloon flight in the 1780's."
+    },
+    {
+      "claim": "Faujas de Saint-Fond's book was published in Paris in 1783",
+      "where": "card 5 note / source / image list",
+      "verdict": "supported",
+      "quote": "A PARIS, Chez CUCHET, rue & hôtel Serpente. M. DCC. LXXXIII."
+    },
+    {
+      "claim": "No criminals flew; a sheep, a duck and a rooster did",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "On 19 September 1783, the Aérostat Réveillon was flown with the first living beings in a basket attached to the balloon: a sheep called Montauciel (\"Climb-to-the-sky\"), a duck and a rooster."
+    },
+    {
+      "claim": "The animal flight lasted about eight minutes and covered three kilometres, landing safely",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "The flight lasted approximately eight minutes, covered three kilometres (1.9 mi), and obtained an altitude of about 500 metres (1,600 ft). The craft landed safely after flying."
+    },
+    {
+      "claim": "All three animals were unharmed",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "le Mouton le Coq et le Canard n'éprouverent pas la plus légère incommodité"
+    },
+    {
+      "claim": "The Versailles engraving was published by Le Noir in Paris, 1783",
+      "where": "card 6 source / image list",
+      "verdict": "supported",
+      "quote": "Éditeur : A Paris chez Le Noir Md. Fournisseur du Cabinet des Estampes du Roi demeurant au Louvre"
+    },
+    {
+      "claim": "The first hot air balloon flight carried animals rather than a person",
+      "where": "caption opening (\"Who was on the first hot air balloon flight? Not a person.\")",
+      "verdict": "contradicted",
+      "quote": "On 4 June 1783, they flew the balloon at Annonay in front of a group of dignitaries from the états particuliers. The flight covered 2 km (1.2 mi), lasted 10 minutes"
+    },
+    {
+      "claim": "The criminals were proposed in order to test whether the upper air was survivable",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "There was some concern about the effects of flight into the upper atmosphere on living creatures. The king proposed to launch two convicted criminals"
+    },
+    {
+      "claim": "The sheep was called Montauciel, \"Climb-to-the-sky\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "a sheep called Montauciel (\"Climb-to-the-sky\")"
+    },
+    {
+      "claim": "The Versailles demonstration on 19 September 1783 took place before the king and Marie Antoinette",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The demonstration was performed at the royal palace in Versailles, before King Louis XVI and Queen Marie Antoinette and a crowd."
+    },
+    {
+      "claim": "Joseph Montgolfier was a paper manufacturer from Annonay",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "were aviation pioneers, balloonists and paper manufacturers from the commune Annonay in Ardèche, France"
+    },
+    {
+      "claim": "After the animals survived, the king allowed flights with humans",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Since the animals survived, the king allowed flights with humans."
+    },
+    {
+      "claim": "It remains only \"most likely\" that the inventors, not the king, chose the animals",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "but it is most likely that the inventors decided to send a sheep, a duck, and a rooster aloft first"
+    },
+    {
+      "claim": "Some credit the priest Bartolomeu de Gusmão with inventing the hot air balloon 74 years earlier",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Some claim that the hot air balloon was invented about 74 years earlier by the Brazilian/Portuguese priest Bartolomeu de Gusmão."
+    },
+    {
+      "claim": "The Fédération Aéronautique Internationale does not recognise the Gusmão claim",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "However, this claim is not generally recognized by aviation historians outside the Portuguese-speaking community, in particular the Fédération Aéronautique Internationale."
+    },
+    {
+      "claim": "The Le Noir engraving's caption claims more than 130,000 spectators",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "EXPÉRIENCE AÉROSTATIQUE Faite à Versailles le 19. Septembre 1783. en présence de leurs Majestés, de la Famille Royale et de plus de 130. milles Spectateurs"
+    },
+    {
+      "claim": "All the images are public domain",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 2
+}
