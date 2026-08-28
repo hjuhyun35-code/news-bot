@@ -1,0 +1,31 @@
+{
+  "subject": "The Colossus of Rhodes, which lay broken on the ground for eight centuries",
+  "wikipedia": "Colossus of Rhodes",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "colossusengraving.jpg",
+      "commons": "File:Colossvs Solis.jpg"
+    },
+    {
+      "file": "fallenhead.jpg",
+      "commons": "File:Kolos van Rhodos De zeven wereldwonderen (serietitel), RP-P-2011-72-3.jpg"
+    },
+    {
+      "file": "brokenstumps.jpg",
+      "commons": "File:The Colossus of Rhodes LACMA 65.37.290.jpg"
+    },
+    {
+      "file": "harbourprint.jpg",
+      "commons": "File:Colosse de Rhodes, secondieme miracle du Monde. 162 - estampe - btv1b69495845.jpg"
+    },
+    {
+      "file": "helioscoin.jpg",
+      "commons": "File:Rhodes Didrachm Helios 305-275 BCE.jpg"
+    },
+    {
+      "file": "mandrakiharbour.jpg",
+      "commons": "File:Mandraki colosseus harbour rhodes.jpg"
+    }
+  ]
+}
