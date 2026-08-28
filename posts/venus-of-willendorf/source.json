@@ -1,0 +1,27 @@
+{
+  "subject": "The Venus of Willendorf, carved 30,000 years ago with no face",
+  "wikipedia": "Venus of Willendorf",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "venusbackblack.jpg",
+      "commons": "File:Venus of Willendorf 22042013 2.jpg"
+    },
+    {
+      "file": "venusfront.jpg",
+      "commons": "File:06.01 Venus from Willendorf.tif"
+    },
+    {
+      "file": "headdetail.jpg",
+      "commons": "File:Venus von Willendorf, copy-16.jpg"
+    },
+    {
+      "file": "loesscliffsite.jpg",
+      "commons": "File:Loesswand von Willendorf (Darnaut).jpg"
+    },
+    {
+      "file": "museumvitrine.jpg",
+      "commons": "File:Venus of Willendorf 2017.jpg"
+    }
+  ]
+}

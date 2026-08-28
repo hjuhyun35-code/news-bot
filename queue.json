@@ -441,7 +441,9 @@
       "subject": "The aurora of 1859, bright enough to read a newspaper by at midnight",
       "wikipedia": "Aurora",
       "hook": "한밤중에 신문을 읽을 만큼 하늘이 밝았다",
-      "screened": "2026-08-27 · 사진 57장"
+      "screened": "2026-08-27 · 사진 57장",
+      "hold": true,
+      "why_hold": "2026-08-28 자동 확인. 후보 14장 중 쓸 만한 것이 5장뿐입니다. The pool contains no photograph, drawing, or document from 1859 — no Carrington sunspot sketch, no telegraph office, no newspaper page — only modern aurora photographs and an 1865 painting, so this cannot honestly be built as a post about the 1859 storm. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "venus-of-willendorf",
