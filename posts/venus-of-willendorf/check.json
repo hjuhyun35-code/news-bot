@@ -1,0 +1,179 @@
+{
+  "claims": [
+    {
+      "claim": "The figurine was carved/left in the ground around 30,000 years ago",
+      "where": "card 1 headline; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The figure itself is estimated to have been left in the ground around 30,000 years ago, based on radiocarbon dates from the layers surrounding it."
+    },
+    {
+      "claim": "The figurine has no face — no eyes, mouth or nose",
+      "where": "card 1 headline and note; caption",
+      "verdict": "supported",
+      "quote": "The figure has no visible face, her head being covered with circular horizontal bands of what might be rows of plaited hair, or perhaps a type of headdress."
+    },
+    {
+      "claim": "It is 11.1 centimetres tall",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The Venus of Willendorf is an 11.1-centimetre-tall (4.4 in) Venus figurine"
+    },
+    {
+      "claim": "It is made of oolitic limestone and tinted with red ochre",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "carved from an oolitic limestone that is not local to the area, and tinted with red ochre"
+    },
+    {
+      "claim": "The figurine is in the Naturhistorisches Museum Wien (Natural History Museum, Vienna)",
+      "where": "card 1 source; caption",
+      "verdict": "supported",
+      "quote": "It is in the Natural History Museum in Vienna, Austria as of 2003."
+    },
+    {
+      "claim": "Rows of bands cover the head where a face should be",
+      "where": "card 2 headline; visible in headdetail.jpg and venusbackblack.jpg",
+      "verdict": "supported",
+      "quote": "her head being covered with circular horizontal bands of what might be rows of plaited hair, or perhaps a type of headdress"
+    },
+    {
+      "claim": "The bands may be plaited hair or a headdress",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "what might be rows of plaited hair, or perhaps a type of headdress"
+    },
+    {
+      "claim": "The image in headdetail.jpg is a replica of the Willendorf figurine, dated 2020",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Venus von Willendorf, copy-16.jpg\nDescription: Venus von Willendorf; Kopie\nDate: 2020-10-15 11:22:20"
+    },
+    {
+      "claim": "A workman found the figurine",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "The figurine was found by a workman named either Johann Veran or Josef Veram"
+    },
+    {
+      "claim": "The finder is recorded as either Johann Veran or Josef Veram",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "The figurine was found by a workman named either Johann Veran or Josef Veram"
+    },
+    {
+      "claim": "It was found on 7 August 1908 on a dig conducted by Josef Szombathy",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "It was recovered on 7 August 1908 on an archaeological dig conducted by Josef Szombathy, Hugo Obermaier, and Josef Bayer at a Paleolithic site near Willendorf, a village in Lower Austria."
+    },
+    {
+      "claim": "It was found in a loess cliff",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "Archive title: File:Loesswand von Willendorf (Darnaut).jpg\nDescription: This is the archeological excavation site \"Willendorf I\" in the vicinity of the Brunner Brickwords.  Not far to the north is the site \"Willendorf II\" where the famous Venus was found in 1908."
+    },
+    {
+      "claim": "The site is near Willendorf, Lower Austria",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "at a Paleolithic site near Willendorf, a village in Lower Austria"
+    },
+    {
+      "claim": "The loess cliff image is by Hugo Darnaut, 1885, public domain",
+      "where": "card 3 source; caption",
+      "verdict": "supported",
+      "quote": "Author: Hugo Darnaut\nLicence: Public domain"
+    },
+    {
+      "claim": "The stone is not local to Willendorf",
+      "where": "card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "carved from an oolitic limestone that is not local to the area"
+    },
+    {
+      "claim": "2022 research points to northern Italy near Lake Garda, across the Alps, as the closest and most likely source",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "Research published in 2022 indicates that the closest and most likely source of the oolite used is on the other side of the Alps in northern Italy, near Lake Garda."
+    },
+    {
+      "claim": "A lesser candidate source is eastern Ukraine, about 1,600 km away",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "A lesser possibility is that it came from a site in eastern Ukraine some 1,600 km (1,000 mi) away."
+    },
+    {
+      "claim": "The Ukrainian site is closer to southern Russian sites where similarly styled figurines have been found",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the latter is closer to sites in southern Russia where similarly styled figurines have been found"
+    },
+    {
+      "claim": "The sourcing question raises questions about the mobility of ancient populations",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In either case, this raises questions regarding the mobility of ancient populations."
+    },
+    {
+      "claim": "The venusbackblack.jpg photograph is by Vassil, 2013",
+      "where": "card 4 source; caption",
+      "verdict": "supported",
+      "quote": "Date: 2013-04-21 13:47:38\nAuthor: Vassil"
+    },
+    {
+      "claim": "She probably never had feet and could not stand on her own",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Like other similar sculptures, it probably never had feet, and would not have stood on its own"
+    },
+    {
+      "claim": "She may have been pegged into soft ground",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "although it might have been pegged into soft ground"
+    },
+    {
+      "claim": "Both the fertility-goddess and self-portrait readings are speculative",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "As with similar figurines, evidence of the sculptor's intent is scant."
+    },
+    {
+      "claim": "\"Venus\" is a modern label applied by archaeologists who assumed a fertility deity, and it postdates the carving by thousands of years",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The reference to Venus is metaphorical, since the figurines predate the mythological figure of Venus by many thousands of years."
+    },
+    {
+      "claim": "Some scholars instead call it the Woman from Willendorf",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Some scholars reject this terminology, instead referring to the statuette as the Woman of or from Willendorf."
+    },
+    {
+      "claim": "Catherine McCoid and LeRoy McDermott proposed the figurines were self-portraits, the body seen foreshortened from above, with the missing face explained by the absence of mirrors",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Catherine McCoid and LeRoy McDermott hypothesize that the figurines may have been created as self-portraits by women. This theory stems from the correlation of the proportions of the statues to how the proportions of women's bodies would seem if they were looking down at themselves"
+    },
+    {
+      "claim": "Michael Bisson objected that pools and puddles work as mirrors",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "This reasoning has been criticized by McGill University anthropologist Michael S. Bisson, who notes that water pools and puddles would have been readily available natural mirrors for Paleolithic humans."
+    },
+    {
+      "claim": "The museumvitrine.jpg photograph is by Syd Storm, 2017, at the Naturhistorisches Museum Wien",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:Venus of Willendorf 2017.jpg\nDescription: Venus of Willendorf  in the Museum of Natural History, in Vienna\nDate: 2017-04-22 11:16:59\nAuthor: Syd Storm"
+    },
+    {
+      "claim": "The venusfront.jpg photograph is by Kharmacher, CC0, Naturhistorisches Museum Wien",
+      "where": "card 1 source; caption",
+      "verdict": "supported",
+      "quote": "Description: Sogenannte Venus vom Willendorf, z.Z. auf ca. -75.000Y geschätzt, Naturhistorisches Museum Wien.\nDate: 2020-06-24\nAuthor: Kharmacher\nLicence: CC0"
+    }
+  ],
+  "problems": 0
+}

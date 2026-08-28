@@ -1,0 +1,73 @@
+{
+  "caption": "Why does the Venus of Willendorf have no face?\n\nShe is 11.1 centimetres tall, carved from oolitic limestone and tinted with red ochre, and she was left in the ground around 30,000 years ago. Where a face should be there are circular horizontal bands running right around the head — possibly rows of plaited hair, possibly a headdress. No eyes, no mouth, no nose.\n\nA workman on Josef Szombathy's dig picked her out of the ground near Willendorf, Lower Austria, on 7 August 1908. The record cannot even settle his name: Johann Veran, or Josef Veram.\n\nThe stone is not local. Research published in 2022 points to northern Italy near Lake Garda, on the far side of the Alps, as the closest likely source. A weaker candidate is eastern Ukraine, about 1,600 km away — closer to southern Russian sites where similar figurines turn up. Either answer raises the same question about how far Paleolithic people moved.\n\nWhat she was for is unresolved. \"Venus\" is a modern label, applied thousands of years after the carving, by archaeologists who assumed a fertility deity; some scholars drop it and say the Woman from Willendorf. Catherine McCoid and LeRoy McDermott proposed the figurines were self-portraits, the body seen foreshortened from above, the missing face explained by the absence of mirrors. Michael Bisson objected that pools and puddles work as mirrors perfectly well.\n\nShe probably never had feet and could not stand on her own. She may have been pegged into soft ground.\n\nImages: the figurine in the Naturhistorisches Museum Wien, photographed by Kharmacher, Vassil and Syd Storm; a head detail of a replica; and Hugo Darnaut's 1885 painting of the Willendorf loess cliff.\n\n#venusofwillendorf #archaeology #paleolithic #publicdomain #theglassnegative",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "venusfront.jpg",
+      "crop": "52% 35%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Carved 30,000 years ago, <y>and she has no face</y>",
+      "note": "11.1 centimetres of oolitic limestone, tinted with red ochre. No eyes, no mouth, no nose.",
+      "source": "Naturhistorisches Museum Wien · Kharmacher, CC0",
+      "alt": "Small limestone female figurine lit against black, head ringed with bands, no facial features.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "headdetail.jpg",
+      "crop": "48% 28%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "<y>Rows of bands</y> cover the head where a face should be",
+      "note": "They may be plaited hair, or a headdress. Nothing on the head reads as a feature.",
+      "source": "Replica of the Willendorf figurine, 2020 · CC0",
+      "alt": "Close view of the figurine's rounded head covered in textured horizontal bands.},{",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "loesscliffsite.jpg",
+      "crop": "50% 55%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "<y>A workman found her</y> in a loess cliff in 1908",
+      "note": "Josef Szombathy's dig, 7 August 1908. The record gives the finder as Johann Veran, or Josef Veram.",
+      "source": "Hugo Darnaut, Willendorf loess cliff, 1885 · public domain",
+      "alt": "Painting of a pale loess cliff cut into a green hillside under heavy cloud.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "venusbackblack.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>The stone is not local</y> to Willendorf at all",
+      "note": "2022 research points across the Alps to Lake Garda. The other candidate is eastern Ukraine, 1,600 km away.",
+      "source": "Vassil, 2013 · Naturhistorisches Museum Wien · CC0",
+      "alt": "Back view of the figurine, banded head and broad hips, lit against a black ground.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "museumvitrine.jpg",
+      "crop": "57% 68%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "<y>Her head is covered</y>, not blank. Why, nobody knows",
+      "note": "She probably never had feet and could not stand. Fertility goddess, or self-portrait — both are guesses.",
+      "source": "Syd Storm, 2017 · Naturhistorisches Museum Wien",
+      "alt": "The figurine lying on its side on a mount in a dark museum case, lit from above.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "venus-of-willendorf",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
