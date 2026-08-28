@@ -1,0 +1,31 @@
+{
+  "subject": "The Bayeux Tapestry, seventy metres of embroidery that records Halley's Comet",
+  "wikipedia": "Bayeux Tapestry",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "comet.jpg",
+      "commons": "File:Bayeux Tapestry 32-33 comet Halley Harold.jpg"
+    },
+    {
+      "file": "edwardrex.jpg",
+      "commons": "File:Bayeux Tapestry Scene 01 (cropped).jpg"
+    },
+    {
+      "file": "oath.jpg",
+      "commons": "File:Bayeux Tapestry scene23 Harold sacramentum fecit Willelmo duci.jpg"
+    },
+    {
+      "file": "coronation.jpg",
+      "commons": "File:Bayeux Tapestry scene29-30-31 Harold coronation.jpg"
+    },
+    {
+      "file": "haroldslain.jpg",
+      "commons": "File:Bayeux Tapestry scene57 Harold death.jpg"
+    },
+    {
+      "file": "engraving.jpg",
+      "commons": "File:Stothard Bayeux 41 42 Plate 10.jpg"
+    }
+  ]
+}
