@@ -1,0 +1,86 @@
+{
+  "caption": "Who was buried in the Oseberg ship?\n\nIn 1904–1905 Gabriel Gustafson and Haakon Shetelig dug a 21.58 metre oak longship out of a burial mound at the Oseberg farm near Tønsberg, Norway. It was a real ship: 15 pairs of oar openings, room for 30 rowers, a mast around 9–10 metres, a sail area of about 90 square metres.\n\nInside were two women, found together in one bed. One was around 80 and badly arthritic; she also had Morgagni's syndrome, which would have given her a masculine appearance and a beard. The other was first put at 25–30, but tooth-root analysis suggests 50–55. Her broken collarbone was once read as proof of human sacrifice — until closer examination showed the bone had been healing for weeks.\n\nBoth ate mainly meat, a luxury when most Vikings ate fish. The younger woman used a metal toothpick. Also in the mound: 14 horses, an ox, three dogs, four decorated sleighs, the only complete Viking Age cart ever found, and more than a hundred fragments of silk — the earliest Viking Age silk known from Norwegian soil. Precious metals were gone; the grave had been robbed in antiquity.\n\nStill open: which woman mattered more, and whether either was sacrificed. The high-ranking woman's identity is unknown. She has been proposed as Queen Åsa of the Yngling clan, and also as a shaman. A claim that the younger woman's maternal line came from the Pontic littoral, probably Iran, was not confirmed by three later studies.\n\nA 2012 replica, Saga Oseberg, sailed the open sea at 10 knots in 2014 — proof the ship was a ship, not just a chamber on land.\n\nImages: excavation photographs from 1904; Narve Skarpmoen, 1926; Jac Brun, 1957; Daderot, 2009. All public domain.\n\n#oseberg #vikingage #shipburial #archaeology #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "shipinhall.jpg",
+      "crop": "40% 45%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Two women were buried inside <y>a whole 70-foot ship</y>",
+      "note": "Dug out of a mound near Tønsberg, Norway, in 1904–1905. Oak, clinker built, 21.58 metres long.",
+      "source": "Jac Brun, Bygdøy, 1957 · public domain",
+      "alt": "Viking longship with high carved prow displayed in a vaulted museum hall.jpg",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "burialmounddig.jpg",
+      "crop": "50% 55%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The mound also held <y>14 horses, an ox, three dogs</y>",
+      "note": "Grave goods included four decorated sleighs and the only complete Viking Age cart ever found.",
+      "source": "Oseberg excavation site, 1904 · public domain",
+      "alt": "Excavated pit with the timbers of a buried ship exposed in earth.jpg",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "excavators.jpg",
+      "crop": "48% 45%",
+      "zoom": 1.2,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "Gustafson and Shetelig dug it out in <y>1904–1905</y>",
+      "note": "Swedish archaeologist Gabriel Gustafson and Norwegian archaeologist Haakon Shetelig led the excavation.",
+      "source": "Oseberg excavation, 1904 · public domain",
+      "alt": "Eleven men with spades posed in an open excavation beside a ship's prow.jpg",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "prowinsoil.jpg",
+      "crop": "25% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "A broken collarbone <y>was not a sacrifice</y>",
+      "note": "The younger woman's break was first read as murder. Closer examination showed weeks of healing.",
+      "source": "Excavation of the Oseberg ship, 1904 · public domain",
+      "alt": "Carved prow of the Oseberg ship standing upright in excavated soil.jpg",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "streettransport.jpg",
+      "crop": "62% 45%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "More than a hundred <y>fragments of silk</y> came out of it",
+      "note": "The earliest known Viking Age silk from Norwegian soil. Precious metals were already looted.",
+      "source": "Narve Skarpmoen, Oslo, 1926 · public domain",
+      "alt": "Crowd in a wet cobbled street watching a braced ship section on a wagon.jpg",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "carvingdetail.jpg",
+      "crop": "55% 45%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "One woman was about 80, <y>arthritic and bearded</y>",
+      "note": "Morgagni's syndrome explains the beard. Which woman mattered more, and who she was, is still unknown.",
+      "source": "Daderot, Viking Ship Museum, 2009 · public domain",
+      "alt": "Close view of gripping-beast woodcarving along the ship's hull planking.jpg",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "oseberg-ship",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

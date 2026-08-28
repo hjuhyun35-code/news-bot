@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "Two women were buried inside the Oseberg ship",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The skeletons of two women were found in the grave with the ship."
+    },
+    {
+      "claim": "The ship is about 70 feet long",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "It is 21.58 metres (70.8 ft) in length"
+    },
+    {
+      "claim": "The ship was dug out of a mound near Tønsberg, Norway, in 1904–1905",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Excavation of the ship from the Oseberg burial mound ... was undertaken by Swedish archaeologist Gabriel Gustafson and Norwegian archaeologist Haakon Shetelig in 1904–1905."
+    },
+    {
+      "claim": "The ship is oak, clinker built, 21.58 metres long",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The ship is a  Karve,  clinker built, almost entirely of oak. It is 21.58 metres (70.8 ft) in length"
+    },
+    {
+      "claim": "The photograph shipinhall.jpg is by Jac Brun, taken at Bygdøy in 1957",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Bygdøy,Oslo, Oslo, Oslo\nDate: 1957\nAuthor: Jac Brun\nLicence: Public domain"
+    },
+    {
+      "claim": "The mound also held 14 horses, an ox, and three dogs",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "There were also the skeletal remains of 14 horses, an ox, and three dogs found on the ship."
+    },
+    {
+      "claim": "Grave goods included four decorated sleighs",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "These included four elaborately decorated sleighs, a richly carved four-wheel wooden cart, bed-posts, and wooden chests"
+    },
+    {
+      "claim": "The Oseberg wooden cart is the only complete Viking Age cart found so far",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "the wooden cart is the only complete Viking Age cart found so far"
+    },
+    {
+      "claim": "The burialmounddig.jpg photograph shows the Oseberg excavation site in 1904",
+      "where": "card 2 source",
+      "verdict": "unsupported",
+      "quote": "Description: The Oseberg ship at the archeological site.\nDate: 1094"
+    },
+    {
+      "claim": "Gabriel Gustafson (Swedish archaeologist) and Haakon Shetelig (Norwegian archaeologist) led the excavation in 1904–1905",
+      "where": "card 3",
+      "verdict": "supported",
+      "quote": "Excavation of the ship from the Oseberg burial mound (Norwegian: Oseberghaugen ved Slagen from the Old Norse word haugr meaning kurgan mound or barrow) was undertaken by Swedish archaeologist Gabriel Gustafson and Norwegian archaeologist Haakon Shetelig in 1904–1905."
+    },
+    {
+      "claim": "The younger woman's broken collarbone was initially thought to be evidence of human sacrifice, but closer examination showed the bone had been healing for several weeks",
+      "where": "card 4 / caption",
+      "verdict": "supported",
+      "quote": "The younger woman had a broken collarbone, initially thought to be evidence that she was a human sacrifice, but closer examination showed that the bone had been healing for several weeks."
+    },
+    {
+      "claim": "More than a hundred fragments of silk came out of the ship",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "among its treasures were more than a hundred tiny fragments of silk"
+    },
+    {
+      "claim": "This is the earliest known Viking Age silk found on Norwegian soil",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "This discovery stands as the earliest known evidence of Viking Age silk ever unearthed on Norwegian soil."
+    },
+    {
+      "claim": "Objects made of precious metals were absent because the grave had been disturbed in antiquity",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "The grave had been disturbed in antiquity, and objects made of precious metals were absent."
+    },
+    {
+      "claim": "The streettransport.jpg photograph is by Narve Skarpmoen, Oslo, 1926",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Date: between 1 March 1926 and 31 December 1926 ... Author: Narve Skarpmoen"
+    },
+    {
+      "claim": "One woman was probably around 80 and suffered badly from arthritis",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "One, probably aged around 80, suffered badly from arthritis."
+    },
+    {
+      "claim": "The older woman had Morgagni's syndrome, which would have given her a masculine appearance and beard",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "The older woman also had Morgagni's syndrome, which would have given her a masculine appearance and beard."
+    },
+    {
+      "claim": "It is unclear which woman was more important in life",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "It is not clear which one was the more important in life or whether one was sacrificed to accompany the other in death."
+    },
+    {
+      "claim": "The high-ranking woman's identity is unknown",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Although the high-ranking woman's identity is unknown, it has been suggested that she is Queen Åsa of the Yngling clan"
+    },
+    {
+      "claim": "The carvingdetail.jpg photograph is by Daderot, taken at the Viking Ship Museum in 2009",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Description: Oseberg ship, Kulturhistorisk museum (Viking Ship Museum), Oslo, Norway.\nDate: 2009-09-12\nAuthor: Daderot"
+    },
+    {
+      "claim": "The burial mound was at the Oseberg farm near Tønsberg, Norway",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "discovered in a large burial mound at the Oseberg farm near Tønsberg in Vestfold county, Norway"
+    },
+    {
+      "claim": "The ship has 15 pairs of oar openings, enabling up to 30 people to row it",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The ship has 15 pairs of openings for oars, enabling up to 30 people to row it."
+    },
+    {
+      "claim": "The mast was approximately 9–10 metres in height",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "with a mast of approximately 9–10 metres (30–33 ft) in height"
+    },
+    {
+      "claim": "The sail area was about 90 square metres",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "With a likely sail area of 90 square metres (970 sq ft)"
+    },
+    {
+      "claim": "The two women were found together in one bed",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The women were found together in one bed."
+    },
+    {
+      "claim": "The younger woman was first estimated at 25–30 years old, but tooth-root translucency analysis suggests 50–55",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The second was initially believed to be aged 25–30, but analysis of tooth-root translucency suggests she was older (aged 50–55)."
+    },
+    {
+      "claim": "Both women had a diet composed mainly of meat, a luxury when most Vikings ate fish",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Both women had a diet composed mainly of meat, another luxury when most Vikings ate fish."
+    },
+    {
+      "claim": "The younger woman's teeth showed signs she used a metal toothpick",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The younger woman's teeth showed signs that she used a metal toothpick, a rare 9th century luxury."
+    },
+    {
+      "claim": "The high-ranking woman has been proposed as Queen Åsa of the Yngling clan, and also as a shaman",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it has been suggested that she is Queen Åsa of the Yngling clan, mother of Halfdan the Black and grandmother of Harald Fairhair ... some think that she may have been a shaman"
+    },
+    {
+      "claim": "A claim that the younger woman's maternal line came from the Pontic littoral, probably Iran, was not confirmed by three later studies",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Her direct maternal ancestors came to Norway from the Pontic littoral, probably Iran. Three subsequent studies failed to confirm these results"
+    },
+    {
+      "claim": "A replica named Saga Oseberg was launched in 2012 and sailed the open sea at 10 knots in 2014",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The new ship was launched from the city of Tønsberg on 20 June 2012. The ship floated very well and in March 2014 it was sailed on the open seas, with Færder as its destination; the ship performed very well, achieving a speed of 10 knots under full sail."
+    },
+    {
+      "claim": "The replica demonstrated the Oseberg ship could really have sailed and was not just a burial chamber on land",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The reconstruction was thus a success and demonstrated that the Oseberg ship really could have sailed and was not just a burial chamber on land."
+    },
+    {
+      "claim": "The excavation photographs used date from 1904",
+      "where": "caption (Images line)",
+      "verdict": "supported",
+      "quote": "Description: Excavation of the Oseberg ship\nDate: 1904"
+    },
+    {
+      "claim": "All images used are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    },
+    {
+      "claim": "The ship on display in the hall bears a label reading OSEBERGSKIBET",
+      "where": "shipinhall.jpg (implied by card 1 attribution to the Oseberg ship)",
+      "verdict": "supported",
+      "quote": "OSEBERGSKIBET"
+    }
+  ],
+  "problems": 1
+}
