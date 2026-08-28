@@ -1,0 +1,179 @@
+{
+  "claims": [
+    {
+      "claim": "Under Suleiman the Magnificent, mosaics of Jesus, Mary and emperors were plastered over",
+      "where": "card 1 note; caption paragraph 3",
+      "verdict": "supported",
+      "quote": "During Suleiman's reign, the mosaics above the narthex and imperial gates depicting Jesus, Mary, and various Byzantine emperors were covered by whitewash and plaster, which were removed in 1930 under the Turkish Republic."
+    },
+    {
+      "claim": "Those whitewashed/plastered mosaics were uncovered in 1930",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "were covered by whitewash and plaster, which were removed in 1930 under the Turkish Republic"
+    },
+    {
+      "claim": "The exterior photograph is by Abdullah frères / Zangaki and dates from the 1890s, public domain",
+      "where": "card 1 source; caption image list",
+      "verdict": "supported",
+      "quote": "Author: Arnoux, Hippolyte (18..-19..? ; photographe). Photographe\nZangaki. Photographe\n \nAbdullah frères (Istanbul). Photographe\nLicence: Public domain"
+    },
+    {
+      "claim": "Mosque workers sold mosaic cubes (tesserae) to visitors as talismans",
+      "where": "card 2 note; caption paragraph 4",
+      "verdict": "unsupported",
+      "quote": "It was usual for the mosaic's tesserae—believed to be talismans—to be sold to visitors."
+    },
+    {
+      "claim": "Ahmed III renewed the crumbling interior plaster in 1717, which shielded/preserved the mosaics beneath",
+      "where": "card 2 note; caption paragraph 4",
+      "verdict": "supported",
+      "quote": "In 1717, under the reign of Sultan Ahmed III (r. 1703–1730), the crumbling plaster of the interior was renovated, contributing indirectly to the preservation of many mosaics, which otherwise would have been destroyed by mosque workers."
+    },
+    {
+      "claim": "The nave image is a Gaspare Fossati work lithographed by Louis Haghe, 1852",
+      "where": "card 2 source; caption image list",
+      "verdict": "supported",
+      "quote": "Date: 1852\nAuthor: Gaspare Fossati  (artist, 1809-1883) \n  Louis Haghe  (lithographer, 1806-1885)"
+    },
+    {
+      "claim": "The Fossati brothers recorded (sketched) mosaics found in the eastern main arch and the apse",
+      "where": "card 3 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Sketch of the mosaics in the eastern main arch and the apsis, by the Fossati brothers when found in the 19th century."
+    },
+    {
+      "claim": "Many of the mosaics exposed during the Fossati work were covered again \"for protection against further damage\"",
+      "where": "card 3 note; caption paragraph 5",
+      "verdict": "supported",
+      "quote": "The mosaics in the upper gallery were exposed and cleaned, although many were recovered \"for protection against further damage\"."
+    },
+    {
+      "claim": "The Fossati sketch dates from 1847–49 and is public domain",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Date: between 1847 and 1849 date QS:P,+1847-00-00T00:00:00Z/8,P1319,+1847-00-00T00:00:00Z/9,P1326,+1849-00-00T00:00:00Z/9\nAuthor: Gaspare and Giuseppe Fossati\nLicence: Public domain"
+    },
+    {
+      "claim": "The Fossati restoration took place in 1847–1849 and was carried out by Gaspare and Giuseppe Fossati",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "The 19th-century restoration of the Hagia Sophia was ordered by Sultan Abdulmejid I (r. 1823–1861) and completed between 1847 and 1849 by eight hundred workers under the supervision of the Swiss-Italian architect brothers Gaspare and Giuseppe Fossati."
+    },
+    {
+      "claim": "The Zoe mosaic is 11th-century and shows Christ Pantocrator with Constantine IX Monomachos and Empress Zoe",
+      "where": "card 4 headline/note",
+      "verdict": "supported",
+      "quote": "The Empress Zoe mosaics (11th-century) in  Hagia Sophia  (Istanbul, Turkey) \nChrist Pantocrator  is seated in the middle. On his right side stands emperor  Constantine IX Monomachos ; on his left side, empress  Zoe ."
+    },
+    {
+      "claim": "Greek lettering in the Zoe mosaic names both the emperor and the empress",
+      "where": "card 4 note (visible in zoe.jpg)",
+      "verdict": "supported",
+      "quote": "ΚΩΝCΤΑΝΤΙΝΟC ... ΑΥΤΟΚΡΑΤΩΡ ΠΙCΤΟC ΒΑCΙΛΕΥC ΡΩΜΑΙΩΝ ... +ΖΩΗ Η ΕΥCΕΒΕCΤΑΤΗ ΑΥΓΟΥCΤΑ"
+    },
+    {
+      "claim": "The Zoe mosaic has a gold background",
+      "where": "card 4 headline (visible in zoe.jpg)",
+      "verdict": "supported",
+      "quote": "visible in zoe.jpg: the entire field behind the three figures is gold tesserae"
+    },
+    {
+      "claim": "The Deesis mosaic is a 13th-century work",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Deesis  mosaic (13th-century) in  Hagia Sophia  (Istanbul, Turkey)"
+    },
+    {
+      "claim": "Only the upper part of the Deesis mosaic survives; below the three faces the wall is bare plaster with a few stray tesserae",
+      "where": "card 5 headline/note (visible in deesis.jpg)",
+      "verdict": "supported",
+      "quote": "visible in deesis.jpg: the lower two-thirds is blank white plaster, with scattered surviving tesserae at the lower right"
+    },
+    {
+      "claim": "The Deesis and Zoe photographs are by Myrabella",
+      "where": "card 4/5 source; caption image list",
+      "verdict": "supported",
+      "quote": "Author: Photograph:  Myrabella"
+    },
+    {
+      "claim": "The apse Virgin mosaic was uncovered in 1930",
+      "where": "card 6 headline",
+      "verdict": "unsupported",
+      "quote": "the mosaics above the narthex and imperial gates depicting Jesus, Mary, and various Byzantine emperors were covered by whitewash and plaster, which were removed in 1930"
+    },
+    {
+      "claim": "The apse mosaics of the Virgin and Child were covered with white drapes in 2020 for the first Friday prayers",
+      "where": "card 6 headline; caption paragraph 6",
+      "verdict": "supported",
+      "quote": "The mosque opened for Friday prayers on 24 July, the 97th anniversary of the signature of the Treaty of Lausanne... The mosaics of the Virgin and Child in the apse were covered by white drapes."
+    },
+    {
+      "claim": "The image used on card 6 is the southwestern entrance mosaic (Virgin with Justinian I and Constantine I), not the apse mosaic",
+      "where": "card 6 source (donormosaic.jpg)",
+      "verdict": "supported",
+      "quote": "Southwestern entrance mosaic of the former basilica  Hagia Sophia  of  Constantinople  (Istanbul, Turkey)  The Virgin Mary is standing in the middle, holding the Child Christ on her lap."
+    },
+    {
+      "claim": "Turkey says the Christian images remain protected",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "The spokesperson also said that the change would not affect the status of the Hagia Sophia as a UNESCO World Heritage site, and that \"Christian icons\" within it would continue to be protected."
+    },
+    {
+      "claim": "UNESCO has asked for reports and expressed grave concern about the state of conservation",
+      "where": "card 6 note; caption paragraph 6",
+      "verdict": "supported",
+      "quote": "In July 2021, UNESCO asked for an updated report on the state of conservation and expressed \"grave concern\"."
+    },
+    {
+      "claim": "Justinian I finished the church in 537",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Justinian and Patriarch Menas inaugurated the new basilica on 27 December 537, 5 years and 10 months after construction started, with much pomp."
+    },
+    {
+      "claim": "On seeing the finished building Justinian is said to have declared \"Solomon, I have surpassed thee\"",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Upon seeing the finished building, the Emperor reportedly said: \"Solomon, I have surpassed thee\"."
+    },
+    {
+      "claim": "Constantinople fell in 1453",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Constantinople was conquered by the Ottoman forces on 29 May 1453."
+    },
+    {
+      "claim": "Mehmed II ordered the church converted into a mosque the day he entered it",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "When Mehmed and his entourage entered the church, he ordered that it be converted into a mosque immediately."
+    },
+    {
+      "claim": "The building opened as a museum in 1935",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "In 1935, the first Turkish President and founder of the Republic of Turkey, Mustafa Kemal Atatürk, transformed the building into a museum."
+    },
+    {
+      "claim": "In 2020 the museum decision was annulled and Hagia Sophia became a mosque again",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "On 10 July 2020, the decision of the Council of Ministers from 1935 to transform the Hagia Sophia into a museum was annulled by the Council of State, decreeing that Hagia Sophia cannot be used \"for any other purpose\" than being a mosque"
+    },
+    {
+      "claim": "In February 2026, seven Byzantine tunnel lines roughly 1,600 years old were documented beneath the building for the first time",
+      "where": "caption paragraph 6",
+      "verdict": "supported",
+      "quote": "In February 2026, seven underground tunnel lines dating to the early Byzantine period, approximately 1,600 years old, were documented beneath Hagia Sophia. The tunnels form part of a previously undocumented subterranean network investigated during restoration works."
+    },
+    {
+      "claim": "All six images are public domain",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 2
+}

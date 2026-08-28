@@ -1,0 +1,86 @@
+{
+  "caption": "Why were Hagia Sophia's mosaics covered up?\n\nJustinian I finished the church in 537. On seeing it he is said to have declared: \"Solomon, I have surpassed thee.\"\n\nConstantinople fell in 1453 and Mehmed II ordered the church converted into a mosque the day he entered it. Under Suleiman the Magnificent, the mosaics of Jesus, Mary and the Byzantine emperors above the narthex and imperial gates were covered with whitewash and plaster.\n\nThe plaster is why they survived. Mosque workers were selling mosaic cubes to visitors as talismans; when Ahmed III had the crumbling plaster renewed in 1717, it shielded the images underneath. The white plaster came off in 1930, and the building opened as a museum in 1935.\n\nThe 1847–49 restoration by Gaspare and Giuseppe Fossati had already exposed and cleaned the upper gallery mosaics — then covered many of them again \"for protection against further damage\". Their sketches record what they saw.\n\nStill open: in 2020 the museum decision was annulled and Hagia Sophia became a mosque again. The apse mosaics of the Virgin and Child were hung with white drapes for the first Friday prayers. UNESCO has expressed grave concern about the state of conservation. In February 2026, seven Byzantine tunnel lines roughly 1,600 years old were documented beneath the building for the first time.\n\nImages: an 1890s exterior from an album by the Abdullah frères and Zangaki; Gaspare Fossati's 1852 nave lithograph with Louis Haghe; the Fossati brothers' sketch of the mosaics they found; and photographs of the Zoe, Deesis and southwestern entrance mosaics by Myrabella. All public domain.\n\n#hagiasophia #byzantine #mosaics #archivephoto #istanbul",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "exterior.jpg",
+      "crop": "46% 58%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>Whitewash</y> hid these mosaics. It also saved them.",
+      "note": "Under Suleiman the Magnificent, mosaics of Jesus, Mary and emperors were plastered over. They were uncovered in 1930.",
+      "source": "Abdullah frères / Zangaki, 1890s · public domain",
+      "alt": "Albumen photograph of Hagia Sophia with four minarets above low wooden houses..",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "nave.jpg",
+      "crop": "50% 33%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The plaster that <y>saved the mosaics</y>",
+      "note": "Mosque workers sold mosaic cubes as talismans. Ahmed III renewed the crumbling plaster in 1717, shielding the images beneath.",
+      "source": "Gaspare Fossati, lithograph by Louis Haghe, 1852",
+      "alt": "Colour lithograph of a vast golden domed interior with worshippers on carpets below.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "fossatisketch.jpg",
+      "crop": "72% 30%",
+      "zoom": 2.2,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Two brothers <y>drew what they uncovered</y>, then hid it again",
+      "note": "The Fossati brothers recorded mosaics found in the eastern arch and apse. Many were then covered again for protection.",
+      "source": "Gaspare and Giuseppe Fossati, 1847–49 · public domain",
+      "alt": "Watercolour sketch of an enthroned Virgin in blue holding a standing child figure.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "zoe.jpg",
+      "crop": "62% 45%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "<y>11th-century gold</y>: Christ between an emperor and Zoe",
+      "note": "Christ Pantocrator with Constantine IX Monomachos and the Empress Zoe. Greek lettering names them both.",
+      "source": "Empress Zoe mosaic, 11th c. · photo Myrabella",
+      "alt": "Gold mosaic of Christ enthroned holding a book, a crowned empress standing at right.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "deesis.jpg",
+      "crop": "50% 30%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Of the <y>Deesis mosaic</y>, only the upper part survives",
+      "note": "A 13th-century work. Below the three faces the wall is bare plaster, with a few stray tesserae left.",
+      "source": "Deesis mosaic, 13th c. · photo Myrabella",
+      "alt": "Damaged gold mosaic: Christ centre, a veiled figure left, a bearded figure right.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "donormosaic.jpg",
+      "crop": "30% 45%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Uncovered in 1930 — the apse Virgin was <y>draped again in 2020</y>",
+      "note": "Turkey says the Christian images remain protected. UNESCO has asked for reports and expressed grave concern.",
+      "source": "Southwestern entrance mosaic · photo Myrabella",
+      "alt": "Mosaic of the Virgin and Child with an emperor offering a small model church.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "hagia-sophia",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
