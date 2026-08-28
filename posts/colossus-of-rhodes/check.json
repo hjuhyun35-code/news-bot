@@ -1,0 +1,245 @@
+{
+  "claims": [
+    {
+      "claim": "The Colossus stood for 54 years before it fell",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The statue stood for 54 years until a 226 BC earthquake caused significant damage to large portions of Rhodes"
+    },
+    {
+      "claim": "The broken remains lay on the ground for about 800 years",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The remains lay on the ground for over 800 years and, even broken, they were so impressive that many travelled to see them."
+    },
+    {
+      "claim": "Chares of Lindos completed the statue in 280 BC",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "After twelve years, in 280 BC, the statue was completed."
+    },
+    {
+      "claim": "The statue was about 33 metres tall",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "the Colossus stood approximately 70 cubits, or 33 metres (108 feet) high"
+    },
+    {
+      "claim": "It was the tallest statue in the ancient world",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "making it the tallest statue in the ancient world"
+    },
+    {
+      "claim": "Card 1 image is an engraving by G. de Jode, c. 1580, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Kupf. von G. de Jode, um 1580 ... Licence: Public domain"
+    },
+    {
+      "claim": "Pliny described vast caverns yawning inside where the limbs were broken",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "Where the limbs are broken asunder, vast caverns are seen yawning in the interior."
+    },
+    {
+      "claim": "Pliny wrote that few men could clasp the thumb in their arms and that its fingers were larger than most statues",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Few men can clasp the thumb in their arms, and its fingers are larger than most statues."
+    },
+    {
+      "claim": "Card 2 image is by Crispijn van de Passe II, 1614, Rijksmuseum, CC0",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Vervaardiger:  prentmaker: Crispijn van de Passe (II) (vermeld op object) ... Datering:  1614 ... Licence: CC0"
+    },
+    {
+      "claim": "A chronicler recorded that the bronze was loaded onto 900 camels",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "being melted down and sold to a Jewish merchant of Edessa who loaded the bronze onto 900 camels"
+    },
+    {
+      "claim": "Theophanes wrote that the remains were melted down and sold in 653",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "In 653, an Arab force under Muslim general Mu'awiya I raided Rhodes, and according to the Chronicle of Theophanes the Confessor, the remains of the statue constituted part of the booty, being melted down and sold"
+    },
+    {
+      "claim": "Theophanes is the sole source of the account and all other versions trace back to him",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "Ultimately, Theophanes is the sole source of this account, and all other sources can be traced to him."
+    },
+    {
+      "claim": "Scholars suspect the account is propaganda; L.I. Conrad considers it likely propaganda",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "L.I. Conrad considers Theophanes' story of the dismantling of the statue as likely propaganda, like the destruction of the Library of Alexandria."
+    },
+    {
+      "claim": "Card 3 image is by Antonio Tempesta, 1610, LACMA, public domain",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Italy, published 1610 \n Series: The Seven Wonders of the World, pl. 2 ... Author: Antonio Tempesta (Italy, Florence, 1555-1630) \nLicence: Public domain"
+    },
+    {
+      "claim": "The harbour-straddling pose was a medieval invention",
+      "where": "card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "The harbour-straddling Colossus was a figment of medieval imaginations based on the dedication text's mention of \"over land and sea\" twice"
+    },
+    {
+      "claim": "Bronze legs held apart would have collapsed under their own weight",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "the statue was made of bronze, and engineering analyses indicate that it could not have been built with its legs apart without collapsing under its own weight"
+    },
+    {
+      "claim": "No record says the statue held a torch",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "There is also no evidence that the statue held a torch aloft; the records simply say that after completion, the Rhodians kindled the \"torch of freedom\"."
+    },
+    {
+      "claim": "Card 4 image was published by Georg Balthasar Probst, c. 1770, public domain",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Éditeur : Cum Gratia et Privilegio Sac. Caes. Majestatis - Georg Balthasar Probst excud. A.V. [ca 1770] ... Licence: Public domain"
+    },
+    {
+      "claim": "Scholars have a good idea of the head and face, though not the pose",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "While scholars do not know what the statue looked like, they do have a good idea of what the head and face looked like, as it was of a standard rendering at the time."
+    },
+    {
+      "claim": "The head had curly hair, a standard rendering at the time, similar to Helios on contemporary Rhodian coins",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "The head would have had curly hair, similar to the images found on contemporary Rhodian coins."
+    },
+    {
+      "claim": "Card 5 image is a Rhodian didrachm of 305–275 BC, photographed by Asi7777, CC0",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Rhodes Didrachm Helios 305-275 BCE.jpg ... Author: Asi7777 \nLicence: CC0"
+    },
+    {
+      "claim": "An earthquake snapped the statue at the knees and it fell onto land",
+      "where": "card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "The statue snapped at the knees and fell over onto land."
+    },
+    {
+      "claim": "The earthquake occurred in 226 BC",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It collapsed during the earthquake of 226 BC, although parts of it were preserved."
+    },
+    {
+      "claim": "Ptolemy III offered to pay for the reconstruction",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "Ptolemy III offered to pay for the reconstruction of the statue"
+    },
+    {
+      "claim": "The Oracle of Delphi left the Rhodians fearing they had offended Helios, and they declined to rebuild",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "the Oracle of Delphi made the Rhodians fear that they had offended Helios, and they declined to rebuild it"
+    },
+    {
+      "claim": "The statue's location is still disputed",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "While scholars generally agree that anecdotal depictions of the Colossus straddling the harbour's entry point have no historic or scientific basis, the monument's actual location remains a matter of debate."
+    },
+    {
+      "claim": "Card 6 image is Mandraki harbour, Rhodes, photo by Jebulon, CC0",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Mandraki colosseus harbour rhodes.jpg ... Author: Jebulon \nLicence: CC0"
+    },
+    {
+      "claim": "Rhodes survived a year-long siege by Demetrius I of Macedon",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it was constructed to celebrate the successful defence of Rhodes against an attack by Demetrius I of Macedon, who had besieged it for a year with a large army and navy"
+    },
+    {
+      "claim": "The Rhodians sold the abandoned siege equipment for 300 talents and used the money for a statue of Helios",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the Rhodians sold the equipment left behind for 300 talents and decided to use the money to build a colossal statue of their patron god, Helios"
+    },
+    {
+      "claim": "Chares of Lindos worked twelve years on the statue",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "After twelve years, in 280 BC, the statue was completed."
+    },
+    {
+      "claim": "People travelled to see the broken remains",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "even broken, they were so impressive that many travelled to see them"
+    },
+    {
+      "claim": "Pliny described masses of rock inside that the sculptor used to steady the statue while erecting it",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Within it, too, are to be seen large masses of rock, by the weight of which the artist steadied it while erecting it."
+    },
+    {
+      "claim": "In 653 an Arab force under Mu'awiya I raided Rhodes",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 653, an Arab force under Muslim general Mu'awiya I raided Rhodes"
+    },
+    {
+      "claim": "The bronze was said to be sold to a merchant of Edessa",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "sold to a Jewish merchant of Edessa who loaded the bronze onto 900 camels"
+    },
+    {
+      "claim": "Local tradition places the statue at the two pillars at the Mandraki port entrance",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the statue is thought locally to have stood where two pillars now stand at the Mandraki port entrance"
+    },
+    {
+      "claim": "Curved marble blocks in the Fortress of St Nicholas have been proposed as remnants of the Colossus's base",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Curved blocks of marble that were incorporated into the Fortress structure, but are considered too intricately cut to have been quarried for that purpose, have been posited as the remnants of a marble base for the Colossus"
+    },
+    {
+      "claim": "Archaeologist Ursula Vedder places the statue on the acropolis hill instead",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Archaeologist Ursula Vedder postulates that the Colossus was not located in the harbour area at all, but rather was part of the Acropolis of Rhodes, which stood on a hill that overlooks the port area."
+    },
+    {
+      "claim": "The image set comprises engravings by G. de Jode (c. 1580), Antonio Tempesta (1610), Crispijn van de Passe II (1614) and Georg Balthasar Probst (c. 1770), a Rhodian didrachm, and Mandraki harbour today",
+      "where": "caption image credits",
+      "verdict": "supported",
+      "quote": "Éditeur : Cum Gratia et Privilegio Sac. Caes. Majestatis - Georg Balthasar Probst excud. A.V. [ca 1770]"
+    },
+    {
+      "claim": "The photograph of Mandraki harbour shows the harbour entrance with two columns and the Saint Nicholas fort with its lighthouse",
+      "where": "card 6 / caption image (mandrakiharbour.jpg)",
+      "verdict": "supported",
+      "quote": "One can see the Saint-Nicolas fort and his lighthouse."
+    },
+    {
+      "claim": "The de Jode engraving depicts the Colossus straddling the harbour entrance with a ship passing beneath, holding a spear in one hand and a sword in the other",
+      "where": "card 1 image (colossusengraving.jpg)",
+      "verdict": "supported",
+      "quote": "Der spreizbeinige Koloss mit Speer in der rechten u. Schwert in der linken Hand über der Hafeneinfahrt, durch die ein Schiff fährt."
+    }
+  ],
+  "problems": 0
+}

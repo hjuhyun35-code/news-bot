@@ -1,0 +1,88 @@
+{
+  "caption": "Did the Colossus of Rhodes really straddle the harbour? No. That image was a medieval invention.\n\nRhodes survived a year-long siege by Demetrius I of Macedon. When his army left, the Rhodians sold the abandoned siege equipment for 300 talents and spent the money on a statue of their patron god, Helios. Chares of Lindos worked twelve years. It was finished in 280 BC, about 33 metres tall — the tallest statue in the ancient world.\n\nIt stood 54 years. The earthquake of 226 BC snapped it at the knees and it fell onto land. Ptolemy III offered to pay for a rebuild, but the Oracle of Delphi left the Rhodians fearing they had offended Helios, and they declined.\n\nSo it lay there for over 800 years, and people travelled to see it broken. Pliny the Elder wrote that few men could get their arms around the thumb, that the fingers were larger than most whole statues, and that where the limbs had broken apart you could see vast caverns yawning inside, with the masses of rock the sculptor used to steady it during construction.\n\nIn 653 an Arab force under Mu'awiya I raided Rhodes. Theophanes the Confessor wrote that the bronze was melted down, sold to a merchant of Edessa, and loaded onto 900 camels. Theophanes is the only source for this, and every later version traces back to him; L.I. Conrad considers it likely propaganda.\n\nStill unresolved: where the statue actually stood. Local tradition puts it at the two pillars at the Mandraki port entrance; curved marble blocks in the Fortress of St Nicholas have been proposed as its base; archaeologist Ursula Vedder places it on the acropolis hill instead. Nobody knows its pose either — only that the head had curly hair, like the Helios on Rhodian coins.\n\nImages: engravings by G. de Jode (c. 1580), Antonio Tempesta (1610), Crispijn van de Passe II (1614) and Georg Balthasar Probst (c. 1770); a Rhodian didrachm; and Mandraki harbour today.\n\n#colossusofrhodes #ancienthistory #sevenwonders #archaeology #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "colossusengraving.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "paper",
+      "stamp": "280 BC",
+      "headline": "It stood 54 years, then lay <y>broken for 800</y>",
+      "note": "Chares of Lindos finished it in 280 BC, about 33 metres tall. The tallest statue in the ancient world.",
+      "source": "G. de Jode engraving, c. 1580 · public domain",
+      "alt": "Engraving of a giant nude figure with spear and sword standing over a harbour of ships.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "fallenhead.jpg",
+      "crop": "36% 70%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Pliny saw <y>caverns yawning</y> inside the broken limbs",
+      "note": "Few men could clasp its thumb in their arms. Its fingers were larger than most whole statues.",
+      "source": "Crispijn van de Passe II, 1614 · Rijksmuseum, CC0",
+      "alt": "Engraving of a colossal stone head lying on the ground while small figures work around it.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "brokenstumps.jpg",
+      "crop": "47% 30%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "paper",
+      "stamp": "653 AD",
+      "headline": "One chronicler says <y>900 camels</y> carried the bronze off",
+      "note": "Theophanes wrote the remains were melted and sold in 653. He is the sole source, and scholars suspect propaganda.",
+      "source": "Antonio Tempesta, 1610 · LACMA · public domain",
+      "alt": "Etching of huge broken feet on a pedestal, a fallen head nearby, camels being loaded.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "harbourprint.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "The harbour-straddling pose was <y>a medieval invention</y>",
+      "note": "Bronze legs held apart would have collapsed under their own weight. No record says he held a torch.",
+      "source": "Georg Balthasar Probst, c. 1770 · public domain",
+      "alt": "Hand-coloured print of a crowned giant holding a flaming vessel above a harbour of ships.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "helioscoin.jpg",
+      "crop": "22% 48%",
+      "zoom": 2.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Nobody knows the pose. <y>The face they do know</y>",
+      "note": "Curly hair, a standard rendering at the time, like the Helios struck on Rhodian coins.",
+      "source": "Rhodian didrachm, 305–275 BC · photo Asi7777, CC0",
+      "alt": "Silver coin showing the head of the sun god Helios facing forward with flowing curly hair.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "mandrakiharbour.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "deep",
+      "headline": "An earthquake <y>snapped it at the knees</y>, and no one rebuilt it",
+      "note": "Ptolemy III offered to pay. An oracle left the Rhodians fearing Helios. Where it stood is still disputed.",
+      "source": "Mandraki harbour, Rhodes · photo Jebulon, CC0",
+      "alt": "Modern harbour entrance with two stone columns, a stone fort and lighthouse beyond.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "colossus-of-rhodes",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
