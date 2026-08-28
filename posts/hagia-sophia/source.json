@@ -1,0 +1,31 @@
+{
+  "subject": "Hagia Sophia, whose mosaics sat under plaster for five hundred years",
+  "wikipedia": "Hagia Sophia",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "exterior.jpg",
+      "commons": "File:Album de 132 phot. de Turquie et d'Égypte de la fin du XIXe siècle - Abdullah frères, Zangaki et autres phot. - btv1b53082984w (006 of 131).jpg"
+    },
+    {
+      "file": "nave.jpg",
+      "commons": "File:Gaspare Fossati - Louis Haghe - Vue générale de la grande nef, en regardant l'occident (Hagia Sophia - Ayasofya Mosque nave).jpg"
+    },
+    {
+      "file": "fossatisketch.jpg",
+      "commons": "File:Fossati 002.JPG"
+    },
+    {
+      "file": "deesis.jpg",
+      "commons": "File:Deesis mosaic Hagia Sophia.jpg"
+    },
+    {
+      "file": "zoe.jpg",
+      "commons": "File:Empress Zoe mosaic Hagia Sophia.jpg"
+    },
+    {
+      "file": "donormosaic.jpg",
+      "commons": "File:Hagia Sophia Southwestern entrance mosaics 2.jpg"
+    }
+  ]
+}
