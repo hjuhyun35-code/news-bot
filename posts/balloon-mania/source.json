@@ -1,0 +1,31 @@
+{
+  "subject": "The first balloon flights, and the villagers who attacked one with pitchforks",
+  "wikipedia": "Montgolfier brothers",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "aerostaticglobeplate.jpg",
+      "commons": "File:1783 balloonj.jpg"
+    },
+    {
+      "file": "inflatingoverfire.jpg",
+      "commons": "File:Montgolfier illustration 1784.jpg"
+    },
+    {
+      "file": "champdemarsascent.jpg",
+      "commons": "File:Experience de la machine areostatique.jpg"
+    },
+    {
+      "file": "versaillescrowd.jpg",
+      "commons": "File:A Monsieur de Faujas de St. Fond, de Plusieurs Accadémies - Expérience aërostatique, faite à Versailles le 19 septembre 1783 en présence de leurs Majestés, de la Famille royale et de plus de 130 milles... - btv1b55001609b.jpg"
+    },
+    {
+      "file": "tetheredmannedflight.jpg",
+      "commons": "File:Montgolfier brothers flight.jpg"
+    },
+    {
+      "file": "faujastitlepage.jpg",
+      "commons": "File:Description des expériences de la machine aérostatique de MM. de Montgolfier - DPLA - b3647281f3d019151207b39770423aa5 (page 1).jpg"
+    }
+  ]
+}
