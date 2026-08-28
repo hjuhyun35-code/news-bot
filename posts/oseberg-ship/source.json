@@ -1,0 +1,31 @@
+{
+  "subject": "The Oseberg ship, a whole vessel buried as a grave",
+  "wikipedia": "Oseberg ship",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "shipinhall.jpg",
+      "commons": "File:Osebergskipet - no-nb digifoto 20150603 00005 NB MIT FNR 17011.jpg"
+    },
+    {
+      "file": "burialmounddig.jpg",
+      "commons": "File:Osebergschiff.jpg"
+    },
+    {
+      "file": "prowinsoil.jpg",
+      "commons": "File:Excavation Oseberg ship 2.jpg"
+    },
+    {
+      "file": "excavators.jpg",
+      "commons": "File:Excavation Oseberg ship 1.jpg"
+    },
+    {
+      "file": "streettransport.jpg",
+      "commons": "File:Osebergskibet flyttes - no-nb digifoto 20160223 00018 NB NS NM 07625.jpg"
+    },
+    {
+      "file": "carvingdetail.jpg",
+      "commons": "File:Oseberg ship - IMG 9133.jpg"
+    }
+  ]
+}
