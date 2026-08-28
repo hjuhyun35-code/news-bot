@@ -1,0 +1,209 @@
+{
+  "claims": [
+    {
+      "claim": "The tapestry contains the first known picture of Halley's Comet.",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The picture of Halley's Comet, which appears in the upper border (scene 32), is the first known picture of this comet."
+    },
+    {
+      "claim": "The image is stitched in wool.",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The cloth consists of 58 scenes, all with Medieval Latin tituli, embroidered on linen with coloured woollen yarns."
+    },
+    {
+      "claim": "In scene 32, men point at a star with a streaming tail.",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Bayeux Tapestry  - Scene 32 : men staring at  Halley's Comet"
+    },
+    {
+      "claim": "Harold, newly crowned, is shown seated in scene 32.",
+      "where": "card 1 note; caption",
+      "verdict": "contradicted",
+      "quote": "Description: Bayeux Tapestry  - Scene 32 : men staring at  Halley's Comet  - Scene 33 :  Harold  at Westminster"
+    },
+    {
+      "claim": "The Bayeux Tapestry is not technically a tapestry; it is wool embroidery stitched onto linen.",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "it is not a true tapestry in which the design is woven into the cloth in tapestry weave; it is technically an embroidery"
+    },
+    {
+      "claim": "It is 68.38 metres long and half a metre tall.",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "The Bayeux tapestry is embroidered in crewel (wool yarn) on a tabby-woven linen ground 68.38 metres long and 0.5 metres wide (224.3 ft × 1.6 ft)"
+    },
+    {
+      "claim": "Nine linen panels were each embroidered and then sewn together.",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Nine linen panels, between fourteen and three metres in length, were sewn together after each was embroidered and the joins were disguised with subsequent embroidery."
+    },
+    {
+      "claim": "The scene 1 photograph is by the Université de Caen Normandie (2017 campaign).",
+      "where": "card 2 source; caption",
+      "verdict": "supported",
+      "quote": "Author: Université de Caen Normandie · CNRS · ENSICAEN d'après la campagne photographique 2017 de la Fabrique de patrimoines en Normandie."
+    },
+    {
+      "claim": "The Latin inscription in scene 23 states that Harold made an oath to Duke William.",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "UBI hAROLD:SACRAMENTUM:FECIT: VVILLELMO DVCI"
+    },
+    {
+      "claim": "Harold's oath was sworn on holy relics.",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "William gives Harold arms and armour (possibly knighting him) and Harold takes an oath on saintly relics.(scene 23)"
+    },
+    {
+      "claim": "Nothing on the cloth says what Harold promised in the oath.",
+      "where": "card 3 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Although the writing on the tapestry explicitly states an oath is taken there is no clue as to what is being promised."
+    },
+    {
+      "claim": "The tapestry credits the coronation to Stigand, an excommunicated archbishop.",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Both the tapestry and Norman sources name Stigand, the excommunicated archbishop of Canterbury, as the man who crowned Harold, possibly to discredit Harold's kingship"
+    },
+    {
+      "claim": "Stigand is named beside the crowned Harold in the coronation scene.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "STIGANT ARCHIEPS"
+    },
+    {
+      "claim": "Scholars now think Ealdred of York actually performed the coronation.",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Contemporary scholarship has not decided the matter, although it is generally thought that Ealdred performed the coronation."
+    },
+    {
+      "claim": "Drawings/engravings of 1729 and 1730 show a spear or lance rather than an arrow, with no fletchings.",
+      "where": "card 5 headline/note; caption",
+      "verdict": "supported",
+      "quote": "Benoît's engraving of 1729, and Bernard de Montfaucon's engravings of the tapestry as it was in 1730, show a spear or lance in place of the arrow and no arrow fletchings."
+    },
+    {
+      "claim": "Needle holes in the linen suggest something was removed and fletchings added.",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Further, needle holes in the linen suggest that something has been removed, or shortened, and fletchings added to form an arrow."
+    },
+    {
+      "claim": "The engraving shown is by Charles Alfred Stothard, 1823.",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Description: Engraving from a set of the complete Bayeux tapestry, published in 1823 ... Author: Charles Alfred Stothard"
+    },
+    {
+      "claim": "The star with a streaming tail is now identified as Halley's Comet.",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "A star with a streaming tail, now known to be Halley's Comet, then appears."
+    },
+    {
+      "claim": "The name \"Harold\" appears above several figures in the death scene — one struck in the eye, another cut down by a sword — and how he died is still debated.",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "the name \"Harold\" appears above a number of knights, making it difficult to identify which character is Harold, since one character appears with an arrow shot in his head under the name \"Harold\" while another character is slain by a sword underneath the words \"was slain\""
+    },
+    {
+      "claim": "Scholars think the tapestry was made in England in the 1070s.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It is likely that it was commissioned by Bishop Odo of Bayeux, William's half-brother, and made for him in England in the 1070s."
+    },
+    {
+      "claim": "It was probably commissioned by Bishop Odo of Bayeux, William's half-brother.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it was probably commissioned by William's half-brother, Bishop Odo of Bayeux, who, after the Conquest, also became Earl of Kent"
+    },
+    {
+      "claim": "It was probably stitched by women needleworkers.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The actual physical work of stitching was most probably undertaken by women needleworkers."
+    },
+    {
+      "claim": "Below Harold, in the border, is a fleet of ghostly ships.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At this point, the lower border of the tapestry shows a fleet of ghost-like ships thus hinting at a future invasion.(scene 33)"
+    },
+    {
+      "claim": "The tapestry carries the earliest known depiction of a harrow.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A harrow, a newly invented implement, is depicted (scene 10) and this is the earliest known depiction."
+    },
+    {
+      "claim": "The arrow in Harold's eye may not be original.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Some recent historians disagree with the traditional view that Harold is the figure struck in the eye with an arrow, and that the arrow is a later 18th/19th century modification following a period of repair."
+    },
+    {
+      "claim": "Medieval iconography held that a perjurer died with a weapon through the eye.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It was common medieval iconography that a perjurer was to die with a weapon through the eye."
+    },
+    {
+      "claim": "The tapestry was built to argue that Harold broke his oath.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Therefore, the tapestry might be said to emphasise William's rightful claim to the throne by depicting Harold as an oath breaker."
+    },
+    {
+      "claim": "Who designed the tapestry remains unresolved.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Howard B. Clarke has proposed that the designer of the tapestry ... was Scolland, the abbot of St Augustine's Abbey in Canterbury ... Alternatively, Christine Grainge has argued that the designer may have been Lanfranc, Archbishop of Canterbury 1070–1089."
+    },
+    {
+      "claim": "What the missing end panels showed is unknown.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Other modern artists have attempted to complete the work by creating panels depicting subsequent events up to William's coronation, though the actual content of the missing panels is unknown."
+    },
+    {
+      "claim": "A poem by Baldric of Dol describes a similar hanging ending with William's coronation in London.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A poem by Baldric of Dol describes a tapestry on the walls of the personal apartments of Adela of Normandy, which is very similar to the Bayeux depiction. He describes the closing scene as the coronation of William in London."
+    },
+    {
+      "claim": "The tapestry was confiscated in 1792 to cover military wagons and was rescued by a local lawyer.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "During the French Revolution, in 1792, the tapestry was confiscated as public property to be used for covering military wagons. It was rescued from a wagon by a local lawyer who stored it in his house until the troubles were over"
+    },
+    {
+      "claim": "In 1944 the Gestapo moved the tapestry to the Louvre.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On 27 June 1944 the Gestapo took the tapestry to the Louvre"
+    },
+    {
+      "claim": "Himmler's order to send it onward was intercepted at Bletchley Park.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Himmler sent a message (intercepted by Bletchley Park) ordering it to be taken to \"a place of safety\", thought to be Berlin"
+    },
+    {
+      "claim": "The tapestry photographs used (comet, oath, coronation, Harold's death) are by Myrabella and in the public domain.",
+      "where": "caption; card sources",
+      "verdict": "supported",
+      "quote": "Author: Myrabella\nLicence: Public domain"
+    }
+  ],
+  "problems": 1
+}

@@ -1,0 +1,86 @@
+{
+  "caption": "Why is Halley's Comet on the Bayeux Tapestry?\n\nThe tapestry is not a tapestry. It is embroidery — coloured wool stitched onto linen, 68.38 metres long and half a metre tall, nine panels sewn together after each was worked. Scholars think it was made in England in the 1070s, probably commissioned by Bishop Odo of Bayeux, William's half-brother, and probably stitched by women needleworkers.\n\nIn scene 32, men point up at a star with a streaming tail while Harold sits newly crowned. Below him, in the border, a fleet of ghostly ships. It is the first known picture of Halley's Comet. The same cloth also carries the earliest known depiction of a harrow.\n\nThe arrow in Harold's eye may not be original. Engravings made in 1729 and 1730 show a spear or lance there instead, with no fletchings, and needle holes in the linen suggest something was removed and fletchings added later. Medieval iconography held that a perjurer died with a weapon through the eye — which suits a story built to argue that Harold broke his oath.\n\nStill unresolved: who designed it, whether Harold died by arrow or sword, what the oath actually promised, and what the missing end panels showed. A poem by Baldric of Dol describes a similar hanging ending with William's coronation in London.\n\nThe tapestry was confiscated in 1792 to cover military wagons and rescued by a local lawyer. In 1944 the Gestapo moved it to the Louvre; Himmler's order to send it onward was intercepted at Bletchley Park.\n\nImages: photographs of the Bayeux Tapestry by Myrabella; scene 1 photographed by the Université de Caen Normandie campaign, 2017; engraving by Charles Alfred Stothard, 1823. All public domain.\n\n#bayeuxtapestry #halleyscomet #1066 #medievalhistory #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "comet.jpg",
+      "crop": "30% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The <y>first picture of Halley's Comet</y> is stitched in wool",
+      "note": "Scene 32 of the Bayeux Tapestry. Men point at a star with a streaming tail above a newly crowned Harold.",
+      "source": "Bayeux Tapestry, scene 32 · photo Myrabella",
+      "alt": "Embroidered men pointing up at a comet with a streaming tail above towers.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "edwardrex.jpg",
+      "crop": "55% 45%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Not a tapestry at all — <y>wool stitched onto linen</y>",
+      "note": "68.38 metres long, half a metre tall. Nine linen panels, each embroidered, then sewn together.",
+      "source": "Bayeux Tapestry, scene 1 · Université de Caen Normandie",
+      "alt": "Embroidered scene of King Edward seated, labelled EDWARD REX above an arch.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "oath.jpg",
+      "crop": "25% 50%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The oath is named — <y>but never explained</y>",
+      "note": "The Latin says Harold swore to Duke William on holy relics. Nothing on the cloth says what he promised.",
+      "source": "Bayeux Tapestry, scene 23 · photo Myrabella",
+      "alt": "Harold reaching toward two reliquaries under Latin lettering about an oath.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "coronation.jpg",
+      "crop": "58% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "It credits the coronation to an <y>excommunicated archbishop</y>",
+      "note": "Stigand is named beside the crowned Harold. Scholars now think Ealdred of York actually performed it.",
+      "source": "Bayeux Tapestry, scenes 29–31 · photo Myrabella",
+      "alt": "Crowned Harold enthroned with orb and sceptre beside a robed archbishop.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "engraving.jpg",
+      "crop": "50% 22%",
+      "zoom": 1.9,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Drawings from the 1720s show a <y>spear, not an arrow</y>",
+      "note": "Engravings of 1729 and 1730 show no fletchings. Needle holes suggest something was removed and altered.",
+      "source": "Charles Alfred Stothard, engraving, 1823",
+      "alt": "Coloured 1823 engraving of tapestry scenes with ships, horses and Latin text.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "haroldslain.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The comet is real. <y>Harold's death is not settled.</y>",
+      "note": "\"Harold\" sits above several figures — one struck in the eye, one cut down by a sword. How he died is still debated.",
+      "source": "Bayeux Tapestry, scene 57 · photo Myrabella",
+      "alt": "Battle scene with mounted knight, falling soldier and Latin words about Harold slain.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "bayeux-tapestry",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
