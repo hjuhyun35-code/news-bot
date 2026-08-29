@@ -1,0 +1,31 @@
+{
+  "subject": "The Dead Sea Scrolls, found when a boy threw a stone into a cave",
+  "wikipedia": "Dead Sea Scrolls",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "qumrancave.jpeg",
+      "commons": "File:Qumran.jpeg"
+    },
+    {
+      "file": "caveentrance1948.jpg",
+      "commons": "File:Ingang van de grot bij Qumran waarin de Dode Zeerollen werden ontdekt, Bestanddeelnr 255-4939.jpg"
+    },
+    {
+      "file": "storagejars.jpg",
+      "commons": "File:Twee kruiken van aardewerk waarin enkele van de Dode Zeerollen werden gevonden i, Bestanddeelnr 255-4938.jpg"
+    },
+    {
+      "file": "isaiahscroll.jpg",
+      "commons": "File:Great Isaiah Scroll.jpg"
+    },
+    {
+      "file": "genesisfragment.jpg",
+      "commons": "File:Genesis 1 Dead Sea Scroll (Cropped).jpg"
+    },
+    {
+      "file": "templescroll.png",
+      "commons": "File:Temple Scroll.png"
+    }
+  ]
+}
