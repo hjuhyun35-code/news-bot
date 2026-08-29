@@ -1,0 +1,73 @@
+{
+  "caption": "What is the Book of Kells? A Gospel book in Latin, made around 800 by Columban monks — probably begun on Iona and finished at Kells, County Meath.\n\n340 vellum leaves survive. Thirty-three pages are given over almost entirely to decoration. One of them, the Chi Rho page, spends the whole sheet on the two Greek letters that abbreviate the word Christ.\n\nIt was never built to be practical. The cross-reference tables at the front were squeezed from twelve pages into ten, and the chapter numbers were never written into the margins, so the tables cannot be used at all. Mistakes went uncorrected: at Matthew 10:34 the scribe wrote gaudium, joy, where the text reads gladium, sword. Aesthetics were given priority over utility.\n\nIn 1007 the Annals of Ulster record the book stolen at night from the sacristy at Kells for the sake of its wrought cover. It was recovered months later under a sod, the gold and jewels gone. About thirty folios are missing, probably lost then. A 19th-century rebinding cropped the pages and shaved parts of the illustrations away. In 2000 a volume flown to Canberra suffered minor pigment damage, thought to have been caused by the aeroplane's engine vibrations.\n\nStill unresolved: where it was actually made. Iona, Kells, both in sequence, or a monastery in Pictish Scotland — scholars accept the question will probably never be settled conclusively.\n\nImages: pages from the Book of Kells, Trinity College Dublin, all public domain.\n\n#bookofkells #medievalmanuscripts #insularart #illuminatedmanuscript #archivehistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "chirho.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "This <y>entire page</y> is two letters",
+      "note": "Chi and rho abbreviate the word Christ. It is the largest such monogram in any Insular Gospel book.",
+      "source": "Book of Kells, Chi Rho page (fol. 34r) · public domain",
+      "alt": "Densely decorated manuscript page filled by a huge interlaced Chi Rho monogram in colour.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "textpage.jpg",
+      "crop": "45% 35%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The scribe wrote <y>joy</y> where the Gospel says sword",
+      "note": "At Matthew 10:34 Kells reads gaudium, not gladium. Scribes often worked from memory rather than the book in front of them.",
+      "source": "Book of Kells, folio 309r · public domain",
+      "alt": "Lines of insular majuscule Latin script with small decorated initial letters in the margin.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "fourevangelists.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "It looks gilded. There is <y>no gold in it</y>",
+      "note": "Insular work used no gold or silver leaf. Modern pigment tests also ruled out the lapis lazuli long assumed to be here.",
+      "source": "Book of Kells, folio 27v · public domain",
+      "alt": "Framed manuscript panels showing a winged man and a winged eagle, haloed, in gold and blue.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "catandmouse.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "A <y>cat and a mouse</y> between two lines of scripture",
+      "note": "Painted animals, humans and beasts run through the text in unprecedented quantity. This pair sits mid-page, holding a disc.",
+      "source": "Book of Kells, folio 48r, c. 800 · public domain",
+      "alt": "Tiny painted cat with striped blue and yellow body chasing a mouse between lines of Latin text.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "arrestofchrist.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "It was made to <y>be seen, not read</y>",
+      "note": "It lay on the high altar and the reader largely recited from memory. Where it was made, Iona or Kells, is still unsettled.",
+      "source": "Book of Kells, Arrest of Christ · public domain",
+      "alt": "Manuscript painting of a robed central figure held by two smaller men beneath a decorated arch.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "book-of-kells",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

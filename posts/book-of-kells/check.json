@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "The Chi Rho page (fol. 34r) is given over entirely to the monogram — 'this entire page is two letters'",
+      "where": "card 1 headline; caption ('spends the whole sheet on the two Greek letters')",
+      "verdict": "supported",
+      "quote": "In the Book of Kells, this second beginning was given a decorative programme equal to those prefacing the Gospels, its Chi Rho monogram having grown to consume the entire page."
+    },
+    {
+      "claim": "Chi and rho abbreviate the word Christ",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The Greek letters chi and rho were normally used in medieval manuscripts to abbreviate the word Christ."
+    },
+    {
+      "claim": "It is the largest such monogram in any Insular Gospel book",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "This miniature is the largest and most lavish extant Chi Rho monogram in any Insular Gospel book, the culmination of a tradition that started with the Book of Durrow."
+    },
+    {
+      "claim": "The Chi Rho page is folio 34r",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "At Matthew 1:18 (folio 34r), the actual narrative of Christ's life starts."
+    },
+    {
+      "claim": "At Matthew 10:34 the Book of Kells reads gaudium ('joy') where the Gospel text has gladium ('sword')",
+      "where": "card 2 headline and note; caption",
+      "verdict": "supported",
+      "quote": "However, the manuscript reads gaudium (\"joy\") where it should read gladium (\"sword\"), thus translating as \"I came not (only) to send peace, but joy.\""
+    },
+    {
+      "claim": "Scribes often worked from memory rather than from the exemplar in front of them",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Evidence suggests that when the scribes were writing the text they often depended on memory rather than on their exemplar."
+    },
+    {
+      "claim": "The text page shown is folio 309r of the Book of Kells",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:KellsFol309r.jpg"
+    },
+    {
+      "claim": "Insular work, including this manuscript, used no gold or silver leaf",
+      "where": "card 3 headline and note",
+      "verdict": "supported",
+      "quote": "As is usual with insular work, there was no use of gold or silver leaf in the manuscript."
+    },
+    {
+      "claim": "Modern examination of the pigments ruled out lapis lazuli, long assumed to have been used",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "Long considered evidence of the great cost required to create the manuscript, modern examination of the pigments has shown that murex shell purple and lapis lazuli were not used."
+    },
+    {
+      "claim": "The four-evangelist-symbols page shown is folio 27v",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Description: Image of Folio 27v, with the four evangelist symbols from the  en:Book of Kells , a 1200 year old book."
+    },
+    {
+      "claim": "The image shows a cat and a mouse between two lines of scripture text",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Description: Ausschnitt aus einer Seite des  Book of Kells : Katze und Maus (fol. 48r)"
+    },
+    {
+      "claim": "Painted animals, humans and beasts run through the text in unprecedented quantity",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "The text is accompanied by many full-page miniature illustrations, while smaller painted decorations appear throughout the text in unprecedented quantities."
+    },
+    {
+      "claim": "The pair holds a disc",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "In the photograph the slender animal's mouth grips a round yellow disc, clearly visible at the right of the crop."
+    },
+    {
+      "claim": "This pair sits mid-page",
+      "where": "card 4 note",
+      "verdict": "unsupported",
+      "quote": "Description: Ausschnitt aus einer Seite des  Book of Kells : Katze und Maus (fol. 48r)"
+    },
+    {
+      "claim": "The cat-and-mouse detail is on folio 48r and dates to c. 800",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Date: circa 800"
+    },
+    {
+      "claim": "The book had a display/sacramental rather than reading purpose — made to be seen, not read",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "The book had a sacramental rather than educational purpose."
+    },
+    {
+      "claim": "It lay on the high altar and the reader largely recited from memory",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Such a large, lavish Gospel would have been left on the high altar of the church and removed only for the reading of the Gospel during Mass, with the reader probably reciting from memory more than reading the text."
+    },
+    {
+      "claim": "Where it was made — Iona or Kells — is still unsettled",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Although the question of the exact location of the book's production will probably never be answered conclusively, the first theory, that it was begun at Iona and continued at Kells, is widely accepted."
+    },
+    {
+      "claim": "The image shown is the Arrest of Christ from the Book of Kells",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "The text of Matthew is illustrated with a full-page illumination of the Arrest of Christ (folio 114r)."
+    },
+    {
+      "claim": "The Book of Kells is a Gospel book in Latin made around 800 by Columban monks",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It is believed to have been created c. 800 AD."
+    },
+    {
+      "claim": "It was probably begun on Iona and finished at Kells, County Meath",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the first theory, that it was begun at Iona and continued at Kells, is widely accepted"
+    },
+    {
+      "claim": "340 vellum leaves survive",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The manuscript today comprises 340 leaves or folios; the recto and verso of each leaf total 680 pages."
+    },
+    {
+      "claim": "Thirty-three pages are given over almost entirely to decoration",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Thirty-three of the surviving pages contain decorative elements which dominate the entire page."
+    },
+    {
+      "claim": "The Eusebian cross-reference tables at the front were squeezed from twelve pages into ten",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the Book of Kells, the makers of the manuscript planned for twelve pages (folios 1v through 7r) but for unknown reasons, condensed them into ten, leaving folios 6v and 7r blank."
+    },
+    {
+      "claim": "The chapter numbers were never written into the margins, so the tables cannot be used",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Second and more importantly, the corresponding chapter numbers were never inserted into the margins of the text, making it impossible to find the sections to which the canon tables refer."
+    },
+    {
+      "claim": "Aesthetics were given priority over utility",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In general, nothing was done to disrupt the look of the page: aesthetics were given priority over utility."
+    },
+    {
+      "claim": "In 1007 the Annals of Ulster record the book being stolen at night from the sacristy at Kells for the sake of its wrought cover",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "This entry records that \"the great Gospel of Columkille [Columba], the chief relic of the Western World, was wickedly stolen during the night from the western sacristy of the great stone church at Cenannas on account of its wrought shrine\"."
+    },
+    {
+      "claim": "It was recovered months later under a sod, with the gold and jewels gone",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The manuscript was recovered a few months later—minus its golden and bejewelled cover—\"under a sod\"."
+    },
+    {
+      "claim": "About thirty folios are missing, probably lost at the time of the theft",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The bulk of the missing material (or, about 30 folios) was perhaps lost when the book was stolen in the early 11th century."
+    },
+    {
+      "claim": "A 19th-century rebinding cropped the pages and lost parts of the illustrations",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "During a 19th-century rebinding, the pages were badly cropped, with small parts of some illustrations being lost."
+    },
+    {
+      "claim": "In 2000 a volume flown to Canberra suffered minor pigment damage, thought to be caused by the aeroplane's engine vibrations",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The volume suffered what has been called \"minor pigment damage\" while en route to Canberra. It is thought that the vibrations from the aeroplane's engines during the long flight may have caused the damage."
+    },
+    {
+      "claim": "Candidate places of production include Iona, Kells, both in sequence, or a monastery in Pictish Scotland",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Finally, it may have been the product of Dunkeld or another monastery in Pictish Scotland, though there is no actual evidence for this theory, especially considering the absence of any surviving manuscript from Pictland."
+    },
+    {
+      "claim": "The manuscript is held by Trinity College Dublin and the images are public domain",
+      "where": "caption image credit",
+      "verdict": "supported",
+      "quote": "Library of Trinity College Dublin, MS A. I. [58]"
+    }
+  ],
+  "problems": 1
+}
