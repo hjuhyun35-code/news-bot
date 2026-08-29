@@ -1,0 +1,27 @@
+{
+  "subject": "The Book of Kells, with ten thousand dots on a single page",
+  "wikipedia": "Book of Kells",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "chirho.jpg",
+      "commons": "File:KellsFol034rChiRhoMonogram.jpg"
+    },
+    {
+      "file": "catandmouse.jpg",
+      "commons": "File:Book of Kells 48r - Katze und Maus.jpg"
+    },
+    {
+      "file": "fourevangelists.jpg",
+      "commons": "File:KellsFol027v4Evang.jpg"
+    },
+    {
+      "file": "arrestofchrist.jpg",
+      "commons": "File:KellsFol114rArrestOfChrist.jpg"
+    },
+    {
+      "file": "textpage.jpg",
+      "commons": "File:KellsFol309r.jpg"
+    }
+  ]
+}
