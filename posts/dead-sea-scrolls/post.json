@@ -1,0 +1,86 @@
+{
+  "caption": "Who actually found the Dead Sea Scrolls?\n\nBetween November 1946 and February 1947, three Bedouin — Muhammed edh-Dhib, his cousin Jum'a Muhammed and Khalil Musa — were at the cliffs near Qumran. Jum'a noticed the caves. Edh-Dhib was the first to actually fall into the one now called Cave 1. He came back to camp with a handful of scrolls: Isaiah, the Habakkuk commentary, the Community Rule. None were destroyed.\n\nThe scrolls hung on a tent pole while the family decided what to do with them. At some point the Community Rule was split in two. A dealer in Bethlehem handed them back, saying they were worthless. Three were then sold for seven Jordanian pounds, roughly $28.\n\nIn 1954 four scrolls were advertised in The Wall Street Journal and sold at the Waldorf-Astoria in New York for $250,000.\n\nCave 1 itself was then lost for nearly two years, and was only rediscovered on 28 January 1949. Digging went on until 1956: eleven caves, 981 manuscripts. Cave 4 alone produced 90% of everything, torn into about 15,000 pieces. The Book of Esther has never turned up.\n\nStill open: who wrote them. The long-standing answer is the Essenes; other scholars argue for priests in Jerusalem or unknown Jewish groups. Israel's custody of the collection is disputed by Jordan and the Palestinian Authority.\n\nImages: the Qumran cave photographed by Effi Schweizer, 2007; the cave entrance and the pottery jars by Willem van de Poll (Nationaal Archief); the Great Isaiah Scroll photographed by Ardon Bar Hama; Genesis fragment 4Q7; the Temple Scroll, Israel Museum.\n\n#deadseascrolls #qumran #archaeology #archivephoto #ancienthistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "qumrancave.jpeg",
+      "crop": "48% 78%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "A shepherd fell into this cave. <y>Seven scrolls inside.</y>",
+      "note": "Muhammed edh-Dhib, winter 1946–47. His cousin spotted the caves; he was the first one in.",
+      "source": "Qumran cave, Effi Schweizer, 2007 · public domain",
+      "alt": "Pale limestone cliff above a desert wadi with a dark cave opening near the centre.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "caveentrance1948.jpg",
+      "crop": "46% 62%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Then scholars <y>lost the cave for two years</y>.",
+      "note": "Cave 1 was rediscovered on 28 January 1949, by a Belgian UN observer and an Arab Legion captain.",
+      "source": "Willem van de Poll, Qumran, 1948 · Nationaal Archief",
+      "alt": "Black and white photo of a man seated at the foot of a rocky slope beside a cleft.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "storagejars.jpg",
+      "crop": "50% 48%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Three of them sold for <y>seven Jordanian pounds</y>.",
+      "note": "About $28. A Bethlehem dealer had already handed the scrolls back, saying they were worthless.",
+      "source": "Willem van de Poll, Qumran jars · Nationaal Archief",
+      "alt": "Two lidded pottery storage jars photographed side by side against a plain backdrop.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "isaiahscroll.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "paper",
+      "headline": "This pushed the Hebrew Bible back <y>a thousand years</y>.",
+      "note": "Before Qumran the oldest Hebrew scriptures were 10th-century Masoretic texts. This scroll is 2nd century BCE.",
+      "source": "Great Isaiah Scroll, photo Ardon Bar Hama",
+      "alt": "Three long horizontal strips of an ancient parchment scroll covered in Hebrew columns.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "genesisfragment.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Cave 4 gave up <y>15,000 pieces</y> of 500 texts.",
+      "note": "That single cave produced 90% of all the scrolls found. This scrap is 4Q7, the start of Genesis.",
+      "source": "Dead Sea Scroll 4Q7, Genesis 1 · CC0",
+      "alt": "Torn brown leather scroll fragment with several lines of black Hebrew script.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "templescroll.png",
+      "crop": "50% 55%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "<y>The scrolls are genuine</y>. The authors are not known.",
+      "note": "All 16 fragments the Museum of the Bible bought were modern fakes. Who wrote the real ones is still argued.",
+      "source": "Temple Scroll 11Q19, Israel Museum · public domain",
+      "alt": "Ragged upper edge of a pale parchment scroll with dense lines of Hebrew writing.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "dead-sea-scrolls",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

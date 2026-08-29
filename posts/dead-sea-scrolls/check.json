@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "A shepherd fell into the cave where the first scrolls were found",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "Edh-Dhib's cousin noticed the caves, but edh-Dhib was the first to actually fall into one (the cave now called Cave 1)."
+    },
+    {
+      "claim": "Seven scrolls were inside that cave",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The shepherds discovered seven scrolls (see § Qumran caves and their contents) housed in jars in a cave near what is now known as the Qumran site."
+    },
+    {
+      "claim": "The cave shown in the 2007 photograph is the cave the shepherd fell into (Cave 1)",
+      "where": "card 1 headline (\"this cave\")",
+      "verdict": "unsupported",
+      "quote": "Archive title: File:Qumran.jpeg ... كهف قمران قرب أريحا، الضفة الغربية، فلسطين. تم اكتشاف مخطوطات البحر الميت في هذا الكهف"
+    },
+    {
+      "claim": "The finder was Muhammed edh-Dhib, in the winter of 1946–47",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The initial discovery by Bedouin shepherd Muhammed edh-Dhib, his cousin Jum'a Muhammed, and Khalil Musa took place between November 1946 and February 1947."
+    },
+    {
+      "claim": "His cousin spotted the caves; edh-Dhib was the first one in",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Edh-Dhib's cousin noticed the caves, but edh-Dhib was the first to actually fall into one (the cave now called Cave 1)."
+    },
+    {
+      "claim": "The Qumran cave photograph is by Effi Schweizer, 2007, public domain",
+      "where": "card 1 source / caption",
+      "verdict": "supported",
+      "quote": "Date: 2007-10\nAuthor: Effi Schweizer\nLicence: Public domain"
+    },
+    {
+      "claim": "Scholars lost the cave for about two years after the discovery",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "By the end of 1948, nearly two years after the discovery of the scrolls, scholars had yet to locate the original cave where the fragments had been found."
+    },
+    {
+      "claim": "Cave 1 was rediscovered on 28 January 1949 by a Belgian UN observer and an Arab Legion captain",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Consequently, Cave 1 was rediscovered on 28 January 1949 by Belgian United Nations observer captain Phillipe Lippens and Arab Legion captain Akkash el-Zebn."
+    },
+    {
+      "claim": "The cave entrance photograph was taken by Willem van de Poll at Qumran in 1948 (Nationaal Archief)",
+      "where": "card 2 source / caption",
+      "verdict": "supported",
+      "quote": "Beschrijving : Ingang van de grot bij Qumran waarin de Dode Zeerollen werden ontdekt. \nDatum : 1948 ... Fotograaf : Poll, Willem van de, [onbekend] \nAuteursrechthebbende : Nationaal Archief"
+    },
+    {
+      "claim": "Three of the scrolls were sold for seven Jordanian pounds",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "The Bedouins and the dealers returned to the site, leaving one scroll with Kando and selling three others to a dealer for seven Jordanian pounds (approximately $28, or $404 in 2025 dollars)."
+    },
+    {
+      "claim": "Seven Jordanian pounds was about $28",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "selling three others to a dealer for seven Jordanian pounds (approximately $28, or $404 in 2025 dollars)"
+    },
+    {
+      "claim": "A Bethlehem dealer had already returned the scrolls, saying they were worthless",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "The Bedouins first took the scrolls to a dealer named Ibrahim 'Ijha in Bethlehem. 'Ijha returned them, saying they were worthless, after being warned that they might have been stolen from a synagogue."
+    },
+    {
+      "claim": "The jars photographed by Willem van de Poll are Qumran jars in which scrolls were found",
+      "where": "card 3 source / caption",
+      "verdict": "supported",
+      "quote": "Beschrijving : Twee kruiken van aardewerk waarin enkele van de Dode Zeerollen werden gevonden in de grotten van Quamran"
+    },
+    {
+      "claim": "The discovery pushed the Hebrew Bible manuscript record back about a thousand years",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The Hebrew biblical manuscripts found among the Dead Sea Scrolls push that date back more than a millennium, to the 2nd century BCE."
+    },
+    {
+      "claim": "Before Qumran, the oldest Hebrew scriptures were 10th-century Masoretic texts",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Before the discovery of the Dead Sea Scrolls, the oldest Hebrew-language manuscripts of the Bible were Masoretic texts dating to the 10th century CE, such as the Aleppo Codex."
+    },
+    {
+      "claim": "The Great Isaiah Scroll dates to the 2nd century BCE",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "This manuscript was probably written by a scribe of the Jewish sect of the  Essenes  around the second century BC."
+    },
+    {
+      "claim": "The Great Isaiah Scroll image was photographed by Ardon Bar Hama",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Author: Photographs by Ardon Bar Hama, author of original document is unknown."
+    },
+    {
+      "claim": "Cave 4 produced about 15,000 fragments from 500 texts",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "It is by far the most productive of all Qumran caves, producing 90% of the Dead Sea Scrolls and scroll fragments (approx. 15,000 fragments from 500 different texts)"
+    },
+    {
+      "claim": "Cave 4 produced 90% of all the scrolls found",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "It is by far the most productive of all Qumran caves, producing 90% of the Dead Sea Scrolls and scroll fragments"
+    },
+    {
+      "claim": "The pictured fragment is 4Q7, the beginning of Genesis",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Dead Sea Scroll fragment 4Q7 with Genesis 1."
+    },
+    {
+      "claim": "The Museum of the Bible's 16 purchased fragments were all modern fakes",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "In 2020, the Museum of the Bible in the United States (also known as Green Collection) reported that all 16 purported \"Dead Sea Scroll fragments\" they had acquired between 2009 and 2014 were in fact modern forgeries."
+    },
+    {
+      "claim": "The scrolls themselves (the Qumran corpus) are genuine ancient documents",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "The results were summarized by VanderKam and Flint, who said the tests give \"strong reason for thinking that most of the Qumran manuscripts belong to the last two centuries BCE and the first century CE.\""
+    },
+    {
+      "claim": "Who wrote the scrolls is still disputed",
+      "where": "card 6 headline / note / caption",
+      "verdict": "supported",
+      "quote": "Archaeologists have long associated the scrolls with the ancient Jewish sect known as the Essenes, although some recent interpretations have challenged this connection and argue that priests in Jerusalem or other unknown Jewish groups wrote the scrolls."
+    },
+    {
+      "claim": "The pictured scroll is the Temple Scroll, 11Q19, from the Israel Museum, public domain",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Portion of the Temple Scroll, labeled 11Q19, one of the longest of the Dead Sea Scrolls. ... Author: Israel Museum\nLicence: Public domain"
+    },
+    {
+      "claim": "The three Bedouin were Muhammed edh-Dhib, his cousin Jum'a Muhammed and Khalil Musa, at the cliffs near Qumran",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "The initial discovery by Bedouin shepherd Muhammed edh-Dhib, his cousin Jum'a Muhammed, and Khalil Musa took place between November 1946 and February 1947."
+    },
+    {
+      "claim": "Edh-Dhib returned to camp with Isaiah, the Habakkuk commentary and the Community Rule",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "He retrieved a handful of scrolls, which Trever identifies as the Isaiah Scroll, Habakkuk Commentary, and the Community Rule, and took them back to the camp to show to his family."
+    },
+    {
+      "claim": "None of the scrolls were destroyed in the process",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "None of the scrolls were destroyed in this process."
+    },
+    {
+      "claim": "The scrolls hung on a tent pole while the family decided what to do with them",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The Bedouins kept the scrolls hanging on a tent pole while they contemplated what they should do with them, periodically showing the scrolls to their people."
+    },
+    {
+      "claim": "At some point the Community Rule was split in two",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "At some point during this time, the Community Rule was split in two."
+    },
+    {
+      "claim": "In 1954 four scrolls were advertised in The Wall Street Journal",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "Four of the Dead Sea Scrolls eventually went up for sale in an advertisement on 1 June 1954, The Wall Street Journal."
+    },
+    {
+      "claim": "They were sold at the Waldorf-Astoria in New York for $250,000",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "On 1 July 1954, the scrolls, after delicate negotiations and accompanied by three people including Mar Samuel, arrived at the Waldorf-Astoria Hotel in New York. They were purchased by Professor Mazar and the son of Professor Sukenik, Yigael Yadin, for $250,000"
+    },
+    {
+      "claim": "Digging went on until 1956",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Cave 11 was discovered in 1956 and yielded the last fragments to be found in the vicinity of Qumran."
+    },
+    {
+      "claim": "Eleven caves yielded 981 manuscripts",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "Researchers have assembled a collection of 981 different manuscripts (discovered in 1946/1947 and in 1956) from 11 caves"
+    },
+    {
+      "claim": "The Book of Esther has never been found among the scrolls",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The Book of Esther has not yet been found, and scholars believe Esther is missing because, as a Jew, her marriage to a Persian king may have been looked down upon by the inhabitants of Qumran"
+    },
+    {
+      "claim": "Israel's custody of the collection is disputed by Jordan and the Palestinian Authority",
+      "where": "caption paragraph 5",
+      "verdict": "supported",
+      "quote": "The Israeli government's custody of the Dead Sea Scrolls is disputed by Jordan and the Palestinian Authority on territorial, legal, and humanitarian grounds"
+    }
+  ],
+  "problems": 1
+}
