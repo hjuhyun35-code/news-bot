@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "The scrolls resembled lumps of charcoal and many were thrown away as such by workmen",
+      "where": "card 1 headline; caption para 1",
+      "verdict": "supported",
+      "quote": "In appearance the rolls resembled lumps of charcoal; and many were thrown away as such."
+    },
+    {
+      "claim": "A faint trace of letters seen on one blackened mass revealed the lumps were papyrus rolls",
+      "where": "card 1 note; caption para 1",
+      "verdict": "supported",
+      "quote": "Finally, a faint trace of letters was seen on one of the blackened masses, which was found to be a roll of papyrus, disintegrated by decay and damp, full of holes, cut, crushed, and crumpled."
+    },
+    {
+      "claim": "The discovery took place at Herculaneum in 1752",
+      "where": "card 1 note; caption para 1",
+      "verdict": "supported",
+      "quote": "In 1752, workmen of the Bourbon royal family accidentally discovered what is now known as the Villa of the Papyri."
+    },
+    {
+      "claim": "The pictured fragment is Herculaneum Papyrus 1521, British Library",
+      "where": "card 1 source / card 4 source (charredfragment.jpg, secondfragment.jpg)",
+      "verdict": "supported",
+      "quote": "Heruclaneum Papyrus 1521 f001r, British Library — and the frame itself is lettered \"PAPYRUS 1521. (1)\""
+    },
+    {
+      "claim": "Father Piaggio's machine unrolled a scroll at a rate of millimetres per day",
+      "where": "card 2 headline; caption para 3",
+      "verdict": "supported",
+      "quote": "In 1756, Abbot Piaggio, conserver of ancient manuscripts in the Vatican Library, used a machine he also invented, to unroll the first scroll, which took four years (millimeters per day)."
+    },
+    {
+      "claim": "The machine worked by silk threads attached to the edge of the papyrus",
+      "where": "card 2 note; caption para 3",
+      "verdict": "supported",
+      "quote": "Finally, that ingenious Italian monk, Father Piaggio, invented a very simple machine for unrolling the manuscripts by means of silk threads attached to the edge of the papyrus."
+    },
+    {
+      "claim": "The first roll took four years to unroll",
+      "where": "card 2 note; caption para 3",
+      "verdict": "supported",
+      "quote": "used a machine he also invented, to unroll the first scroll, which took four years (millimeters per day)"
+    },
+    {
+      "claim": "The method destroyed the beginning of every papyrus it was used on",
+      "where": "card 2 note; caption para 3",
+      "verdict": "supported",
+      "quote": "Of course this method destroyed the beginning of all the papyri, sometimes the end could not be found, and the papyri were in a terrible state of decay."
+    },
+    {
+      "claim": "The engraving of the unrolling apparatus dates from 1809",
+      "where": "card 2 source; caption image credits",
+      "verdict": "supported",
+      "quote": "Archive title: File:ARA 1809 V01 D032 Apparatus used to unroll the Herculenean papyri.jpg ... Date: 1809"
+    },
+    {
+      "claim": "The 1809 engraving depicts Piaggio's machine specifically",
+      "where": "card 2 (headline paired with source line)",
+      "verdict": "unsupported",
+      "quote": "Apparatus used to unroll the Herculenean papyri"
+    },
+    {
+      "claim": "Once a scroll was opened, the ink faded on exposure to air",
+      "where": "card 3 headline/note; caption para 3",
+      "verdict": "supported",
+      "quote": "If a scroll had been successfully opened, the original ink – exposed to air – would begin to fade."
+    },
+    {
+      "claim": "The text was copied because the writing disappeared",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The results were then copied (since the writing disappeared: see above), reviewed by Hellenist academics, and then corrected once more, if necessary, by the unrolling/copying team."
+    },
+    {
+      "claim": "Copies were checked by Hellenist scholars",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "reviewed by Hellenist academics, and then corrected once more, if necessary, by the unrolling/copying team"
+    },
+    {
+      "claim": "The Papyrus 1521 fragments were part of a gift from King Ferdinand of Naples to George IV of England given in exchange for a royal giraffe for his private zoo",
+      "where": "card 4 headline/note",
+      "verdict": "supported",
+      "quote": "The seven fragments, recovered and published in Piaggio’s workshop in Italy, were part of a gift containing a number of scrolls that King Ferdinand of Naples had sent to George IV of England in exchange for a royal giraffe for his private zoo."
+    },
+    {
+      "claim": "Earlier treatment attempts included rose water and liquid mercury",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Since their discovery, previous attempts used rose water, liquid mercury, vegetable gas, sulfuric compounds, papyrus juice, or a mixture of ethanol, glycerin, and warm water, in hopes to make scrolls readable."
+    },
+    {
+      "claim": "Humphry Davy used a chemical method involving chlorine",
+      "where": "card 5 note; caption para 3",
+      "verdict": "supported",
+      "quote": "Davy's chemical method, which used chlorine, managed to partially unroll 23 manuscripts."
+    },
+    {
+      "claim": "In 1877 an attempt with a small mill at the Louvre left only a quarter of one scroll intact",
+      "where": "card 5 note; caption para 3",
+      "verdict": "supported",
+      "quote": "In 1877, a papyrus was taken to a laboratory in the Louvre. An attempt to unravel it was made with a \"small mill\", but it was unsuccessful and was mostly destroyed, leaving only a quarter intact."
+    },
+    {
+      "claim": "In 2026 a still-closed scroll was read, yielding 22 columns of Stoic philosophy",
+      "where": "card 6 headline; caption para 5",
+      "verdict": "supported",
+      "quote": "In June 2026, the Vesuvius Challenge team announced that PHerc. 1667, known within the project as \"Scroll 4\", had been virtually unwrapped and read end-to-end. ... In the PHerc. 1667, 22 columns of text were recovered, containing \"a Stoic philosophical treatise that may be attributable to Chrysippus\"."
+    },
+    {
+      "claim": "The reading was achieved by X-ray scanning",
+      "where": "card 6 headline; caption para 5",
+      "verdict": "supported",
+      "quote": "In 2023, Nat Friedman, Daniel Gross, and computer scientist Brent Seales announced the Vesuvius Challenge, a competition to \"decipher Herculaneum scrolls using 3D X-ray software\"."
+    },
+    {
+      "claim": "Carbon ink is not visible on carbonized papyrus in X-ray scanning",
+      "where": "card 6 note; caption para 4",
+      "verdict": "supported",
+      "quote": "With X-ray micro-computed tomography (micro-CT), no ink can be seen, as carbon-based ink is not visible on carbonized papyrus."
+    },
+    {
+      "claim": "Ink makes the papyrus sheet slightly thicker at that point, which is what scanning can detect",
+      "where": "card 6 note; caption para 4",
+      "verdict": "supported",
+      "quote": "However, the presence of ink at a particular point on the parchment results in the scroll being slightly thicker at that point than in its immediate vicinity."
+    },
+    {
+      "claim": "A lower section of the villa's collection may remain buried",
+      "where": "card 6 note; caption para 6",
+      "verdict": "supported",
+      "quote": "There may still be a lower section of the Villa's collection that remains buried."
+    },
+    {
+      "claim": "The plates credited to G. Castrucci come from Tesoro letterario di Ercolano, Naples, 1858",
+      "where": "card 3/5/6 source lines; caption image credits",
+      "verdict": "supported",
+      "quote": "Image from book: Tesoro letterario di Ercolano, ossia, la reale officina dei papiri ercolanesi ... Naples, 1858. Date: 1858 Author: Giacomo Castrucci"
+    },
+    {
+      "claim": "The Castrucci 1858 plate is a source for the 2026 X-ray reading of a shut scroll",
+      "where": "card 6 source",
+      "verdict": "unsupported",
+      "quote": "Image from book: Tesoro letterario di Ercolano, ossia, la reale officina dei papiri ercolanesi , Stamperia e cartiere del Fibreno, Naples, 1858."
+    },
+    {
+      "claim": "The papyri were found about 120 feet down",
+      "where": "caption para 1",
+      "verdict": "supported",
+      "quote": "The papyri were found at a depth of about 120 feet (37 metres)."
+    },
+    {
+      "claim": "The workmen who found the villa were Bourbon workmen",
+      "where": "caption para 1",
+      "verdict": "supported",
+      "quote": "In 1752, workmen of the Bourbon royal family accidentally discovered what is now known as the Villa of the Papyri."
+    },
+    {
+      "claim": "The scrolls were carbonised in an oxygen-deprived room by the pyroclastic flows of Vesuvius in 79 AD",
+      "where": "caption para 2",
+      "verdict": "supported",
+      "quote": "Due to the eruption of Mount Vesuvius in 79 AD, bundles of scrolls were carbonized by the intense heat of the pyroclastic flows. This intense parching took place over an extremely short period of time, in a room deprived of oxygen, resulting in the scrolls' carbonization into compact and highly fragile blocks."
+    },
+    {
+      "claim": "There are more than 1,800 rolls and fragments",
+      "where": "caption para 2",
+      "verdict": "supported",
+      "quote": "The Herculaneum papyri are more than 1,800 scrolls of papyrus discovered in the 18th century in the Villa of the Papyri in Herculaneum."
+    },
+    {
+      "claim": "It is the only library from antiquity that survives in its entirety",
+      "where": "caption para 2",
+      "verdict": "supported",
+      "quote": "Indeed, all these rolls have come from the only surviving library from antiquity that exists in its entirety."
+    },
+    {
+      "claim": "Camillo Paderni sliced scrolls in half, copied readable text, and destroyed hundreds in the process",
+      "where": "caption para 3",
+      "verdict": "supported",
+      "quote": "Paderni used the method of slicing scrolls in half, copying readable text, by removing papyri layers. This transcription procedure was used for hundreds of scrolls, and in the process destroyed them."
+    },
+    {
+      "claim": "The machine's inventor was Father Antonio Piaggio",
+      "where": "caption para 3",
+      "verdict": "supported",
+      "quote": "Father Antonio Piaggio's machine. — Through this inevitable ignorance of the time, a larger number of the rolls were destroyed than the difficulties of the case necessitated."
+    },
+    {
+      "claim": "The 'Oslo' peeling method caused one roll to explode into 300 pieces",
+      "where": "caption para 3",
+      "verdict": "supported",
+      "quote": "Using the 'Oslo' peeling method, the CISPE team separated individual layers of the papyri. One of the scrolls exploded into 300 parts, and another did similarly but to a lesser extent."
+    },
+    {
+      "claim": "In 2023 the Vesuvius Challenge awarded $40,000 to a 21-year-old student for the first word read in an unopened scroll, porphyras, meaning 'purple'",
+      "where": "caption para 5",
+      "verdict": "supported",
+      "quote": "On 12 October 2023, the project awarded $40,000 to Luke Farritor, a 21-year-old computer science student at the University of Nebraska, for successfully detecting the first word in an unopened scroll: porphyras (Ancient Greek: ΠΟΡΦΥΡΑϹ, lit. 'purple')."
+    },
+    {
+      "claim": "The 2026 Stoic treatise may be attributable to Chrysippus",
+      "where": "caption para 5",
+      "verdict": "supported",
+      "quote": "containing \"a Stoic philosophical treatise that may be attributable to Chrysippus\""
+    },
+    {
+      "claim": "In 2016 academics warned that the volcano could erupt again and put the villa beyond reach",
+      "where": "caption para 6",
+      "verdict": "supported",
+      "quote": "Authors argue that \"the volcano may erupt again and put the villa effectively beyond reach\""
+    }
+  ],
+  "problems": 2
+}

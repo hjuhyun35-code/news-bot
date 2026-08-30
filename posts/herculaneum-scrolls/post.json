@@ -1,0 +1,86 @@
+{
+  "caption": "Why can't anyone unroll the Herculaneum scrolls?\n\nIn 1752, Bourbon workmen digging 120 feet down at Herculaneum hit a villa full of what looked like lumps of charcoal. Many were thrown away as exactly that. Then someone saw a faint trace of letters on one blackened mass.\n\nThey were papyrus scrolls, carbonised in an oxygen-starved room by the pyroclastic flows of Vesuvius in 79 AD. More than 1,800 rolls and fragments — the only library from antiquity that survives in its entirety.\n\nEvery attempt to open them destroyed something. Camillo Paderni sliced scrolls in half and copied what he could read, wrecking hundreds. Father Antonio Piaggio built a machine that pulled a roll open with silk threads; the first took four years, at millimetres per day, and the method destroyed the beginning of every papyrus it touched. Humphry Davy tried chlorine. The Louvre tried a small mill in 1877 and left a quarter of the scroll. An Oslo peeling method blew one roll into 300 pieces. And when a scroll did open, the ink faded on contact with air.\n\nThe carbon ink is chemically almost identical to the carbonised papyrus, so X-rays see nothing. What machines can see is thickness: ink makes the sheet very slightly thicker. In 2023 the Vesuvius Challenge paid a 21-year-old student $40,000 for the first word read inside an unopened scroll — porphyras, \"purple.\" In June 2026 the team read one whole rolled scroll end to end: 22 columns, a Stoic treatise possibly by Chrysippus.\n\nStill open: how much of the villa is unexcavated. A lower section of the collection may remain buried, and in 2016 academics warned the volcano could put it beyond reach.\n\nImages: Herculaneum Papyrus 1521, British Library; an 1809 engraving of the unrolling apparatus; plates from Giacomo Castrucci's Tesoro letterario di Ercolano, Naples, 1858.\n\n#herculaneum #vesuvius #papyrology #lostlibrary #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "charredfragment.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Workmen threw these away as <y>lumps of charcoal</y>",
+      "note": "Herculaneum, 1752. A faint trace of letters on one blackened mass showed they were scrolls.",
+      "source": "Herculaneum Papyrus 1521, British Library",
+      "alt": "Framed black carbonised papyrus fragment mounted on cream paper, labelled Papyrus 1521.true",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "unrollingmachine.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Father Piaggio's machine opened a scroll at <y>millimetres per day</y>",
+      "note": "Silk threads pulled the papyrus apart. The first roll took four years — and the method destroyed every scroll's beginning.",
+      "source": "Unrolling apparatus, engraving, 1809 · public domain",
+      "alt": "Engraved diagram of a frame with silk threads suspending a papyrus roll above a base.true",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "unrolledstrip.jpg",
+      "crop": "22% 50%",
+      "zoom": 2.4,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Once opened, the ink <y>faded in the air</y>",
+      "note": "Scribes copied the text as fast as it disappeared. Copies were then checked by Hellenist scholars.",
+      "source": "G. Castrucci, Tesoro letterario di Ercolano, 1858",
+      "alt": "Close view of Greek capital letters written in columns on a dark opened papyrus strip.true",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "secondfragment.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "These fragments were traded for <y>a royal giraffe</y>",
+      "note": "King Ferdinand of Naples sent scrolls to George IV of England in exchange for a giraffe for his zoo.",
+      "source": "Herculaneum Papyrus 1521, British Library",
+      "alt": "Second framed carbonised papyrus fragment, cracked and holed, on cream mount.true",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "latincolumn.jpg",
+      "crop": "50% 38%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Chemicals, mercury, chlorine, a <y>mill at the Louvre</y>",
+      "note": "Rose water, liquid mercury, Davy's chlorine. In 1877 a Louvre mill left only a quarter of one scroll intact.",
+      "source": "G. Castrucci, Tesoro letterario di Ercolano, 1858",
+      "alt": "Engraved facsimile of a ragged papyrus column of Latin capitals with large losses.true",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "letterformplate.jpg",
+      "crop": "38% 22%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "X-rays read one shut scroll in 2026: <y>22 columns of Stoic philosophy</y>",
+      "note": "Carbon ink is invisible to X-ray, but it thickens the sheet. Still buried: a possible lower section of the library.",
+      "source": "G. Castrucci, Tesoro letterario di Ercolano, 1858",
+      "alt": "Engraved plate of a Greek papyrus column beside a key of shorthand letter symbols.true",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "herculaneum-scrolls",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
