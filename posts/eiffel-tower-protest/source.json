@@ -1,0 +1,31 @@
+{
+  "subject": "The 1887 protest of Paris artists against the Eiffel Tower",
+  "wikipedia": "Eiffel Tower",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "construction.jpg",
+      "commons": "File:Louis-Emile Durandelle, The Eiffel Tower - State of the Construction, 1888.jpg"
+    },
+    {
+      "file": "plans.jpg",
+      "commons": "File:Eiffel Tower plans 21.jpg"
+    },
+    {
+      "file": "exposition.jpg",
+      "commons": "File:Exposition Universelle de Paris 1889 - Universitäts- und Landesbibliothek Darmstadt.jpg"
+    },
+    {
+      "file": "tower.jpg",
+      "commons": "File:Eiffel Tower, full-view looking toward the Trocadero, Exposition Universal, 1900, Paris, France.jpg"
+    },
+    {
+      "file": "platform.jpg",
+      "commons": "File:La Tour Eiffel - terrasse de la première plate-forme.jpg"
+    },
+    {
+      "file": "painting.jpeg",
+      "commons": "File:Delaunay - Tour Eiffel.jpeg"
+    }
+  ]
+}
