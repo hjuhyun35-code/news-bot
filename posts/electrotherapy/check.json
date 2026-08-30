@@ -1,0 +1,233 @@
+{
+  "claims": [
+    {
+      "claim": "A doctor directed high-voltage electrical discharge at the patient's knee in the Oudin coil photograph",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The doctor holds an insulated electrode with sharp metal points (B) connected to the top high voltage terminal of the coil, which produced a luminous \"brush\" discharge (called \"effluves\") which was directed toward the patient's knee."
+    },
+    {
+      "claim": "The photograph dates from 1907",
+      "where": "card 1 note / card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 1907"
+    },
+    {
+      "claim": "The Oudin coil generated radio-frequency electricity at very high voltage",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "a spark-excited resonant transformer circuit similar to a Tesla coil which generated very high voltage, low current radio frequency electricity"
+    },
+    {
+      "claim": "The patient sat on an insulated platform holding the other pole",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "Patient is seated upon an insulated platform, holding the electrode, A , which is the other pole, from the outer side of the Leyden jar, L J."
+    },
+    {
+      "claim": "The Oudin photograph is by Mihran Krikor Kassabian and is public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Author: Mihran Krikor Kassabian\nLicence: Public domain"
+    },
+    {
+      "claim": "Duchenne applied electrodes to a woman's cheeks",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Demonstrating the use of electrotherapy, the author applies electrodes to the cheeks of a woman to stimulate the facial muscles."
+    },
+    {
+      "claim": "The Duchenne image dates from 1862",
+      "where": "card 2 note / card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 1862"
+    },
+    {
+      "claim": "He applied current to stimulate the facial muscles",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "the author applies electrodes to the cheeks of a woman to stimulate the facial muscles"
+    },
+    {
+      "claim": "In 1856 Duchenne announced that alternating current was superior to direct current for triggering muscle contractions",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "In 1856 Guillaume Duchenne announced that alternating was superior to direct current for electrotherapeutic triggering of muscle contractions."
+    },
+    {
+      "claim": "The Duchenne image is plate/figure 78",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Fig. 78"
+    },
+    {
+      "claim": "At the current strength needed for muscle contraction, direct current blistered the skin at the anode and pitted it at the cathode",
+      "where": "card 3 headline and note / caption",
+      "verdict": "supported",
+      "quote": "at voltage strengths needed for muscle contractions, they cause the skin to blister (at the anode) and pit (at the cathode)"
+    },
+    {
+      "claim": "The Bristow work is a painting made in 1824",
+      "where": "card 3 note / card 3 source",
+      "verdict": "supported",
+      "quote": "Edmund Bristow (1787-1876) - Dispensing of Medical Electricity (Electrotherapy)"
+    },
+    {
+      "claim": "An asylum maintained its own electrotherapy cabinet",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Manicomio Nacional / Gabinete Electroterápico"
+    },
+    {
+      "claim": "The asylum photograph is from Montevideo",
+      "where": "card 4 note",
+      "verdict": "unsupported",
+      "quote": "El Uruguay a través de un siglo"
+    },
+    {
+      "claim": "The asylum photograph dates from 1910",
+      "where": "card 4 note / card 4 source",
+      "verdict": "supported",
+      "quote": "Date: 1910"
+    },
+    {
+      "claim": "Giovanni Aldini treated insanity with static electricity in 1823–24",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "Giovanni Aldini treated insanity with static electricity 1823–1824."
+    },
+    {
+      "claim": "Electrostatic generators remained standard equipment",
+      "where": "card 4 note",
+      "verdict": "unsupported",
+      "quote": "Electrostatic generators of various sorts"
+    },
+    {
+      "claim": "The Titanic carried an electric bath on F deck",
+      "where": "card 5 headline and note",
+      "verdict": "supported",
+      "quote": "This facility was placed near Titanic's water pool and the Turkish baths, on F deck."
+    },
+    {
+      "claim": "The electric bath used high-voltage static induction",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "The electric bath for high-voltage static induction"
+    },
+    {
+      "claim": "The electric bath sat near the ship's pool and Turkish baths",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "This facility was placed near Titanic's water pool and the Turkish baths, on F deck."
+    },
+    {
+      "claim": "The Titanic electric bath illustration dates from 1912",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "Date: 1912-04-30"
+    },
+    {
+      "claim": "Benjamin Franklin made electrotherapy widely known, but it was mostly taken up by quacks and charlatans",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "Benjamin Franklin, an early proponent of electrotherapy who made it widely known, but mostly taken up by quacks and charlatans"
+    },
+    {
+      "claim": "Electrotherapy survives in physical therapy today",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Electrotherapy is primarily used in physical therapy for:"
+    },
+    {
+      "claim": "Reviews find little or no evidence that electrotherapy relieves osteoarthritis pain",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "In particular, there is no evidence that electrotherapy is effective in the relief of pain arising from osteoarthritis"
+    },
+    {
+      "claim": "Reviews find little or no evidence for electrotherapy in neck pain",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "A 2016 review found that, \"in evidence of no effectiveness,\" clinicians should not offer electrotherapy for the treatment of neck pain or associated disorders."
+    },
+    {
+      "claim": "Reviews find little or no evidence for electrotherapy in healing pressure ulcers",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "A 2015 review found that the evidence supporting the use of electrotherapy in healing pressure ulcers was of low quality, and a 2015 Cochrane review found that no evidence that electromagnetic therapy, a subset of electrotherapy, was effective in healing pressure ulcers."
+    },
+    {
+      "claim": "Reviews find little to no evidence for electrotherapy in fibromyalgia",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "little to no evidence available to support electrotherapy for the management of fibromyalgia"
+    },
+    {
+      "claim": "Some mechanisms of electrotherapy's treatment effects remain little understood",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Some of the treatment effectiveness mechanisms are little understood."
+    },
+    {
+      "claim": "The card 6 image is an advertisement for Wilshire's Ionaco electric belt from the 1920s",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "An advertisement for the  Ionaco  electric belt"
+    },
+    {
+      "claim": "The first recorded treatment of a patient by electricity was by Johann Gottlob Krüger in 1743",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The first recorded treatment of a patient by electricity was by Johann Gottlob Krüger in 1743."
+    },
+    {
+      "claim": "In 1747 John Wesley promoted electrical treatment as a universal panacea and was rejected by mainstream medicine",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "John Wesley promoted electrical treatment as a universal panacea in 1747 but was rejected by mainstream medicine."
+    },
+    {
+      "claim": "London's first recorded medical treatments with electricity were at Middlesex Hospital in 1767",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The first recorded medical treatments with electricity in London were in 1767 at Middlesex Hospital in London using a special apparatus."
+    },
+    {
+      "claim": "Golding Bird at Guy's Hospital brought electrotherapy into the mainstream in the mid-19th century",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Golding Bird at Guy's brought electrotherapy into the mainstream in the mid-19th century."
+    },
+    {
+      "claim": "In the second half of the 19th century the emphasis shifted from large whole-body shocks to more measured, minimum effective doses",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the second half of the 19th century the emphasis moved from delivering large shocks to the whole body to more measured doses, the minimum effective."
+    },
+    {
+      "claim": "Almost all muscle rehabilitation since 1856 has used a biphasic waveform",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Since that time almost all rehabilitation involving muscle contraction has been done with a symmetrical rectangular biphasic waveform."
+    },
+    {
+      "claim": "Pulvermacher's chain was a wearable electrochemical device mostly used by quacks",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Pulvermacher's chain, a wearable electrochemical device mostly used by quacks, in use second half of 19th century"
+    },
+    {
+      "claim": "The Bristow painting depicts a medical electricity shop",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "MEDICAL Electricity to the Poor GRATIS from 8 till 10 in the Morning"
+    },
+    {
+      "claim": "All six images are public domain",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 2
+}

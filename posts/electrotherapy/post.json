@@ -1,0 +1,86 @@
+{
+  "caption": "Did Victorian doctors really run electricity through people to cure them? Yes — for nearly two centuries.\n\nThe first recorded treatment of a patient by electricity was by Johann Gottlob Krüger in 1743. In 1747 John Wesley promoted electrical treatment as a universal panacea; mainstream medicine rejected him. Giovanni Aldini treated insanity with static electricity in 1823–24. London's first recorded medical treatments with electricity were at Middlesex Hospital in 1767.\n\nGolding Bird at Guy's Hospital brought electrotherapy into the mainstream in the mid-19th century. In the second half of that century the emphasis shifted from delivering large shocks to the whole body to more measured doses — the minimum effective.\n\nIn 1856 Guillaume Duchenne announced that alternating current was better than direct current for triggering muscle contractions. Direct current, at the strength needed, blistered the skin at the anode and pitted it at the cathode. Almost all muscle rehabilitation since has used a biphasic waveform.\n\nBenjamin Franklin made electrotherapy widely known, but it was mostly taken up by quacks and charlatans. Pulvermacher's chain, a wearable electrochemical device, was mostly used by quacks.\n\nWhat is still open: electrotherapy survives in physical therapy today, but the evidence is thin. Reviews find little or no support for it in osteoarthritis, fibromyalgia, neck pain or pressure ulcers, and some of its mechanisms remain little understood.\n\nImages: Duchenne's facial electrode plate, 1862; Edmund Bristow's painting of a medical electricity shop, 1824; the Oudin coil treatment photographed by Mihran Krikor Kassabian, 1907; the electrotherapy cabinet of the Manicomio Nacional, 1910; the electric bath aboard the Titanic, 1912; and an Ionaco belt advertisement of the 1920s. All public domain.\n\n#electrotherapy #medicalhistory #victorianmedicine #publicdomain #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "oudintreatment.jpg",
+      "crop": "55% 45%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A doctor aimed <y>high-voltage sparks</y> at this man's knee",
+      "note": "1907. The Oudin coil made radio-frequency electricity at very high voltage. The patient sat on an insulated platform holding the other pole.",
+      "source": "Mihran Krikor Kassabian, 1907 · public domain",
+      "alt": "Seated man in a suit holding an electrode beside a tall coil apparatus on a table.a",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "facialelectrodes.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Duchenne pressed electrodes to <y>a woman's cheeks</y>",
+      "note": "1862. He applied current to stimulate the facial muscles. In 1856 he had announced alternating current beat direct current for contractions.",
+      "source": "G.-B. Duchenne, plate 78, 1862 · public domain",
+      "alt": "Woman in white gown with wire electrodes held against her cheek by a man's hand.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "electricityshop.jpg",
+      "crop": "58% 48%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Direct current <y>blistered and pitted</y> the skin",
+      "note": "At the strength needed for muscle contraction, DC blistered skin at the anode and pitted it at the cathode. Painted 1824.",
+      "source": "Edmund Bristow, 1824 · public domain",
+      "alt": "Painting of an old man applying an electrical machine to a grimacing seated patient.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "clinicroom.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "An asylum kept <y>its own electrotherapy cabinet</y>",
+      "note": "Montevideo, 1910. Aldini had treated insanity with static electricity back in 1823–24. Electrostatic generators stayed standard equipment.",
+      "source": "Manicomio Nacional, Uruguay, 1910 · public domain",
+      "alt": "Room with chairs, cabinets and a large static electricity disc machine at the far end.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "electricbath.jpg",
+      "crop": "40% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "The Titanic carried <y>an electric bath</y> on F deck",
+      "note": "The electric bath used high-voltage static induction. It sat near the ship's pool and Turkish baths.",
+      "source": "Electric bath aboard Titanic, 1912 · public domain",
+      "alt": "Wooden cabinet bed with a person lying inside, head resting at one open end.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "ionacoad.jpg",
+      "crop": "50% 62%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Franklin made it famous. <y>Quacks took it over.</y>",
+      "note": "Electrotherapy survives in physical therapy. But reviews find little or no evidence it relieves osteoarthritis, neck pain or pressure ulcers.",
+      "source": "Wilshire's Ionaco advertisement, 1920s · public domain",
+      "alt": "Printed advertisement showing a woman in an armchair wearing a large electric belt loop.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "electrotherapy",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
