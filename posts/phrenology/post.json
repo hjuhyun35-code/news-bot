@@ -1,0 +1,88 @@
+{
+  "caption": "Did phrenology ever count as real science?\n\nRoughly 1810 to 1840, it did. Franz Joseph Gall began lecturing in 1796 and claimed the brain was an aggregate of 27 organs, each pressing its size into the skull above it. Read the bumps, read the character.\n\nVictorian Britain loved it. George Combe's On the Constitution of Man sold more than 200,000 copies. By the 1840s London had over 28 phrenological societies. Queen Victoria and Prince Albert invited Combe to read their children's heads, and ordinary clients asked phrenologists about hiring staff and choosing a spouse.\n\nCritics called it pseudoscience at the time. Pierre Flourens removed parts of pigeons' brains and found the losses never matched Gall's map. Paul Broca found a left frontal lesion that destroyed speech production but not comprehension. Phrenologists could not even agree how many organs there were — 27, then over 40 — or where they sat.\n\nThe afterlife was uglier. Phrenology was used to rank races, and in the 1930s Belgian colonial authorities in Rwanda used it to explain a supposed Tutsi superiority over Hutu.\n\nWhat survives is Gall's one correct instinct: the brain is spatially organised, with a real division of labour. None of that organisation correlates with the shape of your skull.\n\nImages: Lorenzo Fowler's china phrenology bust (Whipple Museum); a skull annotated by Pastor Oberlin after Gall's system; the American Phrenological Journal, 1848; an 1875 lecture poster by Samuel Robert Wells; A. S. Hartrick's 'The Phrenologist', 1895; a 1927 photograph of a skull measurement.\n\n#phrenology #historyofscience #pseudoscience #victorianhistory #archivephoto",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "bust.jpg",
+      "crop": "48% 32%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Queen Victoria had her children's <y>heads read</y>",
+      "note": "She and Prince Albert invited George Combe, the era's chief promoter of phrenology, to feel the royal skulls.",
+      "source": "L. N. Fowler phrenology bust · Whipple Museum",
+      "alt": "China phrenology bust with the skull divided into labelled areas, in a display case.for",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "journalcover.jpg",
+      "crop": "50% 28%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "stamp": "1848",
+      "headline": "Combe's phrenology book sold <y>200,000 copies</y>",
+      "note": "Scientific lectures were middle-class entertainment. By the 1840s London had over 28 phrenological societies.",
+      "source": "American Phrenological Journal, March 1848",
+      "alt": "Engraved head in profile with the skull filled by small scenes; Know Thyself banner above.for",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "annotatedskull.jpg",
+      "crop": "45% 25%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Gall split the brain into <y>27 organs</y>",
+      "note": "His followers never agreed on the count. It drifted from 27 to over 40, and they struggled to locate them.",
+      "source": "Skull annotated by Pastor Oberlin, Waldersbach",
+      "alt": "Human skull with ink ovals drawn over the cranium, each labelled in handwritten French.for",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "reading.jpg",
+      "crop": "70% 40%",
+      "zoom": 1.9,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "People hired staff and <y>chose spouses</y> this way",
+      "note": "The phrenologist ran fingertips and palms over the skull, then issued a written character delineation.",
+      "source": "A. S. Hartrick, 'The Phrenologist', 1895",
+      "alt": "Engraving: a bearded man's hands feel a seated child's head while two adults watch.for",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "skullmeasuring.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "stamp": "1927",
+      "headline": "In 1927 an incoming <y>US congressman</y> was measured",
+      "note": "The theory died in the 1840s; the calipers did not. In 1930s Rwanda, Belgian officials used it to rank Tutsi over Hutu.",
+      "source": "Press photograph, United States, 1927",
+      "alt": "Elderly man in evening dress holding large calipers to the back of a seated man's head.for",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "lectureposter.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Skull shape predicts <y>nothing at all</y>",
+      "note": "Flourens' ablations and Broca's speech area dismantled it by 1840. Gall's one good guess: the brain really is spatially organised.",
+      "source": "Samuel Robert Wells, lecture poster, 1875",
+      "alt": "Printed poster reading Lectures on Phrenology in red, ringed by engraved portraits and heads.for",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "phrenology",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

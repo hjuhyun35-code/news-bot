@@ -1,0 +1,209 @@
+{
+  "claims": [
+    {
+      "claim": "Queen Victoria had her children's heads read by a phrenologist",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "Phrenology was not limited to the common people, and both Queen Victoria and Prince Albert invited George Combe to read the heads of their children."
+    },
+    {
+      "claim": "Queen Victoria and Prince Albert together invited George Combe to examine their children",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "both Queen Victoria and Prince Albert invited George Combe to read the heads of their children"
+    },
+    {
+      "claim": "George Combe was the era's chief promoter of phrenology",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "George Combe would become the chief promoter of phrenology throughout the English-speaking world after he viewed a brain dissection by Spurzheim, convincing him of phrenology's merits."
+    },
+    {
+      "claim": "The bust pictured is an L. N. Fowler phrenology bust held by the Whipple Museum",
+      "where": "card 1 source / image credits",
+      "verdict": "supported",
+      "quote": "Archive title: File:Lorenzo Fowler - Phrenology bust - Whipple Wh.2744.jpg"
+    },
+    {
+      "claim": "The bust is lettered 'PHRENOLOGY BY L.N.FOWLER'",
+      "where": "bust.jpg",
+      "verdict": "supported",
+      "quote": "PHRENOLOGY BY L.N.FOWLER."
+    },
+    {
+      "claim": "Combe's phrenology book sold 200,000 copies",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "George Combe's book On the Constitution of Man and its Relationship to External Objects sold more than 200,000 copies through nine editions."
+    },
+    {
+      "claim": "The book's title was 'On the Constitution of Man'",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "George Combe's book On the Constitution of Man and its Relationship to External Objects sold more than 200,000 copies through nine editions."
+    },
+    {
+      "claim": "Scientific lectures were a form of middle-class entertainment",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Phrenology's success was also partly because it was introduced at a time when scientific lectures were becoming a form of middle-class entertainment"
+    },
+    {
+      "claim": "By the 1840s London had over 28 phrenological societies",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "By the 1840s there were more than 28 phrenological societies in London with more than 1,000 members."
+    },
+    {
+      "claim": "The journal cover shown is the American Phrenological Journal of March 1848",
+      "where": "card 2 source / image credits",
+      "verdict": "supported",
+      "quote": "Description: Cover of American Phrenological Journal from March 1848, volume 10, number 3"
+    },
+    {
+      "claim": "Gall divided the brain into 27 organs",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "Franz Joseph Gall believed that the brain was made up of 27 individual organs that determined personality"
+    },
+    {
+      "claim": "Phrenologists never agreed on the number of organs, which drifted from 27 to over 40",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "Phrenologists had never been able to agree on the most basic mental organ numbers, going from 27 to over 40, and had difficulty locating the mental organs."
+    },
+    {
+      "claim": "Phrenologists struggled to locate the organs",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "had difficulty locating the mental organs"
+    },
+    {
+      "claim": "The skull shown was annotated by Pastor Oberlin according to Gall's system, and is at Waldersbach",
+      "where": "card 3 source / image credits",
+      "verdict": "supported",
+      "quote": "Crâne humain annoté par le pasteur Oberlin selon le système de Franz Joseph Gall (phrénologie) - Musée Jean-Frédéric Oberlin à Waldersbach (67)"
+    },
+    {
+      "claim": "People consulted phrenologists about hiring staff and choosing spouses",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "People also consulted phrenologists for advice in matters such as hiring personnel or finding suitable marriage partners."
+    },
+    {
+      "claim": "The phrenologist ran fingertips and palms over the skull",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Phrenologists would run their fingertips and palms over the skulls of their patients to feel for enlargements or indentations."
+    },
+    {
+      "claim": "Clients were issued a written character delineation",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "After such an examination, clients received a written delineation of their character or a standardized chart with their score, combined with advice on how to improve themselves."
+    },
+    {
+      "claim": "The illustration is A. S. Hartrick's 'The Phrenologist', 1895",
+      "where": "card 4 source / image credits",
+      "verdict": "supported",
+      "quote": "Archive title: File:The Phrenologist.jpg ... Date: 1895 ... Author: Archibald Standish Hartrick OBE RWS"
+    },
+    {
+      "claim": "In 1927 an incoming member of the US Congress had his skull measured",
+      "where": "card 5 headline / image credits",
+      "verdict": "supported",
+      "quote": "De schedelmeting bij een komend lid van het Amerikaanse Congres, in het kader van een psycho-fysiek [antropologisch] onderzoek dat zij moeten ondergaan voordat zij zitting nemen, Verenigde Staten van Amerika, 1927."
+    },
+    {
+      "claim": "Phrenology as a theory died in the 1840s",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Phrenology was mostly discredited as a scientific theory by the 1840s."
+    },
+    {
+      "claim": "Skull-measuring instruments continued in use after phrenology ended",
+      "where": "card 5 note ('the calipers did not')",
+      "verdict": "supported",
+      "quote": "In general, instruments to measure sizes of cranium continued to be used after the mainstream phrenology had ended."
+    },
+    {
+      "claim": "In 1930s Rwanda, Belgian colonial officials used phrenology to rank Tutsi above Hutu",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "During the 1930s, Belgian colonial authorities in Rwanda used phrenology to explain the purported superiority of Tutsis over Hutus."
+    },
+    {
+      "claim": "Skull shape predicts nothing about personality or mental traits",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "The central phrenological notion that measuring the contour of the skull can predict personality traits is discredited by empirical research."
+    },
+    {
+      "claim": "Flourens' ablation work and Broca's speech area had dismantled phrenology by 1840",
+      "where": "card 6 note",
+      "verdict": "unsupported",
+      "quote": "Between Flourens and Broca, the claims to support phrenology were dismantled."
+    },
+    {
+      "claim": "Gall's correct insight was that the brain is spatially organised, with a real division of labour",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "He contributed to the idea that the brain is spatially organized, but not in the way he proposed. There is a clear division of labor in the brain but none of which even remotely correlates to the size of the head or the structure of the skull."
+    },
+    {
+      "claim": "The lecture poster is by Samuel Robert Wells, 1875",
+      "where": "card 6 source / image credits",
+      "verdict": "supported",
+      "quote": "Date: 1875\nAuthor: Samuel Robert Wells"
+    },
+    {
+      "claim": "Phrenology counted as respectable science roughly from 1810 to 1840",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the discipline was influential in the 19th century, especially from about 1810 until 1840"
+    },
+    {
+      "claim": "Franz Joseph Gall began lecturing in 1796",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1796 the German physician Franz Joseph Gall (1758–1828) began lecturing on organology: the isolation of mental faculties and later cranioscopy"
+    },
+    {
+      "claim": "Gall held that the brain was an aggregate of organs whose size was impressed on the overlying skull",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It was believed that the cranial skull—like a glove on the hand—accommodates to the different sizes of these areas of the brain, so that a person's capacity for a given personality trait could be determined simply by measuring the area of the skull that overlies the corresponding area of the brain."
+    },
+    {
+      "claim": "Contemporaries in the 19th century already called phrenology pseudoscience",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The methodological rigor of phrenology was doubtful even for the standards of its time, since many authors already regarded phrenology as pseudoscience in the 19th century."
+    },
+    {
+      "claim": "Pierre Flourens removed parts of pigeons' brains and found the losses did not match Gall's map",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Jean Pierre Flourens' experiments on the brains of pigeons indicated that the loss of parts of the brain either caused no loss of function, or the loss of a completely different function than what had been attributed to it by phrenology."
+    },
+    {
+      "claim": "Paul Broca found a left frontal lesion that destroyed speech production but left comprehension intact",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the patient's ability to produce language was lost while their ability to understand language remained intact, due to a lesion on the left frontal lobe"
+    },
+    {
+      "claim": "Phrenology was used to rank races",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "By comparing skulls of different ethnic groups it was thought to allow for ranking of races from least to most evolved."
+    },
+    {
+      "claim": "The Fowler bust is made of china",
+      "where": "image credits",
+      "verdict": "supported",
+      "quote": "gained considerable fame with his phrenology head (a china head showing the phrenological faculties), which has become a symbol of the discipline"
+    }
+  ],
+  "problems": 1
+}
