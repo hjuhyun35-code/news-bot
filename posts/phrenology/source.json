@@ -1,0 +1,31 @@
+{
+  "subject": "Phrenology, which read character from the bumps of the skull",
+  "wikipedia": "Phrenology",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "bust.jpg",
+      "commons": "File:Lorenzo Fowler - Phrenology bust - Whipple Wh.2744.jpg"
+    },
+    {
+      "file": "skullmeasuring.jpg",
+      "commons": "File:De schedelmeting bij een komend lid van het Amerikaanse Congres, in het kader van een, SFA008000935.jpg"
+    },
+    {
+      "file": "annotatedskull.jpg",
+      "commons": "File:CrâneGallOberlin.JPG"
+    },
+    {
+      "file": "journalcover.jpg",
+      "commons": "File:Phrenology journal (1848).jpg"
+    },
+    {
+      "file": "lectureposter.jpg",
+      "commons": "File:Know Thyself! Lectures on Phrenology by Dr. J. P. M' Lean.jpg"
+    },
+    {
+      "file": "reading.jpg",
+      "commons": "File:The Phrenologist.jpg"
+    }
+  ]
+}
