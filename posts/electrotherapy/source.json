@@ -1,0 +1,31 @@
+{
+  "subject": "Victorian electrotherapy, which ran current through the body to cure disease",
+  "wikipedia": "Electrotherapy",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "oudintreatment.jpg",
+      "commons": "File:Oudin coil - Treatment by the effiuvation method.jpg"
+    },
+    {
+      "file": "facialelectrodes.jpg",
+      "commons": "File:Duchenne Mecanisme de la physionomie humaine, fig. 78.jpg"
+    },
+    {
+      "file": "electricityshop.jpg",
+      "commons": "File:Edmund Bristow (1787-1876) - Dispensing of Medical Electricity (Electrotherapy) - 47342i - Wellcome Collection.jpg"
+    },
+    {
+      "file": "clinicroom.jpg",
+      "commons": "File:El Uruguay a través de un siglo page 178 recorte 01.tif"
+    },
+    {
+      "file": "electricbath.jpg",
+      "commons": "File:Electric bath (or electrotherapy) - Titanic - 1912.jpg"
+    },
+    {
+      "file": "ionacoad.jpg",
+      "commons": "File:Advertisement for Wilshire's Ionaco.jpg"
+    }
+  ]
+}
