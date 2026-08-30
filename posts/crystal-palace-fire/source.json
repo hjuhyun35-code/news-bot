@@ -1,0 +1,31 @@
+{
+  "subject": "The Crystal Palace, a building of glass that burned down in a night",
+  "wikipedia": "The Crystal Palace",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "palace.jpg",
+      "commons": "File:Crystal Palace General view from Water Temple.jpg"
+    },
+    {
+      "file": "construction.jpg",
+      "commons": "File:Progress of the Crystal Palace at Sydenham MET DP109625.jpg"
+    },
+    {
+      "file": "interior.jpg",
+      "commons": "File:Crystal Palace, Hyde Park, Transept MET DP214803.jpg"
+    },
+    {
+      "file": "reopening.jpg",
+      "commons": "File:Queen Victoria Presiding at the Reopening of the Reconstructed Crystal Palace at Sydenham MET DP109644.jpg"
+    },
+    {
+      "file": "beforeafter.jpg",
+      "commons": "File:LONDON, CRYSTAL PALACE, TWO VIEWS, BEFORE & AFTER THE FIRE, RP (50272893627).jpg"
+    },
+    {
+      "file": "ruins.jpg",
+      "commons": "File:Crystal Palace Destroyed 1936.jpg"
+    }
+  ]
+}
