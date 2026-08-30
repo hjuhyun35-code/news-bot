@@ -1,0 +1,31 @@
+{
+  "subject": "The Herculaneum papyri, carbonised scrolls nobody could unroll",
+  "wikipedia": "Herculaneum papyri",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "charredfragment.jpg",
+      "commons": "File:Heruclaneum Papyrus 1521 f001r, British Library 01.jpg"
+    },
+    {
+      "file": "unrollingmachine.jpg",
+      "commons": "File:ARA 1809 V01 D032 Apparatus used to unroll the Herculenean papyri.jpg"
+    },
+    {
+      "file": "secondfragment.jpg",
+      "commons": "File:Heruclaneum Papyrus 1521 f002r, British Library.jpg"
+    },
+    {
+      "file": "unrolledstrip.jpg",
+      "commons": "File:Tesoro letterario di Ercolano p27.jpg"
+    },
+    {
+      "file": "latincolumn.jpg",
+      "commons": "File:Tesoro letterario di Ercolano p34.jpg"
+    },
+    {
+      "file": "letterformplate.jpg",
+      "commons": "File:Tesoro letterario di Ercolano p64.jpg"
+    }
+  ]
+}
