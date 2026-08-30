@@ -1,0 +1,87 @@
+{
+  "caption": "Why did artists protest the Eiffel Tower?\n\nOn 14 February 1887, the newspaper Le Temps published a petition titled \"Artists against the Eiffel Tower.\" It was signed by a \"Committee of Three Hundred\" — one member for each metre of the planned tower — led by the architect Charles Garnier, and including Guy de Maupassant, Charles Gounod and Jules Massenet.\n\nThey called it \"useless and monstrous,\" a \"gigantic black smokestack\" that would crush Notre Dame, the Louvre and the Arc de Triomphe under its \"barbaric bulk.\" Garnier called it \"a truly tragic street lamp.\" Alexandre Dumas called it an odious shadow.\n\nThe protest was already too late. The contract had been signed on 8 January 1887, and work on the foundations began on 28 January — weeks before the letter appeared. The minister Édouard Lockroy answered with mock praise for the petition's \"beauty of its metaphors\" and pointed out the project had been decided months earlier.\n\nGarnier had sat on the commission that examined the proposals. He raised no objection there.\n\nEiffel answered by asking why something admirable in Egypt should become hideous in Paris. He then engraved the names of 72 French scientists, engineers and mathematicians onto the tower — chosen, the record says, precisely because of his concern over the artists' protest.\n\nSome protesters changed their minds. Others did not. Maupassant supposedly ate lunch in the tower restaurant every day because it was the one place in Paris where the tower was not visible — a story the sources report only as hearsay.\n\nImages: Louis-Émile Durandelle's construction view of November 1888; drawings from Gustave Eiffel's own office; an 1889 exposition poster; a photochrom of the finished tower; Bernardo Rico's 1889 engraving of the first platform; and Robert Delaunay's 1911 painting.\n\n#eiffeltower #paris1889 #archivephotography #publicdomain #arthistory",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "construction.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "paper",
+      "stamp": "1887",
+      "headline": "300 artists signed a petition to <y>stop this tower</y>",
+      "note": "One signatory for each metre of its planned height. They called it useless and monstrous.",
+      "source": "Louis-Émile Durandelle, 23 November 1888",
+      "alt": "The unfinished Eiffel Tower in 1888, scaffolding at its top, seen from ground level.5",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "exposition.jpg",
+      "crop": "38% 45%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "\"A gigantic <y>black smokestack</y>\"",
+      "note": "The petition ran in Le Temps on 14 February 1887. It said the tower would crush Notre Dame and the Louvre under its barbaric bulk.",
+      "source": "Exposition Universelle de Paris poster, 1889",
+      "alt": "Colour lithograph poster of the 1889 Paris exposition grounds with the tower at centre.5",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "platform.jpg",
+      "crop": "60% 55%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The leader had already <y>approved it in committee</y>",
+      "note": "Charles Garnier led the protest. He also sat on the commission that examined the proposals, and raised no objection there.",
+      "source": "Bernardo Rico, first platform, 1889",
+      "alt": "Engraving of crowds walking the Eiffel Tower's first-floor terrace above Paris rooftops.5",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "plans.jpg",
+      "crop": "30% 30%",
+      "zoom": 2.4,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The <y>foundations were already dug</y>",
+      "note": "The contract was signed 8 January 1887. Work began 28 January. The letter appeared in February.",
+      "source": "Bureau Gustave Eiffel, plate XIX · public domain",
+      "alt": "Engineering plate showing elevations and floor plans of the Eiffel Tower's upper platforms.5",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "painting.jpeg",
+      "crop": "50% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "Eiffel answered with <y>72 engraved names</y>",
+      "note": "He cut the names of 72 French scientists and engineers into the tower — because of the artists' protest.",
+      "source": "Robert Delaunay, oil on canvas, 1911",
+      "alt": "Cubist painting of the Eiffel Tower in red, fragmented among pale Paris buildings.5",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "tower.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "They lost. <y>Some changed their minds</y>",
+      "note": "Maupassant supposedly lunched in the tower daily — the only place in Paris it couldn't be seen. Sources call that story hearsay.",
+      "source": "Photochrom, Paris, between 1890 and 1905",
+      "alt": "Hand-coloured photograph of the completed Eiffel Tower with fountains and statues below.5",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "eiffel-tower-protest",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

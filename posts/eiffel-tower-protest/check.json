@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "About 300 artists signed a petition seeking to stop the Eiffel Tower.",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "a \"Committee of Three Hundred\" (one member for each metre of the tower's height) was formed, led by the prominent architect Charles Garnier ... A petition called \"Artists against the Eiffel Tower\" was sent to the Minister of Works and Commissioner for the Exposition, Adolphe Alphand"
+    },
+    {
+      "claim": "There was one signatory for each metre of the tower's planned height.",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "a \"Committee of Three Hundred\" (one member for each metre of the tower's height) was formed"
+    },
+    {
+      "claim": "The protesters called the tower useless and monstrous.",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "protest with all our strength, with all our indignation in the name of slighted French taste, against the erection ... of this useless and monstrous Eiffel Tower"
+    },
+    {
+      "claim": "The construction photograph is by Louis-Émile Durandelle and dated 23 November 1888.",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 23 November 1888 date QS:P571,+1888-11-23T00:00:00Z/11\nAuthor: Louis-Emile Durandelle"
+    },
+    {
+      "claim": "The petition described the tower as a \"gigantic black smokestack\".",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "imagine for a moment a giddy, ridiculous tower dominating Paris like a gigantic black smokestack"
+    },
+    {
+      "claim": "The petition was published in Le Temps on 14 February 1887.",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "it was published by Le Temps on 14 February 1887"
+    },
+    {
+      "claim": "The petition said the tower would crush Notre Dame and the Louvre under its barbaric bulk.",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "crushing under its barbaric bulk Notre Dame, the Tour Saint-Jacques, the Louvre, the Dome of les Invalides, the Arc de Triomphe"
+    },
+    {
+      "claim": "The petition also named the Arc de Triomphe among the monuments that would be crushed.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "crushing under its barbaric bulk Notre Dame, the Tour Saint-Jacques, the Louvre, the Dome of les Invalides, the Arc de Triomphe"
+    },
+    {
+      "claim": "The colour print image is an Exposition Universelle de Paris poster dated 1889.",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Exposition Universelle de Paris 1889 - Universitäts- und Landesbibliothek Darmstadt.jpg\nDescription: Exposition Universelle de Paris 1889\nDate: 1889"
+    },
+    {
+      "claim": "Charles Garnier led the artists' protest.",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "a \"Committee of Three Hundred\" ... was formed, led by the prominent architect Charles Garnier"
+    },
+    {
+      "claim": "Garnier sat on the commission that examined the proposals and raised no objection there.",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "Garnier was a member of the Tower Commission that had examined the various proposals, and had raised no objection."
+    },
+    {
+      "claim": "The first-platform image is by Bernardo Rico, 1889, showing the first platform.",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Description: First floor of the Eiffel Tower. ... Date: 1889 date QS:P571,+1889-00-00T00:00:00Z/9\nAuthor: Bernardo Rico"
+    },
+    {
+      "claim": "The foundations were already dug when the petition appeared in February 1887.",
+      "where": "card 4 headline",
+      "verdict": "contradicted",
+      "quote": "Work on the foundations started on 28 January 1887. ... The foundations were completed on 30 June, and the erection of the ironwork began."
+    },
+    {
+      "claim": "The construction contract was signed on 8 January 1887.",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "After some debate about the exact location of the tower, a contract was signed on 8 January 1887."
+    },
+    {
+      "claim": "Work began on 28 January 1887, weeks before the petition letter appeared.",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "Work on the foundations started on 28 January 1887."
+    },
+    {
+      "claim": "The plans sheet is from the Bureau/Büro Gustave Eiffel and is plate XIX.",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Author: Büro Gustave Eiffel — and the sheet itself is headed \"TOUR DE 300 MÈTRES ... PL. XIX\""
+    },
+    {
+      "claim": "Eiffel engraved the names of 72 French scientists, engineers and mathematicians on the tower.",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Gustave Eiffel engraved on the building of the tower the names of 72 French scientists, engineers and mathematicians as a recognition of their contributions."
+    },
+    {
+      "claim": "He did so because of his concern over the artists' protest.",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Eiffel chose this \"invocation of science\" because of his concern over the artists' protest."
+    },
+    {
+      "claim": "The painting is by Robert Delaunay, oil on canvas, 1911.",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "Graphic Champs de Mars: La Tour Rouge . 1911 - 1923 , Robert Delaunay . Oil on canvas."
+    },
+    {
+      "claim": "Some of the protesters changed their minds.",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "Some of the protesters changed their minds when the tower was built; others remained unconvinced."
+    },
+    {
+      "claim": "Maupassant supposedly ate lunch in the tower restaurant every day because it was the one place in Paris where the tower was not visible.",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Guy de Maupassant supposedly ate lunch in the tower's restaurant every day because it was the one place in Paris where the tower was not visible."
+    },
+    {
+      "claim": "The sources report the Maupassant story only as hearsay.",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Guy de Maupassant supposedly ate lunch in the tower's restaurant every day"
+    },
+    {
+      "claim": "The colour view of the finished tower dates from between 1890 and 1905.",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Date: between 1890 and 1905 date QS:P,+1500-00-00T00:00:00Z/6,P1319,+1890-00-00T00:00:00Z/9,P1326,+1905-00-00T00:00:00Z/9"
+    },
+    {
+      "claim": "That colour image is a photochrom.",
+      "where": "card 6 source / caption",
+      "verdict": "unsupported",
+      "quote": "Archive title: File:Eiffel Tower, full-view looking toward the Trocadero, Exposition Universal, 1900, Paris, France.jpg"
+    },
+    {
+      "claim": "The petition was titled \"Artists against the Eiffel Tower\".",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A petition called \"Artists against the Eiffel Tower\" was sent to the Minister of Works and Commissioner for the Exposition, Adolphe Alphand"
+    },
+    {
+      "claim": "Signatories included Guy de Maupassant, Charles Gounod and Jules Massenet.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "including some of the most important figures of the arts, such as William-Adolphe Bouguereau, Guy de Maupassant, Charles Gounod and Jules Massenet"
+    },
+    {
+      "claim": "Charles Garnier was an architect.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "led by the prominent architect Charles Garnier"
+    },
+    {
+      "claim": "Garnier called the tower \"a truly tragic street lamp\".",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Charles Garnier thought it was a \"truly tragic street lamp\"."
+    },
+    {
+      "claim": "Alexandre Dumas called it an odious shadow.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Alexandre Dumas said that it was like \"Odius shadow of the odious column built of rivets and iron plates extending like a black blot\"."
+    },
+    {
+      "claim": "Édouard Lockroy, a minister, replied with mock praise for the petition's \"beauty of its metaphors\".",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "These criticisms were also dealt with by Édouard Lockroy in a letter of support written to Alphand, sardonically saying, \"Judging by the stately swell of the rhythms, the beauty of the metaphors, the elegance of its delicate and precise style, one can tell this protest is the result of collaboration of the most famous writers and poets of our time\""
+    },
+    {
+      "claim": "Lockroy pointed out the project had been decided months earlier.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "he explained that the protest was irrelevant since the project had been decided upon months before, and construction on the tower was already under way"
+    },
+    {
+      "claim": "Eiffel responded by asking why something admirable in Egypt should become hideous in Paris.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "And why would something admirable in Egypt become hideous and ridiculous in Paris?"
+    },
+    {
+      "claim": "The Bernardo Rico image is an engraving of the first platform.",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:La Tour Eiffel - terrasse de la première plate-forme.jpg — the image is a black-and-white line engraving of the platform's arcade with visitors"
+    }
+  ],
+  "problems": 2
+}
