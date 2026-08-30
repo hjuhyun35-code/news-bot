@@ -1,0 +1,269 @@
+{
+  "claims": [
+    {
+      "claim": "The Crystal Palace contained 293,000 panes of glass",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "The 293,000 panes of glass were manufactured by Chance Brothers."
+    },
+    {
+      "claim": "The 293,000 panes were the glass that burnt in the 1936 fire (i.e. the figure applies to the building that burned)",
+      "where": "card 1 headline ('293,000 panes of glass, burnt out in one night')",
+      "verdict": "unsupported",
+      "quote": "The new building, while incorporating most of the constructional parts of the original one at Hyde Park, was so completely different in form as to be properly considered a quite different structure"
+    },
+    {
+      "claim": "The palace was destroyed by fire in the course of a single night",
+      "where": "card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "Within hours, the Palace was destroyed: the glow was visible across eight counties."
+    },
+    {
+      "claim": "Chance Brothers of Smethwick made every pane of glass",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The 900,000 square feet (84,000 m2) of glass was provided by the Chance Brothers glassworks in Smethwick. This was the only glassworks capable of fulfilling such a large order"
+    },
+    {
+      "claim": "The building stood at Sydenham from 1854 to November 1936",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "It stood there from June 1854 until its destruction by fire in November 1936."
+    },
+    {
+      "claim": "Card 1 image is by Philip Henry Delamotte, 1854, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: 1854 / Author: Philip Henry Delamotte (1821–1889) / Licence: Public domain"
+    },
+    {
+      "claim": "Full-grown elm trees stood inside the building",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "Full-size elm trees growing in the park were enclosed within the central exhibition hall near the 27-foot (8 m) tall Crystal Fountain."
+    },
+    {
+      "claim": "A large tree is visible inside the glazed hall in the interior photograph",
+      "where": "interior.jpg",
+      "verdict": "supported",
+      "quote": "Visible in interior.jpg: a large bare-branched tree standing on the boarded floor beneath the barrel-vaulted glass roof (archive title: 'Crystal Palace, Hyde Park, Transept')."
+    },
+    {
+      "claim": "Paxton arched the roof over the trees rather than felling them",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "adding a high, barrel-vaulted transept across the centre of the building, at 90 degrees to the main gallery, under which he was able to safely enclose several large elm trees that would otherwise have had to be felled"
+    },
+    {
+      "claim": "Sparrows got into the building and became a nuisance",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "However this caused a problem with sparrows becoming a nuisance, and shooting was out of the question inside a glass building."
+    },
+    {
+      "claim": "The Duke of Wellington's advice to Queen Victoria was 'Sparrowhawks, Ma'am'",
+      "where": "card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Queen Victoria mentioned this problem to the Duke of Wellington, who offered the solution, \"Sparrowhawks, Ma'am\"."
+    },
+    {
+      "claim": "Card 2 image is by Benjamin Brecknell Turner, Hyde Park, 1852, CC0",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Crystal Palace, Hyde Park, Transept MET DP214803.jpg ... Date: 1852 ... Author: Benjamin Brecknell Turner    Licence: CC0"
+    },
+    {
+      "claim": "The whole palace was taken apart and moved to Sydenham",
+      "where": "card 3 headline; caption",
+      "verdict": "unsupported",
+      "quote": "The new building, while incorporating most of the constructional parts of the original one at Hyde Park, was so completely different in form as to be properly considered a quite different structure"
+    },
+    {
+      "claim": "The building was relocated from Hyde Park to Sydenham Hill after the exhibition",
+      "where": "card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "After the exhibition, the Palace was relocated to an open area of South London known as Penge Place which had been excised from Penge Common."
+    },
+    {
+      "claim": "Rebuilding on Sydenham Hill began in 1852",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "The reconstruction of the Crystal Palace began on Sydenham Hill in 1852."
+    },
+    {
+      "claim": "The move to Sydenham cost £1,300,000",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "the move to Sydenham cost £1,300,000—(£143 million in 2025), burdening the company with a debt it never repaid"
+    },
+    {
+      "claim": "The original palace cost £150,000",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "While the original Palace cost £150,000 (equivalent to £18.1 million in 2025)"
+    },
+    {
+      "claim": "The company never repaid the debt",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "burdening the company with a debt it never repaid"
+    },
+    {
+      "claim": "The rebuilt palace was larger than the Hyde Park original",
+      "where": "caption ('taken down and rebuilt, larger')",
+      "verdict": "supported",
+      "quote": "It was modified and enlarged so much that it extended beyond the boundary of Penge Place, which was also the boundary between Surrey and Kent."
+    },
+    {
+      "claim": "Card 3 image is by Delamotte & Negretti, Sydenham, 1854, CC0",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Progress of the Crystal Palace at Sydenham MET DP109625.jpg ... Date: 1854 ... Author: Philip Henry Delamotte    /    Henry Negretti    Licence: CC0"
+    },
+    {
+      "claim": "Queen Victoria opened the building twice, three years apart",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The Great Exhibition was opened on 1 May 1851 by Queen Victoria. ... on 10 June 1854, Queen Victoria again performed an opening ceremony, in the presence of 40,000 guests"
+    },
+    {
+      "claim": "The Hyde Park opening was on 1 May 1851",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "The Great Exhibition was opened on 1 May 1851 by Queen Victoria."
+    },
+    {
+      "claim": "The Sydenham reopening was on 10 June 1854, before 40,000 guests",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "on 10 June 1854, Queen Victoria again performed an opening ceremony, in the presence of 40,000 guests"
+    },
+    {
+      "claim": "Emma Darwin's diary for that day read 'Opening Crystal Pal'",
+      "where": "card 4 note; caption",
+      "verdict": "supported",
+      "quote": "including the likes of Emma Darwin, the wife of Charles Darwin who noted in her diary on 10 June 1854, \"Opening Crystal Pal\"."
+    },
+    {
+      "claim": "Card 4 image is by Philip Henry Delamotte, Sydenham, 1854, CC0, showing the reopening",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Queen Victoria Presiding at the Reopening of the Reconstructed Crystal Palace at Sydenham MET DP109644.jpg ... Date: 1854 ... Author: Philip Henry Delamotte    Licence: CC0"
+    },
+    {
+      "claim": "89 fire engines attended and could not save the building; over 400 firemen were present",
+      "where": "card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "Although 89 fire engines and over 400 firemen arrived, they were unable to extinguish it."
+    },
+    {
+      "claim": "The fire began as a small office fire after an explosion in the women's cloakroom",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "he found two of his employees fighting a small office fire that had started after an explosion in the women's cloakroom"
+    },
+    {
+      "claim": "The glow of the fire was visible across eight counties",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Within hours, the Palace was destroyed: the glow was visible across eight counties."
+    },
+    {
+      "claim": "Card 5 image is a real photo postcard showing views before and after the fire",
+      "where": "card 5 source; caption",
+      "verdict": "supported",
+      "quote": "Archive title: File:LONDON, CRYSTAL PALACE, TWO VIEWS, BEFORE & AFTER THE FIRE, RP (50272893627).jpg"
+    },
+    {
+      "claim": "The postcard dates from 1936",
+      "where": "card 5 source ('Real photo postcard, 1936')",
+      "verdict": "unsupported",
+      "quote": "Date: 2020-05-19 22:55 / Author: Mark Crombie"
+    },
+    {
+      "claim": "The postcard is captioned with the fire date, Monday 30 November 1936",
+      "where": "beforeafter.jpg",
+      "verdict": "supported",
+      "quote": "CRYSTAL PALACE BEFORE THE FIRE ON MONDAY 30TH NOVEMBER, 1936."
+    },
+    {
+      "claim": "The cause of the fire was never established",
+      "where": "card 6 headline; caption",
+      "verdict": "supported",
+      "quote": "Baird is reported to have suspected the fire was a deliberate act of sabotage against his work on developing television, but the true cause remains unknown."
+    },
+    {
+      "claim": "John Logie Baird's television work burned with the building and he suspected sabotage",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "much of his work was destroyed in the fire. Baird is reported to have suspected the fire was a deliberate act of sabotage against his work on developing television"
+    },
+    {
+      "claim": "Baird had used the south tower for his television experiments",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The South Tower and much of the lower level of the Palace had been used for tests by television pioneer John Logie Baird for his mechanical television experiments"
+    },
+    {
+      "claim": "Two water towers were all that was left standing after the fire",
+      "where": "card 6 note",
+      "verdict": "contradicted",
+      "quote": "All that was left standing after the fire were the two water towers and a section of the north end of the main nave which was too badly damaged to be saved."
+    },
+    {
+      "claim": "Card 6 image is an aerial view of the ruins from November 1936, public domain",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Description: The Crystal Palace post the fire. Destroyed / Date: 1936-11 ... Licence: Public domain"
+    },
+    {
+      "claim": "The palace burned down on the night of 30 November 1936",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On the evening of 30 November 1936, Sir Henry Buckland was walking his dog near the Palace with his daughter Crystal, named after the building, when they noticed a red glow within it."
+    },
+    {
+      "claim": "Joseph Paxton was head gardener at Chatsworth",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "At this time, Paxton was chiefly known for his celebrated career as the head gardener for the Duke of Devonshire at Chatsworth House."
+    },
+    {
+      "claim": "Paxton sketched the design on pink blotting paper during a railway board meeting in June 1850",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Two days later on 11 June, while attending a board meeting of the Midland Railway, Paxton made his original concept drawing, which he doodled onto a sheet of pink blotting paper."
+    },
+    {
+      "claim": "The Hyde Park building was finished in thirty-nine weeks",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The 990,000-square-foot building with its 128-foot-high ceiling was completed in thirty-nine weeks."
+    },
+    {
+      "claim": "The building needed no artificial light during the day",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Because it was covered almost entirely in glass, it also needed no artificial lighting during the day, thereby reducing the exhibition's running costs."
+    },
+    {
+      "claim": "Sir Henry Buckland was the manager and found two employees fighting the fire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the 1920s, a board of trustees was set up under the guidance of manager Sir Henry Buckland."
+    },
+    {
+      "claim": "100,000 people came to Sydenham Hill to watch the blaze",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "100,000 people came to Sydenham Hill to watch the blaze, among them Winston Churchill, who said, \"This is the end of an age\"."
+    },
+    {
+      "claim": "Winston Churchill said 'This is the end of an age'",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "among them Winston Churchill, who said, \"This is the end of an age\""
+    }
+  ],
+  "problems": 4
+}

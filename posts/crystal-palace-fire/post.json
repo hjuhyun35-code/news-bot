@@ -1,0 +1,89 @@
+{
+  "caption": "What happened to the Crystal Palace?\n\nIt burned down on the night of 30 November 1936, and the cause has never been established.\n\nJoseph Paxton, head gardener at Chatsworth, sketched the design on pink blotting paper during a railway board meeting in June 1850. Chance Brothers of Smethwick supplied the 293,000 panes. The Hyde Park building was finished in thirty-nine weeks and needed no artificial light by day. Full-size elm trees were enclosed inside it; when sparrows became a nuisance, the Duke of Wellington advised Queen Victoria: \"Sparrowhawks, Ma'am.\"\n\nAfter the Great Exhibition closed, the whole structure was taken down and rebuilt, larger, on Sydenham Hill. Victoria reopened it on 10 June 1854 before 40,000 guests. Emma Darwin's diary entry that day: \"Opening Crystal Pal\". The move cost £1,300,000 against £150,000 for the original, and the company never repaid the debt.\n\nOn the last evening, manager Sir Henry Buckland found two employees fighting a small office fire that had started after an explosion in the women's cloakroom. Eighty-nine fire engines and over 400 firemen could not put it out. The glow was seen across eight counties, 100,000 people climbed the hill to watch, and Winston Churchill said, \"This is the end of an age.\"\n\nStill unresolved: why it started. John Logie Baird, who had used the south tower for television experiments, lost much of his work and is reported to have suspected sabotage. Nothing was ever proved.\n\nImages: Philip Henry Delamotte (1854), Benjamin Brecknell Turner (1852), Delamotte and Negretti's construction views, a real photo postcard of the fire, and an aerial view of the ruins.\n\n#crystalpalace #victorianlondon #architecturalhistory #archivephotography #1936",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "palace.jpg",
+      "crop": "58% 38%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "stamp": "1854",
+      "headline": "<y>293,000 panes of glass</y>, burnt out in one night",
+      "note": "Chance Brothers of Smethwick made every pane. The building stood from 1854 to November 1936.",
+      "source": "Philip Henry Delamotte, 1854 · public domain",
+      "alt": "Huge glass and iron palace with arched roof above formal gardens and a fountain basin.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "interior.jpg",
+      "crop": "38% 48%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "base",
+      "stamp": "1852",
+      "headline": "<y>Full-grown elm trees</y> stood inside it",
+      "note": "Paxton arched the roof over them rather than fell them. Sparrows got in. Wellington's advice to the Queen: \"Sparrowhawks, Ma'am.\"",
+      "source": "Benjamin Brecknell Turner, Hyde Park, 1852 · CC0",
+      "alt": "Bare elm tree standing inside a vast glazed hall under a barrel-vaulted iron roof.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "construction.jpg",
+      "crop": "45% 45%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "The whole palace was <y>taken apart and moved</y>",
+      "note": "Rebuilding on Sydenham Hill began in 1852 and cost £1,300,000. The original cost £150,000. The debt was never repaid.",
+      "source": "Delamotte & Negretti, Sydenham, 1854 · CC0",
+      "alt": "Skeletal iron framework of the palace under construction, with spoil heaps and workmen.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "reopening.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Queen Victoria opened it twice, <y>three years apart</y>",
+      "note": "Hyde Park, 1 May 1851. Sydenham, 10 June 1854, before 40,000 guests. Emma Darwin's diary that day: \"Opening Crystal Pal\".",
+      "source": "Philip Henry Delamotte, Sydenham, 1854 · CC0",
+      "alt": "Dense crowd and massed choir filling tiered seating inside the palace at a ceremony.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "beforeafter.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "warm",
+      "stamp": "30 Nov 1936",
+      "headline": "<y>89 fire engines</y> could not save it",
+      "note": "It began as a small office fire after an explosion in the women's cloakroom. The glow was visible across eight counties.",
+      "source": "Real photo postcard, 1936 · public domain",
+      "alt": "Postcard with two views: the palace intact above, the empty terraces after the fire below.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "ruins.jpg",
+      "crop": "22% 50%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The cause was <y>never established</y>",
+      "note": "John Logie Baird's television work burned with it and he suspected sabotage. Nothing was proved. Two water towers were all that stood.",
+      "source": "Aerial view of the ruins, November 1936 · public domain",
+      "alt": "Aerial view of a burnt-out field of twisted wreckage beside a surviving brick water tower.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "crystal-palace-fire",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
