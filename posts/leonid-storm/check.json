@@ -1,0 +1,185 @@
+{
+  "claims": [
+    {
+      "claim": "An estimate counted in excess of 240,000 meteors during nine hours of the 1833 storm",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "another, done as the storm abated, estimated in excess of 240,000 meteors during the nine hours of the storm, over the entire region of North America east of the Rocky Mountains"
+    },
+    {
+      "claim": "One estimate of the peak rate was over 100,000 meteors an hour",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "One estimate of the peak rate is over one hundred thousand meteors an hour"
+    },
+    {
+      "claim": "The event was seen across North America east of the Rockies",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "over the entire region of North America east of the Rocky Mountains"
+    },
+    {
+      "claim": "The 1833 image is an Adolf Vollmy engraving after a painting by Karl Jauslin, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "The engraving is by Adolf Vollmy based upon an original painting by the Swiss artist Karl Jauslin"
+    },
+    {
+      "claim": "In 1868 the Leonids reached about 1,000 meteors per hour in dark skies",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Another strong appearance of the Leonids in 1868 reached an intensity of 1,000 meteors per hour in dark skies."
+    },
+    {
+      "claim": "The Leonids enter the atmosphere at 70 km/s",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "the Leonids are fast moving streams which encounter the path of Earth and impact at 70 km/s (252,000 km/h; 156,590 mph)"
+    },
+    {
+      "claim": "The Leonids are the fastest annual meteor shower",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "It is the fastest annual meteor shower."
+    },
+    {
+      "claim": "The second image is É. L. Trouvelot's 'The November Meteors', 1882, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Trouvelot - The November Meteors.jpg ... Date: 1882 ... Author: Étienne Léopold Trouvelot ... Licence: Public domain"
+    },
+    {
+      "claim": "The Trouvelot plate depicts meteors observed on the night of November 13–14, 1868",
+      "where": "trouvelot1868.jpg (printed caption)",
+      "verdict": "supported",
+      "quote": "THE NOVEMBER METEORS. As observed between Midnight and 5 o'clock A.M. on the Night of November 13-14, 1868."
+    },
+    {
+      "claim": "The meteor trails all appear to radiate back to a single point in the constellation Leo",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "The Leonids get their name from the location of their radiant in the constellation Leo: the meteors appear to radiate from that point in the sky."
+    },
+    {
+      "claim": "The Tunis engraving was made from a sketch at the Casbah of Tunis, 27 November 1885",
+      "where": "card 3 note / card 3 source",
+      "verdict": "supported",
+      "quote": "Étoiles filantes du 27 novembre 1885, D'après un croquis fait à la Casbah de Tunis, par M. Portanier."
+    },
+    {
+      "claim": "The radiant point gave the shower its name",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The name is derived from Greek and Latin with the prefix Leo- referring to the constellation and the suffix -ids signifying that the meteor shower is the offspring of, descendant of, the constellation Leo."
+    },
+    {
+      "claim": "The Tunis sketch is public domain and credited to M. Portanier",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Author: M. Portanier\nLicence: Public domain"
+    },
+    {
+      "claim": "The 1833 storm was caused by dust shed by the comet in 1800, not by its recent passage",
+      "where": "card 4 headline and note",
+      "verdict": "supported",
+      "quote": "The 1833 storm was not due to the recent passage of the comet, but from a direct impact with the previous 1800 dust trail."
+    },
+    {
+      "claim": "The orbit diagram is from G. F. Chambers, The Story of the Comets, 1909",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:The story of the comets - Orbit of the leonids on nov. 13 and of the comet of 1866 (i.) relatively to the orbits of certain planets.jpg\nDescription: Orbit of the leonids on nov. 13 and of the comet of 1866 (i.) relatively to the orbits of certain planets\nDate: 1909\nAuthor: George Frederick Chambers"
+    },
+    {
+      "claim": "Comet Tempel–Tuttle is the source of the shower, identified in 1866",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "It was in 1866–67 that information on Comet Tempel-Tuttle was gathered, pointing it out as the source of the meteor shower and meteor storms."
+    },
+    {
+      "claim": "Leonid storms return about every 33 years",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "The Leonids also produce meteor storms (very large outbursts) about every 33 years"
+    },
+    {
+      "claim": "It is still not understood whether a given trail will produce fireballs or fainter meteors",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "However, whether a specific meteoroid trail will be primarily composed of small or large particles, and thus the relative brightness of the meteors, was not understood."
+    },
+    {
+      "claim": "The final photograph was taken by Alpsdake in Japan on 19 November 2001 and is public domain",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Description: Leonids  and  Orion  in Japan\nDate: 2001-11-19\nAuthor: Alpsdake\nLicence: Public domain"
+    },
+    {
+      "claim": "The storm occurred on the night of 12–13 November 1833",
+      "where": "caption paragraph 1",
+      "verdict": "supported",
+      "quote": "it was the meteor storm of 12–13 November 1833 that broke into people's modern-day awareness"
+    },
+    {
+      "claim": "The Cheyenne established a peace treaty in connection with the event",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "the Cheyenne established a peace treaty and the Lakota calendar was reset"
+    },
+    {
+      "claim": "The Lakota calendar was reset and many Native American birthdays were later counted from that night",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Many Native American birthdays were calculated by reference to the 1833 Leonid event."
+    },
+    {
+      "claim": "Harriet Tubman and Frederick Douglass took note of the event",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Abolitionists including Harriet Tubman and Frederick Douglass as well as slave-owners took note and others."
+    },
+    {
+      "claim": "Abraham Lincoln commented on the event years later",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Abraham Lincoln commented on it years later."
+    },
+    {
+      "claim": "Joseph Smith called the event a literal fulfilment of the word of God",
+      "where": "caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Joseph Smith, the founder and first leader of Mormonism, afterwards noted in his journal for November 1833 his belief that this event was \"a litteral [sic] fulfillment of the word of God\""
+    },
+    {
+      "claim": "Denison Olmsted spent the last weeks of 1833 collecting reports",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "After spending the last weeks of 1833 collecting information, he presented his findings in January 1834 to the American Journal of Science and Arts"
+    },
+    {
+      "claim": "Olmsted found the meteors radiated from a point in Leo, that the shower was short, that Europe did not see it, and speculated the particles came from a cloud in space",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "He noted the shower was of short duration and was not seen in Europe, and that the meteors radiated from a point in the constellation of Leo and he speculated the meteors had originated from a cloud of particles in space."
+    },
+    {
+      "claim": "In 1866–67 the parent comet was identified as Tempel–Tuttle",
+      "where": "caption paragraph 3",
+      "verdict": "supported",
+      "quote": "It was in 1866–67 that information on Comet Tempel-Tuttle was gathered, pointing it out as the source of the meteor shower and meteor storms."
+    },
+    {
+      "claim": "A close encounter with Jupiter is expected to perturb the streams, making storms of historic size unlikely for many decades",
+      "where": "caption paragraph 4",
+      "verdict": "supported",
+      "quote": "However, a close encounter with Jupiter is expected to perturb the comet's path, and many streams, making storms of historic magnitude unlikely for many decades."
+    },
+    {
+      "claim": "All five images are public domain",
+      "where": "caption, images line",
+      "verdict": "supported",
+      "quote": "Licence: Public domain"
+    }
+  ],
+  "problems": 0
+}

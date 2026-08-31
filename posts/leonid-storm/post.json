@@ -1,0 +1,74 @@
+{
+  "caption": "What actually happened in the 1833 meteor storm?\n\nOn the night of 12–13 November 1833, meteors fell over North America east of the Rocky Mountains. One estimate puts the peak above 100,000 an hour. Another, made as the storm faded, counted more than 240,000 across its nine hours.\n\nPeople marked it. The Cheyenne established a peace treaty. The Lakota calendar was reset, and many Native American birthdays were later counted from that night. Harriet Tubman and Frederick Douglass took note. Abraham Lincoln commented on it years later. Joseph Smith called it a literal fulfilment of the word of God.\n\nDenison Olmsted spent the last weeks of 1833 collecting reports. He found the meteors radiated from a point in Leo, that the shower was short, and that Europe never saw it — and guessed the particles came from a cloud in space. In 1866–67 the parent was identified: comet Tempel–Tuttle. Later work showed 1833 was not the comet's fresh dust. Earth hit the trail shed in 1800.\n\nStill open: whether a given trail carries large or small particles, which decides fireballs or faint streaks. And a close encounter with Jupiter is expected to perturb the streams, making storms of historic size unlikely for many decades.\n\nImages: Adolf Vollmy's engraving after Karl Jauslin; Trouvelot's 'The November Meteors'; M. Portanier's sketch from the Casbah of Tunis, 1885; a 1909 orbit diagram by G. F. Chambers; a 2001 photograph by Alpsdake. All public domain.\n\n#leonids #meteorstorm #1833 #archivephoto #historyofastronomy",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "storm1833.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "stamp": "1833",
+      "headline": "<y>240,000 meteors</y> counted in nine hours, 1833",
+      "note": "One estimate of the peak: over 100,000 an hour, across North America east of the Rockies.",
+      "source": "Adolf Vollmy engraving after Karl Jauslin · PD",
+      "alt": "Engraving of a village at night under a sky filled with hundreds of falling meteors.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "trouvelot1868.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "1868: <y>a thousand meteors an hour</y> in dark skies",
+      "note": "The Leonids hit the atmosphere at 70 km/s. It is the fastest annual meteor shower.",
+      "source": "É. L. Trouvelot, The November Meteors, 1882 · PD",
+      "alt": "Pastel plate of green and white meteor trails streaking down over a dark horizon..",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "tunis1885.jpg",
+      "crop": "55% 22%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "Every trail points back to one spot in <y>Leo</y>",
+      "note": "Sketched at the Casbah of Tunis, 27 November 1885. The radiant point gave the shower its name.",
+      "source": "M. Portanier, Casbah de Tunis, 1885 · public domain",
+      "alt": "Engraved night sky where meteor streaks converge on a single point above a fortress..",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "orbitdiagram.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The 1833 storm came from dust shed in <y>1800</y>",
+      "note": "Not the comet's recent passage. Earth ran straight into an older trail left behind it.",
+      "source": "G. F. Chambers, The Story of the Comets, 1909",
+      "alt": "Diagram of the long Leonid orbit crossing the orbits of Earth, Jupiter, Saturn, Uranus.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "meteor2001.jpg",
+      "crop": "20% 62%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The source is comet <y>Tempel–Tuttle</y>, found in 1866",
+      "note": "Storms return about every 33 years. Whether a trail brings fireballs or faint streaks is still not understood.",
+      "source": "Alpsdake, Japan, 19 November 2001 · public domain",
+      "alt": "Photograph of a bright blue and red Leonid meteor streak beside the stars of Orion.",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "leonid-storm",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
