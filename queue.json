@@ -568,7 +568,9 @@
       "subject": "The ziggurat Etemenanki, the tower the Babel story was probably built on",
       "wikipedia": "Tower of Babel",
       "hook": "바벨탑이 실제로 있었다면 이것이다",
-      "screened": "2026-08-27 · 사진 14장"
+      "screened": "2026-08-27 · 사진 14장",
+      "hold": true,
+      "why_hold": "2026-08-31 자동 확인. 후보 30장 중 쓸 만한 것이 6장뿐입니다. The pool contains no photograph of Etemenanki itself — no excavated ruins at Babylon, no Koldewey dig photos, no Esagila tablet — so every pick is a painted or engraved imagining of the Tower of Babel rather than the ziggurat the post is actually about. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "library-of-alexandria",

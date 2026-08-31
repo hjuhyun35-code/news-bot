@@ -1,0 +1,31 @@
+{
+  "subject": "The Library of Alexandria, which was not burned once but faded over centuries",
+  "wikipedia": "Library of Alexandria",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "harbourfire.jpg",
+      "commons": "File:Incendie Alexandrie by Hermann Goll 1876.jpg"
+    },
+    {
+      "file": "readingroom.jpg",
+      "commons": "File:Ancientlibraryalex.jpg"
+    },
+    {
+      "file": "ptolemybust.jpg",
+      "commons": "File:Ptolemy I Soter Louvre Ma849.jpg"
+    },
+    {
+      "file": "scrollhandover.jpg",
+      "commons": "File:Ptoleme2 Vincenzo Camuccini 1813.jpg"
+    },
+    {
+      "file": "citymap.jpg",
+      "commons": "File:Antikes Alexandria Karte.JPG"
+    },
+    {
+      "file": "mob391.jpg",
+      "commons": "File:The Burning of the Library at Alexandria in 391 AD.jpg"
+    }
+  ]
+}
