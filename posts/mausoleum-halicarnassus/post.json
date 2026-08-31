@@ -1,0 +1,86 @@
+{
+  "caption": "Where is the Mausoleum at Halicarnassus now? Mostly inside a castle wall.\n\nMausolus, a Carian satrap in the Persian Empire, died in 353 BC. His sister-wife Artemisia continued his tomb at Halicarnassus — now Bodrum, Turkey — and died two years later. Pliny the Elder says the craftsmen stayed and finished the work anyway.\n\nIt rose about 45 m. Thirty-six columns, 400 freestanding sculptures, four Greek sculptors with one side each. On the roof, four marble horses pulled a chariot carrying images of Mausolus and Artemisia. Antipater of Sidon named it one of the Seven Wonders. It was the last of the six destroyed wonders to fall.\n\nEarthquakes brought the columns down. In 1494, and again in 1522, the Knights of St John broke up what was left for Bodrum Castle and burned much of the marble into lime. Polished blocks are still visible in the walls today.\n\nCharles Newton read Pliny for the dimensions, bought the likeliest plot of land, and tunnelled under neighbouring plots until he found three corners of the foundation — then the frieze, parts of the stepped roof, a chariot wheel two metres across, and the figures of Mausolus and Artemisia. Marble blocks he shipped out in 1857 went into a Royal Navy dock in Malta and now lie submerged in Dockyard Creek.\n\nStill unresolved: when it actually fell. Eustathius wrote in the 12th century that \"it was and is a wonder\" — but Luttrell noted that local Greeks and Turks had no name or legend for the colossal ruins, hinting at a much earlier destruction.\n\nImages: James Fergusson's 1862 speculative restoration; Thomas Picken's 1862 lithograph of the excavation; British Museum sculptures photographed by Marie-Lan Nguyen; the Bodrum site photographed by Monsieurdl.\n\n#mausoleum #halicarnassus #bodrum #sevenwonders #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "fergussonrestoration.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Every mausoleum is <y>named after this one tomb</y>",
+      "note": "Mausolus died in 353 BC. His tomb was so admired that Romans called all their grand tombs mausolea, after it.",
+      "source": "James Fergusson, restoration drawing, 1862 · PD",
+      "alt": "Engraved view of a tall colonnaded tomb with a stepped pyramid roof and rooftop chariot.  .",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "chariothorse.jpg",
+      "crop": "55% 30%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Four marble horses <y>pulled a chariot on the roof</y>",
+      "note": "Newton dug up a broken stone chariot wheel two metres across. It had fallen from the sculpture group on top.",
+      "source": "Chariot horse, Mausoleum group, British Museum · PD",
+      "alt": "Colossal marble horse head and chest with bronze bridle fittings, lit against black.  .",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "artemisiastatue.jpg",
+      "crop": "50% 22%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Both patrons died. <y>The sculptors kept working.</y>",
+      "note": "Artemisia outlived Mausolus by two years. Pliny: they stayed for \"a memorial of his own fame and of the sculptor's art\".",
+      "source": "Artemisia, British Museum · photo Marie-Lan Nguyen",
+      "alt": "Headless-faced marble statue of a draped standing woman, arms broken away.  .",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "amazonfrieze.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "<y>Four sculptors, one side each</y>, and 400 statues",
+      "note": "Scopas took the north, Bryaxis the east, Timotheus the south, Leochares the west. This slab shows Greeks fighting Amazons.",
+      "source": "Amazon frieze, British Museum · photo Marie-Lan Nguyen",
+      "alt": "Marble relief slab of Greek warriors and Amazons fighting with shields and swords.  .",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "excavation1862.jpeg",
+      "crop": "60% 48%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "He <y>tunnelled under the neighbours</y> to find it",
+      "note": "Charles Newton read Pliny for the size, bought one likely plot, and dug sideways until he hit three foundation corners.",
+      "source": "Lithograph by Thomas Picken, 1862 · public domain",
+      "alt": "1862 lithograph of an open excavation with wheelbarrows and cut stones below a hillside village.  .",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "ruinssite.jpg",
+      "crop": "50% 44%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "<y>Earthquakes felled it; the Knights burned it into lime</y>",
+      "note": "Only foundations and a small museum remain. When it collapsed is unknown — locals had no name or legend for the ruins.",
+      "source": "Mausoleum site, Bodrum, 2004 · photo Monsieurdl",
+      "alt": "Sunlit field of scattered marble blocks and column drums beside two tiled shelters.  .",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "mausoleum-halicarnassus",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

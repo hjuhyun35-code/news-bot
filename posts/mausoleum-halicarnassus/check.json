@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "Every mausoleum is named after this one tomb; Romans called all their grand tombs mausolea after it",
+      "where": "card 1 headline and note",
+      "verdict": "supported",
+      "quote": "Pausanias adds that the Romans considered the Mausoleum one of the greatest wonders of the world and it was for that reason that they called all their magnificent tombs mausolea, after it."
+    },
+    {
+      "claim": "Mausolus died in 353 BC",
+      "where": "card 1 note; caption",
+      "verdict": "supported",
+      "quote": "In 353 BC, Mausolus died, leaving Artemisia to rule alone."
+    },
+    {
+      "claim": "Card 1 image is James Fergusson's restoration drawing of 1862, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "FILE: fergussonrestoration.jpg ... Archive title: File:South East View of the Mausoleum as Restored by James Fergusson,1862.jpg ... Licence: Public domain"
+    },
+    {
+      "claim": "Four marble horses pulled a chariot on the roof",
+      "where": "card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "Perched on the top was a quadriga: four massive horses pulling a chariot in which rode images of Mausolus and Artemisia."
+    },
+    {
+      "claim": "Newton dug up a broken stone chariot wheel two metres across, fallen from the roof sculpture group",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Also discovered was a broken stone chariot wheel some 2 m (6 ft 7 in) in diameter, which came from the sculpture on the Mausoleum's roof."
+    },
+    {
+      "claim": "Card 2 shows a chariot horse from the Mausoleum group, in the British Museum",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Fragmentary horse from the colossal four-horses chariot group which topped the podium of the Mausoleum at Halicarnassos."
+    },
+    {
+      "claim": "Artemisia outlived Mausolus by two years",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "Artemisia lived for only two years after the death of her husband."
+    },
+    {
+      "claim": "Pliny says the craftsmen stayed and finished the work, considering it \"a memorial of his own fame and of the sculptor's art\"",
+      "where": "card 3 note; caption",
+      "verdict": "supported",
+      "quote": "According to the historian Pliny the Elder, the craftsmen decided to stay and finish the work after the death of their patron \"considering that it was at once a memorial of his own fame and of the sculptor's art\"."
+    },
+    {
+      "claim": "Card 3 shows the Artemisia statue in the British Museum, photographed by Marie-Lan Nguyen",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Artemisia BM 1857.12-20.233 n01.jpg ... Author: Marie-Lan Nguyen"
+    },
+    {
+      "claim": "Four sculptors each took one side, and there were 400 statues",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "The Mausoleum contained 400 freestanding sculptures."
+    },
+    {
+      "claim": "Scopas took the north, Bryaxis the east, Timotheus the south, Leochares the west",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "The sculptures on the north were created by Scopas, the ones on the east Bryaxis, on the south Timotheus and on the west Leochares."
+    },
+    {
+      "claim": "The card 4 slab shows Greeks fighting Amazons",
+      "where": "card 4 note; image amazonfrieze.jpg",
+      "verdict": "supported",
+      "quote": "Some of the surviving sculptures at the British Museum include fragments of statues and many slabs of the frieze showing the battle between the Greeks and the Amazons."
+    },
+    {
+      "claim": "Charles Newton read Pliny for the size, bought one likely plot, and dug sideways until he found three foundation corners",
+      "where": "card 5 note; caption",
+      "verdict": "supported",
+      "quote": "Instead, Newton studied the accounts of ancient writers like Pliny to obtain the approximate size and location of the memorial, then bought a plot of land in the most likely location. Digging down, Newton explored the surrounding area through tunnels he dug under the surrounding plots. He was able to locate some walls, a staircase, and finally three of the corners of the foundation."
+    },
+    {
+      "claim": "Card 5 image is a lithograph by Thomas Picken, 1862, public domain",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Lithograph by Thomas Picken (b.1818), titled  Mausoleum of Halicarnassus excavation of north side of quadrangle, 1862 ."
+    },
+    {
+      "claim": "Earthquakes felled the Mausoleum and the Knights burned it into lime",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "Then a series of earthquakes shattered the columns and sent the bronze chariot crashing to the ground."
+    },
+    {
+      "claim": "Only foundations and a small museum remain at the site",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "At the site of the Mausoleum, only the foundation remains, and a small museum."
+    },
+    {
+      "claim": "When it collapsed is unknown; locals had no name or legend for the ruins",
+      "where": "card 6 note; caption",
+      "verdict": "supported",
+      "quote": "However, Luttrell notes that at that time, the local Greeks and Turks had no name for – or legends to account for – the colossal ruins, suggesting a destruction at a much earlier period."
+    },
+    {
+      "claim": "Card 6 photo shows the Mausoleum site in Bodrum, taken in 2004 by Monsieurdl",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "I took the picture 22 May, 2004. ~Monsieurdl"
+    },
+    {
+      "claim": "Much of the Mausoleum now lies inside a castle wall",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Today, the massive castle of the Knights Hospitaller (Knights of St. John) still stands in Bodrum, and the polished stone and marble blocks of the Mausoleum can be spotted built into the walls of the structure."
+    },
+    {
+      "claim": "Mausolus was a Carian satrap in the Persian Empire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "for Mausolus, an Anatolian from Caria and a satrap in the Achaemenid Persian Empire"
+    },
+    {
+      "claim": "Artemisia was Mausolus's sister-wife and continued the tomb at Halicarnassus",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It is likely that Mausolus started to plan the tomb before his death, as part of the building works in Halicarnassus, so that when he died, Artemisia continued the building project."
+    },
+    {
+      "claim": "Halicarnassus is now Bodrum, Turkey",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "in Halicarnassus (present Bodrum, Turkey)"
+    },
+    {
+      "claim": "The Mausoleum rose about 45 m",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The Mausoleum was approximately 45 m (148 ft) in height"
+    },
+    {
+      "claim": "It had thirty-six columns",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The building was rectangular, not square, surrounded by a colonnade of thirty-six columns."
+    },
+    {
+      "claim": "Antipater of Sidon named it one of the Seven Wonders",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Antipater of Sidon identified it as one of his Seven Wonders of the Ancient World"
+    },
+    {
+      "claim": "It was the last of the six destroyed wonders to fall",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "it was the last surviving of the six destroyed wonders"
+    },
+    {
+      "claim": "In 1494, and again in 1522, the Knights of St John broke up what was left for Bodrum Castle",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "When they decided to fortify it in 1494, they used the stones of the Mausoleum. ... In 1522, rumours of a Turkish invasion caused the Crusaders to strengthen the castle at Halicarnassus (which was by then known as Bodrum) and much of the remaining portions of the tomb were broken up and used in the castle walls."
+    },
+    {
+      "claim": "The Knights burned much of the marble into lime",
+      "where": "caption; card 6",
+      "verdict": "supported",
+      "quote": "Before grinding and burning much of the remaining sculpture of the Mausoleum into lime for plaster, the Knights removed several of the best works and mounted them in the Bodrum castle."
+    },
+    {
+      "claim": "Polished blocks are still visible in the castle walls today",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Sections of polished marble from the tomb can still be seen there today."
+    },
+    {
+      "claim": "Newton found the frieze, parts of the stepped roof, and the figures of Mausolus and Artemisia",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Newton then excavated the site and found sections of the reliefs that decorated the wall of the building and portions of the stepped roof. ... Finally, he found the statues of Mausolus and Artemisia that had stood at the pinnacle of the building."
+    },
+    {
+      "claim": "Marble blocks Newton shipped out in 1857 went into a Royal Navy dock in Malta and now lie submerged in Dockyard Creek",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In October 1857, Newton carried blocks of marble from this site by HMS Supply and landed them in Malta. These blocks were used for the construction of a new dock in Malta for the Royal Navy. Today this dock is known as Dock No. 1 in Cospicua, but the building blocks are hidden from view, submerged in Dockyard Creek in the Grand Harbour."
+    },
+    {
+      "claim": "Eustathius wrote in the 12th century that \"it was and is a wonder\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Eustathius, writing in the 12th century on his commentary of the Iliad, says \"it was and is a wonder\"."
+    },
+    {
+      "claim": "The horse fragment shown retains metal (bronze) bridle fittings with disc-shaped bosses",
+      "where": "image chariothorse.jpg",
+      "verdict": "supported",
+      "quote": "chariothorse.jpg shows the marble horse head with dark metal bridle straps and circular disc bosses attached across the cheek and brow."
+    },
+    {
+      "claim": "The Fergusson print is titled \"South East View of the Mausoleum, as restored\"",
+      "where": "image fergussonrestoration.jpg",
+      "verdict": "supported",
+      "quote": "SOUTH EAST VIEW OF THE MAUSOLEUM, AS RESTORED."
+    },
+    {
+      "claim": "The Artemisia statue is headless/heavily damaged in the face and missing its arms",
+      "where": "image artemisiastatue.jpg",
+      "verdict": "supported",
+      "quote": "artemisiastatue.jpg shows the draped figure with the face broken away and both arms truncated above the elbow."
+    }
+  ],
+  "problems": 0
+}
