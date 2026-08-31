@@ -1,0 +1,86 @@
+{
+  "caption": "Who burned the Library of Alexandria? Nobody, in one go.\n\nJulius Caesar's soldiers set fire to ships in the harbour in 48 BC. Livy, quoted by Seneca, says 40,000 scrolls burned. But the geographer Strabo visited the Mouseion around 20 BC, decades later — it survived, or was rebuilt.\n\nThe real damage was administrative. In 145 BC Ptolemy VIII expelled foreign scholars from Alexandria. The head librarian, Aristarchus of Samothrace, fled to Cyprus and died there. Scholars scattered across the Mediterranean and kept working — just not in Alexandria. Later Ptolemies handed the librarian's post to political supporters; Ptolemy VIII gave it to one of his palace guards. Eventually nobody bothered recording who held the job.\n\nThe last references to scholars at the Mouseion date to the 260s AD. In 272 AD Aurelian's forces destroyed the Brucheion quarter, where the main library stood. Diocletian destroyed the same quarter again in 297.\n\nThe famous story of Caliph Omar burning the books to heat Alexandria's baths first appears about 500 years after the conquest. Scholars point out that both the Library and the Mouseion were probably long gone by 642 AD.\n\nStill open: how big the collection ever was. Estimates run from 40,000 scrolls to 700,000. Callimachus's catalogue, the Pinakes, survives only in fragments. One recent argument says the Ptolemaic collection was moved to the Serapeum and burned with it in 391 AD.\n\nImages: Hermann Göll's 1876 woodcut of the fire; O. Von Corven's 19th-century rendering of the Library; the Louvre bust of Ptolemy I Soter; Vincenzo Camuccini's 1813 painting of Ptolemy Philadelphus; Putzger's 1901 map of ancient Alexandria; Ambrose Dudley's c.1915 lithograph.\n\n#libraryofalexandria #ancienthistory #alexandria #archivephotography #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "harbourfire.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "The library survived <y>the famous fire</y> by 400 years",
+      "note": "Caesar's men burned ships in the harbour in 48 BC. Strabo visited the Mouseion decades later.",
+      "source": "Hermann Göll, woodcut, 1876 · public domain",
+      "alt": "Coloured woodcut of Alexandria's harbour ablaze, lighthouse at left, boats on the water.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "ptolemybust.jpg",
+      "crop": "50% 35%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Royal agents were sent out <y>with bags of money</y>",
+      "note": "Ptolemy I Soter laid the groundwork. Agents bought any text, any subject, any author — older copies preferred.",
+      "source": "Bust of Ptolemy I Soter, Louvre · public domain",
+      "alt": "Marble bust of a young man with a diadem in his curled hair, against black.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "scrollhandover.jpg",
+      "crop": "45% 45%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Ships in port were <y>stripped of their books</y>",
+      "note": "Under Ptolemy II, scribes copied any book found aboard. The library kept the original and sent back the copy.",
+      "source": "Vincenzo Camuccini, 1813 · public domain",
+      "alt": "Painting of a man in a red cloak reaching toward robed scholars over a scroll-covered desk.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "readingroom.jpg",
+      "crop": "38% 55%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The catalogue ran to <y>120 books</y>",
+      "note": "Callimachus listed every author and every known work. Only fragments of the Pinakes survive.",
+      "source": "O. Von Corven, 19th century · public domain",
+      "alt": "Engraving of scholars reading at a table among vast columns and scroll shelves.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "citymap.jpg",
+      "crop": "62% 42%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "In 145 BC the head librarian <y>was driven out</y>",
+      "note": "Ptolemy VIII expelled foreign scholars. Aristarchus fled to Cyprus. Later kings gave the post to palace guards.",
+      "source": "F. W. Putzger, map of ancient Alexandria, 1901 · PD",
+      "alt": "Old printed map of ancient Alexandria showing harbours, street grid and the Museum.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "mob391.jpg",
+      "crop": "50% 45%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "It faded out: <y>no funding, no scholars</y>, then war",
+      "note": "Members ceased by the 260s AD. Aurelian destroyed the library's quarter in 272. How many scrolls existed is still unknown: 40,000 to 700,000.",
+      "source": "Ambrose Dudley, lithograph, c.1915 · public domain",
+      "alt": "Monochrome illustration of a crowd with raised arms surging past columns and a statue.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "library-of-alexandria",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

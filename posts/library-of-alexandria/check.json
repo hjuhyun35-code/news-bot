@@ -1,0 +1,233 @@
+{
+  "claims": [
+    {
+      "claim": "The Library survived the famous fire (48 BC) by 400 years",
+      "where": "card 1 headline",
+      "verdict": "contradicted",
+      "quote": "Between 270 and 275 AD, Alexandria saw a Palmyrene invasion and an imperial counterattack that probably destroyed whatever remained of the Library, if it still existed."
+    },
+    {
+      "claim": "Caesar's men burned ships in the harbour in 48 BC",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "In 48 BC, during Caesar's Civil War, Julius Caesar was besieged at Alexandria. His soldiers set fire to some of the Egyptian ships docked in the Alexandrian port"
+    },
+    {
+      "claim": "Strabo visited the Mouseion decades after the fire, around 20 BC",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The geographer Strabo (c. 63 BC – c. 24 AD) mentions visiting the Mouseion, the larger research institution to which the Library was attached, in c. 20 BC, several decades after Caesar's fire"
+    },
+    {
+      "claim": "The library either survived the fire or was rebuilt",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "indicating that it either survived the fire or was rebuilt soon afterwards"
+    },
+    {
+      "claim": "Image credit: Hermann Göll, woodcut, 1876, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "The fire of   Alexandria , woodcuts by Hermann Göll, 1876."
+    },
+    {
+      "claim": "Royal agents were sent out with large amounts of money to acquire texts",
+      "where": "card 2 headline/note",
+      "verdict": "supported",
+      "quote": "They dispatched royal agents with large amounts of money and ordered them to purchase and collect as many texts as they possibly could, about any subject and by any author."
+    },
+    {
+      "claim": "Ptolemy I Soter laid the groundwork for the Library",
+      "where": "card 2 note",
+      "verdict": "unsupported",
+      "quote": "Modern scholars agree that while it is possible that Ptolemy I, a historian and author of an account of Alexander's campaign, laid the groundwork for the Library, it probably did not become a physical institution until the reign of Ptolemy II."
+    },
+    {
+      "claim": "Older copies of texts were preferred",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Older copies of texts were favored over newer ones, since it was assumed that older copies had undergone less copying"
+    },
+    {
+      "claim": "Image credit: bust of Ptolemy I Soter, Louvre, public domain",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "A Hellenistic bust depicting Ptolemy I Soter, 3rd century BCE, founder of the Library of Alexandria. Louvre, Paris"
+    },
+    {
+      "claim": "Under Ptolemy II, books found on ships entering port were taken and copied by official scribes",
+      "where": "card 3 headline/note",
+      "verdict": "supported",
+      "quote": "According to the Greek medical writer Galen, under the decree of Ptolemy II, any books found on ships that came into port were taken to the library, where they were copied by official scribes."
+    },
+    {
+      "claim": "The library kept the original and returned the copy to the owner",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The original texts were kept in the library and the copies delivered to the owners."
+    },
+    {
+      "claim": "Image credit: Vincenzo Camuccini, 1813, public domain",
+      "where": "card 3 source / caption",
+      "verdict": "supported",
+      "quote": "File:Ptoleme2 Vincenzo Camuccini 1813.jpg ... Ptolemy Philadelphus  in the Library of Alexandria ... Date: 1813"
+    },
+    {
+      "claim": "The catalogue (Pinakes) ran to 120 books",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "the scholar and poet Callimachus compiled the Pinakes, a 120-book catalogue of various authors and all their known works"
+    },
+    {
+      "claim": "Callimachus listed every author and every known work",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "a 120-book catalogue of various authors and all their known works"
+    },
+    {
+      "claim": "Only fragments of the Pinakes survive",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "The library's index, Callimachus' Pinakes, has only survived in the form of a few fragments"
+    },
+    {
+      "claim": "Image credit: O. Von Corven, 19th century, public domain",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Artistic Rendering of the  Library of Alexandria , based on some archaeological evidence. Date: 19 th  century ... Author: O. Von Corven"
+    },
+    {
+      "claim": "In 145 BC the head librarian was driven out of Alexandria",
+      "where": "card 5 headline",
+      "verdict": "supported",
+      "quote": "In 145 BC, however, Aristarchus became caught up in a dynastic struggle in which he supported Ptolemy VII Neos Philopator as the ruler of Egypt."
+    },
+    {
+      "claim": "Ptolemy VIII expelled foreign scholars from Alexandria",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Ptolemy VIII expelled all foreign scholars from Alexandria, forcing them to disperse across the Eastern Mediterranean."
+    },
+    {
+      "claim": "Aristarchus fled to Cyprus",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "forcing Aristarchus to flee Egypt and take refuge on the island of Cyprus, where he died shortly after"
+    },
+    {
+      "claim": "Aristarchus died in Cyprus",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "take refuge on the island of Cyprus, where he died shortly after"
+    },
+    {
+      "claim": "Later kings gave the head librarian post to palace guards",
+      "where": "card 5 note",
+      "verdict": "unsupported",
+      "quote": "Ptolemy VIII appointed a man named Cydas, one of his palace guards, as head librarian, and Ptolemy IX Soter II (r. 88–81 BC) is said to have given the position to a political supporter."
+    },
+    {
+      "claim": "Later Ptolemies handed the librarian's post to political supporters; Ptolemy VIII gave it to one of his palace guards",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Ptolemy VIII appointed a man named Cydas, one of his palace guards, as head librarian, and Ptolemy IX Soter II (r. 88–81 BC) is said to have given the position to a political supporter."
+    },
+    {
+      "claim": "Eventually nobody recorded who held the head librarian post",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Eventually, the position of head librarian lost so much of its former prestige that even contemporary authors ceased to take interest in recording the terms of office for individual head librarians."
+    },
+    {
+      "claim": "Scholars scattered across the Mediterranean and continued working outside Alexandria",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "A diaspora of Alexandrian scholarship occurred, in which scholars of the Library dispersed first into the eastern Mediterranean and then into the world of the western Mediterranean as well."
+    },
+    {
+      "claim": "Image credit: F. W. Putzger, map of ancient Alexandria, 1901",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "Karte der antiken ägyptischen Stadt Alexandria. Date: 1901 Author: Friedrich Wilhelm Putzger (1849-1913)"
+    },
+    {
+      "claim": "The Library declined from lack of funding and support",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "The Library dwindled during the Roman period, from a lack of funding and support."
+    },
+    {
+      "claim": "Membership of the Mouseion ceased by the 260s AD",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Its membership appears to have ceased by the 260s AD."
+    },
+    {
+      "claim": "Aurelian's forces destroyed the Brucheion quarter, where the main library stood, in 272 AD",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "In 272 AD, the emperor Aurelian fought to recapture the city of Alexandria from the forces of the Palmyrene queen Zenobia. During the course of the fighting, Aurelian's forces destroyed the Broucheion quarter of the city in which the main library was located."
+    },
+    {
+      "claim": "Estimates of the collection's size range from 40,000 to 700,000 scrolls",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "It is unknown how many scrolls were housed at any given time, but estimates range from 40,000 to 700,000 at its height."
+    },
+    {
+      "claim": "Image credit: Ambrose Dudley, lithograph, c.1915, public domain",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "The Burning of the Library at Alexandria in 391 AD, illustration from 'Hutchinsons History of the Nations', c.1910 (litho), Dudley, Ambrose"
+    },
+    {
+      "claim": "Livy, quoted by Seneca, says 40,000 scrolls burned in Caesar's fire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Seneca the Younger quotes Livy's Ab Urbe Condita Libri, which was written between 27 and 9 BC, as saying that the fire started by Caesar destroyed 40,000 scrolls from the Library of Alexandria"
+    },
+    {
+      "claim": "Diocletian destroyed the Brucheion quarter again in 297",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "whatever was left of them would have been further damaged or destroyed during the emperor Diocletian's siege of Alexandria in 297, when the Brouchion quarter was again destroyed"
+    },
+    {
+      "claim": "The story of Caliph Omar burning the books to heat Alexandria's baths first appears about 500 years after the conquest",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Roy MacLeod, for example, points out that the story first appeared 500 years after the event"
+    },
+    {
+      "claim": "The books were said to have been burned to fuel the fires heating Alexandria's city baths",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the general ordered that the books be burned to fuel the fires heating Alexandria's city baths"
+    },
+    {
+      "claim": "Scholars hold that both the Library and the Mouseion were probably long gone by 642 AD",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "that both the Great Library of Alexandria and the Mouseion were likely long gone by then"
+    },
+    {
+      "claim": "Alexandria was conquered by an Arab army in 642 AD",
+      "where": "caption (implied by \"by 642 AD\")",
+      "verdict": "supported",
+      "quote": "In 642 AD, Alexandria was captured by an Arab army under the command of Amr ibn al-As."
+    },
+    {
+      "claim": "A recent argument holds the Ptolemaic collection was moved to the Serapeum and burned with it in 391 AD",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "a recent article identifies the literary evidence suggesting that the original Ptolemaic library collection was moved to the Serapeum by the end of the second century AD and that a library is attested there until the Serapeum was destroyed along with the books it contained"
+    },
+    {
+      "claim": "The Serapeum was destroyed in 391 AD",
+      "where": "caption (implied)",
+      "verdict": "supported",
+      "quote": "The Serapeum, mainly used as a gathering place for Neoplatonist philosophers following the teachings of Iamblichus, was vandalized and demolished in 391 AD under a decree issued by bishop Theophilus of Alexandria."
+    }
+  ],
+  "problems": 3
+}
