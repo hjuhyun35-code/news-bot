@@ -1,0 +1,31 @@
+{
+  "subject": "The Mausoleum at Halicarnassus, so grand its name became the word for a tomb",
+  "wikipedia": "Mausoleum at Halicarnassus",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "chariothorse.jpg",
+      "commons": "File:Horse Halicarnassus BM 1002.jpg"
+    },
+    {
+      "file": "artemisiastatue.jpg",
+      "commons": "File:Artemisia BM 1857.12-20.233 n01.jpg"
+    },
+    {
+      "file": "amazonfrieze.jpg",
+      "commons": "File:Amazon Frieze BM GR 1865.7-23.1 n01.jpg"
+    },
+    {
+      "file": "excavation1862.jpeg",
+      "commons": "File:Mausoleum of Halicarnassus excavation of north side of quadrangle, 1862 by TA Picken.jpeg"
+    },
+    {
+      "file": "ruinssite.jpg",
+      "commons": "File:Ruins of the Mausoleum at Halicarnassus, one of the Seven Wonders of the Ancient World.jpg"
+    },
+    {
+      "file": "fergussonrestoration.jpg",
+      "commons": "File:South East View of the Mausoleum as Restored by James Fergusson,1862.jpg"
+    }
+  ]
+}

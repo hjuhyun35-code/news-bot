@@ -584,7 +584,9 @@
       "subject": "Al-Khazneh at Petra, carved downward into the cliff from the top",
       "wikipedia": "Al-Khazneh",
       "hook": "절벽을 위에서부터 깎아 내려왔다",
-      "screened": "2026-08-27 · 사진 12장"
+      "screened": "2026-08-27 · 사진 12장",
+      "hold": true,
+      "why_hold": "2026-08-31 자동 확인. 쓸 수 있는 사진이 2장뿐입니다. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "mausoleum-halicarnassus",
