@@ -1,0 +1,233 @@
+{
+  "claims": [
+    {
+      "claim": "Great Eastern was launched in 1858",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "she was by far the largest ship ever built at the time of her 1858 launch"
+    },
+    {
+      "claim": "No longer ship was built until 1899",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "Her length of 692 feet (211 m) was surpassed only in 1899, by the 705-foot (215 m) 17,274-gross-ton RMS Oceanic"
+    },
+    {
+      "claim": "The hull-on-stocks photograph is by Robert Howlett, dated 11 December 1857, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:The Great Eastern by Robert Howlett, 1857.jpg ... Date: 11-12-1857 ... Author: Robert Howlett (1831-1858) ... Licence: Public domain"
+    },
+    {
+      "claim": "Brunel called the ship the \"Great Babe\"",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Brunel knew her affectionately as the \"Great Babe\"."
+    },
+    {
+      "claim": "Brunel collapsed from a stroke after being photographed on her deck",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "he collapsed from a stroke after being photographed on her deck"
+    },
+    {
+      "claim": "He died ten days later, four days after the ship's first sea trials",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "and died only ten days later, a mere four days after Great Eastern's first sea trials"
+    },
+    {
+      "claim": "The portrait of Brunel before the launching chains is by Robert Howlett, 1857, held by the Metropolitan Museum of Art",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Isambard Kingdom Brunel Standing Before the Launching Chains of the Great Eastern, photograph by Robert Howlett. Now in the collection of the Metropolitan Museum of Art. ... Date: 1857"
+    },
+    {
+      "claim": "The first launch attempt failed and the ship stuck on her launch rails",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "The launch, however, failed, and the ship was stranded on her launch rails"
+    },
+    {
+      "claim": "The failed launch took place on 3 November 1857 and two men were killed",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "On 3 November, a large crowd gathered to watch the ship launch ... in addition, two men were killed and several others injured"
+    },
+    {
+      "claim": "At 19,000 tons she was the heaviest object humans had moved to that point",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "according to one source, the ship's 19,000 tons (12,000 inert tons during the launch) made it the single heaviest object moved by humans to that point"
+    },
+    {
+      "claim": "The launching-drums photograph is by Robert Howlett, 18 November 1857, CC0",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Date: Taken on 18 November 1857 ... Author: Robert Howlett ... Licence: CC0"
+    },
+    {
+      "claim": "An uncharted rock cut a gash 83 feet long in her hull",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "The rock punctured the outer hull of the ship, leaving a gash 2.7 metres (9 ft) wide and 25 metres (83 ft) long"
+    },
+    {
+      "claim": "The rock strike occurred in 1862 off Montauk Point",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "While passing by Montauk Point around 2:00 AM, the ship collided with an uncharted rock needle (later named Great Eastern Rock)"
+    },
+    {
+      "claim": "Her double skin held — the inner hull was not breached",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "it was later calculated that the needle was large enough to contact the inner hull, but that the outer hull and strong transverse braces had prevented the inner hull from being breached"
+    },
+    {
+      "claim": "No drydock in the world was big enough to repair her",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "a major issue as no drydock in the world could fit the ship"
+    },
+    {
+      "claim": "The section and deck plan is by W. H. Webb, 1857, public domain",
+      "where": "card 4 source / caption",
+      "verdict": "supported",
+      "quote": "Date: 1857 ... Author: W. H. Webb ... Licence: Public domain"
+    },
+    {
+      "claim": "In 1866 she landed the first lasting transatlantic telegraph cable",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "laying the first lasting transatlantic telegraph cable in 1866"
+    },
+    {
+      "claim": "The cable came ashore at Heart's Content, Newfoundland",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the unbroken cable made it to shore in Heart's Content, Newfoundland on 27 July 1866"
+    },
+    {
+      "claim": "By 1886 she was used as an advertising hoarding for Lewis's department store on the Mersey",
+      "where": "card 5 headline/note, caption",
+      "verdict": "supported",
+      "quote": "She later acted as an advertising hoarding – sailing up and down the Mersey for Lewis's Department Store, who at this point were her owners, before being sold."
+    },
+    {
+      "claim": "The advertising photograph shows the ship at Liverpool, 1886, from Royal Museums Greenwich",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Great Eastern (1858) anchored at Liverpool when used for advertising Lewis' Department Store, Liverpool RMG P10569.tiff ... Date: 1886-early 1887"
+    },
+    {
+      "claim": "The ship's side carried the slogan \"LEWIS'S ARE THE FRIENDS OF THE PEOPLE\" and named Liverpool, Manchester, Sheffield and Birmingham",
+      "where": "card 5 image",
+      "verdict": "supported",
+      "quote": "LEWIS'S ARE THE FRIENDS OF THE PEOPLE ... RANELAGH ST. LIVERPOOL. MANCHESTER. SHEFFIELD. BIRMINGHAM."
+    },
+    {
+      "claim": "She was scrapped in 1889",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "she was scrapped near the Sloyne, at New Ferry on the River Mersey by Henry Bath & Son Ltd in 1889–1890"
+    },
+    {
+      "claim": "At the time of scrapping she was still the largest ship ever built",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "not only at the time of her construction, but also when she was scrapped thirty years later, only smaller ships existed in all three main indicators (length, gross tonnage and passenger capacity)"
+    },
+    {
+      "claim": "Breaking her up took 18 months, the double hull being the hardest part",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "it took 18 months to take her apart, with her double hull being particularly difficult to salvage"
+    },
+    {
+      "claim": "Rumours of a worker sealed in her double hull have been dismissed but never fully settled",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "Other authors, notably L. T. C. Rolt in his biography of Brunel, have dismissed the claim (noting such a discovery would have been recorded in company logs and received press attention) ... Brian Dunning wrote about the legend in 2020, noting that while it was technically impossible to prove or disprove"
+    },
+    {
+      "claim": "The final photograph is by Allan C. Green, probably 1889, public domain",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Date: probably 1889 ... Author: Allan C. Green 1878 - 1954 ... Licence: Public domain"
+    },
+    {
+      "claim": "The final photograph shows her beached to be broken up",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "SS   Great Eastern  , apparently beached to be broken up at  Rock Ferry"
+    },
+    {
+      "claim": "She was 692 feet long",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Her length of 692 feet (211 m)"
+    },
+    {
+      "claim": "She was designed by Isambard Kingdom Brunel",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "SS Great Eastern was an iron-hulled steamship designed by Isambard Kingdom Brunel"
+    },
+    {
+      "claim": "She was designed to carry 4,000 people to Australia without refuelling",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "had the capacity to carry 4,000 passengers from England to Australia without refuelling"
+    },
+    {
+      "claim": "No heavier ship was built until 1901",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "her gross tonnage of 18,915 was surpassed only in 1901, by the 701-foot (214 m) 20,904-gross-ton RMS Celtic"
+    },
+    {
+      "claim": "Nobody matched her passenger capacity until 1913",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "her 4,000-passenger capacity was surpassed only in 1913, by the 4,234-passenger SS Imperator"
+    },
+    {
+      "claim": "Renting out chains and jacks for the second launch attempt made engineer Richard Tangye's fortune, and he said \"We launched Great Eastern, and she launched us\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "so lucrative was renting out of supplies for the ship's launch that engineer Richard Tangye was able to found his own engineering firm (Tangye & Co) the next year, remarking that \"We launched Great Eastern, and she launched us\""
+    },
+    {
+      "claim": "As a liner she lost money on almost every crossing",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "By July 1862, the ship was turning its first noteworthy profits, carrying 500 passengers and 8,000 tons of foodstuffs from New York to Liverpool, bringing in $225,000 in gross"
+    },
+    {
+      "claim": "She finished as a showboat as well as a floating advertisement",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Sold again, she was used as a showboat, a floating palace/concert hall and gymnasium."
+    },
+    {
+      "claim": "The trapped-worker story spread after her scrapping and is widely mentioned in nautical ghost-story books",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "After Great Eastern's scrapping, rumours spread that the shipbreakers had found the remains of trapped worker(s) entombed in her double hull ... the legend has become widely mentioned in books and articles about nautical ghost stories"
+    },
+    {
+      "claim": "An anchor recovered in 2007 near Great Eastern Rock may or may not be hers",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In October 2007, the recovery of a 6,500-pound (2.9 t) anchor in 70 feet (21 m) of water about four miles (6.4 km) from Great Eastern Rock stirred speculation that it may have belonged to Great Eastern."
+    },
+    {
+      "claim": "All of the images used are public domain",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "FILE: launchingdrums.jpg ... Licence: CC0"
+    }
+  ],
+  "problems": 3
+}

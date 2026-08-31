@@ -1,0 +1,85 @@
+{
+  "caption": "Why was the SS Great Eastern a failure?\n\nShe was 692 feet long, launched in 1858, and designed by Isambard Kingdom Brunel to carry 4,000 people to Australia without refuelling. No longer ship was built until 1899. No heavier one until 1901. Nobody matched her passenger capacity until 1913.\n\nThe first launch attempt, in November 1857, failed: she stuck on her rails and two men were killed. Renting out chains and jacks for the second attempt made engineer Richard Tangye's fortune — \"We launched Great Eastern, and she launched us.\"\n\nAs a liner she lost money on almost every crossing. In 1862 she struck an uncharted rock off Montauk Point that opened a gash 83 feet long in her outer hull; her double skin held, but no drydock in the world was big enough to repair her. Her one real success was cable: in 1866 she landed the first lasting transatlantic telegraph cable at Heart's Content, Newfoundland.\n\nShe finished as a showboat and a floating advertisement for Lewis's department store on the Mersey, and was broken up from 1889 — 18 months of work, the double hull the hardest part.\n\nStill unresolved: the story that shipbreakers found a worker sealed inside her double hull. It spread after her scrapping and fills nautical ghost-story books, but authors including L. T. C. Rolt dismissed it, noting such a find would have been logged and reported. An anchor recovered in 2007 near Great Eastern Rock may or may not be hers.\n\nImages: Robert Howlett's 1857 shipyard photographs, a deck plan by W. H. Webb, the Lewis's advertising view at Liverpool from Royal Museums Greenwich, and Allan C. Green's photograph of her beached for breaking. All public domain.\n\n#SSGreatEastern #Brunel #maritimehistory #victorianengineering #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "hullonstocks.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "Launched 1858. <y>Nothing longer</y> was built until 1899.",
+      "source": "Robert Howlett, 11 December 1857 · public domain",
+      "alt": "Huge iron ship hull on shipyard stocks, scaffolding at the bow, 1857.",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "brunelchains.jpg",
+      "crop": "50% 40%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Brunel called her <y>the Great Babe</y>.",
+      "note": "He collapsed from a stroke after being photographed on her deck. He died ten days later, four days after her first sea trials.",
+      "source": "Robert Howlett, 1857 · Metropolitan Museum of Art",
+      "alt": "Man in top hat, cigar in mouth, standing before giant iron chain links.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "launchingdrums.jpg",
+      "crop": "68% 55%",
+      "zoom": 2,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "<y>The first launch failed.</y> She stuck on the rails.",
+      "note": "3 November 1857: two men killed, the ship stranded. At 19,000 tons she was the heaviest object humans had moved.",
+      "source": "Robert Howlett, 18 November 1857 · CC0",
+      "alt": "Workers beside enormous chain drums at a shipyard, ship hull behind them.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "sectionanddeckplan.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.8,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "An uncharted rock cut a gash <y>83 feet long</y> in her hull.",
+      "note": "1862, off Montauk Point. Her double skin held — and no drydock in the world was big enough to repair her.",
+      "source": "W. H. Webb, 1857 · public domain",
+      "alt": "Printed longitudinal section drawing of a steamship with a lettered key.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "lewissadvertising.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "The ship that laid the Atlantic cable became an <y>advertising hoarding</y>.",
+      "note": "In 1866 she landed the first lasting transatlantic telegraph cable. By 1886 she was selling Lewis's department store on the Mersey.",
+      "source": "Liverpool, 1886 · Royal Museums Greenwich",
+      "alt": "Long six-masted ship, hull painted with LEWIS'S store slogans, at anchor.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "beachedforbreaking.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Scrapped in 1889 — <y>still the largest ship</y> ever built.",
+      "note": "Breaking her up took 18 months. Rumours of a worker sealed in her double hull have been dismissed, but never fully settled.",
+      "source": "Allan C. Green, probably 1889 · public domain",
+      "alt": "Great Eastern beached on mudflats, masts, funnels and paddle box visible.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "great-eastern",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
