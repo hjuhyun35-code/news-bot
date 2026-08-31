@@ -1,0 +1,86 @@
+{
+  "caption": "What was a cabinet of curiosities?\n\nA private room. The word \"cabinet\" originally meant a room, not a piece of furniture, and the classic ones appeared in sixteenth-century Europe — encyclopedic collections of objects whose categories had not been invented yet.\n\nJohn Tradescant the Elder and his son filled one in South Lambeth and opened it to the public for a small entrance fee. Their 1656 catalogue, financed by their neighbour Elias Ashmole, listed a dodo and a walrus jaw alongside a mermaid's hand, a dragon's egg, two feathers of a phoenix's tail, a piece of the True Cross and a vial of blood that rained on the Isle of Wight.\n\nAshmole acquired the Ark in 1659 and gave it to the University of Oxford in 1675, on condition a building be provided. That became the Ashmolean Museum. Hans Sloane's collection, bequeathed to England for £20,000 in 1753, became the British Museum.\n\nThe mixing of fact and fiction ran in both directions. Ole Worm kept a \"Scythian Lamb\" — a woolly fern believed to be half plant, half sheep — and was also the man who identified the narwhal's tusk as coming from a whale, not a unicorn.\n\nWhat is unresolved: what most of those rarities actually were. The catalogues name a phoenix feather and a dragon's egg; the record here does not say what sat behind the labels, or what survives. By the early eighteenth century Enlightenment thinkers had turned against the whole idea, treating rarities as misleading exceptions to nature's uniformity.\n\nImages: Domenico Remps's painted cabinet of the 1690s; the 1599 engraving from Ferrante Imperato's Dell'Historia Naturale; Frans Francken the Younger, 1619; Gerhard Emmoser's clockwork celestial globe, Vienna 1579; and two views of the curiosity cabinet at Skokloster Castle.\n\n#cabinetofcuriosities #wunderkammer #museumhistory #archivephotography #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "rempscabinet.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "base",
+      "headline": "A London collection listed <y>two phoenix feathers</y> in 1656",
+      "note": "The same catalogue names a mermaid's hand, a dragon's egg and a piece of the True Cross.",
+      "source": "Domenico Remps, 1690s · public domain",
+      "alt": "Painted cabinet with open doors holding shells, coral, a skull, globes and small pictures..",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "museoimperato.jpg",
+      "crop": "45% 14%",
+      "zoom": 1.7,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The earliest picture of one has <y>a crocodile on the ceiling</y>",
+      "note": "Ferrante Imperato's 1599 engraving is the earliest pictorial record of a natural history cabinet. Fishes and shells cover the vault.",
+      "source": "Ferrante Imperato, Dell'Historia Naturale, 1599",
+      "alt": "Engraved room with a stuffed crocodile hung from a ceiling covered in fish and shells.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "collectortable.jpg",
+      "crop": "40% 48%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "<y>Coins, shells and a Madonna</y> on one table",
+      "note": "\"Cabinet\" first meant a room, not furniture. The categories we would sort these objects into had not yet been defined.",
+      "source": "Frans Francken the Younger, 1619 · public domain",
+      "alt": "Painting of a collector's wall and table: landscapes, shells, coins, medals and flowers.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "celestialglobe.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Clockwork sat beside <y>tusks, skeletons and minerals</y>",
+      "note": "Seventeenth-century cabinets mixed preserved animals with clockwork automata. This silver celestial globe was made in Vienna in 1579.",
+      "source": "Gerhard Emmoser, Vienna, 1579 · CC0",
+      "alt": "Silver and gilt celestial globe in rings, carried on the back of a winged silver horse.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "skullandshell.jpg",
+      "crop": "32% 45%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "He proved <y>unicorn horns</y> were narwhal. He also kept a plant-sheep",
+      "note": "Ole Worm identified the narwhal tusk as a whale's. His collection also held a \"Scythian Lamb\" — a woolly fern thought half plant, half sheep.",
+      "source": "Curiosity cabinet, Skokloster Castle · public domain",
+      "alt": "Skull, cased bird, corked jars and a large shell on a wooden table in warm light.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "skoklostercupboard.jpg",
+      "crop": "50% 42%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "That collection became <y>the Ashmolean Museum</y>",
+      "note": "Ashmole bought the Ark in 1659 and gave it to Oxford in 1675. What the phoenix feather and dragon's egg actually were is not recorded here.",
+      "source": "Fredrik Andersson · Skokloster Castle · public domain",
+      "alt": "Tall cupboard with green-painted interior, shelves of stones, bones, jars and shells.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "cabinet-of-curiosities",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

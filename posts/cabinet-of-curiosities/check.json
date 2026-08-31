@@ -1,0 +1,185 @@
+{
+  "claims": [
+    {
+      "claim": "A London collection catalogue of 1656 listed two phoenix feathers",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "two feathers of a phoenix's tail ... He financed the publication of Musaeum Tradescantianum, a catalogue of the Ark collection in 1656."
+    },
+    {
+      "claim": "The same catalogue names a mermaid's hand, a dragon's egg and a piece of the True Cross",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "rarities (e.g., a mermaid's hand, a dragon's egg, two feathers of a phoenix's tail, a piece of the True Cross, and a vial of blood that rained in the Isle of Wight)"
+    },
+    {
+      "claim": "The painted cabinet image is by Domenico Remps, 1690s, public domain",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Domenico Remps - Cabinet of Curiosities.jpg ... Date: 1690s ... Author: Domenico Remps ... Licence: Public domain"
+    },
+    {
+      "claim": "The earliest pictorial record of a natural history cabinet shows a crocodile suspended from the ceiling",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "Every surface of the vaulted ceiling is occupied with preserved fishes, stuffed mammals and curious shells, with a stuffed crocodile suspended in the centre."
+    },
+    {
+      "claim": "Ferrante Imperato's 1599 engraving is the earliest pictorial record of a natural history cabinet",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The earliest pictorial record of a natural history cabinet is the engraving in Ferrante Imperato's Dell'Historia Naturale (Naples 1599)"
+    },
+    {
+      "claim": "Fishes and shells cover the vault in the engraving",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "Every surface of the vaulted ceiling is occupied with preserved fishes, stuffed mammals and curious shells"
+    },
+    {
+      "claim": "Coins, shells and a Madonna image appear together on one table",
+      "where": "card 3 headline",
+      "verdict": "supported",
+      "quote": "Archive title: File:Frans Francken the Younger - The cabinet of a collector with paintings, shells, coins, fossils and flowers - 1619.jpg — and in the image coins and shells lie on the table with a panel of the Adoration of the Magi (Madonna and Child) propped on it"
+    },
+    {
+      "claim": "\"Cabinet\" first meant a room, not a piece of furniture",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "The term cabinet originally described a room rather than a piece of furniture."
+    },
+    {
+      "claim": "The categories these objects would be sorted into had not yet been defined",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "encyclopedic collections of objects whose categorical boundaries were, in Renaissance Europe, yet to be defined"
+    },
+    {
+      "claim": "The collector's table painting is by Frans Francken the Younger, 1619, public domain",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Date: 1619 ... Author: Frans Francken the Younger ... Licence: Public domain"
+    },
+    {
+      "claim": "Clockwork objects sat beside tusks, skeletons and minerals in these cabinets",
+      "where": "card 4 headline / note",
+      "verdict": "supported",
+      "quote": "These seventeenth-century cabinets were filled with preserved animals, horns, tusks, skeletons, minerals, as well as other interesting man-made objects: sculptures wondrously old, wondrously fine or wondrously small; clockwork automata"
+    },
+    {
+      "claim": "The silver celestial globe was made in Vienna in 1579",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "Description: Austrian, Vienna; Celestial globe with clockwork; Metalwork-Silver In Combination Date: 1579"
+    },
+    {
+      "claim": "The globe is by Gerhard Emmoser and is CC0",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Author: Gerhard Emmoser Licence: CC0"
+    },
+    {
+      "claim": "Ole Worm identified the narwhal's tusk as coming from a whale rather than a unicorn",
+      "where": "card 5 headline / note",
+      "verdict": "supported",
+      "quote": "he was also responsible for identifying the narwhal's tusk as coming from a whale rather than a unicorn, as most owners of these believed"
+    },
+    {
+      "claim": "Worm's collection held a \"Scythian Lamb\", a woolly fern thought to be part plant, part sheep",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "Worm's collection contained, for example, what he thought was a Scythian Lamb, a woolly fern thought to be a plant/sheep fabulous creature."
+    },
+    {
+      "claim": "The skull-and-shell photograph shows the curiosity cabinet at Skokloster Castle",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Kuriosakabinettet - Skoklosters slott - 102318.tif"
+    },
+    {
+      "claim": "The Tradescant collection became the Ashmolean Museum",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "Ashmole's donation formed the foundation of the Ashmolean Museum at Oxford."
+    },
+    {
+      "claim": "Ashmole bought the Ark in 1659",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "Ashmole, a collector in his own right, acquired the Tradescant Ark in 1659"
+    },
+    {
+      "claim": "Ashmole gave the collection to Oxford in 1675",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "In 1675, he donated his library and collection and the Tradescant collection to the University of Oxford"
+    },
+    {
+      "claim": "The green cupboard photograph is by Fredrik Andersson, Skokloster Castle, public domain",
+      "where": "card 6 source",
+      "verdict": "supported",
+      "quote": "Author: Fredrik Andersson Licence: Public domain ... Skoklosters slott"
+    },
+    {
+      "claim": "A cabinet of curiosities was a private room",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "The term cabinet originally described a room rather than a piece of furniture."
+    },
+    {
+      "claim": "The classic cabinets appeared in sixteenth-century Europe",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Although more rudimentary collections had preceded them, the classic cabinets of curiosities emerged in the sixteenth century."
+    },
+    {
+      "claim": "John Tradescant the Elder and his son filled a cabinet in South Lambeth and opened it to the public for a small entrance fee",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "By the 1630s, the Tradescants displayed their eclectic collection at their residence in South Lambeth. Tradescant's Ark, as it came to be known, was the earliest major cabinet of curiosity in England and open to the public for a small entrance fee."
+    },
+    {
+      "claim": "The 1656 catalogue was financed by their neighbour Elias Ashmole",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Ashmole was also a neighbor of the Tradescants in Lambeth. He financed the publication of Musaeum Tradescantianum, a catalogue of the Ark collection in 1656."
+    },
+    {
+      "claim": "The catalogue listed a dodo and a walrus jaw",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "collected zoological (e.g., the dodo from Mauritius, the upper jaw of a walrus, and armadillos)"
+    },
+    {
+      "claim": "The collection included a vial of blood that rained on the Isle of Wight",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "a vial of blood that rained in the Isle of Wight"
+    },
+    {
+      "claim": "Ashmole's 1675 gift was made on condition that a building be provided",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "provided that a suitable building be provided to house the collection"
+    },
+    {
+      "claim": "Hans Sloane's collection was bequeathed to England for £20,000 in 1753 and became the British Museum",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Upon his death in 1753, Sloane bequeathed his sizable collection of 337 volumes to England for £20,000. In 1759, George II's royal library was added to Sloane's collection to form the foundation of the British Museum."
+    },
+    {
+      "claim": "By the early eighteenth century Enlightenment thinkers had turned against curiosities, treating rarities as misleading exceptions to nature's uniformity",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "As Enlightenment thinkers placed growing emphasis on patterns and systems within nature, anomalies and rarities came to be regarded as potentially misleading objects of study. Curiosities ... were increasingly seen as vulgar exceptions to nature's overall uniformity."
+    },
+    {
+      "claim": "Two of the images are views of the curiosity cabinet at Skokloster Castle",
+      "where": "caption, image credits",
+      "verdict": "supported",
+      "quote": "Nyckelord : Skåp, Möbler, Kuriosakabinettet, Föremålsbild ... Archive title: File:Kuriosakabinettet - Skoklosters slott - 102318.tif"
+    }
+  ],
+  "problems": 1
+}
