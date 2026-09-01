@@ -1,0 +1,27 @@
+{
+  "subject": "The Sutton Hoo ship burial, where the wood had rotted and only its shape remained",
+  "wikipedia": "Sutton Hoo",
+  "handle": "@theglassnegative",
+  "images": [
+    {
+      "file": "helmet.png",
+      "commons": "File:Sutton Hoo helmet 2016.png"
+    },
+    {
+      "file": "mound.jpg",
+      "commons": "File:Rædwaldes byrgen æt Suþtunho.jpg"
+    },
+    {
+      "file": "basilbrown.jpg",
+      "commons": "File:Basil Brown.jpg"
+    },
+    {
+      "file": "edithpretty.jpg",
+      "commons": "File:Edith Pretty.jpg"
+    },
+    {
+      "file": "beltornament.jpg",
+      "commons": "File:Anglo-Saxon Sword Belt End Ornament from Sutton Hoo Burial, 625-630 AD.jpg"
+    }
+  ]
+}

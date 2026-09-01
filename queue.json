@@ -635,7 +635,9 @@
       "subject": "The Lascaux cave, found by boys looking for a lost dog",
       "wikipedia": "Lascaux",
       "hook": "개를 찾던 소년들이 1만 7천 년 전 그림을 찾았다",
-      "screened": "2026-08-27 · 사진 8장"
+      "screened": "2026-08-27 · 사진 8장",
+      "hold": true,
+      "why_hold": "2026-09-02 자동 확인. 후보 20장 중 쓸 만한 것이 5장뿐입니다. Nothing in this pool shows the original cave or its discovery — no 1940 photographs, no boys who found it, no entrance or hillside; every picture except Glory's engraving tracing is a modern facsimile (Lascaux IV or the Brno Anthropos replica wall), so the set illustrates the art but cannot honestly tell the story of the find. 자세한 내용은 그날 실행 기록에 있다."
     },
     {
       "slug": "sutton-hoo",
