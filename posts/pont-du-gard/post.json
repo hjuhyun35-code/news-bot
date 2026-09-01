@@ -1,0 +1,86 @@
+{
+  "caption": "Is the Pont du Gard held together with mortar? No. It was built largely without mortar or clamps — 50,400 tons of limestone, some blocks weighing 6 tons, cut so precisely they hold by friction and gravity alone.\n\nThe bridge is 49 m high and 274 m long, carrying water 50 km to Roman N\\u00eemes. Its gradient is absurd: the Pont du Gard itself drops 2.5 cm over 456 m. Between the bridge and St Bonnet the engineers had to allow a fall of 7 mm per 100 m.\n\nBuilders numbered the blocks and inscribed instructions on them — fronte dextra, fronte sinistra, front right, front left. About 800 to 1,000 workers, roughly fifteen years.\n\nThe top levels curve upstream. For a long time this was read as clever engineering against the river. A microtopographic survey in 1989 found the cause: the stone expands and contracts about 5 mm a day in the sun, and centuries of that produced the bend.\n\nIt survived because it was useful. From the 13th century the seigneurs, later the Bishops of Uz\\u00e8s, levied tolls and kept it repaired. The worst damage was French, not barbarian: in the 1620s the Duke of Rohan cut away one side of the second tier to a third of its thickness to move artillery across.\n\nStill open: who built it and when. Credit long went to Agrippa around 19 BC, but coins in the N\\u00eemes outflow are no older than Claudius, and newer excavation points to 40\\u201360 AD.\n\nImages: an album photograph once owned by Paul-Jean Toulet; Dominique Roman's 1860 view; an anonymous postcard, c.1900\\u20131910; Cl\\u00e9risseau's 1804 engraving; Hubert Robert's 1787 painting; and a 2012 photograph of the river beach downstream.\n\n#pontdugard #romanengineering #archivephotography #publicdomain #aqueduct",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "arches.jpg",
+      "crop": "50% 45%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Three tiers of stone, <y>stacked without mortar</y>, still standing",
+      "note": "50,400 tons of limestone. Blocks cut to fit by friction and gravity alone.",
+      "source": "Postcard, N\\u00eemes, c.1900\\u20131910 · public domain",
+      "alt": "Three tiers of Roman stone arches rising above a rocky riverbank.😀",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "reflection.jpg",
+      "crop": "50% 48%",
+      "zoom": 2.1,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "It falls <y>2.5 cm across 456 metres</y>",
+      "note": "The bridge carried 40,000 cubic metres of water a day, 50 km to N\\u00eemes. Nearly 27 hours per journey.",
+      "source": "Dominique Roman, 1860 · public domain",
+      "alt": "Faded 1860 photograph of the aqueduct reflected in still river water.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "aqueduct.jpg",
+      "crop": "58% 42%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Blocks were <y>numbered and labelled</y> front right, front left",
+      "note": "Masons inscribed fronte dextra and fronte sinistra to guide assembly. Around 800 to 1,000 workers, fifteen years.",
+      "source": "Album of Paul-Jean Toulet · public domain",
+      "alt": "Large albumen print of the Pont du Gard's arches above the Gardon river.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "survey.jpg",
+      "crop": "50% 30%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "The upper tiers <y>bend upstream</y> — not by design",
+      "note": "A 1989 microtopographic survey found the cause. The stone moves about 5 mm a day in the sun.",
+      "source": "Charles-Louis Cl\\u00e9risseau, engraving, 1804 · public domain",
+      "alt": "1804 engraving of the aqueduct with arch plans drawn beneath it.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "painting.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "warm",
+      "headline": "A duke <y>cut away the arches</y> to move his cannons",
+      "note": "In the 1620s Henri, Duke of Rohan shaved the second tier to a third of its thickness. It severely weakened the bridge.",
+      "source": "Hubert Robert, 1787 · public domain",
+      "alt": "Painting of the aqueduct at sunset with figures and a boat on the river.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "bathers.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "It survived because it was a <y>toll bridge</y>",
+      "note": "Still unsettled: the date. Credited to Agrippa, 19 BC — but coins in the N\\u00eemes outflow are no older than Claudius.",
+      "source": "River beach at Remoulins, 2012, DimiTalen · CC0",
+      "alt": "Crowded modern river beach with swimmers, kayaks and parasols on pale rock.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "pont-du-gard",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

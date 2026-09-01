@@ -1,0 +1,209 @@
+{
+  "claims": [
+    {
+      "claim": "The Pont du Gard has three tiers of arches",
+      "where": "card 1 headline",
+      "verdict": "supported",
+      "quote": "The bridge has three tiers of arches made from Shelly limestone and stands 48.8 m (160 ft) high."
+    },
+    {
+      "claim": "The bridge was stacked without mortar",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "The Pont du Gard was constructed largely without the use of mortar or clamps."
+    },
+    {
+      "claim": "It contains 50,400 tons of limestone",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "It contains an estimated 50,400 tons of limestone with a volume of some 21,000 m3 (740,000 cu ft)"
+    },
+    {
+      "claim": "Blocks were cut to fit by friction and gravity alone",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "The blocks were precisely cut to fit perfectly together by friction and gravity, eliminating the need for mortar."
+    },
+    {
+      "claim": "Some individual blocks weigh up to 6 tons",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "some of the individual blocks weigh up to 6 tons"
+    },
+    {
+      "claim": "The image arches.jpg is a postcard of Nîmes, c.1900–1910",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Date: between 1900 and 1910"
+    },
+    {
+      "claim": "The postcard bears the printed caption 'NIMES — Le Pont du Gard A.R.'",
+      "where": "arches.jpg image",
+      "verdict": "supported",
+      "quote": "NIMES – Le Pont du Gard  A.R."
+    },
+    {
+      "claim": "The Pont du Gard descends 2.5 cm in 456 m",
+      "where": "card 2 headline / caption",
+      "verdict": "supported",
+      "quote": "The Pont du Gard itself descends 2.5 cm (0.98 in) in 456 m (1,496 ft), a gradient of 1 in 18,241."
+    },
+    {
+      "claim": "The bridge carried 40,000 cubic metres of water a day",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The aqueduct formerly carried an estimated 40,000 m3 (8,800,000 imp gal; 11,000,000 US gal) of water a day"
+    },
+    {
+      "claim": "The water travelled 50 km to Nîmes",
+      "where": "card 2 note / caption",
+      "verdict": "supported",
+      "quote": "to carry water over 50 km (31 mi) to the Roman colony of Nemausus (Nîmes)"
+    },
+    {
+      "claim": "The journey took nearly 27 hours",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "It is estimated that the aqueduct supplied the city with around 40,000 cubic metres (8,800,000 imp gal) of water a day that took nearly 27 hours to flow from the source to the city."
+    },
+    {
+      "claim": "reflection.jpg is by Dominique Roman, 1860",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Date: 1860 date QS:P571,+1860-00-00T00:00:00Z/9\nAuthor: Roman, Dominique (1824-1911). Photographe"
+    },
+    {
+      "claim": "The mount of reflection.jpg is printed 'PONT DU GARD'",
+      "where": "reflection.jpg image",
+      "verdict": "supported",
+      "quote": "PONT DU GARD"
+    },
+    {
+      "claim": "Blocks were numbered and inscribed with required locations such as fronte dextra and fronte sinistra (front right, front left)",
+      "where": "card 3 / caption",
+      "verdict": "supported",
+      "quote": "Many blocks were numbered and inscribed with the required locations, such as fronte dextra or fronte sinistra (front right or front left), to guide the builders."
+    },
+    {
+      "claim": "Construction employed between 800 and 1,000 workers and took about fifteen years",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "It is believed to have taken about fifteen years to build, employing between 800 and 1,000 workers."
+    },
+    {
+      "claim": "aqueduct.jpg comes from an album that belonged to Paul-Jean Toulet",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Album de photographies et cartes postales ayant appartenu à Paul-Jean Toulet - btv1b10585049x (099 of 103).jpg"
+    },
+    {
+      "claim": "The print in aqueduct.jpg is captioned '234 Nîmes. — Le Pont du Gard  ND Phot'",
+      "where": "aqueduct.jpg image",
+      "verdict": "supported",
+      "quote": "234   Nimes. — Le Pont du Gard    ND Phot"
+    },
+    {
+      "claim": "The upper levels of the bridge bend upstream, and this was not by deliberate design",
+      "where": "card 4 / caption",
+      "verdict": "supported",
+      "quote": "It was long believed that the engineers had designed it this way deliberately to strengthen the bridge's structure against the flow of water, like a dam wall. However, a microtopographic survey carried out in 1989 showed that the bend is caused by the stone expanding and contracting by about 5 mm (0.20 in) a day under the heat of the sun."
+    },
+    {
+      "claim": "A microtopographic survey in 1989 identified the cause of the bend",
+      "where": "card 4 note / caption",
+      "verdict": "supported",
+      "quote": "a microtopographic survey carried out in 1989 showed that the bend is caused by the stone expanding and contracting by about 5 mm (0.20 in) a day under the heat of the sun"
+    },
+    {
+      "claim": "survey.jpg is an 1804 engraving by Charles-Louis Clérisseau",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Date: 1804\nAuthor: Charles-Louis Clérisseau"
+    },
+    {
+      "claim": "The engraving is titled 'Vue générale du Pont du Gard' with plans of the upper arcades, second-rank arcades and the modern bridge",
+      "where": "survey.jpg image",
+      "verdict": "supported",
+      "quote": "Vue générale du Pont du Gard ... Plan des arcades supérieures ... Plan des arcades du 2e rang ... Plan du Pont moderne adossé au 1er rang d'arcades"
+    },
+    {
+      "claim": "In the 1620s Henri, Duke of Rohan had one side of the second row of arches cut away to about one-third of their thickness to move artillery, severely weakening the bridge",
+      "where": "card 5 / caption",
+      "verdict": "supported",
+      "quote": "To make space for his artillery to cross the bridge, the duke had one side of the second row of arches cut away to a depth of about one-third of their original thickness. This left a gap on the lowest deck wide enough to accommodate carts and cannons, but severely weakened the bridge in the process."
+    },
+    {
+      "claim": "painting.jpg is by Hubert Robert, 1787",
+      "where": "card 5 source / caption",
+      "verdict": "supported",
+      "quote": "Date: 1787 date QS:P571,+1787-00-00T00:00:00Z/9\nAuthor: Hubert Robert"
+    },
+    {
+      "claim": "The Pont du Gard survived because it served as a toll bridge",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "Its survival was due to its use as a toll bridge across the valley."
+    },
+    {
+      "claim": "From the 13th century the seigneurs of Uzès, later the Bishops of Uzès, levied tolls and were responsible for keeping the bridge repaired",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the 13th century the French king granted the seigneurs of Uzès the right to levy tolls on those using the bridge. The right later passed to the Bishops of Uzès. In return, they were responsible for maintaining the bridge in good repair."
+    },
+    {
+      "claim": "Construction has long been credited to Agrippa around 19 BC",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "The construction of the aqueduct has long been credited to the Roman emperor Augustus's son-in-law and aide, Marcus Vipsanius Agrippa, around the year 19 BC."
+    },
+    {
+      "claim": "Coins discovered in the Nîmes outflow are no older than the reign of Claudius",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "coins discovered in the outflow in Nîmes are no older than the reign of the emperor Claudius (41–54 AD)"
+    },
+    {
+      "claim": "Newer excavations point to construction between 40 and 60 AD",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Newer excavations suggest the construction may have taken place between 40 and 60 AD."
+    },
+    {
+      "claim": "bathers.jpg shows the river beach at Remoulins, 2012, by DimiTalen, CC0",
+      "where": "card 6 source / caption",
+      "verdict": "supported",
+      "quote": "Description: Crowded river beach downstream of Pont du Gard in summer, Remoulins, 2012\nDate: 2012-07-26 15:43:04\nAuthor: DimiTalen\nLicence: CC0"
+    },
+    {
+      "claim": "The bridge is 49 m high and 274 m long",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Built on three levels, the Pont is 49 m (161 ft) high above the river at low water and 274 m (899 ft) long."
+    },
+    {
+      "claim": "Between the Pont du Gard and St Bonnet the engineers had to allow a fall of 7 mm per 100 m",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the winding route between the Pont du Gard and St Bonnet required an extraordinary degree of accuracy from the Roman engineers, who had to allow for a fall of only 7 millimetres (0.28 in) per 100 metres (330 ft) of the conduit"
+    },
+    {
+      "claim": "The 2012 photograph shows the river beach downstream of the Pont du Gard",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Crowded river beach downstream of Pont du Gard in summer, Remoulins, 2012"
+    },
+    {
+      "claim": "aqueduct.jpg is an album photograph (rather than a postcard) from the Toulet album",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Album de photographies et cartes postales ayant appartenu à Paul-Jean Toulet"
+    },
+    {
+      "claim": "The 1620s damage by the Duke of Rohan was the worst damage the bridge suffered",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Although some of its stones were plundered for use elsewhere, the Pont du Gard remained largely intact. ... However, it suffered serious damage during the 1620s when Henri, Duke of Rohan made use of the bridge to transport his artillery"
+    }
+  ],
+  "problems": 0
+}
