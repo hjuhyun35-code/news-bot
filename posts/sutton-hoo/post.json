@@ -1,0 +1,73 @@
+{
+  "caption": "Was a body ever found at Sutton Hoo?\n\nIn 1939, under Mound 1 near Woodbridge in Suffolk, practically none of the ship's original timber survived. The form of it did. Stains in the sand had replaced the wood, and nearly all the iron planking rivets sat where they had been driven. Surveyors recorded a vessel 27 metres long, 4.4 metres in the beam, built clinker-fashion with nine planks a side and stiffened by twenty-six wooden ribs. Oar-rests along the gunwales suggest room for forty rowers.\n\nThe digging was started by Basil Brown, a self-taught Suffolk archaeologist hired by the landowner Edith Pretty for 30 shillings a week. When national scholars took over, Brown was told to stop. He carried on, which may have saved the site from treasure hunters. A treasure trove inquest ruled the finds belonged to Pretty. She gave them to the nation.\n\nThe chamber held a helmet, a sword, a lyre, a great gold buckle with a hidden chamber, shoulder-clasps, and silver plate from the Eastern Roman Empire. The purse held thirty-seven gold coins, each from a different Frankish mint.\n\nStill open: who lay there. No body was found — only a chemical stain, though soil analysis in 1967 detected phosphate, an indicator that a body once rested there. Rædwald of the East Angles has been the favourite candidate since 1940, but one reference work calls the evidence \"almost non-existent\", and in 2025 Helen Gittos argued for an elite local soldier who had fought for the Byzantine Empire.\n\nImages: the Sutton Hoo helmet photographed in 2016; Mound 1 in 2011; Basil Brown in 1939; Edith Pretty; and a sword-belt end ornament photographed by Gary Todd. All public domain or CC0.\n\n#suttonhoo #anglosaxon #archaeology #britishmuseum #archivephotography",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "helmet.png",
+      "crop": "50% 42%",
+      "zoom": 1.1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The wood rotted away. The <y>ship's shape remained</y>.",
+      "note": "Stains in the sand had replaced the timber. Nearly every iron rivet still sat where it was driven.",
+      "source": "Sutton Hoo helmet, British Museum · public domain",
+      "alt": "Reconstructed Anglo-Saxon helmet with face mask, gilded eyebrows and",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "mound.jpg",
+      "crop": "50% 35%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "Looters dug into this mound and <y>missed the burial</y>.",
+      "note": "In medieval times the west end was dug away. Sixteenth-century diggers aimed at the apparent centre, not the real one.",
+      "source": "Mound 1, Sutton Hoo, 2011 · public domain",
+      "alt": "A low grassy burial mound under a pale overcast sky, marked by two wooden",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "basilbrown.jpg",
+      "crop": "42% 38%",
+      "zoom": 1.25,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "A <y>self-taught</y> archaeologist found it, then was told to stop.",
+      "note": "Basil Brown was paid 30 shillings a week. He kept digging after being ordered to halt, which may have saved the site from looters.",
+      "source": "Basil Brown, 1939 · public domain",
+      "alt": "Black and white photograph of a smiling man in a flat cap and tweed jacket",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "edithpretty.jpg",
+      "crop": "48% 42%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The inquest gave her the gold. She <y>gave it to the nation</y>.",
+      "note": "Edith Pretty owned the land and paid for the dig. Her gift was then the largest ever made to the British Museum by a living donor.",
+      "source": "Edith Pretty · photographer unknown · public domain",
+      "alt": "Black and white portrait of a woman in a wide feathered hat holding",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "beltornament.jpg",
+      "crop": "52% 48%",
+      "zoom": 1.4,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The ship survived as a stain. <y>The body did not</y>.",
+      "note": "Soil tests in 1967 found phosphate, suggesting a body had dissolved. Rædwald is the favourite candidate; the evidence is disputed.",
+      "source": "Sword-belt ornament, 625–630 · Gary Todd, CC0",
+      "alt": "Gold sword-belt end ornament inlaid with red garnets in fine cell",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "sutton-hoo",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}

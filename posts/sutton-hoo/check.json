@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "Practically none of the ship's original timber survived, but its form remained",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "Although practically none of the original timber survived, the form of the ship was perfectly preserved."
+    },
+    {
+      "claim": "Stains in the sand had replaced the timber",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "Stains in the sand had replaced the wood but had preserved many construction details."
+    },
+    {
+      "claim": "Nearly every iron rivet still sat where it was driven",
+      "where": "card 1 note / caption",
+      "verdict": "supported",
+      "quote": "Nearly all of the iron planking rivets were in their original places."
+    },
+    {
+      "claim": "The helmet photographed is held at the British Museum",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "The site is in the care of the National Trust; most of the objects found there are held by the British Museum."
+    },
+    {
+      "claim": "Looters dug into the mound and missed the burial",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "when looters dug into the apparent centre during the sixteenth century, they missed the real centre"
+    },
+    {
+      "claim": "In medieval times the west end of the mound was dug away",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "In medieval times the westerly end of the mound was dug away and a boundary ditch was laid out."
+    },
+    {
+      "claim": "Sixteenth-century diggers aimed at the apparent centre, not the real one",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "In the 16th century, a pit, dated by bottle shards left at the bottom, was dug into Mound 1, narrowly missing the burial."
+    },
+    {
+      "claim": "The photograph shows Mound 1 at Sutton Hoo, taken in 2011",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Description: Rædwald's burial mound (Mound I), Sutton Hoo\nDate: 2011-08-17"
+    },
+    {
+      "claim": "Basil Brown was a self-taught archaeologist",
+      "where": "card 3 headline / caption",
+      "verdict": "supported",
+      "quote": "The site was first excavated by Basil Brown, a self-taught archaeologist, under the auspices of the landowner Edith Pretty."
+    },
+    {
+      "claim": "Basil Brown was paid 30 shillings a week",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "In June 1938, Pretty took him to the site, offered him accommodation and a wage of 30 shillings a week, and suggested that he start digging at Mound 1."
+    },
+    {
+      "claim": "Brown was told to stop digging but kept going, which may have saved the site from looters",
+      "where": "card 3 note / caption",
+      "verdict": "supported",
+      "quote": "Initially, Phillips and the British Museum instructed Brown to cease excavating until they could get their team assembled, but he continued working, something which may have saved the site from being looted by treasure hunters."
+    },
+    {
+      "claim": "The photograph of Basil Brown dates from 1939",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "FILE: basilbrown.jpg\nArchive title: File:Basil Brown.jpg\nDescription: Basil Brown\nDate: 1939"
+    },
+    {
+      "claim": "A treasure trove inquest ruled the finds were Edith Pretty's property as landowner",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "it was decided that since the treasure was buried without the intention to recover it, it was the property of Pretty as the landowner"
+    },
+    {
+      "claim": "Pretty gave the treasure to the nation",
+      "where": "card 4 headline / caption",
+      "verdict": "supported",
+      "quote": "Pretty decided to bequeath the treasure as a gift to the nation, so that the meaning and excitement of her discovery could be shared by everyone."
+    },
+    {
+      "claim": "Edith Pretty owned the land and paid for the dig",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "In June 1938, Pretty took him to the site, offered him accommodation and a wage of 30 shillings a week, and suggested that he start digging at Mound 1."
+    },
+    {
+      "claim": "Her gift was at the time the largest made to the British Museum by a living donor",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "The ship-burial treasure was presented to the nation by the owner, Edith Pretty, and was at the time the largest gift made to the British Museum by a living donor."
+    },
+    {
+      "claim": "No body was found; only a chemical stain",
+      "where": "card 5 headline / caption",
+      "verdict": "supported",
+      "quote": "As a body was not found, there was early speculation that the ship-burial was a cenotaph rather than a grave.  The only sign of body being a chemical stain which could have had other origins"
+    },
+    {
+      "claim": "Soil analyses in 1967 found phosphate traces, suggesting a body had dissolved",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Soil analyses conducted in 1967 found phosphate traces, supporting the view that a body had disappeared in the acidic soil."
+    },
+    {
+      "claim": "Rædwald is the favourite candidate for the burial, though the evidence is disputed",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Carver,  says Chadwick's identification was \"repeatedly endorsed by other scholars for fifty years\", and that Rædwald \"is still the favourite candidate\"."
+    },
+    {
+      "claim": "The photographed object is a sword-belt end ornament dated 625–630, photographed by Gary Todd, CC0",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "Archive title: File:Anglo-Saxon Sword Belt End Ornament from Sutton Hoo Burial, 625-630 AD.jpg"
+    },
+    {
+      "claim": "The ship-burial was discovered under Mound 1 in 1939",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The ship-burial discovered under Mound 1 in 1939 contained one of the most magnificent archaeological finds in England"
+    },
+    {
+      "claim": "Sutton Hoo is near Woodbridge in Suffolk",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Sutton Hoo is the site of two Anglo-Saxon cemeteries dating from the 6th to 7th centuries near Woodbridge, Suffolk, England."
+    },
+    {
+      "claim": "The vessel was 27 metres long and 4.4 metres in the beam",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "It was possible to survey the original ship, which was found to be 27 metres (89 ft) long, pointed at either end with tall rising stem and stern posts and widening to 4.4 metres (14 ft) in the beam amidships"
+    },
+    {
+      "claim": "The hull was built clinker-fashion with nine planks a side",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "From the keel board, the hull was constructed clinker-fashion with nine planks on either side, fastened with rivets."
+    },
+    {
+      "claim": "Twenty-six wooden ribs stiffened the ship",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Twenty-six wooden ribs strengthened the form."
+    },
+    {
+      "claim": "Oar-rests along the gunwales suggest room for forty rowers",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In the fore and aft sections along the gunwales, there were oar-rests shaped like the Old English letter \"thorn\", indicating that there may have been positions for forty oarsmen."
+    },
+    {
+      "claim": "The burial chamber held a helmet, sword, lyre and silver plate from the Eastern Roman Empire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The artefacts found in the ship's burial chamber included a suite of dress fittings in gold and gems, a ceremonial helmet, a shield, a sword, a lyre, and silver plate from the Eastern Roman Empire."
+    },
+    {
+      "claim": "The great gold buckle contained a hidden chamber",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The plate is hollow and has a hinged back, forming a secret chamber, possibly for a relic."
+    },
+    {
+      "claim": "The purse held thirty-seven gold coins, each from a different Frankish mint",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "The purse contained thirty-seven gold shillings or tremisses, each originating from a different Frankish mint."
+    },
+    {
+      "claim": "Rædwald of the East Angles has been the favourite candidate since 1940",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Since 1940, when H.M. Chadwick first ventured that the ship-burial was probably the grave of Rædwald, Rædwald has been considered the most likely candidate."
+    },
+    {
+      "claim": "A reference work calls the evidence for Rædwald \"almost non-existent\"",
+      "where": "caption",
+      "verdict": "unsupported",
+      "quote": "and by McClure and Collins, who note that the evidence for Rædwald is \"almost non-existent\""
+    },
+    {
+      "claim": "In 2025 Helen Gittos argued the occupant was an elite local soldier who had fought for the Byzantine Empire",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 2025 Helen Gittos from Oxford University argued that the body was an elite local soldier who had fought for the Byzantine Empire, probably as a member of the cavalry troops known as the Foederati."
+    },
+    {
+      "claim": "The helmet image was photographed in 2016",
+      "where": "caption (image credits)",
+      "verdict": "unsupported",
+      "quote": "Description: Photo of the  Sutton Hoo helmet  from the front in 2015"
+    },
+    {
+      "claim": "The portrait photograph is of Edith Pretty",
+      "where": "caption (image credits)",
+      "verdict": "supported",
+      "quote": "Archive title: File:Edith Pretty.jpg"
+    },
+    {
+      "claim": "All five images are public domain or CC0",
+      "where": "caption (image credits)",
+      "verdict": "supported",
+      "quote": "Licence: CC0"
+    }
+  ],
+  "problems": 2
+}
