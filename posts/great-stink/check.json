@@ -1,0 +1,233 @@
+{
+  "claims": [
+    {
+      "claim": "Parliament's curtains were soaked in lime (chloride) to combat the smell",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "By June the stench from the river had become so bad that business in Parliament was affected, and the curtains on the river side of the building were soaked in lime chloride to overcome the smell."
+    },
+    {
+      "claim": "The lime-soaked curtains did not work",
+      "where": "card 1 headline / caption",
+      "verdict": "supported",
+      "quote": "The measure was not successful, and discussions were held about possibly moving the business of government to Oxford or St Albans."
+    },
+    {
+      "claim": "The events took place in London in the summer of 1858, when hot weather made the Thames smell unbearable",
+      "where": "card 1 note",
+      "verdict": "supported",
+      "quote": "The Great Stink was an event in Central London during July and August 1858 in which the hot weather exacerbated the smell of untreated human waste and industrial effluent that was present on the banks of the River Thames."
+    },
+    {
+      "claim": "The first image is from Punch, 10 July 1858",
+      "where": "card 1 source",
+      "verdict": "supported",
+      "quote": "Author: Punch Magazine ... Date: 1858-07-10"
+    },
+    {
+      "claim": "Faraday tested the river with scraps of white paper",
+      "where": "card 2 headline",
+      "verdict": "supported",
+      "quote": "shocked at the state of the Thames, he dropped pieces of white paper into the river to \"test the degree of opacity\""
+    },
+    {
+      "claim": "Faraday's test took place in 1855",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "The scientist Michael Faraday described the situation in a letter to The Times in July 1855"
+    },
+    {
+      "claim": "Faraday told The Times: \"the whole river was for the time a real sewer.\"",
+      "where": "card 2 note",
+      "verdict": "supported",
+      "quote": "it was the same as that which now comes up from the gully-holes in the streets; the whole river was for the time a real sewer."
+    },
+    {
+      "claim": "The Faraday caricature is by John Leech, published in Punch on 21 July 1855",
+      "where": "card 2 source",
+      "verdict": "supported",
+      "quote": "Caricature published in   Punch   on 21 July 1855 (page 27) in response to  Michael Faraday 's letter ... Author: John Leech"
+    },
+    {
+      "claim": "250 tons of lime a week went into the Thames",
+      "where": "card 3 headline",
+      "verdict": "unsupported",
+      "quote": "At the height of the stink, 200 to 250 long tons (220 to 280 short tons) of lime were being used near the mouths of the sewers that discharged into the Thames"
+    },
+    {
+      "claim": "Men spread lime on the Thames foreshore at low tide",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "men were employed spreading lime onto the Thames foreshore at low tide; the cost was £1,500 per week"
+    },
+    {
+      "claim": "At the height of the stink the liming cost £1,500 a week",
+      "where": "card 3 note",
+      "verdict": "supported",
+      "quote": "the cost was £1,500 per week"
+    },
+    {
+      "claim": "The third image is from Punch, 31 July 1858",
+      "where": "card 3 source",
+      "verdict": "supported",
+      "quote": "\"How Dirty Old Father Thames was Whitewashed\": a satirical comment on the state of the River Thames, from Punch magazine, 31 July 1858, page 41"
+    },
+    {
+      "claim": "John Snow removed a pump handle and deaths fell",
+      "where": "card 4 headline",
+      "verdict": "supported",
+      "quote": "Snow had removed the handle from the local water pump, thus preventing access to the contaminated water, with a resulting fall in deaths."
+    },
+    {
+      "claim": "Snow argued in 1849 that cholera travelled in water rather than air, and few paid attention",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "In 1849 he published a paper, On the Mode of Communication of Cholera, which posited the theory of the water-borne transmission of disease, rather than the miasma theory; little attention was paid to the paper."
+    },
+    {
+      "claim": "The 1848–49 outbreak killed 14,137 Londoners",
+      "where": "card 4 note",
+      "verdict": "supported",
+      "quote": "In 1848–49 there was a second outbreak in which 14,137 London residents died"
+    },
+    {
+      "claim": "The fourth image is a coloured etching by William Heath, 1828",
+      "where": "card 4 source",
+      "verdict": "supported",
+      "quote": "Coloured etching by W. Heath. ... Date: 1828 ... Author: William Heath"
+    },
+    {
+      "claim": "The image is titled \"Monster Soup commonly called Thames Water\"",
+      "where": "caption image list",
+      "verdict": "supported",
+      "quote": "MONSTER SOUP commonly called THAMES WATER, being a correct representation of that precious stuff doled out to us !!!"
+    },
+    {
+      "claim": "The sewer works used 318 million bricks",
+      "where": "card 5 headline / caption",
+      "verdict": "supported",
+      "quote": "The building work had required 318 million bricks and 880,000 cubic yards (670,000 m3) of concrete and mortar"
+    },
+    {
+      "claim": "1,100 miles of street sewers fed into 82 miles of main interconnecting sewers",
+      "where": "card 5 note / caption",
+      "verdict": "supported",
+      "quote": "Bazalgette's plans for the 1,100 miles (1,800 km) of additional street sewers (collecting both effluent and rainwater), which would feed into 82 miles (132 km) of main interconnecting sewers"
+    },
+    {
+      "claim": "The embankments reclaimed 52 acres from the river",
+      "where": "card 5 note",
+      "verdict": "supported",
+      "quote": "The works claimed over 52 acres (21 ha) of land from the Thames"
+    },
+    {
+      "claim": "The fifth image is a section of the Thames Embankment, 1867, from Wellcome",
+      "where": "card 5 source",
+      "verdict": "supported",
+      "quote": "SECTION OF THE THAMES EMBANKMENT, 1867."
+    },
+    {
+      "claim": "Bazalgette drained London",
+      "where": "card 6 headline",
+      "verdict": "supported",
+      "quote": "his obituarist in The Illustrated London News wrote that Bazalgette's \"two great titles to fame are that he beautified London and drained it\""
+    },
+    {
+      "claim": "The stench forced the legislation through",
+      "where": "card 6 headline / caption",
+      "verdict": "supported",
+      "quote": "The leading article in The Times observed that \"Parliament was all but compelled to legislate upon the great London nuisance by the force of sheer stench\"."
+    },
+    {
+      "claim": "Crossness opened in 1865 and the ceremony was followed by a dinner for 500 inside the building",
+      "where": "card 6 note",
+      "verdict": "supported",
+      "quote": "The station was opened in April 1865 by the Prince of Wales—the future King Edward VII—who officially started the engines. The ceremony ... was followed by a dinner for 500 within the building."
+    },
+    {
+      "claim": "Thames Water said in 2014 that the system is struggling",
+      "where": "card 6 note / caption",
+      "verdict": "supported",
+      "quote": "The company said in 2014 that \"the system is struggling to cope with the demands of 21st-century London\"."
+    },
+    {
+      "claim": "The sixth image is from the Illustrated London News, 1865, showing the opening at Crossness",
+      "where": "card 6 source / image list",
+      "verdict": "supported",
+      "quote": "The Prince of Wales opening the Metropolitan Main-drainage works at Crossness, ILN, 1865"
+    },
+    {
+      "claim": "In June 1858 London's shade temperatures averaged 34–36°C",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In June 1858 the temperatures in the shade in London averaged 34–36 °C (93–97 °F)—rising to 48 °C (118 °F) in the sun."
+    },
+    {
+      "claim": "The Thames level dropped and raw sewage sat on the banks",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Combined with an extended spell of dry weather, the level of the Thames dropped and raw effluent from the sewers remained on the banks of the river."
+    },
+    {
+      "claim": "Members discussed moving government to Oxford or St Albans",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "discussions were held about possibly moving the business of government to Oxford or St Albans"
+    },
+    {
+      "claim": "Disraeli left a committee room with his handkerchief to his nose",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Disraeli, on attending one of the committee rooms, left shortly afterwards with the other members of the committee, \"with a mass of papers in one hand, and with his pocket handkerchief applied to his nose\""
+    },
+    {
+      "claim": "Disraeli called the river \"a Stygian pool, reeking with ineffable and intolerable horrors\"",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "in the opening debate he called the Thames \"a Stygian pool, reeking with ineffable and intolerable horrors\""
+    },
+    {
+      "claim": "Asked in the Commons, Lord John Manners replied that the Thames was not his jurisdiction",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Manners replied that the Thames was not under his jurisdiction."
+    },
+    {
+      "claim": "On 15 June Disraeli tabled the bill, which became law on 2 August",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "On 15 June Disraeli tabled the Metropolis Local Management Amendment Bill ... The bill was debated in late July and was passed into law on 2 August."
+    },
+    {
+      "claim": "Bazalgette's sewers were built from 1859 to 1875",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Work on high-, mid- and low-level systems for the new Northern and Southern Outfall Sewers started at the beginning of 1859 and lasted until 1875."
+    },
+    {
+      "claim": "The final cost was about £6.5 million",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "the final cost was approximately £6.5 million"
+    },
+    {
+      "claim": "Cholera killed 6,536 Londoners in 1831, 14,137 in 1848–49 and 10,738 in 1853–54",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "London's first major cholera epidemic struck in 1831 when the disease killed 6,536 people. In 1848–49 there was a second outbreak in which 14,137 London residents died, and this was followed by a further outbreak in 1853–54 in which 10,738 died."
+    },
+    {
+      "claim": "After the system opened, the cholera outbreaks stopped",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "Bazalgette's work ensured that sewage was no longer dumped onto the shores of the Thames and brought an end to the cholera outbreaks"
+    },
+    {
+      "claim": "The 1866 outbreak caused 5,596 deaths, 93 per cent of them in an East End district not yet connected to Bazalgette's sewers, after which water-borne transmission was accepted",
+      "where": "caption",
+      "verdict": "supported",
+      "quote": "In 1866 there was a further cholera outbreak in London that claimed 5,596 lives ... At the time that was a part of London which had not been connected to Bazalgette's system, and 93 per cent of the fatalities occurred within the area. ... The outbreak and the diagnosis of its causes led to the acceptance that cholera was water-borne, not transmitted by miasma."
+    }
+  ],
+  "problems": 1
+}

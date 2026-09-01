@@ -1,0 +1,86 @@
+{
+  "caption": "What was the Great Stink of 1858?\n\nIn June 1858 London's shade temperatures averaged 34–36°C. The Thames dropped, raw sewage sat on the banks, and Parliament — sitting right beside it — hung curtains soaked in lime chloride on the river side of the building. It did not work. Members discussed moving government to Oxford or St Albans. Disraeli left a committee room with his handkerchief to his nose, and called the river \"a Stygian pool, reeking with ineffable and intolerable horrors\".\n\nAsked in the Commons what he intended to do, Lord John Manners replied that the Thames was not his jurisdiction. On 15 June Disraeli tabled a bill anyway. It became law on 2 August. The Times wrote that Parliament \"was all but compelled to legislate upon the great London nuisance by the force of sheer stench\".\n\nJoseph Bazalgette's sewers were built from 1859 to 1875: 1,100 miles of street sewers, 318 million bricks, about £6.5 million. Cholera had killed 6,536 Londoners in 1831, 14,137 in 1848–49 and 10,738 in 1853–54. After the system opened, the outbreaks stopped.\n\nWhat took longest to settle was the cause. John Snow argued in 1849 that cholera moved through water, not bad air; little attention was paid. Only after the 1866 outbreak — 5,596 deaths, 93 per cent of them in an East End district not yet connected to Bazalgette's sewers — was water-borne transmission accepted. And the system itself: Thames Water said in 2014 that it \"is struggling to cope with the demands of 21st-century London\".\n\nImages: Punch, July 1858; John Leech for Punch, 1855; William Heath's \"Monster Soup\", 1828; a section of the Thames Embankment, 1867; the Illustrated London News at Crossness, 1865.\n\n#greatstink #victorianlondon #bazalgette #riverthames #publicdomain",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "silenthighwayman.jpg",
+      "crop": "40% 40%",
+      "zoom": 1,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "They soaked Parliament's curtains in lime. <y>It didn't work.</y>",
+      "note": "London, summer 1858. The Thames was an open sewer and the heat made the smell impossible to sit beside.",
+      "source": "Punch, 10 July 1858 · public domain",
+      "alt": "Engraving of a hooded skeleton rowing a boat on a filthy Thames, bridge behind.,",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "faraday.jpg",
+      "crop": "45% 40%",
+      "zoom": 1.15,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Faraday tested the river <y>with scraps of white paper</y>",
+      "note": "In 1855 he dropped them in to gauge the opacity. He told The Times: \"the whole river was for the time a real sewer.\"",
+      "source": "John Leech, Punch, 21 July 1855 · public domain",
+      "alt": "Cartoon: man in top hat leans from a boat to hand a card to a ragged river figure.",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "whitewashed.jpg",
+      "crop": "68% 42%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "ink",
+      "headline": "<y>250 tons of lime a week</y> went into the Thames",
+      "note": "Men spread it on the foreshore at low tide. At the height of the stink it cost £1,500 a week.",
+      "source": "Punch, 31 July 1858 · public domain",
+      "alt": "Cartoon of a bearded river god beside a barrel marked LIME and a sewer outfall.",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "monstersoup.jpg",
+      "crop": "60% 48%",
+      "zoom": 1.3,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "<y>John Snow took a pump handle off</y> and deaths fell",
+      "note": "He argued in 1849 that cholera travelled in water, not air. Few listened. The 1848–49 outbreak killed 14,137 Londoners.",
+      "source": "William Heath, coloured etching, 1828 · public domain",
+      "alt": "Coloured etching: magnified drop of water full of monstrous creatures; woman recoils.",
+      "file": "card4.png"
+    },
+    {
+      "layout": "body",
+      "image": "sewersection.jpg",
+      "crop": "50% 50%",
+      "zoom": 1,
+      "fit": "whole",
+      "grade": "cold",
+      "headline": "The answer took <y>318 million bricks</y>",
+      "note": "1,100 miles of street sewers feeding 82 miles of mains. The embankments reclaimed 52 acres from the river.",
+      "source": "Section of the Thames Embankment, 1867 · Wellcome",
+      "alt": "Cutaway drawing of the Thames Embankment showing sewer, subway and railway tunnels.",
+      "file": "card5.png"
+    },
+    {
+      "layout": "closing",
+      "image": "crossness.jpg",
+      "crop": "45% 38%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "The stench passed the law. <y>Bazalgette drained London.</y>",
+      "note": "Crossness opened in 1865 with a dinner for 500 inside. Thames Water said in 2014 the system is struggling.",
+      "source": "Illustrated London News, 1865 · public domain",
+      "alt": "Crowd waving top hats around a raised platform inside an ornate Victorian engine house.",
+      "file": "card6.png"
+    }
+  ],
+  "slug": "great-stink",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
