@@ -1,0 +1,215 @@
+{
+  "claims": [
+    {
+      "claim": "The Terracotta Army was found by a group including six brothers digging a well",
+      "where": "Card 1 headline and note; caption paragraph 2",
+      "verdict": "supported",
+      "quote": "The Terracotta Army was discovered on 29 March 1974 by a group of farmers—Yang Zhifa, his five brothers, and neighbour Wang Puzhi—who were digging a well"
+    },
+    {
+      "claim": "The discovery date was 29 March 1974",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "The Terracotta Army was discovered on 29 March 1974 by a group of farmers"
+    },
+    {
+      "claim": "The neighbour involved was named Wang Puzhi",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "Yang Zhifa, his five brothers, and neighbour Wang Puzhi"
+    },
+    {
+      "claim": "There are more than 8,000 buried soldiers",
+      "where": "Card 1 headline; caption",
+      "verdict": "supported",
+      "quote": "Estimates from 2007 were that the three pits containing the Terracotta Army hold more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses"
+    },
+    {
+      "claim": "Most of the army is still underground / in the ground",
+      "where": "Card 1 note; caption",
+      "verdict": "supported",
+      "quote": "the majority of which remain in situ"
+    },
+    {
+      "claim": "The pitranks.jpg photograph shows the largest excavated pit and was taken in 2005 by Robin Chen",
+      "where": "Card 1 source line; image credits",
+      "verdict": "supported",
+      "quote": "I took this picture in summer 2005. A group of soldiers in the largest excavated pit."
+    },
+    {
+      "claim": "The sculptors signed their names in the figures' armpits",
+      "where": "Card 2 headline; caption",
+      "verdict": "supported",
+      "quote": "The sculptors of the figures signed their names in the figures' armpits."
+    },
+    {
+      "claim": "Each workshop was required to inscribe its name on the items it produced",
+      "where": "Card 2 note; caption",
+      "verdict": "supported",
+      "quote": "each workshop was required to inscribe its name on items produced to ensure quality control"
+    },
+    {
+      "claim": "Heads, arms, legs and torsos were moulded separately and then assembled",
+      "where": "Card 2 note; caption",
+      "verdict": "supported",
+      "quote": "Heads, arms, legs, and torsos were created separately and then assembled by luting the pieces together."
+    },
+    {
+      "claim": "The officerhead.jpg photograph shows a mid-rank officer and was taken by David Castor, public domain",
+      "where": "Card 2 source line; image credits",
+      "verdict": "supported",
+      "quote": "Description: Mid-rank officer of the terracotta army in Xi'an."
+    },
+    {
+      "claim": "Eleven figures from one pit are bare except for a loincloth",
+      "where": "Card 3 headline",
+      "verdict": "supported",
+      "quote": "The figures are bare with the exception of a loincloth as dress."
+    },
+    {
+      "claim": "Eleven such figures have been unearthed from Pit K9901",
+      "where": "Card 3 headline; caption",
+      "verdict": "supported",
+      "quote": "Eleven of such figurines from Pit K9901 have since been subsequently unearthed"
+    },
+    {
+      "claim": "Pit K9901 was uncovered in 1999",
+      "where": "Card 3 note",
+      "verdict": "supported",
+      "quote": "Excavations in Pit K9901 uncovered in 1999, a series of associated terracotta sculptures that have been dubbed \"The Acrobats\""
+    },
+    {
+      "claim": "Seven of the figures were preserved well enough to be largely reconstructed",
+      "where": "Card 3 note",
+      "verdict": "supported",
+      "quote": "with seven of them found in a degree of preservation that made them capable of being largely reconstructed from their fragment shards"
+    },
+    {
+      "claim": "The purpose/function of the \"acrobat\" figures is still unclear",
+      "where": "Card 3 note; caption final paragraph",
+      "verdict": "supported",
+      "quote": "The original function of these statues remains unclear, but they have been described as either potentially acrobat or dancer figures."
+    },
+    {
+      "claim": "The acrobattorso.jpg photograph was taken at the museum at the Qin Shihuang Mausoleum by Gary Todd, CC0",
+      "where": "Card 3 source line; image credits",
+      "verdict": "supported",
+      "quote": "Description: Museum at Qin Shihuang Mausoleum, Lintong, 2011."
+    },
+    {
+      "claim": "Once excavated, the painted colour coating flaked off in about four minutes",
+      "where": "Card 4 headline; caption",
+      "verdict": "supported",
+      "quote": "much of the color coating would flake off in less than four minutes after removing the mud surrounding the army"
+    },
+    {
+      "claim": "The lacquer under the paint can curl fifteen seconds after exposure to Xi'an's dry air",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "The lacquer covering the paint can curl in fifteen seconds once exposed to Xi'an's dry air and can flake off in just four minutes."
+    },
+    {
+      "claim": "Faces were once pink, and hair and eyebrows black",
+      "where": "Card 4 note; caption",
+      "verdict": "supported",
+      "quote": "with eyebrows and facial hair in black and the faces done in pink"
+    },
+    {
+      "claim": "The kneelingfigure.jpg photograph was taken at the Shaanxi History Museum in 2019 by Gary Todd, CC0",
+      "where": "Card 4 source line; image credits",
+      "verdict": "supported",
+      "quote": "Description: Shaanxi History Museum, Xi'an. ... Date: 2019-03-23 14:44"
+    },
+    {
+      "claim": "Visitors go into/among the pit figures (Reagans shown standing among the figures)",
+      "where": "Card 5 headline; image",
+      "verdict": "supported",
+      "quote": "Archive title: File:Photograph of The Reagans standing with the Terra Cotta figures in Xi'an, China - NARA - 198547.tif"
+    },
+    {
+      "claim": "The emperor's tomb remains sealed and has never been opened",
+      "where": "Card 5 headline; caption",
+      "verdict": "supported",
+      "quote": "The tomb remains unopened, possibly due to concerns over preservation of its artifacts."
+    },
+    {
+      "claim": "High mercury levels detected in the soil of the tomb mound lend credence to the ancient account of 100 rivers of mercury",
+      "where": "Card 5 note; caption",
+      "verdict": "supported",
+      "quote": "the detection of high levels of mercury that were found in the soil of the tomb mound following the discovery of the mausoleum site have since given credence to Sima Qian's account"
+    },
+    {
+      "claim": "The account of 100 rivers of mercury is Sima Qian's",
+      "where": "Caption final paragraph",
+      "verdict": "supported",
+      "quote": "According to this famous account, 100 flowing rivers were simulated using mercury"
+    },
+    {
+      "claim": "The visitorsinpit.jpg photograph shows the Reagans at Xi'an on 29 April 1984 and comes from the US National Archives",
+      "where": "Card 5 source line; image credits",
+      "verdict": "supported",
+      "quote": "Date: 29 April 1984 date QS:P571,+1984-04-29T00:00:00Z/11"
+    },
+    {
+      "claim": "The well was about 1.5 km east of the first emperor's tomb mound at Mount Li",
+      "where": "Caption paragraph 2",
+      "verdict": "supported",
+      "quote": "digging a well approximately 1.5 km (0.93 mi) east of the Qin Emperor's tomb mound at Mount Li (Lishan)"
+    },
+    {
+      "claim": "The farmers hit pottery while digging",
+      "where": "Caption paragraph 2",
+      "verdict": "supported",
+      "quote": "This discovery prompted Chinese archaeologists, including Zhao Kangmin, to investigate, revealing the largest pottery figurine group ever found."
+    },
+    {
+      "claim": "Zhao Kangmin was among the archaeologists who investigated",
+      "where": "Caption paragraph 2",
+      "verdict": "supported",
+      "quote": "This discovery prompted Chinese archaeologists, including Zhao Kangmin, to investigate"
+    },
+    {
+      "claim": "The investigation uncovered the largest group of pottery figures ever found",
+      "where": "Caption paragraph 2",
+      "verdict": "supported",
+      "quote": "revealing the largest pottery figurine group ever found"
+    },
+    {
+      "claim": "2007 estimates put more than 8,000 soldiers, 130 chariots and 670 horses in three pits",
+      "where": "Caption paragraph 2",
+      "verdict": "supported",
+      "quote": "Estimates from 2007 were that the three pits containing the Terracotta Army hold more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses"
+    },
+    {
+      "claim": "Excavations near the mound found 18th- and 19th-century graves where diggers had struck terracotta fragments, discarded them as worthless and backfilled them with soil",
+      "where": "Caption paragraph 3",
+      "verdict": "supported",
+      "quote": "archaeologists found several graves dating from the 18th and 19th centuries, where diggers had apparently struck terracotta fragments. These were discarded as worthless and used along with soil to backfill the excavations."
+    },
+    {
+      "claim": "At least ten face moulds were used, with clay added afterwards to individualise each face",
+      "where": "Caption paragraph 4",
+      "verdict": "supported",
+      "quote": "The faces were created using molds, and at least ten face molds may have been used. Clay was then added after assembly to provide individual facial features to make each figure appear different."
+    },
+    {
+      "claim": "Pigments used included cinnabar red, malachite green, azurite blue and Han purple",
+      "where": "Caption paragraph 5",
+      "verdict": "supported",
+      "quote": "cinnabar (red), malachite (green), azurite (blue), charcoal (black), cinnabar barium copper silicate mix (Chinese purple or Han purple)"
+    },
+    {
+      "claim": "The loss of paint is why the warriors now appear grey",
+      "where": "Caption paragraph 5",
+      "verdict": "supported",
+      "quote": "However, in Xi'an's dry climate, much of the color coating would flake off in less than four minutes after removing the mud surrounding the army."
+    },
+    {
+      "claim": "The tomb has not been opened apparently out of fears for what is inside",
+      "where": "Caption final paragraph",
+      "verdict": "supported",
+      "quote": "The tomb remains unopened, possibly due to concerns over preservation of its artifacts."
+    }
+  ],
+  "problems": 0
+}

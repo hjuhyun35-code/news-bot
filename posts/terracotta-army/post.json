@@ -1,0 +1,73 @@
+{
+  "caption": "Who found the Terracotta Army? Farmers digging a well.\n\nOn 29 March 1974, Yang Zhifa, his five brothers and their neighbour Wang Puzhi were sinking a well about 1.5 km east of the first emperor's tomb mound at Mount Li. They hit pottery. Archaeologists, among them Zhao Kangmin, followed — and uncovered the largest group of pottery figures ever found. Estimates from 2007 put more than 8,000 soldiers, 130 chariots and 670 horses in three pits. Most are still in the ground.\n\nThey were not the first to strike it. Excavations near the mound found graves from the 18th and 19th centuries where diggers had hit terracotta fragments, decided they were worthless, and shovelled them back in with the soil.\n\nThe figures were assembled from separately moulded heads, arms, legs and torsos. At least ten face moulds were used, with clay added afterwards to individualise each face. Workshops were required to inscribe their names on what they made — and the sculptors signed their own names in the figures' armpits.\n\nThey were also painted: cinnabar red, malachite green, azurite blue, Han purple, faces in pink. In Xi'an's dry air the lacquer beneath the paint can curl in fifteen seconds and flake off in four minutes, which is why the warriors we see are grey.\n\nStill open: the tomb itself has never been opened, apparently over fears for what is inside. High mercury readings in the mound's soil lend weight to Sima Qian's account of 100 rivers of mercury. And the purpose of the eleven \"acrobat\" figures from Pit K9901 remains unclear.\n\nImages: a group of soldiers in the largest pit by Robin Chen; a mid-rank officer by David Castor; an acrobat torso and a kneeling figure by Gary Todd; the Reagans in the pit, 29 April 1984, from the US National Archives.\n\n#terracottaarmy #qinshihuang #archaeology #publicdomain #theglassnegative",
+  "cards": [
+    {
+      "layout": "cover",
+      "image": "pitranks.jpg",
+      "crop": "50% 52%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "cold",
+      "headline": "Six brothers digging a well found <y>8,000 buried soldiers</y>",
+      "note": "29 March 1974: Yang Zhifa, his five brothers and neighbour Wang Puzhi. Most of the army is still underground.",
+      "source": "Largest excavated pit, 2005 · Robin Chen",
+      "alt": "Rows of terracotta soldiers in a excavated earth trench, seen in profile.-",
+      "file": "card1.png"
+    },
+    {
+      "layout": "body",
+      "image": "officerhead.jpg",
+      "crop": "50% 32%",
+      "zoom": 1.2,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "The sculptors signed their names <y>in the figures' armpits</y>",
+      "note": "Each workshop also had to inscribe its name on what it made. Heads, arms and torsos were moulded separately, then assembled.",
+      "source": "Mid-rank officer · David Castor · public domain",
+      "alt": "Close view of a terracotta officer's head with moustache, beard and folded cap.-",
+      "file": "card2.png"
+    },
+    {
+      "layout": "body",
+      "image": "acrobattorso.jpg",
+      "crop": "50% 36%",
+      "zoom": 1.35,
+      "fit": "crop",
+      "grade": "paper",
+      "headline": "Eleven figures in one pit wear <y>nothing but a loincloth</y>",
+      "note": "Pit K9901, found in 1999. Seven survived well enough to rebuild. What these \"acrobats\" were for is still unclear.",
+      "source": "Qin Shihuang Mausoleum Museum · Gary Todd · CC0",
+      "alt": "Headless terracotta torso with heavy modelled muscles and clenched fists, on a stand.-",
+      "file": "card3.png"
+    },
+    {
+      "layout": "body",
+      "image": "kneelingfigure.jpg",
+      "crop": "50% 40%",
+      "zoom": 1.5,
+      "fit": "crop",
+      "grade": "base",
+      "headline": "Dug up, the painted colour <y>flaked off in four minutes</y>",
+      "note": "The lacquer under the paint can curl fifteen seconds after meeting Xi'an's dry air. Faces were once pink, hair and brows black.",
+      "source": "Shaanxi History Museum, 2019 · Gary Todd · CC0",
+      "alt": "Kneeling terracotta figure with hands on thighs, faint pale colour on the hands.-",
+      "file": "card4.png"
+    },
+    {
+      "layout": "closing",
+      "image": "visitorsinpit.jpg",
+      "crop": "52% 22%",
+      "zoom": 1.6,
+      "fit": "crop",
+      "grade": "deep",
+      "headline": "Visitors walk the pits. <y>The tomb is still sealed.</y>",
+      "note": "Mercury in the mound's soil matches an ancient account of 100 rivers of mercury inside. Nobody has opened it.",
+      "source": "The Reagans at Xi'an, 29 April 1984 · NARA",
+      "alt": "A man and woman in coats stand smiling among rows of terracotta warriors and horses.-",
+      "file": "card5.png"
+    }
+  ],
+  "slug": "terracotta-army",
+  "handle": "@theglassnegative",
+  "image_dir": "img"
+}
